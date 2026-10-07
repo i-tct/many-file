@@ -79,6 +79,10 @@
     <string name="t_9f5cd8a2e8">Réessayer</string>
     <string name="t_8112928dee">Modifier le serveur</string>
     <string name="t_bbfa773e5a">Fermer</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/BatchRename.kt -->
+    <string name="t_7cf99b4a1b">Expression régulière non valide</string>
+    <string name="t_c210617eb7">Nom en double dans ce lot</string>
+    <string name="t_c5c994a1ff">Entre en conflit avec un autre fichier sélectionné</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/TextFiles.kt -->
     <string name="t_3e22566313">fichier introuvable</string>
     <string name="t_a6b8206b1b">aucun dossier parent</string>
@@ -127,13 +131,29 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/analyze/DuplicateScans.kt -->
     <string name="t_76cf24e1f1">Recherche de doublons dans %s</string>
     <string name="t_f5919e65c3">Recherche de doublons dans %s dossiers</string>
+    <string name="t_fed9695650">Analyse de %s fichiers</string>
+    <string name="t_c522a5cc5e">Empreinte rapide %s / %s</string>
+    <string name="t_f8aa6c34f7">Hachage complet %s / %s</string>
+    <string name="t_536244f4cc">Vérification</string>
+    <string name="t_18a88df1eb">Finalisation</string>
     <string name="t_8761d26fb8">annulé</string>
+    <string name="t_b9e7d6851b">Aucun doublon parmi %s fichiers</string>
+    <string name="t_9f83ae1acd">%s groupes de doublons · %s peuvent être libérés</string>
     <string name="t_51e9111b87">Arrêté</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/ApkInstaller.kt -->
     <string name="t_cab963d089">Aucun APK pour cet appareil dans %s</string>
     <string name="t_e6f329a7d7">%s n’est pas un paquet lisible (endommagé ou APKM chiffré)</string>
     <string name="t_740b23bbae">%s nécessite l’API Android %s ou une version plus récente ; cet appareil utilise l’API %s</string>
     <string name="t_2ffe16abe3">Impossible d’écrire le fichier de données de l’application dans %s : %s. Copiez-le manuellement à cet emplacement depuis le paquet.</string>
+    <string name="t_faa780715a">Échec de l’installation : %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/DownloadNetworkState.kt -->
+    <string name="t_7b1d2344d6">En attente du réseau</string>
+    <string name="t_819ba5c9dc">En attente du Wi-Fi</string>
+    <string name="t_dbbbf11da5">En attente d’un réseau sans frais de données</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/ExternalFiles.kt -->
+    <string name="t_2fc58b0cd1">Impossible d’ouvrir %s</string>
+    <string name="t_5fbf730a10">ce fichier</string>
+    <string name="t_1e9892d332">L’autre application n’a pas partagé le fichier</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/Notifications.kt -->
     <string name="t_825ce9e97d">Flux de travail</string>
     <string name="t_edc13f8ed3">Messages des flux de travail du Centre de commandes</string>
@@ -157,19 +177,29 @@
     <string name="t_2aab839022">impossible de finaliser</string>
     <string name="t_365d43c9eb">impossible de créer la destination</string>
     <string name="t_6d8e00ddda">Extraction de %s vers %s</string>
+    <string name="t_f9cca165f9">Chemin non sûr ignoré : %s</string>
+    <string name="t_a1b9c5fee5">%s fichiers</string>
+    <string name="t_a7d3e36813">%s ignorés</string>
     <string name="t_8b1c0add79">%s éléments</string>
     <string name="t_995907a7b3">Compression de %s vers %s (chiffrée)</string>
     <string name="t_305290f489">Compression de %s vers %s</string>
     <string name="t_0a37db6338">l’archive existe déjà</string>
     <string name="t_6962129a4a">impossible de finaliser l’archive</string>
+    <string name="t_6639b8f655">Envoi de %s</string>
+    <string name="t_69b5951067">%s fichiers, %s → %s</string>
     <string name="t_f51c9be39a">les archives de ce stockage ne peuvent pas être modifiées sur place ; copiez-les d’abord sur le téléphone</string>
     <string name="t_63a66c4371">Ajout de %s à %s</string>
     <string name="t_6dcfcf26a0">archive non prise en charge</string>
+    <string name="t_56add0c092">%s fichiers ajoutés</string>
     <string name="t_bba3ed4fdf">Suppression de %s de %s</string>
+    <string name="t_faba45e5f8">%s supprimés</string>
     <string name="t_7666e4d202">impossible de remplacer l’archive</string>
     <string name="t_ab7dcea83a">Test de %s</string>
     <string name="t_9e51c55e97">corrompu : %s</string>
+    <string name="t_19038c2b17">OK : %s entrées, %s après décompression</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchivePasswords.kt -->
+    <string name="t_cbd92930b0">Cette archive est chiffrée.</string>
+    <string name="t_8020ff5ad8">Ce mot de passe ne fonctionne pas. Réessayez.</string>
     <string name="t_b6970d8f54">aucun mot de passe fourni</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchiveProvider.kt -->
     <string name="t_88912d371a">archive introuvable</string>
@@ -200,6 +230,8 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/GoogleAuth.kt -->
     <string name="t_82d1895f3c">Google Drive n’est pas configuré dans cette version (aucun ID client OAuth)</string>
     <string name="t_d669dd4ef3">aucune connexion en cours</string>
+    <string name="t_f61a86a50d">accès refusé</string>
+    <string name="t_969e979045">Échec de la connexion à Google : %s</string>
     <string name="t_4352544d61">la réponse de connexion ne correspond pas (réessayez)</string>
     <string name="t_02ba6dc255">aucun code d’autorisation</string>
     <string name="t_42031f9957">Google n’a pas renvoyé de jeton d’actualisation</string>
@@ -217,11 +249,13 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/Mega.kt -->
     <string name="t_849a3fa7e7">nom de fichier invalide : %s</string>
     <string name="t_9436312d31">uniquement au sein d’un même compte MEGA</string>
+    <string name="t_879f6b5309">Le transfert a été arrêté</string>
     <string name="t_9fd48bcf70">Le fichier téléchargé n’a pas pu être lu</string>
     <string name="t_6a8b9eb3af">il est impossible d’ajouter des données à la fin des fichiers MEGA</string>
     <string name="t_25fe67b10e">aucun dossier</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/MicrosoftAuth.kt -->
     <string name="t_743fddfe8c">OneDrive n’est pas configuré dans cette version (aucun ID client Microsoft)</string>
+    <string name="t_64c69d96a7">Échec de la connexion à Microsoft : %s</string>
     <string name="t_9cfc7b1f9a">Microsoft n’a pas renvoyé de jeton d’actualisation</string>
     <string name="t_6785d3c51f">reconnectez-vous à OneDrive</string>
     <string name="t_5510a6e358">La connexion OneDrive a expiré ou a été révoquée : reconnectez-vous</string>
@@ -237,7 +271,21 @@
     <string name="t_b5cb97c13c">il est impossible d’ajouter des données à la fin des fichiers OneDrive</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/download/Downloads.kt -->
     <string name="t_680e60d8d4">ce téléchargement a été supprimé</string>
+    <string name="t_fa285893a3">taille inconnue</string>
+    <string name="t_2828e73daa">reprise possible</string>
+    <string name="t_629bd5f5c6">une connexion (le serveur n’autorise pas les plages)</string>
+    <string name="t_280ef2fd5d">Redirigé vers %s</string>
+    <string name="t_4029703e91">En pause : %s</string>
+    <string name="t_be232a301b">le réseau a changé</string>
+    <string name="t_cb22acab80">Vérification de la somme de contrôle %s…</string>
     <string name="t_dedc59c798">La somme de contrôle ne correspond pas : le fichier a été supprimé</string>
+    <string name="t_dca9ec738d">La somme de contrôle %s correspond</string>
+    <string name="t_00e32f0851">1 connexion</string>
+    <string name="t_ac80462096">%s connexions</string>
+    <string name="t_3623e0656e">moyenne %s</string>
+    <string name="t_63e243244b">%s nouvelles tentatives</string>
+    <string name="t_d7c059db73">Nouvelle tentative pour une partie (essai %s) : %s</string>
+    <string name="t_7832bbafe5">En attente de la fin d’un autre téléchargement</string>
     <string name="t_6835fdada0">impossible de créer le dossier</string>
     <string name="t_369331d9df">impossible d’écrire dans ce dossier</string>
     <string name="t_60455ec443">Le fichier sur le serveur a changé depuis le début du téléchargement — recommencez pour obtenir la nouvelle version</string>
@@ -254,16 +302,30 @@
     <string name="t_0ac5c96569">aucun chemin réel</string>
     <string name="t_467bb7cc4a">Déplacement de %s vers %s</string>
     <string name="t_ee6284015a">Copie de %s vers %s</string>
+    <string name="t_70426c41a6">%s déjà déplacés</string>
+    <string name="t_d8603a8209">%s ignoré : même emplacement</string>
+    <string name="t_6827bf2c1b">Échec pour %s : %s</string>
+    <string name="t_9ef2ca5ab2">1 fichier</string>
+    <string name="t_17664465b6">Échecs : %s</string>
+    <string name="t_ec734b6515">vérifié</string>
+    <string name="t_75d6f9a0fd">%s : déjà déplacé</string>
+    <string name="t_879f72daa3">%s ignoré : %s</string>
+    <string name="t_79c4bd7d26">%s ignoré : impossible de le copier dans lui-même</string>
     <string name="t_6231ee64a0">Suppression de %s</string>
+    <string name="t_d0900532a0">%s éléments supprimés</string>
     <string name="t_d60eeb3b1f">la Corbeille n’est disponible que pour le stockage local ; supprimez définitivement à la place</string>
     <string name="t_58f2e19bc7">Déplacement de %s vers la Corbeille</string>
+    <string name="t_fc5e3df69d">%s déplacés vers la Corbeille</string>
     <string name="t_89c61872ce">Restauration de %s</string>
+    <string name="t_5712a9e66e">%s restaurés</string>
     <string name="t_8c172782c1">Taille de %s</string>
+    <string name="t_ad5b7aaccb">%s fichiers, %s dossiers, %s</string>
     <string name="t_39398f51af">le fichier renommé n’existe plus</string>
     <string name="t_91571109ad">le nom d’origine est déjà utilisé</string>
     <string name="t_10a691316f">les éléments déplacés n’existent plus</string>
     <string name="t_1c28b30394">aucun dossier d’origine</string>
     <string name="t_76c6363e57">Annuler : déplacement de %s vers %s</string>
+    <string name="t_2c36bfd51c">%s remis à leur emplacement</string>
     <string name="t_4768927cfe">les éléments ne sont plus dans la Corbeille</string>
     <string name="t_6cbb22717b">le dossier n’existe plus</string>
     <string name="t_8f3a31df71">le dossier n’est pas vide, il n’a pas été supprimé</string>
@@ -272,26 +334,48 @@
     <string name="t_d8fcc35b32">le fichier contient des données, il n’a pas été supprimé</string>
     <string name="t_3a254ae603">Renommage de %s éléments</string>
     <string name="t_ce7b8f59df">nom déjà utilisé</string>
+    <string name="t_2d6196d4dc">%s renommés</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobEngine.kt -->
+    <string name="t_a4f4ff12aa">Interrompu par le redémarrage de l’application</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
     <string name="t_abf610ed20">Tâche de coffre-fort</string>
+    <string name="t_ea88d974c7">Impossible de terminer : %s</string>
+    <string name="t_b8300b2581">Flux de travail « %s » terminé</string>
     <string name="t_13f625269f">%s — terminé</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/StreamTransfer.kt -->
     <string name="t_b92df9afae">la destination est en lecture seule</string>
     <string name="t_0d6830202e">la destination existe et est un fichier</string>
+    <string name="t_9e7b204100">En attente du Wi-Fi (les données mobiles ne sont pas utilisées pour les transferts serveur)</string>
+    <string name="t_46f9d8891a">Vérification de %s</string>
     <string name="t_8589edef0b">échec de la vérification : la copie diffère de la source</string>
+    <string name="t_bb2167a62b">%s vérifié</string>
     <string name="t_fa2b749f33">la source s’est terminée trop tôt (%s sur %s octets)</string>
+    <string name="t_fefebdc2cb">%s : %s — nouvelle tentative dans %s s (%s sur %s)</string>
+    <string name="t_6d53e10583">%s a changé entre-temps ; reprise depuis le début</string>
+    <string name="t_cc86940dec">Reprise de %s à %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
     <string name="t_445c57385f">Trop de fichiers nommés %s dans %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaDownloads.kt -->
     <string name="t_28a6bf8c5a">Ce n’est pas un dossier : %s</string>
+    <string name="t_447a8c5fc9">Format %s → %s</string>
     <string name="t_2ffbf6f0f7">Le moteur multimédia ne répond plus : %s</string>
+    <string name="t_1e56326b6f">Le téléchargement a échoué</string>
     <string name="t_700e733fd0">Le moteur multimédia a perdu le téléchargement</string>
+    <string name="t_b593e52038">%s enregistré</string>
+    <string name="t_7d78dc0b15">Enregistrement de %s</string>
+    <string name="t_f6be727515">Le site exige une connexion : ajoutez ses cookies dans Téléchargeur multimédia → Cookies, puis réessayez.</string>
     <string name="t_1a5fee166c">Assemblage de la vidéo et de l’audio</string>
     <string name="t_84d6e40861">Ajout de la pochette et des informations du morceau</string>
-    <string name="t_18a88df1eb">Finalisation</string>
     <string name="t_d92c0a56bd">Interrogation du site…</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngine.kt -->
     <string name="t_7681282638">Le moteur multimédia n’est pas prêt</string>
+    <string name="t_1553cd0b64">Le Python du Moteur multimédia n’a pas démarré : %s</string>
+    <string name="t_b969f0d062">Android n’a pas autorisé ManyFile à utiliser le Moteur multimédia (%s). Réinstallez d’abord le moteur, puis ManyFile.</string>
+    <string name="t_f9612efe36">Android n’a pas démarré le Moteur multimédia</string>
+    <string name="t_58cf4143d5">La recherche nécessite le Moteur multimédia 0.2.0 ou une version plus récente : mettez le moteur à jour.</string>
+    <string name="t_59bdbd5a74">Les mises à jour de yt-dlp nécessitent le Moteur multimédia 0.2.0 ou une version plus récente : mettez le moteur à jour.</string>
+    <string name="t_a79f356b5b">Le téléchargement nécessite le Moteur multimédia 0.3.0 ou une version plus récente : mettez le moteur à jour.</string>
+    <string name="t_e85c4f5d6e">Les cookies nécessitent le Moteur multimédia 0.5.0 ou une version plus récente : mettez le moteur à jour.</string>
     <string name="t_b543395d33">Le découpage de morceaux nécessite le moteur multimédia 0.7.0 ou plus récent : mettez à jour le moteur dans Téléchargeur multimédia.</string>
     <string name="t_a9c16dd084">Aucune réponse</string>
     <string name="t_274cfb6bef">Le moteur multimédia n’a pas répondu en %s s</string>
@@ -339,7 +423,17 @@
     <string name="t_056e7a246d">le fichier a changé sur le serveur depuis son ouverture</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/RemoteSync.kt -->
     <string name="t_2624baa27b">Synchroniser %s sur ce téléphone</string>
+    <string name="t_bf0bc86932">cette synchronisation a été supprimée</string>
     <string name="t_84b24d7541">impossible de créer %s</string>
+    <string name="t_4822b2f94b">Lecture de la liste de %s</string>
+    <string name="t_36aaf8e826">%s fichiers sur le serveur, %s à télécharger, %s à jour</string>
+    <string name="t_78f6c67cf4">%s à supprimer</string>
+    <string name="t_a0c5a5edf9">%s supprimés</string>
+    <string name="t_82fb1d5144">À jour</string>
+    <string name="t_405d99ee6a">%s mis à jour</string>
+    <string name="t_1c63bd052c">%s supprimés</string>
+    <string name="t_344bccf57a">%s inchangés</string>
+    <string name="t_d0b7b836a3">%s fichiers n’ont pas pu être téléchargés (voir le journal de la tâche)</string>
     <string name="t_95c1aa567a">chemin invalide</string>
     <string name="t_2a8db27209">impossible d’écrire %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
@@ -361,10 +455,23 @@
     <string name="t_eef6dbeb19">connexion perdue</string>
     <string name="t_a02d2ad034">autorisation refusée</string>
     <string name="t_ac583db49c">le serveur ne prend pas cela en charge</string>
+    <string name="t_7579b28e28">Mot de passe pour %s</string>
+    <string name="t_19f5ab6fc5">Ce mot de passe ne fonctionne pas.</string>
+    <string name="t_8be3c943b1">Mot de passe</string>
+    <string name="t_e2fb83b7f2">Se connecter à %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshKeys.kt -->
     <string name="t_b519145548">ce n’est pas une clé privée que cette application peut lire (%s)</string>
     <string name="t_b210d2b2d8">impossible de dériver la clé publique</string>
     <string name="t_be5b98c282">impossible de créer une clé %s sur cet appareil (%s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/repo/UndoRepository.kt -->
+    <string name="t_2496bab071">Renommer %s</string>
+    <string name="t_7459d9bb9b">Déplacer %s vers la Corbeille</string>
+    <string name="t_b089276817">Nouveau dossier %s</string>
+    <string name="t_4235b57f09">Nouveau fichier %s</string>
+    <string name="t_a31cb1a84a">Renommer %s éléments</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/root/RootAccess.kt -->
+    <string name="t_b0aac1a002">L’application root n’a pas répondu à temps. Ouvrez-la, autorisez ManyFile, puis réessayez.</string>
+    <string name="t_fbab273de6">L’application root a refusé l’accès root à ManyFile. Autorisez ManyFile dans celle-ci (Magisk → Superuser), puis réessayez.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/root/RootProvider.kt -->
     <string name="t_9f1cf646eb">Android n’autorise pas les applications à lire ceci sans accès root. Sur un téléphone rooté, activez Paramètres → Accès root pour l’ouvrir.</string>
     <string name="t_cc6fc0627b">Cette vue est en lecture seule : activez Paramètres → Accès root (téléphones rootés) pour modifier les fichiers ici</string>
@@ -389,6 +496,8 @@
     <string name="t_d3b35a9c92">aucune clé sous « %s »</string>
     <string name="t_91bef3cbd9">le mot de passe de la clé « %s » est différent du mot de passe du magasin</string>
     <string name="t_07f00bbf0e">JCEKS n’est pas pris en charge</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/shell/LocalTerminal.kt -->
+    <string name="t_4194dec35a">Saisissez help pour afficher les commandes. Les fichiers utilisent l’accès au stockage de ManyFile.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
     <string name="t_63ec3664ca">La version %s ne contient aucun APK</string>
     <string name="t_8ecead43d2">La version %s ne publie aucune somme de contrôle pour %s ; un APK non vérifié ne sera pas installé</string>
@@ -396,6 +505,13 @@
     <string name="t_4f2699f369">GitHub limite les requêtes ; réessayez plus tard</string>
     <string name="t_4e4a9abc92">GitHub a répondu HTTP %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FolderLocks.kt -->
+    <string name="t_31108d23e8">Seuls les dossiers peuvent être verrouillés</string>
+    <string name="t_0e9b82e668">Seuls les dossiers du stockage de ce téléphone peuvent être verrouillés</string>
+    <string name="t_e2e1c598be">Un stockage entier ne peut pas être verrouillé : verrouillez un dossier qu’il contient</string>
+    <string name="t_d22fac4b93">Le dossier propre à Android ne peut pas être verrouillé : les applications y stockent leurs fichiers</string>
+    <string name="t_bc634426e5">C’est déjà un coffre-fort</string>
+    <string name="t_306aaf3333">Ce dossier se trouve dans un coffre-fort</string>
+    <string name="t_03ea6c413c">Ce dossier est déjà verrouillé</string>
     <string name="t_69c6369bbe">le nouveau verrou ne s’est pas ouvert</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/Vaults.kt -->
     <string name="t_6d288788fb">le coffre-fort est verrouillé</string>
@@ -404,17 +520,52 @@
     <string name="t_2a81745d19">code de récupération incorrect</string>
     <string name="t_4bb3849360">il est impossible d’ajouter des données à la fin des fichiers du coffre-fort</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
+    <string name="t_0b049b5346">Rien à faire</string>
+    <string name="t_ff7ccc5ae7">Étape %s : %s</string>
     <string name="t_40be23fb3f">plus de %s éléments à parcourir ; affinez le motif</string>
+    <string name="t_f2c6c821f8">1 étape terminée</string>
+    <string name="t_a9b9b3c49b">%s étapes terminées</string>
     <string name="t_cbbbbf74bd">motif invalide : %s</string>
     <string name="t_6c4c626142">plus de %s correspondances ; affinez le motif</string>
     <string name="t_f67b37f8ea">{last} : l’étape précédente n’a rien produit</string>
     <string name="t_9bba8ffd43">ce n’est pas un emplacement : %s</string>
     <string name="t_2a93d6f777">aucun élément pour cette étape</string>
+    <string name="t_3de4f901ff">serveur</string>
+    <string name="t_0c10beeba4">Déplacer %s → %s</string>
+    <string name="t_cc005893de">Copier %s → %s</string>
+    <string name="t_fd73231915">Compresser %s → %s</string>
+    <string name="t_85b89a76c4">Extraire %s → %s</string>
+    <string name="t_772724012d">SHA-256 de %s</string>
+    <string name="t_97863ce600">(vérifier)</string>
+    <string name="t_4c2869d21d">Exécuter sur %s : %s</string>
+    <string name="t_f87d7c1311">un serveur manquant</string>
+    <string name="t_7100597218">Supprimer définitivement %s</string>
+    <string name="t_58e48583c0">Déplacer vers la Corbeille : %s</string>
+    <string name="t_daa6160e97">Notifier : %s</string>
+    <string name="t_d98974393a">Demander : %s</string>
+    <string name="t_200e35e230">Ouvrir %s</string>
+    <string name="t_fa20cd7508">Rechercher %s dans %s</string>
+    <string name="t_049c0c6e31">datant de plus de %s jours</string>
+    <string name="t_914c36b4b2">supérieur à %s Mo</string>
+    <string name="t_21af705fed">avec les sous-dossiers</string>
+    <string name="t_b7c2d4dd7e">Renommer %s → %s</string>
+    <string name="t_187ce34e95">Attendre %s s</string>
+    <string name="t_800c982f7d">Si %s</string>
+    <string name="t_5b022e1620">« %s » correspond à %s</string>
+    <string name="t_119dae4cf3">« %s » ne correspond pas à %s</string>
+    <string name="t_9840b9a741">Sinon</string>
+    <string name="t_a2bb9d34b8">Fin</string>
+    <string name="t_4db82822bf">Pour chaque élément de l’étape précédente</string>
+    <string name="t_f8ee787a19">Pour chaque %s dans %s</string>
     <string name="t_6bcc26dfb5">%s éléments sur %s ne sont pas arrivés (%s)</string>
+    <string name="t_801f3ecfc3">SHA-256 %s</string>
     <string name="t_aa44fa3bce">somme de contrôle incorrecte : %s attendue</string>
     <string name="t_20c82b3fd3">le serveur de cette étape n’existe plus</string>
+    <string name="t_429167e002">sur %s (%s@%s:%s)</string>
+    <string name="t_f0abf27728">code de sortie %s</string>
     <string name="t_c8578d2ae6">la commande a échoué (code de sortie %s)</string>
     <string name="t_cd82fbcbb8">la Corbeille se trouve uniquement sur ce téléphone ; choisissez la suppression définitive pour les autres stockages</string>
+    <string name="t_febf995384">%s trouvés</string>
     <string name="t_84ae13a632">l’étape n’a pas démarré</string>
     <string name="t_65b5b83e7d">l’étape a été annulée</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/FileKind.kt -->
@@ -607,6 +758,8 @@
     <string name="t_f09f47b290">%s se trouve maintenant dans le stockage privé</string>
     <string name="t_5aba8d63b2">Le déplacement du coffre-fort ne s’est pas terminé — voir Tâches</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
+    <string name="t_8fe9cab887">Comparer « %s » avec…</string>
+    <string name="t_8d105cf44d">Comparer</string>
     <string name="t_d3f4cb898f">Renommer</string>
     <string name="t_2b61858ac9">Supprimer %s ?</string>
     <string name="t_24bdb2be62">Les éléments de la Corbeille peuvent être restaurés. Une suppression définitive est irréversible.</string>
@@ -699,7 +852,6 @@
     <string name="t_21b9b7156c">1 problème</string>
     <string name="t_6662bbae19">%d problèmes</string>
     <string name="t_ebd2beabd7">… et %s de plus</string>
-    <string name="t_2496bab071">Renommer %s</string>
     <string name="t_ebfb55f443">archive</string>
     <string name="t_97003d2b45">Compresser %s</string>
     <string name="t_6310f9e149">Nom de l’archive</string>
@@ -709,7 +861,6 @@
     <string name="t_e067e2f143">Compresse ce seul fichier.</string>
     <string name="t_7a620f84a0">Niveau de compression : %s</string>
     <string name="t_2f799d13e1">Protéger par mot de passe (AES-256)</string>
-    <string name="t_8be3c943b1">Mot de passe</string>
     <string name="t_366c2415f4">Répéter le mot de passe</string>
     <string name="t_86db27cc49">Au moins 4 caractères</string>
     <string name="t_484e9bc837">Les noms de fichiers restent visibles ; le contenu est chiffré. Le mot de passe n’est pas enregistré.</string>
@@ -797,6 +948,11 @@
     <string name="t_d153e75080">Débit</string>
     <string name="t_f5cbdf6bfb">Contenu</string>
     <string name="t_773f1699cf">vide (0 octet)</string>
+    <string name="t_ac47333e54">Impossible de lire cette image</string>
+    <string name="t_cccad6bb2f">Non téléchargé pour l’aperçu</string>
+    <string name="t_9f4ca9ec08">Dimensions</string>
+    <string name="t_4da9c9af96">Appareil photo</string>
+    <string name="t_c66c12b988">Prise le</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SortSheet.kt -->
     <string name="t_a2a5bdeca9">Trier par</string>
     <string name="t_46e63a67d0">Dossiers en premier</string>
@@ -1017,13 +1173,14 @@
     <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_8fccc25304">%s onglets</string>
     <string name="t_d7248d1bb6">Rechercher un onglet</string>
-    <string name="t_3de4f901ff">serveur</string>
     <string name="t_d5a63c95d4">tout</string>
     <string name="t_35bbf79557">dans %s</string>
     <string name="t_3fed2e6f09">Corbeille · les éléments sont conservés %s jours</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
     <string name="t_fb6a41581c">/ (lecture seule)</string>
+    <string name="t_134b2afd98">Épinglé : cet onglet reste sur %s. Les dossiers que vous ouvrez depuis celui-ci s’ouvrent dans un onglet adjacent.</string>
+    <string name="t_000f085275">Désépinglé : cet onglet se déplace à nouveau avec vous.</string>
     <string name="t_47de7d246f">Serveur inactif</string>
     <string name="t_e857805da7">Connexion au serveur</string>
     <string name="t_01aa273307">Serveur connecté</string>
@@ -1055,6 +1212,7 @@
     <string name="t_84fadbdd27">Comparer les dossiers</string>
     <string name="t_94a4a22d57">Comparer le texte</string>
     <string name="t_484c48c826">Comparer le contenu (octets)</string>
+    <string name="t_b788ba9c87">Comparer avec…</string>
     <string name="t_fac13fcb46">Étiquettes…</string>
     <string name="t_441da1bf0e">Favori</string>
     <string name="t_001de2b938">Calculer la taille</string>
@@ -1163,8 +1321,6 @@
     <string name="t_55fb1ba3f5">Rechercher des fichiers</string>
     <string name="t_a0022537f2">Définir une variable</string>
     <string name="t_751c68a347">Si</string>
-    <string name="t_9840b9a741">Sinon</string>
-    <string name="t_a2bb9d34b8">Fin</string>
     <string name="t_5e8ebd7b5b">Pour chaque</string>
     <string name="t_1f46983828">Les deux</string>
     <string name="t_7e9aa84f03">Sous-dossiers aussi</string>
@@ -1219,7 +1375,7 @@
     <string name="t_c0ba91599d">Correspondance suivante</string>
     <string name="t_853d42bcea">Fermer la recherche</string>
     <string name="t_6a72085653">Tout</string>
-    <string name="t_2113457a6c">Ln %s, Col %s</string>
+    <string name="t_2113457a6c">Lig. %s, Col. %s</string>
     <string name="t_48d438f044">%d lignes</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorViewModel.kt -->
     <string name="t_ac6e9914cb">Impossible d’ouvrir le fichier</string>
@@ -1245,7 +1401,6 @@
     <string name="t_8f96242112">Ajouter un stockage cloud</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
     <string name="t_a862c2b21b">Téléchargements</string>
-    <string name="t_4da9c9af96">Appareil photo</string>
     <string name="t_935edbe91f">Images</string>
     <string name="t_131260cbfb">Musique</string>
     <string name="t_351088b734">Racine (/)</string>
@@ -1368,13 +1523,11 @@
     <string name="t_23a97691b4">Retirer de la liste</string>
     <string name="t_feb5bead8e">%s restants</string>
     <string name="t_d303fdd26d">Le fichier sur le serveur a changé — recommencez pour obtenir le nouveau</string>
-    <string name="t_7b1d2344d6">En attente du réseau</string>
     <string name="t_6a599877d7">En file d’attente</string>
     <string name="t_0b1d6c0b1a">Préparation…</string>
     <string name="t_8235e61279">En attente de votre réponse</string>
     <string name="t_b21ede4090">En pause à %s / %s</string>
     <string name="t_c7dfb6f1d9">En pause</string>
-    <string name="t_819ba5c9dc">En attente du Wi-Fi</string>
     <string name="t_7ef25a76e3">En cours…</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Travail dans un coffre-fort</string>
@@ -1608,7 +1761,9 @@
     <string name="t_939d682c1b">Les synchronisations s’exécutent selon leur planification même lorsque ManyFile est fermé (Android le réveille au maximum toutes les 15 minutes ; 5 minutes fonctionne lorsqu’il est ouvert).</string>
     <string name="t_6415419137">Ajoutez d’abord un serveur (☰ → Serveurs).</string>
     <string name="t_99dd579863">Aucune synchronisation pour l’instant : touchez + pour choisir un dossier serveur.</string>
+    <string name="t_7da8b59e8f">Serveur supprimé</string>
     <string name="t_2b7d938e67">Synchroniser maintenant</string>
+    <string name="t_36aabe29d3">Aperçu…</string>
     <string name="t_126efacbfd">Ouvrir le dossier du téléphone</string>
     <string name="t_b363acf38e">Ouvrir le dossier du serveur</string>
     <string name="t_b454359e65">Modifier…</string>
@@ -1623,6 +1778,16 @@
     <string name="t_43a6a1d762">Supprimer la synchronisation de %s ?</string>
     <string name="t_858633dd19">Elle cessera de se synchroniser. Les fichiers déjà présents sur ce téléphone (%s) et sur le serveur resteront.</string>
     <string name="t_84b3936ede">Supprimer la synchronisation</string>
+    <string name="t_a4bfadd1ca">Ce que ferait une synchronisation</string>
+    <string name="t_9b931b3229">Rien à faire : la copie du téléphone est à jour (%s fichiers).</string>
+    <string name="t_a3e8c3ff98">%s à télécharger · %s inchangés</string>
+    <string name="t_f3a3320b33">et %s de plus</string>
+    <string name="t_6705da620c">Votre copie est remplacée (%s)</string>
+    <string name="t_c191170c9d">Modifié sur ce téléphone, ou déjà présent avant la première synchronisation : la version du serveur le remplace.</string>
+    <string name="t_f4c34c70a6">Nouveau (%s)</string>
+    <string name="t_837663da3e">Modifié sur le serveur (%s)</string>
+    <string name="t_c22f737c7a">Supprimé de ce téléphone (%s)</string>
+    <string name="t_dc502ae85a">Supprimé du serveur et inchangé ici depuis la dernière synchronisation.</string>
     <string name="t_a2620cbc10">jour</string>
     <string name="t_2c6b08088d">Nouvelle synchronisation de dossier</string>
     <string name="t_cdd33e1e17">Modifier la synchronisation</string>
@@ -1871,7 +2036,6 @@
     <string name="t_c4f5a796b7">Téléphone M-Pesa, p. ex. 0712345678</string>
     <string name="t_02ed4a4a39">Continuer</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/LanguagePage.kt -->
-    <string name="t_b593e52038">%s enregistré</string>
     <string name="t_f7e252443c">Impossible d’obtenir la liste des langues depuis GitHub. Vérifiez la connexion et rouvrez cette page.</string>
     <string name="t_2046ab622c">Impossible de lire ce fichier</string>
     <string name="t_03f497317f">Sur ce téléphone</string>
@@ -1882,7 +2046,6 @@
     <string name="t_2c0ed7c105">Aucune autre langue pour l’instant. Elles sont ajoutées sur GitHub, dans i-tct/many-file → languages.</string>
     <string name="t_fb91e24fa5">Mettre à jour</string>
     <string name="t_92f4ad9ddc">de droite à gauche</string>
-    <string name="t_1e56326b6f">Le téléchargement a échoué</string>
     <string name="t_c619702925">Téléchargé</string>
     <string name="t_b156a69287">Traduire ManyFile</string>
     <string name="t_b10eae6ed9">Obtenir un fichier à traduire…</string>
@@ -2212,7 +2375,6 @@
     <string name="t_d044282472">Plus récents</string>
     <string name="t_3159fe421b">Vides</string>
     <string name="t_8ad8e26fb1">Aucun dossier vide</string>
-    <string name="t_a1b9c5fee5">%s fichiers</string>
     <string name="t_f79e3f52f9">(fichiers dans ce dossier)</string>
     <string name="t_eea0692c92">(fichiers ici)</string>
     <string name="t_0039ca4bc7">%s · %s fichiers</string>
@@ -2305,7 +2467,11 @@
     <string name="t_1cb27a1a6c">← Copier</string>
     <string name="t_d8d88e8f5f">Masquer les identiques (%s)</string>
     <string name="t_8b543c652d">Sélectionner les plus récents/uniques à gauche</string>
+    <string name="t_22986c11e2">Vérification de %s / %s</string>
     <string name="t_100de7d3f5">%s différents · %s uniquement à gauche · %s uniquement à droite</string>
+    <string name="t_2feada6893">contenu identique</string>
+    <string name="t_68b2406431">contenus différents</string>
+    <string name="t_b715805bd5">contenu illisible</string>
     <string name="t_3226178977">dossier des deux côtés</string>
     <string name="t_c4386c8685">%s · %s  vs  %s · %s</string>
     <string name="t_c11113ed5a">uniquement à gauche</string>
@@ -2334,7 +2500,6 @@
     <string name="t_ec1b99daf6">Analyser %s</string>
     <string name="t_c0ea3d5949">Analyser %s dossiers</string>
     <string name="t_3d860cbe35">Analyse… %s fichiers</string>
-    <string name="t_c522a5cc5e">Empreinte rapide %s / %s</string>
     <string name="t_288f06b03f">Empreinte complète %s / %s · %s</string>
     <string name="t_691f4302fc">Vérification…</string>
     <string name="t_90218af7b5">Finalisation…</string>
@@ -2392,7 +2557,6 @@
     <string name="t_497450d44c">1 APK</string>
     <string name="t_51a8636419">(%s pour d’autres appareils exclus)</string>
     <string name="t_35f0347974">Données du jeu (OBB)</string>
-    <string name="t_9ef2ca5ab2">1 fichier</string>
     <string name="t_b25928c699">Total</string>
     <string name="t_9b7c0ef7c6">Autorisations demandées</string>
     <string name="t_1efc2b30d0">Cette application ne peut pas fonctionner sur cet appareil.</string>
@@ -2593,7 +2757,6 @@
     <string name="t_61e604ee45">%.1f Mbit/s</string>
     <string name="t_3028a53865">%.0f ms</string>
     <string name="t_db0ca2bd3c">Résultats précédents</string>
-    <string name="t_ea88d974c7">Impossible de terminer : %s</string>
     <string name="t_8aa40d6d52">↓ téléchargement dans le temps</string>
     <string name="t_c7e1862ff5">↑ envoi dans le temps</string>
     <string name="t_6b68e97973">Ping</string>
@@ -2710,8 +2873,8 @@
     <string name="t_efcc8f1b3f">Supprimer cette image ?</string>
     <string name="t_9d627fbe19">"\nElle peut être restaurée depuis la Corbeille."</string>
     <string name="t_e8f63a0202">Définir comme</string>
-    <string name="t_9f4ca9ec08">Dimensions</string>
-    <string name="t_c66c12b988">Prise le</string>
+    <string name="t_82cf6f7679">Image RAW</string>
+    <string name="t_7dc7b7a53c">son aperçu JPEG est affiché</string>
     <string name="t_68c2cc7f0c">Modèle</string>
     <string name="t_862ee3b17a">Exposition</string>
     <string name="t_aae1263383">Ouverture</string>
