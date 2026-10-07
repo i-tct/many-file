@@ -5,10 +5,466 @@
   Translate the texts, keep the names and placeholders (%s, %d, %1$s…), and save it as strings-<code>.xml.
 -->
 <resources>
-    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngine.kt -->
-    <string name="t_b543395d33">Cutting songs needs Media Engine 0.7.0 or newer: update the engine in Media Downloader.</string>
-    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Settings.kt -->
+    <!-- app/src/main/kotlin/tct/manyfile/FileOpener.kt -->
+    <string name="t_2faee5210b">Code editor</string>
+    <string name="t_1cf499348f">Hex viewer</string>
+    <string name="t_d3a26582a6">Image viewer</string>
+    <string name="t_18461dab17">Archive browser</string>
+    <string name="t_eb320c2e18">PDF reader</string>
+    <string name="t_6a7e1c722c">Media player</string>
+    <string name="t_0f704c2681">SQLite viewer</string>
+    <string name="t_4c34ed43ac">APK inspector</string>
+    <string name="t_8712175cfd">Markdown preview</string>
+    <string name="t_8f36693688">JSON tree</string>
+    <string name="t_527523bc7b">CSV table</string>
+    <string name="t_ff233fcdba">XML tree</string>
+    <string name="t_6c7d45e64e">Office viewer</string>
+    <string name="t_6e4a8ec120">Web preview</string>
+    <string name="t_99b4b94d4a">E-book reader</string>
+    <string name="t_00573746f1">Font preview</string>
+    <string name="t_050cf53864">Keystore tool</string>
+    <string name="t_7d5e3b2805">Another app</string>
+    <string name="t_9b25b155c6">Always open .%s files this way</string>
+    <string name="t_d89b7c95de">Default for .%s: %s</string>
+    <string name="t_20359490bc">Tap to forget — files go back to the automatic choice</string>
+    <string name="t_99f2e5b300">Open as text / code</string>
+    <string name="t_a7b12130c0">Open as hex</string>
+    <string name="t_3ceffa44a1">Open as image</string>
+    <string name="t_2619981af2">Preview as web page</string>
+    <string name="t_a944dfbffe">Open in Office viewer</string>
+    <string name="t_0125bf3520">Read as e-book</string>
+    <string name="t_19e43594e1">Preview font</string>
+    <string name="t_46f3461642">Open as Markdown</string>
+    <string name="t_2816ffcf5b">Open as JSON tree</string>
+    <string name="t_bd827ef2bc">Open as XML tree</string>
+    <string name="t_f430deeac4">Open as CSV table</string>
+    <string name="t_37b356259e">Open in PDF reader</string>
+    <string name="t_5d12bd5355">Play</string>
+    <string name="t_d76636a185">Open as SQLite database</string>
+    <string name="t_f2fe0e3619">Inspect APK</string>
+    <string name="t_1a3685f7f0">Browse as archive</string>
+    <string name="t_0e6d94a559">Open with another app</string>
+    <string name="t_09ca55ca52">Share</string>
+    <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
+    <string name="t_033bd7cae8">OneDrive: %s</string>
+    <string name="t_20ca9940f5">Google Drive: %s</string>
+    <string name="t_b52b36b726">Back</string>
+    <string name="t_781961bc81">Pause</string>
+    <string name="t_ba4e722612">Forward</string>
+    <string name="t_58a4d661fc">Downloading %s</string>
+    <string name="t_195f8ed74c">Running %s — see Jobs</string>
+    <string name="t_0236a61933">Could not download %s: %s</string>
+    <string name="t_a22be90072">The Media Engine could not be downloaded; Media Downloader can try again</string>
+    <string name="t_270f820086">“%s” is empty (0 bytes)</string>
+    <string name="t_dc3decbb93">Details</string>
+    <string name="t_d97d1ee339">Show</string>
+    <string name="t_cf9b77061f">Open</string>
+    <string name="t_5f167e3f50">“%s” no longer exists</string>
+    <string name="t_f518aa5a10">Could not open the file: %s</string>
+    <string name="t_a7ab6b3334">Opening %s</string>
+    <string name="t_77064d5265">Phone</string>
+    <string name="t_2050d8324c">No browser to sign in with</string>
+    <string name="t_b283e9cec3">Signed out of %s</string>
+    <string name="t_afac332a99">Signed out of MEGA</string>
+    <string name="t_deccaac6e9">Press back again to exit</string>
+    <string name="t_49bec33b37">Tag: %s</string>
+    <string name="t_73dd2f312b">Large files</string>
+    <string name="t_e9b450d14b">Done</string>
+    <string name="t_4e9b031813">ManyFile closed unexpectedly</string>
+    <string name="t_0fbb3cac17">Reset tabs</string>
+    <string name="t_3fd293a9d6">%s of %s</string>
+    <string name="t_77dfd2135f">Cancel</string>
+    <string name="t_5f3b4d3795">Connecting to %s…</string>
+    <string name="t_0e595f16b9">Could not connect to %s</string>
+    <string name="t_9f5cd8a2e8">Retry</string>
+    <string name="t_8112928dee">Edit server</string>
+    <string name="t_bbfa773e5a">Close</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/TextFiles.kt -->
+    <string name="t_3e22566313">file not found</string>
+    <string name="t_a6b8206b1b">no parent</string>
+    <string name="t_029eeb4019">folder is not writable</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/analyze/Cleaner.kt -->
+    <string name="t_8ef35ebc0c">Older chat backups</string>
+    <string name="t_0ecefe2e5c">Daily local copies before the newest one, which is kept</string>
+    <string name="t_fcecbb00b4">Thumbnails</string>
     <string name="t_9e092dda4f">Storage</string>
+    <string name="t_fef4877000">Thumbnail caches</string>
+    <string name="t_7ae1b0a287">Small copies of pictures that galleries make again when needed</string>
+    <string name="t_ccef8c25c2">Temporary and log files</string>
+    <string name="t_74f9ac64df">.tmp, .temp and .log files, and unfinished browser downloads older than a day</string>
+    <string name="t_b8c9809658">Empty folders</string>
+    <string name="t_e8b5ca67bb">Folders with nothing in them (Android\'s standard folders are kept)</string>
+    <string name="t_77a6a33a3b">APKs of installed apps</string>
+    <string name="t_fa5e02786c">Installer files for apps that are installed in this version or newer</string>
+    <string name="t_b528ca687b">Old downloads</string>
+    <string name="t_fbdf5c2a2e">In Download, not changed for %s days</string>
+    <string name="t_6616cbd222">App caches</string>
+    <string name="t_277d1bb69f">Files apps keep to load faster; they make them again (each app\'s cache folder is emptied, not removed)</string>
+    <string name="t_09e871c98f">Images</string>
+    <string name="t_e06ff39161">Photos received and sent</string>
+    <string name="t_56b71e89fb">Videos</string>
+    <string name="t_fdefd7d90b">Videos received and sent</string>
+    <string name="t_b5d3e8919b">Voice notes</string>
+    <string name="t_42c1e71850">Recorded voice messages</string>
+    <string name="t_acdac205f5">Audio</string>
+    <string name="t_caa5db82b0">Songs and sound files</string>
+    <string name="t_687c82861c">Documents</string>
+    <string name="t_820a02dc9f">PDFs and other files</string>
+    <string name="t_4081a4eab2">Video notes</string>
+    <string name="t_c47471bc6f">Round video messages</string>
+    <string name="t_e98d00db9f">GIFs</string>
+    <string name="t_342f10e2c3">Animated pictures</string>
+    <string name="t_9dca595b1a">Stickers</string>
+    <string name="t_e28df5aa68">Stickers received</string>
+    <string name="t_869ca967d3">Viewed statuses</string>
+    <string name="t_0f0818c0f6">Copies of status updates you watched</string>
+    <string name="t_b307fafb3b">Profile photos</string>
+    <string name="t_c7ad4a3701">Profile pictures you opened</string>
+    <string name="t_6e26d502c6">Photos saved from chats</string>
+    <string name="t_db583f6190">Videos saved from chats</string>
+    <string name="t_0be07c455a">Voice and sound files</string>
+    <string name="t_1da2412c66">Files saved from chats</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/analyze/DuplicateScans.kt -->
+    <string name="t_76cf24e1f1">Finding duplicates in %s</string>
+    <string name="t_f5919e65c3">Finding duplicates in %s folders</string>
+    <string name="t_8761d26fb8">cancelled</string>
+    <string name="t_51e9111b87">Stopped</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/ApkInstaller.kt -->
+    <string name="t_cab963d089">No APK for this device inside %s</string>
+    <string name="t_e6f329a7d7">%s is not a readable bundle (damaged, or an encrypted APKM)</string>
+    <string name="t_740b23bbae">%s needs Android API %s or newer; this device has API %s</string>
+    <string name="t_2ffe16abe3">Could not write the app\'s data file to %s: %s. Copy it there by hand from the bundle.</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/Notifications.kt -->
+    <string name="t_825ce9e97d">Workflows</string>
+    <string name="t_edc13f8ed3">Messages from Command Center workflows</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/StorageVolumes.kt -->
+    <string name="t_90208b15be">Internal storage</string>
+    <string name="t_8a5fddc8cf">External storage</string>
+    <string name="t_9bf4567293">Android is checking this drive; wait a moment</string>
+    <string name="t_95bb929c9c">Android can\'t mount this drive: its file system needs repair. Unplugging it without ejecting can cause this. Repair it on a computer (Windows: right-click the drive → Properties → Tools → Check; Linux: fsck), then plug it in again</string>
+    <string name="t_04d680a5eb">Android doesn\'t recognise this drive\'s format (it is blank, or uses a file system Android can\'t read, such as NTFS on many phones). Format it as exFAT or FAT32 on a computer, which erases it</string>
+    <string name="t_7bb74451fe">The drive is connected but not mounted. Unplug it and plug it in again</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchiveFormats.kt -->
+    <string name="t_7751bf2fe4">this file needs %s MB of memory to unpack, more than allowed</string>
+    <string name="t_9a8418920e">LZMA files can be opened, not created; use XZ</string>
+    <string name="t_6db3c13ef1">entry not found</string>
+    <string name="t_3ff5765ed8">corrupt or unreadable archive: %s</string>
+    <string name="t_1ad5a79989">this archive needs %s MB of memory to unpack, more than allowed</string>
+    <string name="t_a662710d82">not enough memory to unpack this archive</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchiveOperations.kt -->
+    <string name="t_a24bd7a6e5">could not store the download</string>
+    <string name="t_4a73bc1b87">unsafe entry path</string>
+    <string name="t_2aab839022">could not finalize</string>
+    <string name="t_365d43c9eb">cannot create destination</string>
+    <string name="t_6d8e00ddda">Extracting %s to %s</string>
+    <string name="t_8b1c0add79">%s items</string>
+    <string name="t_995907a7b3">Compressing %s to %s (encrypted)</string>
+    <string name="t_305290f489">Compressing %s to %s</string>
+    <string name="t_0a37db6338">archive already exists</string>
+    <string name="t_6962129a4a">could not finalize archive</string>
+    <string name="t_f51c9be39a">archives on this storage cannot be changed in place; copy it to the phone first</string>
+    <string name="t_63a66c4371">Adding %s to %s</string>
+    <string name="t_6dcfcf26a0">unsupported archive</string>
+    <string name="t_bba3ed4fdf">Removing %s from %s</string>
+    <string name="t_7666e4d202">could not replace the archive</string>
+    <string name="t_ab7dcea83a">Testing %s</string>
+    <string name="t_9e51c55e97">corrupt: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchivePasswords.kt -->
+    <string name="t_b6970d8f54">no password given</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchiveProvider.kt -->
+    <string name="t_88912d371a">archive not found</string>
+    <string name="t_094d45d42d">archives are read-only; extract first</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/ArchiveWriter.kt -->
+    <string name="t_c92d333815">only ZIP archives can be created with a password (AES-256)</string>
+    <string name="t_20ffa24622">%s compresses one file; use a TAR format for folders or several files</string>
+    <string name="t_1ba3b3396e">%s files hold one compressed file and cannot take entries</string>
+    <string name="t_8e9ff6324b">an encrypted 7z cannot be changed here: it would be saved without encryption</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
+    <string name="t_e1c1a4ad35">cannot reach Google Drive: %s</string>
+    <string name="t_7c561ab42b">Drive did not start the upload</string>
+    <string name="t_eaa8f15ede">upload to Drive failed: %s</string>
+    <string name="t_1225d61de9">Drive refused the sign-in (is the Drive API enabled for this client\'s project?)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveProvider.kt -->
+    <string name="t_4b562b29a9">no Drive account</string>
+    <string name="t_7d3e7f77f6">not found on Drive</string>
+    <string name="t_7b2a6132f7">not a folder</string>
+    <string name="t_57fc2642d8">already exists</string>
+    <string name="t_2c5508bb9e">cannot rename the root</string>
+    <string name="t_fa2ca9e582">different Drive accounts</string>
+    <string name="t_9a9309f539">cannot move the root</string>
+    <string name="t_b7fec7a570">no target folder</string>
+    <string name="t_d810a6be52">My Drive itself cannot be deleted</string>
+    <string name="t_94cda2c329">is a folder</string>
+    <string name="t_84b49317d1">Drive files cannot be appended to</string>
+    <string name="t_81808362bb">Google Docs files are read-only here (they are exported copies)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/GoogleAuth.kt -->
+    <string name="t_82d1895f3c">Google Drive is not set up in this build (no OAuth client ID)</string>
+    <string name="t_d669dd4ef3">no sign-in in progress</string>
+    <string name="t_4352544d61">sign-in answer did not match (try again)</string>
+    <string name="t_02ba6dc255">no authorization code</string>
+    <string name="t_42031f9957">Google did not return a refresh token</string>
+    <string name="t_d525f3028f">sign in to Google Drive again</string>
+    <string name="t_c231ae4ed1">no key to read the sign-in</string>
+    <string name="t_2dfa3a88be">Google sign-in expired or was revoked: sign in again</string>
+    <string name="t_761437352f">cannot reach %s: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/LocalMega.kt -->
+    <string name="t_e88dbbf192">Not found on MEGA</string>
+    <string name="t_de59f05ec1">MEGA refused access</string>
+    <string name="t_ca2bfd69a1">Already exists on MEGA</string>
+    <string name="t_e80c3e4fc1">Signed out of MEGA (the session ended): sign in again</string>
+    <string name="t_398a3d1c19">This MEGA account is blocked: MEGA\'s website says why</string>
+    <string name="t_ae0cc4ae51">The MEGA account\'s storage or transfer quota is used up</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/Mega.kt -->
+    <string name="t_849a3fa7e7">not a file name: %s</string>
+    <string name="t_9436312d31">only within one MEGA account</string>
+    <string name="t_9fd48bcf70">The downloaded file could not be read</string>
+    <string name="t_6a8b9eb3af">MEGA files can\'t be appended to</string>
+    <string name="t_25fe67b10e">no folder</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/MicrosoftAuth.kt -->
+    <string name="t_743fddfe8c">OneDrive is not set up in this build (no Microsoft client ID)</string>
+    <string name="t_9cfc7b1f9a">Microsoft did not return a refresh token</string>
+    <string name="t_6785d3c51f">sign in to OneDrive again</string>
+    <string name="t_5510a6e358">The OneDrive sign-in expired or was revoked: sign in again</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/OneDriveApi.kt -->
+    <string name="t_88624d52e2">OneDrive did not start the upload</string>
+    <string name="t_dd3887fe89">upload to OneDrive failed: %s</string>
+    <string name="t_568d17f61b">cannot reach OneDrive: %s</string>
+    <string name="t_7e6a284f02">Microsoft refused the sign-in (answer %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/OneDriveProvider.kt -->
+    <string name="t_54ed41b1c2">no OneDrive account</string>
+    <string name="t_c8eb900ef3">only within one OneDrive</string>
+    <string name="t_b4c8848c60">not empty</string>
+    <string name="t_b5cb97c13c">OneDrive files can\'t be appended to</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/download/Downloads.kt -->
+    <string name="t_680e60d8d4">this download was removed</string>
+    <string name="t_dedc59c798">Checksum does not match: the file was deleted</string>
+    <string name="t_6835fdada0">cannot create the folder</string>
+    <string name="t_369331d9df">cannot write to this folder</string>
+    <string name="t_60455ec443">The file on the server changed since the download started — start over to get the new one</string>
+    <string name="t_d3b9bc376e">The server refused to continue from where the download stopped — start over</string>
+    <string name="t_cdfbaaf133">Not enough free space for this download</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/i18n/Languages.kt -->
+    <string name="t_93dcc3b42c">The %s file didn\'t match its checksum: try again later</string>
+    <string name="t_4c5a2cc586">The %s file couldn\'t be read</string>
+    <string name="t_6320729d14">The %s file has no texts yet</string>
+    <string name="t_564686b8b7">Not a translation file (Android\'s strings.xml format)</string>
+    <string name="t_95486a5567">No texts in that file</string>
+    <string name="t_e91bc6b00e">From a file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileOperations.kt -->
+    <string name="t_0ac5c96569">no real path</string>
+    <string name="t_467bb7cc4a">Moving %s to %s</string>
+    <string name="t_ee6284015a">Copying %s to %s</string>
+    <string name="t_6231ee64a0">Deleting %s</string>
+    <string name="t_d60eeb3b1f">the Bin is available for local storage only; delete permanently instead</string>
+    <string name="t_58f2e19bc7">Moving %s to Bin</string>
+    <string name="t_89c61872ce">Restoring %s</string>
+    <string name="t_8c172782c1">Size of %s</string>
+    <string name="t_39398f51af">renamed file no longer exists</string>
+    <string name="t_91571109ad">original name is taken</string>
+    <string name="t_10a691316f">moved items no longer exist</string>
+    <string name="t_1c28b30394">no original folder</string>
+    <string name="t_76c6363e57">Undo: moving %s back to %s</string>
+    <string name="t_4768927cfe">items are no longer in the Bin</string>
+    <string name="t_6cbb22717b">folder no longer exists</string>
+    <string name="t_8f3a31df71">folder is not empty, not removed</string>
+    <string name="t_c1132ad554">renamed files no longer exist</string>
+    <string name="t_73068cd633">file no longer exists</string>
+    <string name="t_d8fcc35b32">file has content, not removed</string>
+    <string name="t_3a254ae603">Renaming %s items</string>
+    <string name="t_ce7b8f59df">name already taken</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
+    <string name="t_abf610ed20">Vault job</string>
+    <string name="t_13f625269f">%s — done</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/StreamTransfer.kt -->
+    <string name="t_b92df9afae">destination is read-only</string>
+    <string name="t_0d6830202e">destination exists and is a file</string>
+    <string name="t_8589edef0b">verification failed: the copy differs from the source</string>
+    <string name="t_fa2b749f33">the source ended early (%s of %s bytes)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
+    <string name="t_445c57385f">Too many files named %s in %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaDownloads.kt -->
+    <string name="t_28a6bf8c5a">Not a folder: %s</string>
+    <string name="t_2ffbf6f0f7">The Media Engine stopped answering: %s</string>
+    <string name="t_700e733fd0">The Media Engine lost the download</string>
+    <string name="t_1a5fee166c">Joining video and audio</string>
+    <string name="t_84d6e40861">Adding the song\'s cover and details</string>
+    <string name="t_18a88df1eb">Finishing</string>
+    <string name="t_d92c0a56bd">Asking the site…</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngine.kt -->
+    <string name="t_7681282638">The Media Engine is not ready</string>
+    <string name="t_b543395d33">Cutting songs needs Media Engine 0.7.0 or newer: update the engine in Media Downloader.</string>
+    <string name="t_a9c16dd084">No answer</string>
+    <string name="t_274cfb6bef">The Media Engine did not answer in %s s</string>
+    <string name="t_0fe28a3138">The Media Engine stopped (it may have crashed)</string>
+    <string name="t_c3a68cbca0">The Media Engine failed: %s</string>
+    <string name="t_9f2a5091eb">The Media Engine refused ManyFile: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngineReleases.kt -->
+    <string name="t_83d1a0279e">No published release found</string>
+    <string name="t_2ad22a594c">Every Media Engine release needs a newer ManyFile: update ManyFile first (Settings → About)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SongCuts.kt -->
+    <string name="t_b0508f88e5">Songs of this kind (.%s) can\'t be cut</string>
+    <string name="t_6c1c79ffc3">The piece must start before it ends</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SupportedSites.kt -->
+    <string name="t_bf866bfb2d">The list of sites could not be downloaded (%s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/net/SpeedTest.kt -->
+    <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
+    <string name="t_b1ecbbc411">cannot rename root</string>
+    <string name="t_fea851eedd">a file with that name already exists</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/MediaProvider.kt -->
+    <string name="t_0f1b0242c1">unknown media collection</string>
+    <string name="t_c29e8de494">media permission required</string>
+    <string name="t_a59be21bc5">media collections are virtual; act on the files themselves</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/ProviderRegistry.kt -->
+    <string name="t_ca4fea856f">no provider for %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/SafProvider.kt -->
+    <string name="t_f427adfad7">document not found</string>
+    <string name="t_58dafa55e9">no access to this location (grant may have been revoked)</string>
+    <string name="t_d6951fd69e">access revoked for this location</string>
+    <string name="t_094b763b4c">not found</string>
+    <string name="t_c8430d4196">could not create folder</string>
+    <string name="t_69056c7b3f">could not create file</string>
+    <string name="t_97fdbbd44b">rename not supported here</string>
+    <string name="t_2eb5c948f1">could not delete</string>
+    <string name="t_3b560cfc38">cannot open</string>
+    <string name="t_24a97239ab">cannot write</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/TagProvider.kt -->
+    <string name="t_1a609b7f96">unknown tag</string>
+    <string name="t_ab722623e7">tag collections list files; act on the files themselves</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/KeyInstaller.kt -->
+    <string name="t_5853070fcb">not a public key</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/RemoteFiles.kt -->
+    <string name="t_d12bbededd">could not store the downloaded copy</string>
+    <string name="t_3a7f38740a">this file was not opened from a server</string>
+    <string name="t_056e7a246d">the file changed on the server since you opened it</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/RemoteSync.kt -->
+    <string name="t_2624baa27b">Sync %s to this phone</string>
+    <string name="t_84b24d7541">cannot create %s</string>
+    <string name="t_95c1aa567a">bad path</string>
+    <string name="t_2a8db27209">cannot write %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
+    <string name="t_95de30daf3">not a server location</string>
+    <string name="t_d802079965">different servers</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshConnections.kt -->
+    <string name="t_fea3a5a9a9">this server was removed</string>
+    <string name="t_acf45d0000">the SSH key for this server is missing — pick one in the server settings</string>
+    <string name="t_e6cb995cfe">disconnected</string>
+    <string name="t_e051019edd">the server\'s answer came through garbled; try again</string>
+    <string name="t_b298ca9503">unknown host %s</string>
+    <string name="t_1b1c2b3ad9">connection refused — is SSH running on that port?</string>
+    <string name="t_afb7686198">no route to host</string>
+    <string name="t_8b8dfcdfff">the server did not answer</string>
+    <string name="t_969838de21">server key not trusted — connection refused for your safety</string>
+    <string name="t_5e2e3dec7e">sign-in cancelled</string>
+    <string name="t_3ab249fddd">sign-in failed — check user name, password or key</string>
+    <string name="t_95f9e2c7db">no common encryption algorithm with this server</string>
+    <string name="t_eef6dbeb19">connection lost</string>
+    <string name="t_a02d2ad034">permission denied</string>
+    <string name="t_ac583db49c">the server does not support this</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshKeys.kt -->
+    <string name="t_b519145548">not a private key this app can read (%s)</string>
+    <string name="t_b210d2b2d8">could not derive the public key</string>
+    <string name="t_be5b98c282">cannot create a %s key on this device (%s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/root/RootProvider.kt -->
+    <string name="t_9f1cf646eb">Android doesn\'t let apps read this without root. On a rooted phone, turn on Settings → Root access to open it.</string>
+    <string name="t_cc6fc0627b">This is a read-only view: turn on Settings → Root access (rooted phones) to change files here</string>
+    <string name="t_2bfe0e4682">Root access is off: turn it on in Settings → Root access</string>
+    <string name="t_c054c4c728">Root access was refused or stopped: allow ManyFile in the root app (Magisk, KernelSU…) and try again</string>
+    <string name="t_7fbe641165">unreadable listing</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/SearchFilter.kt -->
+    <string name="t_6599db8f70">invalid regular expression</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/TextScanner.kt -->
+    <string name="t_70541e4dad">invalid text pattern</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/security/Keystores.kt -->
+    <string name="t_1837b99a20">Key pair</string>
+    <string name="t_3b205516a0">Trusted certificate</string>
+    <string name="t_341f53dc3a">Secret key</string>
+    <string name="t_9f7c95cfad">not a keystore ManyFile recognises (PKCS#12, BKS or JKS)</string>
+    <string name="t_cb1f5e534c">JCEKS keystores cannot be opened on Android; convert with: keytool -importkeystore -srckeystore FILE -srcstoretype JCEKS -destkeystore FILE.p12 -deststoretype PKCS12</string>
+    <string name="t_3d09dba16c">this JKS file holds private keys, which Android cannot decrypt; convert it once with: keytool -importkeystore -srckeystore FILE.jks -destkeystore FILE.p12 -deststoretype PKCS12</string>
+    <string name="t_8416b0e65e">wrong password (or the file is damaged)</string>
+    <string name="t_3f7d0118c6">cannot read the keystore: %s</string>
+    <string name="t_376b2d4233">an entry called “%s” already exists</string>
+    <string name="t_f5fd865e12">not an X.509 certificate (PEM or DER)</string>
+    <string name="t_d3b35a9c92">no key under “%s”</string>
+    <string name="t_91bef3cbd9">the key password for “%s” is different from the store password</string>
+    <string name="t_07f00bbf0e">JCEKS is not supported</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
+    <string name="t_63ec3664ca">Release %s has no APK</string>
+    <string name="t_8ecead43d2">Release %s publishes no checksum for %s; not installing an unverified APK</string>
+    <string name="t_847c4a15f6">The downloaded APK does not match its published SHA-256 (got %s, expected %s)</string>
+    <string name="t_4f2699f369">GitHub is limiting requests; try again later</string>
+    <string name="t_4e4a9abc92">GitHub answered HTTP %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FolderLocks.kt -->
+    <string name="t_69c6369bbe">the new lock did not open</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/Vaults.kt -->
+    <string name="t_6d288788fb">the vault is locked</string>
+    <string name="t_41a612566e">wrong password — or the vault\'s header file changed since it last opened here; the recovery code still opens it</string>
+    <string name="t_59a63cfeb5">that is not a recovery code</string>
+    <string name="t_2a81745d19">wrong recovery code</string>
+    <string name="t_4bb3849360">vault files cannot be appended to</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
+    <string name="t_40be23fb3f">more than %s items to go through; narrow the pattern</string>
+    <string name="t_cbbbbf74bd">not a valid pattern: %s</string>
+    <string name="t_6c4c626142">more than %s matches; narrow the pattern</string>
+    <string name="t_f67b37f8ea">{last}: the previous step produced nothing</string>
+    <string name="t_9bba8ffd43">not a location: %s</string>
+    <string name="t_2a93d6f777">no items for this step</string>
+    <string name="t_6bcc26dfb5">%s of %s items did not arrive (%s)</string>
+    <string name="t_aa44fa3bce">checksum mismatch: expected %s</string>
+    <string name="t_20c82b3fd3">the server of this step no longer exists</string>
+    <string name="t_c8578d2ae6">the command failed (exit status %s)</string>
+    <string name="t_cd82fbcbb8">the Bin is only on this phone; choose permanent deletion for other storage</string>
+    <string name="t_84ae13a632">the step did not start</string>
+    <string name="t_65b5b83e7d">the step was cancelled</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/FileKind.kt -->
+    <string name="t_30baa24967">Folder</string>
+    <string name="t_50e19fda0d">Image</string>
+    <string name="t_bc17c1f017">Video</string>
+    <string name="t_e214b8a299">Document</string>
+    <string name="t_d613d88cb2">PDF</string>
+    <string name="t_2621c6fd51">Archive</string>
+    <string name="t_b337234efe">APK</string>
+    <string name="t_adac69379a">Code</string>
+    <string name="t_c3328c39b0">Text</string>
+    <string name="t_61074f1c95">Database</string>
+    <string name="t_b97c4d4cdd">Font</string>
+    <string name="t_45c711bd26">E-book</string>
+    <string name="t_6e6a6f2086">Other</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Formatters.kt -->
+    <string name="t_e3b8204056">Now</string>
+    <string name="t_25bb2acb00">%s min ago</string>
+    <string name="t_da24830f1f">Yesterday</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/MfError.kt -->
+    <string name="t_9ce3bd4224">OK</string>
+    <string name="t_d016004473">Permission denied</string>
+    <string name="t_475c848673">Not found</string>
+    <string name="t_3d24273be4">Already exists</string>
+    <string name="t_0059e4f60b">Invalid path</string>
+    <string name="t_294c91cdd6">Read-only storage</string>
+    <string name="t_6cc153f0e5">Network error</string>
+    <string name="t_2db8daa67b">Authentication failed</string>
+    <string name="t_edcd363083">Timed out</string>
+    <string name="t_4785c5c50f">Not enough space</string>
+    <string name="t_8e635455c1">Not supported</string>
+    <string name="t_a1bf92eff4">Cancelled</string>
+    <string name="t_b9d324a888">Is a folder</string>
+    <string name="t_6465f05cd5">Not a folder</string>
+    <string name="t_815b763bbf">Folder is not empty</string>
+    <string name="t_592a9d1678">Busy</string>
+    <string name="t_7e3d2c1338">Different storage device</string>
+    <string name="t_a6f41200b6">Input/output error</string>
+    <string name="t_aba442733b">Internal error</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Settings.kt -->
+    <string name="t_8b656a5dd9">Cover</string>
+    <string name="t_666bd59a99">Vinyl</string>
+    <string name="t_632f3d3e90">Immersive</string>
+    <string name="t_a711cca9a4">Minimal</string>
+    <string name="t_a0138b1e0d">Cassette</string>
+    <string name="t_200f14b1dc">Waveform</string>
+    <string name="t_3ad0e36982">Allow</string>
+    <string name="t_c35b32eb26">Only small transfers</string>
+    <string name="t_ed8fa57334">Wait for Wi-Fi</string>
     <string name="t_147d44fce2">Cloud drives</string>
     <string name="t_90c93523ff">Shortcuts</string>
     <string name="t_f9312169ef">Pinned</string>
@@ -20,8 +476,68 @@
     <string name="t_ed1d842d7d">Saved searches</string>
     <string name="t_ca3cddd25b">Bookmarks</string>
     <string name="t_76eec760c9">Recent</string>
+    <string name="t_cb0e65c977">System monospace</string>
+    <string name="t_41f88ed3b3">ManyFile dark</string>
+    <string name="t_b150fae857">Gruvbox dark</string>
+    <string name="t_42c2207d5a">Solarized dark</string>
+    <string name="t_248dfbcd6b">Solarized light</string>
+    <string name="t_6cfac7b315">One light</string>
+    <string name="t_82dd2cdf36">Block</string>
+    <string name="t_39773aa3ef">Underline</string>
+    <string name="t_e496fd2013">Bar</string>
+    <string name="t_f617de1466">Follow app</string>
+    <string name="t_a36ef8aba2">Light</string>
+    <string name="t_46a14fdb0a">Sepia</string>
+    <string name="t_ae1ef01432">Dark</string>
+    <string name="t_b406fb57b2">Black</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
+    <string name="t_bce0641417">Search</string>
+    <string name="t_4c5ec7b06d">Bin</string>
+    <string name="t_28314c221e">Server /</string>
+    <string name="t_8dd065073d">My Drive</string>
+    <string name="t_1be4884647">Root /</string>
+    <string name="t_982963c1c4">Tag</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Workflow.kt -->
+    <string name="t_4d68c8f134">exists</string>
+    <string name="t_59db6ba4a6">does not exist</string>
+    <string name="t_44bb3dad26">the previous step found something</string>
+    <string name="t_db85245400">the previous step found nothing</string>
+    <string name="t_4827f5d3be">text matches</string>
+    <string name="t_dec31e5aae">text does not match</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Components.kt -->
+    <string name="t_8d886c0ba6">Something went wrong</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/CrashReportDialog.kt -->
+    <string name="t_11c52c78fc">Sent to the developer (it is retried later if you are offline).</string>
+    <string name="t_576b7f144f">Send helps fix it: the report goes to t-ct.org without file paths, server names or accounts.</string>
+    <string name="t_63c94f1f67">Send future reports without asking</string>
+    <string name="t_af74f7c536">Copy</string>
+    <string name="t_2cb15d2ec5">Share crash report</string>
+    <string name="t_35f49dcfbf">Sent</string>
+    <string name="t_9bc2575c39">Send</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Dialogs.kt -->
+    <string name="t_709a23220f">Name</string>
+    <string name="t_7e5fe97f0e">Enter a name</string>
+    <string name="t_1e59912ac7">Name cannot contain /</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FileIcons.kt -->
+    <string name="t_b7e53af400">Broken link</string>
+    <string name="t_8f08528b34">Symbolic link</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FolderPicker.kt -->
+    <string name="t_c66a10739b">Cannot open this folder</string>
+    <string name="t_717c180be0">Storage /</string>
+    <string name="t_519e39132b">Path</string>
+    <string name="t_2e0b45f2a4">Go</string>
+    <string name="t_2038bdec92">Up</string>
+    <string name="t_8be7671059">Type a path</string>
+    <string name="t_a711999b72">New folder</string>
+    <string name="t_76216f7884">Nothing here</string>
+    <string name="t_7c301bb702">No folders here</string>
+    <string name="t_6e157c5da4">Create</string>
+    <string name="t_9f25630ac4">Enter a name without /</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ReleaseNotesViews.kt -->
+    <string name="t_cc97e3ee87">What\'s new in %s</string>
+    <string name="t_df8810204a">All release notes</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
     <string name="t_1ec01dc881">Copy to</string>
     <string name="t_92816e8a2d">Copy here</string>
@@ -45,10 +561,8 @@
     <string name="t_598d2917d3">Copying %d items…</string>
     <string name="t_09701b4954">Moving…</string>
     <string name="t_392ee8550d">This archive cannot be changed</string>
-    <string name="t_58f2e19bc7">Moving %s to Bin</string>
     <string name="t_f68327afdc">Deleting 1 item</string>
     <string name="t_48a9e1ac31">Deleting %d items</string>
-    <string name="t_89c61872ce">Restoring %s</string>
     <string name="t_f4b3992a08">Emptying Bin</string>
     <string name="t_4e0b06ef31">Folders cannot be shared directly</string>
     <string name="t_87279c5666">No app can open this file</string>
@@ -75,7 +589,6 @@
     <string name="t_4efeb0990b">Testing %s — see Jobs</string>
     <string name="t_572052da7c">%s already exists</string>
     <string name="t_8272793bbb">Compressing to %s — see Jobs</string>
-    <string name="t_3a254ae603">Renaming %s items</string>
     <string name="t_b0cd8741b3">Adding 1 file</string>
     <string name="t_eaa87175fc">Adding %d files</string>
     <string name="t_9664f5c668">%d added, %s</string>
@@ -94,8 +607,6 @@
     <string name="t_f09f47b290">%s is now in private storage</string>
     <string name="t_5aba8d63b2">Moving the vault did not finish — see Jobs</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
-    <string name="t_a711999b72">New folder</string>
-    <string name="t_6e157c5da4">Create</string>
     <string name="t_d3f4cb898f">Rename</string>
     <string name="t_2b61858ac9">Delete %s?</string>
     <string name="t_24bdb2be62">Items in the Bin can be restored. Permanent deletion cannot be undone.</string>
@@ -110,15 +621,12 @@
     <string name="t_48c1b22e19">Empty Bin</string>
     <string name="t_1db74771ff">Save search</string>
     <string name="t_efc007a393">Save</string>
-    <string name="t_709a23220f">Name</string>
     <string name="t_048a4d60ac">From %s</string>
     <string name="t_64e8e0aaa1">Deleted %s</string>
     <string name="t_2f3b5c55bc">Browse</string>
-    <string name="t_cf9b77061f">Open</string>
     <string name="t_3cbe6d6b9a">Restore</string>
     <string name="t_44ddd53640">%d items</string>
     <string name="t_fda584aa60">Open the vault</string>
-    <string name="t_e9b450d14b">Done</string>
     <string name="t_4aa7592708">Encrypt what was added?</string>
     <string name="t_a510819f89">1 item was put into “%s” by other apps while it was locked (the camera, downloads…).</string>
     <string name="t_f604228455">%d items were put into “%s” by other apps while it was locked (the camera, downloads…).</string>
@@ -132,8 +640,6 @@
     <string name="t_31b81c3586">Add “%s” to the vault</string>
     <string name="t_44775e2de8">The folder and everything in it are encrypted into the vault. Moving also deletes the originals once they are in (flash memory may keep traces of deleted files until it is overwritten).</string>
     <string name="t_76cdb95072">Move</string>
-    <string name="t_77dfd2135f">Cancel</string>
-    <string name="t_af74f7c536">Copy</string>
     <string name="t_24caed032b">Remove from archive?</string>
     <string name="t_f7c22dc040">%s will be removed from the archive. The archive is rewritten; this cannot be undone.</string>
     <string name="t_e963907dac">Remove</string>
@@ -143,7 +649,6 @@
     <string name="t_38272b180a">%d bytes</string>
     <string name="t_4d7c76bfe6">%d files, %d folders</string>
     <string name="t_2c9c1f7914">Unavailable</string>
-    <string name="t_30baa24967">Folder</string>
     <string name="t_d219c68101">Location</string>
     <string name="t_b7152342a2">Size</string>
     <string name="t_19a532c8bc">Modified</string>
@@ -151,7 +656,6 @@
     <string name="t_44d25b5d1b">Items</string>
     <string name="t_d06d555709">Permissions</string>
     <string name="t_8c6307bfb3">MIME type</string>
-    <string name="t_8f08528b34">Symbolic link</string>
     <string name="t_f2fb7f8f9e">target missing</string>
     <string name="t_fb360f9c09">yes</string>
     <string name="t_d4c2792a72">Hidden</string>
@@ -210,7 +714,6 @@
     <string name="t_86db27cc49">At least 4 characters</string>
     <string name="t_484e9bc837">File names stay visible; contents are encrypted. The password is not stored.</string>
     <string name="t_f5e41c0928">Compress</string>
-    <string name="t_bce0641417">Search</string>
     <string name="t_12352091ea">Change search</string>
     <string name="t_9b4ab3cba4">Text inside files</string>
     <string name="t_1b02cabf91">e.g. TODO, a function name</string>
@@ -226,12 +729,10 @@
     <string name="t_787b17bfe7">Mismatch</string>
     <string name="t_f8f4ad8f26">actual: %s</string>
     <string name="t_dda6ac27b9">Verify</string>
-    <string name="t_bbfa773e5a">Close</string>
     <string name="t_284003b30a">%s account</string>
     <string name="t_bbf5cf0fd7">%s used of %s</string>
     <string name="t_16ee5ee4c2">Sign out of %s on this phone? Its tabs close. Your files stay on %s; sign in again to see them.</string>
     <string name="t_3b26867d15">The sign-in session ends on MEGA\'s side too.</string>
-    <string name="t_b283e9cec3">Signed out of %s</string>
     <string name="t_dc1649a16c">Sign out</string>
     <string name="t_f2d81d7642">Sign out…</string>
     <string name="t_5955c1a56d">Keep me signed in</string>
@@ -276,6 +777,10 @@
     <string name="t_7ee737c83e">dir</string>
     <string name="t_9cf188d3a6">Collapse</string>
     <string name="t_9869e506c3">Expand</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileTemplates.kt -->
+    <string name="t_06b230452d">Empty file</string>
+    <string name="t_5cb9bd07aa">Shell script</string>
+    <string name="t_21885d8c0a">HTML page</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionGate.kt -->
     <string name="t_3faeee3150">Storage access</string>
     <string name="t_2394fedab0">ManyFile is a file manager: it needs “All files access” to browse, copy and organise everything in shared storage.</string>
@@ -285,7 +790,6 @@
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/QuickLook.kt -->
     <string name="t_71cbdb0869">No preview for this kind of file</string>
     <string name="t_aa2a3de913">Open with…</string>
-    <string name="t_09ca55ca52">Share</string>
     <string name="t_768e0c1c69">Title</string>
     <string name="t_6c3f3d3203">Artist</string>
     <string name="t_dfb4c9a14b">Album</string>
@@ -342,7 +846,7 @@
     <string name="t_e9d2ad65c4">Hide it: open only by typing a secret word in Search</string>
     <string name="t_adbbb7c3b6">Secret word</string>
     <string name="t_d228e56aae">Not in any menu or list. Type this word in Search to get the password prompt.</string>
-    <string name="t_4f86341724">"  Creating keys…"</string>
+    <string name="t_77d3175c2f">Creating keys…</string>
     <string name="t_442f7b723d">Could not create the vault</string>
     <string name="t_0351241548">Lock “%s”</string>
     <string name="t_cc531291cc">Everything in this folder is encrypted where it is (AES-256, names and contents). The folder keeps its name and place, but other apps and the gallery see it empty.</string>
@@ -360,8 +864,8 @@
     <string name="t_0a915a5987">Unlock %s</string>
     <string name="t_3cb5fd8e47">Recovery code</string>
     <string name="t_762010ffe0">Also unlock with my fingerprint from now on</string>
-    <string name="t_de9fbcf5d4">"  Unlocking…"</string>
-    <string name="t_7d6cc20ee7">" Fingerprint"</string>
+    <string name="t_df526fa3cd">Unlocking…</string>
+    <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_7a51aa3f4c">Use the password</string>
     <string name="t_60737e3e23">Forgot the password?</string>
     <string name="t_fb46e3745f">Vault</string>
@@ -397,8 +901,8 @@
     <string name="t_26c5aff871">In private ManyFile storage (invisible to other apps)</string>
     <string name="t_19eed72dde">In %s (other apps see an encrypted folder)</string>
     <string name="t_d241a854cc">Hide the vault folder</string>
-    <string name="t_402bb3f85a">" · shown only with hidden files on"</string>
-    <string name="t_0983e823a9">" · visible in file managers"</string>
+    <string name="t_881e002225">shown only with hidden files on</string>
+    <string name="t_a0b28bfdf1">visible in file managers</string>
     <string name="t_41f0ac9f3a">The folder is now %s (hidden)</string>
     <string name="t_14304c6fab">The folder is now %s</string>
     <string name="t_738b36c67a">Could not rename the folder: %s</string>
@@ -513,17 +1017,12 @@
     <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_8fccc25304">%s tabs</string>
     <string name="t_d7248d1bb6">Find a tab</string>
-    <string name="t_b52b36b726">Back</string>
-    <string name="t_ba4e722612">Forward</string>
-    <string name="t_2038bdec92">Up</string>
     <string name="t_3de4f901ff">server</string>
     <string name="t_d5a63c95d4">everything</string>
     <string name="t_35bbf79557">in %s</string>
     <string name="t_3fed2e6f09">Bin · items are kept %s days</string>
-    <string name="t_8dd065073d">My Drive</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
-    <string name="t_1be4884647">Root /</string>
     <string name="t_fb6a41581c">/ (read-only)</string>
     <string name="t_47de7d246f">Server idle</string>
     <string name="t_e857805da7">Server connecting</string>
@@ -550,7 +1049,6 @@
     <string name="t_d96f08d3f5">Extract here (into new folder)</string>
     <string name="t_f501568081">Extract to…</string>
     <string name="t_9b97c17789">Test archive</string>
-    <string name="t_5d12bd5355">Play</string>
     <string name="t_01fb91fe9f">Play %d songs</string>
     <string name="t_40d33c87c5">Play next</string>
     <string name="t_69b498ddb1">Add to queue</string>
@@ -628,7 +1126,6 @@
     <string name="t_3cacc7bfac">replace</string>
     <string name="t_97211a8888">What</string>
     <string name="t_38753b65f5">Archive (folder/name)</string>
-    <string name="t_2621c6fd51">Archive</string>
     <string name="t_a070690d02">Into folder</string>
     <string name="t_2c3cafa4db">File</string>
     <string name="t_672b7c9f10">Expected SHA-256 (optional: stop when different)</string>
@@ -703,7 +1200,6 @@
     <string name="t_3fcf9d5f75">ManyFile kept an unsaved draft of this file from an earlier session.</string>
     <string name="t_ab300c41bc">Restore draft</string>
     <string name="t_bfab64aaac">Go to line</string>
-    <string name="t_2e0b45f2a4">Go</string>
     <string name="t_5774f6af4a">Line (1–%s)</string>
     <string name="t_6bef9c1762">Enter a line number</string>
     <string name="t_1c0dee45ed">Changed on the server</string>
@@ -718,7 +1214,6 @@
     <string name="t_a86f6e50ea">Cursor left</string>
     <string name="t_d25ebb9fd9">Cursor right</string>
     <string name="t_07d1015d0f">Unsaved changes  +%s  −%s</string>
-    <string name="t_c176c7974e">gap%s</string>
     <string name="t_24a6191f27">No changes</string>
     <string name="t_8691a1d9b1">Previous match</string>
     <string name="t_c0ba91599d">Next match</string>
@@ -732,7 +1227,6 @@
     <string name="t_0a44446762">Save failed</string>
     <string name="t_1b18781995">Saved to %s</string>
     <string name="t_9018922457">Saved here, but the upload failed: %s</string>
-    <string name="t_475c848673">Not found</string>
     <string name="t_eaa2fe61fc">The text changed; try again</string>
     <string name="t_22abd1780e">Replaced %s</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/LargeTextViewerScreen.kt -->
@@ -753,9 +1247,7 @@
     <string name="t_a862c2b21b">Downloads</string>
     <string name="t_4da9c9af96">Camera</string>
     <string name="t_935edbe91f">Pictures</string>
-    <string name="t_687c82861c">Documents</string>
     <string name="t_131260cbfb">Music</string>
-    <string name="t_3fd293a9d6">%s of %s</string>
     <string name="t_351088b734">Root (/)</string>
     <string name="t_5042651c8f">as root</string>
     <string name="t_e474f09a00">Everything, as root</string>
@@ -780,7 +1272,6 @@
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_823879f440">Terminal (this phone)</string>
     <string name="t_c880999562">System files</string>
-    <string name="t_4c5ec7b06d">Bin</string>
     <string name="t_5cc7ff66b8">Fold %s away</string>
     <string name="t_73a0b070f1">Show %s</string>
     <string name="t_a1bb4fe8db">%s free</string>
@@ -795,13 +1286,8 @@
     <string name="t_762cb6eaf4">Drag %s</string>
     <string name="t_551a46e55e">Hide %s</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
-    <string name="t_09e871c98f">Images</string>
-    <string name="t_56b71e89fb">Videos</string>
-    <string name="t_acdac205f5">Audio</string>
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APKs</string>
-    <string name="t_adac69379a">Code</string>
-    <string name="t_73dd2f312b">Large files</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
@@ -890,14 +1376,12 @@
     <string name="t_c7dfb6f1d9">Paused</string>
     <string name="t_819ba5c9dc">Waiting for Wi-Fi</string>
     <string name="t_7ef25a76e3">Running…</string>
-    <string name="t_a1bf92eff4">Cancelled</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Working in a vault</string>
     <string name="t_11b1b5ec91">paused</string>
     <string name="t_9e1977ffd1">waiting for Wi-Fi</string>
     <string name="t_ab15b3fb1f">%d more queued</string>
     <string name="t_b3bd0b5a70">Resume</string>
-    <string name="t_781961bc81">Pause</string>
     <string name="t_64fd779c46">File operations</string>
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
@@ -907,7 +1391,6 @@
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
     <string name="t_7bd8285ab4">Song details</string>
-    <string name="t_0e6d94a559">Open with another app</string>
     <string name="t_bea13cc562">Cut a piece…</string>
     <string name="t_2695739497">Delete…</string>
     <string name="t_42c9942ef3">Stop and clear queue</string>
@@ -922,7 +1405,7 @@
     <string name="t_7cce343d09">Repeat all</string>
     <string name="t_c4d7b82af5">Repeat off</string>
     <string name="t_e906133709">Sleep timer</string>
-    <string name="t_63e7aa6d55">" end"</string>
+    <string name="t_7a92f3d263">end</string>
     <string name="t_48cc761a70">INTRO·</string>
     <string name="t_271388f94f">INTRO</string>
     <string name="t_96af65946f">Always start this song at %s</string>
@@ -959,7 +1442,6 @@
     <string name="t_1370004da7">Duration</string>
     <string name="t_7a031620c9">Sample rate</string>
     <string name="t_041a5dec48">Format</string>
-    <string name="t_519e39132b">Path</string>
     <string name="t_cfa0b8ef70">Nothing is playing.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CutSongScreen.kt -->
     <string name="t_1d74e1c284">Looking for the Media Engine…</string>
@@ -976,15 +1458,15 @@
     <string name="t_a98a145eaa">This song\'s length can\'t be read, so it can\'t be cut.</string>
     <string name="t_952f375412">Start</string>
     <string name="t_51c3cac292">The piece: %s of %s</string>
-    <string name="t_9b3568cbe9">" Stop"</string>
-    <string name="t_61b7acc88d">" Play the piece"</string>
+    <string name="t_9e253470c8">Stop</string>
+    <string name="t_83ec2223c9">Play the piece</string>
     <string name="t_2a56c44519">Hear the end</string>
     <string name="t_8d603e0f5a">While it plays, “Here” sets a point where you are.</string>
     <string name="t_96138d1a97">Name of the new song</string>
     <string name="t_21294580a4">Saved next to the song, in %s. The song itself stays as it is.</string>
     <string name="t_92ba3d08e8">its folder</string>
-    <string name="t_40e5d3d4df">" Save the piece"</string>
-    <string name="t_231b86ab6b">"  Cutting…"</string>
+    <string name="t_8cbe7e00a8">Save the piece</string>
+    <string name="t_faac9dc57d">Cutting…</string>
     <string name="t_51d20326fb">Saved “%s”</string>
     <string name="t_f6fc99f518">Play it</string>
     <string name="t_4681872daa">Cut without re-encoding: nothing of the sound is lost, and the cover and the song\'s details come along.</string>
@@ -1020,7 +1502,6 @@
     <string name="t_67092bb7e8">None in this video</string>
     <string name="t_f0aeb28a39">Track %d</string>
     <string name="t_0b513070ee">Load a subtitle file from this folder</string>
-    <string name="t_bc17c1f017">Video</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/KeyDialogs.kt -->
     <string name="t_892daef095">Generate SSH key</string>
     <string name="t_567c9306fc">Name (also the key comment)</string>
@@ -1037,15 +1518,12 @@
     <string name="t_00746c7db9">Trust this server?</string>
     <string name="t_bc37374179">The key of %s is not the one you trusted before. Someone may be intercepting the connection — or the server was reinstalled. Only continue if you know why it changed.</string>
     <string name="t_74f39697ac">Before</string>
-    <string name="t_e3b8204056">Now</string>
     <string name="t_4bf2a66872">First connection to %s (%s). Check that this fingerprint matches the server\'s (ssh-keygen -lf /etc/ssh/ssh_host_*_key.pub):</string>
     <string name="t_6defd00e9d">I know why the key changed</string>
     <string name="t_a181beeb5d">Trust new key</string>
     <string name="t_9f27e3338d">Trust and connect</string>
     <string name="t_34d8b60fe2">Hide</string>
-    <string name="t_d97d1ee339">Show</string>
     <string name="t_da8e25651c">Remember (stored encrypted on this phone)</string>
-    <string name="t_9ce3bd4224">OK</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServerEditorScreen.kt -->
     <string name="t_37a460a1de">Add server</string>
     <string name="t_d4be0b4c3c">Edit %s</string>
@@ -1155,8 +1633,7 @@
     <string name="t_428819bf9e">Defaults</string>
     <string name="t_d178cbf31c">One per line: a name or pattern (node_modules, *.log) anywhere; a path (app/build) from the synced folder; contains:FILE leaves out folders holding FILE (contains:pyvenv.cfg = every Python venv).</string>
     <string name="t_7ab8477edb">The server\'s copy wins: a synced file you edit on the phone is replaced on the next run.</string>
-    <string name="t_5cc46d6a43">" Save and sync"</string>
-    <string name="t_1246f2c29d">" Save"</string>
+    <string name="t_d3d676ab9f">Save and sync</string>
     <string name="t_77810042f5">Server folder to sync</string>
     <string name="t_fcb78747b3">Copy into</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/terminal/TerminalScreen.kt -->
@@ -1238,10 +1715,8 @@
     <string name="t_c2ef4b95d3">History lines kept</string>
     <string name="t_d15aa0efeb">More history uses more memory (about 1 MB per 1 000 lines on a wide screen).</string>
     <string name="t_7a23215f48">Terminal appearance</string>
-    <string name="t_b97c4d4cdd">Font</string>
     <string name="t_972af5268e">Size %s</string>
     <string name="t_eb4e912551">Colours</string>
-    <string name="t_921e59a2a8">" $ ls"</string>
     <string name="t_2239943c8d">Cursor</string>
     <string name="t_4983f326f3">Blinking cursor</string>
     <string name="t_bcaaa3e2ce">Keep the screen on</string>
@@ -1281,7 +1756,6 @@
     <string name="t_a3c2bdfac8">Several lines run one after another, like a small script. Use &amp;&amp; to stop at the first failure.</string>
     <string name="t_e4fbb4039d">Only for this phone</string>
     <string name="t_919b78a810">Only for this server</string>
-    <string name="t_1a1c57e8cc">"  Asking the server…"</string>
     <string name="t_cb705b966a">Up %s</string>
     <string name="t_e54826b726">load %s</string>
     <string name="t_e6575017fa">%d cores</string>
@@ -1324,13 +1798,13 @@
     <string name="t_c1f65ddb75">Engine</string>
     <string name="t_04f2b180db">TCT Engine · native core %s</string>
     <string name="t_2da600bf94">Version</string>
-    <string name="t_34594ea4b6">" (debug, %s)"</string>
+    <string name="t_22acccc706">(debug, %s)</string>
     <string name="t_1d3c457cbe">Distribution</string>
     <string name="t_09a3d3d64e">GitHub release</string>
     <string name="t_4afdf34e85">Google Play Store</string>
     <string name="t_bc7819b34f">Unknown</string>
-    <string name="t_028e49e66a">" (installed from outside the Play Store)"</string>
-    <string name="t_45086b0a7e">" (but the Play Store installed it)"</string>
+    <string name="t_061ec81799">(installed from outside the Play Store)</string>
+    <string name="t_a90de0022d">(but the Play Store installed it)</string>
     <string name="t_c228a11967">Media Engine</string>
     <string name="t_65e961e1b6">recommended %s</string>
     <string name="t_4525595a54">installed %s</string>
@@ -1375,7 +1849,6 @@
     <string name="t_8307756756">The release is signed with a different key than this ManyFile, so Android would refuse it as an update.</string>
     <string name="t_01125e1be1">Download failed</string>
     <string name="t_0388ee8f1b">Download and install</string>
-    <string name="t_58a4d661fc">Downloading %s</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/DonateDialog.kt -->
     <string name="t_9528b31200">Enter a whole KES amount above 0</string>
     <string name="t_f60059c564">M-Pesa phone number required</string>
@@ -1391,7 +1864,6 @@
     <string name="t_78644d7e26">Binance Pay</string>
     <string name="t_9a0903c58b">M-Pesa</string>
     <string name="t_43dc8532f7">Amount</string>
-    <string name="t_6e6a6f2086">Other</string>
     <string name="t_ec8b61efc7">Amount (%s)</string>
     <string name="t_c4f5a796b7">M-Pesa phone, e.g. 0712345678</string>
     <string name="t_02ed4a4a39">Proceed</string>
@@ -1428,7 +1900,6 @@
     <string name="t_95ae28be31">Browsing</string>
     <string name="t_f037b4dd5e">Tabs &amp; panes</string>
     <string name="t_a535bff5bb">Opening files</string>
-    <string name="t_2faee5210b">Code editor</string>
     <string name="t_d1a0bcf650">Music &amp; video</string>
     <string name="t_27c655fab2">Bin &amp; history</string>
     <string name="t_649294f41c">Storage &amp; cache</string>
@@ -1503,7 +1974,6 @@
     <string name="t_2e46333510">Folder size</string>
     <string name="t_664ebaeb99">Total size of everything inside, calculated in the background for folders on screen and cached</string>
     <string name="t_73fe8344ac">rwx string in the detailed layout</string>
-    <string name="t_fcecbb00b4">Thumbnails</string>
     <string name="t_3ba684212a">Images, videos, song covers, PDFs and APK icons</string>
     <string name="t_15bfc09591">Folder previews</string>
     <string name="t_e0ba9db0d7">A picture of what\'s inside on each folder: its newest photo or video, or its first app or song. Needs Thumbnails</string>
@@ -1700,25 +2170,7 @@
     <string name="t_c21b1f3061">Every preference returns to its default</string>
     <string name="t_bbfe660fd2">Reset all settings?</string>
     <string name="t_4c6491ad1d">Every preference returns to its default.</string>
-    <string name="t_1cf499348f">Hex viewer</string>
-    <string name="t_d3a26582a6">Image viewer</string>
-    <string name="t_18461dab17">Archive browser</string>
-    <string name="t_eb320c2e18">PDF reader</string>
-    <string name="t_6a7e1c722c">Media player</string>
-    <string name="t_0f704c2681">SQLite viewer</string>
-    <string name="t_4c34ed43ac">APK inspector</string>
-    <string name="t_8712175cfd">Markdown preview</string>
-    <string name="t_8f36693688">JSON tree</string>
-    <string name="t_527523bc7b">CSV table</string>
-    <string name="t_ff233fcdba">XML tree</string>
-    <string name="t_6c7d45e64e">Office viewer</string>
-    <string name="t_6e4a8ec120">Web preview</string>
-    <string name="t_99b4b94d4a">E-book reader</string>
-    <string name="t_00573746f1">Font preview</string>
-    <string name="t_7d5e3b2805">Another app</string>
     <string name="t_1b16bcb011">Follow system</string>
-    <string name="t_a36ef8aba2">Light</string>
-    <string name="t_ae1ef01432">Dark</string>
     <string name="t_61e3b40794">OLED black</string>
     <string name="t_a1fffaaafb">List</string>
     <string name="t_5f4e2d4730">Compact list</string>
@@ -1732,6 +2184,468 @@
     <string name="t_c9296e65df">Ask every time</string>
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
+    <string name="t_ed8f174fbb">%s · %s files · %s folders</string>
+    <string name="t_058581c6d7">Scanning… %s files, %s folders, %s\n%s</string>
+    <string name="t_ab478f3efc">Map</string>
+    <string name="t_7cf7e8e599">Largest</string>
+    <string name="t_93b9e289e2">Types</string>
+    <string name="t_c47bb88fdb">Oldest</string>
+    <string name="t_d044282472">Newest</string>
+    <string name="t_3159fe421b">Empty</string>
+    <string name="t_8ad8e26fb1">No empty folders</string>
+    <string name="t_a1b9c5fee5">%s files</string>
+    <string name="t_f79e3f52f9">(files in this folder)</string>
+    <string name="t_eea0692c92">(files here)</string>
+    <string name="t_0039ca4bc7">%s · %s files</string>
+    <string name="t_71f8e7976e">none</string>
+    <string name="t_bc9c4568c2">Duplicate space</string>
+    <string name="t_b74644d0b1">scanning…</string>
+    <string name="t_d69a8c1a54">not scanned</string>
+    <string name="t_28cba55d2a">Scan</string>
+    <string name="t_e29a79fe0c">Review</string>
+    <string name="t_0c70dd446f">%s in %s groups</string>
+    <string name="t_e8ea08113a">scan failed</string>
+    <string name="t_065aeadba4">By extension</string>
+    <string name="t_a5bea8cde4">(no extension)</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ApkInspectorScreen.kt -->
+    <string name="t_f347f4b30e">Browse contents</string>
+    <string name="t_0efc2e6be4">Overview</string>
+    <string name="t_e63e451943">Manifest</string>
+    <string name="t_3816c4beac">Strings</string>
+    <string name="t_ed1846afee">Classes</string>
+    <string name="t_2c059aad29">SDK</string>
+    <string name="t_26b4816377">min %s · target %s</string>
+    <string name="t_e9eb200180">%s · %s entries</string>
+    <string name="t_90ba645839">Native ABIs</string>
+    <string name="t_6ce2925c4c">Signing certificates (SHA-256)</string>
+    <string name="t_1af17a10bd">Permissions (%s)</string>
+    <string name="t_dd4a261924">Activities (%s)</string>
+    <string name="t_fc63b464bd">Services (%s)</string>
+    <string name="t_e35718c5ea">Receivers (%s)</string>
+    <string name="t_f2ff605582">Providers (%s)</string>
+    <string name="t_56443f622f">Could not parse APK: %s</string>
+    <string name="t_5d223d086f">not a valid APK</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ApkTabs.kt -->
+    <string name="t_099aade38a">Could not decode the manifest: %s</string>
+    <string name="t_f8700995da">%s · DEX %s · %s · %s classes · %s methods · %s fields · %s strings</string>
+    <string name="t_6482e0f553">unreadable</string>
+    <string name="t_9ba25e81c4">No AndroidManifest.xml</string>
+    <string name="t_7d69897140">Filter strings</string>
+    <string name="t_39641e558e">Filter classes</string>
+    <string name="t_db958d5d8d">%s strings (default language) · %s resources</string>
+    <string name="t_c63f7bac12">No DEX files</string>
+    <string name="t_6aed866d5b">%s match</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AppsScreen.kt -->
+    <string name="t_f2f8570ddd">Updated</string>
+    <string name="t_ca3ce8f32f">Search apps</string>
+    <string name="t_ef837b92ab">System apps</string>
+    <string name="t_00d91c9609">Version %s (%s) · %s</string>
+    <string name="t_721ac08ce2">%s APKs</string>
+    <string name="t_64dec0b01a">App info</string>
+    <string name="t_55d08b6c1a">Browse APK contents</string>
+    <string name="t_48794ceecd">Save APK to Downloads</string>
+    <string name="t_edeec8524c">Save APKs (.apks) to Downloads</string>
+    <string name="t_7d8bf91104">Saved %s in Download/ManyFile apps</string>
+    <string name="t_a378d7e12e">Cannot save: %s</string>
+    <string name="t_addb5ae9df">Share APK</string>
+    <string name="t_a735da1d32">Uninstall</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/CleanerScreen.kt -->
+    <string name="t_7725e05476">Starting</string>
+    <string name="t_6a2aca0b27">Moving to the Bin… %s items, see Jobs</string>
+    <string name="t_094c3b077a">Deleting… %s items, see Jobs</string>
+    <string name="t_f6ab55dd35">Scan again</string>
+    <string name="t_dbed9ee762">Looking through your storage… %s files (%s)</string>
+    <string name="t_2972223796">of junk selected — caches, temporary files and empty folders</string>
+    <string name="t_d448bc03ba">No junk selected</string>
+    <string name="t_47c975c939">Clean %s of junk?</string>
+    <string name="t_fa893d87e1">Clean</string>
+    <string name="t_86c7d94c87">Junk</string>
+    <string name="t_4acb8297cb">To look at</string>
+    <string name="t_daae1bb138">Nothing to clean — well kept!</string>
+    <string name="t_ea65ca8ec1">Duplicate files</string>
+    <string name="t_00a1e711e9">Identical files under different names</string>
+    <string name="t_e6b1c261fd">The biggest files, largest first</string>
+    <string name="t_8ddb95d902">Other apps\' caches: Android 11 and newer keep them private — clear them in Android\'s Settings → Apps → (app) → Storage.</string>
+    <string name="t_e408d97dbd">Delete 1 item (%s)?</string>
+    <string name="t_7cf1698d6c">Delete %s items (%s)?</string>
+    <string name="t_becbb31217">Junk is deleted for good (it frees the space at once).</string>
+    <string name="t_d35199c2de">Deleting for good frees the space now. The Bin keeps them for %s days — the space comes back when the Bin is emptied.</string>
+    <string name="t_9c02b4c6ff">Delete for good</string>
+    <string name="t_2fbce43666">To the Bin</string>
+    <string name="t_2c269f3f84">Any age</string>
+    <string name="t_1de70fe01a">Older than 30 days</string>
+    <string name="t_170621ac08">90 days</string>
+    <string name="t_afe36da676">1 year</string>
+    <string name="t_21cc0b59ad">%s of %s · %s</string>
+    <string name="t_618cfb0a53">Select none</string>
+    <string name="t_48c3f203a2">Open the folder</string>
+    <string name="t_120c8013ac">Sent and received</string>
+    <string name="t_27548c4fc9">Received</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/CompareScreens.kt -->
+    <string name="t_27fcbee656">Copy →</string>
+    <string name="t_1cb27a1a6c">← Copy</string>
+    <string name="t_d8d88e8f5f">Hide identical (%s)</string>
+    <string name="t_8b543c652d">Select left-newer/only</string>
+    <string name="t_100de7d3f5">%s different · %s only left · %s only right</string>
+    <string name="t_3226178977">folder on both sides</string>
+    <string name="t_c4386c8685">%s · %s  vs  %s · %s</string>
+    <string name="t_c11113ed5a">only on the left</string>
+    <string name="t_5353033131">only on the right</string>
+    <string name="t_696cc27d48">&lt;unreadable&gt;</string>
+    <string name="t_d23a1c9fb3">Diff</string>
+    <string name="t_eeaa7a3c5d">Share unified diff</string>
+    <string name="t_e96f2bd997">Changes only</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatePreviews.kt -->
+    <string name="t_218ee5135c">Preview of %s</string>
+    <string name="t_0c2765e835">%s identical copies × %s · %s to free</string>
+    <string name="t_38e3fa4265">Every copy is marked — the first one is kept when deleting</string>
+    <string name="t_1aa27d8ab7">Keep only this copy</string>
+    <string name="t_353ef8bde5">KEEP</string>
+    <string name="t_d2e240ef60">Modified %s</string>
+    <string name="t_68dccf6938">Open the folder of %s</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatesScreen.kt -->
+    <string name="t_7db08c31fb">%s marked · %s</string>
+    <string name="t_49bd904b3b">To Bin</string>
+    <string name="t_871823a37b">Finds files with identical content, regardless of name. Candidates are grouped by size, then a fast head hash, then a full SHA-256.</string>
+    <string name="t_c907857cde">Minimum size (KB)</string>
+    <string name="t_1c0da9c5c6">Add folder…</string>
+    <string name="t_5136c7932b">Skip folder…</string>
+    <string name="t_1f554e5f4a">Hidden files</string>
+    <string name="t_58d8b96942">Byte-for-byte verify</string>
+    <string name="t_ec1b99daf6">Scan %s</string>
+    <string name="t_c0ea3d5949">Scan %s folders</string>
+    <string name="t_3d860cbe35">Scanning… %s files</string>
+    <string name="t_c522a5cc5e">Quick hash %s / %s</string>
+    <string name="t_288f06b03f">Full hash %s / %s · %s</string>
+    <string name="t_691f4302fc">Verifying…</string>
+    <string name="t_90218af7b5">Finishing…</string>
+    <string name="t_0eab144475">The scan goes on if you leave this screen; ManyFile tells you when it is done.</string>
+    <string name="t_ae74c50e67">No duplicates</string>
+    <string name="t_41c13c2c79">%s files scanned.</string>
+    <string name="t_4fc61a3ff1">%s groups · %s wasted</string>
+    <string name="t_42c26862ef">Keep first</string>
+    <string name="t_e9e554262b">Keep oldest</string>
+    <string name="t_8a35f18463">Keep shortest path</string>
+    <string name="t_66e66c01b4">Keep in folder…</string>
+    <string name="t_42d0a8077b">Add a folder to scan</string>
+    <string name="t_a247ff3887">Skip a folder</string>
+    <string name="t_5396c7f243">Scan this folder</string>
+    <string name="t_d587539e2d">Skip this folder</string>
+    <string name="t_703166bf1a">Keep the copies in…</string>
+    <string name="t_ee8fda3660">%s copies · %s</string>
+    <string name="t_e069abe230">Delete %s duplicates permanently?</string>
+    <string name="t_94c5bb7a67">Move %s duplicates to Bin?</string>
+    <string name="t_b4f3b0b8f9">Only the marked copies are affected; one copy of every group stays.</string>
+    <string name="t_6008f907eb">In 1 group every copy was marked, so the first copy is kept.</string>
+    <string name="t_f7d841581b">In %s groups every copy was marked, so the first copy is kept.</string>
+    <string name="t_9b7a1065bf">Permanent deletion cannot be undone.</string>
+    <string name="t_4e637f2d9c">The Bin keeps them for %s days.</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/EngineOffer.kt -->
+    <string name="t_0b9a1fe861">It runs Media Downloader and Cut a song, apart from ManyFile.</string>
+    <string name="t_b367b7acb9">Update the Media Engine</string>
+    <string name="t_0e76f40a25">Media Engine %s</string>
+    <string name="t_2fb549ea62">Get the Media Engine</string>
+    <string name="t_e5d0e21d16">This version of ManyFile recommends Media Engine %s or newer: it has fixes and changes ManyFile relies on. You have %s.</string>
+    <string name="t_0ebde99a75">Media Engine %s is downloaded and ready to install.</string>
+    <string name="t_61bb2a622d">Media Engine %s wasn\'t downloaded yet, since you\'re on mobile data.</string>
+    <string name="t_6e14c523b5">A newer Media Engine is downloaded and ready to install.</string>
+    <string name="t_c96eed5bd9">The Media Engine is downloaded and ready to install.</string>
+    <string name="t_1e1da5c31a">Media Engine %s is out.</string>
+    <string name="t_6637a818cc">The Media Engine is available: %s.</string>
+    <string name="t_84d373e08f">You\'re on mobile data, so it wasn\'t downloaded yet.</string>
+    <string name="t_c177e4b0aa">Downloading…</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/InstallerUi.kt -->
+    <string name="t_85d8201c3f">Cannot install: %s</string>
+    <string name="t_07e9f29adb">Allow installing apps?</string>
+    <string name="t_db8365772e">Android lets ManyFile install apps only after you turn on “Allow from this source” for it. Android still asks you to confirm every install.</string>
+    <string name="t_fd7108f831">Open settings</string>
+    <string name="t_8819e22c13">Reading %s…</string>
+    <string name="t_423b28ff5e">Preparing %s</string>
+    <string name="t_6e8f4d673c">Android asks to confirm next</string>
+    <string name="t_dd05888bce">Install %s?</string>
+    <string name="t_f67e9a41e8">this is an update</string>
+    <string name="t_44c316d1e2">this is older: Android refuses downgrades</string>
+    <string name="t_01c5e4277b">the same version</string>
+    <string name="t_e3a74d5329">Needs</string>
+    <string name="t_9d71621a8c">Android API %s or newer</string>
+    <string name="t_6f42d19dbb">this device has API %s</string>
+    <string name="t_16c4234c01">For this device</string>
+    <string name="t_497450d44c">1 APK</string>
+    <string name="t_51a8636419">(%s for other devices left out)</string>
+    <string name="t_35f0347974">Game data (OBB)</string>
+    <string name="t_9ef2ca5ab2">1 file</string>
+    <string name="t_b25928c699">Total</string>
+    <string name="t_9b7c0ef7c6">Permissions it asks for</string>
+    <string name="t_1efc2b30d0">This app cannot run on this device.</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/KeystoreScreen.kt -->
+    <string name="t_3fb180f85c">cannot read the file</string>
+    <string name="t_7af47b97fb">1 entry</string>
+    <string name="t_bf0ab23f95">%s entries</string>
+    <string name="t_fa542d0af4">Generate key pair…</string>
+    <string name="t_a284604965">Import certificate…</string>
+    <string name="t_00dc665944">Change password…</string>
+    <string name="t_c96b80b706">No entries yet. ⋮ → Generate key pair… creates an app signing key.</string>
+    <string name="t_bc4425ef0d">created %s</string>
+    <string name="t_705bf65189">Certificate %s of %s</string>
+    <string name="t_10de46b3b3">Certificate</string>
+    <string name="t_67a265e11c">Exported %s next to the keystore</string>
+    <string name="t_97c8834946">Could not export the certificate</string>
+    <string name="t_db966d266f">Export certificate</string>
+    <string name="t_7a3316f4b5">New keystore</string>
+    <string name="t_cfc63a6a8f">A PKCS#12 keystore (what Android Studio and keytool use). Choose its password.</string>
+    <string name="t_d3ddc48dfb">The store and its keys get the new password when you save.</string>
+    <string name="t_be21600a9c">Generated “%s” — tap Save to write it</string>
+    <string name="t_06bcf8ffab">Could not generate the key</string>
+    <string name="t_7f74b0b3a4">Import certificate</string>
+    <string name="t_423bca7e91">This removes the private key. Apps signed with it can no longer be updated unless you have another copy (a .bak copy is made when you save).</string>
+    <string name="t_6d259a49c1">This removes the certificate from the keystore.</string>
+    <string name="t_e01b26a785">%s has unsaved changes.</string>
+    <string name="t_b646a2b93a">%s copied</string>
+    <string name="t_31ff8c3590">%s keystore</string>
+    <string name="t_13526e9523">Unknown format</string>
+    <string name="t_44168b7199">Enter the keystore password. It is only kept while this screen is open.</string>
+    <string name="t_4661ccd5e0">Store password</string>
+    <string name="t_f9571559bf">Cannot open</string>
+    <string name="t_b1b8530bbd">Opening…</string>
+    <string name="t_697c9ee847">valid until %s</string>
+    <string name="t_72c0bb5a2c">EXPIRED</string>
+    <string name="t_4136497c36">Copy %s</string>
+    <string name="t_8d183dbdce">Subject</string>
+    <string name="t_2587e48b81">Issuer</string>
+    <string name="t_9d902fd4d2">%s (self-signed)</string>
+    <string name="t_a4aefa35c3">Valid</string>
+    <string name="t_4398ba31da">(expired)</string>
+    <string name="t_a5349d62e6">Serial number</string>
+    <string name="t_d1b9abd8d9">Key · signature</string>
+    <string name="t_ac49e1ca66">At least 6 characters (keytool\'s minimum)</string>
+    <string name="t_04259816ac">Alias</string>
+    <string name="t_27cc8fa3d2">Generate key pair</string>
+    <string name="t_63ab34a26a">A private key with a self-signed certificate, e.g. to sign Android apps (Google Play wants RSA 2048+ valid for 25 years).</string>
+    <string name="t_2eaa4fc4fc">Name (CN)</string>
+    <string name="t_1ee22f98f6">Organisational unit (OU)</string>
+    <string name="t_21965e20d4">Organisation (O)</string>
+    <string name="t_e285835d44">City (L)</string>
+    <string name="t_e93f6bd0b0">State (ST)</string>
+    <string name="t_ce3223a611">Country code (C)</string>
+    <string name="t_644b428344">Valid for (years)</string>
+    <string name="t_ea0c5ca490">The key uses the keystore password (as keytool does for PKCS#12).</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/LocalTerminalScreen.kt -->
+    <string name="t_790222857d">Terminal · this phone</string>
+    <string name="t_9dac10abaa">Open this folder</string>
+    <string name="t_8cbea0dd03">Clear screen</string>
+    <string name="t_c47ae15370">Help</string>
+    <string name="t_a326829fd3">Forget history</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/MediaCookies.kt -->
+    <string name="t_4912726120">In Firefox (or Edge) on this phone, add the extension “Cookie-Editor”.</string>
+    <string name="t_a799a4a4af">In that browser, open the site (youtube.com, tiktok.com, x.com…) and sign in.</string>
+    <string name="t_89441bb766">Open Cookie-Editor from the browser\'s menu, tap Export and choose Netscape (JSON works too). The site\'s cookies are now copied.</string>
+    <string name="t_fdfe9b6451">Come back here and tap Paste cookies. Then do the same for the next site: each paste is added next to the others.</string>
+    <string name="t_1a3091c6d5">did not work on %s</string>
+    <string name="t_7e5da25d31">ran out on %s</string>
+    <string name="t_76b4acbfde">ran out</string>
+    <string name="t_c2aa6f0683">run out today</string>
+    <string name="t_785abdff5c">run out tomorrow</string>
+    <string name="t_09fad11d31">run out in %s days (%s)</string>
+    <string name="t_1c6c3b5222">Cookies for %s %s: paste fresh ones</string>
+    <string name="t_850988200e">Cookies: none. For videos that need you signed in.</string>
+    <string name="t_a3cd23be19">Cookies for %s</string>
+    <string name="t_8bd1a5d288">Cookies for %s and %s more sites</string>
+    <string name="t_1b2a2069aa">the site saw nobody signed in. Sign in again in the browser and paste fresh cookies.</string>
+    <string name="t_bb2a2f86d2">paste fresh ones.</string>
+    <string name="t_de0fb1a7ed">1 cookie</string>
+    <string name="t_63b19809a3">%s cookies</string>
+    <string name="t_ce8d88014b">for one browser session</string>
+    <string name="t_d365244b76">signed in until %s</string>
+    <string name="t_e94dc3022f">until %s</string>
+    <string name="t_ab57aa31cc">Added %s cookies.</string>
+    <string name="t_d9882ef012">The engine now holds %s for 1 site.</string>
+    <string name="t_207a50d9c6">The engine now holds %s for %s sites.</string>
+    <string name="t_064e27fb06">Added cookies for %s.</string>
+    <string name="t_158e0b54c7">Replaced the old cookies for %s.</string>
+    <string name="t_534b4680b4">Other sites\' cookies stay as they were.</string>
+    <string name="t_6a0f4e5ce0">%s and %s</string>
+    <string name="t_256a1e3e48">%s and %s more sites</string>
+    <string name="t_3fab62d233">This site only shows this to a signed-in visitor. Update the Media Engine to 0.5.0 or newer: it can then use your browser\'s cookies.</string>
+    <string name="t_f5fc0d8eff">This site only shows this to a signed-in visitor, and the cookies you added for %s have run out. Sign in again in your browser and paste fresh ones.</string>
+    <string name="t_9fc40b127a">This site only shows this to a signed-in visitor, and the cookies you added for %s did not open it: the site may have signed them out, or this account can\'t see it. Sign in again in your browser and paste fresh cookies.</string>
+    <string name="t_f31cedb32a">This site only shows this to a signed-in visitor (private, age-restricted or members-only videos, or a “confirm you\'re not a robot” check). Add your browser\'s cookies for it, then try again.</string>
+    <string name="t_0a71143559">The Media Engine is not answering.</string>
+    <string name="t_8e44b3fabe">Nothing to paste: export the cookies in Cookie-Editor first.</string>
+    <string name="t_eb03e84019">That file could not be read as a cookies file.</string>
+    <string name="t_524cf50b5d">Cookies</string>
+    <string name="t_b1d5cebc58">Some videos only open for a signed-in visitor: private, age-restricted or members-only ones, or when a site asks you to confirm you\'re not a robot. Cookies are how a site knows you are signed in; you can copy yours from your browser.</string>
+    <string name="t_5e65f10e67">Looking…</string>
+    <string name="t_d8078e30fe">No cookies added yet.</string>
+    <string name="t_409b511a36">Removed the cookies for %s.</string>
+    <string name="t_7628d7a77a">Remove the cookies for %s</string>
+    <string name="t_2fb6260e83">Add one site at a time, or many at once: each paste is added next to the cookies you have. Pasting a site again replaces its old cookies.</string>
+    <string name="t_110e8619f3">Paste cookies</string>
+    <string name="t_74b1d89d85">Choose a file</string>
+    <string name="t_9c26bc3e8d">All cookies removed.</string>
+    <string name="t_4100ef4df5">Remove all</string>
+    <string name="t_d69cb0445c">How to get them</string>
+    <string name="t_6e8b39e9f8">A cookies.txt file saved by another export add-on works too (Choose a file). One paste or file may hold many sites.</string>
+    <string name="t_0ba80f6a0c">They don\'t last forever</string>
+    <string name="t_52c23bd671">Cookies run out, and sites sign them out (when you sign out in the browser, or after a while). This list says when a site\'s cookies ran out, run out within %s days, or did not work: then sign in again in the browser and paste fresh ones.</string>
+    <string name="t_f0fcd1af69">YouTube changes the cookies of a browser you keep using, and the copied ones then stop working. For YouTube, sign in from a private tab (allow Cookie-Editor there), export, and close the tab without signing out.</string>
+    <string name="t_4196a70475">Good to know: cookies work like a password for that site, so don\'t share them. The Media Engine keeps them encrypted and sends each one only to its own site. A site may limit an account it sees downloading a lot; a second account is the careful choice.</string>
+    <string name="t_bf58d17e56">Manage</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/MediaDownloaderScreen.kt -->
+    <string name="t_7cf49e3d8d">The list of sites could not be downloaded</string>
+    <string name="t_b1e2ad6995">Downloading %s of “%s”.</string>
+    <string name="t_d7a5a9a40f">That Media Engine is signed with another key than ManyFile, so ManyFile would not use it.</string>
+    <string name="t_26ad099862">%s results</string>
+    <string name="t_e835d129f3">Check the Media Engine again</string>
+    <string name="t_f96a302f74">Link, or words to search YouTube</string>
+    <string name="t_dc716a57d4">Analyze the link</string>
+    <string name="t_e17e232a5a">Search YouTube</string>
+    <string name="t_4dc5731a7a">Asking the site… (tap to stop)</string>
+    <string name="t_fc6a5154e9">← Back to the results</string>
+    <string name="t_58d2296432">← Back to the playlist</string>
+    <string name="t_5d300c5ff9">Add cookies</string>
+    <string name="t_28049622ff">%s formats, best first</string>
+    <string name="t_c3773beeda">⬇ downloads that one. Video without sound gets the best sound joined to it.</string>
+    <string name="t_758a146687">Download %s</string>
+    <string name="t_4aee225590">%s results for “%s” — tap one to analyze it</string>
+    <string name="t_ab8aed1734">%s items — tap one to analyze it</string>
+    <string name="t_4b86b7c050">More results</string>
+    <string name="t_3aa357c551">Save media downloads to</string>
+    <string name="t_f366db46f9">Clear the history?</string>
+    <string name="t_2c98e89b90">All %s links and searches are removed from this list.</string>
+    <string name="t_af5bfbc02f">Downloading %s of %s</string>
+    <string name="t_c11b0ed44a">Media Engine %s is available.</string>
+    <string name="t_9c14f0b84c">Update the engine</string>
+    <string name="t_eb7e6ecca6">From ManyFile\'s releases on GitHub, checked against its SHA-256; Android asks you to confirm. The downloaded file is deleted afterwards.</string>
+    <string name="t_82319c345d">Couldn\'t find the engine on GitHub: %s</string>
+    <string name="t_c9e429b179">Nightly</string>
+    <string name="t_d96e5b2dd0">Stable</string>
+    <string name="t_c4cbac003f">Update now</string>
+    <string name="t_c449b73fe9">%s in use.</string>
+    <string name="t_397c085b1a">Nightly gets site fixes first; checked once a day.</string>
+    <string name="t_bca201ee5b">Stable releases come every few weeks; checked once a day.</string>
+    <string name="t_77003d0727">Best</string>
+    <string name="t_5db2579261">Up to 720p</string>
+    <string name="t_bdba76b783">Audio only</string>
+    <string name="t_b0655f04d0">Save to %s</string>
+    <string name="t_df7d313091">Best and Up to 720p save MP4 (H.264 + AAC) when the site has it at that size: it plays on every phone. Other kinds are in the list below.</string>
+    <string name="t_5c3f6c860b">Remove from history</string>
+    <string name="t_e17d81db1b">Starting it can take a few seconds the first time.</string>
+    <string name="t_e0d21b1ea6">Not in this build</string>
+    <string name="t_84dd5ac12a">Media downloads are only in the GitHub build of ManyFile.</string>
+    <string name="t_0d77895938">Media Engine not installed</string>
+    <string name="t_1749d44270">Downloads from YouTube, TikTok, Instagram, X, Vimeo and many other sites need the optional ManyFile Media Engine app (about 20 MB: Python and yt-dlp), so ManyFile itself stays small.</string>
+    <string name="t_05f13866da">It has no screen of its own: you use it from here.</string>
+    <string name="t_e6615ea2a8">Media Engine not trusted</string>
+    <string name="t_c488906303">The installed engine (%s) isn\'t signed with ManyFile\'s key, so ManyFile won\'t use it. Uninstall it and install the official one.</string>
+    <string name="t_0d660a2749">Update ManyFile</string>
+    <string name="t_f5d28d4b24">This Media Engine (%s) needs a newer ManyFile.</string>
+    <string name="t_42e6020079">This Media Engine (%s) is too old for this ManyFile.</string>
+    <string name="t_015d779619">Media Engine not answering</string>
+    <string name="t_63fe0dcea7">%s (engine %s). Tap ↻ to try again.</string>
+    <string name="t_73989d9c59">Running</string>
+    <string name="t_d63431f753">Update the engine for YouTube search and yt-dlp updates.</string>
+    <string name="t_cacb41f642">Update the engine to 0.4.0 or newer: YouTube needs its JavaScript runtime (fewer refused downloads, every format).</string>
+    <string name="t_71db3baf45">YouTube: this Media Engine has no JavaScript runtime, so some formats may be missing and downloads may be refused. Update the Media Engine.</string>
+    <string name="t_0f01dec0c3">This site sometimes wants proof of a real browser, which the engine can\'t give on Android yet. If it fails here, that is why.</string>
+    <string name="t_ed03a7c24a">yt-dlp update failed: %s</string>
+    <string name="t_a80cc14771">yt-dlp updated to %s (%s).</string>
+    <string name="t_0253171ed2">yt-dlp %s is the newest %s version.</string>
+    <string name="t_a6471d438a">%s views</string>
+    <string name="t_0918834918">1 view</string>
+    <string name="t_b65de96d30">Works with YouTube, TikTok, X, Instagram, Facebook, Vimeo, SoundCloud and about 1,700 more sites.</string>
+    <string name="t_76f0c2c4f5">See the list</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SpeedTestScreen.kt -->
+    <string name="t_2230545037">Test against</string>
+    <string name="t_66c06c11d1">Internet</string>
+    <string name="t_1a51df901f">A file\'s URL</string>
+    <string name="t_612c641448">Cloudflare\'s speed-test servers (speed.cloudflare.com), the nearest of them.</string>
+    <string name="t_8ecbf7d7bb">Your server over SFTP: temporary files in its home folder, removed afterwards. Encryption on both sides limits the speed.</string>
+    <string name="t_1e7b75ba30">https://… a big file</string>
+    <string name="t_f6992295bd">Advanced: %s s · %s connections · up to %s MB</string>
+    <string name="t_af2c5d7fbb">no upload</string>
+    <string name="t_2dcf1dc56f">Time per direction</string>
+    <string name="t_bf59b9140b">Connections at once</string>
+    <string name="t_a4e3c87f1a">Data cap per direction</string>
+    <string name="t_f1a2092004">Test upload too</string>
+    <string name="t_6f2f6c23eb">Mobile data: this test can use up to %s MB.</string>
+    <string name="t_fd3e796994">Connecting…</string>
+    <string name="t_7c08c4b9b0">Measuring round trips…</string>
+    <string name="t_8bdf057f91">Upload</string>
+    <string name="t_61e604ee45">%.1f Mbit/s</string>
+    <string name="t_3028a53865">%.0f ms</string>
+    <string name="t_db0ca2bd3c">Earlier results</string>
+    <string name="t_ea88d974c7">Could not finish: %s</string>
+    <string name="t_8aa40d6d52">↓ download over time</string>
+    <string name="t_c7e1862ff5">↑ upload over time</string>
+    <string name="t_6b68e97973">Ping</string>
+    <string name="t_70a5b3c8ee">Jitter</string>
+    <string name="t_0d05d4dd9d">Under load</string>
+    <string name="t_6512ee1541">Connection</string>
+    <string name="t_ea8ce9d833">%s used</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SqliteEditing.kt -->
+    <string name="t_67524c7bc0">Copy of the row</string>
+    <string name="t_9bb5261862">New row</string>
+    <string name="t_eeefe357fc">Edit row</string>
+    <string name="t_796fe15b72">&lt;blob, kept&gt;</string>
+    <string name="t_a62f2225bf">key</string>
+    <string name="t_3a22f2e50f">Copy as new</string>
+    <string name="t_202ba1f6dd">Delete this row?</string>
+    <string name="t_83f8342d25">New table</string>
+    <string name="t_92db13efcb">Table name</string>
+    <string name="t_c06c7ed876">Column %s</string>
+    <string name="t_f4bbf8103e">Primary key</string>
+    <string name="t_9ab3d03a9d">Not null</string>
+    <string name="t_7924e9e384">+ column</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SqliteViewerScreen.kt -->
+    <string name="t_7aaaead801">Database is not open</string>
+    <string name="t_7bf6f7b4d3">Read-only: enable writes (a backup is made first) to run this statement</string>
+    <string name="t_38755fbbc8">&lt;blob %s B&gt;</string>
+    <string name="t_961f7b1b3c">SQL error</string>
+    <string name="t_b2dc47d910">%s tables</string>
+    <string name="t_6dc1292bee">%s failed: %s</string>
+    <string name="t_2d621f2fef">%s rows → %s</string>
+    <string name="t_8ff89d2b6a">Select the whole page</string>
+    <string name="t_6f75681e8d">Duplicating</string>
+    <string name="t_89c15bd3ba">Row copied</string>
+    <string name="t_47e079e48d">%s rows copied</string>
+    <string name="t_7744803e13">%s · WRITABLE</string>
+    <string name="t_6c354bd95b">%s · read-only</string>
+    <string name="t_1fa9bca713">Run SQL</string>
+    <string name="t_d0a4eea446">Enable writes</string>
+    <string name="t_7afd2ba1ad">Cannot open database: %s</string>
+    <string name="t_58306d2afa">Integrity check</string>
+    <string name="t_d7e671f01a">New table…</string>
+    <string name="t_77ca442df5">Import CSV…</string>
+    <string name="t_a5de5aac7c">Tables (%s)</string>
+    <string name="t_68090ca06a">Views (%s)</string>
+    <string name="t_bdc873d0a3">Indexes (%s)</string>
+    <string name="t_2708702c20">Triggers (%s)</string>
+    <string name="t_bbe422c58c">%s · page %s</string>
+    <string name="t_e96fea52df">Prev</string>
+    <string name="t_f648af13b3">Add row</string>
+    <string name="t_5755f9ac0a">Export CSV</string>
+    <string name="t_2e260b0492">Tap a row to edit it · long-press to select several</string>
+    <string name="t_b5230ecdf4">Schema</string>
+    <string name="t_3016fc40e5">Enable writes to select, delete or copy rows</string>
+    <string name="t_deee9c8bd5">Export result as CSV</string>
+    <string name="t_369c534df3">Saving</string>
+    <string name="t_2cda36c95c">Deleting</string>
+    <string name="t_48a693c488">Adding</string>
+    <string name="t_29cea4e503">Row added</string>
+    <string name="t_f08c26dac7">Delete %s rows?</string>
+    <string name="t_1acfc2317f">They are removed from “%s”. The copy “%s.bak” made when writes were turned on still has them.</string>
+    <string name="t_c8442fd6d7">%s rows deleted</string>
+    <string name="t_3554f1a7de">Creating the table</string>
+    <string name="t_30fefed9b4">Choose a CSV file</string>
+    <string name="t_9ebfd80f51">Imported into “%s”</string>
+    <string name="t_ad7e04a0b7">Enable writes?</string>
+    <string name="t_0133d96b1b">A backup copy “%s.bak” is created next to the database before any change.</string>
+    <string name="t_20063ad905">Enable</string>
+    <string name="t_458a2c6a9c">Showing the first 2000 rows</string>
+    <string name="t_475978640b">No rows</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
+    <string name="t_901b56b2a8">Nothing to show</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_e6c3b183a1">Could not read the document</string>
     <string name="t_3f6ef92f1e">Could not save: %s</string>
@@ -1740,7 +2654,7 @@
     <string name="t_78d7ec6ef4">Save as copy</string>
     <string name="t_4be3b1d5ff">Each field is one paragraph. An edited paragraph keeps the style of its first words (mixed bold or colours inside it become one style); pictures, tables and layout are not changed.</string>
     <string name="t_a43c7bf1f5">New paragraph</string>
-    <string name="t_10bfb62a92">" · edited"</string>
+    <string name="t_a22fca6c30">edited</string>
     <string name="t_d6b0ebd50b">Add a paragraph below</string>
     <string name="t_33aae9c140">Remove this paragraph</string>
     <string name="t_4cd0172b9f">Discard your changes?</string>
@@ -1750,7 +2664,6 @@
     <string name="t_9ee397b3ca">Match at 0x%s</string>
     <string name="t_03393761e5">%s · hex</string>
     <string name="t_793fc271c3">Search bytes</string>
-    <string name="t_06b230452d">Empty file</string>
     <string name="t_a8a4e129a9">Go to offset</string>
     <string name="t_2c0fabd961">Offset (decimal or 0x hex)</string>
     <string name="t_44f5c8f5eb">Enter a number</string>
@@ -1762,7 +2675,7 @@
     <string name="t_251adac1ac">Save copy</string>
     <string name="t_6f72f3cd12">Rotate left</string>
     <string name="t_b75f23d1d0">Rotate right</string>
-    <string name="t_92ddd69371">" Mirror"</string>
+    <string name="t_74adc5789c">Mirror</string>
     <string name="t_b059e4187d">Flip vertically</string>
     <string name="t_e1a2b65df8">Brightness</string>
     <string name="t_c4fc37ad99">Contrast</string>
@@ -1772,7 +2685,6 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageViewerScreen.kt -->
     <string name="t_4dd57e9137">Rotate view</string>
     <string name="t_be0ed4ef90">All images in this folder</string>
-    <string name="t_dc3decbb93">Details</string>
     <string name="t_001d54c280">Slideshow</string>
     <string name="t_4d85b47e97">Set as…</string>
     <string name="t_800a8aade2">Print…</string>
@@ -1795,7 +2707,6 @@
     <string name="t_386a761e23">Find in document</string>
     <string name="t_cc6fdf1b09">Spreadsheet</string>
     <string name="t_6e875951a6">Presentation</string>
-    <string name="t_e214b8a299">Document</string>
     <string name="t_0906f92324">Close search</string>
     <string name="t_1feeb8a75c">Save (%s)</string>
     <string name="t_6d9e51fe5a">Edit cells</string>
