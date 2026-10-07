@@ -1,4 +1,14 @@
 {
   "version": 1,
-  "languages": []
+  "languages": [
+    {
+      "code": "fr",
+      "name": "French",
+      "native": "Français",
+      "rtl": false,
+      "version": 1,
+      "file": "strings-fr.xml",
+      "sha256": "904b80f291eaa411e15325670dab0dfab392bca290c78fa8c0687b61f13a8125"
+    }
+  ]
 }
