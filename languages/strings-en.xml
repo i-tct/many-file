@@ -66,6 +66,7 @@
     <string name="t_2050d8324c">No browser to sign in with</string>
     <string name="t_b283e9cec3">Signed out of %s</string>
     <string name="t_afac332a99">Signed out of MEGA</string>
+    <string name="t_1c388f146f">Now playing</string>
     <string name="t_deccaac6e9">Press back again to exit</string>
     <string name="t_49bec33b37">Tag: %s</string>
     <string name="t_73dd2f312b">Large files</string>
@@ -1410,7 +1411,7 @@
     <string name="t_271388f94f">INTRO</string>
     <string name="t_96af65946f">Always start this song at %s</string>
     <string name="t_7b0272a073">Forget the start (%s)</string>
-    <string name="t_3b64a9da4d">Equalizer</string>
+    <string name="t_3c9564ea04">Volume and equalizer</string>
     <string name="t_55005478d5">Player style: %s</string>
     <string name="t_135da9c677">No lyrics</string>
     <string name="t_449c06704f">Put a .lrc (synced) or .txt file with the same name next to the song, or in a Lyrics folder.</string>
@@ -1429,6 +1430,9 @@
     <string name="t_22254444f8">Large title, follows the app theme</string>
     <string name="t_95de701eca">Tape with turning reels</string>
     <string name="t_c530421f5b">Seek on the song\'s real loudness curve</string>
+    <string name="t_ff481990e9">Volume boost: off</string>
+    <string name="t_3ef13560b3">Volume boost: %s%%</string>
+    <string name="t_c1b1085aa9">Above 100% the sound is raised past the phone\'s maximum; high levels can distort and are hard on small speakers and ears.</string>
     <string name="t_719077b082">This phone does not offer an equalizer to apps right now. Start a song first, or try the system panel.</string>
     <string name="t_df174a3f2f">Enabled</string>
     <string name="t_e709e76ff5">Presets</string>
@@ -1995,6 +1999,7 @@
     <string name="t_db771f504c">Off: changing layout, sort or hidden files from the toolbar becomes the default for every folder</string>
     <string name="t_fb76dacb88">Forget per-folder layouts</string>
     <string name="t_15bc6ed4c6">Every folder goes back to the defaults above</string>
+    <string name="t_7a87ee53d4">Every folder uses the defaults again</string>
     <string name="t_7e08ebec5e">Developer</string>
     <string name="t_e5249bfc44">Browsing above internal storage</string>
     <string name="t_4cfca2bfdc">Browsing starts at internal storage</string>
@@ -2063,10 +2068,12 @@
     <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_b5057475b0">Reset remembered decisions</string>
     <string name="t_5d9c50f2e1">Delete and overwrite behaviour go back to “Ask”</string>
+    <string name="t_375f75518f">Deleting and overwriting ask again</string>
     <string name="t_77c0bf15ab">Opening a file from “Open with…” (long-press a file) with “Always” ticked remembers the viewer for that file type. Tap a type to forget it.</string>
     <string name="t_6aa73ca761">Nothing remembered yet</string>
     <string name="t_7135007970">Forget all</string>
     <string name="t_827b7c556a">Every type goes back to the automatic choice</string>
+    <string name="t_6f3a0c9994">Every type opens the automatic way again</string>
     <string name="t_83ca9e48c3">Font size</string>
     <string name="t_002981adf1">Editor size limit (KB)</string>
     <string name="t_8fa0990fa7">Bigger files open in the large-file viewer: read-only, any size, instant</string>
@@ -2089,6 +2096,8 @@
     <string name="t_3d08307f67">Save while typing (local files)</string>
     <string name="t_0559f5ef86">Background playback</string>
     <string name="t_924731da99">Music keeps playing, with a notification, after you leave the player or close the app</string>
+    <string name="t_915d5199ee">Playing bar</string>
+    <string name="t_f116854fa8">What is playing shows in a bar at the bottom of Home and the file browser; off, the notification and ☰ → Now playing open the player</string>
     <string name="t_b5ed066d49">Remember the queue</string>
     <string name="t_4284929c37">After a restart the last song waits, paused, in the bar at the bottom</string>
     <string name="t_3d4da20a52">Skip silence</string>
@@ -2100,7 +2109,7 @@
     <string name="t_b5edb39c7e">Continue after other apps\' sound</string>
     <string name="t_0fd1d52d12">Music and videos paused by another app (a video in the browser, another player) play on once that app has been quiet for a few seconds</string>
     <string name="t_5458351c91">Gestures</string>
-    <string name="t_38171c232e">Swipe sideways to seek; up/down on the left for brightness, on the right for volume; double-tap the sides to skip; hold for 2×; pinch to zoom</string>
+    <string name="t_bf2066095d">Swipe sideways to seek; up/down on the left for brightness, on the right for volume (past the top, a boost up to 150%); double-tap the sides to skip; hold for 2×; pinch to zoom</string>
     <string name="t_6fee1573b4">Double-tap skip (seconds)</string>
     <string name="t_43da85c5b8">Picture-in-picture</string>
     <string name="t_431cf72d57">A playing video shrinks to a floating window when you leave the app</string>
@@ -2115,6 +2124,9 @@
     <string name="t_f9f2cf2c3d">Subtitle size (%)</string>
     <string name="t_82db1c397b">Forget playback positions</string>
     <string name="t_391ae1e711">Every video and audiobook starts from the beginning again</string>
+    <string name="t_957871f055">No playback positions were saved</string>
+    <string name="t_dc32a6e216">Forgot 1 playback position</string>
+    <string name="t_51913d66ab">Forgot %s playback positions</string>
     <string name="t_c26ef122be">On a rooted phone (Magisk, KernelSU…), ManyFile can open the whole file system: /data, /system and every app\'s own files.</string>
     <string name="t_6c6c66bd60">It is off by default, and nothing is asked of the phone until you turn it on. Until then, Root (/) in the ☰ menu shows what Android lets any app read there, read-only.</string>
     <string name="t_122c169e4c">Allow root access</string>
@@ -2146,16 +2158,23 @@
     <string name="t_11c341de74">Clear recents</string>
     <string name="t_52d764fa58">Undo history for renames, moves and deletes</string>
     <string name="t_2608969dc6">Clear undo history</string>
+    <string name="t_9825d6ce8f">Undo history cleared</string>
     <string name="t_e43d7b93c2">Clear recents?</string>
     <string name="t_fa67c5107a">The list of recently opened locations will be emptied.</string>
     <string name="t_f26ded19fc">Clear thumbnail cache</string>
     <string name="t_f99f46a417">Thumbnails are rebuilt when needed</string>
+    <string name="t_9cfb511684">Thumbnail cache cleared: %s freed</string>
     <string name="t_cb28037842">Clear saved server listings</string>
     <string name="t_2242abf7c8">Server and Drive folders load fresh next time (they are shown instantly from this cache)</string>
+    <string name="t_b468c457e4">Saved server listings cleared</string>
     <string name="t_2bd595fa69">Forget remembered positions</string>
     <string name="t_2aca87b14b">PDF pages and media playback positions</string>
+    <string name="t_f7da7f2e4a">No positions were saved</string>
+    <string name="t_e3758e8ac0">Forgot 1 remembered position</string>
+    <string name="t_3441cf1af1">Forgot %s remembered positions</string>
     <string name="t_ca1b0c86f8">Clear downloaded server files</string>
     <string name="t_b04c29c17c">Working copies of files opened from SFTP servers</string>
+    <string name="t_546cd4bf3c">Downloaded server files cleared: %s freed</string>
     <string name="t_6a4c5989f3">Last crash report</string>
     <string name="t_27e7700fda">sent</string>
     <string name="t_9f168ab240">tap to view, send or delete; deleted after 30 days</string>
@@ -2184,6 +2203,7 @@
     <string name="t_c9296e65df">Ask every time</string>
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
+    <string name="t_ea88d974c7">Could not finish: %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
     <string name="t_ed8f174fbb">%s · %s files · %s folders</string>
     <string name="t_058581c6d7">Scanning… %s files, %s folders, %s\n%s</string>
@@ -2575,7 +2595,6 @@
     <string name="t_61e604ee45">%.1f Mbit/s</string>
     <string name="t_3028a53865">%.0f ms</string>
     <string name="t_db0ca2bd3c">Earlier results</string>
-    <string name="t_ea88d974c7">Could not finish: %s</string>
     <string name="t_8aa40d6d52">↓ download over time</string>
     <string name="t_c7e1862ff5">↑ upload over time</string>
     <string name="t_6b68e97973">Ping</string>
