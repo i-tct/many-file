@@ -424,11 +424,17 @@
     <string name="t_056e7a246d">the file changed on the server since you opened it</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/RemoteSync.kt -->
     <string name="t_2624baa27b">Sync %s to this phone</string>
+    <string name="t_bf0bc86932">this sync was removed</string>
     <string name="t_84b24d7541">cannot create %s</string>
     <string name="t_4822b2f94b">Listing %s</string>
     <string name="t_36aaf8e826">%s files on the server, %s to download, %s up to date</string>
     <string name="t_78f6c67cf4">%s to delete</string>
     <string name="t_a0c5a5edf9">deleted %s</string>
+    <string name="t_82fb1d5144">Up to date</string>
+    <string name="t_405d99ee6a">%s updated</string>
+    <string name="t_1c63bd052c">%s deleted</string>
+    <string name="t_344bccf57a">%s unchanged</string>
+    <string name="t_d0b7b836a3">%s files could not be downloaded (see the job\'s log)</string>
     <string name="t_95c1aa567a">bad path</string>
     <string name="t_2a8db27209">cannot write %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
@@ -753,6 +759,8 @@
     <string name="t_f09f47b290">%s is now in private storage</string>
     <string name="t_5aba8d63b2">Moving the vault did not finish — see Jobs</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
+    <string name="t_8fe9cab887">Compare “%s” with…</string>
+    <string name="t_8d105cf44d">Compare</string>
     <string name="t_d3f4cb898f">Rename</string>
     <string name="t_2b61858ac9">Delete %s?</string>
     <string name="t_24bdb2be62">Items in the Bin can be restored. Permanent deletion cannot be undone.</string>
@@ -941,6 +949,11 @@
     <string name="t_d153e75080">Bitrate</string>
     <string name="t_f5cbdf6bfb">Contents</string>
     <string name="t_773f1699cf">empty (0 bytes)</string>
+    <string name="t_ac47333e54">This picture couldn\'t be read</string>
+    <string name="t_cccad6bb2f">Not downloaded for a preview</string>
+    <string name="t_9f4ca9ec08">Dimensions</string>
+    <string name="t_4da9c9af96">Camera</string>
+    <string name="t_c66c12b988">Taken</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SortSheet.kt -->
     <string name="t_a2a5bdeca9">Sort by</string>
     <string name="t_46e63a67d0">Folders first</string>
@@ -1167,6 +1180,8 @@
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
     <string name="t_fb6a41581c">/ (read-only)</string>
+    <string name="t_134b2afd98">Pinned: this tab stays at %s. Folders you open from it open in a tab beside it.</string>
+    <string name="t_000f085275">Unpinned: this tab moves with you again.</string>
     <string name="t_47de7d246f">Server idle</string>
     <string name="t_e857805da7">Server connecting</string>
     <string name="t_01aa273307">Server connected</string>
@@ -1198,6 +1213,7 @@
     <string name="t_84fadbdd27">Compare folders</string>
     <string name="t_94a4a22d57">Diff text</string>
     <string name="t_484c48c826">Compare contents (bytes)</string>
+    <string name="t_b788ba9c87">Compare with…</string>
     <string name="t_fac13fcb46">Tags…</string>
     <string name="t_441da1bf0e">Bookmark</string>
     <string name="t_001de2b938">Calculate size</string>
@@ -1386,7 +1402,6 @@
     <string name="t_8f96242112">Add a cloud drive</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
     <string name="t_a862c2b21b">Downloads</string>
-    <string name="t_4da9c9af96">Camera</string>
     <string name="t_935edbe91f">Pictures</string>
     <string name="t_131260cbfb">Music</string>
     <string name="t_351088b734">Root (/)</string>
@@ -1747,7 +1762,9 @@
     <string name="t_939d682c1b">Syncs run on their schedule even when ManyFile is closed (Android wakes it at most every 15 minutes; 5 minutes works while it is open).</string>
     <string name="t_6415419137">Add a server first (☰ → Servers).</string>
     <string name="t_99dd579863">No syncs yet: tap + to choose a server folder.</string>
+    <string name="t_7da8b59e8f">Removed server</string>
     <string name="t_2b7d938e67">Sync now</string>
+    <string name="t_36aabe29d3">Preview…</string>
     <string name="t_126efacbfd">Open the phone folder</string>
     <string name="t_b363acf38e">Open the server folder</string>
     <string name="t_b454359e65">Edit…</string>
@@ -1762,6 +1779,16 @@
     <string name="t_43a6a1d762">Delete the sync of %s?</string>
     <string name="t_858633dd19">It stops syncing. The files already on this phone (%s) and on the server stay.</string>
     <string name="t_84b3936ede">Delete sync</string>
+    <string name="t_a4bfadd1ca">What a sync would do</string>
+    <string name="t_9b931b3229">Nothing to do: the phone\'s copy is up to date (%s files).</string>
+    <string name="t_a3e8c3ff98">%s to download · %s unchanged</string>
+    <string name="t_f3a3320b33">and %s more</string>
+    <string name="t_6705da620c">Your copy is replaced (%s)</string>
+    <string name="t_c191170c9d">Changed on this phone, or there before the first sync: the server\'s version takes its place.</string>
+    <string name="t_f4c34c70a6">New (%s)</string>
+    <string name="t_837663da3e">Changed on the server (%s)</string>
+    <string name="t_c22f737c7a">Deleted from this phone (%s)</string>
+    <string name="t_dc502ae85a">Gone from the server, and unchanged here since the last sync.</string>
     <string name="t_a2620cbc10">day</string>
     <string name="t_2c6b08088d">New folder sync</string>
     <string name="t_cdd33e1e17">Edit sync</string>
@@ -2441,7 +2468,11 @@
     <string name="t_1cb27a1a6c">← Copy</string>
     <string name="t_d8d88e8f5f">Hide identical (%s)</string>
     <string name="t_8b543c652d">Select left-newer/only</string>
+    <string name="t_22986c11e2">Checking %s / %s</string>
     <string name="t_100de7d3f5">%s different · %s only left · %s only right</string>
+    <string name="t_2feada6893">same contents</string>
+    <string name="t_68b2406431">contents differ</string>
+    <string name="t_b715805bd5">contents unreadable</string>
     <string name="t_3226178977">folder on both sides</string>
     <string name="t_c4386c8685">%s · %s  vs  %s · %s</string>
     <string name="t_c11113ed5a">only on the left</string>
@@ -2843,8 +2874,8 @@
     <string name="t_efcc8f1b3f">Delete this picture?</string>
     <string name="t_9d627fbe19">"\nIt can be restored from the Bin."</string>
     <string name="t_e8f63a0202">Set as</string>
-    <string name="t_9f4ca9ec08">Dimensions</string>
-    <string name="t_c66c12b988">Taken</string>
+    <string name="t_82cf6f7679">Camera RAW</string>
+    <string name="t_7dc7b7a53c">its JPEG preview is shown</string>
     <string name="t_68c2cc7f0c">Model</string>
     <string name="t_862ee3b17a">Exposure</string>
     <string name="t_aae1263383">Aperture</string>
