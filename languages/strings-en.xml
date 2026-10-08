@@ -5,6 +5,24 @@
   Translate the texts, keep the names and placeholders (%s, %d, %1$s…), and save it as strings-<code>.xml.
 -->
 <resources>
+    <!-- app/src/main/kotlin/tct/manyfile/AppLockScreen.kt -->
+    <string name="t_9aa63775cb">Unlock ManyFile</string>
+    <string name="t_62e8cdff76">Type it instead</string>
+    <string name="t_fb5241784c">Wrong PIN</string>
+    <string name="t_fc2066fe52">Wrong password</string>
+    <string name="t_fd9c1bfa4f">ManyFile is locked</string>
+    <string name="t_1526a17ee7">Unlock</string>
+    <string name="t_3adadd31e7">PIN</string>
+    <string name="t_8be3c943b1">Password</string>
+    <string name="t_f201500f1f">Too many wrong tries: wait %d s</string>
+    <string name="t_8b19c6f0b8">Use fingerprint</string>
+    <string name="t_507199a1cd">Forgot the PIN?</string>
+    <string name="t_60737e3e23">Forgot the password?</string>
+    <string name="t_bf45c48c12">Use the phone\'s screen lock to open ManyFile, then set a new one in Settings → App lock.</string>
+    <string name="t_dc77ae8034">ManyFile keeps no copy of it. To remove the lock, clear ManyFile\'s data: Android Settings → Apps → ManyFile → Storage → Clear data. That forgets ManyFile\'s settings and sign-ins; your files stay, and vaults keep their own passwords.</string>
+    <string name="t_2ff552a599">Use the screen lock</string>
+    <string name="t_9ce3bd4224">OK</string>
+    <string name="t_77dfd2135f">Cancel</string>
     <!-- app/src/main/kotlin/tct/manyfile/FileOpener.kt -->
     <string name="t_2faee5210b">Code editor</string>
     <string name="t_1cf499348f">Hex viewer</string>
@@ -46,6 +64,10 @@
     <string name="t_0e6d94a559">Open with another app</string>
     <string name="t_09ca55ca52">Share</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
+    <string name="t_b7c4d17782">Reach devices on your Wi-Fi?</string>
+    <string name="t_dbca62bc83">Android asks before an app connects to computers, NAS boxes and other devices at home. ManyFile needs it for servers on your network (SMB, WebDAV, SFTP) and for Wi-Fi sharing. Android calls it “Nearby devices”.</string>
+    <string name="t_2e02623966">Continue</string>
+    <string name="t_e457149073">Not now</string>
     <string name="t_033bd7cae8">OneDrive: %s</string>
     <string name="t_20ca9940f5">Google Drive: %s</string>
     <string name="t_b52b36b726">Back</string>
@@ -56,6 +78,10 @@
     <string name="t_0236a61933">Could not download %s: %s</string>
     <string name="t_a22be90072">The Media Engine could not be downloaded; Media Downloader can try again</string>
     <string name="t_270f820086">“%s” is empty (0 bytes)</string>
+    <string name="t_739cef94de">Your home screen app doesn\'t take shortcuts</string>
+    <string name="t_20db5d20c5">Saved “%s” (%d pages)</string>
+    <string name="t_db6985e1e8">The scan couldn\'t be saved: %s</string>
+    <string name="t_bc2d6d6245">The scanner needs Google Play services (it comes with them): %s</string>
     <string name="t_dc3decbb93">Details</string>
     <string name="t_d97d1ee339">Show</string>
     <string name="t_cf9b77061f">Open</string>
@@ -74,16 +100,34 @@
     <string name="t_4e9b031813">ManyFile closed unexpectedly</string>
     <string name="t_0fbb3cac17">Reset tabs</string>
     <string name="t_3fd293a9d6">%s of %s</string>
-    <string name="t_77dfd2135f">Cancel</string>
     <string name="t_5f3b4d3795">Connecting to %s…</string>
     <string name="t_0e595f16b9">Could not connect to %s</string>
     <string name="t_9f5cd8a2e8">Retry</string>
     <string name="t_8112928dee">Edit server</string>
     <string name="t_bbfa773e5a">Close</string>
+    <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
+    <string name="t_a1f52cdcb3">Terminal</string>
+    <string name="t_a731ca287e">Phone terminal</string>
+    <string name="t_65d1e24a35">Terminal on %s</string>
+    <string name="t_a8f1359c93">This server was removed from ManyFile</string>
+    <!-- app/src/main/kotlin/tct/manyfile/share/WifiShareService.kt -->
+    <string name="t_b30469ec12">Sharing on Wi-Fi</string>
+    <string name="t_a073d6484d">1 download</string>
+    <string name="t_c36e16e244">%d downloads</string>
+    <string name="t_0e45aee6e5">Stop sharing</string>
+    <string name="t_86497a4694">Wi-Fi sharing</string>
+    <string name="t_21c28c06da">While files are shared on Wi-Fi, with a button to stop</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/BatchRename.kt -->
     <string name="t_7cf99b4a1b">Invalid regular expression</string>
     <string name="t_c210617eb7">Duplicate name in this batch</string>
     <string name="t_c5c994a1ff">Collides with another selected file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/DataGraph.kt -->
+    <string name="t_6bac58c4b2">%d files</string>
+    <string name="t_76bf81c3a3">no folder chosen to put them in</string>
+    <string name="t_997e9bbc83">Moved %s to %s</string>
+    <string name="t_1d28d84f1f">Copied %s to %s</string>
+    <string name="t_e9b58bc008">its Command was deleted</string>
+    <string name="t_2000ac9714">Ran “%s” on %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/TextFiles.kt -->
     <string name="t_3e22566313">file not found</string>
     <string name="t_a6b8206b1b">no parent</string>
@@ -147,6 +191,8 @@
     <string name="t_740b23bbae">%s needs Android API %s or newer; this device has API %s</string>
     <string name="t_2ffe16abe3">Could not write the app\'s data file to %s: %s. Copy it there by hand from the bundle.</string>
     <string name="t_faa780715a">Install failed: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/DocumentScans.kt -->
+    <string name="t_1eb40244c5">the scanner gave no PDF</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/DownloadNetworkState.kt -->
     <string name="t_7b1d2344d6">Waiting for the network</string>
     <string name="t_819ba5c9dc">Waiting for Wi-Fi</string>
@@ -155,9 +201,19 @@
     <string name="t_2fc58b0cd1">Cannot open %s</string>
     <string name="t_5fbf730a10">this file</string>
     <string name="t_1e9892d332">The other app did not share the file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/LocalNetwork.kt -->
+    <string name="t_91969383f2">Android keeps ManyFile away from devices on your Wi-Fi: allow “Nearby devices” for ManyFile (Settings → Apps → ManyFile → Permissions)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/Notifications.kt -->
     <string name="t_825ce9e97d">Workflows</string>
     <string name="t_edc13f8ed3">Messages from Command Center workflows</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/SharedFiles.kt -->
+    <string name="t_60d310fa9b">Shared text %s</string>
+    <string name="t_7d78dc0b15">Saving %s</string>
+    <string name="t_cffd2bc837">%s was not saved: %s</string>
+    <string name="t_7b1afc8476">%d of %d not saved: %s</string>
+    <string name="t_90838fa2ba">Saved as %s</string>
+    <string name="t_6c64abb1f8">%d files saved</string>
+    <string name="t_1e87a4c3e0">the other app didn\'t let ManyFile read it</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/StorageVolumes.kt -->
     <string name="t_90208b15be">Internal storage</string>
     <string name="t_8a5fddc8cf">External storage</string>
@@ -210,6 +266,9 @@
     <string name="t_20ffa24622">%s compresses one file; use a TAR format for folders or several files</string>
     <string name="t_1ba3b3396e">%s files hold one compressed file and cannot take entries</string>
     <string name="t_8e9ff6324b">an encrypted 7z cannot be changed here: it would be saved without encryption</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsBackup.kt -->
+    <string name="t_140920362b">made by a newer ManyFile: update it to restore this file</string>
+    <string name="t_4b6d6ef213">not a ManyFile settings file</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
     <string name="t_e1c1a4ad35">cannot reach Google Drive: %s</string>
     <string name="t_7c561ab42b">Drive did not start the upload</string>
@@ -372,7 +431,6 @@
     <string name="t_1e56326b6f">The download failed</string>
     <string name="t_700e733fd0">The Media Engine lost the download</string>
     <string name="t_b593e52038">Saved %s</string>
-    <string name="t_7d78dc0b15">Saving %s</string>
     <string name="t_f6be727515">The site wants you signed in: add your cookies for it in Media Downloader → Cookies, then retry.</string>
     <string name="t_1a5fee166c">Joining video and audio</string>
     <string name="t_84d6e40861">Adding the song\'s cover and details</string>
@@ -454,7 +512,6 @@
     <string name="t_fea3a5a9a9">this server was removed</string>
     <string name="t_7579b28e28">Password for %s</string>
     <string name="t_19f5ab6fc5">That password did not work.</string>
-    <string name="t_8be3c943b1">Password</string>
     <string name="t_5e2e3dec7e">sign-in cancelled</string>
     <string name="t_7e61a9510a">the server doesn\'t know the user “%s” and offered a guest sign-in instead: check the user name (on Linux, add it with sudo smbpasswd -a %s)</string>
     <string name="t_e0107df1ab">sign-in failed — check user name and password</string>
@@ -540,6 +597,16 @@
     <string name="t_d3b35a9c92">no key under “%s”</string>
     <string name="t_91bef3cbd9">the key password for “%s” is different from the store password</string>
     <string name="t_07f00bbf0e">JCEKS is not supported</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/share/WifiShare.kt -->
+    <string name="t_5681b346ed">nothing to share</string>
+    <string name="t_90557dd386">Connect to Wi-Fi (or turn on the hotspot) first: the computer must be on the same network</string>
+    <string name="t_7cc4f952e8">no free port to share on</string>
+    <string name="t_4e8660b45b">Shared from %s</string>
+    <string name="t_385519c8d4">Everything shared</string>
+    <string name="t_543659cec5">Download this folder (.zip)</string>
+    <string name="t_ae3731bef9">Download everything (.zip)</string>
+    <string name="t_4bc2e3e9bf">Shared with ManyFile. This page stops working when sharing is stopped on the phone.</string>
+    <string name="t_afffdd08d8">folder</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/shell/LocalTerminal.kt -->
     <string name="t_4194dec35a">Type help for the commands. Files use ManyFile\'s storage access.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
@@ -649,7 +716,6 @@
     <string name="t_25bb2acb00">%s min ago</string>
     <string name="t_da24830f1f">Yesterday</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/MfError.kt -->
-    <string name="t_9ce3bd4224">OK</string>
     <string name="t_d016004473">Permission denied</string>
     <string name="t_475c848673">Not found</string>
     <string name="t_3d24273be4">Already exists</string>
@@ -749,6 +815,8 @@
     <string name="t_7c301bb702">No folders here</string>
     <string name="t_6e157c5da4">Create</string>
     <string name="t_9f25630ac4">Enter a name without /</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
+    <string name="t_6619f4706d">Confirm it\'s you</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ReleaseNotesViews.kt -->
     <string name="t_cc97e3ee87">What\'s new in %s</string>
     <string name="t_df8810204a">All release notes</string>
@@ -849,7 +917,6 @@
     <string name="t_f604228455">%d items were put into “%s” by other apps while it was locked (the camera, downloads…).</string>
     <string name="t_753618f682">They are not encrypted yet, and other apps can see them.</string>
     <string name="t_9f726188c1">Encrypt</string>
-    <string name="t_e457149073">Not now</string>
     <string name="t_a9d808bcce">Back up vault (encrypted) to</string>
     <string name="t_2231a0921c">Back up here</string>
     <string name="t_1ada44705d">Add a folder to the vault</string>
@@ -1028,6 +1095,19 @@
     <string name="t_9f4ca9ec08">Dimensions</string>
     <string name="t_4da9c9af96">Camera</string>
     <string name="t_c66c12b988">Taken</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SaveSharedScreen.kt -->
+    <string name="t_c2e4747903">Save to ManyFile</string>
+    <string name="t_44407a5a5d">Saving to %s — progress in Jobs</string>
+    <string name="t_2f59885d38">Save here</string>
+    <string name="t_cf2d975502">Save %d files here</string>
+    <string name="t_47766c9dac">Reading what was shared…</string>
+    <string name="t_d6d13de84d">Nothing ManyFile can save was shared (the other app may not have allowed reading it).</string>
+    <string name="t_fb649a9c47">and %d more</string>
+    <string name="t_f142818a71">Save to</string>
+    <string name="t_2cd6bdeeb8">Choose a folder…</string>
+    <string name="t_031e0fdab8">On the phone, a server, a cloud drive or an open vault</string>
+    <string name="t_78b7c9f6d6">Choose</string>
+    <string name="t_9eaa6540f4">Vault %s</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SortSheet.kt -->
     <string name="t_a2a5bdeca9">Sort by</string>
     <string name="t_46e63a67d0">Folders first</string>
@@ -1053,7 +1133,6 @@
     <string name="t_79a5e47f3a">This phone is rooted. Turn on root access to see and change everything here.</string>
     <string name="t_26563efc2a">Turn on</string>
     <string name="t_1a77ae0ee6">“%s” is locked: its files are encrypted.</string>
-    <string name="t_1526a17ee7">Unlock</string>
     <string name="t_0929b6a485">No file in %s is larger than %s.</string>
     <string name="t_bb6a881023">Nothing in %s matches “%s”.</string>
     <string name="t_830489bc03">Larger than %s</string>
@@ -1099,7 +1178,6 @@
     <string name="t_df526fa3cd">Unlocking…</string>
     <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_7a51aa3f4c">Use the password</string>
-    <string name="t_60737e3e23">Forgot the password?</string>
     <string name="t_fb46e3745f">Vault</string>
     <string name="t_727c00997a">Choose a new password for %s</string>
     <string name="t_caad7a1005">%s settings</string>
@@ -1170,6 +1248,7 @@
     <string name="t_f38b4d8c93">Add files to the vault…</string>
     <string name="t_9fdaa23025">Add files…</string>
     <string name="t_d5ef9e37a6">Add a folder to the vault…</string>
+    <string name="t_0db5fc766c">Scan a document here…</string>
     <string name="t_8b731c66c5">Download from URL here…</string>
     <string name="t_6eeb46a3ef">New vault (encrypted)…</string>
     <string name="t_d43a62dec8">1 item to %s</string>
@@ -1247,7 +1326,6 @@
     <string name="t_25644cbc26">Close tabs to the right (%s)</string>
     <string name="t_46534bf63a">Close all tabs</string>
     <string name="t_33124446b4">All tabs (%s)…</string>
-    <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_8fccc25304">%s tabs</string>
     <string name="t_d7248d1bb6">Find a tab</string>
     <string name="t_d5a63c95d4">everything</string>
@@ -1280,6 +1358,7 @@
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
     <string name="t_219f3bcc39">Move to %s</string>
+    <string name="t_56a0a90a9a">Share on Wi-Fi…</string>
     <string name="t_f601707434">Compress…</string>
     <string name="t_c365bfc45f">Browse archive</string>
     <string name="t_d96f08d3f5">Extract here (into new folder)</string>
@@ -1323,6 +1402,42 @@
     <string name="t_5576e1ddc6">failed %s</string>
     <string name="t_626420139a">cancelled %s</string>
     <string name="t_377dab66d5">running: %s</string>
+    <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/FolderRulesScreen.kt -->
+    <string name="t_b0530988a7">Folder rules</string>
+    <string name="t_b9ac14b0c6">New rule</string>
+    <string name="t_db2907a6d3">A rule watches a folder on this phone and handles its new files by itself: moves or copies them (to the phone, a server or a cloud drive) or runs a Command on each. Rules act while ManyFile is open, and every 15 minutes when it isn\'t.</string>
+    <string name="t_697a712c66">No rules yet: “New rule” starts one, or from an example.</string>
+    <string name="t_2af00e23c4">Run now</string>
+    <string name="t_b454359e65">Edit…</string>
+    <string name="t_2695739497">Delete…</string>
+    <string name="t_c839efa2d8">New PDFs in Download go to Documents</string>
+    <string name="t_6dd97a941f">PDFs to Documents</string>
+    <string name="t_bc75a88707">New screenshots are backed up (choose where)</string>
+    <string name="t_6e609b28d7">Back up screenshots</string>
+    <string name="t_864d0805bf">An empty rule</string>
+    <string name="t_b5a85952f1">Delete “%s”?</string>
+    <string name="t_a9b8efd584">Only the rule goes; files it already moved or copied stay where they are.</string>
+    <string name="t_178e12393e">(and its folders)</string>
+    <string name="t_8c0bf26fc4">move to %s</string>
+    <string name="t_fff98c8669">copy to %s</string>
+    <string name="t_c3caf5c83a">run “%s”</string>
+    <string name="t_7eefc065b8">Choose a folder to watch</string>
+    <string name="t_f2af4ba612">Choose where the files go</string>
+    <string name="t_ffc15cd67b">The files can\'t go into the folder being watched</string>
+    <string name="t_1d74e7bde6">Choose a Command</string>
+    <string name="t_1f53b22761">Edit rule</string>
+    <string name="t_d91ebf5887">Watch</string>
+    <string name="t_c426764dc8">Its folders too</string>
+    <string name="t_91241414e8">New files that are</string>
+    <string name="t_69c09221bd">Or name patterns (*.pdf, IMG_*)</string>
+    <string name="t_b7d93209fe">Then</string>
+    <string name="t_12a59f3d59">Run a Command</string>
+    <string name="t_b447824b6b">No Commands yet: make one in the Command Center. It gets the file as {file} ({file.name}, {file.stem}, {file.ext}, {file.folder}).</string>
+    <string name="t_0d208eed91">Choose where they go…</string>
+    <string name="t_8d593b5867">A name already there gets “(2)”; nothing is replaced.</string>
+    <string name="t_19cc867647">Also the files already there</string>
+    <string name="t_c1d5c2f718">Watch this folder</string>
+    <string name="t_225531c58a">Put the files in</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowEditorScreen.kt -->
     <string name="t_ea3c7a8650">Edit workflow</string>
     <string name="t_f5448585ca">Delete workflow</string>
@@ -1404,7 +1519,6 @@
     <string name="t_1f46983828">Both</string>
     <string name="t_7e9aa84f03">Sub-folders too</string>
     <string name="t_0e77d6d13a">Use this folder</string>
-    <string name="t_78b7c9f6d6">Choose</string>
     <string name="t_24e59d43c0">+ another item</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowLauncher.kt -->
     <string name="t_0f0510ab7b">Run %s?</string>
@@ -1498,19 +1612,23 @@
     <string name="t_dcbd796de2">Vaults</string>
     <string name="t_f6c9155e35">Locked folders</string>
     <string name="t_b7f85f4aef">All bookmarks…</string>
-    <string name="t_2dbc2fd235">online</string>
     <string name="t_01c9a42820">Add a server…</string>
+    <string name="t_fca0583e04">%d online</string>
+    <string name="t_2dbc2fd235">online</string>
     <string name="t_a371621a76">Manage servers…</string>
     <string name="t_b32a659820">Folder sync</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_d96c0c1288">Add a cloud drive…</string>
     <string name="t_d9a36850b7">Apps</string>
     <string name="t_45e5f3f72e">Commands</string>
+    <string name="t_d2256cf6e2">Scan a document</string>
     <string name="t_279875bab4">Download from URL</string>
     <string name="t_6fa1406af9">Media Downloader</string>
     <string name="t_889a9cca7b">Duplicates</string>
+    <string name="t_ee79525942">Similar photos</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_00a681619f">Cleaner</string>
+    <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_823879f440">Terminal (this phone)</string>
     <string name="t_c880999562">System files</string>
@@ -1527,24 +1645,44 @@
     <string name="t_44c57abd88">Reset</string>
     <string name="t_762cb6eaf4">Drag %s</string>
     <string name="t_551a46e55e">Hide %s</string>
+    <string name="t_ea80fba3d0">Hidden tiles: tap one to show it again</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APKs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
+    <string name="t_858df0c869">Wi-Fi share</string>
+    <string name="t_28cba55d2a">Scan</string>
     <string name="t_bc0792d8dc">System</string>
+    <string name="t_a2c72ad7b5">Set a screen lock (PIN, pattern, password or fingerprint) in the phone\'s settings first</string>
+    <string name="t_6cb2b4b5ca">Lock %s</string>
+    <string name="t_d225916bac">%s asks for your fingerprint or screen lock before opening</string>
+    <string name="t_9e5e219f66">%s opens without asking</string>
+    <string name="t_8cbe703f2a">Hide %s?</string>
+    <string name="t_8257e85fae">It leaves Home. Rearrange Home (at the bottom of Home) lists hidden tiles: tap one there to show it again.</string>
+    <string name="t_34d8b60fe2">Hide</string>
+    <string name="t_d098e97544">Remove %s from Quick access?</string>
+    <string name="t_77f34049dc">Only the tile goes: the folder and its files stay where they are. Quick access\'s + adds it again.</string>
     <string name="t_316f0b5edb">%d active jobs</string>
     <string name="t_c5e23457aa">connected</string>
-    <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_544aa0b589">Manage bookmarks</string>
+    <string name="t_d25e5aef9a">added %s</string>
     <string name="t_0a4cb13c05">Show in folder</string>
     <string name="t_32b5b990d5">Remove from Recent</string>
     <string name="t_0d52befa5c">Rearrange Home</string>
     <string name="t_94ac9a58b6">Rename…</string>
+    <string name="t_9155fcfc36">Lock…</string>
+    <string name="t_e2913e431d">Hide from Home…</string>
+    <string name="t_eaa66a3a4d">Remove from Quick access…</string>
     <string name="t_981fd0f4e6">Add a folder</string>
     <string name="t_03eb1a4433">Add folder</string>
+    <string name="t_a798882f1c">Locked</string>
     <string name="t_4fff9ddb3d">Tap to allow ManyFile to open it</string>
+    <string name="t_c8b2e864ec">Photos</string>
+    <string name="t_da021d8e37">App files</string>
+    <string name="t_b0c0a3787c">Other files</string>
+    <string name="t_a86cf61891">Apps &amp; system</string>
     <string name="t_9904a9beb1">The whole file system, as root</string>
     <string name="t_8d1b65e9eb">Name on Home</string>
     <string name="t_77561f3d48">Original name</string>
@@ -1553,6 +1691,9 @@
     <string name="t_89625bc6f0">Choose one, or make a new one first</string>
     <string name="t_61b1c983cb">A folder from another app</string>
     <string name="t_5eff8662f7">Through Android\'s picker: SD cards, USB drives, cloud apps</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentsScreen.kt -->
+    <string name="t_1a0ca20f96">Recently added files are off (Settings → Bin &amp; history → Recent locations)</string>
+    <string name="t_cf79591755">Nothing new on the phone in the last 30 days</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_b9b40da0d7">The server could not be reached</string>
     <string name="t_613a4e2c19">For direct links to a file only (they end in .zip, .apk, .mp4, .pdf…): it downloads them faster, in several parts at once, and can pause and resume.</string>
@@ -1567,7 +1708,6 @@
     <string name="t_d691f4fac6">Open in Media Downloader</string>
     <string name="t_09979a78c9">File name</string>
     <string name="t_8741eeda75">From the server</string>
-    <string name="t_f142818a71">Save to</string>
     <string name="t_8f3509b64e">Connections</string>
     <string name="t_c614ba7c45">Auto</string>
     <string name="t_221f40ab7f">This server sends the file in one piece: one connection, and a stopped download starts over.</string>
@@ -1632,7 +1772,6 @@
     <string name="t_586fa7a8e5">NOW PLAYING</string>
     <string name="t_7bd8285ab4">Song details</string>
     <string name="t_bea13cc562">Cut a piece…</string>
-    <string name="t_2695739497">Delete…</string>
     <string name="t_42c9942ef3">Stop and clear queue</string>
     <string name="t_e53407cfe1">Player</string>
     <string name="t_8670cb1f9e">Lyrics</string>
@@ -1721,6 +1860,8 @@
     <string name="t_ad93611684">Paused · tap play to continue</string>
     <string name="t_b4155c42ae">Can\'t play: %s</string>
     <string name="t_7dd843728a">Stop and close</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
+    <string name="t_9d07399ccc">The file got shorter while playing</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoPlayerScreen.kt -->
     <string name="t_d982e28596">No sound: %s is not supported</string>
     <string name="t_ba0100768c">audio format</string>
@@ -1767,7 +1908,6 @@
     <string name="t_6defd00e9d">I know why the key changed</string>
     <string name="t_a181beeb5d">Trust new key</string>
     <string name="t_9f27e3338d">Trust and connect</string>
-    <string name="t_34d8b60fe2">Hide</string>
     <string name="t_da8e25651c">Remember (stored encrypted on this phone)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServerEditorScreen.kt -->
     <string name="t_9b4ef14147">Not a web address: like https://cloud.example.com/remote.php/dav/files/me</string>
@@ -1809,7 +1949,6 @@
     <string name="t_6bf5da9c08">Options</string>
     <string name="t_78fe599277">Start folder</string>
     <string name="t_c282b4e67e">share/folder</string>
-    <string name="t_afffdd08d8">folder</string>
     <string name="t_5743232899">home folder</string>
     <string name="t_72acc548b9">Empty: the list of shared folders</string>
     <string name="t_6e5a3e4909">Empty: the top of the address above</string>
@@ -1882,7 +2021,6 @@
     <string name="t_36aabe29d3">Preview…</string>
     <string name="t_126efacbfd">Open the phone folder</string>
     <string name="t_b363acf38e">Open the server folder</string>
-    <string name="t_b454359e65">Edit…</string>
     <string name="t_62690eaf0e">Delete sync…</string>
     <string name="t_a95262f700">Syncing: %s</string>
     <string name="t_221ca63005">Syncing…</string>
@@ -1940,12 +2078,17 @@
     <string name="t_14258cccdd">Appearance…</string>
     <string name="t_d15f886d60">Full screen</string>
     <string name="t_524932e050">Browse files</string>
+    <string name="t_85773bc941">Add to home screen</string>
+    <string name="t_1aef818bf2">SFTP session</string>
+    <string name="t_5aea4b6977">SFTP to a server…</string>
     <string name="t_18009cdcce">Connection log</string>
     <string name="t_3e18ce347f">ManyFile commands terminal</string>
     <string name="t_520dd7a6e9">Copy screen</string>
     <string name="t_4dc98e861f">Text larger</string>
     <string name="t_85628cac80">Text smaller</string>
     <string name="t_e65017017f">Close session</string>
+    <string name="t_12105869cc">sftp: no saved server called “%s”. Add it in Servers first (☰ → Servers); saved: %s</string>
+    <string name="t_71f8e7976e">none</string>
     <string name="t_04c04fd5f7">This phone</string>
     <string name="t_fe392644a2">starting…</string>
     <string name="t_ba92ed73c9">ended</string>
@@ -1956,6 +2099,7 @@
     <string name="t_ab84c93f25">Saved commands</string>
     <string name="t_db2483000d">Paste</string>
     <string name="t_771e05f27b">Disconnected</string>
+    <string name="t_48e66aeeaf">SFTP to a server</string>
     <string name="t_2d8b6a1983">Nothing logged yet.</string>
     <string name="t_48a46ae5f1">↓ back to the bottom</string>
     <string name="t_d2de1a2831">Open link</string>
@@ -2133,6 +2277,65 @@
     <string name="t_8307756756">The release is signed with a different key than this ManyFile, so Android would refuse it as an update.</string>
     <string name="t_01125e1be1">Download failed</string>
     <string name="t_0388ee8f1b">Download and install</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AppLockPage.kt -->
+    <string name="t_5baa61e4c9">password</string>
+    <string name="t_26ab7bd80f">ManyFile asks to be unlocked when it starts and when you come back to it. It guards ManyFile\'s screens; files stay as they are (vaults and Folder lock encrypt them).</string>
+    <string name="t_191eb16ac9">Lock with the phone\'s screen lock</string>
+    <string name="t_cecf3ba2ab">Fingerprint, face, PIN or pattern, as on the lock screen</string>
+    <string name="t_f4ba5d2d77">Lock ManyFile</string>
+    <string name="t_b69190d7a0">App lock on: ManyFile opens with the phone\'s screen lock</string>
+    <string name="t_f5fc0bfa37">Lock with a ManyFile PIN or password…</string>
+    <string name="t_e7ef06ef9e">Its own, different from the phone\'s</string>
+    <string name="t_e08513fb66">On: ManyFile opens with the phone\'s screen lock</string>
+    <string name="t_38d9f9eb86">On: ManyFile opens with its PIN</string>
+    <string name="t_c0b18fa505">On: ManyFile opens with its password</string>
+    <string name="t_efac6f456a">Right away</string>
+    <string name="t_f030c3d667">1 hour</string>
+    <string name="t_50857f01c1">Fingerprint too</string>
+    <string name="t_b1b2df8f7b">A fingerprint (or face) opens ManyFile as well as the %s</string>
+    <string name="t_80a47be2f2">If I forget it, the phone\'s screen lock opens ManyFile</string>
+    <string name="t_3af86c0fd7">Off: a forgotten %s means clearing ManyFile\'s data</string>
+    <string name="t_55dcb32554">Change the PIN or password…</string>
+    <string name="t_e8997806b6">Use the phone\'s screen lock instead</string>
+    <string name="t_d8c6005e6a">Use a ManyFile PIN or password instead…</string>
+    <string name="t_0df799b6d1">Hide ManyFile in recent apps</string>
+    <string name="t_0452321d77">No previews of its screens there, and no screenshots</string>
+    <string name="t_35e32744ce">Turn off app lock</string>
+    <string name="t_54c0708f12">App lock off</string>
+    <string name="t_e8d05e008e">App lock on: ManyFile opens with its PIN</string>
+    <string name="t_2afbae1b95">App lock on: ManyFile opens with its password</string>
+    <string name="t_75c49e40f0">That isn\'t it</string>
+    <string name="t_c2d08dfc31">Lock ManyFile with…</string>
+    <string name="t_df4608ce85">A PIN</string>
+    <string name="t_c7210c40d5">A password</string>
+    <string name="t_6890406fa0">PIN (4 digits or more)</string>
+    <string name="t_a3abe37c07">Password (6 characters or more)</string>
+    <string name="t_fcd7610540">Again</string>
+    <string name="t_fa1305d6b0">Remember it: ManyFile keeps no copy, only a check of it.</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/BackupPage.kt -->
+    <string name="t_18db48d505">Settings saved: %s</string>
+    <string name="t_94c7b15b26">Could not save the settings: %s</string>
+    <string name="t_f9a28eebf5">Can\'t restore this file: %s</string>
+    <string name="t_d8aa21c1fc">A backup holds your settings, the apps chosen to open files, bookmarks and Quick access folders, saved searches, tags, notes, Commands, folder views, servers and folder syncs. Keep it somewhere safe (Download, a cloud drive) to set up ManyFile again after reinstalling, or on another phone.</string>
+    <string name="t_4b8a9119fa">Never in it: passwords, private keys, cloud drive sign-ins, vaults, history. Servers ask for their password again after a restore.</string>
+    <string name="t_e367591e3a">Back up settings…</string>
+    <string name="t_dfe83e79ec">Save them to a file you choose</string>
+    <string name="t_c7d8729caa">Restore settings…</string>
+    <string name="t_5067991059">From a backup file; replaces the same settings here</string>
+    <string name="t_8115b3a021">Restore these settings?</string>
+    <string name="t_82160e3d39">Backed up %s</string>
+    <string name="t_3574ea9fb2">They replace the ones here; ManyFile then restarts to load them.</string>
+    <string name="t_e8d4bfc82e">Settings restored</string>
+    <string name="t_662f46732a">ManyFile restarts now to load them.</string>
+    <string name="t_af2c3d8ef2">Restart now</string>
+    <string name="t_fed70174d4">%d settings</string>
+    <string name="t_b7d02e7254">%d bookmarks and Quick access folders</string>
+    <string name="t_cc9c7f4c98">%d servers</string>
+    <string name="t_bd56a952c7">%d folder syncs</string>
+    <string name="t_786b3cc00e">%d saved searches</string>
+    <string name="t_53c6cad7f6">%d tags</string>
+    <string name="t_d5d0ef201c">%d commands</string>
+    <string name="t_9bf01b1f23">%d notes</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/DonateDialog.kt -->
     <string name="t_9528b31200">Enter a whole KES amount above 0</string>
     <string name="t_f60059c564">M-Pesa phone number required</string>
@@ -2186,6 +2389,8 @@
     <string name="t_27c655fab2">Bin &amp; history</string>
     <string name="t_649294f41c">Storage &amp; cache</string>
     <string name="t_e722f5661d">Root access</string>
+    <string name="t_a34fa2ead1">App lock</string>
+    <string name="t_a2bb39746d">Back up &amp; restore</string>
     <string name="t_3af2279f9e">Diagnostics</string>
     <string name="t_6b21fb791a">About</string>
     <string name="t_bc4b633bc5">Look and feel</string>
@@ -2194,7 +2399,6 @@
     <string name="t_f35d2c95df">Servers &amp; SSH keys</string>
     <string name="t_e11c733e54">SFTP and SMB: none yet</string>
     <string name="t_decf7b6e3c">1 server</string>
-    <string name="t_cc9c7f4c98">%d servers</string>
     <string name="t_237a582e40">%d keys</string>
     <string name="t_7d9e977918">wallpaper colours</string>
     <string name="t_170fd7e84a">glass</string>
@@ -2224,6 +2428,9 @@
     <string name="t_443508d430">Caches and remembered positions</string>
     <string name="t_c7206f31c1">On: Root (/) opens everything</string>
     <string name="t_fd741407a0">Off: Root (/) is read-only</string>
+    <string name="t_a5d63ff5ae">Settings to a file and back</string>
+    <string name="t_a60ced4554">On: the phone\'s screen lock</string>
+    <string name="t_ee4baf87db">On: ManyFile\'s own PIN or password</string>
     <string name="t_44c23af698">A crash report is available</string>
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
@@ -2234,6 +2441,8 @@
     <string name="t_e7f570e1ad">See-through cards, menus and bars over a soft glow of the theme\'s colours. Off: plain solid surfaces</string>
     <string name="t_16c760c7b5">Show counts</string>
     <string name="t_f0d5d8cb9f">Numbers on Home and in the ☰ menu: items in the Bin, running jobs, open tabs, connected servers</string>
+    <string name="t_4e947596f8">Storage map on Home</string>
+    <string name="t_7c6095996c">Home\'s storage cards show what fills them: photos, videos, music, documents, apps, other files and free space</string>
     <string name="t_90d8adf19e">Dividers</string>
     <string name="t_49c4d3375a">Thin lines between items in file lists and settings, and an outline around grid tiles</string>
     <string name="t_2ae3a9285a">Default layout</string>
@@ -2351,7 +2560,6 @@
     <string name="t_9f5652d948">lock when you leave the app</string>
     <string name="t_403173216b">lock after %s min in the background</string>
     <string name="t_c10f17a0d7">Lock vaults after leaving the app</string>
-    <string name="t_efac6f456a">Right away</string>
     <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_b5057475b0">Reset remembered decisions</string>
     <string name="t_5d9c50f2e1">Delete and overwrite behaviour go back to “Ask”</string>
@@ -2401,6 +2609,8 @@
     <string name="t_431cf72d57">A playing video shrinks to a floating window when you leave the app</string>
     <string name="t_d76a24280b">Keep playing as audio</string>
     <string name="t_61ce2277cf">A playing video goes on as sound only, in the music player, when you leave the app or turn the screen off; the picture is back when you return. (With picture-in-picture on, leaving the app shrinks the video instead.)</string>
+    <string name="t_7449c4ad1a">Play server videos without downloading</string>
+    <string name="t_a424c7dde2">Videos on SFTP, SMB and WebDAV servers start at once and only what you watch travels; off: the whole file downloads first</string>
     <string name="t_43b11fba6f">Turn to the video</string>
     <string name="t_9aecbaa386">Landscape videos rotate the screen</string>
     <string name="t_5153e1a79b">Files next to the video load automatically</string>
@@ -2436,6 +2646,8 @@
     <string name="t_9d13d169f2">Tracking · up to %s</string>
     <string name="t_e4b325008b">Not tracked</string>
     <string name="t_731603e916">Track recent locations</string>
+    <string name="t_3c696f2f0f">Show recently added files</string>
+    <string name="t_260d360566">Files new on the phone (downloads, received files, photos) appear in Recents and Home\'s Recent with the ones you opened</string>
     <string name="t_8a4e65f7e8">Maximum entries</string>
     <string name="t_273ea88c1a">Maximum age (days)</string>
     <string name="t_893aab207a">Remember server files and folders</string>
@@ -2502,11 +2714,9 @@
     <string name="t_f79e3f52f9">(files in this folder)</string>
     <string name="t_eea0692c92">(files here)</string>
     <string name="t_0039ca4bc7">%s · %s files</string>
-    <string name="t_71f8e7976e">none</string>
     <string name="t_bc9c4568c2">Duplicate space</string>
     <string name="t_b74644d0b1">scanning…</string>
     <string name="t_d69a8c1a54">not scanned</string>
-    <string name="t_28cba55d2a">Scan</string>
     <string name="t_e29a79fe0c">Review</string>
     <string name="t_0c70dd446f">%s in %s groups</string>
     <string name="t_e8ea08113a">scan failed</string>
@@ -2861,6 +3071,25 @@
     <string name="t_0918834918">1 view</string>
     <string name="t_b65de96d30">Works with YouTube, TikTok, X, Instagram, Facebook, Vimeo, SoundCloud and about 1,700 more sites.</string>
     <string name="t_76f0c2c4f5">See the list</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SimilarPhotosScreen.kt -->
+    <string name="t_4e64dfeffa">Finds photos that look alike even when their files differ: a photo and the copy a chat app made smaller, burst shots, edited copies, the same picture saved twice. The duplicate finder only finds files with identical contents.</string>
+    <string name="t_bcfccb2b9e">How alike</string>
+    <string name="t_c76bcac0c6">Nearly identical</string>
+    <string name="t_30082443c2">Similar (bursts too)</string>
+    <string name="t_b2b8101678">All photos</string>
+    <string name="t_c534b0533c">Camera (DCIM)</string>
+    <string name="t_b4f7597e76">Find similar photos</string>
+    <string name="t_5d31d6dce3">Looking at photos: %d of %d</string>
+    <string name="t_f55d7e8858">Listing photos…</string>
+    <string name="t_fc0d3c691c">Photos already looked at are remembered: the next time is quick.</string>
+    <string name="t_04cd266acd">No look-alikes among %d photos.</string>
+    <string name="t_309529fe71">%d groups · %s could be freed</string>
+    <string name="t_346c5fef36">%d photos couldn\'t be read</string>
+    <string name="t_36a3bd3d82">Mark all but the best</string>
+    <string name="t_ae3e32ae1a">Delete %d photos permanently?</string>
+    <string name="t_e1128d6bd1">Move %d photos to Bin?</string>
+    <string name="t_dfc98a6131">One photo of every group always stays.</string>
+    <string name="t_99a8606358">Marked</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SpeedTestScreen.kt -->
     <string name="t_2230545037">Test against</string>
     <string name="t_66c06c11d1">Internet</string>
@@ -2951,6 +3180,20 @@
     <string name="t_475978640b">No rows</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
     <string name="t_901b56b2a8">Nothing to show</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
+    <string name="t_2b1306ca38">Send files from this phone to a computer, or another phone, on the same Wi-Fi: no cable, no app on the other side. Choose what to share, then open the address shown (or scan its QR code) there.</string>
+    <string name="t_09dbd787ae">To share files: select them in the file browser, then ⋮ → Share on Wi-Fi.</string>
+    <string name="t_eceef89b99">Share a folder…</string>
+    <string name="t_4e08d6f835">Open this address on the computer:</string>
+    <string name="t_b87931969a">Address copied</string>
+    <string name="t_4eaae53e88">Copy address</string>
+    <string name="t_175ad39d53">QR code of the address</string>
+    <string name="t_c9cf1fd724">Or scan this with the other device\'s camera.</string>
+    <string name="t_268b9b986f">Nothing downloaded yet</string>
+    <string name="t_51e3be8f34">1 download so far</string>
+    <string name="t_45ea68fadd">%d downloads so far</string>
+    <string name="t_ff649bd59e">Anyone on this Wi-Fi who has the address can download what is shared, until you stop. It stops by itself after 30 minutes without a visit. Nothing can be uploaded or changed.</string>
+    <string name="t_50d0d8dd11">Shared</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_e6c3b183a1">Could not read the document</string>
     <string name="t_3f6ef92f1e">Could not save: %s</string>
