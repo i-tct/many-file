@@ -313,9 +313,11 @@
     <string name="t_879f72daa3">Skipped %s: %s</string>
     <string name="t_79c4bd7d26">Skipped %s: cannot copy into itself</string>
     <string name="t_6231ee64a0">Deleting %s</string>
+    <string name="t_fb0f281efc">%s of %s not deleted: %s</string>
     <string name="t_d0900532a0">%s items deleted</string>
     <string name="t_d60eeb3b1f">the Bin is available for local storage only; delete permanently instead</string>
     <string name="t_58f2e19bc7">Moving %s to Bin</string>
+    <string name="t_fa417f5e5a">%s of %s not moved to the Bin: %s</string>
     <string name="t_fc5e3df69d">%s moved to Bin</string>
     <string name="t_89c61872ce">Restoring %s</string>
     <string name="t_5712a9e66e">%s restored</string>
@@ -333,6 +335,13 @@
     <string name="t_c1132ad554">renamed files no longer exist</string>
     <string name="t_73068cd633">file no longer exists</string>
     <string name="t_d8fcc35b32">file has content, not removed</string>
+    <string name="t_d928bc25fe">the file is no longer there</string>
+    <string name="t_60597a67c0">the new name is taken</string>
+    <string name="t_1e75305402">the items are no longer where they were</string>
+    <string name="t_e9525edf01">Redo: moving %s to %s</string>
+    <string name="t_7c51825409">%s moved</string>
+    <string name="t_1f56156587">the files are no longer there</string>
+    <string name="t_2339ccd56a">Redid: %s</string>
     <string name="t_3a254ae603">Renaming %s items</string>
     <string name="t_ce7b8f59df">name already taken</string>
     <string name="t_2d6196d4dc">%s renamed</string>
@@ -437,33 +446,67 @@
     <string name="t_d0b7b836a3">%s files could not be downloaded (see the job\'s log)</string>
     <string name="t_95c1aa567a">bad path</string>
     <string name="t_2a8db27209">cannot write %s</string>
+    <string name="t_08f2c11a76">this server can\'t be synced</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
     <string name="t_95de30daf3">not a server location</string>
     <string name="t_d802079965">different servers</string>
-    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshConnections.kt -->
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SmbConnections.kt -->
     <string name="t_fea3a5a9a9">this server was removed</string>
-    <string name="t_acf45d0000">the SSH key for this server is missing — pick one in the server settings</string>
-    <string name="t_e6cb995cfe">disconnected</string>
-    <string name="t_e051019edd">the server\'s answer came through garbled; try again</string>
-    <string name="t_b298ca9503">unknown host %s</string>
-    <string name="t_1b1c2b3ad9">connection refused — is SSH running on that port?</string>
-    <string name="t_afb7686198">no route to host</string>
-    <string name="t_8b8dfcdfff">the server did not answer</string>
-    <string name="t_969838de21">server key not trusted — connection refused for your safety</string>
-    <string name="t_5e2e3dec7e">sign-in cancelled</string>
-    <string name="t_3ab249fddd">sign-in failed — check user name, password or key</string>
-    <string name="t_95f9e2c7db">no common encryption algorithm with this server</string>
-    <string name="t_eef6dbeb19">connection lost</string>
-    <string name="t_a02d2ad034">permission denied</string>
-    <string name="t_ac583db49c">the server does not support this</string>
     <string name="t_7579b28e28">Password for %s</string>
     <string name="t_19f5ab6fc5">That password did not work.</string>
     <string name="t_8be3c943b1">Password</string>
+    <string name="t_5e2e3dec7e">sign-in cancelled</string>
+    <string name="t_7e61a9510a">the server doesn\'t know the user “%s” and offered a guest sign-in instead: check the user name (on Linux, add it with sudo smbpasswd -a %s)</string>
+    <string name="t_e0107df1ab">sign-in failed — check user name and password</string>
+    <string name="t_62e45831bb">no share named “%s” on this server</string>
+    <string name="t_ccc985f76b">“%s” is not a folder share</string>
+    <string name="t_a02d2ad034">permission denied</string>
+    <string name="t_9953700faf">the folder is not empty</string>
+    <string name="t_2f6b991374">the server\'s disk is full</string>
+    <string name="t_ab87a16d45">in use by another program on the server</string>
+    <string name="t_b298ca9503">unknown host %s</string>
+    <string name="t_47803a14d4">connection refused — is file sharing on, on that port?</string>
+    <string name="t_afb7686198">no route to host</string>
+    <string name="t_8b8dfcdfff">the server did not answer</string>
+    <string name="t_f41cf4c150">this server only speaks SMB 1, which ManyFile doesn\'t: turn on SMB 2 or 3 on it</string>
+    <string name="t_eef6dbeb19">connection lost</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SmbProvider.kt -->
+    <string name="t_d58612b3ee">choose a share first</string>
+    <string name="t_6565a49b22">the PC shares “%s” read-only: allow changes there (for Samba: read only = no)</string>
+    <string name="t_2263c0f788">shares are made on the server itself</string>
+    <string name="t_432fd0bc00">different shares</string>
+    <string name="t_e4ed2cb887">shares are renamed on the server itself</string>
+    <string name="t_2293eeb0b5">shares are removed on the server itself</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshConnections.kt -->
+    <string name="t_acf45d0000">the SSH key for this server is missing — pick one in the server settings</string>
+    <string name="t_e6cb995cfe">disconnected</string>
+    <string name="t_e051019edd">the server\'s answer came through garbled; try again</string>
+    <string name="t_1b1c2b3ad9">connection refused — is SSH running on that port?</string>
+    <string name="t_969838de21">server key not trusted — connection refused for your safety</string>
+    <string name="t_3ab249fddd">sign-in failed — check user name, password or key</string>
+    <string name="t_95f9e2c7db">no common encryption algorithm with this server</string>
+    <string name="t_ac583db49c">the server does not support this</string>
     <string name="t_e2fb83b7f2">Sign in to %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshKeys.kt -->
     <string name="t_b519145548">not a private key this app can read (%s)</string>
     <string name="t_b210d2b2d8">could not derive the public key</string>
     <string name="t_be5b98c282">cannot create a %s key on this device (%s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/WebDavConnections.kt -->
+    <string name="t_7c4d81a871">not a web address: %s</string>
+    <string name="t_cfd9e85a4a">this server wants a user name and password</string>
+    <string name="t_5e7a0d3f97">the server asks for a sign-in ManyFile doesn\'t know (%s)</string>
+    <string name="t_538192af4a">Certificate (SHA-256)</string>
+    <string name="t_d336662a50">certificate not trusted — connection refused for your safety</string>
+    <string name="t_a52c2c5bc2">the folder it goes in doesn\'t exist</string>
+    <string name="t_3dd22ea300">locked on the server</string>
+    <string name="t_da71544513">the server\'s storage is full</string>
+    <string name="t_b0ca38b707">the server had a problem (%s)</string>
+    <string name="t_08ce66a4f9">connection refused — is the server running on that address and port?</string>
+    <string name="t_1183b90b4f">this phone blocks plain http:// here; use https://</string>
+    <string name="t_5d612c3836">secure connection failed (%s) — if the server only speaks http, write http:// in its address</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/WebDavProvider.kt -->
+    <string name="t_ce7f4ca30f">the server\'s top folder can\'t be deleted</string>
+    <string name="t_c0608d523f">WebDAV can\'t add to the end of a file</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/repo/UndoRepository.kt -->
     <string name="t_2496bab071">Rename %s</string>
     <string name="t_7459d9bb9b">Move %s to Bin</string>
@@ -505,6 +548,24 @@
     <string name="t_847c4a15f6">The downloaded APK does not match its published SHA-256 (got %s, expected %s)</string>
     <string name="t_4f2699f369">GitHub is limiting requests; try again later</string>
     <string name="t_4e4a9abc92">GitHub answered HTTP %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FileCipher.kt -->
+    <string name="t_ee129421d4">made by a newer ManyFile: update it to open this file</string>
+    <string name="t_22a5c74094">unsupported key derivation</string>
+    <string name="t_d8c64feb1c">wrong password</string>
+    <string name="t_6720fde7db">the encrypted file is damaged or was changed</string>
+    <string name="t_1c5fbcf595">not a file ManyFile encrypted</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FileEncryption.kt -->
+    <string name="t_5cda30a276">Encrypting %s</string>
+    <string name="t_9330fa6e1a">only files can be encrypted (lock a folder instead)</string>
+    <string name="t_c2f9037dd5">the encrypted copy didn\'t read back the same; the original is kept</string>
+    <string name="t_83e50a3309">could not save %s</string>
+    <string name="t_e4c43b6104">%s is encrypted, but its original could not be deleted</string>
+    <string name="t_e9a57ae119">Encrypted as %s</string>
+    <string name="t_c7c31e9747">%s files encrypted</string>
+    <string name="t_779950f665">Decrypting %s</string>
+    <string name="t_7ffcbea914">%s is decrypted, but the encrypted file could not be deleted</string>
+    <string name="t_fd1db39657">Decrypted as %s</string>
+    <string name="t_f99a778e04">%s files decrypted</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FolderLocks.kt -->
     <string name="t_31108d23e8">Only folders can be locked</string>
     <string name="t_0e9b82e668">Only folders on this phone\'s storage can be locked</string>
@@ -648,6 +709,7 @@
     <string name="t_bce0641417">Search</string>
     <string name="t_4c5ec7b06d">Bin</string>
     <string name="t_28314c221e">Server /</string>
+    <string name="t_d15dcb875a">Shares</string>
     <string name="t_8dd065073d">My Drive</string>
     <string name="t_1be4884647">Root /</string>
     <string name="t_982963c1c4">Tag</string>
@@ -699,6 +761,7 @@
     <string name="t_5221b51b33">Extract here</string>
     <string name="t_09fef5d8d9">Failed</string>
     <string name="t_93509bf604">Nothing to undo</string>
+    <string name="t_97c7f367c4">Nothing to redo</string>
     <string name="t_dcad9fdb40">Renamed to %s</string>
     <string name="t_6cdb1a4b32">1 item copied</string>
     <string name="t_0f3e8c73d7">%d items copied</string>
@@ -916,6 +979,17 @@
     <string name="t_4e56d26a38">%s vs %s</string>
     <string name="t_f8e4e1f26f">Could not compare: %s</string>
     <string name="t_4fc41449a7">Compare contents</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
+    <string name="t_35b9be37fa">Encrypt %s</string>
+    <string name="t_e1dae8cb05">Each file is encrypted with this password (AES-256) into a .mfenc file beside it, name and date included. ManyFile opens it again with the password; other apps can\'t.</string>
+    <string name="t_1fe494b252">At least 8 characters</string>
+    <string name="t_6258e7aba9">Delete the originals once the encrypted copies are checked</string>
+    <string name="t_2ea3facb32">Deleted for good, not to the Bin. Phone storage may still hold traces of a deleted file until it is written over.</string>
+    <string name="t_a20bbab14e">ManyFile keeps no copy of the password: without it, the files can\'t be opened by anyone.</string>
+    <string name="t_c49d31d7ec">Decrypt %s</string>
+    <string name="t_831f194fa3">The file comes back beside it, under its own name and date.</string>
+    <string name="t_75ae57dd49">Delete the encrypted files afterwards</string>
+    <string name="t_72c38db397">Decrypt</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileList.kt -->
     <string name="t_32eb460f07">Folder %s</string>
     <string name="t_3f17ea2f82">File %s</string>
@@ -961,6 +1035,8 @@
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabContent.kt -->
     <string name="t_c93f7c70c2">Filter this folder</string>
     <string name="t_3a281c3f99">Close filter</string>
+    <string name="t_a32587f529">From the file index (updated %s) · Tap to search the folders themselves</string>
+    <string name="t_e368c62b72">Read-only: you can open and copy these files, but not add, change or delete them here</string>
     <string name="t_9b5ba1ea07">Offline — showing the last saved listing (%s). Pull down to retry.</string>
     <string name="t_cd0af6cfca">No matches</string>
     <string name="t_b993b0c537">No results</string>
@@ -993,7 +1069,6 @@
     <string name="t_237dfa0a21">Private</string>
     <string name="t_f8658c6b97">New vault</string>
     <string name="t_6314a79cb2">A folder whose file names and contents are encrypted (AES-256). It opens like a normal folder after you unlock it.</string>
-    <string name="t_1fe494b252">At least 8 characters</string>
     <string name="t_52750fa7e5">Long passphrases are best: they are hard to guess and easy to remember</string>
     <string name="t_525f61b672">Where</string>
     <string name="t_f96fd0c2a7">Private ManyFile storage</string>
@@ -1133,6 +1208,7 @@
     <string name="t_6a462fb6d1">Dual pane</string>
     <string name="t_edd880e08b">Compare panes</string>
     <string name="t_adadaa4165">Undo: %s</string>
+    <string name="t_ae2f2b3538">Redo: %s</string>
     <string name="t_913afff1fa">Select all</string>
     <string name="t_7da72075a1">Remove bookmark</string>
     <string name="t_a08f0ace89">Bookmark this folder</string>
@@ -1198,6 +1274,8 @@
     <string name="t_4c24e5aa26">Copy to…</string>
     <string name="t_c0a3ef619a">Move to…</string>
     <string name="t_03f6fdec3b">Lock folder…</string>
+    <string name="t_5ddd524a38">Decrypt…</string>
+    <string name="t_cd4c044ae4">Encrypt…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
@@ -1338,6 +1416,9 @@
     <string name="t_471b94d402">Redo</string>
     <string name="t_2c6b404bf8">Find and replace</string>
     <string name="t_45cbd796e6">Go to line…</string>
+    <string name="t_35b9583f75">Close this tab</string>
+    <string name="t_0987bb1b98">Close the other tabs</string>
+    <string name="t_96ccdc681d">Kept %s: unsaved changes</string>
     <string name="t_130b03e444">Show changes</string>
     <string name="t_9d91d3f268">Word wrap</string>
     <string name="t_d08aaa54e8">Line numbers</string>
@@ -1365,6 +1446,7 @@
     <string name="t_29267269c0">Unsaved changes</string>
     <string name="t_abafdf073c">Save changes to %s?</string>
     <string name="t_d4d9e382a9">Keep editing</string>
+    <string name="t_9b0ce2e59e">Save all</string>
     <string name="t_7c9d48f2c5">Large file (%s): showing the first %s read-only.</string>
     <string name="t_aacf42132c">Indent</string>
     <string name="t_b4d812c8be">Outdent</string>
@@ -1671,10 +1753,12 @@
     <string name="t_0eb3e1446a">Only the private key file is needed (id_ed25519, id_rsa, *.pem, *.ppk).</string>
     <string name="t_d6fbc9d2bd">Import</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/RemotePromptHost.kt -->
+    <string name="t_2ac910191d">Server certificate changed!</string>
     <string name="t_63eff7b070">Server key changed!</string>
     <string name="t_00746c7db9">Trust this server?</string>
     <string name="t_bc37374179">The key of %s is not the one you trusted before. Someone may be intercepting the connection — or the server was reinstalled. Only continue if you know why it changed.</string>
     <string name="t_74f39697ac">Before</string>
+    <string name="t_1bd626b009">%s (%s) uses a certificate no authority vouches for, as a NAS or home server often does. Trust it only if this fingerprint matches the one in the server\'s settings:</string>
     <string name="t_4bf2a66872">First connection to %s (%s). Check that this fingerprint matches the server\'s (ssh-keygen -lf /etc/ssh/ssh_host_*_key.pub):</string>
     <string name="t_6defd00e9d">I know why the key changed</string>
     <string name="t_a181beeb5d">Trust new key</string>
@@ -1682,19 +1766,36 @@
     <string name="t_34d8b60fe2">Hide</string>
     <string name="t_da8e25651c">Remember (stored encrypted on this phone)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServerEditorScreen.kt -->
+    <string name="t_9b4ef14147">Not a web address: like https://cloud.example.com/remote.php/dav/files/me</string>
     <string name="t_37a460a1de">Add server</string>
     <string name="t_d4be0b4c3c">Edit %s</string>
+    <string name="t_2e38ef39ab">Kind of server</string>
+    <string name="t_364560145c">SFTP (SSH)</string>
+    <string name="t_f1a16e7276">SMB (Windows, NAS)</string>
+    <string name="t_609f2ee490">WebDAV (Nextcloud)</string>
+    <string name="t_b57c101dba">Shared folders of a Windows PC, a NAS, a router with a USB drive, or Samba on Linux. SMB 2 and 3.</string>
+    <string name="t_563eaa8c0d">Nextcloud, ownCloud, a NAS\'s WebDAV, or any WebDAV server: files over the web.</string>
+    <string name="t_8a39e7efd4">Linux servers, Raspberry Pis, Macs: files and a terminal.</string>
+    <string name="t_4d84ff56f5">Server address (web address)</string>
+    <string name="t_cba4964bec">http:// sends the password unencrypted: fine at home, not over the internet</string>
+    <string name="t_6f57efcb01">Nextcloud: https://your.cloud/remote.php/dav/files/USER · a NAS: the WebDAV address in its settings</string>
     <string name="t_b06792894d">Server address</string>
     <string name="t_b91792a25e">IP address or name, like 192.168.1.20 or example.com</string>
     <string name="t_fe035157cd">Port</string>
     <string name="t_bd5074f259">SSH\'s usual</string>
+    <string name="t_5f55481838">SMB\'s usual</string>
     <string name="t_542fc71480">User name</string>
+    <string name="t_60bb9ca96e">the PC\'s or NAS\'s account</string>
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
+    <string name="t_761055ca3f">Leave empty for a guest share; DOMAIN\\name for a domain account</string>
+    <string name="t_85ff6d474c">Leave empty for a server open to everyone</string>
     <string name="t_0d3c9de4d7">The account you sign in with on that server</string>
     <string name="t_9c9f03a839">Name (optional)</string>
     <string name="t_29e35c25bd">My server</string>
     <string name="t_95a5458d68">Sign in with</string>
     <string name="t_aab2dc7561">SSH key</string>
+    <string name="t_ca9c9af887">Signs in as a guest: no password.</string>
+    <string name="t_26d9435a88">No sign-in: for servers open to everyone.</string>
     <string name="t_e3714358da">unchanged (saved)</string>
     <string name="t_0196d15462">asked when connecting</string>
     <string name="t_d4845ce250">Save password (encrypted on this phone)</string>
@@ -1703,7 +1804,11 @@
     <string name="t_5251d0b415">No keys yet: generate one here, or import a key file in Servers → SSH keys.</string>
     <string name="t_6bf5da9c08">Options</string>
     <string name="t_78fe599277">Start folder</string>
+    <string name="t_c282b4e67e">share/folder</string>
+    <string name="t_afffdd08d8">folder</string>
     <string name="t_5743232899">home folder</string>
+    <string name="t_72acc548b9">Empty: the list of shared folders</string>
+    <string name="t_6e5a3e4909">Empty: the top of the address above</string>
     <string name="t_1b03282208">Keep-alive every (seconds, 0 = off)</string>
     <string name="t_66dac4e14b">Reconnect automatically</string>
     <string name="t_87d8e150cb">Retries with growing pauses and waits for the network</string>
@@ -1712,12 +1817,18 @@
     <string name="t_cee48b11fe">Not saved: %s</string>
     <string name="t_3cfdd883ac">Test and save</string>
     <string name="t_aa65e9fced">No spaces: just the address</string>
+    <string name="t_185dd4388a">Just the address, without a share or folder (they go in Start folder below)</string>
     <string name="t_81b618085e">Just the address, without a folder (that goes in Start folder below)</string>
     <string name="t_7006c4ade5">The user name goes in its own field below</string>
+    <string name="t_c7f5a19641">%s — the start folder begins with a shared folder\'s name, like Share or Share/Photos, not the path on the PC</string>
+    <string name="t_64e2cd02ae">the start folder is a file</string>
+    <string name="t_43a219b38f">Connected · %s</string>
+    <string name="t_142edc080b">signed in, but the server doesn\'t list its shared folders: type one in Start folder</string>
+    <string name="t_217576a136">signed in, but there are no shared folders: type one in Start folder</string>
+    <string name="t_b8f409e7e9">Connected · shared folders: %s</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServersScreen.kt -->
     <string name="t_3faea7140b">Could not read that file as a key</string>
-    <string name="t_59e41386a0">SFTP / SSH servers</string>
-    <string name="t_d56d0ff320">Add a server to browse it like a folder (copy, move, open, edit) and to open a terminal on it. Passwords and keys are stored encrypted with a key that never leaves this phone.</string>
+    <string name="t_c29848b272">Add a server to browse it like a folder (copy, move, open, edit): an SFTP (SSH) server, with a terminal too, or the shared folders (SMB) of a Windows PC, a NAS or a router. Passwords and keys are stored encrypted with a key that never leaves this phone.</string>
     <string name="t_bf54fcecbe">Disconnected from %s</string>
     <string name="t_e91a644c96">SSH keys</string>
     <string name="t_937129af9b">Generate key</string>
@@ -2077,7 +2188,7 @@
     <string name="t_c223505bc2">Storage and access</string>
     <string name="t_75c5e40195">Every change is saved as you make it</string>
     <string name="t_f35d2c95df">Servers &amp; SSH keys</string>
-    <string name="t_5f4bbbadaa">SFTP / SSH: none yet</string>
+    <string name="t_e11c733e54">SFTP and SMB: none yet</string>
     <string name="t_decf7b6e3c">1 server</string>
     <string name="t_cc9c7f4c98">%d servers</string>
     <string name="t_237a582e40">%d keys</string>
@@ -2149,6 +2260,12 @@
     <string name="t_656bcfe284">Extensions</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_ad3f4cfa38">Reload the open folder when files change on disk (pull down to refresh by hand)</string>
+    <string name="t_c2a9a0ce74">Instant search</string>
+    <string name="t_db7b6847c3">Off: searches walk the folders</string>
+    <string name="t_fc6eca4f00">Index the phone\'s files</string>
+    <string name="t_37a3ec6b98">A list of every file\'s name, size and date, kept up to date, so a search answers at once. Text inside files is still read when you search for it.</string>
+    <string name="t_9546b8c95c">Rebuild the index now</string>
+    <string name="t_7dd6e7c306">Index rebuilt: %s files</string>
     <string name="t_e25e7296d5">Back goes up to parent folders</string>
     <string name="t_43973369b8">Off: Back retraces the folders you went through, then goes Home. On: when those run out, Back goes up through the folders above first</string>
     <string name="t_378e9e163b">Sorting</string>
@@ -2168,6 +2285,9 @@
     <string name="t_4cfca2bfdc">Browsing starts at internal storage</string>
     <string name="t_cb5d2ec041">Browse above internal storage</string>
     <string name="t_c38d362c9d">Allow “up” past internal storage to /storage and / (system folders, mostly read-only). Android denies /storage/emulated itself, so ManyFile shows the way down instead.</string>
+    <string name="t_383c43d4e8">Indexing… %s files so far</string>
+    <string name="t_42468ad8b2">Not built yet: it starts a little after ManyFile opens</string>
+    <string name="t_1e4e987077">%s files · updated %s</string>
     <string name="t_0af4665f7a">Restore tabs on start</string>
     <string name="t_e60707198b">Reopen the tabs from last time</string>
     <string name="t_ea218a5daa">Swipe for a new tab</string>
@@ -2336,7 +2456,7 @@
     <string name="t_e3758e8ac0">Forgot 1 remembered position</string>
     <string name="t_3441cf1af1">Forgot %s remembered positions</string>
     <string name="t_ca1b0c86f8">Clear downloaded server files</string>
-    <string name="t_b04c29c17c">Working copies of files opened from SFTP servers</string>
+    <string name="t_16f19dc64d">Working copies of files opened from servers</string>
     <string name="t_546cd4bf3c">Downloaded server files cleared: %s freed</string>
     <string name="t_6a4c5989f3">Last crash report</string>
     <string name="t_27e7700fda">sent</string>
