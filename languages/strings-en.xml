@@ -1424,6 +1424,7 @@
     <string name="t_d08aaa54e8">Line numbers</string>
     <string name="t_9b19a5a212">Read-only</string>
     <string name="t_7b7b3d66c7">Auto-indent</string>
+    <string name="t_ff6ad92011">Autosave</string>
     <string name="t_118f9b2b30">Larger text</string>
     <string name="t_a8ea9e3089">Smaller text</string>
     <string name="t_0a7262c49b">Show frame timings</string>
@@ -1462,6 +1463,9 @@
     <string name="t_48d438f044">%d lines</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorViewModel.kt -->
     <string name="t_ac6e9914cb">Could not open file</string>
+    <string name="t_bc0eed6043">Autosave off: save with the save button or Ctrl+S</string>
+    <string name="t_3fa864fe6d">Autosave on: saved 2 s after you stop typing</string>
+    <string name="t_bda0984079">Autosave on: a recovery copy is kept; server files upload when you save</string>
     <string name="t_b76b4cd883">Cannot write here (read-only location)</string>
     <string name="t_0a44446762">Save failed</string>
     <string name="t_1b18781995">Saved to %s</string>
@@ -2375,7 +2379,6 @@
     <string name="t_21658b83f6">Tab, arrows and { } ( ) ; … above the keyboard</string>
     <string name="t_e4bf489850">Classic editor</string>
     <string name="t_ec333a2521">The previous text box: slow on big files. To compare, or if a keyboard misbehaves in the new editor</string>
-    <string name="t_ff6ad92011">Autosave</string>
     <string name="t_3d08307f67">Save while typing (local files)</string>
     <string name="t_0559f5ef86">Background playback</string>
     <string name="t_924731da99">Music keeps playing, with a notification, after you leave the player or close the app</string>
