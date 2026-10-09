@@ -486,6 +486,12 @@
     <string name="t_ab722623e7">tag collections list files; act on the files themselves</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/KeyInstaller.kt -->
     <string name="t_5853070fcb">not a public key</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/PhoneWrites.kt -->
+    <string name="t_84b24d7541">cannot create %s</string>
+    <string name="t_2a8db27209">cannot write %s</string>
+    <string name="t_49da07d1db">cannot rename %s</string>
+    <string name="t_1c39bca78c">ManyFile may not write to %s</string>
+    <string name="t_4ddf136178">a memory card can\'t hold the name %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/RemoteFiles.kt -->
     <string name="t_d12bbededd">could not store the downloaded copy</string>
     <string name="t_3a7f38740a">this file was not opened from a server</string>
@@ -496,14 +502,13 @@
     <string name="t_a222626ffa">Sync %s to the server</string>
     <string name="t_aa2bbef727">Sync %s both ways</string>
     <string name="t_bf0bc86932">this sync was removed</string>
-    <string name="t_84b24d7541">cannot create %s</string>
+    <string name="t_aae750d59e">ManyFile may not write to %s. Edit this sync and save it: ManyFile then asks Android for the memory card.</string>
     <string name="t_4822b2f94b">Listing %s</string>
     <string name="t_36aaf8e826">%s files on the server, %s to download, %s up to date</string>
     <string name="t_b88dc1eb8c">%s to send</string>
     <string name="t_b7c3e44f09">%s changed on both sides</string>
     <string name="t_78f6c67cf4">%s to delete</string>
     <string name="t_8de1fc0876">%s to delete on the server</string>
-    <string name="t_49da07d1db">cannot rename %s</string>
     <string name="t_8e84a31e1a">%s changed on both sides: both versions kept</string>
     <string name="t_a0c5a5edf9">deleted %s</string>
     <string name="t_8548be84e0">deleted %s on the server</string>
@@ -517,10 +522,10 @@
     <string name="t_0974dc5596">%s files would be deleted: check them in Preview, then confirm</string>
     <string name="t_d0b7b836a3">%s files could not be downloaded (see the job\'s log)</string>
     <string name="t_1838be931c">%s files could not be copied (see the job\'s log)</string>
+    <string name="t_eff6a5da45">%s put back after an interrupted sync</string>
     <string name="t_e918852bd2">%s is gone from this phone (a memory card not mounted?): nothing was synced, so nothing is deleted on the server</string>
     <string name="t_ec5b7febd8">%s is gone from the server: nothing was synced, so nothing is deleted on this phone</string>
     <string name="t_95c1aa567a">bad path</string>
-    <string name="t_2a8db27209">cannot write %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
     <string name="t_95de30daf3">not a server location</string>
     <string name="t_d802079965">different servers</string>
@@ -621,11 +626,22 @@
     <string name="t_90557dd386">Connect to Wi-Fi (or turn on the hotspot) first: the computer must be on the same network</string>
     <string name="t_7cc4f952e8">no free port to share on</string>
     <string name="t_4e8660b45b">Shared from %s</string>
+    <string name="t_3b8289ca6c">A folder shared with ManyFile: open it with a WebDAV client</string>
     <string name="t_385519c8d4">Everything shared</string>
     <string name="t_543659cec5">Download this folder (.zip)</string>
     <string name="t_ae3731bef9">Download everything (.zip)</string>
+    <string name="t_fd57f2d359">Open in ManyFile</string>
     <string name="t_4bc2e3e9bf">Shared with ManyFile. This page stops working when sharing is stopped on the phone.</string>
+    <string name="t_d493eb5c35">Whole folders, without a ZIP: open the share in ManyFile on another phone (Open a Wi-Fi share), or this address as a network folder (WebDAV) on a computer:</string>
     <string name="t_afffdd08d8">folder</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/share/WifiShareLink.kt -->
+    <string name="t_2a8fd2b0a2">That share has stopped, or the other phone\'s ManyFile is older than 0.3.93: start sharing again, or update it</string>
+    <string name="t_e0c2f13857">The share answered %s</string>
+    <string name="t_94a72f18da">Not a ManyFile share</string>
+    <string name="t_f6be6ca910">phone</string>
+    <string name="t_6c900405c9">Can\'t reach the share: is this phone on the same Wi-Fi, and is the other one still sharing?</string>
+    <string name="t_1b7b84c649">Wi-Fi share · %s</string>
+    <string name="t_7d862c1dcc">Not a ManyFile share address: it looks like http://192.168.1.5:8090/abcd2345ef/</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/shell/LocalTerminal.kt -->
     <string name="t_4194dec35a">Type help for the commands. Files use ManyFile\'s storage access.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
@@ -1093,6 +1109,39 @@
     <string name="t_06b230452d">Empty file</string>
     <string name="t_5cb9bd07aa">Shell script</string>
     <string name="t_21885d8c0a">HTML page</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/KeyboardShortcuts.kt -->
+    <string name="t_bece86d17c">Moving around</string>
+    <string name="t_50dd5bf512">Move between files (← → in a grid; in a tree, close or open a folder)</string>
+    <string name="t_9d48f16013">First, last, a page up or down</string>
+    <string name="t_e0721bd9db">Go to the file whose name starts with what you type</string>
+    <string name="t_5a8dd2bcf1">Up a folder</string>
+    <string name="t_849e663051">Back, forward</string>
+    <string name="t_4196343973">Selecting</string>
+    <string name="t_97dccb24db">Select the file, or not</string>
+    <string name="t_fead9c1e15">Select from where you started</string>
+    <string name="t_913afff1fa">Select all</string>
+    <string name="t_82c4e82b43">Clear the selection</string>
+    <string name="t_c1677c8c03">Add a file, select up to a file</string>
+    <string name="t_64a94a1394">Copy, cut, paste</string>
+    <string name="t_9c79bb8a86">Delete, delete permanently</string>
+    <string name="t_bc6c88db2f">Properties</string>
+    <string name="t_c203cc8c0a">Undo, redo</string>
+    <string name="t_b69cacc70c">The file\'s menu (on empty space: the folder\'s)</string>
+    <string name="t_f786c31a45">Tabs and view</string>
+    <string name="t_587a04cad1">New tab, close tab</string>
+    <string name="t_4160f551db">Reopen the last closed tab</string>
+    <string name="t_4acd455ea4">Previous, next tab</string>
+    <string name="t_8772f4f214">A tab by its place (9: the last)</string>
+    <string name="t_0b4606962a">A folder in a new tab; a tab: close it</string>
+    <string name="t_7e1634020b">The other pane (two panes)</string>
+    <string name="t_cd1da541a6">This folder in a new window</string>
+    <string name="t_c93f7c70c2">Filter this folder</string>
+    <string name="t_e5eb1b5c56">Show or hide hidden files</string>
+    <string name="t_a08f0ace89">Bookmark this folder</string>
+    <string name="t_56e3badc4e">Refresh</string>
+    <string name="t_b00d63ea86">Bigger, smaller, usual size (also Ctrl + wheel, or a pinch)</string>
+    <string name="t_34b8c60c89">This list</string>
+    <string name="t_266695479a">Keyboard shortcuts</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionGate.kt -->
     <string name="t_3faeee3150">Storage access</string>
     <string name="t_2394fedab0">ManyFile is a file manager: it needs “All files access” to browse, copy and organise everything in shared storage.</string>
@@ -1132,7 +1181,6 @@
     <string name="t_46e63a67d0">Folders first</string>
     <string name="t_a48a09a536">Numbers in order (file2 before file10)</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabContent.kt -->
-    <string name="t_c93f7c70c2">Filter this folder</string>
     <string name="t_3a281c3f99">Close filter</string>
     <string name="t_a32587f529">From the file index (updated %s) · Tap to search the folders themselves</string>
     <string name="t_e368c62b72">Read-only: you can open and copy these files, but not add, change or delete them here</string>
@@ -1270,12 +1318,17 @@
     <string name="t_0db5fc766c">Scan a document here…</string>
     <string name="t_8b731c66c5">Download from URL here…</string>
     <string name="t_6eeb46a3ef">New vault (encrypted)…</string>
+    <string name="t_197dd41880">Paste 1 item</string>
+    <string name="t_31c81c01cb">Paste %d items</string>
+    <string name="t_a75732d857">Open in new window</string>
+    <string name="t_c0c3608709">Open terminal here</string>
     <string name="t_d43a62dec8">1 item to %s</string>
     <string name="t_bd146c6f75">%d items to %s</string>
     <string name="t_d4d600fac9">They are already in this folder.</string>
     <string name="t_bfc39d9ac9">Close 1 tab?</string>
     <string name="t_b4bef5d231">Close %d tabs?</string>
     <string name="t_0813974b60">Pinned tabs stay open.</string>
+    <string name="t_92b859dc31">This window closes.</string>
     <string name="t_5b8848452c">You go back to Home.</string>
     <string name="t_e62429490e">⋮ → Reopen closed tab brings back the last 20.</string>
     <string name="t_98553cc854">Close all</string>
@@ -1295,8 +1348,8 @@
     <string name="t_ba15243c4e">Sort by…  (%s)</string>
     <string name="t_313463d3c8">Show hidden</string>
     <string name="t_4bab2d8fe1">More</string>
-    <string name="t_56e3badc4e">Refresh</string>
     <string name="t_e29dc2a85b">Duplicate tab</string>
+    <string name="t_a388818400">New window</string>
     <string name="t_849140bbe0">New incognito tab here</string>
     <string name="t_279bad8b70">Unpin tab</string>
     <string name="t_3623fa201b">Pin tab</string>
@@ -1307,16 +1360,13 @@
     <string name="t_edd880e08b">Compare panes</string>
     <string name="t_adadaa4165">Undo: %s</string>
     <string name="t_ae2f2b3538">Redo: %s</string>
-    <string name="t_913afff1fa">Select all</string>
     <string name="t_7da72075a1">Remove bookmark</string>
-    <string name="t_a08f0ace89">Bookmark this folder</string>
     <string name="t_adafcafc4f">Remove from Quick access</string>
     <string name="t_92f065e998">Add to Quick access</string>
     <string name="t_af8ade9a85">Folder properties</string>
     <string name="t_81fb33ba6b">Save this search</string>
     <string name="t_c31e13bffe">Extract all next to archive</string>
     <string name="t_a878d7187f">Test archive integrity</string>
-    <string name="t_c0c3608709">Open terminal here</string>
     <string name="t_769f47e561">Sync this folder…</string>
     <string name="t_3af102a144">%s account…</string>
     <string name="t_bf23a4b976">Play all audio here</string>
@@ -1341,6 +1391,7 @@
     <string name="t_2eba6a03b8">Unpin</string>
     <string name="t_9c91841471">Pin</string>
     <string name="t_972d57379d">Duplicate</string>
+    <string name="t_557011ea97">Move to new window</string>
     <string name="t_ed164348b5">Close tabs to the left (%s)</string>
     <string name="t_25644cbc26">Close tabs to the right (%s)</string>
     <string name="t_46534bf63a">Close all tabs</string>
@@ -1393,9 +1444,10 @@
     <string name="t_fac13fcb46">Tags…</string>
     <string name="t_441da1bf0e">Bookmark</string>
     <string name="t_001de2b938">Calculate size</string>
-    <string name="t_bc6c88db2f">Properties</string>
     <string name="t_295763d01c">Clipboard history</string>
     <string name="t_731b577ab2">Paste here</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/Zoom.kt -->
+    <string name="t_5caa7bc89e">%s columns</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/CommandCenterScreen.kt -->
     <string name="t_2f8198fc39">%d imported</string>
     <string name="t_54978f3cd5">%d command steps need a server (edit them)</string>
@@ -2078,6 +2130,11 @@
     <string name="t_2c370f5640">phone → server</string>
     <string name="t_839e8ce716">both ways</string>
     <string name="t_a2620cbc10">day</string>
+    <string name="t_c9c56a2951">That folder doesn\'t hold %s. Save again and choose the memory card\'s top folder.</string>
+    <string name="t_54a055cc39">the memory card</string>
+    <string name="t_642694cca4">Let ManyFile write to %s?</string>
+    <string name="t_592d694de8">On this phone, Android lets apps write to a memory card only through its own folder picker. It opens next: choose %s itself (its top folder), tap “Use this folder”, then Allow. Android asks once; every sync on this card uses it.</string>
+    <string name="t_64d04f9033">Android doesn\'t let ManyFile write to %s.</string>
     <string name="t_2c6b08088d">New folder sync</string>
     <string name="t_cdd33e1e17">Edit sync</string>
     <string name="t_cb0cb170d1">Server</string>
@@ -2490,7 +2547,9 @@
     <string name="t_49c4d3375a">Thin lines between items in file lists and settings, and an outline around grid tiles</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
-    <string name="t_ce806504c3">Large grid uses one fewer, gallery one more</string>
+    <string name="t_9b8a1ccef6">Large grid uses one fewer, gallery one more. Or pinch the files in a folder</string>
+    <string name="t_b26ba791b8">List size</string>
+    <string name="t_839d0533bd">%s · the lists\' icons and text. Or pinch the files in a folder</string>
     <string name="t_37f9c1a6a5">Show hidden files</string>
     <string name="t_6fdbcce4e4">Names starting with a dot</string>
     <string name="t_d7fe6fc11d">What each item shows</string>
@@ -3258,6 +3317,8 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
     <string name="t_901b56b2a8">Nothing to show</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
+    <string name="t_374bef1551">No QR code found in the photo: hold the phone closer, with the whole code in view</string>
+    <string name="t_b5cfd75e69">No camera app on this phone: type the address instead</string>
     <string name="t_2b1306ca38">Send files from this phone to a computer, or another phone, on the same Wi-Fi: no cable, no app on the other side. Choose what to share, then open the address shown (or scan its QR code) there.</string>
     <string name="t_09dbd787ae">To share files: select them in the file browser, then ⋮ → Share on Wi-Fi.</string>
     <string name="t_eceef89b99">Share a folder…</string>
@@ -3266,11 +3327,17 @@
     <string name="t_4eaae53e88">Copy address</string>
     <string name="t_175ad39d53">QR code of the address</string>
     <string name="t_c9cf1fd724">Or scan this with the other device\'s camera.</string>
+    <string name="t_32a7f55391">Another phone with ManyFile: Share on Wi-Fi → Open another phone\'s share, and scan this code. Whole folders come across as they are (no ZIP), and can be synced from.</string>
     <string name="t_268b9b986f">Nothing downloaded yet</string>
     <string name="t_51e3be8f34">1 download so far</string>
     <string name="t_45ea68fadd">%d downloads so far</string>
     <string name="t_ff649bd59e">Anyone on this Wi-Fi who has the address can download what is shared, until you stop. It stops by itself after 30 minutes without a visit. Nothing can be uploaded or changed.</string>
     <string name="t_50d0d8dd11">Shared</string>
+    <string name="t_3e1a4c60eb">Open another phone\'s share</string>
+    <string name="t_d1957a1f13">On the other phone: ManyFile → Share on Wi-Fi. Then scan the code it shows, or type its address. Its folders open here like a server\'s: browse them, copy whole folders, or sync from them.</string>
+    <string name="t_d58717f0a4">Scan its QR code</string>
+    <string name="t_c4f24e2963">Or its address</string>
+    <string name="t_a1ca30241a">Opening the share…</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_e6c3b183a1">Could not read the document</string>
     <string name="t_3f6ef92f1e">Could not save: %s</string>
