@@ -5,6 +5,11 @@
   Translate the texts, keep the names and placeholders (%s, %d, %1$s…), and save it as strings-<code>.xml.
 -->
 <resources>
+    <!-- app/src/main/kotlin/tct/manyfile/AppFrame.kt -->
+    <string name="t_b7c4d17782">Reach devices on your Wi-Fi?</string>
+    <string name="t_dbca62bc83">Android asks before an app connects to computers, NAS boxes and other devices at home. ManyFile needs it for servers on your network (SMB, WebDAV, SFTP) and for Wi-Fi sharing. Android calls it “Nearby devices”.</string>
+    <string name="t_2e02623966">Continue</string>
+    <string name="t_e457149073">Not now</string>
     <!-- app/src/main/kotlin/tct/manyfile/AppLockScreen.kt -->
     <string name="t_9aa63775cb">Unlock ManyFile</string>
     <string name="t_62e8cdff76">Type it instead</string>
@@ -64,10 +69,6 @@
     <string name="t_0e6d94a559">Open with another app</string>
     <string name="t_09ca55ca52">Share</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
-    <string name="t_b7c4d17782">Reach devices on your Wi-Fi?</string>
-    <string name="t_dbca62bc83">Android asks before an app connects to computers, NAS boxes and other devices at home. ManyFile needs it for servers on your network (SMB, WebDAV, SFTP) and for Wi-Fi sharing. Android calls it “Nearby devices”.</string>
-    <string name="t_2e02623966">Continue</string>
-    <string name="t_e457149073">Not now</string>
     <string name="t_033bd7cae8">OneDrive: %s</string>
     <string name="t_20ca9940f5">Google Drive: %s</string>
     <string name="t_b52b36b726">Back</string>
@@ -81,7 +82,7 @@
     <string name="t_739cef94de">Your home screen app doesn\'t take shortcuts</string>
     <string name="t_20db5d20c5">Saved “%s” (%d pages)</string>
     <string name="t_db6985e1e8">The scan couldn\'t be saved: %s</string>
-    <string name="t_bc2d6d6245">The scanner needs Google Play services (it comes with them): %s</string>
+    <string name="t_1c3937cfee">Google\'s scanner didn\'t start (%s): ManyFile\'s own instead</string>
     <string name="t_dc3decbb93">Details</string>
     <string name="t_d97d1ee339">Show</string>
     <string name="t_cf9b77061f">Open</string>
@@ -579,6 +580,9 @@
     <string name="t_2bfe0e4682">Root access is off: turn it on in Settings → Root access</string>
     <string name="t_c054c4c728">Root access was refused or stopped: allow ManyFile in the root app (Magisk, KernelSU…) and try again</string>
     <string name="t_7fbe641165">unreadable listing</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
+    <string name="t_01df6ae2d1">couldn\'t read the picture</string>
+    <string name="t_26072f40c7">this isn\'t a picture ManyFile can read</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/SearchFilter.kt -->
     <string name="t_6599db8f70">invalid regular expression</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/TextScanner.kt -->
@@ -2087,8 +2091,6 @@
     <string name="t_4dc98e861f">Text larger</string>
     <string name="t_85628cac80">Text smaller</string>
     <string name="t_e65017017f">Close session</string>
-    <string name="t_12105869cc">sftp: no saved server called “%s”. Add it in Servers first (☰ → Servers); saved: %s</string>
-    <string name="t_71f8e7976e">none</string>
     <string name="t_04c04fd5f7">This phone</string>
     <string name="t_fe392644a2">starting…</string>
     <string name="t_ba92ed73c9">ended</string>
@@ -2442,7 +2444,7 @@
     <string name="t_16c760c7b5">Show counts</string>
     <string name="t_f0d5d8cb9f">Numbers on Home and in the ☰ menu: items in the Bin, running jobs, open tabs, connected servers</string>
     <string name="t_4e947596f8">Storage map on Home</string>
-    <string name="t_7c6095996c">Home\'s storage cards show what fills them: photos, videos, music, documents, apps, other files and free space</string>
+    <string name="t_0412c2084b">Under each storage bar on Home, what fills it: photos, videos, music, documents, apps, other files and free space. Off by default</string>
     <string name="t_90d8adf19e">Dividers</string>
     <string name="t_49c4d3375a">Thin lines between items in file lists and settings, and an outline around grid tiles</string>
     <string name="t_2ae3a9285a">Default layout</string>
@@ -2524,6 +2526,8 @@
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
     <string name="t_c2f2f22c32">When a file exists</string>
     <string name="t_b199c32a04">Forget the existing-file choice</string>
+    <string name="t_42406de86e">ManyFile\'s own document scanner</string>
+    <string name="t_da334ea8c1">Off: Google\'s scanner where the phone has Google Play services, ManyFile\'s on the others (Huawei\'s). On: always ManyFile\'s, which works with any camera app</string>
     <string name="t_b6d421870c">Background jobs</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_90148442f2">Concurrent jobs</string>
@@ -2714,6 +2718,7 @@
     <string name="t_f79e3f52f9">(files in this folder)</string>
     <string name="t_eea0692c92">(files here)</string>
     <string name="t_0039ca4bc7">%s · %s files</string>
+    <string name="t_71f8e7976e">none</string>
     <string name="t_bc9c4568c2">Duplicate space</string>
     <string name="t_b74644d0b1">scanning…</string>
     <string name="t_d69a8c1a54">not scanned</string>
@@ -3071,6 +3076,37 @@
     <string name="t_0918834918">1 view</string>
     <string name="t_b65de96d30">Works with YouTube, TikTok, X, Instagram, Facebook, Vimeo, SoundCloud and about 1,700 more sites.</string>
     <string name="t_76f0c2c4f5">See the list</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ScannerScreen.kt -->
+    <string name="t_13856eab64">Finding the page…</string>
+    <string name="t_33d7e3acd1">No camera app on this phone: add photos from the gallery instead</string>
+    <string name="t_4d66f0d141">Finding the page… %d of %d</string>
+    <string name="t_bab2537d61">Making the PDF: page %d of %d</string>
+    <string name="t_56a2285c5b">Saving…</string>
+    <string name="t_b6f995045b">Scan · 1 page</string>
+    <string name="t_fe592304e4">Scan · %d pages</string>
+    <string name="t_9bab232dd9">Save PDF</string>
+    <string name="t_f28563a477">Colour</string>
+    <string name="t_1ced325ddd">Grey</string>
+    <string name="t_019728575b">Black &amp; white</string>
+    <string name="t_ba9f13f45d">As taken</string>
+    <string name="t_d7e0bea3fd">Add a page</string>
+    <string name="t_e652d4863b">From gallery</string>
+    <string name="t_93fb6ee6a0">Take a photo of each page, or pick photos from the gallery. ManyFile finds the page, straightens it and makes one PDF.</string>
+    <string name="t_0ca4dfecdf">Page %d</string>
+    <string name="t_68d8d78ef2">whole photo</string>
+    <string name="t_1b38a668f5">Adjust corners</string>
+    <string name="t_368e8081b7">Turn</string>
+    <string name="t_07dd6f321e">Move earlier</string>
+    <string name="t_bb4c848fa4">Move later</string>
+    <string name="t_a7c0e1f9c4">Leave the scan?</string>
+    <string name="t_2d637f5088">The page scanned isn\'t saved yet.</string>
+    <string name="t_a10f9b276e">The %d pages scanned aren\'t saved yet.</string>
+    <string name="t_7e3520a973">Leave</string>
+    <string name="t_98d9cfd055">Keep scanning</string>
+    <string name="t_25d5e3d962">Corners of the page</string>
+    <string name="t_1d4d43cc6f">Use</string>
+    <string name="t_16457335a7">Retake</string>
+    <string name="t_4e63caf328">Whole photo</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SimilarPhotosScreen.kt -->
     <string name="t_4e64dfeffa">Finds photos that look alike even when their files differ: a photo and the copy a chat app made smaller, burst shots, edited copies, the same picture saved twice. The duplicate finder only finds files with identical contents.</string>
     <string name="t_bcfccb2b9e">How alike</string>
