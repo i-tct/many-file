@@ -521,6 +521,22 @@
     <string name="t_bf866bfb2d">The list of sites could not be downloaded (%s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/net/SpeedTest.kt -->
     <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPasswords.kt -->
+    <string name="t_734d09df39">Protecting %s</string>
+    <string name="t_964cab4bb4">protected</string>
+    <string name="t_657aa7fc1b">%s already has a password, and the current password given doesn\'t open it</string>
+    <string name="t_43d8603c84">the protected copy of %s failed its check; the original is kept</string>
+    <string name="t_284dc6f51f">Protected as %s</string>
+    <string name="t_83b0e4a9cf">%s PDFs protected</string>
+    <string name="t_ea61bfc9fe">Removing the password from %s</string>
+    <string name="t_57b690ac88">unprotected</string>
+    <string name="t_07d8232c4a">Wrong password for %s</string>
+    <string name="t_0b1f2e3a67">the copy of %s without a password failed its check; the original is kept</string>
+    <string name="t_34ef826409">Saved without a password as %s</string>
+    <string name="t_d51727dee3">Password removed from %s PDFs</string>
+    <string name="t_b551afe2b4">%s is not there any more</string>
+    <string name="t_83e50a3309">could not save %s</string>
+    <string name="t_fcff0e1453">qpdf stopped with code %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
     <string name="t_b1ecbbc411">cannot rename root</string>
     <string name="t_fea851eedd">a file with that name already exists</string>
@@ -720,7 +736,6 @@
     <string name="t_5cda30a276">Encrypting %s</string>
     <string name="t_9330fa6e1a">only files can be encrypted (lock a folder instead)</string>
     <string name="t_c2f9037dd5">the encrypted copy didn\'t read back the same; the original is kept</string>
-    <string name="t_83e50a3309">could not save %s</string>
     <string name="t_e4c43b6104">%s is encrypted, but its original could not be deleted</string>
     <string name="t_e9a57ae119">Encrypted as %s</string>
     <string name="t_c7c31e9747">%s files encrypted</string>
@@ -1200,6 +1215,32 @@
     <string name="t_b00d63ea86">Bigger, smaller, usual size (also Ctrl + wheel, or a pinch)</string>
     <string name="t_34b8c60c89">This list</string>
     <string name="t_266695479a">Keyboard shortcuts</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfPasswordDialogs.kt -->
+    <string name="t_c07b4e9ca5">%s PDFs</string>
+    <string name="t_136778aec1">Protect %s with a password</string>
+    <string name="t_49d1d34858">Any PDF reader will ask for this password before showing it (AES-256).</string>
+    <string name="t_b56e70e0ff">Can\'t read as a PDF: %s</string>
+    <string name="t_5e6168e0f4">Its current password</string>
+    <string name="t_e32ab6f5a2">It already has one; the new one replaces it</string>
+    <string name="t_b9230d7d9a">Short passwords are easy to guess</string>
+    <string name="t_80177a038c">Once it is open, people may:</string>
+    <string name="t_d9ae27212b">Print it</string>
+    <string name="t_ec77dc292d">Copy its text and pictures</string>
+    <string name="t_dc101698a1">Change it (pages, forms, comments)</string>
+    <string name="t_c8e2adab9f">Password to lift these limits (optional)</string>
+    <string name="t_af35c5057e">Without one, no one can lift them. Most apps keep to these limits, but some ignore them: only the password to open it really protects it.</string>
+    <string name="t_cfe2e25911">Replace the original</string>
+    <string name="t_f313c27c93">Saved beside it as “name (protected).pdf”.</string>
+    <string name="t_8c5de33531">ManyFile keeps no copy of the password: without it, the PDF can\'t be opened.</string>
+    <string name="t_016ac2dcfc">Protect</string>
+    <string name="t_f3b993cf70">Remove the password from %s</string>
+    <string name="t_820d6004b0">Checking…</string>
+    <string name="t_205a8b26c0">This PDF has no password and no limits.</string>
+    <string name="t_bd5a32963a">These PDFs have no password and no limits.</string>
+    <string name="t_ef41381eaa">The PDF is saved without its password and without limits on printing, copying or changes.</string>
+    <string name="t_a0f1d58c11">It opens without a password; this takes off its limits on printing, copying or changes.</string>
+    <string name="t_0e17c42b64">Saved beside it as “name (unprotected).pdf”.</string>
+    <string name="t_acef17d00b">Remove password</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionGate.kt -->
     <string name="t_3faeee3150">Storage access</string>
     <string name="t_2394fedab0">ManyFile is a file manager: it needs “All files access” to browse, copy and organise everything in shared storage.</string>
@@ -1487,6 +1528,8 @@
     <string name="t_03f6fdec3b">Lock folder…</string>
     <string name="t_5ddd524a38">Decrypt…</string>
     <string name="t_cd4c044ae4">Encrypt…</string>
+    <string name="t_7ac95b7cda">Protect PDF with a password…</string>
+    <string name="t_e4022d3d67">Remove PDF password…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
@@ -3626,7 +3669,7 @@
     <string name="t_492630372c">Empty sheet</string>
     <string name="t_f1fe96fcf8">Large sheet: the first %s rows are shown.</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/PdfViewerScreen.kt -->
-    <string name="t_c25ab4f6a8">Could not open this PDF (encrypted or damaged).</string>
+    <string name="t_e7646fc58e">Could not open this PDF: it may be damaged.</string>
     <string name="t_a85db23d88">This PDF is password-protected</string>
     <string name="t_bdda76172c">Could not read the text of this PDF</string>
     <string name="t_b1ccb50328">Page %s / %s</string>
@@ -3689,4 +3732,7 @@
     <string name="t_cce7155371">Reload</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/XmlViewerScreen.kt -->
     <string name="t_d131a14153">Invalid XML</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
+    <string name="t_a803dd4ddb">Could not open this PDF</string>
+    <string name="t_37711301ec">This PDF needs a password</string>
 </resources>
