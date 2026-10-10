@@ -521,6 +521,10 @@
     <string name="t_bf866bfb2d">The list of sites could not be downloaded (%s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/net/SpeedTest.kt -->
     <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfFiles.kt -->
+    <string name="t_b551afe2b4">%s is not there any more</string>
+    <string name="t_83e50a3309">could not save %s</string>
+    <string name="t_fcff0e1453">qpdf stopped with code %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPasswords.kt -->
     <string name="t_734d09df39">Protecting %s</string>
     <string name="t_964cab4bb4">protected</string>
@@ -534,9 +538,20 @@
     <string name="t_0b1f2e3a67">the copy of %s without a password failed its check; the original is kept</string>
     <string name="t_34ef826409">Saved without a password as %s</string>
     <string name="t_d51727dee3">Password removed from %s PDFs</string>
-    <string name="t_b551afe2b4">%s is not there any more</string>
-    <string name="t_83e50a3309">could not save %s</string>
-    <string name="t_fcff0e1453">qpdf stopped with code %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfWatermarks.kt -->
+    <string name="t_ddae8d79c9">%s isn\'t a picture ManyFile can read</string>
+    <string name="t_4955e907e1">Adding a watermark to %s</string>
+    <string name="t_0d6671ea2f">watermark</string>
+    <string name="t_35bff6ba90">Pages “%s”: write them like 1-3, 5, 8-</string>
+    <string name="t_fcbf7a4aec">%s has no page %s</string>
+    <string name="t_bc0f039def">the copy of %s with a watermark failed its check; the original is kept</string>
+    <string name="t_8afcd275a1">Saved with a watermark as %s</string>
+    <string name="t_771747124f">Watermark added to %s PDFs</string>
+    <string name="t_7f87232d51">Removing the watermark from %s</string>
+    <string name="t_47a555851c">no watermark</string>
+    <string name="t_076d3aecd8">the copy of %s without the watermark failed its check; the original is kept</string>
+    <string name="t_6b00ce0553">Nothing was taken off %s</string>
+    <string name="t_7cfdfa165a">Watermark taken off %s pages, saved as %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
     <string name="t_b1ecbbc411">cannot rename root</string>
     <string name="t_fea851eedd">a file with that name already exists</string>
@@ -1409,6 +1424,41 @@
     <string name="t_5fc7e38bff">open</string>
     <string name="t_adec79fd87">locked</string>
     <string name="t_77599bd171">found on this phone</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/WatermarkDialogs.kt -->
+    <string name="t_84c9cc88e4">CONFIDENTIAL</string>
+    <string name="t_261c2130c0">That isn\'t a picture ManyFile can read</string>
+    <string name="t_cd982b81cc">Add a watermark to %s</string>
+    <string name="t_61852524b8">Picture</string>
+    <string name="t_f28563a477">Colour</string>
+    <string name="t_1ed59bc373">Choose a picture…</string>
+    <string name="t_7dde68407e">Choose another picture…</string>
+    <string name="t_90735fad8b">See-through: %s %%</string>
+    <string name="t_d549de5b68">Size: %s %%</string>
+    <string name="t_1729e7ad72">↗ Across</string>
+    <string name="t_ab477be31d">→ Level</string>
+    <string name="t_3611268836">↘ Across</string>
+    <string name="t_cae0435c41">Top</string>
+    <string name="t_ced02810fc">Middle</string>
+    <string name="t_cce7f2f2f0">Bottom</string>
+    <string name="t_600584c2d5">Pages</string>
+    <string name="t_6a72085653">All</string>
+    <string name="t_cc2aa5d14a">Empty for all, or like 1-3, 5, 8-</string>
+    <string name="t_19d65332d9">Write them like 1-3, 5, 8-</string>
+    <string name="t_eb08fc1c69">Behind the page\'s text (scanned pages hide it)</string>
+    <string name="t_eed05453a0">Its password</string>
+    <string name="t_f82afae5ec">It has one; it keeps it</string>
+    <string name="t_2c3a49101f">Saved beside it as “name (watermark).pdf”.</string>
+    <string name="t_5677a5c921">Remove the watermark from “%s”</string>
+    <string name="t_bb84d5472a">Look for watermarks</string>
+    <string name="t_c4cc87a5f0">Looking for watermarks…</string>
+    <string name="t_a70b408372">No watermark was found that ManyFile can take off. A watermark drawn into the pages as plain text can\'t be told apart from the rest of the page yet.</string>
+    <string name="t_04bf862718">Watermarks marked as such, on %s of %s pages</string>
+    <string name="t_474a2b31ce">Watermark notes: %s</string>
+    <string name="t_25045f4508">On nearly every page (a watermark, or perhaps a logo that belongs there):</string>
+    <string name="t_ef7b1dc53b">Picture, %s × %s</string>
+    <string name="t_9de36050c7">Drawing</string>
+    <string name="t_a921ff3cac">on %s of %s pages</string>
+    <string name="t_82eea62c4e">Saved beside it as “name (no watermark).pdf”.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/WorkspaceScreen.kt -->
     <string name="t_39fc721248">Undo</string>
     <string name="t_0b3b3c8f57">No recently closed tabs</string>
@@ -1530,6 +1580,8 @@
     <string name="t_cd4c044ae4">Encrypt…</string>
     <string name="t_7ac95b7cda">Protect PDF with a password…</string>
     <string name="t_e4022d3d67">Remove PDF password…</string>
+    <string name="t_ac261685c5">Add watermark…</string>
+    <string name="t_b5e8f45d87">Remove watermark…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
@@ -1749,7 +1801,6 @@
     <string name="t_8691a1d9b1">Previous match</string>
     <string name="t_c0ba91599d">Next match</string>
     <string name="t_853d42bcea">Close find</string>
-    <string name="t_6a72085653">All</string>
     <string name="t_2113457a6c">Ln %s, Col %s</string>
     <string name="t_48d438f044">%d lines</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorViewModel.kt -->
@@ -3076,6 +3127,9 @@
     <string name="t_5bd110f239">To start a computer from it: plug it in, switch the computer on, and choose the USB stick in its boot menu (often F12, F11, F8 or Esc).</string>
     <string name="t_ceda0f4951">Unplug it and plug it back in: Android shows its “Ventoy” partition, where the ISO files go (or copy them from a computer).</string>
     <string name="t_07efe84885">To start a computer from it: plug it in, switch the computer on, and choose the USB stick in its boot menu (often F12, F11, F8 or Esc). With Secure Boot on, the first start asks once to enroll Ventoy\'s key.</string>
+    <string name="t_4f2203af4f">Android put its usual folders on “%s” (%s). They were empty, so ManyFile took them away again.</string>
+    <string name="t_d8923770b0">Android puts its usual folders (Alarms, DCIM, Download, Music…) on a new stick. To take the empty ones away, let ManyFile use “%s”.</string>
+    <string name="t_2fd4c43936">Leave them</string>
     <string name="t_eb00b598f9">An ISO made to start from USB sticks too.</string>
     <string name="t_5fcb93bc49">This ISO has no boot record for USB sticks (Windows ISOs are like this): written whole, it won\'t start a computer. Put it on a Ventoy stick instead.</string>
     <string name="t_23dd9f83a5">A disk image with its own partitions.</string>
@@ -3435,7 +3489,6 @@
     <string name="t_b6f995045b">Scan · 1 page</string>
     <string name="t_fe592304e4">Scan · %d pages</string>
     <string name="t_9bab232dd9">Save PDF</string>
-    <string name="t_f28563a477">Colour</string>
     <string name="t_1ced325ddd">Grey</string>
     <string name="t_019728575b">Black &amp; white</string>
     <string name="t_ba9f13f45d">As taken</string>
@@ -3670,19 +3723,24 @@
     <string name="t_f1fe96fcf8">Large sheet: the first %s rows are shown.</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/PdfViewerScreen.kt -->
     <string name="t_e7646fc58e">Could not open this PDF: it may be damaged.</string>
-    <string name="t_a85db23d88">This PDF is password-protected</string>
-    <string name="t_bdda76172c">Could not read the text of this PDF</string>
+    <string name="t_dd87d5dd18">Could not read the text of this PDF: %s</string>
     <string name="t_b1ccb50328">Page %s / %s</string>
     <string name="t_50ae1f3da7">Find text</string>
-    <string name="t_aa50377309">Pen and highlighter</string>
+    <string name="t_fe17a5bb0f">Edit PDF</string>
     <string name="t_227ecfc86a">Stop drawing</string>
     <string name="t_93afd7c679">Normal pages</string>
     <string name="t_cd0bf6606d">Night mode</string>
-    <string name="t_600584c2d5">Pages</string>
+    <string name="t_8cd67e0851">Edit PDF…</string>
     <string name="t_d12d316b48">Go to page…</string>
     <string name="t_e85e0191e7">Save a copy with annotations</string>
     <string name="t_57a09bff5a">Remove all annotations…</string>
+    <string name="t_b75e2e5d3a">This PDF has no text to search: its pages are pictures, like a scan.</string>
+    <string name="t_f1902e098a">This PDF\'s text can\'t be searched: it doesn\'t say which letter each shape is.</string>
+    <string name="t_4d8937c1b5">Not found in this PDF</string>
+    <string name="t_963809ac31">Could not read the contents of this PDF: %s</string>
     <string name="t_ceec8c296d">This PDF has no table of contents. Use Pages or the slider to move around.</string>
+    <string name="t_055688019c">From the PDF\'s contents pages</string>
+    <string name="t_aa50377309">Pen and highlighter</string>
     <string name="t_1ce07d9a67">%s results for “%s”</string>
     <string name="t_a265d552ea">Page %s</string>
     <string name="t_6cfcd8a507">Remove all annotations?</string>
