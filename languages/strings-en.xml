@@ -46,6 +46,7 @@
     <string name="t_99b4b94d4a">E-book reader</string>
     <string name="t_00573746f1">Font preview</string>
     <string name="t_050cf53864">Keystore tool</string>
+    <string name="t_c106c3f841">Bootable USB writer</string>
     <string name="t_7d5e3b2805">Another app</string>
     <string name="t_9b25b155c6">Always open .%s files this way</string>
     <string name="t_d89b7c95de">Default for .%s: %s</string>
@@ -66,6 +67,8 @@
     <string name="t_d76636a185">Open as SQLite database</string>
     <string name="t_f2fe0e3619">Inspect APK</string>
     <string name="t_1a3685f7f0">Browse as archive</string>
+    <string name="t_fce33232d0">Write to a USB stick</string>
+    <string name="t_3cc3848605">Bootable USB: the image over a whole stick</string>
     <string name="t_0e6d94a559">Open with another app</string>
     <string name="t_09ca55ca52">Share</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
@@ -129,6 +132,8 @@
     <string name="t_1d28d84f1f">Copied %s to %s</string>
     <string name="t_e9b58bc008">its Command was deleted</string>
     <string name="t_2000ac9714">Ran “%s” on %s</string>
+    <string name="t_c054c4c728">Root access was refused or stopped: allow ManyFile in the root app (Magisk, KernelSU…) and try again</string>
+    <string name="t_1be782341d">Shizuku stopped, or doesn\'t let ManyFile in: start Shizuku again (it stops at every restart of the phone), then try again</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/TextFiles.kt -->
     <string name="t_3e22566313">file not found</string>
     <string name="t_a6b8206b1b">no parent</string>
@@ -191,6 +196,11 @@
     <string name="t_e6f329a7d7">%s is not a readable bundle (damaged, or an encrypted APKM)</string>
     <string name="t_740b23bbae">%s needs Android API %s or newer; this device has API %s</string>
     <string name="t_2ffe16abe3">Could not write the app\'s data file to %s: %s. Copy it there by hand from the bundle.</string>
+    <string name="t_f578ef3801">The size of %s is unknown: copy it to the phone first</string>
+    <string name="t_86b73ef2ee">Android didn\'t start the install: %s</string>
+    <string name="t_6b845cd137">Android refused it: %s</string>
+    <string name="t_b23041360b">%s is installed</string>
+    <string name="t_3deb4ec8f0">Android didn\'t take %s: %s</string>
     <string name="t_faa780715a">Install failed: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/DocumentScans.kt -->
     <string name="t_1eb40244c5">the scanner gave no PDF</string>
@@ -270,6 +280,47 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsBackup.kt -->
     <string name="t_140920362b">made by a newer ManyFile: update it to restore this file</string>
     <string name="t_4b6d6ef213">not a ManyFile settings file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/DiskImage.kt -->
+    <string name="t_39e665b7f8">%s doesn\'t hold one disk image: extract the image from it first</string>
+    <string name="t_2f25efb8c1">%s is empty</string>
+    <string name="t_f7f975ba03">Couldn\'t read %s: %s</string>
+    <string name="t_0060e9c1b4">ManyFile can\'t unpack Zstandard (.zst) images yet: unpack it first, then write the .img</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/ImageWriter.kt -->
+    <string name="t_20ca43b160">Stopped checking: the image is on the stick, but wasn\'t checked to the end</string>
+    <string name="t_a8bba21e1f">The stick didn\'t keep what was written: it may be failing, or fake (smaller than it says)</string>
+    <string name="t_e266256511">Stopped: the stick\'s start is erased, so nothing starts from it until it is written again</string>
+    <string name="t_1a04a651ab">%s (%s) is bigger than the stick (%s)</string>
+    <string name="t_3bd65ca326">%s is bigger than the stick (%s): writing stopped there, so nothing starts from it</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/ScsiDisk.kt -->
+    <string name="t_baf937cc19">The USB stick isn\'t ready: unplug it, plug it back in, and try again</string>
+    <string name="t_653f4f967d">The USB stick reports no size: is a card in the reader?</string>
+    <string name="t_1614b62a92">the stick is write-protected (a lock switch on it, or a card\'s)</string>
+    <string name="t_370eecae23">no medium: is a card in the reader?</string>
+    <string name="t_f0a77d921a">the stick reports a damaged flash memory</string>
+    <string name="t_23c32f0b8c">the stick didn\'t answer</string>
+    <string name="t_06162cd7ef">USB stick: %s failed (%s)</string>
+    <string name="t_c9879e82fd">The USB stick stopped answering: is it still plugged in?</string>
+    <string name="t_74a2481d33">The USB stick answered out of turn: unplug it, plug it back in, and try again</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/UsbSticks.kt -->
+    <string name="t_09aa3b689b">USB drive</string>
+    <string name="t_c427d61a55">This phone has no USB host support</string>
+    <string name="t_33f9893275">This USB device isn\'t a drive</string>
+    <string name="t_b8adbb3ac7">This USB drive speaks a way ManyFile doesn\'t</string>
+    <string name="t_dc2be243d7">Android didn\'t let ManyFile open the USB drive</string>
+    <string name="t_d5390d732b">The USB drive is busy: close other apps using it, or unplug it and plug it back in</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/Ventoy.kt -->
+    <string name="t_22e4e4b3a4">Over 2 TB only GPT works: choose GPT</string>
+    <string name="t_e49fbd5483">This stick has no Ventoy to update</string>
+    <string name="t_3c587ec650">The stick\'s partition table is damaged</string>
+    <string name="t_8efea23eb0">Ventoy\'s EFI partition is shorter than it should be</string>
+    <string name="t_b3b6602bcb">Ventoy needs a disk with 512-byte sectors; this one has %s</string>
+    <string name="t_1c643b6010">The stick is too small for Ventoy (at least %s MB)</string>
+    <string name="t_a1bf92eff4">Cancelled</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/VentoyRelease.kt -->
+    <string name="t_394f2c47ec">The Ventoy download didn\'t match its checksum: try again</string>
+    <string name="t_5b967ece08">The Ventoy release is missing %s</string>
+    <string name="t_b9113f7ad6">Ventoy\'s download answered %s</string>
+    <string name="t_ae64ef4f39">Couldn\'t download Ventoy: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
     <string name="t_e1c1a4ad35">cannot reach Google Drive: %s</string>
     <string name="t_7c561ab42b">Drive did not start the upload</string>
@@ -330,6 +381,16 @@
     <string name="t_c8eb900ef3">only within one OneDrive</string>
     <string name="t_b4c8848c60">not empty</string>
     <string name="t_b5cb97c13c">OneDrive files can\'t be appended to</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/PhotoBackup.kt -->
+    <string name="t_61a5e43caf">Photo backup</string>
+    <string name="t_09fef5d8d9">Failed</string>
+    <string name="t_509df464b5">No Google Drive account chosen</string>
+    <string name="t_82fb1d5144">Up to date</string>
+    <string name="t_321e3e922f">Waiting for Wi-Fi (photo backup uses only Wi-Fi)</string>
+    <string name="t_e079e895f2">%s could not be backed up (see the list)</string>
+    <string name="t_f73966a7a1">%s backed up</string>
+    <string name="t_0b3f1491a2">%s already on Drive</string>
+    <string name="t_17664465b6">%s failed</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/download/Downloads.kt -->
     <string name="t_680e60d8d4">this download was removed</string>
     <string name="t_fa285893a3">size unknown</string>
@@ -367,7 +428,6 @@
     <string name="t_d8603a8209">Skipped %s: same location</string>
     <string name="t_6827bf2c1b">Failed %s: %s</string>
     <string name="t_9ef2ca5ab2">1 file</string>
-    <string name="t_17664465b6">%s failed</string>
     <string name="t_ec734b6515">verified</string>
     <string name="t_75d6f9a0fd">%s: already moved</string>
     <string name="t_879f72daa3">Skipped %s: %s</string>
@@ -486,6 +546,8 @@
     <string name="t_ab722623e7">tag collections list files; act on the files themselves</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/KeyInstaller.kt -->
     <string name="t_5853070fcb">not a public key</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/PhoneReads.kt -->
+    <string name="t_5e74559feb">ManyFile may not read %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/PhoneWrites.kt -->
     <string name="t_84b24d7541">cannot create %s</string>
     <string name="t_2a8db27209">cannot write %s</string>
@@ -513,7 +575,6 @@
     <string name="t_a0c5a5edf9">deleted %s</string>
     <string name="t_8548be84e0">deleted %s on the server</string>
     <string name="t_9515c9bd5b">%s deletions kept back: confirm them in the sync\'s preview</string>
-    <string name="t_82fb1d5144">Up to date</string>
     <string name="t_405d99ee6a">%s updated</string>
     <string name="t_6f37b32461">%s sent</string>
     <string name="t_d0555004bb">%s conflicts, both versions kept</string>
@@ -523,7 +584,7 @@
     <string name="t_d0b7b836a3">%s files could not be downloaded (see the job\'s log)</string>
     <string name="t_1838be931c">%s files could not be copied (see the job\'s log)</string>
     <string name="t_eff6a5da45">%s put back after an interrupted sync</string>
-    <string name="t_e918852bd2">%s is gone from this phone (a memory card not mounted?): nothing was synced, so nothing is deleted on the server</string>
+    <string name="t_bb07997598">%s is gone from this phone (a memory card or USB drive not plugged in?): nothing was synced, so nothing is deleted on the server</string>
     <string name="t_ec5b7febd8">%s is gone from the server: nothing was synced, so nothing is deleted on this phone</string>
     <string name="t_95c1aa567a">bad path</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
@@ -595,10 +656,9 @@
     <string name="t_b0aac1a002">The root app didn\'t answer in time. Open it, allow ManyFile, then try again.</string>
     <string name="t_fbab273de6">The root app refused root to ManyFile. Allow ManyFile in it (Magisk → Superuser), then try again.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/root/RootProvider.kt -->
-    <string name="t_9f1cf646eb">Android doesn\'t let apps read this without root. On a rooted phone, turn on Settings → Root access to open it.</string>
-    <string name="t_cc6fc0627b">This is a read-only view: turn on Settings → Root access (rooted phones) to change files here</string>
-    <string name="t_2bfe0e4682">Root access is off: turn it on in Settings → Root access</string>
-    <string name="t_c054c4c728">Root access was refused or stopped: allow ManyFile in the root app (Magisk, KernelSU…) and try again</string>
+    <string name="t_d6ed362cdb">Android doesn\'t let apps read this. Settings → Root access opens it: with root on a rooted phone, or with Shizuku (no root) as far as adb may go.</string>
+    <string name="t_9de2e69a6c">This is a read-only view: Settings → Root access (root, or Shizuku) lets ManyFile change files here</string>
+    <string name="t_2ef95e1762">Root access is off: turn it on, or Shizuku, in Settings → Root access</string>
     <string name="t_7fbe641165">unreadable listing</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
     <string name="t_01df6ae2d1">couldn\'t read the picture</string>
@@ -761,7 +821,6 @@
     <string name="t_edcd363083">Timed out</string>
     <string name="t_4785c5c50f">Not enough space</string>
     <string name="t_8e635455c1">Not supported</string>
-    <string name="t_a1bf92eff4">Cancelled</string>
     <string name="t_b9d324a888">Is a folder</string>
     <string name="t_6465f05cd5">Not a folder</string>
     <string name="t_815b763bbf">Folder is not empty</string>
@@ -862,7 +921,6 @@
     <string name="t_d6f5b75c92">Move here</string>
     <string name="t_20f7708fa7">Extract to</string>
     <string name="t_5221b51b33">Extract here</string>
-    <string name="t_09fef5d8d9">Failed</string>
     <string name="t_93509bf604">Nothing to undo</string>
     <string name="t_97c7f367c4">Nothing to redo</string>
     <string name="t_dcad9fdb40">Renamed to %s</string>
@@ -1196,8 +1254,13 @@
     <string name="t_2b3a46ba66">System (/)</string>
     <string name="t_5ee812ce4b">%s%% used</string>
     <string name="t_9996de70db">%s used · %s free of %s</string>
-    <string name="t_6e2bb5c524">Read-only: what Android lets apps see here. On a rooted phone, Settings → Root access opens everything.</string>
+    <string name="t_4b2c5aa9b2">Read-only: what Android lets apps see here. Settings → Root access opens more: root on a rooted phone, or Shizuku without root.</string>
+    <string name="t_64fa46d7c5">Android shows apps only their own folder here. Open it through Shizuku or root to see every app\'s.</string>
+    <string name="t_7dfa4aed01">Android shows apps only their own folder here. Shizuku (no root needed) or root lets ManyFile see every app\'s: Settings → Root access.</string>
+    <string name="t_09f0662f45">Open all</string>
+    <string name="t_c7f73bb54d">Settings</string>
     <string name="t_79a5e47f3a">This phone is rooted. Turn on root access to see and change everything here.</string>
+    <string name="t_348b956d28">Shizuku is installed. Turn it on in ManyFile to see more here, with adb\'s rights.</string>
     <string name="t_26563efc2a">Turn on</string>
     <string name="t_1a77ae0ee6">“%s” is locked: its files are encrypted.</string>
     <string name="t_0929b6a485">No file in %s is larger than %s.</string>
@@ -1374,7 +1437,6 @@
     <string name="t_b1daf70e96">Analyze storage here</string>
     <string name="t_f74acbcd98">Open Bin</string>
     <string name="t_437736fdb5">Jobs</string>
-    <string name="t_c7f73bb54d">Settings</string>
     <string name="t_05172cf4c8">%s selected</string>
     <string name="t_247fd63183">Clear selection</string>
     <string name="t_1500b1f861">Selection options</string>
@@ -1403,6 +1465,7 @@
     <string name="t_3fed2e6f09">Bin · items are kept %s days</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
+    <string name="t_c11ff348d8">Shizuku /</string>
     <string name="t_fb6a41581c">/ (read-only)</string>
     <string name="t_134b2afd98">Pinned: this tab stays at %s. Folders you open from it open in a tab beside it.</string>
     <string name="t_000f085275">Unpinned: this tab moves with you again.</string>
@@ -1677,7 +1740,9 @@
     <string name="t_131260cbfb">Music</string>
     <string name="t_351088b734">Root (/)</string>
     <string name="t_5042651c8f">as root</string>
+    <string name="t_430dfce6d5">with Shizuku</string>
     <string name="t_e474f09a00">Everything, as root</string>
+    <string name="t_0483cdf6fd">With Shizuku: as far as adb may go</string>
     <string name="t_bef4ba17c8">Read-only: root access is off</string>
     <string name="t_84380106d9">Recents</string>
     <string name="t_dcbd796de2">Vaults</string>
@@ -1689,6 +1754,8 @@
     <string name="t_a371621a76">Manage servers…</string>
     <string name="t_b32a659820">Folder sync</string>
     <string name="t_b2efeaa1a7">Cloud</string>
+    <string name="t_e0049a6651">On</string>
+    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_d96c0c1288">Add a cloud drive…</string>
     <string name="t_d9a36850b7">Apps</string>
     <string name="t_45e5f3f72e">Commands</string>
@@ -1701,6 +1768,7 @@
     <string name="t_00a681619f">Cleaner</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
+    <string name="t_e0b473f572">Bootable USB</string>
     <string name="t_823879f440">Terminal (this phone)</string>
     <string name="t_c880999562">System files</string>
     <string name="t_5cc7ff66b8">Fold %s away</string>
@@ -1754,6 +1822,7 @@
     <string name="t_da021d8e37">App files</string>
     <string name="t_b0c0a3787c">Other files</string>
     <string name="t_a86cf61891">Apps &amp; system</string>
+    <string name="t_dbc93a9496">The file system, as far as adb may go (Shizuku)</string>
     <string name="t_9904a9beb1">The whole file system, as root</string>
     <string name="t_8d1b65e9eb">Name on Home</string>
     <string name="t_77561f3d48">Original name</string>
@@ -1953,7 +2022,6 @@
     <string name="t_4e077cf8bf">Aspect ratio</string>
     <string name="t_87b85dca19">Rotate</string>
     <string name="t_89f875f246">Picture in picture</string>
-    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_67092bb7e8">None in this video</string>
     <string name="t_f0aeb28a39">Track %d</string>
     <string name="t_0b513070ee">Load a subtitle file from this folder</string>
@@ -2140,6 +2208,8 @@
     <string name="t_cb0cb170d1">Server</string>
     <string name="t_fb1c1bc581">Server folder</string>
     <string name="t_3ef9b4e6e9">Folder on this phone</string>
+    <string name="t_8320c37e77">Folder on a drive Android shows only through its folder picker</string>
+    <string name="t_c726d0b64a">A USB drive or another folder…</string>
     <string name="t_41e970e123">Which way</string>
     <string name="t_03a42aafbc">Server → phone</string>
     <string name="t_087d11b917">Phone → server</string>
@@ -2160,6 +2230,11 @@
     <string name="t_77810042f5">Server folder to sync</string>
     <string name="t_fcb78747b3">Copy into</string>
     <string name="t_d724e86228">Folder on this phone to sync</string>
+    <string name="t_fbc8e65374">Granted folder</string>
+    <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/terminal/PipeShellSession.kt -->
+    <string name="t_191ff95c4a">Shell closed</string>
+    <string name="t_2140b10fb5">The shell ended</string>
+    <string name="t_cd3df65f87">The shell ended (exit %s)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/terminal/TerminalScreen.kt -->
     <string name="t_21b36a5019">This server was removed</string>
     <string name="t_5c881d23b5">New session</string>
@@ -2185,6 +2260,7 @@
     <string name="t_5aea4b6977">SFTP to a server…</string>
     <string name="t_18009cdcce">Connection log</string>
     <string name="t_3e18ce347f">ManyFile commands terminal</string>
+    <string name="t_82fb3040ef">adb shell (Shizuku)</string>
     <string name="t_520dd7a6e9">Copy screen</string>
     <string name="t_4dc98e861f">Text larger</string>
     <string name="t_85628cac80">Text smaller</string>
@@ -2290,6 +2366,8 @@
     <string name="t_210dd62a81">Swap</string>
     <string name="t_cd05d5a3d8">Disk %s</string>
     <string name="t_6e426c0d28">Last refresh failed: %s</string>
+    <string name="t_cf15ec98d9">adb shell</string>
+    <string name="t_9b5810f528">adb shell through Shizuku: commands run with adb\'s rights. Full-screen programs (vi, top, less) don\'t work here; Ctrl+C stops the running command, Ctrl+D ends the shell.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AboutSection.kt -->
     <string name="t_22fb3ec869">ManyFile</string>
     <string name="t_f4d1a7b927">A fast file manager for Android</string>
@@ -2527,6 +2605,7 @@
     <string name="t_444872b213">recents off</string>
     <string name="t_443508d430">Caches and remembered positions</string>
     <string name="t_c7206f31c1">On: Root (/) opens everything</string>
+    <string name="t_81d7219d2e">Shizuku: adb\'s rights, no root</string>
     <string name="t_fd741407a0">Off: Root (/) is read-only</string>
     <string name="t_a5d63ff5ae">Settings to a file and back</string>
     <string name="t_a60ced4554">On: the phone\'s screen lock</string>
@@ -2741,6 +2820,27 @@
     <string name="t_7fe1e929e4">As root, deleting or changing the wrong file can stop an app, or Android itself, from working, and it can\'t be undone from the Bin.</string>
     <string name="t_d3cff908af">System partitions (/system, /vendor) are read-only on most phones. Files that are edited keep their owner, permissions and SELinux label.</string>
     <string name="t_3ec8a510f6">Folders under Root (/) are marked “Root” in the path bar.</string>
+    <string name="t_ed9b9e8ae6">Shizuku (no root needed)</string>
+    <string name="t_93611cac01">Shizuku is a free app that lets other apps work with adb\'s rights, without root. With it, ManyFile opens every app\'s folder in Android/data and Android/obb (Android 11 and newer hide them), and Root (/) as far as adb may go.</string>
+    <string name="t_e8c3ced08e">Shizuku has to be started again after every restart of the phone: on Android 11 and newer from its own app, with Wireless debugging; on older Android from a computer with adb (the Shizuku app shows the command).</string>
+    <string name="t_a7a487cf0d">Shizuku isn\'t installed.</string>
+    <string name="t_7818dcddfb">Shizuku is installed, but not started since the phone started.</string>
+    <string name="t_187e11bfba">This Shizuku is too old: update it.</string>
+    <string name="t_c9dad2b81e">Shizuku is running, but ManyFile wasn\'t allowed.</string>
+    <string name="t_3bc37f591e">Shizuku is running; ManyFile asks it when you turn it on.</string>
+    <string name="t_16f93640ba">Shizuku is running, started as root.</string>
+    <string name="t_5dc5981216">Shizuku is running: ManyFile works with adb\'s rights.</string>
+    <string name="t_a123cae925">Use Shizuku</string>
+    <string name="t_3910bb81ce">Asking Shizuku… allow ManyFile in its question.</string>
+    <string name="t_a40126ae42">On, but root access is on too: root is used.</string>
+    <string name="t_b61229b681">On. Root (/) in the ☰ menu opens with adb\'s rights.</string>
+    <string name="t_bf21ffd38b">Shizuku is off: nothing runs with adb\'s rights any more.</string>
+    <string name="t_65ead032c0">Install Shizuku first, then start it.</string>
+    <string name="t_8a9ff71edf">Start Shizuku first: open the Shizuku app and follow its steps, then come back.</string>
+    <string name="t_d41d7d4f43">Shizuku works. Open Root (/) from the ☰ menu, or Android/data.</string>
+    <string name="t_d7f7fe1b07">Shizuku didn\'t let ManyFile in. Allow ManyFile in Shizuku (its list of apps), then try again.</string>
+    <string name="t_00abdf11dc">Get Shizuku</string>
+    <string name="t_efd0d2e424">Open Shizuku</string>
     <string name="t_01af4b2774">Just rooted the phone, or installed or updated the root app? Restart the phone once before using root here: root apps finish setting up at the restart, and until then apps that use root can act strangely.</string>
     <string name="t_129e118ce4">Restart the phone once</string>
     <string name="t_282739264a">Keep deleted items for (days)</string>
@@ -2857,10 +2957,20 @@
     <string name="t_6aed866d5b">%s match</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AppsScreen.kt -->
     <string name="t_f2f8570ddd">Updated</string>
+    <string name="t_acea4cce9d">Turn on Shizuku or root access first (Settings → Root access)</string>
+    <string name="t_85702b5be7">It didn\'t work: %s</string>
+    <string name="t_55a7649d20">exit %s</string>
+    <string name="t_fb99207887">Shizuku or root stopped: %s</string>
     <string name="t_ca3ce8f32f">Search apps</string>
     <string name="t_ef837b92ab">System apps</string>
+    <string name="t_939f868537">Frozen</string>
     <string name="t_00d91c9609">Version %s (%s) · %s</string>
     <string name="t_721ac08ce2">%s APKs</string>
+    <string name="t_3720aceec1">Unfreeze</string>
+    <string name="t_42e5a24d18">%s is unfrozen</string>
+    <string name="t_b62e95be0c">Force stop</string>
+    <string name="t_0f4c69c9a0">%s is stopped</string>
+    <string name="t_5a6b2d30fe">Freeze</string>
     <string name="t_64dec0b01a">App info</string>
     <string name="t_55d08b6c1a">Browse APK contents</string>
     <string name="t_48794ceecd">Save APK to Downloads</string>
@@ -2869,6 +2979,77 @@
     <string name="t_a378d7e12e">Cannot save: %s</string>
     <string name="t_addb5ae9df">Share APK</string>
     <string name="t_a735da1d32">Uninstall</string>
+    <string name="t_10eae79a15">Freeze %s?</string>
+    <string name="t_179cace0d0">It stops, and stays off until you unfreeze it here: no launcher icon, no notifications, nothing running. Its data stays.</string>
+    <string name="t_cbe4b4066c">This is a system app: freezing the wrong one can stop parts of the phone from working.</string>
+    <string name="t_bc93f85bd6">%s is frozen</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/BootUsbScreen.kt -->
+    <string name="t_b525849948">The USB drive was unplugged</string>
+    <string name="t_eb8b07398a">Android didn\'t let ManyFile use the USB drive</string>
+    <string name="t_035f651168">Couldn\'t open %s</string>
+    <string name="t_f45fa3610a">Copy the image onto the phone first: ManyFile writes images from the phone\'s own storage</string>
+    <string name="t_4dcf56fa4f">Wait until the stick is written: stopping now leaves it unusable until it is written again</string>
+    <string name="t_7c3dc829a6">Couldn\'t open the USB drive: %s</string>
+    <string name="t_590dc030a4">Writing %s…</string>
+    <string name="t_21bc0cb186">Checking what was written…</string>
+    <string name="t_f66b278418">%s is on %s.</string>
+    <string name="t_b2b749230f">Ventoy %s is on %s, and your files on it are as they were.</string>
+    <string name="t_2eb65b427d">Ventoy %s is on %s.</string>
+    <string name="t_60fbe29075">Writing stopped: %s</string>
+    <string name="t_e02119e8bf">Update Ventoy on %s?</string>
+    <string name="t_1fc6d348c8">Erase %s?</string>
+    <string name="t_85b14a614a">Ventoy\'s own part of the stick is rewritten with Ventoy %s. Your ISO files and anything else on it stay.</string>
+    <string name="t_f2a592aa5b">Everything on %s (%s) is deleted, for good. Then Ventoy %s is written to it (%s).</string>
+    <string name="t_37f1c7adbe">Everything on %s (%s) is deleted, for good. Then %s is written over the whole stick.</string>
+    <string name="t_deed99c272">Erase and install</string>
+    <string name="t_b850631e38">Erase and write</string>
+    <string name="t_27a4c69a70">Choose the image file</string>
+    <string name="t_58b383b619">Ventoy (many ISOs)</string>
+    <string name="t_ead46c9d67">One image</string>
+    <string name="t_21368ee190">Ventoy makes a USB stick that starts a computer from ISO files: Windows, Linux, rescue disks. Copy the ISOs onto it like any files, and the computer shows a menu of them. Ventoy is free software (GPLv3, ventoy.net); ManyFile downloads its official release once (20 MB) and writes it to the stick. No root needed.</string>
+    <string name="t_d511845675">Writes one ISO or IMG file over the whole stick, as Rufus\' DD mode and balenaEtcher do: a Linux ISO, a Raspberry Pi system, any disk image made to be written whole. Packed images (.xz, .gz, .bz2, .zip) are unpacked as they are written, then everything is read back and checked. No root needed.</string>
+    <string name="t_236e166620">None chosen yet.</string>
+    <string name="t_8819e22c13">Reading %s…</string>
+    <string name="t_447f9d2a10">%s, %s unpacked</string>
+    <string name="t_04f9467615">%s packed; its unpacked size shows while it is written</string>
+    <string name="t_a0149e11e9">Choose the image file…</string>
+    <string name="t_ef9844d2b4">Choose another…</string>
+    <string name="t_d4b0500495">USB drives plugged in</string>
+    <string name="t_fb28037133">None: plug the stick in with an OTG cable or adapter.</string>
+    <string name="t_1b0e715205">Opening… (Android may ask whether ManyFile may use it)</string>
+    <string name="t_724437c21f">Tap to choose</string>
+    <string name="t_853b8f212a">Erase and write %s</string>
+    <string name="t_de70a3b566">While ManyFile has the stick, Android stops showing it as storage; unplugged and plugged back in, it shows again.</string>
+    <string name="t_a24e2b796e">Update to Ventoy %s (keeps your files)</string>
+    <string name="t_0986706092">Erase and install afresh</string>
+    <string name="t_35d78a6a94">Erase and install Ventoy %s</string>
+    <string name="t_b156057b06">Partition style when installing</string>
+    <string name="t_28e3bbeaeb">MBR starts on almost every computer, old and new: Ventoy\'s default. GPT is for computers that won\'t start from an MBR stick.</string>
+    <string name="t_6d3258aa8b">Over 2 TB only GPT works.</string>
+    <string name="t_5622659146">%s written</string>
+    <string name="t_2a0339618a">Keep the stick plugged in.</string>
+    <string name="t_827c9721c4">Stopping…</string>
+    <string name="t_1b9ccc1fc0">Everything was read back and matches the image. Unplug the stick: it is ready.</string>
+    <string name="t_5bd110f239">To start a computer from it: plug it in, switch the computer on, and choose the USB stick in its boot menu (often F12, F11, F8 or Esc).</string>
+    <string name="t_ceda0f4951">Unplug it and plug it back in: Android shows its “Ventoy” partition, where the ISO files go (or copy them from a computer).</string>
+    <string name="t_07efe84885">To start a computer from it: plug it in, switch the computer on, and choose the USB stick in its boot menu (often F12, F11, F8 or Esc). With Secure Boot on, the first start asks once to enroll Ventoy\'s key.</string>
+    <string name="t_eb00b598f9">An ISO made to start from USB sticks too.</string>
+    <string name="t_5fcb93bc49">This ISO has no boot record for USB sticks (Windows ISOs are like this): written whole, it won\'t start a computer. Put it on a Ventoy stick instead.</string>
+    <string name="t_23dd9f83a5">A disk image with its own partitions.</string>
+    <string name="t_06855c7b9a">No partition table at its start: it may not start anything. Write it only if it is meant to be written whole.</string>
+    <string name="t_1e248d1ae8">Ventoy %s is on it (GPT)</string>
+    <string name="t_2d5ba81c85">Ventoy is on it (GPT)</string>
+    <string name="t_7d803240ca">Ventoy %s is on it</string>
+    <string name="t_04575fbbf6">Ventoy is on it</string>
+    <string name="t_8620a1f681">1 partition: installing erases everything on it</string>
+    <string name="t_936eaf1859">%s partitions: installing erases everything on it</string>
+    <string name="t_06fd4068cb">Looks empty</string>
+    <string name="t_0394e1e98b">Downloading Ventoy %s…</string>
+    <string name="t_347adea06f">Erasing the old partition table…</string>
+    <string name="t_9303007552">Writing the boot code…</string>
+    <string name="t_5476ad5464">Writing Ventoy\'s EFI partition…</string>
+    <string name="t_b3f2a830ac">Formatting the ISO partition (exFAT)…</string>
+    <string name="t_c2a2b2bf67">Writing the partition table…</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/CleanerScreen.kt -->
     <string name="t_7725e05476">Starting</string>
     <string name="t_6a2aca0b27">Moving to the Bin… %s items, see Jobs</string>
@@ -2979,13 +3160,16 @@
     <string name="t_c177e4b0aa">Downloading…</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/InstallerUi.kt -->
     <string name="t_85d8201c3f">Cannot install: %s</string>
+    <string name="t_601eb188ae">Shizuku and root access are off</string>
     <string name="t_07e9f29adb">Allow installing apps?</string>
     <string name="t_db8365772e">Android lets ManyFile install apps only after you turn on “Allow from this source” for it. Android still asks you to confirm every install.</string>
     <string name="t_fd7108f831">Open settings</string>
-    <string name="t_8819e22c13">Reading %s…</string>
-    <string name="t_423b28ff5e">Preparing %s</string>
-    <string name="t_6e8f4d673c">Android asks to confirm next</string>
     <string name="t_dd05888bce">Install %s?</string>
+    <string name="t_8fcf287093">Shizuku or root is on, so ManyFile installs it straight away: Android doesn\'t ask again.</string>
+    <string name="t_f46ce401ed">Let Android ask</string>
+    <string name="t_423b28ff5e">Preparing %s</string>
+    <string name="t_b372db8f05">installing with Shizuku or root</string>
+    <string name="t_6e8f4d673c">Android asks to confirm next</string>
     <string name="t_f67e9a41e8">this is an update</string>
     <string name="t_44c316d1e2">this is older: Android refuses downgrades</string>
     <string name="t_01c5e4277b">the same version</string>
@@ -3176,6 +3360,29 @@
     <string name="t_0918834918">1 view</string>
     <string name="t_b65de96d30">Works with YouTube, TikTok, X, Instagram, Facebook, Vimeo, SoundCloud and about 1,700 more sites.</string>
     <string name="t_76f0c2c4f5">See the list</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/PhotoBackupScreen.kt -->
+    <string name="t_9c98396654">Back up photos to Google Drive</string>
+    <string name="t_91c4e18f43">New photos and videos in the folders below go to your Drive, so a picture deleted or lost on the phone is already safe. Nothing on Drive is ever deleted by ManyFile, and a photo already there isn\'t sent twice.</string>
+    <string name="t_d11988d44d">Sign in to Google Drive first.</string>
+    <string name="t_cb428fea97">Add Google Drive</string>
+    <string name="t_85dfa32c97">Account</string>
+    <string name="t_2bd365b548">To %s</string>
+    <string name="t_a73842af4c">%s waiting</string>
+    <string name="t_82e39fb67d">Backing up… (Jobs shows each file)</string>
+    <string name="t_db045a38c6">Last backup: %s</string>
+    <string name="t_c60bd5d348">Not backed up yet</string>
+    <string name="t_527bf1aa5d">Back up now</string>
+    <string name="t_cb3c631a1c">Add a folder…</string>
+    <string name="t_7f4b53b396">Folders inside a chosen one come too, except Screenshots (choose that folder itself to back it up) and hidden ones.</string>
+    <string name="t_96c7633d46">Folder on Drive</string>
+    <string name="t_474509bdfb">In My Drive; each phone folder gets its own inside it.</string>
+    <string name="t_b111f05350">Mobile data is never used for photos</string>
+    <string name="t_66af28c6d1">Only while charging</string>
+    <string name="t_e954511c68">In the background; Back up now doesn\'t wait</string>
+    <string name="t_b99b46bb50">Videos too</string>
+    <string name="t_d9092ff557">Videos can be large</string>
+    <string name="t_38334d5492">Folder to back up</string>
+    <string name="t_486b21d82c">Back up this folder</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ScannerScreen.kt -->
     <string name="t_13856eab64">Finding the page…</string>
     <string name="t_33d7e3acd1">No camera app on this phone: add photos from the gallery instead</string>
