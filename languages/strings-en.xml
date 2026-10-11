@@ -277,6 +277,11 @@
     <string name="t_20ffa24622">%s compresses one file; use a TAR format for folders or several files</string>
     <string name="t_1ba3b3396e">%s files hold one compressed file and cannot take entries</string>
     <string name="t_8e9ff6324b">an encrypted 7z cannot be changed here: it would be saved without encryption</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/archive/Rar.kt -->
+    <string name="t_062c61eae2">the data fails its check</string>
+    <string name="t_7b37454cb0">%s is missing: every part of a split archive must be in the same folder</string>
+    <string name="t_aec2653580">could not open %s</string>
+    <string name="t_cfb43d2ff2">not a RAR archive, or a damaged one</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsBackup.kt -->
     <string name="t_140920362b">made by a newer ManyFile: update it to restore this file</string>
     <string name="t_4b6d6ef213">not a ManyFile settings file</string>
@@ -3775,6 +3780,7 @@
     <string name="t_8cd67e0851">Edit PDF…</string>
     <string name="t_d12d316b48">Go to page…</string>
     <string name="t_923497dade">Read text from page pictures</string>
+    <string name="t_4029552028">Save read text into the PDF…</string>
     <string name="t_f5dfd071f3">Save marks into this PDF</string>
     <string name="t_e85e0191e7">Save a copy with annotations</string>
     <string name="t_57a09bff5a">Remove all annotations…</string>
@@ -3782,8 +3788,9 @@
     <string name="t_f1902e098a">This PDF\'s text can\'t be searched: it doesn\'t say which letter each shape is.</string>
     <string name="t_4d8937c1b5">Not found in this PDF</string>
     <string name="t_70b3e88fde">Read the text from the page pictures</string>
-    <string name="t_5009a9fb97">Reading the text of the pages: %s of %s</string>
+    <string name="t_ed5b6f1d59">Reading the text of the pages: %s of %s. Find already searches the pages read.</string>
     <string name="t_c73931a03b">Could not read the page pictures: %s</string>
+    <string name="t_1e69043acb">Save the text into the PDF, for other apps too</string>
     <string name="t_963809ac31">Could not read the contents of this PDF: %s</string>
     <string name="t_ceec8c296d">This PDF has no table of contents. Use Pages or the slider to move around.</string>
     <string name="t_055688019c">From the PDF\'s contents pages</string>
@@ -3796,6 +3803,9 @@
     <string name="t_aa4fa6b606">This PDF can\'t be changed where it is; a copy with the marks can be saved. Until then ManyFile keeps them for this PDF.</string>
     <string name="t_1e60fd7f26">Save into the PDF</string>
     <string name="t_9056f96b3a">Save a copy</string>
+    <string name="t_70802d15a8">Save the read text into the PDF?</string>
+    <string name="t_1d73d30ea0">Other apps can then find and copy the words read off the page pictures, too. The pages look the same.</string>
+    <string name="t_c0cf69bd65">This PDF can\'t be changed where it is; a copy with the text can be saved. The pages look the same.</string>
     <string name="t_6cfcd8a507">Remove all annotations?</string>
     <string name="t_98edcb3026">The pen and highlighter marks on every page of %s are removed. Copies saved with annotations keep theirs.</string>
     <string name="t_15e97338c2">Go to page</string>
@@ -3862,6 +3872,9 @@
     <string name="t_33091f2ff1">Every page of %s has text already</string>
     <string name="t_cad52a0e42">No text was found on the pages of %s</string>
     <string name="t_a0f42fa55f">Read the text of %s pages of %s</string>
+    <string name="t_9e8df7eb38">Saving the text of %s</string>
+    <string name="t_7537c20c95">searchable</string>
+    <string name="t_9905803751">Saved the text into %s</string>
     <string name="t_4e1fdd3db7">Reading text from page pictures needs a 64-bit phone</string>
     <string name="t_dd09efdce6">Reading text needs Google Play services, which this phone doesn\'t have or needs to update</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
