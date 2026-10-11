@@ -540,6 +540,7 @@
     <string name="t_f1e6951110">could not make the folder %s</string>
     <string name="t_fa319bad4f">page %s</string>
     <string name="t_8839f11859">pages %s-%s</string>
+    <string name="t_2364a15803">the parts of %s failed their check; nothing was saved</string>
     <string name="t_7509808eec">Split into %s PDFs in %s</string>
     <string name="t_7bf14179b6">the new copy of %s failed its check; the original is kept</string>
     <string name="t_c080c4dfb9">joined</string>
@@ -2026,6 +2027,7 @@
     <string name="t_23a97691b4">Remove from list</string>
     <string name="t_feb5bead8e">%s left</string>
     <string name="t_d303fdd26d">The file on the server changed — start over to get the new one</string>
+    <string name="t_827c9721c4">Stopping…</string>
     <string name="t_6a599877d7">Queued</string>
     <string name="t_0b1d6c0b1a">Preparing…</string>
     <string name="t_8235e61279">Waiting for your answer</string>
@@ -3163,7 +3165,6 @@
     <string name="t_6d3258aa8b">Over 2 TB only GPT works.</string>
     <string name="t_5622659146">%s written</string>
     <string name="t_2a0339618a">Keep the stick plugged in.</string>
-    <string name="t_827c9721c4">Stopping…</string>
     <string name="t_1b9ccc1fc0">Everything was read back and matches the image. Unplug the stick: it is ready.</string>
     <string name="t_5bd110f239">To start a computer from it: plug it in, switch the computer on, and choose the USB stick in its boot menu (often F12, F11, F8 or Esc).</string>
     <string name="t_ceda0f4951">Unplug it and plug it back in: Android shows its “Ventoy” partition, where the ISO files go (or copy them from a computer).</string>
@@ -3764,6 +3765,7 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/PdfViewerScreen.kt -->
     <string name="t_e7646fc58e">Could not open this PDF: it may be damaged.</string>
     <string name="t_dd87d5dd18">Could not read the text of this PDF: %s</string>
+    <string name="t_d62e9e6ccf">Marks saved into %s</string>
     <string name="t_b1ccb50328">Page %s / %s</string>
     <string name="t_50ae1f3da7">Find text</string>
     <string name="t_fe17a5bb0f">Edit PDF</string>
@@ -3773,6 +3775,7 @@
     <string name="t_8cd67e0851">Edit PDF…</string>
     <string name="t_d12d316b48">Go to page…</string>
     <string name="t_923497dade">Read text from page pictures</string>
+    <string name="t_f5dfd071f3">Save marks into this PDF</string>
     <string name="t_e85e0191e7">Save a copy with annotations</string>
     <string name="t_57a09bff5a">Remove all annotations…</string>
     <string name="t_b75e2e5d3a">This PDF has no text to search: its pages are pictures, like a scan.</string>
@@ -3788,6 +3791,11 @@
     <string name="t_ee3c6b7f9b">Pages: turn, move, delete…</string>
     <string name="t_1ce07d9a67">%s results for “%s”</string>
     <string name="t_a265d552ea">Page %s</string>
+    <string name="t_9664e8f925">Save your marks into the PDF?</string>
+    <string name="t_e44e8bfe98">Other apps show the pen and highlighter marks only once they are in the PDF. Until then ManyFile keeps them for this PDF.</string>
+    <string name="t_aa4fa6b606">This PDF can\'t be changed where it is; a copy with the marks can be saved. Until then ManyFile keeps them for this PDF.</string>
+    <string name="t_1e60fd7f26">Save into the PDF</string>
+    <string name="t_9056f96b3a">Save a copy</string>
     <string name="t_6cfcd8a507">Remove all annotations?</string>
     <string name="t_98edcb3026">The pen and highlighter marks on every page of %s are removed. Copies saved with annotations keep theirs.</string>
     <string name="t_15e97338c2">Go to page</string>
@@ -3854,6 +3862,7 @@
     <string name="t_33091f2ff1">Every page of %s has text already</string>
     <string name="t_cad52a0e42">No text was found on the pages of %s</string>
     <string name="t_a0f42fa55f">Read the text of %s pages of %s</string>
+    <string name="t_4e1fdd3db7">Reading text from page pictures needs a 64-bit phone</string>
     <string name="t_dd09efdce6">Reading text needs Google Play services, which this phone doesn\'t have or needs to update</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
     <string name="t_a803dd4ddb">Could not open this PDF</string>
