@@ -326,6 +326,10 @@
     <string name="t_5b967ece08">The Ventoy release is missing %s</string>
     <string name="t_b9113f7ad6">Ventoy\'s download answered %s</string>
     <string name="t_ae64ef4f39">Couldn\'t download Ventoy: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/chat/WhatsAppStatuses.kt -->
+    <string name="t_f1e6951110">could not make the folder %s</string>
+    <string name="t_83e50a3309">could not save %s</string>
+    <string name="t_88c0fe39a3">could not save %s: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
     <string name="t_e1c1a4ad35">cannot reach Google Drive: %s</string>
     <string name="t_7c561ab42b">Drive did not start the upload</string>
@@ -528,7 +532,6 @@
     <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfFiles.kt -->
     <string name="t_b551afe2b4">%s is not there any more</string>
-    <string name="t_83e50a3309">could not save %s</string>
     <string name="t_fcff0e1453">qpdf stopped with code %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPages.kt -->
     <string name="t_758dfeaa08">could not count the pages of %s</string>
@@ -542,7 +545,6 @@
     <string name="t_73d259cfc7">Joined into %s</string>
     <string name="t_eaab8235e0">Splitting %s</string>
     <string name="t_a97e1cd9aa">%s (split)</string>
-    <string name="t_f1e6951110">could not make the folder %s</string>
     <string name="t_fa319bad4f">page %s</string>
     <string name="t_8839f11859">pages %s-%s</string>
     <string name="t_2364a15803">the parts of %s failed their check; nothing was saved</string>
@@ -1906,6 +1908,7 @@
     <string name="t_6fa1406af9">Media Downloader</string>
     <string name="t_889a9cca7b">Duplicates</string>
     <string name="t_ee79525942">Similar photos</string>
+    <string name="t_6b5a4d772d">WhatsApp statuses</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_00a681619f">Cleaner</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
@@ -1932,6 +1935,7 @@
     <string name="t_0bb24eb942">APKs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
+    <string name="t_e92aab82fc">Statuses</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
     <string name="t_858df0c869">Wi-Fi share</string>
     <string name="t_28cba55d2a">Scan</string>
@@ -3664,6 +3668,23 @@
     <string name="t_20063ad905">Enable</string>
     <string name="t_458a2c6a9c">Showing the first 2000 rows</string>
     <string name="t_475978640b">No rows</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/StatusesScreen.kt -->
+    <string name="t_bf42918cd1">Saved already</string>
+    <string name="t_f79ce49221">Saved %s to Pictures/Statuses</string>
+    <string name="t_3f6ef92f1e">Could not save: %s</string>
+    <string name="t_809940d9e4">%s chosen</string>
+    <string name="t_93991970a7">Choose all</string>
+    <string name="t_6a0bd0236f">Saved statuses</string>
+    <string name="t_04701b9345">ManyFile can\'t see WhatsApp\'s statuses: allow ManyFile All files access (Settings → Apps → ManyFile → Permissions), then come back.</string>
+    <string name="t_94e1dde69d">No statuses here: WhatsApp isn\'t on this phone, or hasn\'t shown you any statuses yet.</string>
+    <string name="t_7e848adddb">No statuses to save right now. Watch some in WhatsApp (Updates), then come back: the ones you viewed show here for about a day.</string>
+    <string name="t_79a8d4ea74">Open saved statuses</string>
+    <string name="t_c2f37b72c5">Statuses you viewed in WhatsApp, kept by WhatsApp for about a day. Save the ones you want to keep: they go to Pictures/Statuses.</string>
+    <string name="t_2b333e0c5e">All (%s)</string>
+    <string name="t_908f984cb8">Photos (%s)</string>
+    <string name="t_1681b4dae2">Videos (%s)</string>
+    <string name="t_ba09a6e97b">Chosen</string>
+    <string name="t_3422946bd7">Save %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
     <string name="t_901b56b2a8">Nothing to show</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
@@ -3690,7 +3711,6 @@
     <string name="t_a1ca30241a">Opening the share…</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_e6c3b183a1">Could not read the document</string>
-    <string name="t_3f6ef92f1e">Could not save: %s</string>
     <string name="t_af6321ca7a">unknown error</string>
     <string name="t_6597b9e387">Edit text</string>
     <string name="t_78d7ec6ef4">Save as copy</string>
@@ -3856,7 +3876,6 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PageEditor.kt -->
     <string name="t_ed5e9f4c73">%s of %s chosen</string>
     <string name="t_44ca76d35e">Choose none</string>
-    <string name="t_93991970a7">Choose all</string>
     <string name="t_aa49955030">Tap pages to choose them. Hold a page and drag it to move it.</string>
     <string name="t_920999160e">Turn left</string>
     <string name="t_39fa445c17">Turn right</string>
