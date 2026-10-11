@@ -525,6 +525,25 @@
     <string name="t_b551afe2b4">%s is not there any more</string>
     <string name="t_83e50a3309">could not save %s</string>
     <string name="t_fcff0e1453">qpdf stopped with code %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPages.kt -->
+    <string name="t_758dfeaa08">could not count the pages of %s</string>
+    <string name="t_eaa9637af4">Changing the pages of %s</string>
+    <string name="t_a22fca6c30">edited</string>
+    <string name="t_210aeed32c">pages %s</string>
+    <string name="t_664b3835fb">%s pages</string>
+    <string name="t_3789cf2405">Copying %s pages of %s</string>
+    <string name="t_09a314f8cf">Joining %s PDFs</string>
+    <string name="t_bad6f1ff4d">the joined PDF failed its check; nothing was saved</string>
+    <string name="t_73d259cfc7">Joined into %s</string>
+    <string name="t_eaab8235e0">Splitting %s</string>
+    <string name="t_a97e1cd9aa">%s (split)</string>
+    <string name="t_f1e6951110">could not make the folder %s</string>
+    <string name="t_fa319bad4f">page %s</string>
+    <string name="t_8839f11859">pages %s-%s</string>
+    <string name="t_7509808eec">Split into %s PDFs in %s</string>
+    <string name="t_7bf14179b6">the new copy of %s failed its check; the original is kept</string>
+    <string name="t_c080c4dfb9">joined</string>
+    <string name="t_07d8232c4a">Wrong password for %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPasswords.kt -->
     <string name="t_734d09df39">Protecting %s</string>
     <string name="t_964cab4bb4">protected</string>
@@ -534,7 +553,6 @@
     <string name="t_83b0e4a9cf">%s PDFs protected</string>
     <string name="t_ea61bfc9fe">Removing the password from %s</string>
     <string name="t_57b690ac88">unprotected</string>
-    <string name="t_07d8232c4a">Wrong password for %s</string>
     <string name="t_0b1f2e3a67">the copy of %s without a password failed its check; the original is kept</string>
     <string name="t_34ef826409">Saved without a password as %s</string>
     <string name="t_d51727dee3">Password removed from %s PDFs</string>
@@ -1230,11 +1248,32 @@
     <string name="t_b00d63ea86">Bigger, smaller, usual size (also Ctrl + wheel, or a pinch)</string>
     <string name="t_34b8c60c89">This list</string>
     <string name="t_266695479a">Keyboard shortcuts</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfPageDialogs.kt -->
+    <string name="t_10c01c204a">%s (joined)</string>
+    <string name="t_594f35a4c3">Join %s PDFs</string>
+    <string name="t_e20b2e2a07">Their pages one after the other, in this order:</string>
+    <string name="t_13f7aee778">Earlier</string>
+    <string name="t_56e2f5d363">Later</string>
+    <string name="t_b56e70e0ff">Can\'t read as a PDF: %s</string>
+    <string name="t_2a42029cdf">For the PDFs that have one</string>
+    <string name="t_c10b78173c">The joined PDF has no password.</string>
+    <string name="t_4779b158e1">Saved beside the first one.</string>
+    <string name="t_e0d73143de">Join</string>
+    <string name="t_d852ca1e39">Split “%s”</string>
+    <string name="t_820d6004b0">Checking…</string>
+    <string name="t_9406778d07">Every so many pages</string>
+    <string name="t_a2d3bf2481">Pages in each part</string>
+    <string name="t_11c038e261">Into these parts</string>
+    <string name="t_e374280917">Parts</string>
+    <string name="t_941d933c50">Write them like 1-3, 4-10, 11-</string>
+    <string name="t_a0778d42cd">Each part becomes a PDF</string>
+    <string name="t_0abfb7bf50">That is the whole PDF: choose smaller parts</string>
+    <string name="t_1220d633cc">Makes %s PDFs, in a new folder beside it: “%s”</string>
+    <string name="t_fc8230b411">Split</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfPasswordDialogs.kt -->
     <string name="t_c07b4e9ca5">%s PDFs</string>
     <string name="t_136778aec1">Protect %s with a password</string>
     <string name="t_49d1d34858">Any PDF reader will ask for this password before showing it (AES-256).</string>
-    <string name="t_b56e70e0ff">Can\'t read as a PDF: %s</string>
     <string name="t_5e6168e0f4">Its current password</string>
     <string name="t_e32ab6f5a2">It already has one; the new one replaces it</string>
     <string name="t_b9230d7d9a">Short passwords are easy to guess</string>
@@ -1249,7 +1288,6 @@
     <string name="t_8c5de33531">ManyFile keeps no copy of the password: without it, the PDF can\'t be opened.</string>
     <string name="t_016ac2dcfc">Protect</string>
     <string name="t_f3b993cf70">Remove the password from %s</string>
-    <string name="t_820d6004b0">Checking…</string>
     <string name="t_205a8b26c0">This PDF has no password and no limits.</string>
     <string name="t_bd5a32963a">These PDFs have no password and no limits.</string>
     <string name="t_ef41381eaa">The PDF is saved without its password and without limits on printing, copying or changes.</string>
@@ -1451,10 +1489,11 @@
     <string name="t_5677a5c921">Remove the watermark from “%s”</string>
     <string name="t_bb84d5472a">Look for watermarks</string>
     <string name="t_c4cc87a5f0">Looking for watermarks…</string>
-    <string name="t_a70b408372">No watermark was found that ManyFile can take off. A watermark drawn into the pages as plain text can\'t be told apart from the rest of the page yet.</string>
+    <string name="t_df44e3c2c2">No watermark was found that ManyFile can take off.</string>
     <string name="t_04bf862718">Watermarks marked as such, on %s of %s pages</string>
     <string name="t_474a2b31ce">Watermark notes: %s</string>
     <string name="t_25045f4508">On nearly every page (a watermark, or perhaps a logo that belongs there):</string>
+    <string name="t_da752c780e">Text “%s”</string>
     <string name="t_ef7b1dc53b">Picture, %s × %s</string>
     <string name="t_9de36050c7">Drawing</string>
     <string name="t_a921ff3cac">on %s of %s pages</string>
@@ -1582,6 +1621,9 @@
     <string name="t_e4022d3d67">Remove PDF password…</string>
     <string name="t_ac261685c5">Add watermark…</string>
     <string name="t_b5e8f45d87">Remove watermark…</string>
+    <string name="t_423e3a34d7">Edit pages…</string>
+    <string name="t_972d86f17d">Split PDF…</string>
+    <string name="t_f2668e73f0">Join PDFs…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
@@ -2539,7 +2581,6 @@
     <string name="t_2817459eb0">Checking for updates…</string>
     <string name="t_0b4cbe2c14">Open GitHub</string>
     <string name="t_4365dc15e4">You have %s. Its download is not on GitHub yet: ManyFile offers to install it once it is there. The releases page has every published version.</string>
-    <string name="t_56e2f5d363">Later</string>
     <string name="t_e18acb2680">An updated build of ManyFile %s</string>
     <string name="t_6a75c87140">The %s APK on GitHub was replaced by a newer build (a fix) after yours was installed.</string>
     <string name="t_4b2cedd7ab">You have %s.</string>
@@ -3649,7 +3690,6 @@
     <string name="t_78d7ec6ef4">Save as copy</string>
     <string name="t_4be3b1d5ff">Each field is one paragraph. An edited paragraph keeps the style of its first words (mixed bold or colours inside it become one style); pictures, tables and layout are not changed.</string>
     <string name="t_a43c7bf1f5">New paragraph</string>
-    <string name="t_a22fca6c30">edited</string>
     <string name="t_d6b0ebd50b">Add a paragraph below</string>
     <string name="t_33aae9c140">Remove this paragraph</string>
     <string name="t_4cd0172b9f">Discard your changes?</string>
@@ -3732,15 +3772,20 @@
     <string name="t_cd0bf6606d">Night mode</string>
     <string name="t_8cd67e0851">Edit PDF…</string>
     <string name="t_d12d316b48">Go to page…</string>
+    <string name="t_923497dade">Read text from page pictures</string>
     <string name="t_e85e0191e7">Save a copy with annotations</string>
     <string name="t_57a09bff5a">Remove all annotations…</string>
     <string name="t_b75e2e5d3a">This PDF has no text to search: its pages are pictures, like a scan.</string>
     <string name="t_f1902e098a">This PDF\'s text can\'t be searched: it doesn\'t say which letter each shape is.</string>
     <string name="t_4d8937c1b5">Not found in this PDF</string>
+    <string name="t_70b3e88fde">Read the text from the page pictures</string>
+    <string name="t_5009a9fb97">Reading the text of the pages: %s of %s</string>
+    <string name="t_c73931a03b">Could not read the page pictures: %s</string>
     <string name="t_963809ac31">Could not read the contents of this PDF: %s</string>
     <string name="t_ceec8c296d">This PDF has no table of contents. Use Pages or the slider to move around.</string>
     <string name="t_055688019c">From the PDF\'s contents pages</string>
     <string name="t_aa50377309">Pen and highlighter</string>
+    <string name="t_ee3c6b7f9b">Pages: turn, move, delete…</string>
     <string name="t_1ce07d9a67">%s results for “%s”</string>
     <string name="t_a265d552ea">Page %s</string>
     <string name="t_6cfcd8a507">Remove all annotations?</string>
@@ -3790,6 +3835,26 @@
     <string name="t_cce7155371">Reload</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/XmlViewerScreen.kt -->
     <string name="t_d131a14153">Invalid XML</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PageEditor.kt -->
+    <string name="t_ed5e9f4c73">%s of %s chosen</string>
+    <string name="t_44ca76d35e">Choose none</string>
+    <string name="t_93991970a7">Choose all</string>
+    <string name="t_aa49955030">Tap pages to choose them. Hold a page and drag it to move it.</string>
+    <string name="t_920999160e">Turn left</string>
+    <string name="t_39fa445c17">Turn right</string>
+    <string name="t_56fe1f1d6e">To the start</string>
+    <string name="t_3032d286cc">To the end</string>
+    <string name="t_ea746294a7">Copy to new PDF</string>
+    <string name="t_dd9a02c324">Save the pages</string>
+    <string name="t_7d754f6e3b">Saved beside it as “%s”.</string>
+    <string name="t_4c76471788">Leave without saving?</string>
+    <string name="t_c129e1333c">The changes to the pages are lost.</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfOcr.kt -->
+    <string name="t_e3f6ed5149">Reading the text of %s</string>
+    <string name="t_33091f2ff1">Every page of %s has text already</string>
+    <string name="t_cad52a0e42">No text was found on the pages of %s</string>
+    <string name="t_a0f42fa55f">Read the text of %s pages of %s</string>
+    <string name="t_dd09efdce6">Reading text needs Google Play services, which this phone doesn\'t have or needs to update</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
     <string name="t_a803dd4ddb">Could not open this PDF</string>
     <string name="t_37711301ec">This PDF needs a password</string>
