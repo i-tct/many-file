@@ -492,6 +492,15 @@
     <string name="t_fefebdc2cb">%s: %s — retrying in %s s (%s of %s)</string>
     <string name="t_6d53e10583">%s changed meanwhile; starting it over</string>
     <string name="t_cc86940dec">Resuming %s at %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioExtraction.kt -->
+    <string name="t_03e2e11d51">Extracting audio from %s</string>
+    <string name="t_fa7f464169">Extracting audio from %s videos</string>
+    <string name="t_b551afe2b4">%s is not there any more</string>
+    <string name="t_eeac6b6db5">%s can\'t be read as a video</string>
+    <string name="t_0af95b95a4">%s has no sound</string>
+    <string name="t_7ec7e621fb">The sound of %s (%s) can\'t be copied out without converting it</string>
+    <string name="t_060b0f7180">could not take the sound out of %s: %s</string>
+    <string name="t_3f8d275ef2">Saved %s audio files</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
     <string name="t_445c57385f">Too many files named %s in %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaDownloads.kt -->
@@ -523,6 +532,23 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngineReleases.kt -->
     <string name="t_83d1a0279e">No published release found</string>
     <string name="t_2ad22a594c">Every Media Engine release needs a newer ManyFile: update ManyFile first (Settings → About)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhoneSounds.kt -->
+    <string name="t_32a76a25b5">ManyFile isn\'t allowed to change system settings</string>
+    <string name="t_29c58c773f">Android didn\'t add %s to its sounds</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoCompression.kt -->
+    <string name="t_09455ff741">Compressing %s</string>
+    <string name="t_11d947604f">Compressing %s photos</string>
+    <string name="t_94e590c9bd">%s can\'t be read as a photo</string>
+    <string name="t_732a2e07b6">%s is too big to compress on this phone</string>
+    <string name="t_55641d5d56">compressed</string>
+    <string name="t_6a1ac82075">%s is already small</string>
+    <string name="t_c16b24d2df">%s already small</string>
+    <string name="t_c78b1032e0">%s can\'t be made that small</string>
+    <string name="t_9f98a56b44">%s photos</string>
+    <string name="t_23de1648ce">no copy was kept</string>
+    <string name="t_dd9373275b">No copy was kept</string>
+    <string name="t_31582d9470">Saved as %s: %s (was %s)</string>
+    <string name="t_13fd6d710f">Compressed %s photos: %s (were %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SongCuts.kt -->
     <string name="t_b0508f88e5">Songs of this kind (.%s) can\'t be cut</string>
     <string name="t_6c1c79ffc3">The piece must start before it ends</string>
@@ -531,7 +557,6 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/net/SpeedTest.kt -->
     <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfFiles.kt -->
-    <string name="t_b551afe2b4">%s is not there any more</string>
     <string name="t_fcff0e1453">qpdf stopped with code %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPages.kt -->
     <string name="t_758dfeaa08">could not count the pages of %s</string>
@@ -1632,6 +1657,12 @@
     <string name="t_423e3a34d7">Edit pages…</string>
     <string name="t_972d86f17d">Split PDF…</string>
     <string name="t_f2668e73f0">Join PDFs…</string>
+    <string name="t_bf2aced88c">Set as ringtone…</string>
+    <string name="t_3c7454e3c8">Compress video…</string>
+    <string name="t_6c8d431fcc">Trim video…</string>
+    <string name="t_8c971e31de">Extract audio</string>
+    <string name="t_32f2d87a94">Compress photo…</string>
+    <string name="t_2b23fda9e2">Compress photos…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
@@ -2112,6 +2143,31 @@
     <string name="t_7a031620c9">Sample rate</string>
     <string name="t_041a5dec48">Format</string>
     <string name="t_cfa0b8ef70">Nothing is playing.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CompressPhotosDialog.kt -->
+    <string name="t_9f5e0e9138">Compress “%s”</string>
+    <string name="t_e7ed92262e">Compress %s photos</string>
+    <string name="t_320ce5d689">This file can\'t be read as a photo.</string>
+    <string name="t_8796f85496">These files can\'t be read as photos.</string>
+    <string name="t_894f6c0b82">%s photos · %s</string>
+    <string name="t_aba14136eb">Picture size</string>
+    <string name="t_738fd1d245">Large</string>
+    <string name="t_d404968ea9">Medium</string>
+    <string name="t_c74fd9714e">Small</string>
+    <string name="t_ecdffbde02">already about this small</string>
+    <string name="t_26282a9b88">longest side %s px</string>
+    <string name="t_f4072350b6">about %s</string>
+    <string name="t_5862d50022">File size at most</string>
+    <string name="t_f90e692edc">For forms and sites that take photos up to a size</string>
+    <string name="t_4eb37ceb34">already smaller</string>
+    <string name="t_0001f01f85">Saved beside each photo as a JPG named “… (compressed)”. The photo itself stays as it is. Location and camera details are left out.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CompressVideoDialog.kt -->
+    <string name="t_880cc878b9">Compress %s videos</string>
+    <string name="t_9f43646158">This file can\'t be read as a video.</string>
+    <string name="t_99355699ec">These files can\'t be read as videos.</string>
+    <string name="t_f77c7fc791">%s videos · %s</string>
+    <string name="t_b1a5954a48">High</string>
+    <string name="t_d2ade5995e">A smaller copy is saved beside each video, named “… (compressed)”. The video itself stays as it is.</string>
+    <string name="t_da7572e938">Compressing %s videos</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CutSongScreen.kt -->
     <string name="t_1d74e1c284">Looking for the Media Engine…</string>
     <string name="t_d59294425d">Cutting uses the Media Engine\'s FFmpeg. Install the Media Engine in Media Downloader, then come back.</string>
@@ -2149,6 +2205,30 @@
     <string name="t_7dd843728a">Stop and close</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
     <string name="t_9d07399ccc">The file got shorter while playing</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SetAsSoundDialog.kt -->
+    <string name="t_f783014044">“%s” is now your ringtone</string>
+    <string name="t_3f4d7d4a0c">“%s” is now your notification sound</string>
+    <string name="t_b927a8d101">“%s” is now your alarm sound</string>
+    <string name="t_6f3fcf865c">Set “%s” as</string>
+    <string name="t_59acfe5899">Ringtone</string>
+    <string name="t_f76ca59e1c">Notification sound</string>
+    <string name="t_816c0ceb45">Alarm sound</string>
+    <string name="t_b2b0e734d7">A copy goes into the phone\'s %s folder, so it keeps playing if you move the song.</string>
+    <string name="t_1243e83a19">Android lets ManyFile change the phone\'s sounds only once you allow it to modify system settings. Allow opens that page; come back and it\'s set.</string>
+    <string name="t_7310aa163c">Android\'s settings page didn\'t open: %s</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/TrimVideoScreen.kt -->
+    <string name="t_f062d3ae08">The video could not be trimmed</string>
+    <string name="t_373c6bf1a2">Trim video</string>
+    <string name="t_456fd788b6">Reading the video…</string>
+    <string name="t_9e3fd2874c">This video\'s length can\'t be read, so it can\'t be trimmed.</string>
+    <string name="t_234b685e64">“Here” sets a point at the picture shown.</string>
+    <string name="t_c1bc18122d">Trimming…</string>
+    <string name="t_7e01b75e8b">Saved beside the video as “… (trimmed).mp4”; the video itself stays as it is. Only the first moments are encoded again, the rest is copied as it is: quick, and nothing is lost.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoCompression.kt -->
+    <string name="t_c16682f0a3">could not compress %s: %s</string>
+    <string name="t_b2bde7043d">%s is already about as small as this: no copy was kept</string>
+    <string name="t_6f44f8cc92">These videos are already about as small as this: no copies were kept</string>
+    <string name="t_4c8c37502d">Compressed %s videos: %s (were %s)</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoPlayerScreen.kt -->
     <string name="t_d982e28596">No sound: %s is not supported</string>
     <string name="t_ba0100768c">audio format</string>
@@ -2172,6 +2252,13 @@
     <string name="t_67092bb7e8">None in this video</string>
     <string name="t_f0aeb28a39">Track %d</string>
     <string name="t_0b513070ee">Load a subtitle file from this folder</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoTrimming.kt -->
+    <string name="t_8517ef498a">Trimming %s</string>
+    <string name="t_33f769ab87">The piece is past the end of %s</string>
+    <string name="t_c9cb9ea283">trimmed</string>
+    <string name="t_b0e733bec5">could not trim %s</string>
+    <string name="t_823906f18f">could not trim %s: %s</string>
+    <string name="t_293075ba6f">Saved as %s: %s (%s)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/KeyDialogs.kt -->
     <string name="t_892daef095">Generate SSH key</string>
     <string name="t_567c9306fc">Name (also the key comment)</string>
@@ -2527,7 +2614,6 @@
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_f32d5a3b17">Support</string>
     <string name="t_c76d18079a">Updates</string>
-    <string name="t_62e5e41eb4">ManyFile %s is available</string>
     <string name="t_3b4c592daa">Open in the Play Store</string>
     <string name="t_0c18936204">Play Store builds update through Google Play</string>
     <string name="t_33c6ff0769">Opens the Play Store</string>
@@ -2571,9 +2657,7 @@
     <string name="t_7047a56d81">Build details copied</string>
     <string name="t_95f16d4b45">Copy build details (for bug reports)</string>
     <string name="t_4d8dc5fe41">What\'s new</string>
-    <string name="t_1883432769">Release notes are downloaded from t-ct.org; none have been downloaded yet.</string>
-    <string name="t_9612a01026">This build (%s) has no release notes yet: it is a local build of an unreleased version.</string>
-    <string name="t_cfbe593bf5">Newer than yours: update above</string>
+    <string name="t_4c6a059691">This build (%s) has no release notes: it is a test build of a version not released yet.</string>
     <string name="t_78651b4036">This version</string>
     <string name="t_eb264ce029">Earlier releases</string>
     <string name="t_8cb927c99e">1 release</string>
@@ -2582,25 +2666,24 @@
     <string name="t_b6e7a55902">ManyFile %s</string>
     <string name="t_d6b1dc11a8">No app can open %s</string>
     <string name="t_736b9062b3">Check for updates</string>
-    <string name="t_de14fc4856">You have %s. Tap to download and install it.</string>
     <string name="t_7e3ab05b43">Looks for a newer release on GitHub</string>
     <string name="t_166953171f">ManyFile %s is up to date (latest release: %s)</string>
     <string name="t_c7786fadcf">No published release on GitHub yet.</string>
     <string name="t_7df938eb77">Could not check for updates</string>
     <string name="t_e6449584dc">Check when ManyFile starts</string>
-    <string name="t_2f21b8f929">Offers a newer release in a popup: from the release notes at each start, from GitHub twice a day</string>
+    <string name="t_1a662c1229">Offers a newer release from GitHub in a popup, looking at most twice a day</string>
     <string name="t_2817459eb0">Checking for updates…</string>
     <string name="t_0b4cbe2c14">Open GitHub</string>
-    <string name="t_4365dc15e4">You have %s. Its download is not on GitHub yet: ManyFile offers to install it once it is there. The releases page has every published version.</string>
     <string name="t_e18acb2680">An updated build of ManyFile %s</string>
+    <string name="t_62e5e41eb4">ManyFile %s is available</string>
     <string name="t_6a75c87140">The %s APK on GitHub was replaced by a newer build (a fix) after yours was installed.</string>
     <string name="t_4b2cedd7ab">You have %s.</string>
     <string name="t_551f479036">Download: %s.</string>
     <string name="t_98ae964a84">This is a debug build: the release installs as a separate app.</string>
-    <string name="t_badd79e617">The downloaded file is not a readable APK.</string>
-    <string name="t_8307756756">The release is signed with a different key than this ManyFile, so Android would refuse it as an update.</string>
     <string name="t_01125e1be1">Download failed</string>
     <string name="t_0388ee8f1b">Download and install</string>
+    <string name="t_badd79e617">The downloaded file is not a readable APK.</string>
+    <string name="t_8307756756">The release is signed with a different key than this ManyFile, so Android would refuse it as an update.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AppLockPage.kt -->
     <string name="t_5baa61e4c9">password</string>
     <string name="t_26ab7bd80f">ManyFile asks to be unlocked when it starts and when you come back to it. It guards ManyFile\'s screens; files stay as they are (vaults and Folder lock encrypt them).</string>
@@ -2704,6 +2787,13 @@
     <string name="t_b6cb5f32b3">%s · to improve it</string>
     <string name="t_20716e9262">In use</string>
     <string name="t_5a7834eab7">Remove %s</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/RequiredUpdate.kt -->
+    <string name="t_0d660a2749">Update ManyFile</string>
+    <string name="t_36043492df">This version of ManyFile (%s) is no longer supported. Update to %s or newer to keep using it.</string>
+    <string name="t_5c3627df89">Continue anyway (debug build)</string>
+    <string name="t_2e44ad7254">Looking for the update on GitHub…</string>
+    <string name="t_4d587066cd">ManyFile %s is ready to download.</string>
+    <string name="t_26fc034676">ManyFile %s isn\'t on GitHub yet. Try again later.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsScreen.kt -->
     <string name="t_41def7a0fe">Appearance</string>
     <string name="t_95ae28be31">Browsing</string>
@@ -3491,7 +3581,6 @@
     <string name="t_05f13866da">It has no screen of its own: you use it from here.</string>
     <string name="t_e6615ea2a8">Media Engine not trusted</string>
     <string name="t_c488906303">The installed engine (%s) isn\'t signed with ManyFile\'s key, so ManyFile won\'t use it. Uninstall it and install the official one.</string>
-    <string name="t_0d660a2749">Update ManyFile</string>
     <string name="t_f5d28d4b24">This Media Engine (%s) needs a newer ManyFile.</string>
     <string name="t_42e6020079">This Media Engine (%s) is too old for this ManyFile.</string>
     <string name="t_015d779619">Media Engine not answering</string>
@@ -3672,9 +3761,11 @@
     <string name="t_bf42918cd1">Saved already</string>
     <string name="t_f79ce49221">Saved %s to Pictures/Statuses</string>
     <string name="t_3f6ef92f1e">Could not save: %s</string>
+    <string name="t_495b251f67">WhatsApp isn\'t on this phone</string>
     <string name="t_809940d9e4">%s chosen</string>
     <string name="t_93991970a7">Choose all</string>
     <string name="t_6a0bd0236f">Saved statuses</string>
+    <string name="t_98dd47501a">Repost</string>
     <string name="t_04701b9345">ManyFile can\'t see WhatsApp\'s statuses: allow ManyFile All files access (Settings → Apps → ManyFile → Permissions), then come back.</string>
     <string name="t_94e1dde69d">No statuses here: WhatsApp isn\'t on this phone, or hasn\'t shown you any statuses yet.</string>
     <string name="t_7e848adddb">No statuses to save right now. Watch some in WhatsApp (Updates), then come back: the ones you viewed show here for about a day.</string>
@@ -3683,6 +3774,7 @@
     <string name="t_2b333e0c5e">All (%s)</string>
     <string name="t_908f984cb8">Photos (%s)</string>
     <string name="t_1681b4dae2">Videos (%s)</string>
+    <string name="t_6624711f8b">Repost %s</string>
     <string name="t_ba09a6e97b">Chosen</string>
     <string name="t_3422946bd7">Save %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
@@ -3834,7 +3926,6 @@
     <string name="t_8cb3f79b49">Highlighter</string>
     <string name="t_a5742851f0">Eraser</string>
     <string name="t_027f0b07b1">Thin</string>
-    <string name="t_d404968ea9">Medium</string>
     <string name="t_4318f26fa3">Thick</string>
     <string name="t_f5b164edc3">Touch a mark to erase it · two fingers scroll</string>
     <string name="t_30dc14eaf5">Draw with one finger · two fingers scroll · saved automatically</string>
