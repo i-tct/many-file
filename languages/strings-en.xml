@@ -115,9 +115,13 @@
     <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_a8f1359c93">This server was removed from ManyFile</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/WifiShareService.kt -->
+    <string name="t_ae25ad8e48">Receiving on Wi-Fi</string>
     <string name="t_b30469ec12">Sharing on Wi-Fi</string>
+    <string name="t_78015132e1">1 file received</string>
+    <string name="t_f049ef1452">%d files received</string>
     <string name="t_a073d6484d">1 download</string>
     <string name="t_c36e16e244">%d downloads</string>
+    <string name="t_f974b356ce">Stop receiving</string>
     <string name="t_0e45aee6e5">Stop sharing</string>
     <string name="t_86497a4694">Wi-Fi sharing</string>
     <string name="t_21c28c06da">While files are shared on Wi-Fi, with a button to stop</string>
@@ -422,6 +426,42 @@
     <string name="t_60455ec443">The file on the server changed since the download started — start over to get the new one</string>
     <string name="t_d3b9bc376e">The server refused to continue from where the download stopped — start over</string>
     <string name="t_cdfbaaf133">Not enough free space for this download</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GitRepos.kt -->
+    <string name="t_2122d38df3">Set your name and e-mail for commits first</string>
+    <string name="t_dde22da02a">Cloning %s</string>
+    <string name="t_bfaa03ab67">%s is there already, with files in it</string>
+    <string name="t_540b59252e">Cloned into %s</string>
+    <string name="t_8681a60271">Fetching %s</string>
+    <string name="t_e2968d0450">Fetched: the server\'s branches are up to date here</string>
+    <string name="t_7db14c680d">Pulling %s</string>
+    <string name="t_832c03df3e">Already up to date</string>
+    <string name="t_1509df126d">Brought in the server\'s changes</string>
+    <string name="t_8a1fb9697d">Merged the server\'s changes with yours</string>
+    <string name="t_264ae75d71">Conflicts in %s: fix them, stage them, then commit (or undo the merge)</string>
+    <string name="t_9440247337">Pushing %s</string>
+    <string name="t_a282a77735">Pushed to the server</string>
+    <string name="t_6e424b6fec">Receiving objects</string>
+    <string name="t_1d6e6e5545">Resolving changes</string>
+    <string name="t_e74fa40f07">Writing files</string>
+    <string name="t_ceafde86d6">Sending</string>
+    <string name="t_e2fb83b7f2">Sign in to %s</string>
+    <string name="t_46457f31e1">The server refused that sign-in. GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_b48e5214da">GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_542fc71480">User name</string>
+    <string name="t_e281dff19e">Password or token</string>
+    <string name="t_21015cec01">The server refused the sign-in (%s). GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_7ace962497">The server\'s certificate isn\'t trusted: %s</string>
+    <string name="t_543308c086">The server has changes you don\'t have yet: pull first, then push</string>
+    <string name="t_0d0595b238">These files have changes here that would be overwritten: %s. Commit or discard them first.</string>
+    <string name="t_f4db621841">A merge is under way: fix the conflicted files, stage them and commit, or undo the merge</string>
+    <string name="t_0f0b495749">Commit or unstage what is staged before pulling</string>
+    <string name="t_5600d1c9ee">Nothing is staged to commit</string>
+    <string name="t_81510793ef">Nothing is committed here yet</string>
+    <string name="t_6ceec827ba">That isn\'t a valid branch name</string>
+    <string name="t_b44d44b74e">That name is taken: %s</string>
+    <string name="t_a8fd89790e">The repository is busy (%s)</string>
+    <string name="t_620279c66c">Can\'t reach the server: %s</string>
+    <string name="t_15c8479622">Only https:// addresses work for now; SSH addresses (git@…) are coming</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/i18n/Languages.kt -->
     <string name="t_93dcc3b42c">The %s file didn\'t match its checksum: try again later</string>
     <string name="t_4c5a2cc586">The %s file couldn\'t be read</string>
@@ -549,13 +589,28 @@
     <string name="t_dd9373275b">No copy was kept</string>
     <string name="t_31582d9470">Saved as %s: %s (was %s)</string>
     <string name="t_13fd6d710f">Compressed %s photos: %s (were %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoText.kt -->
+    <string name="t_9f51fa6aed">Reading the words in photos</string>
+    <string name="t_d01649a7a4">All %d photos were read already</string>
+    <string name="t_9c1627a406">Read 1 photo: %d with words</string>
+    <string name="t_0fdcd89542">Read %d photos: %d with words</string>
+    <string name="t_87696d60b3">%d couldn\'t be read</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SongCuts.kt -->
     <string name="t_b0508f88e5">Songs of this kind (.%s) can\'t be cut</string>
     <string name="t_6c1c79ffc3">The piece must start before it ends</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SupportedSites.kt -->
     <string name="t_bf866bfb2d">The list of sites could not be downloaded (%s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/TextReader.kt -->
+    <string name="t_2773e62d76">Reading text from pictures needs a 64-bit phone</string>
+    <string name="t_dd09efdce6">Reading text needs Google Play services, which this phone doesn\'t have or needs to update</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/net/SpeedTest.kt -->
     <string name="t_9c9ccb3d2b">Internet (Cloudflare)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfCompression.kt -->
+    <string name="t_dd4133a9c8">Compressing %d PDFs</string>
+    <string name="t_81ff30adaf">%s needs its password: take the password off first (⋮ → Remove PDF password…)</string>
+    <string name="t_e6602c207f">%s couldn\'t be read as a PDF</string>
+    <string name="t_9bd9a0c879">%s is as small as it gets: no copy kept</string>
+    <string name="t_812714109f">%s: %s → %s (%d%% smaller)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfFiles.kt -->
     <string name="t_fcff0e1453">qpdf stopped with code %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PdfPages.kt -->
@@ -603,6 +658,11 @@
     <string name="t_076d3aecd8">the copy of %s without the watermark failed its check; the original is kept</string>
     <string name="t_6b00ce0553">Nothing was taken off %s</string>
     <string name="t_7cfdfa165a">Watermark taken off %s pages, saved as %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/pdf/PhotosPdf.kt -->
+    <string name="t_10619bc546">Making a PDF of %s</string>
+    <string name="t_ff73bfe261">Making a PDF of %d photos</string>
+    <string name="t_f7da0d8f7d">Saved as %s: 1 page (%s)</string>
+    <string name="t_2876fe00ef">Saved as %s: %d pages (%s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
     <string name="t_b1ecbbc411">cannot rename root</string>
     <string name="t_fea851eedd">a file with that name already exists</string>
@@ -707,7 +767,6 @@
     <string name="t_3ab249fddd">sign-in failed — check user name, password or key</string>
     <string name="t_95f9e2c7db">no common encryption algorithm with this server</string>
     <string name="t_ac583db49c">the server does not support this</string>
-    <string name="t_e2fb83b7f2">Sign in to %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SshKeys.kt -->
     <string name="t_b519145548">not a private key this app can read (%s)</string>
     <string name="t_b210d2b2d8">could not derive the public key</string>
@@ -764,13 +823,51 @@
     <string name="t_91bef3cbd9">the key password for “%s” is different from the store password</string>
     <string name="t_07f00bbf0e">JCEKS is not supported</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/share/WifiShare.kt -->
+    <string name="t_559049d8f4">%s is not a folder</string>
+    <string name="t_7f4a3a7c5e">ManyFile can\'t write in %s</string>
     <string name="t_5681b346ed">nothing to share</string>
     <string name="t_90557dd386">Connect to Wi-Fi (or turn on the hotspot) first: the computer must be on the same network</string>
     <string name="t_7cc4f952e8">no free port to share on</string>
     <string name="t_4e8660b45b">Shared from %s</string>
     <string name="t_3b8289ca6c">A folder shared with ManyFile: open it with a WebDAV client</string>
-    <string name="t_385519c8d4">Everything shared</string>
+    <string name="t_3aba592643">A folder has that name</string>
+    <string name="t_1c49cba177">No such folder on the phone</string>
+    <string name="t_d8fa02e570">%s is being written already</string>
+    <string name="t_71e4006dd8">%s was already on the phone: replacing it isn\'t allowed. Send it under another name, or allow changes on the phone.</string>
+    <string name="t_e375504586">Not enough space on the phone for %s</string>
+    <string name="t_45f76acc1d">A folder of %s: open it with a WebDAV client</string>
+    <string name="t_339e933f2c">%s is there already</string>
+    <string name="t_6692db0a5b">Could not make the folder %s</string>
+    <string name="t_88f7b5c38d">The folder itself can\'t be deleted</string>
+    <string name="t_99e7797541">%s was already on the phone: deleting it isn\'t allowed. Allow changes on the phone first.</string>
+    <string name="t_59382c33eb">Could not delete %s</string>
+    <string name="t_afd532f974">Only within this folder of the phone</string>
+    <string name="t_ecff55e81e">The folder itself can\'t be moved</string>
+    <string name="t_8415e3c531">Not into itself</string>
+    <string name="t_9ba96b8eaf">%s was already on the phone: moving or renaming it isn\'t allowed. Allow changes on the phone first.</string>
+    <string name="t_285e676d1b">%s was already on the phone: replacing it isn\'t allowed. Allow changes on the phone first.</string>
+    <string name="t_87d8c23c06">Could not replace %s</string>
+    <string name="t_592c055365">Could not move %s</string>
+    <string name="t_74fbac6948">Could not copy %s</string>
+    <string name="t_42ffc71008">Could not make %s</string>
+    <string name="t_8e5c2f81e5">Send files to %s</string>
+    <string name="t_2038bdec92">Up</string>
+    <string name="t_ede1ba2f3e">Nothing here yet.</string>
+    <string name="t_cf765512cc">Sending…</string>
+    <string name="t_35f49dcfbf">Sent</string>
+    <string name="t_5310d94ea6">Not sent: %s</string>
+    <string name="t_c94fab460c">Not enough space on the phone</string>
+    <string name="t_ac4b599351">The phone stopped receiving, or can\'t be reached</string>
+    <string name="t_7eac206d4d">New folder\'s name</string>
+    <string name="t_96feec12bf">Saved on the phone in: %s</string>
+    <string name="t_9447038b0a">Drop files or folders here</string>
+    <string name="t_5910acf039">Choose files</string>
+    <string name="t_0df0b09fc1">Choose a folder</string>
+    <string name="t_a711999b72">New folder</string>
     <string name="t_543659cec5">Download this folder (.zip)</string>
+    <string name="t_4eabc462cb">Received with ManyFile. This page stops working when receiving is stopped on the phone.</string>
+    <string name="t_4557601e41">Explorer or Finder: open this address as a network drive (WebDAV) to drag files in and out. Windows: This PC → Map network drive. Mac: Finder → Go → Connect to Server.</string>
+    <string name="t_385519c8d4">Everything shared</string>
     <string name="t_ae3731bef9">Download everything (.zip)</string>
     <string name="t_fd57f2d359">Open in ManyFile</string>
     <string name="t_4bc2e3e9bf">Shared with ManyFile. This page stops working when sharing is stopped on the phone.</string>
@@ -969,7 +1066,6 @@
     <string name="t_63c94f1f67">Send future reports without asking</string>
     <string name="t_af74f7c536">Copy</string>
     <string name="t_2cb15d2ec5">Share crash report</string>
-    <string name="t_35f49dcfbf">Sent</string>
     <string name="t_9bc2575c39">Send</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Dialogs.kt -->
     <string name="t_709a23220f">Name</string>
@@ -983,9 +1079,7 @@
     <string name="t_717c180be0">Storage /</string>
     <string name="t_519e39132b">Path</string>
     <string name="t_2e0b45f2a4">Go</string>
-    <string name="t_2038bdec92">Up</string>
     <string name="t_8be7671059">Type a path</string>
-    <string name="t_a711999b72">New folder</string>
     <string name="t_76216f7884">Nothing here</string>
     <string name="t_7c301bb702">No folders here</string>
     <string name="t_6e157c5da4">Create</string>
@@ -1281,6 +1375,16 @@
     <string name="t_b00d63ea86">Bigger, smaller, usual size (also Ctrl + wheel, or a pinch)</string>
     <string name="t_34b8c60c89">This list</string>
     <string name="t_266695479a">Keyboard shortcuts</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfCompressDialog.kt -->
+    <string name="t_c07b4e9ca5">%s PDFs</string>
+    <string name="t_61804e99ea">Pictures bigger than the page needs are made smaller. Text and drawings stay as they are.</string>
+    <string name="t_c74fd9714e">Small</string>
+    <string name="t_a62d5626e8">For chats and upload limits: pictures fit to read on a screen</string>
+    <string name="t_d404968ea9">Medium</string>
+    <string name="t_1f3ebd325b">For e-mail: sharp on screen, fine to print</string>
+    <string name="t_b1a5954a48">High</string>
+    <string name="t_4f821aaf20">Prints well; saves less</string>
+    <string name="t_45ada5dc89">A copy “name (compressed).pdf” goes beside each PDF; the PDF itself stays as it is.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfPageDialogs.kt -->
     <string name="t_10c01c204a">%s (joined)</string>
     <string name="t_594f35a4c3">Join %s PDFs</string>
@@ -1304,7 +1408,6 @@
     <string name="t_1220d633cc">Makes %s PDFs, in a new folder beside it: “%s”</string>
     <string name="t_fc8230b411">Split</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfPasswordDialogs.kt -->
-    <string name="t_c07b4e9ca5">%s PDFs</string>
     <string name="t_136778aec1">Protect %s with a password</string>
     <string name="t_49d1d34858">Any PDF reader will ask for this password before showing it (AES-256).</string>
     <string name="t_5e6168e0f4">Its current password</string>
@@ -1593,6 +1696,7 @@
     <string name="t_81fb33ba6b">Save this search</string>
     <string name="t_c31e13bffe">Extract all next to archive</string>
     <string name="t_a878d7187f">Test archive integrity</string>
+    <string name="t_0e3fbc23eb">Git: %s…</string>
     <string name="t_769f47e561">Sync this folder…</string>
     <string name="t_3af102a144">%s account…</string>
     <string name="t_bf23a4b976">Play all audio here</string>
@@ -1650,24 +1754,31 @@
     <string name="t_03f6fdec3b">Lock folder…</string>
     <string name="t_5ddd524a38">Decrypt…</string>
     <string name="t_cd4c044ae4">Encrypt…</string>
+    <string name="t_2ae903583b">Compress PDF…</string>
     <string name="t_7ac95b7cda">Protect PDF with a password…</string>
     <string name="t_e4022d3d67">Remove PDF password…</string>
     <string name="t_ac261685c5">Add watermark…</string>
     <string name="t_b5e8f45d87">Remove watermark…</string>
+    <string name="t_c6b7274285">Sign and fill…</string>
     <string name="t_423e3a34d7">Edit pages…</string>
     <string name="t_972d86f17d">Split PDF…</string>
     <string name="t_f2668e73f0">Join PDFs…</string>
     <string name="t_bf2aced88c">Set as ringtone…</string>
     <string name="t_3c7454e3c8">Compress video…</string>
     <string name="t_6c8d431fcc">Trim video…</string>
+    <string name="t_1e94eb0588">Turn, take the sound out, GIF…</string>
+    <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
     <string name="t_32f2d87a94">Compress photo…</string>
     <string name="t_2b23fda9e2">Compress photos…</string>
+    <string name="t_1a51a9e23d">Make a PDF…</string>
+    <string name="t_287f09c5ee">Read the text…</string>
     <string name="t_85efc795dc">Move to vault…</string>
     <string name="t_eb5d1420b9">Copy to vault…</string>
     <string name="t_58008b93d9">Copy to %s</string>
     <string name="t_219f3bcc39">Move to %s</string>
     <string name="t_56a0a90a9a">Share on Wi-Fi…</string>
+    <string name="t_285d282b58">Receive files here on Wi-Fi…</string>
     <string name="t_f601707434">Compress…</string>
     <string name="t_c365bfc45f">Browse archive</string>
     <string name="t_d96f08d3f5">Extract here (into new folder)</string>
@@ -1939,6 +2050,7 @@
     <string name="t_6fa1406af9">Media Downloader</string>
     <string name="t_889a9cca7b">Duplicates</string>
     <string name="t_ee79525942">Similar photos</string>
+    <string name="t_c3ffcb9030">Words in photos</string>
     <string name="t_6b5a4d772d">WhatsApp statuses</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_00a681619f">Cleaner</string>
@@ -1946,6 +2058,7 @@
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_e0b473f572">Bootable USB</string>
     <string name="t_823879f440">Terminal (this phone)</string>
+    <string name="t_5819778898">Git</string>
     <string name="t_c880999562">System files</string>
     <string name="t_5cc7ff66b8">Fold %s away</string>
     <string name="t_73a0b070f1">Show %s</string>
@@ -2084,7 +2197,6 @@
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
     <string name="t_a749eeb4da">Moved %s to the Bin</string>
-    <string name="t_59382c33eb">Could not delete %s</string>
     <string name="t_9e3d35912d">Delete this song?</string>
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
@@ -2151,8 +2263,6 @@
     <string name="t_894f6c0b82">%s photos · %s</string>
     <string name="t_aba14136eb">Picture size</string>
     <string name="t_738fd1d245">Large</string>
-    <string name="t_d404968ea9">Medium</string>
-    <string name="t_c74fd9714e">Small</string>
     <string name="t_ecdffbde02">already about this small</string>
     <string name="t_26282a9b88">longest side %s px</string>
     <string name="t_f4072350b6">about %s</string>
@@ -2165,7 +2275,6 @@
     <string name="t_9f43646158">This file can\'t be read as a video.</string>
     <string name="t_99355699ec">These files can\'t be read as videos.</string>
     <string name="t_f77c7fc791">%s videos · %s</string>
-    <string name="t_b1a5954a48">High</string>
     <string name="t_d2ade5995e">A smaller copy is saved beside each video, named “… (compressed)”. The video itself stays as it is.</string>
     <string name="t_da7572e938">Compressing %s videos</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CutSongScreen.kt -->
@@ -2203,6 +2312,45 @@
     <string name="t_ad93611684">Paused · tap play to continue</string>
     <string name="t_b4155c42ae">Can\'t play: %s</string>
     <string name="t_7dd843728a">Stop and close</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/PhotoTextScreens.kt -->
+    <string name="t_9d6145dbc4">The picture couldn\'t be read</string>
+    <string name="t_c3b6504d3d">Text in the picture</string>
+    <string name="t_8e6a0d5c59">Reading the words…</string>
+    <string name="t_24e93b14cd">No words found in this picture.</string>
+    <string name="t_8e3df45a49">Copied</string>
+    <string name="t_9da9f04404">Copy all</string>
+    <string name="t_f76218292d">Share the text</string>
+    <string name="t_c1f14ce6ea">The text couldn\'t be saved there</string>
+    <string name="t_87657e92fe">Save as a text file beside it</string>
+    <string name="t_5fd95ee876">Hold a word to select part of the text.</string>
+    <string name="t_cf33e740af">It didn\'t work</string>
+    <string name="t_b5c61552b5">Words in the photo, like: receipt total</string>
+    <string name="t_842f28db13">%d of %d photos</string>
+    <string name="t_7f9945e9ad">Looking for photos…</string>
+    <string name="t_8bfbfa326f">No photos read yet. Reading them takes a while the first time; after that only new photos are read.</string>
+    <string name="t_3cd01349bb">%d photos read · %d with words</string>
+    <string name="t_d7d18cacfa">Read my photos…</string>
+    <string name="t_f4d4bc39c5">Read new photos…</string>
+    <string name="t_426ac4bb56">Type words seen in a photo to find it.</string>
+    <string name="t_00d70fd222">No photo read so far has those words.</string>
+    <string name="t_6e64af5035">Read the words in</string>
+    <string name="t_cb3c631a1c">Add a folder…</string>
+    <string name="t_1656611f80">Folders in them too. Photos are read on the phone; nothing is sent anywhere.</string>
+    <string name="t_852b438f91">Read</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/PhotosToPdfDialog.kt -->
+    <string name="t_6c16fa71f9">Make a PDF of 1 photo</string>
+    <string name="t_82c8ffcb47">Make a PDF of %d photos</string>
+    <string name="t_d9090255d1">A page each, in this order:</string>
+    <string name="t_ee14050617">Letter</string>
+    <string name="t_e8f79b823a">The photo\'s size</string>
+    <string name="t_d01f8dc1fa">Margins</string>
+    <string name="t_6eef664840">None</string>
+    <string name="t_9ec4d86f6b">Wide</string>
+    <string name="t_a60f2c7360">Quality</string>
+    <string name="t_b85ff05208">Small file</string>
+    <string name="t_f02b5dea56">Name of the PDF</string>
+    <string name="t_4dc423129e">Saved beside the first photo. Each page is turned to suit its photo.</string>
+    <string name="t_9712034060">Make the PDF</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
     <string name="t_9d07399ccc">The file got shorter while playing</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SetAsSoundDialog.kt -->
@@ -2217,12 +2365,21 @@
     <string name="t_1243e83a19">Android lets ManyFile change the phone\'s sounds only once you allow it to modify system settings. Allow opens that page; come back and it\'s set.</string>
     <string name="t_7310aa163c">Android\'s settings page didn\'t open: %s</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/TrimVideoScreen.kt -->
+    <string name="t_71757a28f4">The GIF could not be made</string>
     <string name="t_f062d3ae08">The video could not be trimmed</string>
+    <string name="t_9cbda9e539">Make a GIF</string>
     <string name="t_373c6bf1a2">Trim video</string>
     <string name="t_456fd788b6">Reading the video…</string>
     <string name="t_9e3fd2874c">This video\'s length can\'t be read, so it can\'t be trimmed.</string>
     <string name="t_234b685e64">“Here” sets a point at the picture shown.</string>
+    <string name="t_77fdcd3ffb">Small (%d px)</string>
+    <string name="t_f0546c03f5">Medium (%d px)</string>
+    <string name="t_56b793d391">A GIF can be %d seconds at most: make the piece shorter.</string>
+    <string name="t_e5263df913">Make the GIF</string>
+    <string name="t_f8fe92b53a">Making the GIF…</string>
     <string name="t_c1bc18122d">Trimming…</string>
+    <string name="t_8c00f91302">Open it</string>
+    <string name="t_8eef31e8f6">Saved beside the video as “….gif”, %d pictures a second. Every picture of a GIF is whole, so a short piece is best for chats.</string>
     <string name="t_7e01b75e8b">Saved beside the video as “… (trimmed).mp4”; the video itself stays as it is. Only the first moments are encoded again, the rest is copied as it is: quick, and nothing is lost.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoCompression.kt -->
     <string name="t_c16682f0a3">could not compress %s: %s</string>
@@ -2242,6 +2399,7 @@
     <string name="t_17770471cb">Subtitles</string>
     <string name="t_d6765f32d1">Play as audio in background</string>
     <string name="t_b107e4b8bd">Keep playing as audio when I leave</string>
+    <string name="t_ff950537ab">Save this picture as a photo</string>
     <string name="t_1ca20dfd7c">Video details</string>
     <string name="t_3a02b7b36c">Previous video</string>
     <string name="t_68ef4ca210">Next video</string>
@@ -2252,9 +2410,37 @@
     <string name="t_67092bb7e8">None in this video</string>
     <string name="t_f0aeb28a39">Track %d</string>
     <string name="t_0b513070ee">Load a subtitle file from this folder</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoToolDialogs.kt -->
+    <string name="t_39fa445c17">Turn right</string>
+    <string name="t_e28a216139">A quarter turn clockwise</string>
+    <string name="t_920999160e">Turn left</string>
+    <string name="t_cc2bdf5d1f">A quarter turn the other way</string>
+    <string name="t_63d0c0c1ae">Turn upside down</string>
+    <string name="t_ef165dc92e">A half turn</string>
+    <string name="t_dae1d3cda9">Take the sound out</string>
+    <string name="t_c43a849991">The picture as it is, silent</string>
+    <string name="t_7a396c0842">Make a GIF…</string>
+    <string name="t_64d8ee0bba">A short piece, as an animated picture</string>
+    <string name="t_6a9a02cde5">Each makes a new video beside this one; this one stays as it is. Turning and taking the sound out are quick and lose nothing.</string>
+    <string name="t_4a003df3a1">Join %d videos</string>
+    <string name="t_6878db1128">One after another, in this order:</string>
+    <string name="t_dd8708cd09">Videos from the same phone join quickly, as they are; others are encoded again, which takes longer. The videos themselves stay as they are.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoTools.kt -->
+    <string name="t_7666242370">could not make %s</string>
+    <string name="t_71fe2cd9de">could not make %s: %s</string>
+    <string name="t_d092f8afb4">Saved as %s (%s)</string>
+    <string name="t_0cb3feaa30">Turning %s</string>
+    <string name="t_406cc7e81a">turned</string>
+    <string name="t_2a33611562">Taking the sound out of %s</string>
+    <string name="t_2a2f389bd6">no sound</string>
+    <string name="t_de702e1404">Joining %d videos</string>
+    <string name="t_6b3c1c5a86">No picture there in %s</string>
+    <string name="t_465de94990">frame %s</string>
+    <string name="t_03bbdbcf92">Making a GIF of %s</string>
+    <string name="t_33f769ab87">The piece is past the end of %s</string>
+    <string name="t_2a8b0e0091">Saved as %s: %s, %s (%s)</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoTrimming.kt -->
     <string name="t_8517ef498a">Trimming %s</string>
-    <string name="t_33f769ab87">The piece is past the end of %s</string>
     <string name="t_c9cb9ea283">trimmed</string>
     <string name="t_b0e733bec5">could not trim %s</string>
     <string name="t_823906f18f">could not trim %s: %s</string>
@@ -2301,7 +2487,6 @@
     <string name="t_fe035157cd">Port</string>
     <string name="t_bd5074f259">SSH\'s usual</string>
     <string name="t_5f55481838">SMB\'s usual</string>
-    <string name="t_542fc71480">User name</string>
     <string name="t_60bb9ca96e">the PC\'s or NAS\'s account</string>
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
     <string name="t_761055ca3f">Leave empty for a guest share; DOMAIN\\name for a domain account</string>
@@ -3396,6 +3581,88 @@
     <string name="t_6637a818cc">The Media Engine is available: %s.</string>
     <string name="t_84d373e08f">You\'re on mobile data, so it wasn\'t downloaded yet.</string>
     <string name="t_c177e4b0aa">Downloading…</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
+    <string name="t_1741e3353e">Your commits are made as</string>
+    <string name="t_5b15aff09f">No name set yet</string>
+    <string name="t_f391a358b0">Clone…</string>
+    <string name="t_56fc11f1e4">Open a folder…</string>
+    <string name="t_c91e6e6a53">Repositories</string>
+    <string name="t_f8ee6595ef">None yet: clone one, or open a folder that holds one.</string>
+    <string name="t_ca0f11d30d">Take off the list</string>
+    <string name="t_a81ea5b748">Repositories on the phone\'s storage and SD cards. Servers with https:// addresses (GitHub, GitLab, your own); SSH addresses (git@…) come later. A private repository asks for a sign-in: GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_2f2f5b684e">%s can\'t be made</string>
+    <string name="t_de4cc02474">The clone didn\'t finish</string>
+    <string name="t_0f6804f2db">Open a repository</string>
+    <string name="t_fe74cf4d5f">Not a Git repository</string>
+    <string name="t_ba3a3026ba">%s isn\'t in a Git repository. Make it one? Its files stay as they are; nothing is committed yet.</string>
+    <string name="t_6a1265e8f4">Make it a repository</string>
+    <string name="t_ff2589f077">Your name for commits</string>
+    <string name="t_f3f2e9d068">Every commit carries a name and an e-mail. GitHub links commits to your account by its e-mail (or its no-reply address).</string>
+    <string name="t_0d01e2e866">E-mail</string>
+    <string name="t_de7fda5bf0">Clone a repository</string>
+    <string name="t_d70f93df5e">Address</string>
+    <string name="t_b2ce023b42">Folder name</string>
+    <string name="t_d937d21f81">Into</string>
+    <string name="t_4a3cd03746">A private repository asks for a sign-in: GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_d8cdb57335">Clone</string>
+    <string name="t_552ec9abbd">Clone into</string>
+    <string name="t_5219eb9a71">Pull</string>
+    <string name="t_8f7f57b519">Push</string>
+    <string name="t_d48aafe689">Fetch</string>
+    <string name="t_32050d34e1">Show folder</string>
+    <string name="t_3925ae71ef">Server address…</string>
+    <string name="t_3fe46e24f2">Your name for commits…</string>
+    <string name="t_7f090d1f24">Something begun by another Git program (a rebase or cherry-pick) is under way here: finish it there.</string>
+    <string name="t_8aa57de6dc">Changes</string>
+    <string name="t_6100ef6990">Changes (%d)</string>
+    <string name="t_90ccd64974">History</string>
+    <string name="t_f578227926">Branches</string>
+    <string name="t_82606b0cf2">Committed</string>
+    <string name="t_5433e15efd">Server address saved</string>
+    <string name="t_7b34fdfc11">Undo the merge?</string>
+    <string name="t_5ec782d060">The files the merge changed go back as they were before the pull, conflicts and all. Your other changes stay.</string>
+    <string name="t_59ba20d761">The merge was undone</string>
+    <string name="t_1c6469af3c">Undo the merge</string>
+    <string name="t_c720457fa3">no branch (%s)</string>
+    <string name="t_80af66cc87">nothing committed yet</string>
+    <string name="t_d53a62820f">not on the server yet</string>
+    <string name="t_6c5ac63037">up to date with %s</string>
+    <string name="t_80cfa28ce9">%d to push</string>
+    <string name="t_81d9fa0085">%d to pull</string>
+    <string name="t_2c2fe50cb4">Merging: %d files have conflicts. Fix them (look for &lt;&lt;&lt;&lt;&lt;&lt;&lt;), stage them, then commit.</string>
+    <string name="t_ea75d4703c">Merging: the conflicts are staged. Commit to finish the merge.</string>
+    <string name="t_e827a2a5bd">Nothing changed since the last commit.</string>
+    <string name="t_aa9269503f">Staged (%d)</string>
+    <string name="t_f9b2a63d29">Unstage all</string>
+    <string name="t_4440285641">Not staged (%d)</string>
+    <string name="t_cd87ee356d">Stage all</string>
+    <string name="t_ac9592bac7">Merge message</string>
+    <string name="t_7e4b91991b">What changed</string>
+    <string name="t_1a1873ab51">Commit</string>
+    <string name="t_7298d7ed98">Unstage</string>
+    <string name="t_ca6d0e3aaa">Stage</string>
+    <string name="t_20df959e6a">Discard the changes?</string>
+    <string name="t_b1feaf6563">%s goes back as it was last staged or committed. The changes can\'t be brought back.</string>
+    <string name="t_d3f24baf5f">was %s</string>
+    <string name="t_ae214513a0">conflict</string>
+    <string name="t_6b24c0161f">No differences to show.</string>
+    <string name="t_89c6ee23af">Nothing committed yet.</string>
+    <string name="t_e0f6589ebc">(no message)</string>
+    <string name="t_14091a9f24">merge</string>
+    <string name="t_6f0ba6b9d5">New branch…</string>
+    <string name="t_95932a0735">On the phone</string>
+    <string name="t_c87e41a0f8">follows %s</string>
+    <string name="t_4adc7a6180">Checked out</string>
+    <string name="t_052285009e">On the server</string>
+    <string name="t_e754438b9e">Tap to check it out as a branch of your own</string>
+    <string name="t_58dea7bf28">Fetch (⋮) to see the server\'s newest branches. Checking out keeps your changes, and refuses when they would be overwritten.</string>
+    <string name="t_0f0adf8cbf">New branch</string>
+    <string name="t_23c5fdc4f5">Starts where you are now, and is checked out.</string>
+    <string name="t_a94431ee22">Make</string>
+    <string name="t_a0660a6432">Delete the branch %s?</string>
+    <string name="t_b85752f8ea">Its commits that no other branch has can\'t be found again easily. The server\'s copy, if any, stays.</string>
+    <string name="t_eae5f5b759">This repository has no server yet. Add its address to push and pull.</string>
+    <string name="t_484108925c">Address (origin)</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/InstallerUi.kt -->
     <string name="t_85d8201c3f">Cannot install: %s</string>
     <string name="t_601eb188ae">Shizuku and root access are off</string>
@@ -3609,7 +3876,6 @@
     <string name="t_db045a38c6">Last backup: %s</string>
     <string name="t_c60bd5d348">Not backed up yet</string>
     <string name="t_527bf1aa5d">Back up now</string>
-    <string name="t_cb3c631a1c">Add a folder…</string>
     <string name="t_7f4b53b396">Folders inside a chosen one come too, except Screenshots (choose that folder itself to back it up) and hidden ones.</string>
     <string name="t_96c7633d46">Folder on Drive</string>
     <string name="t_474509bdfb">In My Drive; each phone folder gets its own inside it.</string>
@@ -3782,9 +4048,11 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
     <string name="t_374bef1551">No QR code found in the photo: hold the phone closer, with the whole code in view</string>
     <string name="t_b5cfd75e69">No camera app on this phone: type the address instead</string>
-    <string name="t_2b1306ca38">Send files from this phone to a computer, or another phone, on the same Wi-Fi: no cable, no app on the other side. Choose what to share, then open the address shown (or scan its QR code) there.</string>
-    <string name="t_09dbd787ae">To share files: select them in the file browser, then ⋮ → Share on Wi-Fi.</string>
+    <string name="t_6368c54109">Receive on Wi-Fi</string>
+    <string name="t_cdd72338d3">Move files between this phone and a computer, or another phone, on the same Wi-Fi: no cable, no app on the other side. Share files from here, or receive files into a folder; then open the address shown (or scan its QR code) there.</string>
     <string name="t_eceef89b99">Share a folder…</string>
+    <string name="t_bd196dc582">Receive files…</string>
+    <string name="t_a6b9909145">To share files: select them in the file browser, then ⋮ → Share on Wi-Fi. To receive into a folder: select it, then ⋮ → Receive files here.</string>
     <string name="t_4e08d6f835">Open this address on the computer:</string>
     <string name="t_b87931969a">Address copied</string>
     <string name="t_4eaae53e88">Copy address</string>
@@ -3796,6 +4064,18 @@
     <string name="t_45ea68fadd">%d downloads so far</string>
     <string name="t_ff649bd59e">Anyone on this Wi-Fi who has the address can download what is shared, until you stop. It stops by itself after 30 minutes without a visit. Nothing can be uploaded or changed.</string>
     <string name="t_50d0d8dd11">Shared</string>
+    <string name="t_1e0055301a">Receive files into</string>
+    <string name="t_51a2217b43">Receive here</string>
+    <string name="t_d20e2fac28">Receiving into %s</string>
+    <string name="t_35e315211e">Open this address on the computer, then drop files on the page:</string>
+    <string name="t_7ec9ceb052">Another phone: scan this with its camera and send from its browser, or with ManyFile: Share on Wi-Fi → Open another phone\'s share, then copy files into it. A computer can also open the address as a network drive (WebDAV) in Explorer or Finder:</string>
+    <string name="t_600e4983bd">Nothing received yet</string>
+    <string name="t_7d3fb81d8c">1 file received · %s</string>
+    <string name="t_c5a0c1041a">%d files received · %s</string>
+    <string name="t_62180ad56b">Show the folder</string>
+    <string name="t_6c355d4784">Allow changes</string>
+    <string name="t_5b6f6c2da6">Let them also replace, rename and delete what was already in this folder. What they send is always theirs to change.</string>
+    <string name="t_998270e88a">Anyone on this Wi-Fi who has the address can send files into this folder, and see and download what is in it, until you stop. It stops by itself after 30 minutes without a visit.</string>
     <string name="t_3e1a4c60eb">Open another phone\'s share</string>
     <string name="t_d1957a1f13">On the other phone: ManyFile → Share on Wi-Fi. Then scan the code it shows, or type its address. Its folders open here like a server\'s: browse them, copy whole folders, or sync from them.</string>
     <string name="t_d58717f0a4">Scan its QR code</string>
@@ -3882,10 +4162,12 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/PdfViewerScreen.kt -->
     <string name="t_e7646fc58e">Could not open this PDF: it may be damaged.</string>
     <string name="t_dd87d5dd18">Could not read the text of this PDF: %s</string>
+    <string name="t_3c4af741d8">This box can\'t be changed</string>
     <string name="t_d62e9e6ccf">Marks saved into %s</string>
     <string name="t_b1ccb50328">Page %s / %s</string>
     <string name="t_50ae1f3da7">Find text</string>
     <string name="t_fe17a5bb0f">Edit PDF</string>
+    <string name="t_8df48a6981">Stop signing and filling</string>
     <string name="t_227ecfc86a">Stop drawing</string>
     <string name="t_93afd7c679">Normal pages</string>
     <string name="t_cd0bf6606d">Night mode</string>
@@ -3903,15 +4185,18 @@
     <string name="t_ed5b6f1d59">Reading the text of the pages: %s of %s. Find already searches the pages read.</string>
     <string name="t_c73931a03b">Could not read the page pictures: %s</string>
     <string name="t_1e69043acb">Save the text into the PDF, for other apps too</string>
+    <string name="t_20a2186b2c">This PDF has boxes to fill in.</string>
+    <string name="t_d20fc7ca1f">Fill in</string>
     <string name="t_963809ac31">Could not read the contents of this PDF: %s</string>
     <string name="t_ceec8c296d">This PDF has no table of contents. Use Pages or the slider to move around.</string>
     <string name="t_055688019c">From the PDF\'s contents pages</string>
     <string name="t_aa50377309">Pen and highlighter</string>
+    <string name="t_77c2a8dbb5">Sign and fill</string>
     <string name="t_ee3c6b7f9b">Pages: turn, move, delete…</string>
     <string name="t_1ce07d9a67">%s results for “%s”</string>
     <string name="t_a265d552ea">Page %s</string>
     <string name="t_9664e8f925">Save your marks into the PDF?</string>
-    <string name="t_e44e8bfe98">Other apps show the pen and highlighter marks only once they are in the PDF. Until then ManyFile keeps them for this PDF.</string>
+    <string name="t_8283ec9225">Other apps show your marks, text and signatures only once they are in the PDF. Until then ManyFile keeps them for this PDF.</string>
     <string name="t_aa4fa6b606">This PDF can\'t be changed where it is; a copy with the marks can be saved. Until then ManyFile keeps them for this PDF.</string>
     <string name="t_1e60fd7f26">Save into the PDF</string>
     <string name="t_9056f96b3a">Save a copy</string>
@@ -3919,7 +4204,9 @@
     <string name="t_1d73d30ea0">Other apps can then find and copy the words read off the page pictures, too. The pages look the same.</string>
     <string name="t_c0cf69bd65">This PDF can\'t be changed where it is; a copy with the text can be saved. The pages look the same.</string>
     <string name="t_6cfcd8a507">Remove all annotations?</string>
-    <string name="t_98edcb3026">The pen and highlighter marks on every page of %s are removed. Copies saved with annotations keep theirs.</string>
+    <string name="t_c6d4b241a5">The marks, text, signatures and what was typed into its boxes on every page of %s are removed. Copies saved with annotations keep theirs.</string>
+    <string name="t_c32a0147f2">Place</string>
+    <string name="t_4d2ac931ce">Change the text</string>
     <string name="t_15e97338c2">Go to page</string>
     <string name="t_c515779b28">Enter a page number</string>
     <string name="t_cf6c07e705">Pen</string>
@@ -3964,12 +4251,30 @@
     <string name="t_cce7155371">Reload</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/XmlViewerScreen.kt -->
     <string name="t_d131a14153">Invalid XML</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/FillUi.kt -->
+    <string name="t_2f32be1dc7">Signature</string>
+    <string name="t_aeddfe22a0">Tick</string>
+    <string name="t_dbfe7362b2">Cross</string>
+    <string name="t_17adaa33a1">Blue boxes are this PDF\'s own: touch one to fill it in</string>
+    <string name="t_3021902286">Smaller</string>
+    <string name="t_9c52711df5">Bigger</string>
+    <string name="t_6d591d9451">Drag it to move it</string>
+    <string name="t_352b28796d">Touch where the text goes</string>
+    <string name="t_d8d749b352">Touch where the date goes</string>
+    <string name="t_7a8b49ceab">Touch where you sign</string>
+    <string name="t_086f10e0a9">Touch a box to tick it</string>
+    <string name="t_25519af56d">Touch a box to cross it</string>
+    <string name="t_6ba51371f6">touch a mark to change it</string>
+    <string name="t_5e89ca24e4">Sign here</string>
+    <string name="t_57173efe81">Your signatures</string>
+    <string name="t_c96b3ca216">Kept in ManyFile for next time, never sent anywhere.</string>
+    <string name="t_ee39eb8a21">Forget this signature</string>
+    <string name="t_96d5ec225f">Touch one to place it.</string>
+    <string name="t_61a4b4b448">Draw a new one</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PageEditor.kt -->
     <string name="t_ed5e9f4c73">%s of %s chosen</string>
     <string name="t_44ca76d35e">Choose none</string>
     <string name="t_aa49955030">Tap pages to choose them. Hold a page and drag it to move it.</string>
-    <string name="t_920999160e">Turn left</string>
-    <string name="t_39fa445c17">Turn right</string>
     <string name="t_56fe1f1d6e">To the start</string>
     <string name="t_3032d286cc">To the end</string>
     <string name="t_ea746294a7">Copy to new PDF</string>
@@ -3985,8 +4290,6 @@
     <string name="t_9e8df7eb38">Saving the text of %s</string>
     <string name="t_7537c20c95">searchable</string>
     <string name="t_9905803751">Saved the text into %s</string>
-    <string name="t_4e1fdd3db7">Reading text from page pictures needs a 64-bit phone</string>
-    <string name="t_dd09efdce6">Reading text needs Google Play services, which this phone doesn\'t have or needs to update</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
     <string name="t_a803dd4ddb">Could not open this PDF</string>
     <string name="t_37711301ec">This PDF needs a password</string>
