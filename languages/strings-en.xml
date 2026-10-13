@@ -435,9 +435,18 @@
     <string name="t_e2968d0450">Fetched: the server\'s branches are up to date here</string>
     <string name="t_7db14c680d">Pulling %s</string>
     <string name="t_832c03df3e">Already up to date</string>
+    <string name="t_802891fb38">Brought in %s</string>
     <string name="t_1509df126d">Brought in the server\'s changes</string>
+    <string name="t_4ee0e2e73b">Merged with yours: %s</string>
     <string name="t_8a1fb9697d">Merged the server\'s changes with yours</string>
     <string name="t_264ae75d71">Conflicts in %s: fix them, stage them, then commit (or undo the merge)</string>
+    <string name="t_2e1d9152e7">1 commit</string>
+    <string name="t_7fe316d3ba">%d+ commits</string>
+    <string name="t_284dd50968">%d commits</string>
+    <string name="t_449db9ef04">1 file changed</string>
+    <string name="t_825d61abe8">%d files changed</string>
+    <string name="t_2e47805ac6">Resetting %s to the server</string>
+    <string name="t_128809be76">%s is now as on the server</string>
     <string name="t_9440247337">Pushing %s</string>
     <string name="t_a282a77735">Pushed to the server</string>
     <string name="t_6e424b6fec">Receiving objects</string>
@@ -462,6 +471,10 @@
     <string name="t_a8fd89790e">The repository is busy (%s)</string>
     <string name="t_620279c66c">Can\'t reach the server: %s</string>
     <string name="t_15c8479622">Only https:// addresses work for now; SSH addresses (git@…) are coming</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubSignIn.kt -->
+    <string name="t_1b9e2d01f9">GitHub refused the sign-in: %s</string>
+    <string name="t_b5d29d24d0">GitHub didn\'t answer as expected (HTTP %d)</string>
+    <string name="t_aa8dfb9d35">Can\'t reach GitHub: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/i18n/Languages.kt -->
     <string name="t_93dcc3b42c">The %s file didn\'t match its checksum: try again later</string>
     <string name="t_4c5a2cc586">The %s file couldn\'t be read</string>
@@ -1058,13 +1071,19 @@
     <string name="t_db85245400">the previous step found nothing</string>
     <string name="t_4827f5d3be">text matches</string>
     <string name="t_dec31e5aae">text does not match</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/BrowserSignInDialog.kt -->
+    <string name="t_9ad248876b">It wasn\'t approved in time, or was refused. Retry for a new code.</string>
+    <string name="t_d6b99ed7f0">Getting a code from %s…</string>
+    <string name="t_899404033f">Open %s, sign in there if asked, enter this code and approve ManyFile:</string>
+    <string name="t_af74f7c536">Copy</string>
+    <string name="t_4cf575bce1">Waiting for you to approve it…</string>
+    <string name="t_76321c8f81">Open copies the code: paste it there.</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Components.kt -->
     <string name="t_8d886c0ba6">Something went wrong</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/CrashReportDialog.kt -->
     <string name="t_11c52c78fc">Sent to the developer (it is retried later if you are offline).</string>
     <string name="t_576b7f144f">Send helps fix it: the report goes to t-ct.org without file paths, server names or accounts.</string>
     <string name="t_63c94f1f67">Send future reports without asking</string>
-    <string name="t_af74f7c536">Copy</string>
     <string name="t_2cb15d2ec5">Share crash report</string>
     <string name="t_9bc2575c39">Send</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Dialogs.kt -->
@@ -2467,6 +2486,9 @@
     <string name="t_6defd00e9d">I know why the key changed</string>
     <string name="t_a181beeb5d">Trust new key</string>
     <string name="t_9f27e3338d">Trust and connect</string>
+    <string name="t_94428c4bc7">Sign in with the browser</string>
+    <string name="t_8f863db526">Or type a user name and token:</string>
+    <string name="t_a02bea352e">Make a token</string>
     <string name="t_da8e25651c">Remember (stored encrypted on this phone)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServerEditorScreen.kt -->
     <string name="t_9b4ef14147">Not a web address: like https://cloud.example.com/remote.php/dav/files/me</string>
@@ -3584,18 +3606,28 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
     <string name="t_1741e3353e">Your commits are made as</string>
     <string name="t_5b15aff09f">No name set yet</string>
+    <string name="t_e01abc7bbc">Signed in as %s</string>
+    <string name="t_848d80ca32">Not signed in</string>
+    <string name="t_ada2e9e96f">Sign in</string>
     <string name="t_f391a358b0">Clone…</string>
     <string name="t_56fc11f1e4">Open a folder…</string>
     <string name="t_c91e6e6a53">Repositories</string>
     <string name="t_f8ee6595ef">None yet: clone one, or open a folder that holds one.</string>
     <string name="t_ca0f11d30d">Take off the list</string>
+    <string name="t_44312f4076">Repositories on the phone\'s storage and SD cards. Servers with https:// addresses (GitHub, GitLab, your own); SSH addresses (git@…) come later. A private repository asks for a sign-in: GitHub\'s in the browser (Sign in above); GitLab and others take a personal access token, not your password.</string>
     <string name="t_a81ea5b748">Repositories on the phone\'s storage and SD cards. Servers with https:// addresses (GitHub, GitLab, your own); SSH addresses (git@…) come later. A private repository asks for a sign-in: GitHub and GitLab take a personal access token, not your password.</string>
+    <string name="t_6a1d203c23">Signed in to GitHub as %s</string>
+    <string name="t_7399ca8006">Sign out of GitHub?</string>
+    <string name="t_c88448c10b">ManyFile forgets the sign-in on this phone. To cancel it at GitHub too: Settings → Applications (or Developer settings → Personal access tokens).</string>
     <string name="t_2f2f5b684e">%s can\'t be made</string>
     <string name="t_de4cc02474">The clone didn\'t finish</string>
     <string name="t_0f6804f2db">Open a repository</string>
     <string name="t_fe74cf4d5f">Not a Git repository</string>
     <string name="t_ba3a3026ba">%s isn\'t in a Git repository. Make it one? Its files stay as they are; nothing is committed yet.</string>
     <string name="t_6a1265e8f4">Make it a repository</string>
+    <string name="t_0c92abb25b">GitHub takes a personal access token, not your password. Make one in the browser (repo and workflow are ticked), copy it, and paste it here.</string>
+    <string name="t_1fb19ee723">GitHub user name</string>
+    <string name="t_a1141eb968">Token</string>
     <string name="t_ff2589f077">Your name for commits</string>
     <string name="t_f3f2e9d068">Every commit carries a name and an e-mail. GitHub links commits to your account by its e-mail (or its no-reply address).</string>
     <string name="t_0d01e2e866">E-mail</string>
@@ -3609,6 +3641,8 @@
     <string name="t_5219eb9a71">Pull</string>
     <string name="t_8f7f57b519">Push</string>
     <string name="t_d48aafe689">Fetch</string>
+    <string name="t_e9fb36c88a">Last pull</string>
+    <string name="t_bcc67e0c9c">Reset to server…</string>
     <string name="t_32050d34e1">Show folder</string>
     <string name="t_3925ae71ef">Server address…</string>
     <string name="t_3fe46e24f2">Your name for commits…</string>
@@ -3632,6 +3666,7 @@
     <string name="t_2c2fe50cb4">Merging: %d files have conflicts. Fix them (look for &lt;&lt;&lt;&lt;&lt;&lt;&lt;), stage them, then commit.</string>
     <string name="t_ea75d4703c">Merging: the conflicts are staged. Commit to finish the merge.</string>
     <string name="t_e827a2a5bd">Nothing changed since the last commit.</string>
+    <string name="t_4b4f543028">Long-press a file to choose several</string>
     <string name="t_aa9269503f">Staged (%d)</string>
     <string name="t_f9b2a63d29">Unstage all</string>
     <string name="t_4440285641">Not staged (%d)</string>
@@ -3641,13 +3676,46 @@
     <string name="t_1a1873ab51">Commit</string>
     <string name="t_7298d7ed98">Unstage</string>
     <string name="t_ca6d0e3aaa">Stage</string>
+    <string name="t_52dccebc10">Discard the changes in %s?</string>
+    <string name="t_8486b77921">Discard the changes in %d files?</string>
+    <string name="t_acf7d655e4">They go back as last committed, staged changes too:</string>
+    <string name="t_ef6224e3ef">1 changed file is put back</string>
+    <string name="t_7fd6e5d513">%d changed files are put back</string>
+    <string name="t_bab2f95205">1 new file is deleted</string>
+    <string name="t_2408dcdff5">%d new files are deleted</string>
+    <string name="t_99db42f242">folders holding another repository stay</string>
+    <string name="t_fe63a1238d">This can\'t be undone.</string>
+    <string name="t_539bef00d5">All %d chosen</string>
+    <string name="t_d7ac87b51e">%d chosen</string>
     <string name="t_20df959e6a">Discard the changes?</string>
     <string name="t_b1feaf6563">%s goes back as it was last staged or committed. The changes can\'t be brought back.</string>
     <string name="t_d3f24baf5f">was %s</string>
     <string name="t_ae214513a0">conflict</string>
+    <string name="t_d37b5f9e24">another repository</string>
+    <string name="t_8490f4d6cf">Reset to the server?</string>
+    <string name="t_e027a25e41">%s is fetched, and this branch becomes exactly as it is there. Lost for good:</string>
+    <string name="t_5f836a50ae">The server\'s branch</string>
+    <string name="t_ad4b2785d7">1 commit not pushed</string>
+    <string name="t_cb40aa9362">%d commits not pushed</string>
+    <string name="t_3a674634c9">the changes in 1 file</string>
+    <string name="t_1e5931660c">the changes in %d files</string>
+    <string name="t_372fba0310">the merge under way</string>
+    <string name="t_65a5a42ad5">nothing: you have no changes or commits of your own here</string>
+    <string name="t_9c22c3a588">Also delete 1 new file</string>
+    <string name="t_179a583f2e">Also delete %d new files</string>
+    <string name="t_ebd36952f2">Files Git ignores (in .gitignore) stay.</string>
+    <string name="t_84ad76bbc5">Pulled</string>
+    <string name="t_3c6cc8bd2b">%d new</string>
+    <string name="t_bbc97db749">%d changed</string>
+    <string name="t_3f2987062f">%d deleted</string>
+    <string name="t_afd38e5a51">%d renamed</string>
+    <string name="t_c2a6b03f19">new</string>
+    <string name="t_b639f5cc71">deleted</string>
+    <string name="t_7e57cfe843">binary</string>
+    <string name="t_74536b5173">Commits</string>
+    <string name="t_e0f6589ebc">(no message)</string>
     <string name="t_6b24c0161f">No differences to show.</string>
     <string name="t_89c6ee23af">Nothing committed yet.</string>
-    <string name="t_e0f6589ebc">(no message)</string>
     <string name="t_14091a9f24">merge</string>
     <string name="t_6f0ba6b9d5">New branch…</string>
     <string name="t_95932a0735">On the phone</string>
