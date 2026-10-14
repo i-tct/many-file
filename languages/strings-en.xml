@@ -524,6 +524,7 @@
     <string name="t_75d6f9a0fd">%s: already moved</string>
     <string name="t_879f72daa3">Skipped %s: %s</string>
     <string name="t_79c4bd7d26">Skipped %s: cannot copy into itself</string>
+    <string name="t_84cf960c63">%s files at a time</string>
     <string name="t_6231ee64a0">Deleting %s</string>
     <string name="t_fb0f281efc">%s of %s not deleted: %s</string>
     <string name="t_d0900532a0">%s items deleted</string>
@@ -1038,6 +1039,10 @@
     <string name="t_ed1d842d7d">Saved searches</string>
     <string name="t_ca3cddd25b">Bookmarks</string>
     <string name="t_76eec760c9">Recent</string>
+    <string name="t_eb9a4bc1c0">Date</string>
+    <string name="t_709a23220f">Name</string>
+    <string name="t_3deb745651">Type</string>
+    <string name="t_b7152342a2">Size</string>
     <string name="t_cb0e65c977">System monospace</string>
     <string name="t_41f88ed3b3">ManyFile dark</string>
     <string name="t_b150fae857">Gruvbox dark</string>
@@ -1088,7 +1093,6 @@
     <string name="t_2cb15d2ec5">Share crash report</string>
     <string name="t_9bc2575c39">Send</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Dialogs.kt -->
-    <string name="t_709a23220f">Name</string>
     <string name="t_7e5fe97f0e">Enter a name</string>
     <string name="t_1e59912ac7">Name cannot contain /</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FileIcons.kt -->
@@ -1216,7 +1220,6 @@
     <string name="t_4d7c76bfe6">%d files, %d folders</string>
     <string name="t_2c9c1f7914">Unavailable</string>
     <string name="t_d219c68101">Location</string>
-    <string name="t_b7152342a2">Size</string>
     <string name="t_19a532c8bc">Modified</string>
     <string name="t_accf40c89b">Created</string>
     <string name="t_44d25b5d1b">Items</string>
@@ -1351,7 +1354,6 @@
     <string name="t_91694e57d0">Locked folder</string>
     <string name="t_b9c57a36b1">9999+ items</string>
     <string name="t_19884f402f">1 item</string>
-    <string name="t_3deb745651">Type</string>
     <string name="t_7ee737c83e">dir</string>
     <string name="t_9cf188d3a6">Collapse</string>
     <string name="t_9869e506c3">Expand</string>
@@ -2123,9 +2125,50 @@
     <string name="t_f15b1d75ad">Choose or create a folder</string>
     <string name="t_b9e40abd12">Folder from another app</string>
     <string name="t_bd5ca4ee4c">SD cards, USB drives and cloud apps</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentRows.kt -->
+    <string name="t_d7854118cd">Any time</string>
+    <string name="t_0e61c13b4b">Last %d days</string>
+    <string name="t_094c097f3b">This year</string>
+    <string name="t_c2c3bdf80b">Earlier this week</string>
+    <string name="t_b0ca5968b7">No extension</string>
+    <string name="t_6dd72cb1ae">Size unknown</string>
+    <string name="t_c2fb42b4ce">Over %s</string>
+    <string name="t_eb8e61b1a4">Under %s</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentsScreen.kt -->
+    <string name="t_34de6dd705">Find in Recents</string>
+    <string name="t_0906f92324">Close search</string>
+    <string name="t_9c04c97209">Show as a list</string>
+    <string name="t_d1e53662d1">Show as a grid</string>
+    <string name="t_d4da1afc04">Show on Home</string>
+    <string name="t_ab4ba96582">Clear recents…</string>
+    <string name="t_769bb19e61">When</string>
+    <string name="t_f37c3dab33">Recents are off</string>
+    <string name="t_ee4c3bb4df">Files and folders you open are not added</string>
     <string name="t_bc86728655">Recently added is off (Settings → Bin &amp; history → Recent locations)</string>
-    <string name="t_bac607a381">No new files in the last 30 days</string>
+    <string name="t_c91c89f41f">Nothing matches “%s”</string>
+    <string name="t_1cea554f30">Nothing here for %s</string>
+    <string name="t_c11458485a">No new files</string>
+    <string name="t_08adbbf6cc">Nothing opened yet</string>
+    <string name="t_9f0a8072e1">Nothing here for this filter</string>
+    <string name="t_e43d7b93c2">Clear recents?</string>
+    <string name="t_4848fab15a">Remove the %s shown, or everything Recents has kept? Files themselves are not deleted.</string>
+    <string name="t_b0bdce253c">Everything Recents has kept is removed. Files themselves are not deleted.</string>
+    <string name="t_5f48c58018">Clear the shown</string>
+    <string name="t_c043160a89">Clear all</string>
+    <string name="t_b35da2bbd9">Remove from recents</string>
+    <string name="t_6a99c65c33">Oldest first</string>
+    <string name="t_f5ec7772ca">Newest first</string>
+    <string name="t_4455a32fa5">Smallest first</string>
+    <string name="t_d2b6b37336">Largest first</string>
+    <string name="t_3ae085e5fa">A to Z</string>
+    <string name="t_13105f46e2">Z to A</string>
+    <string name="t_c7e6800a9a">A month or a year…</string>
+    <string name="t_19ac2ead7e">Pick days…</string>
+    <string name="t_b5f213bbb1">A month or a year</string>
+    <string name="t_662c8cabe4">Year before</string>
+    <string name="t_2b2559a674">Year after</string>
+    <string name="t_7426bed660">All of %s</string>
+    <string name="t_f95f4561cb">A day, or the first and last day</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_2f601b8095">Couldn\'t reach server</string>
     <string name="t_a6cf8f3559">For direct file links (.zip, .apk, .mp4, .pdf…).</string>
@@ -2157,7 +2200,6 @@
     <string name="t_822c4a99c0">Save downloads to</string>
     <string name="t_7b19e4ea2f">Choose a device or SD card folder</string>
     <string name="t_7ad1b748e6">Checking link…</string>
-    <string name="t_6dd72cb1ae">Size unknown</string>
     <string name="t_42434de359">From %s (redirected)</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobAnnouncer.kt -->
     <string name="t_6f0785e0bb">Job failed</string>
@@ -3020,7 +3062,6 @@
     <string name="t_9e375df5a9">folder previews</string>
     <string name="t_6a9905e739">names only</string>
     <string name="t_45d0df35c7">File size</string>
-    <string name="t_eb9a4bc1c0">Date</string>
     <string name="t_4be95b8ef8">Folder item count</string>
     <string name="t_221a689790">May slow down listing</string>
     <string name="t_2e46333510">Folder size</string>
@@ -3098,10 +3139,14 @@
     <string name="t_812412a05e">Transfers</string>
     <string name="t_86a4261d84">verify</string>
     <string name="t_abe6b0adc4">%d retries</string>
+    <string name="t_364ae882e0">%d at a time</string>
     <string name="t_066a919645">Verify copies</string>
     <string name="t_5675a80259">Compare each copy with the source (slower)</string>
     <string name="t_ea67080a63">Connection retries</string>
     <string name="t_4f5279a8eb">Resume where the transfer stopped</string>
+    <string name="t_c169086dc9">Files at once (servers, cloud)</string>
+    <string name="t_bf4cffd3cf">One at a time</string>
+    <string name="t_0d043bcb8f">Up to %d</string>
     <string name="t_fa75daf057">Server speed limit (KB/s, 0 = none)</string>
     <string name="t_958e21ea8d">Server thumbnails</string>
     <string name="t_04324d9bfa">Images up to 4 MB, Wi-Fi only</string>
@@ -3131,7 +3176,6 @@
     <string name="t_6ec8590dc3">Delete and overwrite will ask again</string>
     <string name="t_39134a4275">Remembered decisions reset</string>
     <string name="t_b77aac4ad8">Defaults set with “Always” in “Open with…”.</string>
-    <string name="t_c043160a89">Clear all</string>
     <string name="t_9b9e7d0441">Reset all file types to automatic</string>
     <string name="t_922d1a2877">Defaults cleared</string>
     <string name="t_83ca9e48c3">Font size</string>
@@ -3223,13 +3267,15 @@
     <string name="t_282739264a">Keep deleted items for (days)</string>
     <string name="t_d28199733b">Bin size limit (MB, 0 = none)</string>
     <string name="t_e00e89f2eb">Oldest items are deleted first</string>
+    <string name="t_391b25ceff">On · everything is kept</string>
+    <string name="t_49a0ac6998">On · %s</string>
     <string name="t_f60cd87a7c">Recent locations</string>
-    <string name="t_2a124b4e30">On · up to %s</string>
     <string name="t_731603e916">Track recent locations</string>
     <string name="t_3c696f2f0f">Show recently added files</string>
     <string name="t_732f821382">Include new downloads, photos and received files</string>
-    <string name="t_8a4e65f7e8">Maximum entries</string>
-    <string name="t_273ea88c1a">Maximum age (days)</string>
+    <string name="t_daa087c451">Keep at most</string>
+    <string name="t_10850b9371">No limit</string>
+    <string name="t_0c794ca3ec">Forget after</string>
     <string name="t_eaa6bfa802">Include server locations</string>
     <string name="t_136306dc15">SFTP locations in Recent</string>
     <string name="t_35f6587be3">Include files in archives</string>
@@ -3237,8 +3283,10 @@
     <string name="t_52d764fa58">Undo history for renames, moves and deletes</string>
     <string name="t_2608969dc6">Clear undo history</string>
     <string name="t_9825d6ce8f">Undo history cleared</string>
-    <string name="t_e43d7b93c2">Clear recents?</string>
     <string name="t_248a513824">All recent locations will be removed.</string>
+    <string name="t_27ec24775a">%d years</string>
+    <string name="t_2d8a6f7c34">1 day</string>
+    <string name="t_0e3dee7646">%d days</string>
     <string name="t_f26ded19fc">Clear thumbnail cache</string>
     <string name="t_f99f46a417">Thumbnails are rebuilt when needed</string>
     <string name="t_9cfb511684">Thumbnail cache cleared: %s freed</string>
@@ -4336,7 +4384,6 @@
     <string name="t_386a761e23">Find in document</string>
     <string name="t_cc6fdf1b09">Spreadsheet</string>
     <string name="t_6e875951a6">Presentation</string>
-    <string name="t_0906f92324">Close search</string>
     <string name="t_1feeb8a75c">Save (%s)</string>
     <string name="t_6d9e51fe5a">Edit cells</string>
     <string name="t_e8c89894fe">Dark pages</string>
