@@ -10,13 +10,23 @@ It contains release binaries, checksums, release information, translations and o
 
 ## Download
 
-Open the **[Releases](https://github.com/i-tct/many-file/releases)** section and download the latest:
+Open the **[Releases](https://github.com/i-tct/many-file/releases)** section and download the latest ManyFile APK for your phone:
 
-- `manyfile-<version>.apk`: ManyFile for Android
-- `manyfile-media-engine-<version>-arm64-v8a.apk`: the optional Media Engine
+| File | For |
+|---|---|
+| `manyfile-<version>-arm64-v8a.apk` | 64-bit phones: almost every phone from 2017 on. **Choose this one if unsure.** |
+| `manyfile-<version>-armeabi-v7a.apk` | Older 32-bit phones |
+
+Each APK holds only what its kind of phone needs, so the download is smaller.
+
+Not sure which phone you have? Try the 64-bit APK first: if Android says the app isn't compatible or can't be installed, take the 32-bit one.
+
+Also in Releases:
+
+- `manyfile-media-engine-<version>-arm64-v8a.apk`: the optional Media Engine (64-bit phones only)
 - `.sha256` files: SHA-256 checksums for verifying downloads
 
-For most users, only the main ManyFile APK is required.
+For most users, only the ManyFile APK is required. ManyFile's own updates pick the right APK for the phone.
 
 ## ManyFile Media Engine
 
@@ -29,7 +39,7 @@ It includes components such as:
 - FFmpeg / FFprobe
 - a JavaScript runtime (QuickJS)
 
-The Media Engine is kept separate so the main ManyFile application can remain lightweight. Cloud drives (Google Drive, OneDrive and MEGA) are part of ManyFile itself.
+The Media Engine is kept separate so the main ManyFile application can remain lightweight. It runs on 64-bit phones only; on 32-bit phones ManyFile works without it. Cloud drives (Google Drive, OneDrive and MEGA) are part of ManyFile itself.
 
 It does not appear as a normal standalone application in the Android launcher. ManyFile communicates with it directly, and only with an engine signed with the same key as ManyFile itself.
 
@@ -37,7 +47,7 @@ ManyFile downloads the right Media Engine release by itself (on Wi-Fi; on mobile
 
 ## Installation
 
-1. Download the latest ManyFile APK from **Releases**.
+1. Download the latest ManyFile APK for your phone from **Releases** (see [Download](#download)).
 2. Open the APK on your Android device.
 3. Allow installation from the browser/file manager if Android asks.
 4. Install ManyFile.
@@ -49,8 +59,8 @@ Updates can also be found and installed from inside ManyFile: Settings → About
 Each release includes a `.sha256` file next to each APK.
 
 ```bash
-sha256sum manyfile-<version>.apk
-cat manyfile-<version>.apk.sha256
+sha256sum manyfile-<version>-arm64-v8a.apk
+cat manyfile-<version>-arm64-v8a.apk.sha256
 ```
 
 Both lines must show the same checksum. ManyFile checks it by itself when it downloads an update or the Media Engine.
