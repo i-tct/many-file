@@ -351,6 +351,8 @@
     <string name="t_db017328d6">Ventoy release incomplete. Missing %s</string>
     <string name="t_965df9a4f3">Ventoy download failed (HTTP %s)</string>
     <string name="t_ae64ef4f39">Couldn\'t download Ventoy: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/chat/WhatsAppFolders.kt -->
+    <string name="t_3a6435fa4b">%s (old folder)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/chat/WhatsAppStatuses.kt -->
     <string name="t_06d4ec3f2d">Couldn\'t create folder %s</string>
     <string name="t_f7b2514d9c">Couldn\'t save %s</string>
@@ -2071,6 +2073,7 @@
     <string name="t_762cb6eaf4">Drag %s</string>
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
+    <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APKs</string>
     <string name="t_24345a1437">Today</string>
@@ -2815,7 +2818,6 @@
     <string name="t_ce0b2bbc09">Made by %s · Running on TCT Engine</string>
     <string name="t_5442e2b64f">GitHub</string>
     <string name="t_edbea9ff1a">Telegram</string>
-    <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_f32d5a3b17">Support</string>
     <string name="t_c76d18079a">Updates</string>
     <string name="t_3b4c592daa">Open in the Play Store</string>
