@@ -1189,7 +1189,7 @@
     <string name="t_f68327afdc">Deleting 1 item</string>
     <string name="t_48a9e1ac31">Deleting %d items</string>
     <string name="t_f4b3992a08">Emptying Bin</string>
-    <string name="t_4e0b06ef31">Folders cannot be shared directly</string>
+    <string name="t_48d097be32">Couldn\'t zip %s: %s</string>
     <string name="t_87279c5666">No app can open this file</string>
     <string name="t_12ec0d2e47">Path copied</string>
     <string name="t_a24ae22283">Name copied</string>
@@ -1360,6 +1360,8 @@
     <string name="t_aed4fa91a4">Sign out of %s? Your files stay on %s.</string>
     <string name="t_dc1649a16c">Sign out</string>
     <string name="t_f2d81d7642">Sign out…</string>
+    <string name="t_e7b7a8e3db">Zipping %s</string>
+    <string name="t_8e5a990e3a">Item %d of %d</string>
     <string name="t_f56903f4c3">File %d of %d</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserExtras.kt -->
     <string name="t_0fccddde9f">Tags of %s</string>
