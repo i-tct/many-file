@@ -664,6 +664,15 @@
     <string name="t_0680b67c5c">Nothing saved</string>
     <string name="t_31582d9470">Saved as %s: %s (was %s)</string>
     <string name="t_13fd6d710f">Compressed %s photos: %s (were %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoConversion.kt -->
+    <string name="t_b339ebc2c5">Converting %s to %s</string>
+    <string name="t_ba0b2aa08e">Converting %s photos to %s</string>
+    <string name="t_2f2b7bcf20">%s is too large to convert</string>
+    <string name="t_58c39be623">1 was already %s</string>
+    <string name="t_0ff1fdd812">%s were already %s</string>
+    <string name="t_78f02ffc0c">Nothing to convert</string>
+    <string name="t_c1161b18d1">Converted %s photos to %s</string>
+    <string name="t_749fb3e0ad">Couldn\'t save as %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoMetadata.kt -->
     <string name="t_5fa60e3579">Removing details from %s</string>
     <string name="t_a46363271a">Removing details from %s photos</string>
@@ -1355,6 +1364,13 @@
     <string name="t_787b17bfe7">Mismatch</string>
     <string name="t_d280ba97b1">Actual: %s</string>
     <string name="t_dda6ac27b9">Verify</string>
+    <string name="t_229a3e5447">Convert %s</string>
+    <string name="t_74f880d103">Convert %s photos</string>
+    <string name="t_4972afc6cc">Opens everywhere; see-through parts become white</string>
+    <string name="t_49e418ca4f">No loss, keeps see-through parts; bigger</string>
+    <string name="t_06725f8f0d">Small, keeps see-through parts</string>
+    <string name="t_e9bc90edb1">already</string>
+    <string name="t_2b1dbe89fa">Beside each photo, upright, with the date it was taken; not its location.</string>
     <string name="t_284003b30a">%s account</string>
     <string name="t_bbf5cf0fd7">%s used of %s</string>
     <string name="t_aed4fa91a4">Sign out of %s? Your files stay on %s.</string>
@@ -1874,6 +1890,7 @@
     <string name="t_d0774b6d28">Remove location…</string>
     <string name="t_32f2d87a94">Compress photo…</string>
     <string name="t_2b23fda9e2">Compress photos…</string>
+    <string name="t_3f16b9b6ad">Convert to…</string>
     <string name="t_7f95614495">Create PDF…</string>
     <string name="t_77bebbc661">Extract text…</string>
     <string name="t_85efc795dc">Move to vault…</string>
