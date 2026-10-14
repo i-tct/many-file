@@ -103,6 +103,7 @@
     <string name="t_deccaac6e9">Press back again to exit</string>
     <string name="t_49bec33b37">Tag: %s</string>
     <string name="t_73dd2f312b">Large files</string>
+    <string name="t_adac69379a">Code</string>
     <string name="t_e9b450d14b">Done</string>
     <string name="t_4e9b031813">ManyFile closed unexpectedly</string>
     <string name="t_0fbb3cac17">Reset tabs</string>
@@ -998,7 +999,6 @@
     <string name="t_d613d88cb2">PDF</string>
     <string name="t_2621c6fd51">Archive</string>
     <string name="t_b337234efe">APK</string>
-    <string name="t_adac69379a">Code</string>
     <string name="t_61074f1c95">Database</string>
     <string name="t_b97c4d4cdd">Font</string>
     <string name="t_45c711bd26">E-book</string>
@@ -1298,6 +1298,7 @@
     <string name="t_aed4fa91a4">Sign out of %s? Your files stay on %s.</string>
     <string name="t_dc1649a16c">Sign out</string>
     <string name="t_f2d81d7642">Sign out…</string>
+    <string name="t_f56903f4c3">File %d of %d</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserExtras.kt -->
     <string name="t_0fccddde9f">Tags of %s</string>
     <string name="t_35bdff70b2">Tags of %s items</string>
@@ -1337,6 +1338,10 @@
     <string name="t_f5987306b2">Restores the original file in the same folder.</string>
     <string name="t_4096dde101">Delete encrypted files afterwards</string>
     <string name="t_72c38db397">Decrypt</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FastScroll.kt -->
+    <string name="t_51157ef504">Fast scroll</string>
+    <string name="t_c84caa3705">Scroll to bottom</string>
+    <string name="t_f077108ed1">Scroll to top</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileList.kt -->
     <string name="t_32eb460f07">Folder %s</string>
     <string name="t_3f17ea2f82">File %s</string>
@@ -1498,9 +1503,16 @@
     <string name="t_8ea09b3a9d">Device is rooted. Turn on root access to manage all files.</string>
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
+    <string name="t_8e9a3fb3ca">Not used for</string>
+    <string name="t_0fd6928c27">No unused files in %s</string>
     <string name="t_799c303727">No files in %s larger than %s</string>
     <string name="t_68c3f78b24">No matches in %s for “%s”</string>
     <string name="t_830489bc03">Larger than %s</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabSession.kt -->
+    <string name="t_b9e4e6ff3f">3 months</string>
+    <string name="t_cd75b86f4f">6 months</string>
+    <string name="t_afe36da676">1 year</string>
+    <string name="t_a4a3cd6c43">2 years</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/VaultDialogs.kt -->
     <string name="t_db57574460">Unlock with the password first</string>
     <string name="t_f50d832274">Turn on fingerprint unlock</string>
@@ -1920,6 +1932,11 @@
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowLauncher.kt -->
     <string name="t_0f0510ab7b">Run %s?</string>
     <string name="t_fce27ad1c3">Steps in red modify files or run server commands.</string>
+    <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/CodeHomeScreen.kt -->
+    <string name="t_f11b878130">Open file</string>
+    <string name="t_8f3cee3a58">Find code files</string>
+    <string name="t_60b6bad94f">No recent files</string>
+    <string name="t_bb1826ee4d">Invalid name</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorScreen.kt -->
     <string name="t_1d8d39a6e9">read-only</string>
     <string name="t_4d8b8004e1">on server, uploading…</string>
@@ -2001,15 +2018,16 @@
     <string name="t_430dfce6d5">with Shizuku</string>
     <string name="t_fe87d1492f">Full access (root)</string>
     <string name="t_258ef13380">Shizuku access</string>
+    <string name="t_0cd3597453">Places</string>
     <string name="t_84380106d9">Recents</string>
     <string name="t_dcbd796de2">Vaults</string>
     <string name="t_f6c9155e35">Locked folders</string>
     <string name="t_b7f85f4aef">All bookmarks…</string>
     <string name="t_e231772488">Add server…</string>
-    <string name="t_fca0583e04">%d online</string>
     <string name="t_2dbc2fd235">online</string>
     <string name="t_a371621a76">Manage servers…</string>
     <string name="t_b32a659820">Folder sync</string>
+    <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
     <string name="t_e3de5ab0ca">Off</string>
@@ -2019,6 +2037,7 @@
     <string name="t_7bc281f38a">Scan document</string>
     <string name="t_279875bab4">Download from URL</string>
     <string name="t_6fa1406af9">Media Downloader</string>
+    <string name="t_90e82471bd">Unused files</string>
     <string name="t_ee79525942">Similar photos</string>
     <string name="t_c3ffcb9030">Words in photos</string>
     <string name="t_6b5a4d772d">WhatsApp statuses</string>
@@ -2030,19 +2049,24 @@
     <string name="t_5819778898">Git</string>
     <string name="t_4853c808b1">Authenticator</string>
     <string name="t_c880999562">System files</string>
+    <string name="t_9239ee2cda">General</string>
+    <string name="t_6292acfc09">Customize menu</string>
+    <string name="t_44c57abd88">Reset</string>
     <string name="t_e7f58c9dec">Collapse %s</string>
     <string name="t_73a0b070f1">Show %s</string>
     <string name="t_a1bb4fe8db">%s free</string>
     <string name="t_630259383d">can\'t read</string>
     <string name="t_30d15a48d2">tap to grant access</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/DrawerEditor.kt -->
+    <string name="t_288dfe8f4d">Drag to reorder. Tap a section to arrange its items.</string>
+    <string name="t_5c4310dc5c">Move %s</string>
+    <string name="t_551a46e55e">Hide %s</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->
     <string name="t_98b0ed858a">Add account</string>
     <string name="t_5dcc791366">Add another account</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
-    <string name="t_2c6c66f87d">Drag ≡ to reorder sections, long-press to move tiles.</string>
-    <string name="t_44c57abd88">Reset</string>
+    <string name="t_017b278c13">Drag ≡ to reorder sections, long-press to move tiles, tap − to hide.</string>
     <string name="t_762cb6eaf4">Drag %s</string>
-    <string name="t_551a46e55e">Hide %s</string>
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_a50710e773">Archives</string>
@@ -2062,18 +2086,29 @@
     <string name="t_76985e982d">Show it again from Rearrange Home.</string>
     <string name="t_d098e97544">Remove %s from Quick access?</string>
     <string name="t_e49d44d8c5">The folder and its files are not deleted.</string>
+    <string name="t_4924cbd767">Replace %s</string>
     <string name="t_316f0b5edb">%d active jobs</string>
+    <string name="t_57d24fdbad">Edit tools</string>
     <string name="t_c5e23457aa">connected</string>
     <string name="t_544aa0b589">Manage bookmarks</string>
     <string name="t_d25e5aef9a">added %s</string>
     <string name="t_0a4cb13c05">Show in folder</string>
     <string name="t_32b5b990d5">Remove from Recent</string>
     <string name="t_0d52befa5c">Rearrange Home</string>
+    <string name="t_03eb1a4433">Add folder</string>
+    <string name="t_64ca199c85">Replace…</string>
     <string name="t_94ac9a58b6">Rename…</string>
     <string name="t_9155fcfc36">Lock…</string>
     <string name="t_e2913e431d">Hide from Home…</string>
     <string name="t_eaa66a3a4d">Remove from Quick access…</string>
-    <string name="t_03eb1a4433">Add folder</string>
+    <string name="t_a479c9c34e">Download</string>
+    <string name="t_9799246043">Home tools</string>
+    <string name="t_9bae5cf4de">On Home</string>
+    <string name="t_f37c977d24">No tools on Home</string>
+    <string name="t_c871f1056a">More tools</string>
+    <string name="t_b804021212">All tools are on Home</string>
+    <string name="t_e4fb25be04">Add %s</string>
+    <string name="t_5a7834eab7">Remove %s</string>
     <string name="t_a798882f1c">Locked</string>
     <string name="t_7842d8c3f5">Tap to grant access</string>
     <string name="t_c8b2e864ec">Photos</string>
@@ -2118,7 +2153,6 @@
     <string name="t_142503330c">Only on Wi-Fi</string>
     <string name="t_d1524d5335">Pauses when not on Wi-Fi</string>
     <string name="t_39979482c5">Couldn\'t start download</string>
-    <string name="t_a479c9c34e">Download</string>
     <string name="t_10428cc6dc">Manage downloads in Jobs.</string>
     <string name="t_822c4a99c0">Save downloads to</string>
     <string name="t_7b19e4ea2f">Choose a device or SD card folder</string>
@@ -2899,7 +2933,6 @@
     <string name="t_f694478748">strings-en.xml · new language</string>
     <string name="t_410a6e9228">%s · existing translation</string>
     <string name="t_20716e9262">In use</string>
-    <string name="t_5a7834eab7">Remove %s</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/RequiredUpdate.kt -->
     <string name="t_0d660a2749">Update ManyFile</string>
     <string name="t_9b20bbbfc9">Version %s is no longer supported. Update to %s or newer.</string>
@@ -3008,6 +3041,10 @@
     <string name="t_7dd6e7c306">Index rebuilt: %s files</string>
     <string name="t_9f8e3e94e0">Back goes to parent folder</string>
     <string name="t_dbd57c11c9">When history runs out, go up to parent folders before Home</string>
+    <string name="t_003565ddc3">Remember scroll position</string>
+    <string name="t_2ad06f7850">Folders open where you left them</string>
+    <string name="t_e8f5ac714f">A–Z index</string>
+    <string name="t_b725f44396">Fast scroll by letter when sorted by name</string>
     <string name="t_378e9e163b">Sorting</string>
     <string name="t_2b226c7948">Ascending</string>
     <string name="t_f06da18ce9">Natural number ordering</string>
@@ -3052,6 +3089,8 @@
     <string name="t_20d00e4523">Reset existing-file choice</string>
     <string name="t_f0ca7dfbe8">Built-in document scanner</string>
     <string name="t_6e3c01d092">Off: use Google\'s scanner when available</string>
+    <string name="t_df2198607a">Auto-capture</string>
+    <string name="t_b975c7c5ce">Built-in scanner takes the photo when the page holds still</string>
     <string name="t_b6d421870c">Background jobs</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_90148442f2">Concurrent jobs</string>
@@ -3505,7 +3544,6 @@
     <string name="t_2c269f3f84">Any age</string>
     <string name="t_1de70fe01a">Older than 30 days</string>
     <string name="t_170621ac08">90 days</string>
-    <string name="t_afe36da676">1 year</string>
     <string name="t_21cc0b59ad">%s of %s · %s</string>
     <string name="t_618cfb0a53">Select none</string>
     <string name="t_120c8013ac">Sent and received</string>
@@ -3528,6 +3566,20 @@
     <string name="t_d23a1c9fb3">Diff</string>
     <string name="t_eeaa7a3c5d">Share unified diff</string>
     <string name="t_e96f2bd997">Changes only</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DocumentCamera.kt -->
+    <string name="t_0d2d1a8d4f">Couldn\'t take photo</string>
+    <string name="t_29d8999c52">Camera permission required</string>
+    <string name="t_fd7108f831">Open settings</string>
+    <string name="t_e652d4863b">From gallery</string>
+    <string name="t_e13a070942">Flashlight off</string>
+    <string name="t_8e3d1ef52b">Flashlight on</string>
+    <string name="t_d8f2a93934">Capturing…</string>
+    <string name="t_1f9316f38a">Point the camera at a document</string>
+    <string name="t_d2c519e30c">Hold still</string>
+    <string name="t_b42596948c">Page found</string>
+    <string name="t_7ebd5d4c91">Take photo</string>
+    <string name="t_efe4799012">1 page</string>
+    <string name="t_d925b68f44">%d pages</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatePreviews.kt -->
     <string name="t_218ee5135c">Preview of %s</string>
     <string name="t_0c2765e835">%s identical copies × %s · %s to free</string>
@@ -3854,7 +3906,6 @@
     <string name="t_09db32784a">Shizuku or root access required</string>
     <string name="t_07e9f29adb">Allow installing apps?</string>
     <string name="t_04cac8deee">Turn on “Allow from this source” for ManyFile in Settings.</string>
-    <string name="t_fd7108f831">Open settings</string>
     <string name="t_dd05888bce">Install %s?</string>
     <string name="t_d3254f5b60">Installs directly using Shizuku or root.</string>
     <string name="t_2c1c1c5e68">Use system installer</string>
@@ -4056,14 +4107,9 @@
     <string name="t_38334d5492">Folder to back up</string>
     <string name="t_486b21d82c">Back up this folder</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/QrScanner.kt -->
-    <string name="t_29d8999c52">Camera permission required</string>
-    <string name="t_e13a070942">Flashlight off</string>
-    <string name="t_8e3d1ef52b">Flashlight on</string>
     <string name="t_86864a9db6">Point the camera at a QR code</string>
     <string name="t_983dafb9b0">From a picture</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ScannerScreen.kt -->
-    <string name="t_13856eab64">Finding the page…</string>
-    <string name="t_606f385bb5">No camera app. Add photos from the gallery.</string>
     <string name="t_4d66f0d141">Finding the page… %d of %d</string>
     <string name="t_d61a63f567">Creating PDF… page %d of %d</string>
     <string name="t_56a2285c5b">Saving…</string>
@@ -4074,8 +4120,7 @@
     <string name="t_019728575b">Black &amp; white</string>
     <string name="t_c0a8060f3b">Original</string>
     <string name="t_03d2d33aec">Add page</string>
-    <string name="t_e652d4863b">From gallery</string>
-    <string name="t_5e7414399d">Take a photo of each page or pick photos from the gallery.</string>
+    <string name="t_a9838d3a3c">No pages</string>
     <string name="t_0ca4dfecdf">Page %d</string>
     <string name="t_68d8d78ef2">whole photo</string>
     <string name="t_1b38a668f5">Adjust corners</string>
