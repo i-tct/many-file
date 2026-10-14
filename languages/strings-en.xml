@@ -559,6 +559,23 @@
     <string name="t_3a254ae603">Renaming %s items</string>
     <string name="t_ce7b8f59df">name already taken</string>
     <string name="t_2d6196d4dc">%s renamed</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileSplitter.kt -->
+    <string name="t_7d09ae9e54">Splitting %s into %s parts</string>
+    <string name="t_d2033c7ed8">%s is already there</string>
+    <string name="t_5a4fbb99ad">%s parts of up to %s</string>
+    <string name="t_418069f871">Joining %s parts into %s</string>
+    <string name="t_0ac5333458">%s ended early</string>
+    <string name="t_e4f018d4dc">The joined file came out %s, not %s</string>
+    <string name="t_0ce5059fa8">Couldn\'t delete %s</string>
+    <string name="t_c108d147ef">%s, from %s parts</string>
+    <string name="t_87a1a52529">%s came out short</string>
+    <string name="t_53f52017aa">The file ended early</string>
+    <string name="t_5b2fce9ad5">4 GB — FAT32 USB sticks and cards</string>
+    <string name="t_d3b403ba96">2 GB</string>
+    <string name="t_33015e637f">1 GB</string>
+    <string name="t_5f8e2ed62b">700 MB — a CD</string>
+    <string name="t_3e1a285859">100 MB</string>
+    <string name="t_79c9649052">25 MB — email attachments</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobEngine.kt -->
     <string name="t_a4f4ff12aa">Interrupted by app restart</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
@@ -876,7 +893,6 @@
     <string name="t_572052da7c">%s already exists</string>
     <string name="t_c30434104b">Can\'t delete the shared folder</string>
     <string name="t_148794ccce">Can\'t delete %s. Allow changes on the phone first.</string>
-    <string name="t_0ce5059fa8">Couldn\'t delete %s</string>
     <string name="t_00e800c351">Only within the shared folder</string>
     <string name="t_6b0699ceb8">Can\'t move the shared folder</string>
     <string name="t_b317109dc4">Can\'t move a folder into itself</string>
@@ -1508,6 +1524,18 @@
     <string name="t_a2a5bdeca9">Sort by</string>
     <string name="t_46e63a67d0">Folders first</string>
     <string name="t_a48a09a536">Numbers in order (file2 before file10)</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SplitJoinDialogs.kt -->
+    <string name="t_e0578a99cf">Split %s</string>
+    <string name="t_6476290572">%s, into parts beside it: %s, %s…</string>
+    <string name="t_05f2813b09">1 part: no need to split</string>
+    <string name="t_31fdd79835">%s parts</string>
+    <string name="t_a335f67936">Other size, in MB</string>
+    <string name="t_da66d818a2">They join again here (Join parts on the first), or on a computer with 7-Zip.</string>
+    <string name="t_a931b4bb03">Join parts</string>
+    <string name="t_ee4408873c">Looking for the parts…</string>
+    <string name="t_f7a4047898">Only %s is here: the other parts must be in the same folder.</string>
+    <string name="t_da33038d83">%s parts, %s, into %s</string>
+    <string name="t_0904498c84">Delete the parts once joined</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabContent.kt -->
     <string name="t_3a281c3f99">Close filter</string>
     <string name="t_f870d12c29">From file index (updated %s) · Tap to search live</string>
@@ -1796,6 +1824,8 @@
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
+    <string name="t_785f0eeb5b">Join parts…</string>
+    <string name="t_9a5e61328f">Split…</string>
     <string name="t_d0774b6d28">Remove location…</string>
     <string name="t_32f2d87a94">Compress photo…</string>
     <string name="t_2b23fda9e2">Compress photos…</string>
