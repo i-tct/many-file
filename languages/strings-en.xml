@@ -50,6 +50,8 @@
     <string name="t_00573746f1">Font preview</string>
     <string name="t_050cf53864">Keystore tool</string>
     <string name="t_c106c3f841">Bootable USB writer</string>
+    <string name="t_e48ce4b329">Contacts viewer</string>
+    <string name="t_e02548ea85">Calendar viewer</string>
     <string name="t_7d5e3b2805">Another app</string>
     <string name="t_9b25b155c6">Always open .%s files this way</string>
     <string name="t_d89b7c95de">Default for .%s: %s</string>
@@ -60,6 +62,8 @@
     <string name="t_2619981af2">Preview as web page</string>
     <string name="t_a944dfbffe">Open in Office viewer</string>
     <string name="t_0125bf3520">Read as e-book</string>
+    <string name="t_b0d112bed0">Show contacts</string>
+    <string name="t_50cb854d59">Show events</string>
     <string name="t_19e43594e1">Preview font</string>
     <string name="t_46f3461642">Open as Markdown</string>
     <string name="t_2816ffcf5b">Open as JSON tree</string>
@@ -1034,6 +1038,18 @@
     <string name="t_e3b8204056">Now</string>
     <string name="t_25bb2acb00">%s min ago</string>
     <string name="t_da24830f1f">Yesterday</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/ICalendar.kt -->
+    <string name="t_3b2eb51310">Every day</string>
+    <string name="t_2d5f363408">Every %d days</string>
+    <string name="t_043058e205">Every week</string>
+    <string name="t_5214a17b88">Every %d weeks</string>
+    <string name="t_7f3932f9cb">Every month</string>
+    <string name="t_9beb09a89a">Every %d months</string>
+    <string name="t_cea537cd72">Every year</string>
+    <string name="t_5eba794c92">Every %d years</string>
+    <string name="t_fb4237fdb6">%d times</string>
+    <string name="t_e94dc3022f">until %s</string>
+    <string name="t_9e85782ecb">(No title)</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/MfError.kt -->
     <string name="t_294c91cdd6">Read-only storage</string>
     <string name="t_6cc153f0e5">Network error</string>
@@ -4104,7 +4120,6 @@
     <string name="t_63b19809a3">%s cookies</string>
     <string name="t_ce8d88014b">for one browser session</string>
     <string name="t_d365244b76">signed in until %s</string>
-    <string name="t_e94dc3022f">until %s</string>
     <string name="t_ab57aa31cc">Added %s cookies.</string>
     <string name="t_6b075c9857">Total: %s for 1 site.</string>
     <string name="t_1ebfbfc620">Total: %s for %s sites.</string>
@@ -4389,6 +4404,24 @@
     <string name="t_978a0465ee">Anyone on this Wi-Fi with the address can add, view and download files in this folder. Stops after 30 minutes of inactivity.</string>
     <string name="t_3e1a4c60eb">Open another phone\'s share</string>
     <string name="t_bebb42ebd1">On the other phone, open Share on Wi-Fi, then scan its QR code or enter its address.</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/CardViewers.kt -->
+    <string name="t_3c406e0eaa">1 contact</string>
+    <string name="t_bc5d13e3a1">%s contacts</string>
+    <string name="t_25731db5f7">No contacts app takes contact files</string>
+    <string name="t_d71d16869c">Import all</string>
+    <string name="t_4687a3bb84">No contacts in this file</string>
+    <string name="t_d87c1d8eb6">No contacts app</string>
+    <string name="t_a5f014e90f">No app for this</string>
+    <string name="t_d98f2c581b">birthday</string>
+    <string name="t_84552789ca">Add to contacts</string>
+    <string name="t_d36d0a346a">1 event</string>
+    <string name="t_b8484efe51">%s events</string>
+    <string name="t_25a00f52ed">No events in this file</string>
+    <string name="t_b0ed451d3b">No calendar app</string>
+    <string name="t_acb6273eca">No date</string>
+    <string name="t_bb352a4ffb">all day</string>
+    <string name="t_d47297fa68">organizer</string>
+    <string name="t_4f05cd6409">Add to calendar</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_46b087c1d4">Couldn\'t read document</string>
     <string name="t_af6321ca7a">unknown error</string>
