@@ -1263,9 +1263,12 @@
     <string name="t_2c9c1f7914">Unavailable</string>
     <string name="t_d219c68101">Location</string>
     <string name="t_19a532c8bc">Modified</string>
+    <string name="t_64fbd995d3">Change</string>
+    <string name="t_25f9a0b450">This storage doesn\'t let the date be changed</string>
     <string name="t_accf40c89b">Created</string>
     <string name="t_44d25b5d1b">Items</string>
     <string name="t_d06d555709">Permissions</string>
+    <string name="t_89ff31225c">Owner</string>
     <string name="t_8c6307bfb3">MIME type</string>
     <string name="t_f2fb7f8f9e">target missing</string>
     <string name="t_fb360f9c09">yes</string>
@@ -1286,6 +1289,8 @@
     <string name="t_4c1d09172c">No clipboard history</string>
     <string name="t_53b5158bc7">Clear history</string>
     <string name="t_4de8af8bca">from %s</string>
+    <string name="t_bc981983e7">Next</string>
+    <string name="t_6c82e6dd86">Time</string>
     <string name="t_b1b0ec6184">File already exists</string>
     <string name="t_bc5b55e360">“%s” already exists in the destination.</string>
     <string name="t_0625c54e03">Overwrite</string>
@@ -1331,7 +1336,8 @@
     <string name="t_c0ae8f6ea8">Saved</string>
     <string name="t_149fd082ea">Remove saved search</string>
     <string name="t_f0b938614d">Verify checksum</string>
-    <string name="t_42993dd322">Expected checksum (MD5, SHA-1, SHA-256)</string>
+    <string name="t_77426fe8ca">Expected checksum (MD5, SHA-1, SHA-256, BLAKE3)</string>
+    <string name="t_3155cd5ff2">Detected SHA-256 or BLAKE3</string>
     <string name="t_c5b82fa26f">Detected %s</string>
     <string name="t_4690feb0bd">Unrecognised length (%s characters)</string>
     <string name="t_e82855e199">Match (%s)</string>
@@ -1641,7 +1647,6 @@
     <string name="t_f398506b98">Decoy password changed</string>
     <string name="t_e09e9f9a77">Decoy password set</string>
     <string name="t_e15e726f46">Couldn\'t set decoy password</string>
-    <string name="t_64fbd995d3">Change</string>
     <string name="t_448ab73ba1">Set</string>
     <string name="t_e2b27005dd">Change decoy password</string>
     <string name="t_288b019eeb">Set decoy password…</string>
@@ -2323,7 +2328,6 @@
     <string name="t_785728cf25">Shuffle on</string>
     <string name="t_e59f975e2b">Shuffle off</string>
     <string name="t_50f94286ba">Previous</string>
-    <string name="t_bc981983e7">Next</string>
     <string name="t_05f3dda51b">Repeat one</string>
     <string name="t_7cce343d09">Repeat all</string>
     <string name="t_c4d7b82af5">Repeat off</string>
