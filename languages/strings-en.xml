@@ -633,6 +633,13 @@
     <string name="t_0680b67c5c">Nothing saved</string>
     <string name="t_31582d9470">Saved as %s: %s (was %s)</string>
     <string name="t_13fd6d710f">Compressed %s photos: %s (were %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoMetadata.kt -->
+    <string name="t_5fa60e3579">Removing details from %s</string>
+    <string name="t_a46363271a">Removing details from %s photos</string>
+    <string name="t_219cbcfd4b">1 photo cleaned</string>
+    <string name="t_cd648763c7">%s photos cleaned</string>
+    <string name="t_b6ffc9919a">%s had nothing to remove</string>
+    <string name="t_e6f37f3821">%s (no location)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoText.kt -->
     <string name="t_8fa27fc2f5">Scanning photos for text</string>
     <string name="t_efc60b9710">All %d photos already scanned</string>
@@ -1455,6 +1462,22 @@
     <string name="t_09358851f8">Allow “All files access” to browse and manage files in shared storage.</string>
     <string name="t_7b6636c4cd">Allow storage access to browse and manage files.</string>
     <string name="t_6c7847a0cd">Grant access</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PhotoDetailsDialog.kt -->
+    <string name="t_7a666cd83b">Remove details from %s</string>
+    <string name="t_bb20365d31">Remove details from %s photos</string>
+    <string name="t_f02ab52768">Looking at the photos…</string>
+    <string name="t_3632017b1e">This photo doesn\'t say where it was taken.</string>
+    <string name="t_b23a8cf726">None of these photos says where it was taken.</string>
+    <string name="t_475db89f1c">This photo says where it was taken.</string>
+    <string name="t_0b6cffbcac">All of them say where they were taken.</string>
+    <string name="t_145705af59">%s of them say where they were taken.</string>
+    <string name="t_2fb8438f32">The location</string>
+    <string name="t_7d9ee48882">Where it was taken</string>
+    <string name="t_683653d899">Location, camera and dates</string>
+    <string name="t_488721ce62">Also the camera and its serial numbers, when it was taken, names and comments</string>
+    <string name="t_81e33bdc7b">The pictures themselves stay as they are.</string>
+    <string name="t_6d009d3bfb">Make copies</string>
+    <string name="t_149ce52174">Remove from photos</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/QuickLook.kt -->
     <string name="t_3a5aa5b9e5">No preview available</string>
     <string name="t_768e0c1c69">Title</string>
@@ -1773,6 +1796,7 @@
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
+    <string name="t_d0774b6d28">Remove location…</string>
     <string name="t_32f2d87a94">Compress photo…</string>
     <string name="t_2b23fda9e2">Compress photos…</string>
     <string name="t_7f95614495">Create PDF…</string>
