@@ -2756,6 +2756,8 @@
     <string name="t_5d5026ab07">Use the ← button to leave</string>
     <string name="t_3853a9cd4c">Vibrate on bell</string>
     <string name="t_7d1821b09b">When a program rings the bell</string>
+    <string name="t_ddcedbec56">zsh on this phone</string>
+    <string name="t_afa5359300">Folders by name in any case, Tab in any case. Off: Android\'s sh. New tabs</string>
     <string name="t_46261b2ec8">Scrollback lines</string>
     <string name="t_9175fb95f0">More lines use more memory.</string>
     <string name="t_7a23215f48">Terminal appearance</string>
