@@ -74,6 +74,8 @@
     <string name="t_b03dba5fa6">Make a bootable USB drive</string>
     <string name="t_aa2a3de913">Open with…</string>
     <string name="t_09ca55ca52">Share</string>
+    <!-- app/src/main/kotlin/tct/manyfile/ItemShortcuts.kt -->
+    <string name="t_5641cb4250">Home screen doesn\'t support shortcuts</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
     <string name="t_8eeb0763f6">OneDrive sign-in failed: %s</string>
     <string name="t_6dd336f903">Google Drive sign-in failed: %s</string>
@@ -85,7 +87,6 @@
     <string name="t_3670e23332">Couldn\'t download %s: %s</string>
     <string name="t_49b2cdc976">Couldn\'t download Media Engine. Try again in Media Downloader.</string>
     <string name="t_58bbba5a19">“%s” is empty</string>
-    <string name="t_5641cb4250">Home screen doesn\'t support shortcuts</string>
     <string name="t_20db5d20c5">Saved “%s” (%d pages)</string>
     <string name="t_3cb76d3aa2">Couldn\'t save scan: %s</string>
     <string name="t_f0654249e2">Google scanner unavailable (%s). Using built-in scanner.</string>
@@ -1750,6 +1751,7 @@
     <string name="t_a1e34f9157">More actions</string>
     <string name="t_fd6c3ebf7b">Install</string>
     <string name="t_71bf47a728">Open in new tab</string>
+    <string name="t_85773bc941">Add to home screen</string>
     <string name="t_48ad074759">Batch rename…</string>
     <string name="t_4c24e5aa26">Copy to…</string>
     <string name="t_c0a3ef619a">Move to…</string>
@@ -2703,7 +2705,6 @@
     <string name="t_14258cccdd">Appearance…</string>
     <string name="t_d15f886d60">Full screen</string>
     <string name="t_524932e050">Browse files</string>
-    <string name="t_85773bc941">Add to home screen</string>
     <string name="t_1aef818bf2">SFTP session</string>
     <string name="t_5aea4b6977">SFTP to a server…</string>
     <string name="t_18009cdcce">Connection log</string>
