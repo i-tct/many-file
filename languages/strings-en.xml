@@ -519,6 +519,18 @@
     <string name="t_78c16a2291">Not a strings.xml translation file</string>
     <string name="t_0f5aebf672">No texts found</string>
     <string name="t_e91bc6b00e">From a file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/ChecksumFiles.kt -->
+    <string name="t_f2560616dc">%s of %s items into %s</string>
+    <string name="t_d2033c7ed8">%s is already there</string>
+    <string name="t_9ef2ca5ab2">1 file</string>
+    <string name="t_edcf4ef824">Checking %s</string>
+    <string name="t_3833c96eb4">No checksums in %s</string>
+    <string name="t_fda88c74e9">Unknown checksum: %s characters</string>
+    <string name="t_dacddc791b">Different: %s</string>
+    <string name="t_0fc087b4bf">Missing: %s</string>
+    <string name="t_0a41d868bb">%s of %s match (%s)</string>
+    <string name="t_2a0fb4bffc">%s different</string>
+    <string name="t_83fd364e21">%s missing</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileOperations.kt -->
     <string name="t_0ac5c96569">no real path</string>
     <string name="t_467bb7cc4a">Moving %s to %s</string>
@@ -526,7 +538,6 @@
     <string name="t_70426c41a6">%s already moved</string>
     <string name="t_d8603a8209">Skipped %s: same location</string>
     <string name="t_6827bf2c1b">Failed %s: %s</string>
-    <string name="t_9ef2ca5ab2">1 file</string>
     <string name="t_ec734b6515">verified</string>
     <string name="t_75d6f9a0fd">%s: already moved</string>
     <string name="t_879f72daa3">Skipped %s: %s</string>
@@ -565,7 +576,6 @@
     <string name="t_2d6196d4dc">%s renamed</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileSplitter.kt -->
     <string name="t_7d09ae9e54">Splitting %s into %s parts</string>
-    <string name="t_d2033c7ed8">%s is already there</string>
     <string name="t_5a4fbb99ad">%s parts of up to %s</string>
     <string name="t_418069f871">Joining %s parts into %s</string>
     <string name="t_0ac5333458">%s ended early</string>
@@ -1185,6 +1195,7 @@
     <string name="t_a24ae22283">Name copied</string>
     <string name="t_920334b5d4">URI copied</string>
     <string name="t_880683499a">Calculating %s…</string>
+    <string name="t_d819181b82">Checking the files %s names…</string>
     <string name="t_2366b12e68">Calculating size…</string>
     <string name="t_9ca6c2899f">No duplicates found</string>
     <string name="t_f6a0a91bcb">1 duplicate selected</string>
@@ -1378,6 +1389,15 @@
     <string name="t_4e56d26a38">%s vs %s</string>
     <string name="t_688d953b66">Couldn\'t compare: %s</string>
     <string name="t_4fc41449a7">Compare contents</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/ChecksumFileDialog.kt -->
+    <string name="t_70602eae48">Make checksum file</string>
+    <string name="t_d53e37e540">For %s</string>
+    <string name="t_bf5fa508d7">For %s items (folders: every file in them)</string>
+    <string name="t_3015890731">the usual</string>
+    <string name="t_daf6b585b3">faster</string>
+    <string name="t_450c50fe90">old tools</string>
+    <string name="t_09979a78c9">File name</string>
+    <string name="t_a94431ee22">Make</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
     <string name="t_3920b53601">Creates an encrypted .mfenc copy of each file (AES-256).</string>
@@ -1845,6 +1865,8 @@
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
+    <string name="t_18b7b81480">Verify checksums</string>
+    <string name="t_7d2eb54f45">Make checksum file…</string>
     <string name="t_785f0eeb5b">Join parts…</string>
     <string name="t_9a5e61328f">Split…</string>
     <string name="t_d0774b6d28">Remove location…</string>
@@ -2261,7 +2283,6 @@
     <string name="t_03592260b9">Paste link</string>
     <string name="t_0b66ef770d">Media page detected. Use Media Downloader.</string>
     <string name="t_d691f4fac6">Open in Media Downloader</string>
-    <string name="t_09979a78c9">File name</string>
     <string name="t_ac9041e768">Automatic</string>
     <string name="t_8f3509b64e">Connections</string>
     <string name="t_c614ba7c45">Auto</string>
