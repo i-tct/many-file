@@ -2411,6 +2411,10 @@
     <string name="t_64fd779c46">File operations</string>
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
+    <string name="t_aec7f7a0ab">No lyrics found online for this song</string>
+    <string name="t_e45f125f1d">Lyrics found, but they couldn\'t be saved</string>
+    <string name="t_f5a89cc22b">Lyrics saved next to the song as %s</string>
+    <string name="t_9fe734a961">Lyrics saved</string>
     <string name="t_a749eeb4da">Moved %s to the Bin</string>
     <string name="t_940985f975">Delete song?</string>
     <string name="t_a40f5b84f3">Close player</string>
@@ -2439,6 +2443,8 @@
     <string name="t_55005478d5">Player style: %s</string>
     <string name="t_135da9c677">No lyrics</string>
     <string name="t_06130c572f">This song has no lyrics in its tags. Add a .lrc or .txt file with the same name next to it, or in a Lyrics folder.</string>
+    <string name="t_df65659012">Search online</string>
+    <string name="t_4a3962c2e0">From LRCLIB, a free lyrics database. The song\'s name and artist are sent to lrclib.net.</string>
     <string name="t_cb39e4278e">%s songs in the queue</string>
     <string name="t_3d2dc52da7">Remove from queue</string>
     <string name="t_298c390561">Playing</string>
@@ -3484,6 +3490,8 @@
     <string name="t_bb64742f27">Restore the last song after a restart</string>
     <string name="t_3d4da20a52">Skip silence</string>
     <string name="t_7489d3e127">Skip quiet parts</string>
+    <string name="t_af9c92bd97">Equal loudness</string>
+    <string name="t_a031c24283">Loud songs play as loud as the others (ReplayGain tags, or measured once)</string>
     <string name="t_54de176fb8">Resume playback</string>
     <string name="t_cabd2ff051">Videos and audio longer than 10 minutes</string>
     <string name="t_7ec8a0b5cc">Resume after a call</string>
