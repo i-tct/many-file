@@ -616,6 +616,13 @@
     <string name="t_3f8d275ef2">Saved %s audio files</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
     <string name="t_445c57385f">Too many files named %s in %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaCategories.kt -->
+    <string name="t_4da9c9af96">Camera</string>
+    <string name="t_597b6356e6">Screenshots</string>
+    <string name="t_ccc4537f0e">Screen recordings</string>
+    <string name="t_a862c2b21b">Downloads</string>
+    <string name="t_c3b414887e">Bluetooth</string>
+    <string name="t_6e6a6f2086">Other</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaDownloads.kt -->
     <string name="t_28a6bf8c5a">Not a folder: %s</string>
     <string name="t_447a8c5fc9">Format %s → %s</string>
@@ -1049,7 +1056,6 @@
     <string name="t_61074f1c95">Database</string>
     <string name="t_b97c4d4cdd">Font</string>
     <string name="t_45c711bd26">E-book</string>
-    <string name="t_6e6a6f2086">Other</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Formatters.kt -->
     <string name="t_e3b8204056">Now</string>
     <string name="t_25bb2acb00">%s min ago</string>
@@ -1115,6 +1121,10 @@
     <string name="t_46a14fdb0a">Sepia</string>
     <string name="t_ae1ef01432">Dark</string>
     <string name="t_b406fb57b2">Black</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Sorting.kt -->
+    <string name="t_c97d4c3ded">Headings</string>
+    <string name="t_19adc47be3">Folders</string>
+    <string name="t_e3de5ab0ca">Off</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
@@ -1395,7 +1405,6 @@
     <string name="t_4fca1a542c">At most … MB</string>
     <string name="t_6a72085653">All</string>
     <string name="t_6ce6c512ea">Files</string>
-    <string name="t_19adc47be3">Folders</string>
     <string name="t_3cb7ea0f12">New file</string>
     <string name="t_e87b92956e">Will be created as %s</string>
     <string name="t_d68de7d227">(executable)</string>
@@ -1429,6 +1438,8 @@
     <string name="t_c84caa3705">Scroll to bottom</string>
     <string name="t_f077108ed1">Scroll to top</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileList.kt -->
+    <string name="t_9869e506c3">Expand</string>
+    <string name="t_9cf188d3a6">Collapse</string>
     <string name="t_32eb460f07">Folder %s</string>
     <string name="t_3f17ea2f82">File %s</string>
     <string name="t_835f3b50e3">selected</string>
@@ -1438,8 +1449,6 @@
     <string name="t_b9c57a36b1">9999+ items</string>
     <string name="t_19884f402f">1 item</string>
     <string name="t_7ee737c83e">dir</string>
-    <string name="t_9cf188d3a6">Collapse</string>
-    <string name="t_9869e506c3">Expand</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileTemplates.kt -->
     <string name="t_06b230452d">Empty file</string>
     <string name="t_5cb9bd07aa">Shell script</string>
@@ -1562,7 +1571,6 @@
     <string name="t_773f1699cf">empty (0 bytes)</string>
     <string name="t_5fe04f57e3">Not downloaded</string>
     <string name="t_9f4ca9ec08">Dimensions</string>
-    <string name="t_4da9c9af96">Camera</string>
     <string name="t_c66c12b988">Taken</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SaveSharedScreen.kt -->
     <string name="t_c2e4747903">Save to ManyFile</string>
@@ -2135,7 +2143,6 @@
     <string name="t_42f1039593">Email and password</string>
     <string name="t_bd3424e9fc">Add cloud drive</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
-    <string name="t_a862c2b21b">Downloads</string>
     <string name="t_935edbe91f">Pictures</string>
     <string name="t_131260cbfb">Music</string>
     <string name="t_351088b734">Root (/)</string>
@@ -2155,7 +2162,6 @@
     <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
-    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_222d511a70">Add cloud drive…</string>
     <string name="t_d9a36850b7">Apps</string>
     <string name="t_45e5f3f72e">Commands</string>
@@ -3191,6 +3197,7 @@
     <string name="t_91de17efe9">%s · icon and text size</string>
     <string name="t_37f9c1a6a5">Show hidden files</string>
     <string name="t_6fdbcce4e4">Names starting with a dot</string>
+    <string name="t_f0a871d5d8">Images and videos by source</string>
     <string name="t_12e853a079">Item details</string>
     <string name="t_89368e1d68">size</string>
     <string name="t_e927d0677c">date</string>
