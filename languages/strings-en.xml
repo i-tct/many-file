@@ -723,6 +723,9 @@
     <string name="t_7d08231178">1 photo scanned, %d with text</string>
     <string name="t_e7a1bb92d1">%d photos scanned, %d with text</string>
     <string name="t_87696d60b3">%d couldn\'t be read</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/Playlists.kt -->
+    <string name="t_4fbbca0c45">A playlist named %s already exists</string>
+    <string name="t_177ca349c8">Couldn\'t rename the playlist</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/SongCuts.kt -->
     <string name="t_668b110b4a">Cutting .%s files is not supported</string>
     <string name="t_5676961e30">Start must be before end</string>
@@ -2413,6 +2416,9 @@
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
     <string name="t_7bd8285ab4">Song details</string>
+    <string name="t_624f82c132">Remove from favourites</string>
+    <string name="t_6b2ac06d56">Add to favourites</string>
+    <string name="t_49b84bef78">Add to playlist…</string>
     <string name="t_42c9942ef3">Stop and clear queue</string>
     <string name="t_e53407cfe1">Player</string>
     <string name="t_8670cb1f9e">Lyrics</string>
@@ -2521,6 +2527,33 @@
     <string name="t_5751d51aff">Same (%s)</string>
     <string name="t_9f01510c90">The sound is copied exactly, without re-encoding.</string>
     <string name="t_11004627fa">The sound is re-encoded for this. The song itself stays unchanged.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
+    <string name="t_e1404b4267">Songs</string>
+    <string name="t_4c45e72e85">Albums</string>
+    <string name="t_1528d87e63">Artists</string>
+    <string name="t_96817ade02">Genres</string>
+    <string name="t_77b69f32c8">Playlists</string>
+    <string name="t_d362922b87">Plays next</string>
+    <string name="t_53cf48115c">Added to the queue</string>
+    <string name="t_621f8ce617">No artists in the music library</string>
+    <string name="t_755173302f">No genres in the music library</string>
+    <string name="t_e6ccc0fdea">Favourites</string>
+    <string name="t_71592f121a">Recently played</string>
+    <string name="t_14202e85ea">Most played</string>
+    <string name="t_5369634238">Recently added</string>
+    <string name="t_773b444b83">New playlist…</string>
+    <string name="t_a5474a872e">New playlist</string>
+    <string name="t_29e84521a4">Playlist %s made</string>
+    <string name="t_279af0e5ff">Rename playlist</string>
+    <string name="t_5b772b7bfd">Shuffle</string>
+    <string name="t_b55b186d3a">Delete playlist</string>
+    <string name="t_a78c55cecb">No songs here yet.</string>
+    <string name="t_de37f3743c">Options for %s</string>
+    <string name="t_ad3e5d8c1c">Remove from playlist</string>
+    <string name="t_304d2f9291">Added to %s</string>
+    <string name="t_3e241e3cc6">Add to playlist</string>
+    <string name="t_093990c14f">1 song</string>
+    <string name="t_b96fb0e5ee">%d songs</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/NowPlayingBar.kt -->
     <string name="t_8cf92e03af">Playback error: %s</string>
     <string name="t_7dd843728a">Stop and close</string>
@@ -3723,7 +3756,6 @@
     <string name="t_66cbc149e3">Backup saved</string>
     <string name="t_a7a59840fd">Custom order</string>
     <string name="t_3884cc43c4">Most used</string>
-    <string name="t_5369634238">Recently added</string>
     <string name="t_0a116345ca">Export…</string>
     <string name="t_f34b92a491">No accounts</string>
     <string name="t_7048ec48bb">%s added</string>
@@ -3738,8 +3770,6 @@
     <string name="t_85bcc07393">Turn off two-step verification for %s first, or you may lose access.</string>
     <string name="t_9704b6631f">Favourite</string>
     <string name="t_98840ab391">Next code</string>
-    <string name="t_624f82c132">Remove from favourites</string>
-    <string name="t_6b2ac06d56">Add to favourites</string>
     <string name="t_2df2dd29d7">Show QR code</string>
     <string name="t_10188296e2">Edit account</string>
     <string name="t_2587e48b81">Issuer</string>
@@ -3940,7 +3970,6 @@
     <string name="t_a26d2068b6">Push all tags</string>
     <string name="t_3c9af8bba1">No tags. A tag names a commit, such as a release (v1.0).</string>
     <string name="t_e0f6589ebc">(no message)</string>
-    <string name="t_de37f3743c">Options for %s</string>
     <string name="t_ca41b2f681">Push to server</string>
     <string name="t_466727fe48">Delete on server…</string>
     <string name="t_d58aac169a">Delete tag %s?</string>
