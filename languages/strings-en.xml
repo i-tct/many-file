@@ -520,16 +520,16 @@
     <string name="t_0f5aebf672">No texts found</string>
     <string name="t_e91bc6b00e">From a file</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/ChecksumFiles.kt -->
-    <string name="t_f2560616dc">%s of %s items into %s</string>
-    <string name="t_d2033c7ed8">%s is already there</string>
+    <string name="t_4f3a1c240f">Creating %s checksums for %s items in %s</string>
+    <string name="t_572052da7c">%s already exists</string>
     <string name="t_9ef2ca5ab2">1 file</string>
-    <string name="t_edcf4ef824">Checking %s</string>
-    <string name="t_3833c96eb4">No checksums in %s</string>
-    <string name="t_fda88c74e9">Unknown checksum: %s characters</string>
-    <string name="t_dacddc791b">Different: %s</string>
+    <string name="t_46f9d8891a">Verifying %s</string>
+    <string name="t_445fe6a999">No checksums found in %s</string>
+    <string name="t_3d9f8f0c43">Unsupported checksum length (%s characters)</string>
+    <string name="t_cd005dfb05">Mismatch: %s</string>
     <string name="t_0fc087b4bf">Missing: %s</string>
-    <string name="t_0a41d868bb">%s of %s match (%s)</string>
-    <string name="t_2a0fb4bffc">%s different</string>
+    <string name="t_f8319d2916">%s of %s verified (%s)</string>
+    <string name="t_ff2840500a">%s mismatched</string>
     <string name="t_83fd364e21">%s missing</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileOperations.kt -->
     <string name="t_0ac5c96569">no real path</string>
@@ -576,20 +576,19 @@
     <string name="t_2d6196d4dc">%s renamed</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/FileSplitter.kt -->
     <string name="t_7d09ae9e54">Splitting %s into %s parts</string>
-    <string name="t_5a4fbb99ad">%s parts of up to %s</string>
+    <string name="t_fcc6e73c04">%s parts, up to %s each</string>
     <string name="t_418069f871">Joining %s parts into %s</string>
-    <string name="t_0ac5333458">%s ended early</string>
-    <string name="t_e4f018d4dc">The joined file came out %s, not %s</string>
+    <string name="t_425ba9b551">%s is incomplete</string>
+    <string name="t_4a308706c8">Joined file is %s, expected %s</string>
     <string name="t_0ce5059fa8">Couldn\'t delete %s</string>
     <string name="t_c108d147ef">%s, from %s parts</string>
-    <string name="t_87a1a52529">%s came out short</string>
-    <string name="t_53f52017aa">The file ended early</string>
-    <string name="t_5b2fce9ad5">4 GB — FAT32 USB sticks and cards</string>
+    <string name="t_5d07b5e339">Unexpected end of file</string>
+    <string name="t_2ef4a47e26">4 GB (FAT32 limit)</string>
     <string name="t_d3b403ba96">2 GB</string>
     <string name="t_33015e637f">1 GB</string>
-    <string name="t_5f8e2ed62b">700 MB — a CD</string>
+    <string name="t_0396b66809">700 MB (CD)</string>
     <string name="t_3e1a285859">100 MB</string>
-    <string name="t_79c9649052">25 MB — email attachments</string>
+    <string name="t_41991e7465">25 MB (email attachment)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobEngine.kt -->
     <string name="t_a4f4ff12aa">Interrupted by app restart</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
@@ -600,7 +599,6 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/StreamTransfer.kt -->
     <string name="t_b92df9afae">destination is read-only</string>
     <string name="t_0d6830202e">destination exists and is a file</string>
-    <string name="t_46f9d8891a">Verifying %s</string>
     <string name="t_3fa27241e9">Verification failed: copy doesn\'t match source</string>
     <string name="t_bb2167a62b">Verified %s</string>
     <string name="t_2b6bca5920">Source truncated (%s of %s bytes)</string>
@@ -668,17 +666,17 @@
     <string name="t_b339ebc2c5">Converting %s to %s</string>
     <string name="t_ba0b2aa08e">Converting %s photos to %s</string>
     <string name="t_2f2b7bcf20">%s is too large to convert</string>
-    <string name="t_58c39be623">1 was already %s</string>
-    <string name="t_0ff1fdd812">%s were already %s</string>
+    <string name="t_59d1a7fa7e">1 already in %s</string>
+    <string name="t_87a601d0a2">%s already in %s</string>
     <string name="t_78f02ffc0c">Nothing to convert</string>
     <string name="t_c1161b18d1">Converted %s photos to %s</string>
     <string name="t_749fb3e0ad">Couldn\'t save as %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoMetadata.kt -->
-    <string name="t_5fa60e3579">Removing details from %s</string>
-    <string name="t_a46363271a">Removing details from %s photos</string>
-    <string name="t_219cbcfd4b">1 photo cleaned</string>
-    <string name="t_cd648763c7">%s photos cleaned</string>
-    <string name="t_b6ffc9919a">%s had nothing to remove</string>
+    <string name="t_64f7db7189">Removing metadata from %s</string>
+    <string name="t_d3c5c6a883">Removing metadata from %s photos</string>
+    <string name="t_e6b2436aa0">Metadata removed from 1 photo</string>
+    <string name="t_5808c653ad">Metadata removed from %s photos</string>
+    <string name="t_161635d0f0">%s had no metadata to remove</string>
     <string name="t_e6f37f3821">%s (no location)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoText.kt -->
     <string name="t_8fa27fc2f5">Scanning photos for text</string>
@@ -913,7 +911,6 @@
     <string name="t_14dcd259fc">%s is already being uploaded</string>
     <string name="t_3164994704">%s already exists. Rename it or allow changes on the phone.</string>
     <string name="t_e375504586">Not enough space on the phone for %s</string>
-    <string name="t_572052da7c">%s already exists</string>
     <string name="t_c30434104b">Can\'t delete the shared folder</string>
     <string name="t_148794ccce">Can\'t delete %s. Allow changes on the phone first.</string>
     <string name="t_00e800c351">Only within the shared folder</string>
@@ -1198,13 +1195,13 @@
     <string name="t_f68327afdc">Deleting 1 item</string>
     <string name="t_48a9e1ac31">Deleting %d items</string>
     <string name="t_f4b3992a08">Emptying Bin</string>
-    <string name="t_48d097be32">Couldn\'t zip %s: %s</string>
+    <string name="t_5f5d4a0659">Couldn\'t compress %s: %s</string>
     <string name="t_87279c5666">No app can open this file</string>
     <string name="t_12ec0d2e47">Path copied</string>
     <string name="t_a24ae22283">Name copied</string>
     <string name="t_920334b5d4">URI copied</string>
     <string name="t_880683499a">Calculating %s…</string>
-    <string name="t_d819181b82">Checking the files %s names…</string>
+    <string name="t_866dc94bf3">Verifying files listed in %s…</string>
     <string name="t_2366b12e68">Calculating size…</string>
     <string name="t_9ca6c2899f">No duplicates found</string>
     <string name="t_f6a0a91bcb">1 duplicate selected</string>
@@ -1284,7 +1281,7 @@
     <string name="t_d219c68101">Location</string>
     <string name="t_19a532c8bc">Modified</string>
     <string name="t_64fbd995d3">Change</string>
-    <string name="t_25f9a0b450">This storage doesn\'t let the date be changed</string>
+    <string name="t_77ebf5a4db">This storage doesn\'t support changing the date</string>
     <string name="t_accf40c89b">Created</string>
     <string name="t_44d25b5d1b">Items</string>
     <string name="t_d06d555709">Permissions</string>
@@ -1366,17 +1363,16 @@
     <string name="t_dda6ac27b9">Verify</string>
     <string name="t_229a3e5447">Convert %s</string>
     <string name="t_74f880d103">Convert %s photos</string>
-    <string name="t_4972afc6cc">Opens everywhere; see-through parts become white</string>
-    <string name="t_49e418ca4f">No loss, keeps see-through parts; bigger</string>
-    <string name="t_06725f8f0d">Small, keeps see-through parts</string>
-    <string name="t_e9bc90edb1">already</string>
-    <string name="t_2b1dbe89fa">Beside each photo, upright, with the date it was taken; not its location.</string>
+    <string name="t_2e8f03ecdc">Widely supported. Transparent areas become white.</string>
+    <string name="t_a56f011deb">Lossless, supports transparency. Larger files.</string>
+    <string name="t_78f1c247d0">Smaller files, supports transparency.</string>
+    <string name="t_b4be01123b">current format</string>
+    <string name="t_a8e973a4fb">Saved next to the originals. The date taken is kept; location data is removed.</string>
     <string name="t_284003b30a">%s account</string>
     <string name="t_bbf5cf0fd7">%s used of %s</string>
     <string name="t_aed4fa91a4">Sign out of %s? Your files stay on %s.</string>
     <string name="t_dc1649a16c">Sign out</string>
     <string name="t_f2d81d7642">Sign out…</string>
-    <string name="t_e7b7a8e3db">Zipping %s</string>
     <string name="t_8e5a990e3a">Item %d of %d</string>
     <string name="t_f56903f4c3">File %d of %d</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserExtras.kt -->
@@ -1408,14 +1404,12 @@
     <string name="t_688d953b66">Couldn\'t compare: %s</string>
     <string name="t_4fc41449a7">Compare contents</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/ChecksumFileDialog.kt -->
-    <string name="t_70602eae48">Make checksum file</string>
-    <string name="t_d53e37e540">For %s</string>
-    <string name="t_bf5fa508d7">For %s items (folders: every file in them)</string>
-    <string name="t_3015890731">the usual</string>
+    <string name="t_a8cbcdd753">Create checksum file</string>
+    <string name="t_4579a13bc6">%s items, including folder contents</string>
+    <string name="t_13941e1954">recommended</string>
     <string name="t_daf6b585b3">faster</string>
-    <string name="t_450c50fe90">old tools</string>
+    <string name="t_9b33046ed3">legacy</string>
     <string name="t_09979a78c9">File name</string>
-    <string name="t_a94431ee22">Make</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
     <string name="t_3920b53601">Creates an encrypted .mfenc copy of each file (AES-256).</string>
@@ -1539,21 +1533,21 @@
     <string name="t_7b6636c4cd">Allow storage access to browse and manage files.</string>
     <string name="t_6c7847a0cd">Grant access</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PhotoDetailsDialog.kt -->
-    <string name="t_7a666cd83b">Remove details from %s</string>
-    <string name="t_bb20365d31">Remove details from %s photos</string>
-    <string name="t_f02ab52768">Looking at the photos…</string>
-    <string name="t_3632017b1e">This photo doesn\'t say where it was taken.</string>
-    <string name="t_b23a8cf726">None of these photos says where it was taken.</string>
-    <string name="t_475db89f1c">This photo says where it was taken.</string>
-    <string name="t_0b6cffbcac">All of them say where they were taken.</string>
-    <string name="t_145705af59">%s of them say where they were taken.</string>
-    <string name="t_2fb8438f32">The location</string>
-    <string name="t_7d9ee48882">Where it was taken</string>
-    <string name="t_683653d899">Location, camera and dates</string>
-    <string name="t_488721ce62">Also the camera and its serial numbers, when it was taken, names and comments</string>
-    <string name="t_81e33bdc7b">The pictures themselves stay as they are.</string>
-    <string name="t_6d009d3bfb">Make copies</string>
-    <string name="t_149ce52174">Remove from photos</string>
+    <string name="t_76c0a2f5e2">Remove metadata from %s</string>
+    <string name="t_c0126d4c9b">Remove metadata from %s photos</string>
+    <string name="t_6cda3eaca0">Reading photos…</string>
+    <string name="t_0da5733127">This photo has no location data.</string>
+    <string name="t_e0e37bce98">None of these photos have location data.</string>
+    <string name="t_bde745b343">This photo contains location data.</string>
+    <string name="t_6efb253e28">All of these photos contain location data.</string>
+    <string name="t_4eb0ec1626">%s of these photos contain location data.</string>
+    <string name="t_1241314967">Location only</string>
+    <string name="t_856818188e">GPS coordinates</string>
+    <string name="t_6c53bcf020">All metadata</string>
+    <string name="t_8ef7aad8c4">Location, camera model, serial numbers, dates, author and comments</string>
+    <string name="t_b67702e636">Image quality is not affected.</string>
+    <string name="t_6dc9d3704b">Save copies</string>
+    <string name="t_e2a42c7e21">Update originals</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/QuickLook.kt -->
     <string name="t_3a5aa5b9e5">No preview available</string>
     <string name="t_768e0c1c69">Title</string>
@@ -1586,16 +1580,16 @@
     <string name="t_a48a09a536">Numbers in order (file2 before file10)</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SplitJoinDialogs.kt -->
     <string name="t_e0578a99cf">Split %s</string>
-    <string name="t_6476290572">%s, into parts beside it: %s, %s…</string>
-    <string name="t_05f2813b09">1 part: no need to split</string>
+    <string name="t_8f14594023">%s. Parts are saved in the same folder: %s, %s…</string>
+    <string name="t_20bcdc6742">Smaller than the part size</string>
     <string name="t_31fdd79835">%s parts</string>
-    <string name="t_a335f67936">Other size, in MB</string>
-    <string name="t_da66d818a2">They join again here (Join parts on the first), or on a computer with 7-Zip.</string>
+    <string name="t_153bdcb107">Custom size (MB)</string>
+    <string name="t_7743bf197f">To restore the file, use Join parts on the first part, or 7-Zip on a computer.</string>
     <string name="t_a931b4bb03">Join parts</string>
-    <string name="t_ee4408873c">Looking for the parts…</string>
-    <string name="t_f7a4047898">Only %s is here: the other parts must be in the same folder.</string>
+    <string name="t_23ced9c60b">Finding parts…</string>
+    <string name="t_c66ff87faf">Only %s was found. All parts must be in the same folder.</string>
     <string name="t_da33038d83">%s parts, %s, into %s</string>
-    <string name="t_0904498c84">Delete the parts once joined</string>
+    <string name="t_679e76874b">Delete parts after joining</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabContent.kt -->
     <string name="t_3a281c3f99">Close filter</string>
     <string name="t_f870d12c29">From file index (updated %s) · Tap to search live</string>
@@ -1884,7 +1878,7 @@
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
     <string name="t_18b7b81480">Verify checksums</string>
-    <string name="t_7d2eb54f45">Make checksum file…</string>
+    <string name="t_aa952bf854">Create checksum file…</string>
     <string name="t_785f0eeb5b">Join parts…</string>
     <string name="t_9a5e61328f">Split…</string>
     <string name="t_d0774b6d28">Remove location…</string>
@@ -2528,7 +2522,6 @@
     <string name="t_9a3a2e440a">Saved as a new video next to the original.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoCompression.kt -->
     <string name="t_d07edef28b">%s no longer exists</string>
-    <string name="t_5f5d4a0659">Couldn\'t compress %s: %s</string>
     <string name="t_6a1ac82075">%s is already small</string>
     <string name="t_c16b24d2df">%s already small</string>
     <string name="t_a848ca1da8">Videos are already small enough</string>
@@ -4451,12 +4444,12 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/CardViewers.kt -->
     <string name="t_3c406e0eaa">1 contact</string>
     <string name="t_bc5d13e3a1">%s contacts</string>
-    <string name="t_25731db5f7">No contacts app takes contact files</string>
+    <string name="t_53dbaa477f">No app can import contacts</string>
     <string name="t_d71d16869c">Import all</string>
     <string name="t_4687a3bb84">No contacts in this file</string>
     <string name="t_d87c1d8eb6">No contacts app</string>
-    <string name="t_a5f014e90f">No app for this</string>
-    <string name="t_d98f2c581b">birthday</string>
+    <string name="t_5b6a801eb5">No app found</string>
+    <string name="t_a6b9d69f57">Birthday</string>
     <string name="t_84552789ca">Add to contacts</string>
     <string name="t_d36d0a346a">1 event</string>
     <string name="t_b8484efe51">%s events</string>
@@ -4464,7 +4457,7 @@
     <string name="t_b0ed451d3b">No calendar app</string>
     <string name="t_acb6273eca">No date</string>
     <string name="t_bb352a4ffb">all day</string>
-    <string name="t_d47297fa68">organizer</string>
+    <string name="t_debd172028">Organizer</string>
     <string name="t_4f05cd6409">Add to calendar</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_46b087c1d4">Couldn\'t read document</string>
@@ -4500,7 +4493,7 @@
     <string name="t_90067c2e37">How many (decimal or 0x hex)</string>
     <string name="t_b2d0620776">Replaced at 0x%s</string>
     <string name="t_eb68272812">Replaced 1</string>
-    <string name="t_74a2c15c64">The file is replaced with your changes, in one step: if anything goes wrong, it stays as it was.</string>
+    <string name="t_d64229bb65">Your changes replace the file. If saving fails, the original is kept.</string>
     <string name="t_dc47531637">Keep the original as %s</string>
     <string name="t_073af33de9">%s changed meanwhile</string>
     <string name="t_24ac7f3fea">Another app changed or removed it since you opened it. Saving over it would lose what it did.</string>
