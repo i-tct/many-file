@@ -136,6 +136,16 @@
     <string name="t_0e45aee6e5">Stop sharing</string>
     <string name="t_86497a4694">Wi-Fi sharing</string>
     <string name="t_4f4deb952b">Shown while sharing on Wi-Fi</string>
+    <!-- app/src/main/kotlin/tct/manyfile/widgets/StorageWidget.kt -->
+    <string name="t_5ca99266c1">Cleaning…</string>
+    <string name="t_9012295c16">Nothing to clean</string>
+    <string name="t_62bd6459be">Freeing %1$s (%2$d items)</string>
+    <string name="t_2033d3e5ac">Quick clean failed: %s</string>
+    <string name="t_c1b27e77cd">%1$s free of %2$s</string>
+    <string name="t_09e871c98f">Images</string>
+    <string name="t_a862c2b21b">Downloads</string>
+    <string name="t_76eec760c9">Recent</string>
+    <string name="t_fa893d87e1">Clean</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/BatchRename.kt -->
     <string name="t_7cf99b4a1b">Invalid regular expression</string>
     <string name="t_5bf58d89c6">Duplicate name</string>
@@ -170,7 +180,6 @@
     <string name="t_3f336160a0">In Download, not modified for %s days</string>
     <string name="t_6616cbd222">App caches</string>
     <string name="t_754c3ff77f">Cached app data, regenerated when needed</string>
-    <string name="t_09e871c98f">Images</string>
     <string name="t_e06ff39161">Photos received and sent</string>
     <string name="t_56b71e89fb">Videos</string>
     <string name="t_fdefd7d90b">Videos received and sent</string>
@@ -619,10 +628,13 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
     <string name="t_445c57385f">Too many files named %s in %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaCategories.kt -->
+    <string name="t_131260cbfb">Music</string>
+    <string name="t_38adb0a141">Recordings</string>
+    <string name="t_bbedf3df81">Call recordings</string>
     <string name="t_4da9c9af96">Camera</string>
     <string name="t_597b6356e6">Screenshots</string>
     <string name="t_ccc4537f0e">Screen recordings</string>
-    <string name="t_a862c2b21b">Downloads</string>
+    <string name="t_4440b50fca">WhatsApp voice notes</string>
     <string name="t_c3b414887e">Bluetooth</string>
     <string name="t_6e6a6f2086">Other</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaDownloads.kt -->
@@ -1104,7 +1116,6 @@
     <string name="t_848eed0fbd">Tags</string>
     <string name="t_ed1d842d7d">Saved searches</string>
     <string name="t_ca3cddd25b">Bookmarks</string>
-    <string name="t_76eec760c9">Recent</string>
     <string name="t_eb9a4bc1c0">Date</string>
     <string name="t_709a23220f">Name</string>
     <string name="t_3deb745651">Type</string>
@@ -2146,7 +2157,6 @@
     <string name="t_bd3424e9fc">Add cloud drive</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
     <string name="t_935edbe91f">Pictures</string>
-    <string name="t_131260cbfb">Music</string>
     <string name="t_351088b734">Root (/)</string>
     <string name="t_5042651c8f">as root</string>
     <string name="t_430dfce6d5">with Shizuku</string>
@@ -3200,7 +3210,7 @@
     <string name="t_91de17efe9">%s · icon and text size</string>
     <string name="t_37f9c1a6a5">Show hidden files</string>
     <string name="t_6fdbcce4e4">Names starting with a dot</string>
-    <string name="t_f0a871d5d8">Images and videos by source</string>
+    <string name="t_b0c9f5e444">Group by source in Images, Videos, Audio and Documents</string>
     <string name="t_12e853a079">Item details</string>
     <string name="t_89368e1d68">size</string>
     <string name="t_e927d0677c">date</string>
@@ -3721,10 +3731,8 @@
     <string name="t_47b6b05e8c">of junk selected</string>
     <string name="t_d448bc03ba">No junk selected</string>
     <string name="t_47c975c939">Clean %s of junk?</string>
-    <string name="t_fa893d87e1">Clean</string>
     <string name="t_86c7d94c87">Junk</string>
     <string name="t_066f77ce37">To review</string>
-    <string name="t_9012295c16">Nothing to clean</string>
     <string name="t_ea65ca8ec1">Duplicate files</string>
     <string name="t_5e63dc08a5">Find identical files</string>
     <string name="t_05c37b4535">Sorted by size</string>
