@@ -2485,6 +2485,14 @@
     <string name="t_7a031620c9">Sample rate</string>
     <string name="t_041a5dec48">Format</string>
     <string name="t_13ae374e9d">Nothing playing</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CastControls.kt -->
+    <string name="t_ccd8f74668">Cast to TV</string>
+    <string name="t_78edcf85ff">Looking for TVs on this Wi-Fi…</string>
+    <string name="t_06574648af">No TV answered. The TV must be on and on the same Wi-Fi, with sharing (DLNA, screen mirroring or media sharing) allowed in its settings.</string>
+    <string name="t_8b6df3f942">The video plays from this phone over Wi-Fi: keep ManyFile open on this video while it plays.</string>
+    <string name="t_1178a4ffb4">Search again</string>
+    <string name="t_15ad613d2a">Playing on %s</string>
+    <string name="t_1f7a2c7537">Stop casting</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CompressPhotosDialog.kt -->
     <string name="t_9f5e0e9138">Compress “%s”</string>
     <string name="t_e7ed92262e">Compress %s photos</string>
@@ -2682,6 +2690,8 @@
     <string name="t_4eb4195537">unknown format</string>
     <string name="t_2ae612d0c6">Empty file (0 bytes)</string>
     <string name="t_6d1ab8bfd2">Sleep timer: paused</string>
+    <string name="t_f45380c0ac">This phone has no Wi-Fi address</string>
+    <string name="t_6a05d58356">Couldn\'t cast: %s</string>
     <string name="t_6a7191497a">Couldn\'t play video</string>
     <string name="t_ad575e89bc">Skip intro</string>
     <string name="t_c5db3d91c4">Crop</string>
@@ -2709,6 +2719,7 @@
     <string name="t_d3b79657a0">Play in background on exit</string>
     <string name="t_791f6a4215">Save frame</string>
     <string name="t_106ebfa3e1">Intro and credits…</string>
+    <string name="t_f33d51aa0e">Cast to TV…</string>
     <string name="t_0fcf36a0aa">Volume boost…</string>
     <string name="t_cd0bf6606d">Night mode</string>
     <string name="t_1ca20dfd7c">Video details</string>
