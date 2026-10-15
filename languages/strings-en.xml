@@ -1915,6 +1915,7 @@
     <string name="t_972d86f17d">Split PDF…</string>
     <string name="t_f2668e73f0">Join PDFs…</string>
     <string name="t_bf2aced88c">Set as ringtone…</string>
+    <string name="t_8720ee1d2f">Cut song…</string>
     <string name="t_3c7454e3c8">Compress video…</string>
     <string name="t_6c8d431fcc">Trim video…</string>
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
@@ -2396,7 +2397,6 @@
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
     <string name="t_7bd8285ab4">Song details</string>
-    <string name="t_8720ee1d2f">Cut song…</string>
     <string name="t_42c9942ef3">Stop and clear queue</string>
     <string name="t_e53407cfe1">Player</string>
     <string name="t_8670cb1f9e">Lyrics</string>
@@ -3275,6 +3275,13 @@
     <string name="t_4cfca2bfdc">Browsing starts at internal storage</string>
     <string name="t_cb5d2ec041">Browse above internal storage</string>
     <string name="t_97389b5878">Go up to /storage and / (mostly read-only)</string>
+    <string name="t_e5ebde3f4c">Storage to index</string>
+    <string name="t_46185e8b73">Folders left out</string>
+    <string name="t_29d523efe9">Their files don\'t appear in searches of the whole phone. Searching inside one of them still finds its files, more slowly.</string>
+    <string name="t_1b26c7b485">Index %s again</string>
+    <string name="t_36eeef1200">Leave out a folder…</string>
+    <string name="t_f41e578c91">Leave out of instant search</string>
+    <string name="t_145a9fc897">Leave out</string>
     <string name="t_b41a6f3fa3">Indexing… %s files</string>
     <string name="t_cccc3ca403">Not built yet</string>
     <string name="t_1e4e987077">%s files · updated %s</string>
