@@ -1076,6 +1076,8 @@
     <string name="t_febf995384">%s found</string>
     <string name="t_e690d1802f">Couldn\'t start step</string>
     <string name="t_ef2b092967">Step cancelled</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Episodes.kt -->
+    <string name="t_eec0a49080">Unknown show</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/FileKind.kt -->
     <string name="t_30baa24967">Folder</string>
     <string name="t_50e19fda0d">Image</string>
@@ -1128,6 +1130,7 @@
     <string name="t_f9312169ef">Pinned</string>
     <string name="t_acca64b835">Servers</string>
     <string name="t_6ccb60071b">Categories</string>
+    <string name="t_8fca30f774">Continue watching</string>
     <string name="t_d6fe3d8e30">Quick access</string>
     <string name="t_4fa8cc860c">Tools</string>
     <string name="t_848eed0fbd">Tags</string>
@@ -1209,6 +1212,8 @@
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ReleaseNotesViews.kt -->
     <string name="t_cc97e3ee87">What\'s new in %s</string>
     <string name="t_df8810204a">All release notes</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
+    <string name="t_de9a3242d1">Watched</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
     <string name="t_1ec01dc881">Copy to</string>
     <string name="t_92816e8a2d">Copy here</string>
@@ -2203,6 +2208,7 @@
     <string name="t_6b5a4d772d">WhatsApp statuses</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_00a681619f">Cleaner</string>
+    <string name="t_40c20d94e7">Series</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_e0b473f572">Bootable USB</string>
@@ -2217,6 +2223,10 @@
     <string name="t_a1bb4fe8db">%s free</string>
     <string name="t_630259383d">can\'t read</string>
     <string name="t_30d15a48d2">tap to grant access</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/ContinueWatching.kt -->
+    <string name="t_021f6fec2f">Next: %s</string>
+    <string name="t_feb5bead8e">%s left</string>
+    <string name="t_7d612ab1cf">All series</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/DrawerEditor.kt -->
     <string name="t_288dfe8f4d">Drag to reorder. Tap a section to arrange its items.</string>
     <string name="t_5c4310dc5c">Move %s</string>
@@ -2377,7 +2387,6 @@
     <string name="t_b28f19e5aa">Retry job</string>
     <string name="t_d3c961920a">Cancel job</string>
     <string name="t_23a97691b4">Remove from list</string>
-    <string name="t_feb5bead8e">%s left</string>
     <string name="t_827c9721c4">Stopping…</string>
     <string name="t_6a599877d7">Queued</string>
     <string name="t_0b1d6c0b1a">Preparing…</string>
@@ -2544,6 +2553,19 @@
     <string name="t_a60f2c7360">Quality</string>
     <string name="t_b85ff05208">Small file</string>
     <string name="t_dab7a34f15">Saved next to the first photo.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SeriesScreen.kt -->
+    <string name="t_e7f76b77a7">Shows</string>
+    <string name="t_e6b228a410">No series found. Episodes are found by their names, such as “Show S01E02.mkv” or “Episode 2.mp4” in a “Show/Season 1” folder.</string>
+    <string name="t_ce37069eab">%d seasons</string>
+    <string name="t_bb4f08e94b">%d episodes</string>
+    <string name="t_d866fad3ff">All watched</string>
+    <string name="t_660aa315b7">%d watched</string>
+    <string name="t_661f21d640">Season %d</string>
+    <string name="t_eaa8eb7e71">Options for season %d</string>
+    <string name="t_ce54c56994">Mark season as watched</string>
+    <string name="t_07efc3008b">Mark season as not watched</string>
+    <string name="t_c3f3c38a68">Mark as not watched</string>
+    <string name="t_d1cc3212f6">Mark as watched</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
     <string name="t_74536a0d2e">File changed during playback</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SetAsSoundDialog.kt -->
@@ -2583,15 +2605,28 @@
     <string name="t_4eb4195537">unknown format</string>
     <string name="t_2ae612d0c6">Empty file (0 bytes)</string>
     <string name="t_6a7191497a">Couldn\'t play video</string>
+    <string name="t_ad575e89bc">Skip intro</string>
     <string name="t_c5db3d91c4">Crop</string>
     <string name="t_b148ed24bf">Stretch</string>
     <string name="t_dab564d809">Fit</string>
     <string name="t_d1a17af19f">Not available</string>
     <string name="t_8ff5fe5ca1">Audio track</string>
     <string name="t_17770471cb">Subtitles</string>
+    <string name="t_2fe1274f8c">Next in %d s</string>
+    <string name="t_14109fb22c">Play now</string>
+    <string name="t_c3658d153a">Intro and credits</string>
+    <string name="t_060c2681e0">For every episode of %s.</string>
+    <string name="t_0001f9e828">Here (%s)</string>
+    <string name="t_d5c276fc49">Intro starts</string>
+    <string name="t_08a009fc6e">Intro ends</string>
+    <string name="t_93039e609d">Not set</string>
+    <string name="t_f3f91f5004">End credits start</string>
+    <string name="t_1c5009196a">%s before the end</string>
+    <string name="t_a80f3e9361">Skip intro shows while the intro plays. When the end credits start, the next episode follows after a countdown.</string>
     <string name="t_f3357ceb1d">Play in background</string>
     <string name="t_d3b79657a0">Play in background on exit</string>
     <string name="t_791f6a4215">Save frame</string>
+    <string name="t_106ebfa3e1">Intro and credits…</string>
     <string name="t_1ca20dfd7c">Video details</string>
     <string name="t_3a02b7b36c">Previous video</string>
     <string name="t_68ef4ca210">Next video</string>
@@ -3408,6 +3443,8 @@
     <string name="t_bc3056c73d">Play SFTP, SMB and WebDAV videos without downloading first</string>
     <string name="t_919c6ea9ea">Auto-rotate</string>
     <string name="t_81a2b04020">Rotate the screen to match the video</string>
+    <string name="t_38092799bc">Play next video automatically</string>
+    <string name="t_cb01211981">After a 5-second countdown you can cancel; episodes in order</string>
     <string name="t_ca358a8ebd">External files load automatically</string>
     <string name="t_adf3eff057">Embedded only</string>
     <string name="t_28d0358b84">Load subtitle files</string>
@@ -3671,7 +3708,6 @@
     <string name="t_a65eaa8807">Restore backup</string>
     <string name="t_85bcc07393">Turn off two-step verification for %s first, or you may lose access.</string>
     <string name="t_9704b6631f">Favourite</string>
-    <string name="t_021f6fec2f">Next: %s</string>
     <string name="t_98840ab391">Next code</string>
     <string name="t_624f82c132">Remove from favourites</string>
     <string name="t_6b2ac06d56">Add to favourites</string>
@@ -3931,7 +3967,6 @@
     <string name="t_9ec858ed05">(nothing)</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
     <string name="t_5b010e0b46">Commit author</string>
-    <string name="t_93039e609d">Not set</string>
     <string name="t_e01abc7bbc">Signed in as %s</string>
     <string name="t_848d80ca32">Not signed in</string>
     <string name="t_ada2e9e96f">Sign in</string>
