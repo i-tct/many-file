@@ -663,6 +663,7 @@
     <string name="t_54f105f623">Sign-in required. Add cookies for this site in Media Downloader → Cookies.</string>
     <string name="t_73a572d807">Merging video and audio</string>
     <string name="t_bbb7d198d1">Adding cover and details</string>
+    <string name="t_0d87ba3f5c">Converting to MP3</string>
     <string name="t_fd3e796994">Connecting…</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaEngine.kt -->
     <string name="t_de7312928f">Media Engine not ready</string>
@@ -674,6 +675,7 @@
     <string name="t_a685a97a58">Downloading requires Media Engine 0.3.0 or later. Update the engine.</string>
     <string name="t_a0769a6a58">Cookies require Media Engine 0.5.0 or later. Update the engine.</string>
     <string name="t_02df32b1e9">Cutting songs requires Media Engine 0.7.0 or later. Update it in Media Downloader.</string>
+    <string name="t_66dd268eea">MP3, fades and other formats require Media Engine 0.12.0 or later. Update it in Media Downloader.</string>
     <string name="t_d25165091f">No response</string>
     <string name="t_52e2db890a">Media Engine timed out after %s s</string>
     <string name="t_bb4320e135">Media Engine stopped</string>
@@ -2493,10 +2495,18 @@
     <string name="t_39814c2d44">Save selection</string>
     <string name="t_faac9dc57d">Cutting…</string>
     <string name="t_51d20326fb">Saved “%s”</string>
+    <string name="t_6456e9ccaf">Keeps cover art and tags.</string>
     <string name="t_64712bacfe">Lossless cut that keeps cover art and tags.</string>
     <string name="t_8739e5a55f">%s 0.1 s earlier</string>
     <string name="t_ecbcb0e424">Here</string>
     <string name="t_708fe746e6">%s 0.1 s later</string>
+    <string name="t_2530fd76d5">%d s</string>
+    <string name="t_6b46f28928">Fade in</string>
+    <string name="t_72f7b2efde">Fade out</string>
+    <string name="t_f313a0b181">Save as</string>
+    <string name="t_5751d51aff">Same (%s)</string>
+    <string name="t_9f01510c90">The sound is copied exactly, without re-encoding.</string>
+    <string name="t_11004627fa">The sound is re-encoded for this. The song itself stays unchanged.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/NowPlayingBar.kt -->
     <string name="t_8cf92e03af">Playback error: %s</string>
     <string name="t_7dd843728a">Stop and close</string>
@@ -4340,6 +4350,8 @@
     <string name="t_b1e2ad6995">Downloading %s of “%s”.</string>
     <string name="t_fe041d5fc0">With 1 subtitle language.</string>
     <string name="t_d9abfa565b">With %d subtitle languages.</string>
+    <string name="t_c87813045b">Downloading 1 item as %s.</string>
+    <string name="t_b831835137">Downloading %1$d items as %2$s.</string>
     <string name="t_cbc0348d20">Invalid APK file</string>
     <string name="t_5083aaac1c">Media Engine signature doesn\'t match ManyFile</string>
     <string name="t_26ad099862">%s results</string>
@@ -4352,7 +4364,11 @@
     <string name="t_5d300c5ff9">Add cookies</string>
     <string name="t_28049622ff">%s formats, best first</string>
     <string name="t_ac7e25e240">Video-only formats are merged with the best audio.</string>
+    <string name="t_08cfa236b2">%1$d of %2$d chosen</string>
     <string name="t_1ce07d9a67">%s results for “%s”</string>
+    <string name="t_57efa582b1">Tap items to choose them, then a format below. Each one is a job in the Job Center.</string>
+    <string name="t_713bdc0139">Loading more…</string>
+    <string name="t_da2dc9040b">Load %d more</string>
     <string name="t_4b86b7c050">More results</string>
     <string name="t_3aa357c551">Save media downloads to</string>
     <string name="t_83cf0697bd">Clear history?</string>
@@ -4367,6 +4383,10 @@
     <string name="t_c449b73fe9">%s in use.</string>
     <string name="t_780da04380">Gets site fixes first. Checked daily.</string>
     <string name="t_7d44bddd76">Updated every few weeks. Checked daily.</string>
+    <string name="t_79786dc427">MP3</string>
+    <string name="t_153f7deb6e">Choose items to download</string>
+    <string name="t_89e10297bb">Download 1 item to %s</string>
+    <string name="t_5565dd9e11">Download %1$d items to %2$s</string>
     <string name="t_77003d0727">Best</string>
     <string name="t_5db2579261">Up to 720p</string>
     <string name="t_bdba76b783">Audio only</string>
@@ -4377,7 +4397,9 @@
     <string name="t_1f6b39d6a5">Choose languages to download with the video.</string>
     <string name="t_f5bd09e930">Saved as .srt files next to the video.</string>
     <string name="t_b0655f04d0">Save to %s</string>
+    <string name="t_bcdc111f83">Cover picture inside videos</string>
     <string name="t_7724367b2d">Best and Up to 720p save as MP4 (H.264 + AAC) when available. More formats below.</string>
+    <string name="t_11d386cefc">MP3 saves the best sound as MP3, with its cover and title.</string>
     <string name="t_5c3f6c860b">Remove from history</string>
     <string name="t_b1279c31e5">Connecting to Media Engine…</string>
     <string name="t_19491d119f">The first start can take a few seconds.</string>
