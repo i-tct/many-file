@@ -2070,7 +2070,6 @@
     <string name="t_118f9b2b30">Larger text</string>
     <string name="t_a8ea9e3089">Smaller text</string>
     <string name="t_0a7262c49b">Show frame timings</string>
-    <string name="t_e4bf489850">Classic editor</string>
     <string name="t_89b86ab0e6">Language</string>
     <string name="t_c9ec7fcf0c">Indentation</string>
     <string name="t_2a4d562b1d">Tabs</string>
@@ -3306,7 +3305,6 @@
     <string name="t_348e86f717">Highlight matching brackets</string>
     <string name="t_d2f74bc8b3">Symbol keys</string>
     <string name="t_21658b83f6">Tab, arrows and { } ( ) ; … above the keyboard</string>
-    <string name="t_0073283eff">Previous editor. Slow on large files.</string>
     <string name="t_3d08307f67">Save while typing (local files)</string>
     <string name="t_0559f5ef86">Background playback</string>
     <string name="t_7e904cd27a">Keep playing after leaving the player</string>
