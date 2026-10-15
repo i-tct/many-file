@@ -1140,6 +1140,11 @@
     <string name="t_709a23220f">Name</string>
     <string name="t_3deb745651">Type</string>
     <string name="t_b7152342a2">Size</string>
+    <string name="t_6eef664840">None</string>
+    <string name="t_56d853bd68">Semi-transparent box</string>
+    <string name="t_8479f2b690">Black box</string>
+    <string name="t_cdd6290b6b">Outline</string>
+    <string name="t_aa0e7e86b7">Shadow</string>
     <string name="t_cb0e65c977">System monospace</string>
     <string name="t_41f88ed3b3">ManyFile dark</string>
     <string name="t_b150fae857">Gruvbox dark</string>
@@ -2548,7 +2553,6 @@
     <string name="t_ee14050617">Letter</string>
     <string name="t_c737ce538e">Photo size</string>
     <string name="t_d01f8dc1fa">Margins</string>
-    <string name="t_6eef664840">None</string>
     <string name="t_9ec4d86f6b">Wide</string>
     <string name="t_a60f2c7360">Quality</string>
     <string name="t_b85ff05208">Small file</string>
@@ -2601,17 +2605,23 @@
     <string name="t_a848ca1da8">Videos are already small enough</string>
     <string name="t_4c8c37502d">Compressed %s videos: %s (were %s)</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoPlayerScreen.kt -->
+    <string name="t_f11c4186c6">Sleep timer: stopped</string>
     <string name="t_f2419cc1f8">Unsupported audio: %s</string>
     <string name="t_4eb4195537">unknown format</string>
     <string name="t_2ae612d0c6">Empty file (0 bytes)</string>
+    <string name="t_6d1ab8bfd2">Sleep timer: paused</string>
     <string name="t_6a7191497a">Couldn\'t play video</string>
     <string name="t_ad575e89bc">Skip intro</string>
     <string name="t_c5db3d91c4">Crop</string>
     <string name="t_b148ed24bf">Stretch</string>
     <string name="t_dab564d809">Fit</string>
     <string name="t_d1a17af19f">Not available</string>
+    <string name="t_0789cb8890">Sleep timer (end of video)</string>
+    <string name="t_628aa4e050">Sleep timer (%d min)</string>
+    <string name="t_81e634eb9e">Sleep timer…</string>
     <string name="t_8ff5fe5ca1">Audio track</string>
     <string name="t_17770471cb">Subtitles</string>
+    <string name="t_ccec3eed2e">Volume boost: %d%%</string>
     <string name="t_2fe1274f8c">Next in %d s</string>
     <string name="t_14109fb22c">Play now</string>
     <string name="t_c3658d153a">Intro and credits</string>
@@ -2627,6 +2637,8 @@
     <string name="t_d3b79657a0">Play in background on exit</string>
     <string name="t_791f6a4215">Save frame</string>
     <string name="t_106ebfa3e1">Intro and credits…</string>
+    <string name="t_0fcf36a0aa">Volume boost…</string>
+    <string name="t_cd0bf6606d">Night mode</string>
     <string name="t_1ca20dfd7c">Video details</string>
     <string name="t_3a02b7b36c">Previous video</string>
     <string name="t_68ef4ca210">Next video</string>
@@ -2636,6 +2648,13 @@
     <string name="t_89f875f246">Picture in picture</string>
     <string name="t_f0aeb28a39">Track %d</string>
     <string name="t_6b6dfe5f0a">Subtitle files in this folder</string>
+    <string name="t_e98117d9d5">Delay: none</string>
+    <string name="t_3f3bfccbf6">Delay: %s s</string>
+    <string name="t_2938498835">“+” shows subtitles later. For subtitle files; subtitles inside the video stay as they are.</string>
+    <string name="t_942c089361">%d minutes</string>
+    <string name="t_458e0cca0e">End of this video</string>
+    <string name="t_99823a982e">Volume boost</string>
+    <string name="t_7b8d447254">For this video. Very loud sound can distort on small speakers.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoToolDialogs.kt -->
     <string name="t_b75f23d1d0">Rotate right</string>
     <string name="t_c5d09a00a9">90° clockwise</string>
@@ -3329,6 +3348,11 @@
     <string name="t_36eeef1200">Leave out a folder…</string>
     <string name="t_f41e578c91">Leave out of instant search</string>
     <string name="t_145a9fc897">Leave out</string>
+    <string name="t_37619fc130">White</string>
+    <string name="t_3526f607bc">Yellow</string>
+    <string name="t_8e1fe2d505">Cyan</string>
+    <string name="t_933bf21afd">Green</string>
+    <string name="t_171460e8c8">Light grey</string>
     <string name="t_b41a6f3fa3">Indexing… %s files</string>
     <string name="t_cccc3ca403">Not built yet</string>
     <string name="t_1e4e987077">%s files · updated %s</string>
@@ -3450,6 +3474,11 @@
     <string name="t_28d0358b84">Load subtitle files</string>
     <string name="t_779910b68a">.srt, .vtt, .ass and .ttml matching the video\'s name</string>
     <string name="t_f9f2cf2c3d">Subtitle size (%)</string>
+    <string name="t_d160595fcf">Text colour</string>
+    <string name="t_64dd60fe1a">Background</string>
+    <string name="t_8440b9eb7d">Edge</string>
+    <string name="t_2dc4118930">Height above the bottom (%)</string>
+    <string name="t_337d17c0cf">Loud scenes quieter and speech louder, for watching at low volume</string>
     <string name="t_f4d649a594">Clear playback positions</string>
     <string name="t_799dc96b04">Start all media from the beginning</string>
     <string name="t_e7a5b6c2ac">No saved positions</string>
@@ -4838,7 +4867,6 @@
     <string name="t_8df48a6981">Stop signing and filling</string>
     <string name="t_227ecfc86a">Stop drawing</string>
     <string name="t_93afd7c679">Normal pages</string>
-    <string name="t_cd0bf6606d">Night mode</string>
     <string name="t_8cd67e0851">Edit PDF…</string>
     <string name="t_d12d316b48">Go to page…</string>
     <string name="t_4ccf5a7efc">Recognize text (OCR)</string>
