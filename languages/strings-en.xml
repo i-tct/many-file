@@ -203,6 +203,10 @@
     <string name="t_db583f6190">Videos saved from chats</string>
     <string name="t_0be07c455a">Voice and sound files</string>
     <string name="t_1da2412c66">Files saved from chats</string>
+    <string name="t_e9a15e6870">Saved media</string>
+    <string name="t_b3abd00eff">Photos and videos saved from chats</string>
+    <string name="t_637e04ccac">Photos and videos saved or made in the app</string>
+    <string name="t_1267e6f712">Snaps saved to the phone</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/analyze/DuplicateScans.kt -->
     <string name="t_76cf24e1f1">Finding duplicates in %s</string>
     <string name="t_f5919e65c3">Finding duplicates in %s folders</string>
@@ -3865,6 +3869,8 @@
     <string name="t_879dab1643">Moving %s items to Bin…</string>
     <string name="t_4ae9634ce8">Deleting %s items…</string>
     <string name="t_f6ab55dd35">Scan again</string>
+    <string name="t_cd4bcec305">Deep clean</string>
+    <string name="t_73985ddd83">Every app\'s cache, apps\' folders, what removed apps left</string>
     <string name="t_2ae6f6f729">Scanning… %s files (%s)</string>
     <string name="t_47b6b05e8c">of junk selected</string>
     <string name="t_d448bc03ba">No junk selected</string>
@@ -3904,6 +3910,34 @@
     <string name="t_d23a1c9fb3">Diff</string>
     <string name="t_eeaa7a3c5d">Share unified diff</string>
     <string name="t_e96f2bd997">Changes only</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DeepCleanScreen.kt -->
+    <string name="t_35c864838e">App caches cleaned: %s freed</string>
+    <string name="t_90c3239869">Couldn\'t clean app caches: %s</string>
+    <string name="t_bfca15c22a">no answer</string>
+    <string name="t_8c5d3ae423">To see how much each app keeps, allow Usage access for ManyFile. Android then shows each app\'s cache and data sizes.</string>
+    <string name="t_8c77aff0b1">Allow Usage access</string>
+    <string name="t_13930db140">%1$s in the caches of %2$d apps</string>
+    <string name="t_047d7f1f4c">Clean all app caches</string>
+    <string name="t_9115213c0c">Clean one by one</string>
+    <string name="t_5a0cee8e4e">Every app\'s cache is emptied at once (Shizuku or root). Apps make their caches again as needed; nothing you saved goes.</string>
+    <string name="t_1d3f0f5888">Android lets no app empty another\'s cache. Each app\'s page opens in turn: tap Storage, then Clear cache, and come back. With Shizuku or root, ManyFile can clean them all at once.</string>
+    <string name="t_964c372600">Next: %1$s (%2$s)</string>
+    <string name="t_7ee1ae390f">ManyFile\'s own caches</string>
+    <string name="t_bd6279ca01">%s: thumbnails, copies of server files, song waveforms, shared ZIPs</string>
+    <string name="t_e8143ee563">%s freed</string>
+    <string name="t_e9c64d1f56">Left by removed apps</string>
+    <string name="t_a623561453">No folders of removed apps.</string>
+    <string name="t_5598bf0df9">%1$d folders moved to the Bin (%2$s)</string>
+    <string name="t_8244be8859">Move %d to the Bin</string>
+    <string name="t_0ccf800870">Folders left by removed apps: Android 11 and later hide some installed apps from ManyFile, so it can only tell which are removed with Shizuku or root.</string>
+    <string name="t_fef2822fa4">Cache %1$s · Data %2$s · App %3$s</string>
+    <string name="t_1ef5773551">%1$s: cache cleaned (%2$s)</string>
+    <string name="t_cb0f2a6075">Cache: %s</string>
+    <string name="t_8eb4ed2a31">Data: %s</string>
+    <string name="t_5def3e9e61">App: %s</string>
+    <string name="t_805110b3b2">Android\'s page for this app has Storage → Clear cache.</string>
+    <string name="t_4e50c2b76d">Clean cache</string>
+    <string name="t_f31d2fd232">Open app page</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DocumentCamera.kt -->
     <string name="t_0d2d1a8d4f">Couldn\'t take photo</string>
     <string name="t_29d8999c52">Camera permission required</string>
