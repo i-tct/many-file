@@ -500,6 +500,7 @@
     <string name="t_6904f33f93">GitHub and GitLab require a personal access token.</string>
     <string name="t_542fc71480">User name</string>
     <string name="t_e281dff19e">Password or token</string>
+    <string name="t_131a141b1a">Connecting to %s over SSH</string>
     <string name="t_1c8c1ee81e">Sign-in failed (%s). GitHub and GitLab require a personal access token.</string>
     <string name="t_461ee14e9c">Untrusted server certificate: %s</string>
     <string name="t_7da64f4216">Push rejected. Pull first, then push again.</string>
@@ -513,7 +514,14 @@
     <string name="t_eaf4fce310">Already exists: %s</string>
     <string name="t_25e2e4a22e">Repository busy (%s)</string>
     <string name="t_d64e6f4de4">Couldn\'t connect to server: %s</string>
-    <string name="t_023d43a5fe">SSH addresses are not supported. Use an https:// address.</string>
+    <string name="t_ce04e1fbf7">Unsupported address. Use an https:// or SSH address.</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GitSsh.kt -->
+    <string name="t_e5bf9100e3">Keys can\'t be stored on this device</string>
+    <string name="t_cf6c04adad">Not an SSH address: %s</string>
+    <string name="t_0b0a5c3803">No SSH key yet. In Git, tap SSH key, then add it to your account on %s.</string>
+    <string name="t_8e32c8a320">The server refused the Git request: %s</string>
+    <string name="t_7cddbd87bd">%s refused ManyFile\'s SSH key. In Git, tap SSH key and add it to your account there.</string>
+    <string name="t_097d1d06ec">The server\'s key was not trusted</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubApi.kt -->
     <string name="t_afc39fe39c">Empty response from GitHub</string>
     <string name="t_f40de0831a">Couldn\'t connect to GitHub: %s</string>
@@ -3872,6 +3880,15 @@
     <string name="t_7869061b72">Keep current</string>
     <string name="t_ca4cb451f7">Keep incoming</string>
     <string name="t_e182c330e2">Merge into %s</string>
+    <string name="t_83162cc244">SSH key created. Add it to your account.</string>
+    <string name="t_99af2989d2">Couldn\'t create SSH key</string>
+    <string name="t_b1f48cf481">For git@… and ssh:// addresses. Create a key, then add it to your account.</string>
+    <string name="t_0fbcc70144">Create SSH key</string>
+    <string name="t_58b77a0edf">Add on GitHub</string>
+    <string name="t_679e294a4e">Replace key…</string>
+    <string name="t_91128fd525">Trusted servers: %s</string>
+    <string name="t_33844d156c">Replace SSH key?</string>
+    <string name="t_9a5017be02">A new key is created. The current one stops working in ManyFile; remove it from your accounts.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
     <string name="t_5b010e0b46">Commit author</string>
     <string name="t_93039e609d">Not set</string>
@@ -3883,8 +3900,8 @@
     <string name="t_e2b8f69ce1">Open folder…</string>
     <string name="t_c91e6e6a53">Repositories</string>
     <string name="t_eb54a55307">No repositories. Clone one or open a folder.</string>
-    <string name="t_c641103a97">Only https:// addresses are supported. Private repositories require sign-in or a personal access token.</string>
-    <string name="t_ff1a4a6512">Only https:// addresses are supported. GitHub and GitLab require a personal access token for private repositories.</string>
+    <string name="t_1903e34a9f">https:// and SSH addresses work. Private repositories over https:// need sign-in or a personal access token; over SSH, your SSH key.</string>
+    <string name="t_0789987bf2">https:// and SSH addresses work. GitHub and GitLab need a personal access token for private repositories over https://; over SSH, your SSH key.</string>
     <string name="t_6a1d203c23">Signed in to GitHub as %s</string>
     <string name="t_7399ca8006">Sign out of GitHub?</string>
     <string name="t_6bd39022b6">Removes the sign-in from this device. To revoke it on GitHub, go to Settings → Applications or Developer settings → Personal access tokens.</string>
