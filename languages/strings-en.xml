@@ -1961,6 +1961,8 @@
     <string name="t_1f53b22761">Edit rule</string>
     <string name="t_d91ebf5887">Watch</string>
     <string name="t_d6deb333ee">Include subfolders</string>
+    <string name="t_af53a9d10e">Not watched: %s</string>
+    <string name="t_059d434c15">Exclude folder…</string>
     <string name="t_0205534386">File types</string>
     <string name="t_053653e5ef">Name patterns (*.pdf, IMG_*)</string>
     <string name="t_97c89a4d66">Action</string>
@@ -1970,6 +1972,7 @@
     <string name="t_26e5cc973b">Duplicate names get “(2)”. Nothing is overwritten.</string>
     <string name="t_4c2bddf386">Include existing files</string>
     <string name="t_bc4d3632fa">Folder to watch</string>
+    <string name="t_c913c9f060">Exclude folder</string>
     <string name="t_d42713493c">Destination</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowEditorScreen.kt -->
     <string name="t_ea3c7a8650">Edit workflow</string>
