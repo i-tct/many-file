@@ -463,6 +463,13 @@
     <string name="t_4785c5c50f">Not enough space</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GitRepos.kt -->
     <string name="t_e7d720fa2c">Set your commit name and email first</string>
+    <string name="t_ff14bb99ca">Pushing tags of %s</string>
+    <string name="t_2318f2e6b1">Pushed tag %s</string>
+    <string name="t_677c9064c0">Pushed tags</string>
+    <string name="t_63599ee25a">Deleting tag %s on the server</string>
+    <string name="t_ba64ca8321">Deleted tag %s on the server</string>
+    <string name="t_0fdefb0401">Deleting %s on the server</string>
+    <string name="t_074b857b2b">Deleted %s on the server</string>
     <string name="t_dde22da02a">Cloning %s</string>
     <string name="t_cf0bd6a468">%s already exists and is not empty</string>
     <string name="t_540b59252e">Cloned into %s</string>
@@ -498,10 +505,11 @@
     <string name="t_7da64f4216">Push rejected. Pull first, then push again.</string>
     <string name="t_1433ca58d1">Local changes would be overwritten: %s. Commit or discard them first.</string>
     <string name="t_d5d7266353">Merge in progress. Resolve conflicts and commit, or undo the merge.</string>
-    <string name="t_f78d2220f1">Commit or unstage staged changes before pulling</string>
+    <string name="t_2c9d62c37b">Commit or unstage staged changes first</string>
+    <string name="t_277f9e0745">No changes to stash</string>
     <string name="t_df5f3beaba">No staged changes</string>
     <string name="t_a616ca0363">No commits yet</string>
-    <string name="t_d12fcb87c3">Invalid branch name</string>
+    <string name="t_bb1826ee4d">Invalid name</string>
     <string name="t_eaf4fce310">Already exists: %s</string>
     <string name="t_25e2e4a22e">Repository busy (%s)</string>
     <string name="t_d64e6f4de4">Couldn\'t connect to server: %s</string>
@@ -817,7 +825,6 @@
     <string name="t_8de1fc0876">%s to delete on the server</string>
     <string name="t_8e84a31e1a">%s changed on both sides: both versions kept</string>
     <string name="t_64e8e0aaa1">Deleted %s</string>
-    <string name="t_074b857b2b">Deleted %s on the server</string>
     <string name="t_85edc9e428">%s deletions on hold. Confirm them in Preview.</string>
     <string name="t_405d99ee6a">%s updated</string>
     <string name="t_6f37b32461">%s sent</string>
@@ -2083,7 +2090,6 @@
     <string name="t_f11b878130">Open file</string>
     <string name="t_8f3cee3a58">Find code files</string>
     <string name="t_60b6bad94f">No recent files</string>
-    <string name="t_bb1826ee4d">Invalid name</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorScreen.kt -->
     <string name="t_1d8d39a6e9">read-only</string>
     <string name="t_4d8b8004e1">on server, uploading…</string>
@@ -3835,6 +3841,37 @@
     <string name="t_c11b0ed44a">Media Engine %s is available.</string>
     <string name="t_8f13712d1c">Not downloaded on mobile data.</string>
     <string name="t_c177e4b0aa">Downloading…</string>
+    <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitMore.kt -->
+    <string name="t_8ababd4584">New tag…</string>
+    <string name="t_a26d2068b6">Push all tags</string>
+    <string name="t_3c9af8bba1">No tags. A tag names a commit, such as a release (v1.0).</string>
+    <string name="t_e0f6589ebc">(no message)</string>
+    <string name="t_de37f3743c">Options for %s</string>
+    <string name="t_ca41b2f681">Push to server</string>
+    <string name="t_466727fe48">Delete on server…</string>
+    <string name="t_d58aac169a">Delete tag %s?</string>
+    <string name="t_e5389216c1">The tag is deleted on this phone. The commit is kept, and the tag on the server, if any, stays.</string>
+    <string name="t_73d9c23b1e">Delete tag %s on the server?</string>
+    <string name="t_909a7f6db1">Others will no longer get this tag. The tag on this phone stays.</string>
+    <string name="t_c1fa1780cc">Tags the current commit.</string>
+    <string name="t_0ff64c211f">Tags commit %s.</string>
+    <string name="t_e0def023c1">Message (optional)</string>
+    <string name="t_0b8e992d0a">With a message, the tag is annotated: it keeps who made it and when.</string>
+    <string name="t_45c4fd3292">Stashed changes (%d)</string>
+    <string name="t_41c7d0303c">Apply and keep</string>
+    <string name="t_adaf1e2707">Delete stashed changes?</string>
+    <string name="t_6bd7ab88e8">“%s” is deleted. This can\'t be undone.</string>
+    <string name="t_2e096284a8">Stash %d</string>
+    <string name="t_c747d75cac">Stash changes</string>
+    <string name="t_f323e83ff8">Puts your changes aside and reverts the files to the last commit. Restore them any time.</string>
+    <string name="t_b805858acd">Include new files</string>
+    <string name="t_82f2f51763">Stash</string>
+    <string name="t_70faa02c10">Resolve 1 conflict</string>
+    <string name="t_50bbee5180">Resolve %d conflicts</string>
+    <string name="t_cfa9a80b69">Keep the current version (this branch) or the incoming version (what was merged) of every conflicted file. To combine them, open each file instead.</string>
+    <string name="t_7869061b72">Keep current</string>
+    <string name="t_ca4cb451f7">Keep incoming</string>
+    <string name="t_e182c330e2">Merge into %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
     <string name="t_5b010e0b46">Commit author</string>
     <string name="t_93039e609d">Not set</string>
@@ -3866,6 +3903,10 @@
     <string name="t_158ad18d1b">GitHub and GitLab require a personal access token for private repositories.</string>
     <string name="t_d8cdb57335">Clone</string>
     <string name="t_552ec9abbd">Clone into</string>
+    <string name="t_4434aecd08">Fast-forwarded to %s</string>
+    <string name="t_bcddcd7fd8">Conflicts in %s. Resolve them; the stash is kept.</string>
+    <string name="t_12f7d0679b">Changes restored</string>
+    <string name="t_74f39d05eb">Changes applied</string>
     <string name="t_5219eb9a71">Pull</string>
     <string name="t_8f7f57b519">Push</string>
     <string name="t_d48aafe689">Fetch</string>
@@ -3881,7 +3922,10 @@
     <string name="t_90ccd64974">History</string>
     <string name="t_f578227926">Branches</string>
     <string name="t_82606b0cf2">Committed</string>
+    <string name="t_17817f4c48">Stash deleted</string>
     <string name="t_5433e15efd">Server address saved</string>
+    <string name="t_dc9668b294">Changes stashed</string>
+    <string name="t_fc2c32735e">Tag %s created</string>
     <string name="t_13ee92ede3">Undo merge?</string>
     <string name="t_ad14172fab">Files changed by the merge are restored to their state before the pull. Other changes are kept.</string>
     <string name="t_c4379743af">Merge undone</string>
@@ -3894,7 +3938,9 @@
     <string name="t_81d9fa0085">%d to pull</string>
     <string name="t_534bfc4419">Merge conflicts in %d files. Resolve, stage and commit.</string>
     <string name="t_6092b09439">Conflicts resolved. Commit to finish the merge.</string>
+    <string name="t_4c25ad86d5">Resolve all…</string>
     <string name="t_166bdf76a2">Long-press to select multiple</string>
+    <string name="t_201d06cca5">Stash…</string>
     <string name="t_aa9269503f">Staged (%d)</string>
     <string name="t_f9b2a63d29">Unstage all</string>
     <string name="t_4440285641">Not staged (%d)</string>
@@ -3902,6 +3948,7 @@
     <string name="t_ac9592bac7">Merge message</string>
     <string name="t_a635957687">Commit message</string>
     <string name="t_1a1873ab51">Commit</string>
+    <string name="t_f9896c0871">Mark resolved</string>
     <string name="t_7298d7ed98">Unstage</string>
     <string name="t_ca6d0e3aaa">Stage</string>
     <string name="t_dd5a40c9e9">Discard changes in %s?</string>
@@ -3939,9 +3986,9 @@
     <string name="t_b639f5cc71">deleted</string>
     <string name="t_7e57cfe843">binary</string>
     <string name="t_74536b5173">Commits</string>
-    <string name="t_e0f6589ebc">(no message)</string>
     <string name="t_b42fd8b9e5">No differences</string>
     <string name="t_14091a9f24">merge</string>
+    <string name="t_3e4d8b69bb">Tag…</string>
     <string name="t_6f0ba6b9d5">New branch…</string>
     <string name="t_dc99d54d99">Local</string>
     <string name="t_b9bb9242a6">tracking %s</string>
@@ -3951,6 +3998,9 @@
     <string name="t_36c78d9cde">Fetch (⋮) to update remote branches.</string>
     <string name="t_0f0adf8cbf">New branch</string>
     <string name="t_3bc9027097">Created from the current commit and checked out.</string>
+    <string name="t_09bac0ccb4">Rename branch</string>
+    <string name="t_25d454cbf1">Delete %s on the server?</string>
+    <string name="t_e38097a34b">The branch is deleted on the server for everyone. A branch of the same name on this phone stays.</string>
     <string name="t_73dddddbc2">Delete branch %s?</string>
     <string name="t_93034c5b16">Unmerged commits may be lost. The remote branch, if any, is kept.</string>
     <string name="t_b76dacd98d">No server address set. Add one to push and pull.</string>
@@ -4050,7 +4100,6 @@
     <string name="t_0c94775082">Combines all commits into one</string>
     <string name="t_5693314a70">Rebase and merge</string>
     <string name="t_5d9b4f917c">Adds all commits on top, without a merge commit</string>
-    <string name="t_e182c330e2">Merge into %s</string>
     <string name="t_e978566fa7">Commit title</string>
     <string name="t_bd27d2c4e6">Delete branch %s</string>
     <string name="t_ea8f0d0237">Merge</string>
