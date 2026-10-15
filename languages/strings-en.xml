@@ -3268,6 +3268,8 @@
     <string name="t_2ad06f7850">Folders open where you left them</string>
     <string name="t_e8f5ac714f">A–Z index</string>
     <string name="t_b725f44396">Fast scroll by letter when sorted by name</string>
+    <string name="t_21a64ac703">Show full names</string>
+    <string name="t_66cdc188d2">Long names wrap onto more lines in lists instead of being shortened</string>
     <string name="t_378e9e163b">Sorting</string>
     <string name="t_2b226c7948">Ascending</string>
     <string name="t_f06da18ce9">Natural number ordering</string>
@@ -3341,6 +3343,8 @@
     <string name="t_04324d9bfa">Images up to 4 MB, Wi-Fi only</string>
     <string name="t_2b38179374">Cloud thumbnails</string>
     <string name="t_858f84a242">Google Drive, OneDrive and MEGA, also on mobile data</string>
+    <string name="t_63832e8ecd">Open PDFs while downloading</string>
+    <string name="t_fea9ac6bc5">Pages from servers, Google Drive and OneDrive show before the whole PDF arrives</string>
     <string name="t_fc70834a90">Browse above home folder</string>
     <string name="t_cc0e42ba94">Off: servers stop at your home folder</string>
     <string name="t_07cec07455">Server transfers on mobile data</string>
@@ -4855,6 +4859,10 @@
     <string name="t_a420abf6e8">Copyright</string>
     <string name="t_45aa94d570">Sample text</string>
     <string name="t_9ed0756254">ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789 !?&amp;@#%*()[]{}&lt;&gt;/\\|\"\'.,;:-+=_~^$€£¥</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/StreamedPdf.kt -->
+    <string name="t_5166d5e614">Download stopped: %s</string>
+    <string name="t_4399bd0326">Downloading %d%%. Search, forms and PDF tools are available when the download finishes.</string>
+    <string name="t_a8aa76b627">The PDF opens when the download finishes.</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/StructuredViewers.kt -->
     <string name="t_93da916681">Edit source</string>
     <string name="t_babffa51c5">File too large (over 20 MB)</string>
