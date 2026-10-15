@@ -1700,12 +1700,12 @@
     <string name="t_a04d26af55">The decoy vault and its files will be deleted.</string>
     <string name="t_d20f255a3c">Decoy removed</string>
     <string name="t_f8db75aa81">Couldn\'t remove decoy</string>
+    <string name="t_b9559ce489">Shown in menu</string>
     <string name="t_83f9746242">In private storage</string>
     <string name="t_9c2a37b4cb">In %s</string>
-    <string name="t_b3537d33cf">Type the secret word in Search to open</string>
-    <string name="t_b9559ce489">Shown in menu</string>
-    <string name="t_cfdfa0e47d">Vault hidden</string>
-    <string name="t_34d8b60fe2">Hide</string>
+    <string name="t_73c9914aeb">Hide from menu</string>
+    <string name="t_684106ebf4">Hidden. Type the secret word in Search to open it.</string>
+    <string name="t_e6f91ee086">Hidden from the menu. Type the secret word in Search to open it.</string>
     <string name="t_e56e2c8342">Back up…</string>
     <string name="t_bf252800df">Move to private storage</string>
     <string name="t_066c9e8510">Move to the vault folder</string>
@@ -1714,6 +1714,10 @@
     <string name="t_64020ed7b0">Remove “%s” from the menu?</string>
     <string name="t_52337a78ff">The vault and its files are kept. To open it again, show hidden files and tap its folder: %s</string>
     <string name="t_3b97ef6d8a">Removed from menu</string>
+    <string name="t_d378f6c459">Hide “%s”</string>
+    <string name="t_ae4c86de8f">The vault is removed from the menu. To open it, type the secret word in Search.</string>
+    <string name="t_0731d31716">At least %d characters</string>
+    <string name="t_34d8b60fe2">Hide</string>
     <string name="t_b5eb447bf7">Auto-lock</string>
     <string name="t_21b60a9549">Immediately</string>
     <string name="t_80c3052d33">Never</string>
@@ -3599,7 +3603,6 @@
     <string name="t_25bec04cd3">Your accounts and backups are encrypted with this password.</string>
     <string name="t_ea98b0395b">If you forget it, your codes can\'t be recovered.</string>
     <string name="t_4a7c565d4c">Confirm password</string>
-    <string name="t_0731d31716">At least %d characters</string>
     <string name="t_5f087918ec">Passwords don\'t match</string>
     <string name="t_35ba4a3372">Scanned %d of %d. Show the next code.</string>
     <string name="t_86a98cc4b0">Not an authenticator QR code</string>
