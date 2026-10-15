@@ -3167,6 +3167,9 @@
     <string name="t_3b7c5965ce">Save and restore settings</string>
     <string name="t_71ef638170">Screen lock</string>
     <string name="t_d94bba539d">PIN or password</string>
+    <string name="t_eb76a81dce">never lock automatically</string>
+    <string name="t_5d4ad03e0d">lock when leaving the app</string>
+    <string name="t_cb824b4e93">lock after %s min</string>
     <string name="t_6d88987464">Crash report available</string>
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
@@ -3303,10 +3306,6 @@
     <string name="t_fa867c08e4">Use metered networks</string>
     <string name="t_38e542fa30">Off: wait for an unmetered network</string>
     <string name="t_fe576212f0">Speed limit per download (KB/s, 0 = none)</string>
-    <string name="t_eb76a81dce">never lock automatically</string>
-    <string name="t_5d4ad03e0d">lock when leaving the app</string>
-    <string name="t_cb824b4e93">lock after %s min</string>
-    <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_b5057475b0">Reset remembered decisions</string>
     <string name="t_6ec8590dc3">Delete and overwrite will ask again</string>
     <string name="t_39134a4275">Remembered decisions reset</string>
@@ -3459,6 +3458,7 @@
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
     <string name="t_ef3eaaddb0">Couldn\'t complete: %s</string>
+    <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_607558d9fc">Vaults on this phone</string>
     <string name="t_7199f93c9c">No vaults</string>
     <string name="t_0e5216c2f7">In menu</string>
