@@ -125,6 +125,11 @@
     <string name="t_a731ca287e">Phone terminal</string>
     <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_8620a37e74">Server removed</string>
+    <!-- app/src/main/kotlin/tct/manyfile/background/CleanReminderJobService.kt -->
+    <string name="t_00a681619f">Cleaner</string>
+    <string name="t_6fd39ac448">Weekly reminders when junk has piled up</string>
+    <string name="t_0cf7287a00">%s of junk to clean</string>
+    <string name="t_6c4221327b">Caches, temporary files and empty folders. Tap to look in the Cleaner.</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/WifiShareService.kt -->
     <string name="t_ae25ad8e48">Receiving on Wi-Fi</string>
     <string name="t_b30469ec12">Sharing on Wi-Fi</string>
@@ -2219,7 +2224,6 @@
     <string name="t_c3ffcb9030">Words in photos</string>
     <string name="t_6b5a4d772d">WhatsApp statuses</string>
     <string name="t_341d29646c">Storage analyzer</string>
-    <string name="t_00a681619f">Cleaner</string>
     <string name="t_40c20d94e7">Series</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
@@ -2537,6 +2541,31 @@
     <string name="t_5751d51aff">Same (%s)</string>
     <string name="t_9f01510c90">The sound is copied exactly, without re-encoding.</string>
     <string name="t_11004627fa">The sound is re-encoded for this. The song itself stays unchanged.</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MediaCleanupScreen.kt -->
+    <string name="t_aee9e2a4ad">1 file moved to the Bin</string>
+    <string name="t_be780050e5">%d files moved to the Bin</string>
+    <string name="t_65eab689f1">Photos and videos to review</string>
+    <string name="t_f4cabb0026">Blurry (%d)</string>
+    <string name="t_704d6e32d3">Dark (%d)</string>
+    <string name="t_64783c256e">Screenshots (%d)</string>
+    <string name="t_3ad5e4b4f0">Big videos (%d)</string>
+    <string name="t_2193605ae9">Checked %1$d of %2$d camera photos</string>
+    <string name="t_d7ac87b51e">%d chosen</string>
+    <string name="t_0acdf7900b">Move to the Bin</string>
+    <string name="t_b937205721">No blurry photos found.</string>
+    <string name="t_249b75a233">Photos with faint edges, as when the phone moved or the focus missed.</string>
+    <string name="t_8d29daa0fc">No dark photos found.</string>
+    <string name="t_a08d9106be">Photos that are mostly black, as when taken in a pocket.</string>
+    <string name="t_fcde0dc033">No screenshots older than this.</string>
+    <string name="t_7d4278a875">30 days</string>
+    <string name="t_170621ac08">90 days</string>
+    <string name="t_e91535d890">Older than %s</string>
+    <string name="t_be0a22c6f9">Videos of 50 MB or more that would be much smaller at 720p. Compressing makes a copy; the video itself stays.</string>
+    <string name="t_07a1392707">No big videos to shrink.</string>
+    <string name="t_5506a0bf13">%1$s, about %2$s at 720p: saves %3$s</string>
+    <string name="t_000767aa61">%d photos</string>
+    <string name="t_618cfb0a53">Select none</string>
+    <string name="t_ba09a6e97b">Chosen</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
     <string name="t_e1404b4267">Songs</string>
     <string name="t_4c45e72e85">Albums</string>
@@ -3586,6 +3615,9 @@
     <string name="t_27ec24775a">%d years</string>
     <string name="t_2d8a6f7c34">1 day</string>
     <string name="t_0e3dee7646">%d days</string>
+    <string name="t_40e3a53fa3">Cleaning reminder</string>
+    <string name="t_52ed6912e7">Once a week, a notification when junk has piled up (nothing is deleted)</string>
+    <string name="t_728366eb75">Remind when junk reaches</string>
     <string name="t_f26ded19fc">Clear thumbnail cache</string>
     <string name="t_f99f46a417">Thumbnails are rebuilt when needed</string>
     <string name="t_9cfb511684">Thumbnail cache cleared: %s freed</string>
@@ -3871,6 +3903,7 @@
     <string name="t_f6ab55dd35">Scan again</string>
     <string name="t_cd4bcec305">Deep clean</string>
     <string name="t_73985ddd83">Every app\'s cache, apps\' folders, what removed apps left</string>
+    <string name="t_8ce4058570">Blurry and dark photos, old screenshots, big videos to shrink</string>
     <string name="t_2ae6f6f729">Scanning… %s files (%s)</string>
     <string name="t_47b6b05e8c">of junk selected</string>
     <string name="t_d448bc03ba">No junk selected</string>
@@ -3887,9 +3920,7 @@
     <string name="t_18764db058">Moving to Bin frees space only after %s days.</string>
     <string name="t_2c269f3f84">Any age</string>
     <string name="t_1de70fe01a">Older than 30 days</string>
-    <string name="t_170621ac08">90 days</string>
     <string name="t_21cc0b59ad">%s of %s · %s</string>
-    <string name="t_618cfb0a53">Select none</string>
     <string name="t_120c8013ac">Sent and received</string>
     <string name="t_27548c4fc9">Received</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/CompareScreens.kt -->
