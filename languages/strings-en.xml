@@ -1232,9 +1232,12 @@
     <string name="t_9bce7ad3f6">Couldn\'t remove lock: %s</string>
     <string name="t_62b0909e8a">Encrypting 1 item into “%s”…</string>
     <string name="t_56a5811494">Encrypting %d items into “%s”…</string>
+    <string name="t_c6522f1393">Choose a folder in phone storage</string>
     <string name="t_5e8ba2cd88">%s already exists in private storage</string>
     <string name="t_1b677bd6c9">Moving %s into private storage…</string>
+    <string name="t_baae662dc0">Moving %s to %s…</string>
     <string name="t_7dd918c8a8">%s moved to private storage</string>
+    <string name="t_c05597fc83">%s moved to %s</string>
     <string name="t_84227f6196">Couldn\'t move vault</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
     <string name="t_8fe9cab887">Compare “%s” with…</string>
@@ -1699,8 +1702,12 @@
     <string name="t_34d8b60fe2">Hide</string>
     <string name="t_e56e2c8342">Back up…</string>
     <string name="t_bf252800df">Move to private storage</string>
-    <string name="t_3b97ef6d8a">Removed from menu</string>
+    <string name="t_68ed955cec">Move to phone storage…</string>
     <string name="t_ea44a4fced">Remove from menu</string>
+    <string name="t_64020ed7b0">Remove “%s” from the menu?</string>
+    <string name="t_8a010ea206">The vault and its files are kept. Find it again in Settings → Vaults.</string>
+    <string name="t_3b97ef6d8a">Removed from menu</string>
+    <string name="t_0e99f04b51">Move vault to</string>
     <string name="t_b5eb447bf7">Auto-lock</string>
     <string name="t_21b60a9549">Immediately</string>
     <string name="t_80c3052d33">Never</string>
@@ -3438,6 +3445,12 @@
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
     <string name="t_ef3eaaddb0">Couldn\'t complete: %s</string>
+    <string name="t_607558d9fc">Vaults on this phone</string>
+    <string name="t_7199f93c9c">No vaults</string>
+    <string name="t_0e5216c2f7">In menu</string>
+    <string name="t_eb093b3b62">Not in menu</string>
+    <string name="t_c8cc941feb">Show in menu</string>
+    <string name="t_70695cf005">Vaults hidden with a secret word open by typing the word in Search.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
     <string name="t_ed8f174fbb">%s · %s files · %s folders</string>
     <string name="t_058581c6d7">Scanning… %s files, %s folders, %s\n%s</string>
