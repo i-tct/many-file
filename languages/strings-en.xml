@@ -4230,6 +4230,8 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/MediaDownloaderScreen.kt -->
     <string name="t_409f74bfa2">Couldn\'t download site list</string>
     <string name="t_b1e2ad6995">Downloading %s of “%s”.</string>
+    <string name="t_fe041d5fc0">With 1 subtitle language.</string>
+    <string name="t_d9abfa565b">With %d subtitle languages.</string>
     <string name="t_cbc0348d20">Invalid APK file</string>
     <string name="t_5083aaac1c">Media Engine signature doesn\'t match ManyFile</string>
     <string name="t_26ad099862">%s results</string>
@@ -4260,6 +4262,12 @@
     <string name="t_77003d0727">Best</string>
     <string name="t_5db2579261">Up to 720p</string>
     <string name="t_bdba76b783">Audio only</string>
+    <string name="t_4f0404731c">Hide automatic captions</string>
+    <string name="t_821b760170">Automatic captions (%d)</string>
+    <string name="t_25434433d5">Show all %d</string>
+    <string name="t_706d729a2a">Also inside the video</string>
+    <string name="t_1f6b39d6a5">Choose languages to download with the video.</string>
+    <string name="t_f5bd09e930">Saved as .srt files next to the video.</string>
     <string name="t_b0655f04d0">Save to %s</string>
     <string name="t_7724367b2d">Best and Up to 720p save as MP4 (H.264 + AAC) when available. More formats below.</string>
     <string name="t_5c3f6c860b">Remove from history</string>
