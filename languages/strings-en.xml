@@ -2402,7 +2402,7 @@
     <string name="t_3c9564ea04">Volume and equalizer</string>
     <string name="t_55005478d5">Player style: %s</string>
     <string name="t_135da9c677">No lyrics</string>
-    <string name="t_23cd0edf81">Add a .lrc or .txt file with the same name next to the song or in a Lyrics folder.</string>
+    <string name="t_06130c572f">This song has no lyrics in its tags. Add a .lrc or .txt file with the same name next to it, or in a Lyrics folder.</string>
     <string name="t_cb39e4278e">%s songs in the queue</string>
     <string name="t_3d2dc52da7">Remove from queue</string>
     <string name="t_298c390561">Playing</string>
