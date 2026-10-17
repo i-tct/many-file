@@ -590,8 +590,6 @@
     <string name="t_fc5e3df69d">%s moved to Bin</string>
     <string name="t_89c61872ce">Restoring %s</string>
     <string name="t_5712a9e66e">%s restored</string>
-    <string name="t_8c172782c1">Size of %s</string>
-    <string name="t_ad5b7aaccb">%s files, %s folders, %s</string>
     <string name="t_41005bf7b4">Renamed file not found</string>
     <string name="t_3e9f1aee32">Original name already in use</string>
     <string name="t_a1e0422f21">Moved items not found</string>
@@ -1279,9 +1277,7 @@
     <string name="t_12ec0d2e47">Path copied</string>
     <string name="t_a24ae22283">Name copied</string>
     <string name="t_920334b5d4">URI copied</string>
-    <string name="t_880683499a">Calculating %s…</string>
     <string name="t_866dc94bf3">Verifying files listed in %s…</string>
-    <string name="t_2366b12e68">Calculating size…</string>
     <string name="t_9ca6c2899f">No duplicates found</string>
     <string name="t_f6a0a91bcb">1 duplicate selected</string>
     <string name="t_4740701415">%d duplicates selected</string>
@@ -1352,10 +1348,9 @@
     <string name="t_e963907dac">Remove</string>
     <string name="t_bfdae583f0">Select by extension</string>
     <string name="t_8598222918">Select</string>
-    <string name="t_c57377940f">Calculating…</string>
     <string name="t_38272b180a">%d bytes</string>
-    <string name="t_4d7c76bfe6">%d files, %d folders</string>
     <string name="t_2c9c1f7914">Unavailable</string>
+    <string name="t_c57377940f">Calculating…</string>
     <string name="t_d219c68101">Location</string>
     <string name="t_19a532c8bc">Modified</string>
     <string name="t_64fbd995d3">Change</string>
@@ -1375,6 +1370,7 @@
     <string name="t_959eac7d41">Copy URI</string>
     <string name="t_d8fcd1cd02">Checksum</string>
     <string name="t_df7146627b">Verify…</string>
+    <string name="t_b646a2b93a">%s copied</string>
     <string name="t_1dd02addd0">Add tags</string>
     <string name="t_5301648dcf">Edit</string>
     <string name="t_2c924e3088">Note</string>
@@ -1648,6 +1644,11 @@
     <string name="t_c0a95862c3">Device, server, cloud or vault</string>
     <string name="t_78b7c9f6d6">Choose</string>
     <string name="t_9eaa6540f4">Vault %s</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SizeDialog.kt -->
+    <string name="t_a8e2f541b5">1 folder</string>
+    <string name="t_eb4768fa1a">%d folders</string>
+    <string name="t_651c77971d">This item couldn\'t be read.</string>
+    <string name="t_df9bd8e747">%d items couldn\'t be read and aren\'t counted.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SortSheet.kt -->
     <string name="t_a2a5bdeca9">Sort by</string>
     <string name="t_46e63a67d0">Folders first</string>
@@ -3124,6 +3125,7 @@
     <string name="t_519cef6ab7">Version %s</string>
     <string name="t_f15d627cc6">%s build</string>
     <string name="t_32faaecac7">debug</string>
+    <string name="t_0e76f40a25">Media Engine %s</string>
     <string name="t_ce0b2bbc09">Made by %s · Running on TCT Engine</string>
     <string name="t_5442e2b64f">GitHub</string>
     <string name="t_edbea9ff1a">Telegram</string>
@@ -3181,10 +3183,17 @@
     <string name="t_b6e7a55902">ManyFile %s</string>
     <string name="t_d6b1dc11a8">No app can open %s</string>
     <string name="t_736b9062b3">Check for updates</string>
-    <string name="t_694d39dc01">From GitHub releases</string>
-    <string name="t_130a9b53eb">ManyFile %s is up to date</string>
+    <string name="t_9e8883df0b">ManyFile and the Media Engine, from GitHub releases</string>
     <string name="t_6fd4ab12ee">No releases found</string>
     <string name="t_1c6953c91c">Couldn\'t check for updates</string>
+    <string name="t_130a9b53eb">ManyFile %s is up to date</string>
+    <string name="t_20439742fe">ManyFile %s is up to date. Couldn\'t check the Media Engine.</string>
+    <string name="t_943685fcf4">ManyFile %s and Media Engine %s are up to date</string>
+    <string name="t_de0ba390f6">Media Engine %s is available</string>
+    <string name="t_9d04d4e19d">Installed: %s.</string>
+    <string name="t_551f479036">Download: %s.</string>
+    <string name="t_5c57aebcad">This version of ManyFile recommends it.</string>
+    <string name="t_c177e4b0aa">Downloading…</string>
     <string name="t_c621da3e65">Check on startup</string>
     <string name="t_f67e8d0295">At most twice a day</string>
     <string name="t_2817459eb0">Checking for updates…</string>
@@ -3193,7 +3202,6 @@
     <string name="t_62e5e41eb4">ManyFile %s is available</string>
     <string name="t_dd3931af3e">A newer build of %s with fixes.</string>
     <string name="t_34b6473062">Current version: %s.</string>
-    <string name="t_551f479036">Download: %s.</string>
     <string name="t_cc3f27705d">Debug build. The release installs as a separate app.</string>
     <string name="t_0388ee8f1b">Download and install</string>
     <string name="t_7dd37a86f5">Downloaded file is not a valid APK</string>
@@ -3557,9 +3565,9 @@
     <string name="t_ea10de95c0">Swipe to seek or adjust brightness and volume, double-tap to skip, pinch to zoom</string>
     <string name="t_6fee1573b4">Double-tap skip (seconds)</string>
     <string name="t_43da85c5b8">Picture-in-picture</string>
-    <string name="t_1aeb7d0ea1">Continue in a floating window when leaving the app</string>
+    <string name="t_63b4bddb72">Continue in a floating window when leaving the app. Videos in a vault stop.</string>
     <string name="t_d76a24280b">Keep playing as audio</string>
-    <string name="t_a7faec6b52">Continue as audio when leaving the app or turning off the screen</string>
+    <string name="t_4f4c02031b">Continue as audio when leaving the app or turning off the screen. Videos in a vault stop.</string>
     <string name="t_6f19d35891">Stream server videos</string>
     <string name="t_bc3056c73d">Play SFTP, SMB and WebDAV videos without downloading first</string>
     <string name="t_919c6ea9ea">Auto-rotate</string>
@@ -4050,7 +4058,6 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/EngineOffer.kt -->
     <string name="t_c991c82690">Required for Media Downloader and Cut a song.</string>
     <string name="t_b367b7acb9">Update the Media Engine</string>
-    <string name="t_0e76f40a25">Media Engine %s</string>
     <string name="t_2fb549ea62">Get the Media Engine</string>
     <string name="t_f06616dffe">Media Engine %s or newer is recommended. Installed: %s.</string>
     <string name="t_bac04dc24b">Media Engine %s is ready to install.</string>
@@ -4060,7 +4067,6 @@
     <string name="t_7eae57cf13">Update available: Media Engine %s.</string>
     <string name="t_c11b0ed44a">Media Engine %s is available.</string>
     <string name="t_8f13712d1c">Not downloaded on mobile data.</string>
-    <string name="t_c177e4b0aa">Downloading…</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitMore.kt -->
     <string name="t_8ababd4584">New tag…</string>
     <string name="t_a26d2068b6">Push all tags</string>
@@ -4455,7 +4461,6 @@
     <string name="t_b9392a126d">Apps signed with this key can\'t be updated without a backup of it.</string>
     <string name="t_6d259a49c1">This removes the certificate from the keystore.</string>
     <string name="t_e01b26a785">%s has unsaved changes.</string>
-    <string name="t_b646a2b93a">%s copied</string>
     <string name="t_31ff8c3590">%s keystore</string>
     <string name="t_13526e9523">Unknown format</string>
     <string name="t_221a9aeab3">Enter the keystore password</string>
