@@ -251,8 +251,10 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/SharedFiles.kt -->
     <string name="t_60d310fa9b">Texte partagé %s</string>
     <string name="t_7d78dc0b15">Enregistrement de %s</string>
+    <string name="t_2077d60ace">%s ignoré : déjà présent</string>
     <string name="t_6164ba6bba">Impossible d’enregistrer %s : %s</string>
     <string name="t_7b1afc8476">%d sur %d non enregistrés : %s</string>
+    <string name="t_0680b67c5c">Rien d’enregistré</string>
     <string name="t_90838fa2ba">Enregistré sous %s</string>
     <string name="t_6c64abb1f8">%d fichiers enregistrés</string>
     <string name="t_ce7a979e89">L’application de partage a refusé l’accès</string>
@@ -587,8 +589,6 @@
     <string name="t_fc5e3df69d">%s déplacés vers la Corbeille</string>
     <string name="t_89c61872ce">Restauration de %s</string>
     <string name="t_5712a9e66e">%s restaurés</string>
-    <string name="t_8c172782c1">Taille de %s</string>
-    <string name="t_ad5b7aaccb">%s fichiers, %s dossiers, %s</string>
     <string name="t_41005bf7b4">Fichier renommé introuvable</string>
     <string name="t_3e9f1aee32">Le nom d’origine est déjà utilisé</string>
     <string name="t_a1e0422f21">Éléments déplacés introuvables</string>
@@ -626,8 +626,9 @@
     <string name="t_41991e7465">25 Mo (pièce jointe d’e-mail)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobEngine.kt -->
     <string name="t_a4f4ff12aa">Interrompu par le redémarrage de l’application</string>
-    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
     <string name="t_abf610ed20">Tâche de coffre-fort</string>
+    <string name="t_62bb1a25d8">Le coffre-fort est verrouillé</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
     <string name="t_fceb627b87">Échec : %s</string>
     <string name="t_b8300b2581">Flux de travail « %s » terminé</string>
     <string name="t_13f625269f">%s — terminé</string>
@@ -706,7 +707,6 @@
     <string name="t_c78b1032e0">%s ne peut pas être réduit à cette taille</string>
     <string name="t_9f98a56b44">%s photos</string>
     <string name="t_89c54b59b0">rien d’enregistré</string>
-    <string name="t_0680b67c5c">Rien d’enregistré</string>
     <string name="t_31582d9470">Enregistré sous %s : %s (auparavant %s)</string>
     <string name="t_13fd6d710f">%s photos compressées : %s (auparavant %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoConversion.kt -->
@@ -1033,11 +1033,16 @@
     <string name="t_306aaf3333">Ce dossier se trouve dans un coffre-fort</string>
     <string name="t_04bda393ba">Dossier déjà verrouillé</string>
     <string name="t_139e258c3d">Impossible d’ouvrir le nouveau verrou</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/VaultFormat.kt -->
+    <string name="t_ecd54a2420">Nom trop long pour un coffre-fort (%d octets au maximum)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/Vaults.kt -->
-    <string name="t_62bb1a25d8">Le coffre-fort est verrouillé</string>
+    <string name="t_061f910d3c">Utilisez au moins 8 caractères</string>
     <string name="t_583740eb28">Mot de passe incorrect. Si le coffre-fort a été modifié sur un autre appareil, utilisez le code de récupération.</string>
     <string name="t_ba0de92bb5">Code de récupération non valide</string>
     <string name="t_3a25ccee6d">Code de récupération incorrect</string>
+    <string name="t_382465bdc7">Le déverrouillage par empreinte ne fonctionne plus pour ce coffre-fort. Utilisez le mot de passe.</string>
+    <string name="t_3fb76972e7">Choisissez un autre mot de passe</string>
+    <string name="t_cfd4a39cf0">Le mot de passe leurre doit être différent du mot de passe du coffre-fort</string>
     <string name="t_b9fb9e92cd">L’ajout en fin de fichier n’est pas pris en charge dans les coffres-forts</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
     <string name="t_0b049b5346">Rien à faire</string>
@@ -1230,6 +1235,16 @@
     <string name="t_df8810204a">Toutes les notes de version</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Vu</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
+    <string name="t_d348ad5d27">Ajouter à %s</string>
+    <string name="t_590d058cc7">Sélectionner des fichiers et des dossiers</string>
+    <string name="t_dbd388ae9a">1 sélectionné</string>
+    <string name="t_b295fde49b">%d sélectionnés</string>
+    <string name="t_618cfb0a53">Ne rien sélectionner</string>
+    <string name="t_913afff1fa">Tout sélectionner</string>
+    <string name="t_fc7bb795bf">Déplacer retire les originaux de leurs dossiers. Copier les conserve.</string>
+    <string name="t_76cdb95072">Déplacer</string>
+    <string name="t_8920b20409">Dossier vide</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
     <string name="t_1ec01dc881">Copier vers</string>
     <string name="t_92816e8a2d">Copier ici</string>
@@ -1261,9 +1276,7 @@
     <string name="t_12ec0d2e47">Chemin copié</string>
     <string name="t_a24ae22283">Nom copié</string>
     <string name="t_920334b5d4">URI copiée</string>
-    <string name="t_880683499a">Calcul de %s…</string>
     <string name="t_866dc94bf3">Vérification des fichiers listés dans %s…</string>
-    <string name="t_2366b12e68">Calcul de la taille…</string>
     <string name="t_9ca6c2899f">Aucun doublon trouvé</string>
     <string name="t_f6a0a91bcb">1 doublon sélectionné</string>
     <string name="t_4740701415">%d doublons sélectionnés</string>
@@ -1274,6 +1287,7 @@
     <string name="t_4a2b73229a">Suppression de %s de %s…</string>
     <string name="t_904dac91ad">Extraction vers %s…</string>
     <string name="t_1bd8e13332">Impossible de placer un dossier dans lui-même</string>
+    <string name="t_64e80f313c">Les coffres-forts et les dossiers verrouillés ne peuvent pas être placés dans un coffre-fort</string>
     <string name="t_6b1fe63f78">Déplacement de 1 élément vers %s…</string>
     <string name="t_c8934f5db9">Déplacement de %d éléments vers %s…</string>
     <string name="t_6acf0e0452">Copie de 1 élément vers %s…</string>
@@ -1327,20 +1341,15 @@
     <string name="t_9f726188c1">Chiffrer</string>
     <string name="t_45127a7fa0">Sauvegarder le coffre-fort vers</string>
     <string name="t_2231a0921c">Sauvegarder ici</string>
-    <string name="t_65ca913249">Ajouter un dossier au coffre-fort</string>
-    <string name="t_8084a8c475">Ajouter ce dossier</string>
-    <string name="t_31b81c3586">Ajouter « %s » au coffre-fort</string>
-    <string name="t_45ce85e803">Le dossier est chiffré dans le coffre-fort. Déplacer supprime également les originaux.</string>
-    <string name="t_76cdb95072">Déplacer</string>
+    <string name="t_fb46e3745f">Coffre-fort</string>
     <string name="t_24caed032b">Retirer de l’archive ?</string>
     <string name="t_04103228aa">%s sera supprimé de l’archive. Cette action est irréversible.</string>
     <string name="t_e963907dac">Retirer</string>
     <string name="t_bfdae583f0">Sélectionner par extension</string>
     <string name="t_8598222918">Sélectionner</string>
-    <string name="t_c57377940f">Calcul…</string>
     <string name="t_38272b180a">%d octets</string>
-    <string name="t_4d7c76bfe6">%d fichiers, %d dossiers</string>
     <string name="t_2c9c1f7914">Indisponible</string>
+    <string name="t_c57377940f">Calcul…</string>
     <string name="t_d219c68101">Emplacement</string>
     <string name="t_19a532c8bc">Modifié</string>
     <string name="t_64fbd995d3">Modifier</string>
@@ -1360,6 +1369,7 @@
     <string name="t_959eac7d41">Copier l’URI</string>
     <string name="t_d8fcd1cd02">Somme de contrôle</string>
     <string name="t_df7146627b">Vérifier…</string>
+    <string name="t_b646a2b93a">%s copié</string>
     <string name="t_1dd02addd0">Ajouter des étiquettes</string>
     <string name="t_5301648dcf">Modifier</string>
     <string name="t_2c924e3088">Note</string>
@@ -1373,7 +1383,7 @@
     <string name="t_6c82e6dd86">Heure</string>
     <string name="t_b1b0ec6184">Le fichier existe déjà</string>
     <string name="t_bc5b55e360">« %s » existe déjà à la destination.</string>
-    <string name="t_0625c54e03">Écraser</string>
+    <string name="t_a7cf7b25a7">Remplacer</string>
     <string name="t_3da474537a">Ignorer</string>
     <string name="t_60c801a8f7">Conserver les deux</string>
     <string name="t_137b1bb228">Conserver le plus récent</string>
@@ -1384,7 +1394,6 @@
     <string name="t_90eceb016c">Préfixe</string>
     <string name="t_885db975a3">Suffixe</string>
     <string name="t_df251b06ee">Rechercher</string>
-    <string name="t_a7cf7b25a7">Remplacer</string>
     <string name="t_6e68193576">Regex</string>
     <string name="t_d18bbf9ea8">Respecter la casse</string>
     <string name="t_dd79723c56">N° de départ</string>
@@ -1513,7 +1522,6 @@
     <string name="t_d1f8e5ea93">Sélection</string>
     <string name="t_cc5c36812d">Basculer la sélection</string>
     <string name="t_0c0b01d469">Étendre la sélection</string>
-    <string name="t_913afff1fa">Tout sélectionner</string>
     <string name="t_247fd63183">Effacer la sélection</string>
     <string name="t_d7269b27c5">Ajouter à la sélection, sélectionner une plage</string>
     <string name="t_64a94a1394">Copier, couper, coller</string>
@@ -1635,6 +1643,11 @@
     <string name="t_c0a95862c3">Appareil, serveur, cloud ou coffre-fort</string>
     <string name="t_78b7c9f6d6">Choisir</string>
     <string name="t_9eaa6540f4">Coffre-fort %s</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SizeDialog.kt -->
+    <string name="t_a8e2f541b5">1 dossier</string>
+    <string name="t_eb4768fa1a">%d dossiers</string>
+    <string name="t_651c77971d">Cet élément n’a pas pu être lu.</string>
+    <string name="t_df9bd8e747">%d éléments n’ont pas pu être lus et ne sont pas comptés.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SortSheet.kt -->
     <string name="t_a2a5bdeca9">Trier par</string>
     <string name="t_46e63a67d0">Dossiers en premier</string>
@@ -1659,7 +1672,6 @@
     <string name="t_b993b0c537">Aucun résultat</string>
     <string name="t_495148fb9c">La Corbeille est vide</string>
     <string name="t_f79171b805">Aucun fichier avec cette étiquette</string>
-    <string name="t_8920b20409">Dossier vide</string>
     <string name="t_0bedec147e">Essayez une requête plus large.</string>
     <string name="t_1de8dba368">Syntaxe :</string>
     <string name="t_970d192f23">Affichage des %s premiers résultats. Affinez votre recherche.</string>
@@ -1674,6 +1686,7 @@
     <string name="t_8ea09b3a9d">L’appareil est rooté. Activez l’accès root pour gérer tous les fichiers.</string>
     <string name="t_554e4255c8">Shizuku est installé. Activez-le pour obtenir davantage d’accès.</string>
     <string name="t_26563efc2a">Activer</string>
+    <string name="t_f38008ed2d">Déverrouillez-le pour reprendre là où vous en étiez.</string>
     <string name="t_8e9a3fb3ca">Non utilisé pour</string>
     <string name="t_d97bc69a36">Les photos, la musique, les vidéos enregistrées, les sauvegardes et le dossier Documents sont exclus.</string>
     <string name="t_0fd6928c27">Aucun fichier inutilisé dans %s</string>
@@ -1713,6 +1726,8 @@
     <string name="t_4f9fe24857">Utilisez ce code si vous oubliez le mot de passe. Il ne sera plus affiché.</string>
     <string name="t_e3bf670cb1">J’ai enregistré le code</string>
     <string name="t_8e3868a957">vault.json manquant ou modifié restauré</string>
+    <string name="t_31ca4ab109">Le dossier du coffre-fort ou son fichier vault.json est manquant.</string>
+    <string name="t_8fec18efc4">Ce dossier n’est pas un coffre-fort ManyFile, ou son fichier vault.json est endommagé.</string>
     <string name="t_595ef66527">Impossible de déverrouiller</string>
     <string name="t_ba552c2af9">Le déverrouillage par empreinte a été réinitialisé. Utilisez le mot de passe.</string>
     <string name="t_0a915a5987">Déverrouiller %s</string>
@@ -1720,7 +1735,6 @@
     <string name="t_e60382de0d">Activer le déverrouillage par empreinte</string>
     <string name="t_df526fa3cd">Déverrouillage…</string>
     <string name="t_fed4c9053d">Empreinte</string>
-    <string name="t_fb46e3745f">Coffre-fort</string>
     <string name="t_15914698c5">Nouveau mot de passe pour %s</string>
     <string name="t_caad7a1005">Paramètres de %s</string>
     <string name="t_d850ee188c">Nouveau mot de passe</string>
@@ -1819,9 +1833,8 @@
     <string name="t_def2a545a3">%s copié</string>
     <string name="t_d089e2d5a5">Déplacement vers %s</string>
     <string name="t_e0f7ba8449">Copie vers %s</string>
-    <string name="t_0b4a170959">Ajouter des fichiers au coffre-fort…</string>
+    <string name="t_1437f31023">Ajouter au coffre-fort…</string>
     <string name="t_9fdaa23025">Ajouter des fichiers…</string>
-    <string name="t_fa901c6bfd">Ajouter un dossier au coffre-fort…</string>
     <string name="t_b9416ce8d4">Numériser un document…</string>
     <string name="t_16979508ff">Télécharger depuis une URL…</string>
     <string name="t_6917792a7b">Nouveau coffre-fort…</string>
@@ -2153,6 +2166,7 @@
     <string name="t_6bef9c1762">Saisissez un numéro de ligne</string>
     <string name="t_826179ae10">Fichier modifié sur le serveur</string>
     <string name="t_c6b029d726">%s a été modifié sur le serveur. L’écraser avec votre version ?</string>
+    <string name="t_0625c54e03">Écraser</string>
     <string name="t_a9888a4c8a">Conserver la copie du serveur</string>
     <string name="t_29267269c0">Modifications non enregistrées</string>
     <string name="t_abafdf073c">Enregistrer les modifications dans %s ?</string>
@@ -2571,7 +2585,6 @@
     <string name="t_07a1392707">Aucune grosse vidéo à réduire.</string>
     <string name="t_5506a0bf13">%1$s, environ %2$s en 720p : %3$s économisés</string>
     <string name="t_000767aa61">%d photos</string>
-    <string name="t_618cfb0a53">Ne rien sélectionner</string>
     <string name="t_ba09a6e97b">Sélectionné</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
     <string name="t_e1404b4267">Titres</string>
@@ -3111,6 +3124,7 @@
     <string name="t_519cef6ab7">Version %s</string>
     <string name="t_f15d627cc6">build %s</string>
     <string name="t_32faaecac7">débogage</string>
+    <string name="t_0e76f40a25">Moteur multimédia %s</string>
     <string name="t_ce0b2bbc09">Créé par %s · Fonctionne avec TCT Engine</string>
     <string name="t_5442e2b64f">GitHub</string>
     <string name="t_edbea9ff1a">Telegram</string>
@@ -3168,10 +3182,17 @@
     <string name="t_b6e7a55902">ManyFile %s</string>
     <string name="t_d6b1dc11a8">Aucune application ne peut ouvrir %s</string>
     <string name="t_736b9062b3">Rechercher des mises à jour</string>
-    <string name="t_694d39dc01">Depuis les versions GitHub</string>
-    <string name="t_130a9b53eb">ManyFile %s est à jour</string>
+    <string name="t_9e8883df0b">ManyFile et le Moteur multimédia, depuis les versions GitHub</string>
     <string name="t_6fd4ab12ee">Aucune version trouvée</string>
     <string name="t_1c6953c91c">Impossible de vérifier les mises à jour</string>
+    <string name="t_130a9b53eb">ManyFile %s est à jour</string>
+    <string name="t_20439742fe">ManyFile %s est à jour. Impossible de vérifier le Moteur multimédia.</string>
+    <string name="t_943685fcf4">ManyFile %s et le Moteur multimédia %s sont à jour</string>
+    <string name="t_de0ba390f6">Le Moteur multimédia %s est disponible</string>
+    <string name="t_9d04d4e19d">Installé : %s.</string>
+    <string name="t_551f479036">Téléchargement : %s.</string>
+    <string name="t_5c57aebcad">Cette version de ManyFile le recommande.</string>
+    <string name="t_c177e4b0aa">Téléchargement…</string>
     <string name="t_c621da3e65">Vérifier au démarrage</string>
     <string name="t_f67e8d0295">Au maximum deux fois par jour</string>
     <string name="t_2817459eb0">Recherche de mises à jour…</string>
@@ -3180,7 +3201,6 @@
     <string name="t_62e5e41eb4">ManyFile %s est disponible</string>
     <string name="t_dd3931af3e">Une version plus récente de %s avec des correctifs.</string>
     <string name="t_34b6473062">Version actuelle : %s.</string>
-    <string name="t_551f479036">Téléchargement : %s.</string>
     <string name="t_cc3f27705d">Version de débogage. La version publiée s’installe comme application distincte.</string>
     <string name="t_0388ee8f1b">Télécharger et installer</string>
     <string name="t_7dd37a86f5">Le fichier téléchargé n’est pas un APK valide</string>
@@ -3544,9 +3564,9 @@
     <string name="t_ea10de95c0">Glissez pour avancer/reculer ou régler la luminosité et le volume, double-touchez pour sauter, pincez pour zoomer</string>
     <string name="t_6fee1573b4">Saut par double appui (secondes)</string>
     <string name="t_43da85c5b8">Image dans l’image</string>
-    <string name="t_1aeb7d0ea1">Continuer dans une fenêtre flottante en quittant l’application</string>
+    <string name="t_63b4bddb72">Continuer dans une fenêtre flottante en quittant l’application. Les vidéos d’un coffre-fort s’arrêtent.</string>
     <string name="t_d76a24280b">Continuer comme audio</string>
-    <string name="t_a7faec6b52">Continuer en audio en quittant l’application ou en éteignant l’écran</string>
+    <string name="t_4f4c02031b">Continuer en audio en quittant l’application ou en éteignant l’écran. Les vidéos d’un coffre-fort s’arrêtent.</string>
     <string name="t_6f19d35891">Diffuser les vidéos des serveurs</string>
     <string name="t_bc3056c73d">Lire les vidéos SFTP, SMB et WebDAV sans les télécharger d’abord</string>
     <string name="t_919c6ea9ea">Rotation automatique</string>
@@ -4037,7 +4057,6 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/EngineOffer.kt -->
     <string name="t_c991c82690">Requis pour le Téléchargeur multimédia et Découper une chanson.</string>
     <string name="t_b367b7acb9">Mettre à jour le moteur multimédia</string>
-    <string name="t_0e76f40a25">Moteur multimédia %s</string>
     <string name="t_2fb549ea62">Obtenir le moteur multimédia</string>
     <string name="t_f06616dffe">Moteur multimédia %s ou plus récent recommandé. Installé : %s.</string>
     <string name="t_bac04dc24b">Moteur multimédia %s prêt à être installé.</string>
@@ -4047,7 +4066,6 @@
     <string name="t_7eae57cf13">Mise à jour disponible : Moteur multimédia %s.</string>
     <string name="t_c11b0ed44a">Le moteur multimédia %s est disponible.</string>
     <string name="t_8f13712d1c">Non téléchargé via les données mobiles.</string>
-    <string name="t_c177e4b0aa">Téléchargement…</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitMore.kt -->
     <string name="t_8ababd4584">Nouvelle étiquette…</string>
     <string name="t_a26d2068b6">Envoyer toutes les étiquettes</string>
@@ -4205,7 +4223,6 @@
     <string name="t_2f19be85c3">%d nouveaux fichiers seront supprimés</string>
     <string name="t_1a38fdc6fe">Les dépôts imbriqués sont conservés</string>
     <string name="t_cf8f885344">Les %d sélectionnés</string>
-    <string name="t_b295fde49b">%d sélectionnés</string>
     <string name="t_d3f0b43f65">Abandonner les modifications ?</string>
     <string name="t_896c73f2ca">%s revient à sa dernière version indexée ou validée. Cette action est irréversible.</string>
     <string name="t_01230ec028">renommé depuis %s</string>
@@ -4443,7 +4460,6 @@
     <string name="t_b9392a126d">Les applications signées avec cette clé ne pourront pas être mises à jour sans sauvegarde de celle-ci.</string>
     <string name="t_6d259a49c1">Cela supprime le certificat du magasin de clés.</string>
     <string name="t_e01b26a785">%s contient des modifications non enregistrées.</string>
-    <string name="t_b646a2b93a">%s copié</string>
     <string name="t_31ff8c3590">Magasin de clés %s</string>
     <string name="t_13526e9523">Format inconnu</string>
     <string name="t_221a9aeab3">Saisissez le mot de passe du magasin de clés</string>
@@ -4501,6 +4517,7 @@
     <string name="t_092eee229e">Cookies remplacés pour %s.</string>
     <string name="t_6a0f4e5ce0">%s et %s</string>
     <string name="t_256a1e3e48">%s et %s autres sites</string>
+    <string name="t_e857a6e267">X n’affiche aucune vidéo de cette publication aux visiteurs non connectés. Les publications sensibles et soumises à une limite d’âge nécessitent vos cookies X ; la publication peut aussi ne contenir aucune vidéo.</string>
     <string name="t_5ca2c573ff">Connexion requise. Mettez le Moteur multimédia à jour vers 0.5.0 ou plus récent pour utiliser les cookies.</string>
     <string name="t_b60e104773">Connexion requise. Les cookies pour %s ont expiré. Reconnectez-vous dans votre navigateur et collez de nouveaux cookies.</string>
     <string name="t_5a7203ea0b">Connexion requise. Les cookies pour %s n’ont pas fonctionné. Reconnectez-vous dans votre navigateur et collez de nouveaux cookies.</string>
