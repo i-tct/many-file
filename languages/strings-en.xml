@@ -252,8 +252,10 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/SharedFiles.kt -->
     <string name="t_60d310fa9b">Shared text %s</string>
     <string name="t_7d78dc0b15">Saving %s</string>
+    <string name="t_2077d60ace">Skipped %s: already there</string>
     <string name="t_6164ba6bba">Couldn\'t save %s: %s</string>
     <string name="t_7b1afc8476">%d of %d not saved: %s</string>
+    <string name="t_0680b67c5c">Nothing saved</string>
     <string name="t_90838fa2ba">Saved as %s</string>
     <string name="t_6c64abb1f8">%d files saved</string>
     <string name="t_ce7a979e89">Sharing app denied access</string>
@@ -627,8 +629,9 @@
     <string name="t_41991e7465">25 MB (email attachment)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobEngine.kt -->
     <string name="t_a4f4ff12aa">Interrupted by app restart</string>
-    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
     <string name="t_abf610ed20">Vault job</string>
+    <string name="t_62bb1a25d8">Vault is locked</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/JobOutcomes.kt -->
     <string name="t_fceb627b87">Failed: %s</string>
     <string name="t_b8300b2581">Workflow “%s” finished</string>
     <string name="t_13f625269f">%s — done</string>
@@ -707,7 +710,6 @@
     <string name="t_c78b1032e0">%s can\'t be made that small</string>
     <string name="t_9f98a56b44">%s photos</string>
     <string name="t_89c54b59b0">nothing saved</string>
-    <string name="t_0680b67c5c">Nothing saved</string>
     <string name="t_31582d9470">Saved as %s: %s (was %s)</string>
     <string name="t_13fd6d710f">Compressed %s photos: %s (were %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/PhotoConversion.kt -->
@@ -1034,11 +1036,16 @@
     <string name="t_306aaf3333">This folder is inside a vault</string>
     <string name="t_04bda393ba">Folder already locked</string>
     <string name="t_139e258c3d">Couldn\'t open the new lock</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/VaultFormat.kt -->
+    <string name="t_ecd54a2420">Name too long for a vault (at most %d bytes)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/Vaults.kt -->
-    <string name="t_62bb1a25d8">Vault is locked</string>
+    <string name="t_061f910d3c">Use at least 8 characters</string>
     <string name="t_583740eb28">Wrong password. If the vault was changed on another device, use the recovery code.</string>
     <string name="t_ba0de92bb5">Invalid recovery code</string>
     <string name="t_3a25ccee6d">Wrong recovery code</string>
+    <string name="t_382465bdc7">Fingerprint unlock no longer works for this vault. Use the password.</string>
+    <string name="t_3fb76972e7">Choose a different password</string>
+    <string name="t_cfd4a39cf0">The decoy password must be different from the vault password</string>
     <string name="t_b9fb9e92cd">Appending is not supported in vaults</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
     <string name="t_0b049b5346">Nothing to do</string>
@@ -1231,6 +1238,16 @@
     <string name="t_df8810204a">All release notes</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Watched</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
+    <string name="t_d348ad5d27">Add to %s</string>
+    <string name="t_590d058cc7">Select files and folders</string>
+    <string name="t_dbd388ae9a">1 selected</string>
+    <string name="t_b295fde49b">%d selected</string>
+    <string name="t_618cfb0a53">Select none</string>
+    <string name="t_913afff1fa">Select all</string>
+    <string name="t_fc7bb795bf">Move removes the originals from their folders. Copy keeps them.</string>
+    <string name="t_76cdb95072">Move</string>
+    <string name="t_8920b20409">Empty folder</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
     <string name="t_1ec01dc881">Copy to</string>
     <string name="t_92816e8a2d">Copy here</string>
@@ -1275,6 +1292,7 @@
     <string name="t_4a2b73229a">Removing %s from %s…</string>
     <string name="t_904dac91ad">Extracting to %s…</string>
     <string name="t_1bd8e13332">Cannot put a folder into itself</string>
+    <string name="t_64e80f313c">Vaults and locked folders can\'t be put into a vault</string>
     <string name="t_6b1fe63f78">Moving 1 item to %s…</string>
     <string name="t_c8934f5db9">Moving %d items to %s…</string>
     <string name="t_6acf0e0452">Copying 1 item to %s…</string>
@@ -1328,11 +1346,7 @@
     <string name="t_9f726188c1">Encrypt</string>
     <string name="t_45127a7fa0">Back up vault to</string>
     <string name="t_2231a0921c">Back up here</string>
-    <string name="t_65ca913249">Add folder to vault</string>
-    <string name="t_8084a8c475">Add this folder</string>
-    <string name="t_31b81c3586">Add “%s” to the vault</string>
-    <string name="t_45ce85e803">The folder is encrypted into the vault. Move also deletes the originals.</string>
-    <string name="t_76cdb95072">Move</string>
+    <string name="t_fb46e3745f">Vault</string>
     <string name="t_24caed032b">Remove from archive?</string>
     <string name="t_04103228aa">%s will be removed from the archive. This can\'t be undone.</string>
     <string name="t_e963907dac">Remove</string>
@@ -1374,7 +1388,7 @@
     <string name="t_6c82e6dd86">Time</string>
     <string name="t_b1b0ec6184">File already exists</string>
     <string name="t_bc5b55e360">“%s” already exists in the destination.</string>
-    <string name="t_0625c54e03">Overwrite</string>
+    <string name="t_a7cf7b25a7">Replace</string>
     <string name="t_3da474537a">Skip</string>
     <string name="t_60c801a8f7">Keep both</string>
     <string name="t_137b1bb228">Keep newest</string>
@@ -1385,7 +1399,6 @@
     <string name="t_90eceb016c">Prefix</string>
     <string name="t_885db975a3">Suffix</string>
     <string name="t_df251b06ee">Find</string>
-    <string name="t_a7cf7b25a7">Replace</string>
     <string name="t_6e68193576">Regex</string>
     <string name="t_d18bbf9ea8">Match case</string>
     <string name="t_dd79723c56">Start #</string>
@@ -1514,7 +1527,6 @@
     <string name="t_d1f8e5ea93">Selection</string>
     <string name="t_cc5c36812d">Toggle selection</string>
     <string name="t_0c0b01d469">Extend selection</string>
-    <string name="t_913afff1fa">Select all</string>
     <string name="t_247fd63183">Clear selection</string>
     <string name="t_d7269b27c5">Add to selection, select range</string>
     <string name="t_64a94a1394">Copy, cut, paste</string>
@@ -1660,7 +1672,6 @@
     <string name="t_b993b0c537">No results</string>
     <string name="t_495148fb9c">Bin is empty</string>
     <string name="t_f79171b805">No files with this tag</string>
-    <string name="t_8920b20409">Empty folder</string>
     <string name="t_0bedec147e">Try a broader query.</string>
     <string name="t_1de8dba368">Syntax:</string>
     <string name="t_970d192f23">Showing first %s results. Refine your search.</string>
@@ -1675,6 +1686,7 @@
     <string name="t_8ea09b3a9d">Device is rooted. Turn on root access to manage all files.</string>
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
+    <string name="t_f38008ed2d">Unlock it to continue where you left off.</string>
     <string name="t_8e9a3fb3ca">Not used for</string>
     <string name="t_d97bc69a36">Photos, music, recorded videos, backups and the Documents folder are excluded.</string>
     <string name="t_0fd6928c27">No unused files in %s</string>
@@ -1714,6 +1726,8 @@
     <string name="t_4f9fe24857">Use this code if you forget the password. It won\'t be shown again.</string>
     <string name="t_e3bf670cb1">I saved the code</string>
     <string name="t_8e3868a957">Restored missing or modified vault.json</string>
+    <string name="t_31ca4ab109">The vault\'s folder or its vault.json is missing.</string>
+    <string name="t_8fec18efc4">This folder is not a ManyFile vault, or its vault.json is damaged.</string>
     <string name="t_595ef66527">Couldn\'t unlock</string>
     <string name="t_ba552c2af9">Fingerprint unlock was reset. Use the password.</string>
     <string name="t_0a915a5987">Unlock %s</string>
@@ -1721,7 +1735,6 @@
     <string name="t_e60382de0d">Enable fingerprint unlock</string>
     <string name="t_df526fa3cd">Unlocking…</string>
     <string name="t_fed4c9053d">Fingerprint</string>
-    <string name="t_fb46e3745f">Vault</string>
     <string name="t_15914698c5">New password for %s</string>
     <string name="t_caad7a1005">%s settings</string>
     <string name="t_d850ee188c">New password</string>
@@ -1820,9 +1833,8 @@
     <string name="t_def2a545a3">Copied %s</string>
     <string name="t_d089e2d5a5">Moving to %s</string>
     <string name="t_e0f7ba8449">Copying to %s</string>
-    <string name="t_0b4a170959">Add files to vault…</string>
+    <string name="t_1437f31023">Add to vault…</string>
     <string name="t_9fdaa23025">Add files…</string>
-    <string name="t_fa901c6bfd">Add folder to vault…</string>
     <string name="t_b9416ce8d4">Scan document…</string>
     <string name="t_16979508ff">Download from URL…</string>
     <string name="t_6917792a7b">New vault…</string>
@@ -2154,6 +2166,7 @@
     <string name="t_6bef9c1762">Enter a line number</string>
     <string name="t_826179ae10">File changed on server</string>
     <string name="t_c6b029d726">%s was changed on the server. Overwrite it with your version?</string>
+    <string name="t_0625c54e03">Overwrite</string>
     <string name="t_a9888a4c8a">Keep server copy</string>
     <string name="t_29267269c0">Unsaved changes</string>
     <string name="t_abafdf073c">Save changes to %s?</string>
@@ -2572,7 +2585,6 @@
     <string name="t_07a1392707">No big videos to shrink.</string>
     <string name="t_5506a0bf13">%1$s, about %2$s at 720p: saves %3$s</string>
     <string name="t_000767aa61">%d photos</string>
-    <string name="t_618cfb0a53">Select none</string>
     <string name="t_ba09a6e97b">Chosen</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
     <string name="t_e1404b4267">Songs</string>
@@ -4206,7 +4218,6 @@
     <string name="t_2f19be85c3">%d new files will be deleted</string>
     <string name="t_1a38fdc6fe">Nested repositories are kept</string>
     <string name="t_cf8f885344">All %d selected</string>
-    <string name="t_b295fde49b">%d selected</string>
     <string name="t_d3f0b43f65">Discard changes?</string>
     <string name="t_896c73f2ca">%s reverts to its last staged or committed version. This can\'t be undone.</string>
     <string name="t_01230ec028">renamed from %s</string>
@@ -4502,6 +4513,7 @@
     <string name="t_092eee229e">Replaced cookies for %s.</string>
     <string name="t_6a0f4e5ce0">%s and %s</string>
     <string name="t_256a1e3e48">%s and %s more sites</string>
+    <string name="t_e857a6e267">X shows no video in this post to visitors who aren\'t signed in. Sensitive and age-restricted posts need your X cookies; the post may also have no video.</string>
     <string name="t_5ca2c573ff">Sign-in required. Update the Media Engine to 0.5.0 or newer to use cookies.</string>
     <string name="t_b60e104773">Sign-in required. Cookies for %s have expired. Sign in again in your browser and paste new cookies.</string>
     <string name="t_5a7203ea0b">Sign-in required. Cookies for %s didn\'t work. Sign in again in your browser and paste new cookies.</string>
