@@ -650,6 +650,11 @@
     <string name="t_fefebdc2cb">%s: %s — retrying in %s s (%s of %s)</string>
     <string name="t_4dd40e7bf7">%s changed, restarting</string>
     <string name="t_cc86940dec">Resuming %s at %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioConversion.kt -->
+    <string name="t_21016e0841">Converting %1$s to %2$s</string>
+    <string name="t_9283111c1c">Converting %1$s files to %2$s</string>
+    <string name="t_e539e5cf0b">Converted %s files</string>
+    <string name="t_26bf731113">Couldn\'t convert %1$s: %2$s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioExtraction.kt -->
     <string name="t_03e2e11d51">Extracting audio from %s</string>
     <string name="t_fa7f464169">Extracting audio from %s videos</string>
@@ -694,6 +699,7 @@
     <string name="t_a0769a6a58">Cookies require Media Engine 0.5.0 or later. Update the engine.</string>
     <string name="t_02df32b1e9">Cutting songs requires Media Engine 0.7.0 or later. Update it in Media Downloader.</string>
     <string name="t_66dd268eea">MP3, fades and other formats require Media Engine 0.12.0 or later. Update it in Media Downloader.</string>
+    <string name="t_6898c33a2a">Converting requires Media Engine 0.13.0 or later. Update it in Media Downloader.</string>
     <string name="t_d25165091f">No response</string>
     <string name="t_52e2db890a">Media Engine timed out after %s s</string>
     <string name="t_bb4320e135">Media Engine stopped</string>
@@ -1288,6 +1294,11 @@
     <string name="t_5221b51b33">Extract here</string>
     <string name="t_93509bf604">Nothing to undo</string>
     <string name="t_97c7f367c4">Nothing to redo</string>
+    <string name="t_2c5e59efa6">The clipboard is empty</string>
+    <string name="t_522c040063">Pasted image %s</string>
+    <string name="t_5306480fb6">Pasted file %s</string>
+    <string name="t_2f88072935">Nothing to paste</string>
+    <string name="t_ac6808683f">Pasted text %s</string>
     <string name="t_dcad9fdb40">Renamed to %s</string>
     <string name="t_6cdb1a4b32">1 item copied</string>
     <string name="t_0f3e8c73d7">%d items copied</string>
@@ -1528,6 +1539,22 @@
     <string name="t_daf6b585b3">faster</string>
     <string name="t_9b33046ed3">legacy</string>
     <string name="t_09979a78c9">File name</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/ConvertAudioDialog.kt -->
+    <string name="t_ceafe39770">Checking Media Engine…</string>
+    <string name="t_5dd6485d09">Requires Media Engine. Install it from Media Downloader.</string>
+    <string name="t_a7a0e54905">Not available in this version</string>
+    <string name="t_d58754228e">Update ManyFile to use this Media Engine.</string>
+    <string name="t_fec0e30489">Media Engine signature mismatch</string>
+    <string name="t_e719138f31">Convert %s files</string>
+    <string name="t_041a5dec48">Format</string>
+    <string name="t_a60f2c7360">Quality</string>
+    <string name="t_4edebe034f">%d kbps · highest quality</string>
+    <string name="t_915b068a0c">%d kbps · recommended</string>
+    <string name="t_3a4fa45a06">%d kbps · smallest</string>
+    <string name="t_d8c17ad73c">%d kbps</string>
+    <string name="t_e48da9df35">Lossless: the sound as it is in the file.</string>
+    <string name="t_78003c0d88">Saved next to the original. Videos give their sound.</string>
+    <string name="t_3f15ce7953">Convert</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
     <string name="t_3920b53601">Creates an encrypted .mfenc copy of each file (AES-256).</string>
@@ -1882,6 +1909,7 @@
     <string name="t_e0f7ba8449">Copying to %s</string>
     <string name="t_1437f31023">Add to vault…</string>
     <string name="t_9fdaa23025">Add files…</string>
+    <string name="t_b043056e91">Paste as file</string>
     <string name="t_b9416ce8d4">Scan document…</string>
     <string name="t_16979508ff">Download from URL…</string>
     <string name="t_6917792a7b">New vault…</string>
@@ -2014,6 +2042,7 @@
     <string name="t_f2668e73f0">Join PDFs…</string>
     <string name="t_bf2aced88c">Set as ringtone…</string>
     <string name="t_8720ee1d2f">Cut song…</string>
+    <string name="t_04e855c0ff">Convert to MP3…</string>
     <string name="t_3c7454e3c8">Compress video…</string>
     <string name="t_6c8d431fcc">Trim video…</string>
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
@@ -2568,7 +2597,6 @@
     <string name="t_b1c5a7af06">Track</string>
     <string name="t_1370004da7">Duration</string>
     <string name="t_7a031620c9">Sample rate</string>
-    <string name="t_041a5dec48">Format</string>
     <string name="t_13ae374e9d">Nothing playing</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CastControls.kt -->
     <string name="t_ccd8f74668">Cast to TV</string>
@@ -2601,11 +2629,6 @@
     <string name="t_3b1931ecdd">A compressed copy is saved next to each video.</string>
     <string name="t_da7572e938">Compressing %s videos</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CutSongScreen.kt -->
-    <string name="t_ceafe39770">Checking Media Engine…</string>
-    <string name="t_5dd6485d09">Requires Media Engine. Install it from Media Downloader.</string>
-    <string name="t_a7a0e54905">Not available in this version</string>
-    <string name="t_d58754228e">Update ManyFile to use this Media Engine.</string>
-    <string name="t_fec0e30489">Media Engine signature mismatch</string>
     <string name="t_3c4bf6c34e">%s (cut)</string>
     <string name="t_0650ea0f1c">Couldn\'t cut song</string>
     <string name="t_bb5ce25720">Cut a song</string>
@@ -2719,7 +2742,6 @@
     <string name="t_c737ce538e">Photo size</string>
     <string name="t_d01f8dc1fa">Margins</string>
     <string name="t_9ec4d86f6b">Wide</string>
-    <string name="t_a60f2c7360">Quality</string>
     <string name="t_b85ff05208">Small file</string>
     <string name="t_dab7a34f15">Saved next to the first photo.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SeriesScreen.kt -->
@@ -3301,6 +3323,8 @@
     <string name="t_49f55306ff">Also blocks screenshots</string>
     <string name="t_35e32744ce">Turn off app lock</string>
     <string name="t_54c0708f12">App lock off</string>
+    <string name="t_6223b2728c">Block screenshots</string>
+    <string name="t_3d10853b05">Also hides ManyFile in recent apps. Always on while a vault is open.</string>
     <string name="t_3737a4c3d5">Set PIN or password</string>
     <string name="t_6890406fa0">PIN (4 digits or more)</string>
     <string name="t_a3abe37c07">Password (6 characters or more)</string>
@@ -3466,6 +3490,14 @@
     <string name="t_0678e4dff0">Drag a tile to another card in Rearrange Home, or long-press → Move to</string>
     <string name="t_90d8adf19e">Dividers</string>
     <string name="t_e45a4ff15e">Lines between list items and around grid tiles</string>
+    <string name="t_3cc6e124a8">Text size</string>
+    <string name="t_4c3d9e4511">Vibrate on touch</string>
+    <string name="t_e315b3f31f">On long press, drag and scan</string>
+    <string name="t_7cf7e8e599">Largest</string>
+    <string name="t_35d8a95d3e">Language default (%s)</string>
+    <string name="t_b58f3b8e63">Phone setting</string>
+    <string name="t_18e8681926">24-hour</string>
+    <string name="t_41c18ba05d">12-hour</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
     <string name="t_4083561367">Or pinch to zoom in a folder</string>
@@ -3502,6 +3534,8 @@
     <string name="t_8e2be1c691">Reload when files change</string>
     <string name="t_2ac267b06f">Exact dates</string>
     <string name="t_b5428a5772">Date and time instead of “5 min ago” or “Yesterday”</string>
+    <string name="t_94ee886908">Date format</string>
+    <string name="t_8f3bd15394">Time format</string>
     <string name="t_e4514d5c80">Sizes in units of 1000</string>
     <string name="t_39703be7a1">kB, MB and GB as Android\'s Settings show storage</string>
     <string name="t_b126e77d3e">Press Back twice to leave</string>
@@ -3584,6 +3618,8 @@
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_90148442f2">Concurrent jobs</string>
     <string name="t_03e5ecb5d0">Applies after restart</string>
+    <string name="t_3fe9af15c6">Keep screen on during jobs</string>
+    <string name="t_f1a7eada6d">While ManyFile is open and copying or moving</string>
     <string name="t_812412a05e">Transfers</string>
     <string name="t_86a4261d84">verify</string>
     <string name="t_abe6b0adc4">%d retries</string>
@@ -3793,7 +3829,6 @@
     <string name="t_ed8f174fbb">%s · %s files · %s folders</string>
     <string name="t_058581c6d7">Scanning… %s files, %s folders, %s\n%s</string>
     <string name="t_ab478f3efc">Map</string>
-    <string name="t_7cf7e8e599">Largest</string>
     <string name="t_93b9e289e2">Types</string>
     <string name="t_c47bb88fdb">Oldest</string>
     <string name="t_d044282472">Newest</string>
