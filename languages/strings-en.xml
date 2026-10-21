@@ -3527,6 +3527,8 @@
     <string name="t_7c7a6f0de0">Preview of contents on folder icons (requires Thumbnails)</string>
     <string name="t_facb9c7f71">Language logos</string>
     <string name="t_2c089ece33">Logos on code files (JS, Rust, Python…)</string>
+    <string name="t_19f57d6ec8">Lock on locked folders</string>
+    <string name="t_ce628bf596">Off: locked folders look like any other folder</string>
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
