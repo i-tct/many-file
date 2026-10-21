@@ -249,6 +249,9 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/Notifications.kt -->
     <string name="t_825ce9e97d">Workflows</string>
     <string name="t_edc13f8ed3">Messages from Command Center workflows</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/ShareHelper.kt -->
+    <string name="t_2b1284a290">Only the first %s files are shared</string>
+    <string name="t_93b3b49eb5">Couldn\'t share: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/SharedFiles.kt -->
     <string name="t_60d310fa9b">Shared text %s</string>
     <string name="t_7d78dc0b15">Saving %s</string>
@@ -383,6 +386,9 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/chat/WhatsAppStatuses.kt -->
     <string name="t_06d4ec3f2d">Couldn\'t create folder %s</string>
     <string name="t_f7b2514d9c">Couldn\'t save %s</string>
+    <string name="t_328b29aca3">Already saved</string>
+    <string name="t_d4a5d5a14b">Saved to Pictures/Statuses</string>
+    <string name="t_3127d14ff9">Couldn\'t save: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
     <string name="t_bd7f28d59d">Couldn\'t connect to Google Drive: %s</string>
     <string name="t_dd5e64a627">Couldn\'t start Google Drive upload</string>
@@ -444,12 +450,13 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/PhotoBackup.kt -->
     <string name="t_61a5e43caf">Photo backup</string>
     <string name="t_09fef5d8d9">Failed</string>
-    <string name="t_8dde0eb556">No Google Drive account selected</string>
-    <string name="t_82fb1d5144">Up to date</string>
+    <string name="t_29af63655a">Choose where to back up</string>
     <string name="t_2e4eb0be62">%s not backed up</string>
+    <string name="t_b17aa907c9">%s: not available</string>
     <string name="t_f73966a7a1">%s backed up</string>
-    <string name="t_0b3f1491a2">%s already on Drive</string>
+    <string name="t_67a643f526">%s already backed up</string>
     <string name="t_17664465b6">%s failed</string>
+    <string name="t_82fb1d5144">Up to date</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/download/Downloads.kt -->
     <string name="t_9f4bbd5727">Download removed</string>
     <string name="t_fa285893a3">size unknown</string>
@@ -544,6 +551,7 @@
     <string name="t_4affcbf399">Not found or no access</string>
     <string name="t_7d0acaccd7">Permission denied: %s</string>
     <string name="t_6430504f5f">GitHub error: %s</string>
+    <string name="t_1c6bac2b29">Unexpected answer from GitHub</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubFiles.kt -->
     <string name="t_b837967df9">Couldn\'t create %s</string>
     <string name="t_b93f44b6eb">Uploaded %s to %s</string>
@@ -860,6 +868,8 @@
     <string name="t_328ed281c5">%s not found on this device. Check the memory card or USB drive. Nothing was synced.</string>
     <string name="t_f8f04a0cc9">%s not found on the server. Nothing was synced.</string>
     <string name="t_0059e4f60b">Invalid path</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SecretStore.kt -->
+    <string name="t_cff2437ae3">Couldn\'t save to secure storage</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
     <string name="t_47e855c8ff">Invalid server location</string>
     <string name="t_3d24273be4">Already exists</string>
@@ -933,6 +943,7 @@
     <string name="t_47944c7073">Invalid file name: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
     <string name="t_fd5135a5cb">Couldn\'t read image</string>
+    <string name="t_1e2a945adb">Not enough memory. Close other apps and try again.</string>
     <string name="t_083a599d45">Unsupported image</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/TextScanner.kt -->
     <string name="t_d441ed4e5d">Invalid text pattern</string>
@@ -1033,6 +1044,7 @@
     <string name="t_5ba542213a">Already a vault</string>
     <string name="t_306aaf3333">This folder is inside a vault</string>
     <string name="t_04bda393ba">Folder already locked</string>
+    <string name="t_2df13552e0">This folder contains a vault or a locked folder</string>
     <string name="t_139e258c3d">Couldn\'t open the new lock</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/VaultFormat.kt -->
     <string name="t_ecd54a2420">Name too long for a vault (at most %d bytes)</string>
@@ -1044,6 +1056,7 @@
     <string name="t_382465bdc7">Fingerprint unlock no longer works for this vault. Use the password.</string>
     <string name="t_3fb76972e7">Choose a different password</string>
     <string name="t_cfd4a39cf0">The decoy password must be different from the vault password</string>
+    <string name="t_91694e57d0">Locked folder</string>
     <string name="t_b9fb9e92cd">Appending is not supported in vaults</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
     <string name="t_0b049b5346">Nothing to do</string>
@@ -1139,6 +1152,17 @@
     <string name="t_a711cca9a4">Minimal</string>
     <string name="t_a0138b1e0d">Cassette</string>
     <string name="t_200f14b1dc">Waveform</string>
+    <string name="t_d403336798">Last folder</string>
+    <string name="t_70f8bb9a8a">Home</string>
+    <string name="t_7b12aa7fec">A folder…</string>
+    <string name="t_933bf21afd">Green</string>
+    <string name="t_7d44bc449c">Blue</string>
+    <string name="t_3b4e294693">Indigo</string>
+    <string name="t_32576f4fed">Purple</string>
+    <string name="t_54076359fd">Pink</string>
+    <string name="t_cc9db3a795">Red</string>
+    <string name="t_09fb6aaba7">Orange</string>
+    <string name="t_df0ad373b7">Teal</string>
     <string name="t_3ad0e36982">Allow</string>
     <string name="t_c35b32eb26">Only small transfers</string>
     <string name="t_ed8fa57334">Wait for Wi-Fi</string>
@@ -1177,9 +1201,9 @@
     <string name="t_ae1ef01432">Dark</string>
     <string name="t_b406fb57b2">Black</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Sorting.kt -->
-    <string name="t_c97d4c3ded">Headings</string>
+    <string name="t_03c3152c3e">Collapsible headings</string>
     <string name="t_19adc47be3">Folders</string>
-    <string name="t_e3de5ab0ca">Off</string>
+    <string name="t_ae8ea3820f">One list</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
@@ -1231,9 +1255,18 @@
     <string name="t_6e157c5da4">Create</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
     <string name="t_6619f4706d">Confirm it\'s you</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/PasswordReveal.kt -->
+    <string name="t_e40123b4e7">Hide password</string>
+    <string name="t_044b852f30">Show password</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ReleaseNotesViews.kt -->
     <string name="t_cc97e3ee87">What\'s new in %s</string>
     <string name="t_df8810204a">All release notes</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/SafeLauncher.kt -->
+    <string name="t_5b6a801eb5">No app found</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/StatusButtons.kt -->
+    <string name="t_98dd47501a">Repost</string>
+    <string name="t_c0ae8f6ea8">Saved</string>
+    <string name="t_efc007a393">Save</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Watched</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
@@ -1283,6 +1316,19 @@
     <string name="t_4740701415">%d duplicates selected</string>
     <string name="t_cd9d3e68e2">Removed from Quick access</string>
     <string name="t_cb3176be9c">Added to Quick access</string>
+    <string name="t_4af21ff552">Hidden. Show hidden files to see it.</string>
+    <string name="t_28ff73f36c">%d items hidden. Show hidden files to see them.</string>
+    <string name="t_c28b0d0b6f">1 item shown</string>
+    <string name="t_adc69b6dba">%d items shown</string>
+    <string name="t_417b6cae7a">Hidden from gallery</string>
+    <string name="t_3c90fa88b9">Shown in gallery</string>
+    <string name="t_94b04733ed">Not found: %s</string>
+    <string name="t_31be651616">Duplicating %s…</string>
+    <string name="t_357eab3a8a">Duplicating %d items…</string>
+    <string name="t_82ec46d3a4">Pinned to Home</string>
+    <string name="t_d0853a5cc5">%d items pinned to Home</string>
+    <string name="t_63ca087d62">Unpinned</string>
+    <string name="t_57d34ec057">%d items unpinned</string>
     <string name="t_8b227bf67a">Bookmark removed</string>
     <string name="t_c3d7518da1">Bookmarked</string>
     <string name="t_4a2b73229a">Removing %s from %s…</string>
@@ -1315,6 +1361,8 @@
     <string name="t_c05597fc83">%s moved to %s</string>
     <string name="t_84227f6196">Couldn\'t move vault</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
+    <string name="t_08f5011769">Go to folder</string>
+    <string name="t_7ba3eb6052">Enter a path</string>
     <string name="t_8fe9cab887">Compare “%s” with…</string>
     <string name="t_8d105cf44d">Compare</string>
     <string name="t_d3f4cb898f">Rename</string>
@@ -1330,7 +1378,6 @@
     <string name="t_357e62a92e">All items in the Bin will be deleted permanently.</string>
     <string name="t_48c1b22e19">Empty Bin</string>
     <string name="t_1db74771ff">Save search</string>
-    <string name="t_efc007a393">Save</string>
     <string name="t_048a4d60ac">From %s</string>
     <string name="t_2f3b5c55bc">Browse</string>
     <string name="t_3cbe6d6b9a">Restore</string>
@@ -1423,7 +1470,6 @@
     <string name="t_1b02cabf91">e.g. TODO, a function name</string>
     <string name="t_fe28dcc3d4">Searches text files only</string>
     <string name="t_719ea396ad">Clear</string>
-    <string name="t_c0ae8f6ea8">Saved</string>
     <string name="t_149fd082ea">Remove saved search</string>
     <string name="t_f0b938614d">Verify checksum</string>
     <string name="t_77426fe8ca">Expected checksum (MD5, SHA-1, SHA-256, BLAKE3)</string>
@@ -1505,7 +1551,6 @@
     <string name="t_835f3b50e3">selected</string>
     <string name="t_76d5f62f8c">Quick look</string>
     <string name="t_0c27f83ff9">Inside: %s</string>
-    <string name="t_91694e57d0">Locked folder</string>
     <string name="t_b9c57a36b1">9999+ items</string>
     <string name="t_19884f402f">1 item</string>
     <string name="t_7ee737c83e">dir</string>
@@ -1831,6 +1876,7 @@
     <string name="t_39fc721248">Undo</string>
     <string name="t_0b3b3c8f57">No recently closed tabs</string>
     <string name="t_b08c0f71c9">Properties unavailable</string>
+    <string name="t_0ea2413ce3">%s is no longer there</string>
     <string name="t_def2a545a3">Copied %s</string>
     <string name="t_d089e2d5a5">Moving to %s</string>
     <string name="t_e0f7ba8449">Copying to %s</string>
@@ -1857,8 +1903,9 @@
     <string name="t_d145987415">Applies to all folders</string>
     <string name="t_d7613ef268">(incognito)</string>
     <string name="t_57f5f5efbc">Menu</string>
-    <string name="t_70f8bb9a8a">Home</string>
+    <string name="t_7498ca3161">Lock folder</string>
     <string name="t_20e099adca">Lock vault</string>
+    <string name="t_ee3262eee3">Folder lock settings</string>
     <string name="t_c3ecbc858f">Vault settings</string>
     <string name="t_6f23a36f0a">New tab</string>
     <string name="t_2ff9942988">Sort by: %s</string>
@@ -1867,21 +1914,26 @@
     <string name="t_ba15243c4e">Sort by…  (%s)</string>
     <string name="t_313463d3c8">Show hidden</string>
     <string name="t_4bab2d8fe1">More</string>
+    <string name="t_4c83071836">Go to folder…</string>
     <string name="t_e29dc2a85b">Duplicate tab</string>
     <string name="t_a388818400">New window</string>
     <string name="t_566f549e0b">New incognito tab</string>
-    <string name="t_279bad8b70">Unpin tab</string>
-    <string name="t_3623fa201b">Pin tab</string>
     <string name="t_296b59cd29">Close tab</string>
     <string name="t_1a6d5b07e4">Close other tabs</string>
     <string name="t_6a462fb6d1">Dual pane</string>
     <string name="t_edd880e08b">Compare panes</string>
     <string name="t_adadaa4165">Undo: %s</string>
     <string name="t_ae2f2b3538">Redo: %s</string>
-    <string name="t_7da72075a1">Remove bookmark</string>
+    <string name="t_af8ade9a85">Folder properties</string>
+    <string name="t_9c91841471">Pin</string>
+    <string name="t_2b9a992ca1">Unpin this folder</string>
+    <string name="t_31bccb3028">Pin this folder</string>
+    <string name="t_279bad8b70">Unpin tab</string>
+    <string name="t_3623fa201b">Pin tab</string>
     <string name="t_adafcafc4f">Remove from Quick access</string>
     <string name="t_92f065e998">Add to Quick access</string>
-    <string name="t_af8ade9a85">Folder properties</string>
+    <string name="t_7da72075a1">Remove bookmark</string>
+    <string name="t_85773bc941">Add to home screen</string>
     <string name="t_26517a255a">Extract all</string>
     <string name="t_9b97c17789">Test archive</string>
     <string name="t_0e3fbc23eb">Git: %s…</string>
@@ -1905,7 +1957,6 @@
     <string name="t_3a43e56f34">Move right</string>
     <string name="t_9aadc6fdf3">Move to start</string>
     <string name="t_2eba6a03b8">Unpin</string>
-    <string name="t_9c91841471">Pin</string>
     <string name="t_972d57379d">Duplicate</string>
     <string name="t_557011ea97">Move to new window</string>
     <string name="t_ed164348b5">Close tabs to the left (%s)</string>
@@ -1916,6 +1967,7 @@
     <string name="t_1b89ee22d4">Search tabs</string>
     <string name="t_d5a63c95d4">everything</string>
     <string name="t_35bbf79557">in %s</string>
+    <string name="t_0b3e02b9c7">Bin · Items stay until deleted</string>
     <string name="t_f62923958c">Bin · Items deleted after %s days</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
@@ -1931,15 +1983,24 @@
     <string name="t_1f8c35f1e3">Server failed</string>
     <string name="t_86e58bafc1">Extract selected</string>
     <string name="t_adf39f54a4">Remove from archive</string>
+    <string name="t_03f6fdec3b">Lock folder…</string>
     <string name="t_38d13bda5c">Cut</string>
     <string name="t_a1e34f9157">More actions</string>
     <string name="t_fd6c3ebf7b">Install</string>
+    <string name="t_f963014162">Open folder</string>
     <string name="t_71bf47a728">Open in new tab</string>
-    <string name="t_85773bc941">Add to home screen</string>
+    <string name="t_0a4cb13c05">Show in folder</string>
+    <string name="t_29a4657d21">Hide from gallery</string>
+    <string name="t_819c3934d3">Pin to Home</string>
+    <string name="t_441da1bf0e">Bookmark</string>
+    <string name="t_6a03c4dd36">Delete photos</string>
+    <string name="t_ee70a54741">Delete videos</string>
+    <string name="t_223d8539d8">Delete files</string>
     <string name="t_48ad074759">Batch rename…</string>
     <string name="t_4c24e5aa26">Copy to…</string>
     <string name="t_c0a3ef619a">Move to…</string>
-    <string name="t_03f6fdec3b">Lock folder…</string>
+    <string name="t_37f0297a2e">Unhide</string>
+    <string name="t_43a1488ee2">Show in gallery</string>
     <string name="t_5ddd524a38">Decrypt…</string>
     <string name="t_cd4c044ae4">Encrypt…</string>
     <string name="t_2ae903583b">Compress PDF…</string>
@@ -1985,7 +2046,6 @@
     <string name="t_dd5d3dbe00">Compare bytes</string>
     <string name="t_b788ba9c87">Compare with…</string>
     <string name="t_fac13fcb46">Tags…</string>
-    <string name="t_441da1bf0e">Bookmark</string>
     <string name="t_001de2b938">Calculate size</string>
     <string name="t_295763d01c">Clipboard history</string>
     <string name="t_731b577ab2">Paste here</string>
@@ -2073,7 +2133,6 @@
     <string name="t_0f19d314be">Run server command</string>
     <string name="t_cf94bdf391">Ask a question</string>
     <string name="t_999ad4a170">Show notification</string>
-    <string name="t_f963014162">Open folder</string>
     <string name="t_55fb1ba3f5">Find files</string>
     <string name="t_34dbd5c4c8">Wait</string>
     <string name="t_a0022537f2">Set variable</string>
@@ -2193,10 +2252,13 @@
     <string name="t_0a44446762">Save failed</string>
     <string name="t_1b18781995">Saved to %s</string>
     <string name="t_63c1871f15">Saved locally. Upload failed: %s</string>
+    <string name="t_ee360b4a54">Invalid replacement: %s</string>
+    <string name="t_8952f4157a">Too many matches (%s). Narrow the search.</string>
     <string name="t_f6a6d0a2e7">Text changed. Try again.</string>
     <string name="t_22abd1780e">Replaced %s</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/LargeTextViewerScreen.kt -->
     <string name="t_73ff649f9f">Couldn\'t read file</string>
+    <string name="t_0e6ab346cc">Too many lines to index on this phone</string>
     <string name="t_449f692503">Indexing %s…</string>
     <string name="t_03b6be9d6c">%s lines</string>
     <string name="t_eba016d5f2">Follow (tail -f)</string>
@@ -2227,6 +2289,7 @@
     <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
+    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_222d511a70">Add cloud drive…</string>
     <string name="t_d9a36850b7">Apps</string>
     <string name="t_45e5f3f72e">Commands</string>
@@ -2236,7 +2299,7 @@
     <string name="t_90e82471bd">Unused files</string>
     <string name="t_ee79525942">Similar photos</string>
     <string name="t_c3ffcb9030">Words in photos</string>
-    <string name="t_6b5a4d772d">WhatsApp statuses</string>
+    <string name="t_bd7b901270">Status saver</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_40c20d94e7">Series</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
@@ -2263,10 +2326,12 @@
     <string name="t_551a46e55e">Hide %s</string>
     <string name="t_12e93a8a78">To hide it, set a secret word in the vault\'s settings</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->
+    <string name="t_a798882f1c">Locked</string>
     <string name="t_98b0ed858a">Add account</string>
     <string name="t_5dcc791366">Add another account</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
     <string name="t_017b278c13">Drag ≡ to reorder sections, long-press to move tiles, tap − to hide.</string>
+    <string name="t_7a6728bdc2">Icon size</string>
     <string name="t_762cb6eaf4">Drag %s</string>
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
@@ -2275,7 +2340,6 @@
     <string name="t_0bb24eb942">APKs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
-    <string name="t_e92aab82fc">Statuses</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
     <string name="t_858df0c869">Wi-Fi share</string>
     <string name="t_28cba55d2a">Scan</string>
@@ -2284,6 +2348,10 @@
     <string name="t_6cb2b4b5ca">Lock %s</string>
     <string name="t_bcc8bd37f9">%s locked</string>
     <string name="t_60660d0972">%s unlocked</string>
+    <string name="t_ca461e627d">Unlock %s?</string>
+    <string name="t_64974141bc">Lock %s?</string>
+    <string name="t_51c31e8486">It will open without the screen lock.</string>
+    <string name="t_9fc0b54c39">It will open only after your fingerprint or screen lock.</string>
     <string name="t_8cbe703f2a">Hide %s?</string>
     <string name="t_76985e982d">Show it again from Rearrange Home.</string>
     <string name="t_d098e97544">Remove %s from Quick access?</string>
@@ -2294,12 +2362,12 @@
     <string name="t_c5e23457aa">connected</string>
     <string name="t_544aa0b589">Manage bookmarks</string>
     <string name="t_d25e5aef9a">added %s</string>
-    <string name="t_0a4cb13c05">Show in folder</string>
     <string name="t_32b5b990d5">Remove from Recent</string>
     <string name="t_0d52befa5c">Rearrange Home</string>
     <string name="t_03eb1a4433">Add folder</string>
     <string name="t_64ca199c85">Replace…</string>
     <string name="t_94ac9a58b6">Rename…</string>
+    <string name="t_9d187d3f8f">Change icon…</string>
     <string name="t_9155fcfc36">Lock…</string>
     <string name="t_e2913e431d">Hide from Home…</string>
     <string name="t_eaa66a3a4d">Remove from Quick access…</string>
@@ -2311,7 +2379,6 @@
     <string name="t_b804021212">All tools are on Home</string>
     <string name="t_e4fb25be04">Add %s</string>
     <string name="t_5a7834eab7">Remove %s</string>
-    <string name="t_a798882f1c">Locked</string>
     <string name="t_7842d8c3f5">Tap to grant access</string>
     <string name="t_c8b2e864ec">Photos</string>
     <string name="t_da021d8e37">App files</string>
@@ -2369,6 +2436,10 @@
     <string name="t_2b2559a674">Year after</string>
     <string name="t_7426bed660">All of %s</string>
     <string name="t_f95f4561cb">A day, or the first and last day</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/TileLooks.kt -->
+    <string name="t_1ca19f050a">Icon for %s</string>
+    <string name="t_ba09a6e97b">Chosen</string>
+    <string name="t_c0a8060f3b">Original</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_2f601b8095">Couldn\'t reach server</string>
     <string name="t_a6cf8f3559">For direct file links (.zip, .apk, .mp4, .pdf…).</string>
@@ -2586,7 +2657,6 @@
     <string name="t_07a1392707">No big videos to shrink.</string>
     <string name="t_5506a0bf13">%1$s, about %2$s at 720p: saves %3$s</string>
     <string name="t_000767aa61">%d photos</string>
-    <string name="t_ba09a6e97b">Chosen</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
     <string name="t_e1404b4267">Songs</string>
     <string name="t_4c45e72e85">Albums</string>
@@ -2595,6 +2665,7 @@
     <string name="t_77b69f32c8">Playlists</string>
     <string name="t_d362922b87">Plays next</string>
     <string name="t_53cf48115c">Added to the queue</string>
+    <string name="t_0291b9f703">Couldn\'t change %s</string>
     <string name="t_621f8ce617">No artists in the music library</string>
     <string name="t_755173302f">No genres in the music library</string>
     <string name="t_e6ccc0fdea">Favourites</string>
@@ -2604,6 +2675,7 @@
     <string name="t_773b444b83">New playlist…</string>
     <string name="t_a5474a872e">New playlist</string>
     <string name="t_29e84521a4">Playlist %s made</string>
+    <string name="t_95277d3c88">Couldn\'t make the playlist: %s</string>
     <string name="t_279af0e5ff">Rename playlist</string>
     <string name="t_5b772b7bfd">Shuffle</string>
     <string name="t_b55b186d3a">Delete playlist</string>
@@ -2751,6 +2823,7 @@
     <string name="t_458e0cca0e">End of this video</string>
     <string name="t_99823a982e">Volume boost</string>
     <string name="t_7b8d447254">For this video. Very loud sound can distort on small speakers.</string>
+    <string name="t_38b9bd97df">WhatsApp not installed</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoToolDialogs.kt -->
     <string name="t_b75f23d1d0">Rotate right</string>
     <string name="t_c5d09a00a9">90° clockwise</string>
@@ -2855,8 +2928,8 @@
     <string name="t_66dac4e14b">Reconnect automatically</string>
     <string name="t_931daa9ac1">Retry when the connection drops</string>
     <string name="t_c3166208a9">Server already exists as “%s”</string>
-    <string name="t_85dab4ffa8">Connected · home folder %s</string>
     <string name="t_cee48b11fe">Not saved: %s</string>
+    <string name="t_85dab4ffa8">Connected · home folder %s</string>
     <string name="t_3cfdd883ac">Test and save</string>
     <string name="t_f74c5aa5a7">Address can\'t contain spaces</string>
     <string name="t_65d6e1e5c0">Address only. Enter shares and folders in Start folder.</string>
@@ -3248,20 +3321,19 @@
     <string name="t_e8d4bfc82e">Settings restored</string>
     <string name="t_162ac96a28">Restart to apply.</string>
     <string name="t_af2c3d8ef2">Restart now</string>
-    <string name="t_07c2964c41">Google Drive</string>
     <string name="t_19de95033d">Saved automatically to a ManyFile folder</string>
     <string name="t_f6005584e2">Backing up…</string>
     <string name="t_bc3ec50969">Last backup %s</string>
     <string name="t_c60bd5d348">Not backed up yet</string>
-    <string name="t_ce5375d852">Back up to Google Drive</string>
-    <string name="t_e7fac2fc45">No Google Drive account.</string>
+    <string name="t_f012e3b37e">Back up to the cloud</string>
+    <string name="t_f3294acbc9">No cloud account. Add Google Drive here, or OneDrive or MEGA from the menu\'s Cloud.</string>
     <string name="t_cb428fea97">Add Google Drive</string>
     <string name="t_2bd365b548">To %s</string>
     <string name="t_527bf1aa5d">Back up now</string>
-    <string name="t_3a6b3d05d6">Settings backed up to Google Drive</string>
-    <string name="t_306c3df0a4">Restore from Google Drive…</string>
-    <string name="t_b183e2cdcd">Restore from Google Drive</string>
-    <string name="t_dad4beefbd">No backups in this Drive</string>
+    <string name="t_d18c827053">Settings backed up to %s</string>
+    <string name="t_802e9ce107">Restore from %s…</string>
+    <string name="t_028a221109">Restore from %s</string>
+    <string name="t_5d8a573743">No backups here</string>
     <string name="t_fed70174d4">%d settings</string>
     <string name="t_b7d02e7254">%d bookmarks and Quick access folders</string>
     <string name="t_cc9c7f4c98">%d servers</string>
@@ -3340,10 +3412,12 @@
     <string name="t_937dc13be3">dividers</string>
     <string name="t_5f298b3685">sort by %s</string>
     <string name="t_1931f0d317">hidden files</string>
+    <string name="t_af89164460">Tabs off</string>
+    <string name="t_e2139f3317">dual pane</string>
     <string name="t_c6a6b82d30">Restore tabs</string>
     <string name="t_a503c5b794">Fresh start</string>
+    <string name="t_081802f280">current tab</string>
     <string name="t_7594277659">swipe for new tab</string>
-    <string name="t_e2139f3317">dual pane</string>
     <string name="t_73f7688e67">Delete: %s</string>
     <string name="t_6e8e17fa9d">existing files: %s</string>
     <string name="t_20b2aa1303">No defaults</string>
@@ -3357,6 +3431,7 @@
     <string name="t_5866a5f327">%s player</string>
     <string name="t_c398fa223b">background playback</string>
     <string name="t_a9706e3d75">video gestures</string>
+    <string name="t_03b9324ae2">Bin keeps items until deleted</string>
     <string name="t_9c4ea157de">Bin keeps %d days</string>
     <string name="t_7c350d6a7c">recents on</string>
     <string name="t_444872b213">recents off</string>
@@ -3382,6 +3457,13 @@
     <string name="t_f35a605d19">Item counts on Home and in the menu</string>
     <string name="t_4e947596f8">Storage map on Home</string>
     <string name="t_5fa41619d6">Storage usage by file type</string>
+    <string name="t_72b714ce85">Lock Home layout</string>
+    <string name="t_f7f96d5317">No rearranging, renaming or hiding on Home</string>
+    <string name="t_0779961bcf">Home icon size</string>
+    <string name="t_b78a45fef3">Pinch to resize Home icons</string>
+    <string name="t_2447b7c9e4">Two fingers on Home make icons bigger or smaller</string>
+    <string name="t_2512fa5546">Move tiles between cards</string>
+    <string name="t_0678e4dff0">Drag a tile to another card in Rearrange Home, or long-press → Move to</string>
     <string name="t_90d8adf19e">Dividers</string>
     <string name="t_e45a4ff15e">Lines between list items and around grid tiles</string>
     <string name="t_2ae3a9285a">Default layout</string>
@@ -3391,7 +3473,9 @@
     <string name="t_91de17efe9">%s · icon and text size</string>
     <string name="t_37f9c1a6a5">Show hidden files</string>
     <string name="t_6fdbcce4e4">Names starting with a dot</string>
-    <string name="t_b0c9f5e444">Group by source in Images, Videos, Audio and Documents</string>
+    <string name="t_774d3b0f86">Images, Videos and Audio</string>
+    <string name="t_68c1fb1304">File type chips</string>
+    <string name="t_e526d83c79">Filter Images, Videos and search results by file type</string>
     <string name="t_12e853a079">Item details</string>
     <string name="t_89368e1d68">size</string>
     <string name="t_e927d0677c">date</string>
@@ -3409,11 +3493,19 @@
     <string name="t_3ba684212a">Images, videos, song covers, PDFs and APK icons</string>
     <string name="t_15bfc09591">Folder previews</string>
     <string name="t_7c7a6f0de0">Preview of contents on folder icons (requires Thumbnails)</string>
+    <string name="t_facb9c7f71">Language logos</string>
+    <string name="t_2c089ece33">Logos on code files (JS, Rust, Python…)</string>
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_8e2be1c691">Reload when files change</string>
+    <string name="t_2ac267b06f">Exact dates</string>
+    <string name="t_b5428a5772">Date and time instead of “5 min ago” or “Yesterday”</string>
+    <string name="t_e4514d5c80">Sizes in units of 1000</string>
+    <string name="t_39703be7a1">kB, MB and GB as Android\'s Settings show storage</string>
+    <string name="t_b126e77d3e">Press Back twice to leave</string>
+    <string name="t_c0e549462d">On Home, Back once more leaves ManyFile</string>
     <string name="t_c2a9a0ce74">Instant search</string>
     <string name="t_1a9d817383">Index files</string>
     <string name="t_20b2349aa7">Index file names for instant results</string>
@@ -3444,6 +3536,7 @@
     <string name="t_4cfca2bfdc">Browsing starts at internal storage</string>
     <string name="t_cb5d2ec041">Browse above internal storage</string>
     <string name="t_97389b5878">Go up to /storage and / (mostly read-only)</string>
+    <string name="t_a1a5fe8e87">Open at start</string>
     <string name="t_e5ebde3f4c">Storage to index</string>
     <string name="t_46185e8b73">Folders left out</string>
     <string name="t_29d523efe9">Their files don\'t appear in searches of the whole phone. Searching inside one of them still finds its files, more slowly.</string>
@@ -3454,11 +3547,13 @@
     <string name="t_37619fc130">White</string>
     <string name="t_3526f607bc">Yellow</string>
     <string name="t_8e1fe2d505">Cyan</string>
-    <string name="t_933bf21afd">Green</string>
     <string name="t_171460e8c8">Light grey</string>
     <string name="t_b41a6f3fa3">Indexing… %s files</string>
     <string name="t_cccc3ca403">Not built yet</string>
     <string name="t_1e4e987077">%s files · updated %s</string>
+    <string name="t_0735c12549">Off: one folder at a time, no tab bar</string>
+    <string name="t_c843384f9d">Open in current tab</string>
+    <string name="t_ecdb442ddb">Places from Home and the menu open in the tab on screen</string>
     <string name="t_0af4665f7a">Restore tabs on start</string>
     <string name="t_e60707198b">Reopen the tabs from last time</string>
     <string name="t_ea218a5daa">Swipe for a new tab</string>
@@ -3623,9 +3718,9 @@
     <string name="t_efd0d2e424">Open Shizuku</string>
     <string name="t_a42211d26e">After rooting or updating the root app, restart the device before using root.</string>
     <string name="t_195b9c2a48">Restart recommended</string>
-    <string name="t_282739264a">Keep deleted items for (days)</string>
-    <string name="t_d28199733b">Bin size limit (MB, 0 = none)</string>
-    <string name="t_e00e89f2eb">Oldest items are deleted first</string>
+    <string name="t_7874f56e84">Delete items in the Bin after</string>
+    <string name="t_8e55cb7d44">Bin size limit</string>
+    <string name="t_10850b9371">No limit</string>
     <string name="t_391b25ceff">On · everything is kept</string>
     <string name="t_49a0ac6998">On · %s</string>
     <string name="t_f60cd87a7c">Recent locations</string>
@@ -3633,7 +3728,6 @@
     <string name="t_3c696f2f0f">Show recently added files</string>
     <string name="t_732f821382">Include new downloads, photos and received files</string>
     <string name="t_daa087c451">Keep at most</string>
-    <string name="t_10850b9371">No limit</string>
     <string name="t_0c794ca3ec">Forget after</string>
     <string name="t_eaa6bfa802">Include server locations</string>
     <string name="t_136306dc15">SFTP locations in Recent</string>
@@ -3643,6 +3737,7 @@
     <string name="t_2608969dc6">Clear undo history</string>
     <string name="t_9825d6ce8f">Undo history cleared</string>
     <string name="t_248a513824">All recent locations will be removed.</string>
+    <string name="t_23739e93c8">Never (delete manually)</string>
     <string name="t_27ec24775a">%d years</string>
     <string name="t_2d8a6f7c34">1 day</string>
     <string name="t_0e3dee7646">%d days</string>
@@ -3663,6 +3758,9 @@
     <string name="t_6a4c5989f3">Last crash report</string>
     <string name="t_27e7700fda">sent</string>
     <string name="t_e3efaff80b">tap to view · deleted after 30 days</string>
+    <string name="t_3ac19a5e03">Handled errors</string>
+    <string name="t_9a7889c9d2">%d recorded · tap to view</string>
+    <string name="t_54e5c8d017">None recorded</string>
     <string name="t_2301acff42">Device &amp; build</string>
     <string name="t_6632a3ed87">Android version, device, native core</string>
     <string name="t_96daf28fe7">Native core %s</string>
@@ -3687,6 +3785,8 @@
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
     <string name="t_ef3eaaddb0">Couldn\'t complete: %s</string>
+    <string name="t_7deaa7243a">%s to %s</string>
+    <string name="t_06b054b16a">Enter a number from %s to %s</string>
     <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_116be2a756">Vaults on phone storage are kept in the hidden folder %s. Vaults hidden with a secret word open by typing the word in Search.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
@@ -3760,7 +3860,6 @@
     <string name="t_48794ceecd">Save APK to Downloads</string>
     <string name="t_edeec8524c">Save APKs (.apks) to Downloads</string>
     <string name="t_7d8bf91104">Saved %s in Download/ManyFile apps</string>
-    <string name="t_3127d14ff9">Couldn\'t save: %s</string>
     <string name="t_addb5ae9df">Share APK</string>
     <string name="t_a735da1d32">Uninstall</string>
     <string name="t_10eae79a15">Freeze %s?</string>
@@ -3787,6 +3886,10 @@
     <string name="t_530cc25bdc">Backups</string>
     <string name="t_e7715b7ee0">Backup location</string>
     <string name="t_d4f1c49efd">Turn off backups</string>
+    <string name="t_3bd5607567">Also to</string>
+    <string name="t_a8c95f0c7d">Stop backing up to %s</string>
+    <string name="t_8a7074edf7">Add another place…</string>
+    <string name="t_b3dbada44c">Google Drive, OneDrive, MEGA, a server or the phone</string>
     <string name="t_cbf6e46655">Last backup failed: %s</string>
     <string name="t_db045a38c6">Last backup: %s</string>
     <string name="t_bad4cba285">Automatic after every change</string>
@@ -3831,6 +3934,7 @@
     <string name="t_66cbc149e3">Backup saved</string>
     <string name="t_a7a59840fd">Custom order</string>
     <string name="t_3884cc43c4">Most used</string>
+    <string name="t_020cbed915">Rearrange…</string>
     <string name="t_0a116345ca">Export…</string>
     <string name="t_f34b92a491">No accounts</string>
     <string name="t_7048ec48bb">%s added</string>
@@ -3860,6 +3964,8 @@
     <string name="t_00040bab8a">Work</string>
     <string name="t_f85039fd8e">Confirm new password</string>
     <string name="t_61815cd636">Existing backups keep the old password.</string>
+    <string name="t_3281febc7d">Rearrange</string>
+    <string name="t_ccf10583e1">Drag an account to move it; favourites stay first</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/BootUsbScreen.kt -->
     <string name="t_04e494344e">USB drive disconnected</string>
     <string name="t_155dc6ef04">USB access denied</string>
@@ -3948,6 +4054,7 @@
     <string name="t_e408d97dbd">Delete 1 item (%s)?</string>
     <string name="t_7cf1698d6c">Delete %s items (%s)?</string>
     <string name="t_08e4393ec8">Junk files are deleted permanently.</string>
+    <string name="t_412f0c05d1">Moving to Bin frees space only once the Bin is emptied.</string>
     <string name="t_18764db058">Moving to Bin frees space only after %s days.</string>
     <string name="t_2c269f3f84">Any age</string>
     <string name="t_1de70fe01a">Older than 30 days</string>
@@ -4054,6 +4161,7 @@
     <string name="t_7f811906c8">One copy in each group is kept.</string>
     <string name="t_d4163c0aca">All copies were marked in 1 group.</string>
     <string name="t_1d9b8c721a">All copies were marked in %s groups.</string>
+    <string name="t_5c2a5f836c">The Bin keeps them until you delete them.</string>
     <string name="t_4e637f2d9c">The Bin keeps them for %s days.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/EngineOffer.kt -->
     <string name="t_c991c82690">Required for Media Downloader and Cut a song.</string>
@@ -4673,13 +4781,17 @@
     <string name="t_be79ddc7e2">Exported symbols (%d)</string>
     <string name="t_2eb357c0ff">Filter symbols</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/PhotoBackupScreen.kt -->
-    <string name="t_9c98396654">Back up photos to Google Drive</string>
-    <string name="t_f7874dde4c">New photos and videos in the selected folders are uploaded to Drive.</string>
-    <string name="t_d11988d44d">Sign in to Google Drive first.</string>
+    <string name="t_28b09bb50d">Back up photos</string>
+    <string name="t_5cc56d2c3f">New photos and videos in the selected folders are uploaded to every place chosen below.</string>
+    <string name="t_586ef0369d">Back up to</string>
+    <string name="t_07c2964c41">Google Drive</string>
+    <string name="t_257fa99e08">No account</string>
+    <string name="t_98ff4ccdcf">Into My Drive</string>
+    <string name="t_3a38237fed">Add a place…</string>
     <string name="t_a73842af4c">%s waiting</string>
     <string name="t_9eeb34c4fb">Includes subfolders except hidden ones and Screenshots (add it separately).</string>
-    <string name="t_96c7633d46">Folder on Drive</string>
-    <string name="t_7b8f3b7056">In My Drive. Each folder gets its own subfolder.</string>
+    <string name="t_2a33df93a2">Backup folder</string>
+    <string name="t_46d81e2cf7">In each place. Each folder gets its own subfolder.</string>
     <string name="t_b111f05350">Mobile data is never used for photos</string>
     <string name="t_66af28c6d1">Only while charging</string>
     <string name="t_821a88a575">Applies to automatic backups</string>
@@ -4699,7 +4811,6 @@
     <string name="t_9bab232dd9">Save PDF</string>
     <string name="t_1ced325ddd">Grey</string>
     <string name="t_019728575b">Black &amp; white</string>
-    <string name="t_c0a8060f3b">Original</string>
     <string name="t_03d2d33aec">Add page</string>
     <string name="t_a9838d3a3c">No pages</string>
     <string name="t_0ca4dfecdf">Page %d</string>
@@ -4779,6 +4890,7 @@
     <string name="t_bdec18113b">Read-only. Enable writes to run this statement.</string>
     <string name="t_38755fbbc8">&lt;blob %s B&gt;</string>
     <string name="t_961f7b1b3c">SQL error</string>
+    <string name="t_be08c63b57">Too much data to show. Select fewer rows or columns.</string>
     <string name="t_b2dc47d910">%s tables</string>
     <string name="t_6dc1292bee">%s failed: %s</string>
     <string name="t_2d621f2fef">%s rows → %s</string>
@@ -4817,11 +4929,8 @@
     <string name="t_458a2c6a9c">Showing the first 2000 rows</string>
     <string name="t_475978640b">No rows</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/StatusesScreen.kt -->
-    <string name="t_328b29aca3">Already saved</string>
     <string name="t_f79ce49221">Saved %s to Pictures/Statuses</string>
-    <string name="t_38b9bd97df">WhatsApp not installed</string>
     <string name="t_6a0bd0236f">Saved statuses</string>
-    <string name="t_98dd47501a">Repost</string>
     <string name="t_60c3cc50ec">All files access required. Allow it in Settings → Apps → ManyFile → Permissions.</string>
     <string name="t_0c98566b6f">No statuses found</string>
     <string name="t_a4408274d0">No statuses. Statuses you view in WhatsApp appear here.</string>
@@ -4869,7 +4978,6 @@
     <string name="t_d71d16869c">Import all</string>
     <string name="t_4687a3bb84">No contacts in this file</string>
     <string name="t_d87c1d8eb6">No contacts app</string>
-    <string name="t_5b6a801eb5">No app found</string>
     <string name="t_a6b9d69f57">Birthday</string>
     <string name="t_84552789ca">Add to contacts</string>
     <string name="t_d36d0a346a">1 event</string>
@@ -4890,6 +4998,7 @@
     <string name="t_c380b3ba8b">Add paragraph</string>
     <string name="t_4bf6241135">Remove paragraph</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/HexViewerScreen.kt -->
+    <string name="t_17b07001f8">Couldn\'t open: %s</string>
     <string name="t_498964473e">No more matches</string>
     <string name="t_9ee397b3ca">Match at 0x%s</string>
     <string name="t_f9073e8ff7">Saved. The original is kept as %s</string>
@@ -4912,7 +5021,9 @@
     <string name="t_4a48932789">Write</string>
     <string name="t_d8fff6bab4">Delete bytes at 0x%s</string>
     <string name="t_90067c2e37">How many (decimal or 0x hex)</string>
+    <string name="t_97d3fa0771">Couldn\'t search: %s</string>
     <string name="t_b2d0620776">Replaced at 0x%s</string>
+    <string name="t_b8518cc723">Couldn\'t replace: %s</string>
     <string name="t_eb68272812">Replaced 1</string>
     <string name="t_d64229bb65">Your changes replace the file. If saving fails, the original is kept.</string>
     <string name="t_dc47531637">Keep the original as %s</string>
@@ -4964,6 +5075,7 @@
     <string name="t_9bd85a7d22">Focal length</string>
     <string name="t_86e4e38754">Orientation</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/OfficeViewerScreen.kt -->
+    <string name="t_ffce885bae">Couldn\'t print: %s</string>
     <string name="t_af7a8abd14">Saved 1 cell</string>
     <string name="t_6e3422d379">Saved %d cells</string>
     <string name="t_2f6994e029">Find in cells</string>
@@ -4975,6 +5087,7 @@
     <string name="t_e8c89894fe">Dark pages</string>
     <string name="t_46937d0105">Light pages</string>
     <string name="t_59fcc7bc8e">Copy all text</string>
+    <string name="t_6e1782e3ad">Too much text to copy</string>
     <string name="t_3a230f03c3">Discard 1 changed cell?</string>
     <string name="t_25d7d3cd39">Discard %d changed cells?</string>
     <string name="t_2492ef5448">Document too long. Showing the beginning.</string>
@@ -5042,6 +5155,8 @@
     <string name="t_878f952115">Previous chapter</string>
     <string name="t_90df69ddae">Chapter %s of %s · %s%%</string>
     <string name="t_153dd67e32">Next chapter</string>
+    <string name="t_4fcf068f73">This book couldn\'t be shown</string>
+    <string name="t_cf894e6802">Android System WebView is missing, being updated or stopped.</string>
     <string name="t_83dc55b4c8">Text size %s%%</string>
     <string name="t_fb06270f7c">Page</string>
     <string name="t_2fd4e1c67a">The quick brown fox jumps over the lazy dog</string>
@@ -5072,6 +5187,7 @@
     <string name="t_a547c90c19">Allow JavaScript</string>
     <string name="t_793cc81cea">Allow network</string>
     <string name="t_cce7155371">Reload</string>
+    <string name="t_0c371c980e">This page couldn\'t be shown</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/XmlViewerScreen.kt -->
     <string name="t_d131a14153">Invalid XML</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/FillUi.kt -->
