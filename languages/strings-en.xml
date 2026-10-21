@@ -1855,10 +1855,11 @@
     <string name="t_0731d31716">At least %d characters</string>
     <string name="t_34d8b60fe2">Hide</string>
     <string name="t_b5eb447bf7">Auto-lock</string>
+    <string name="t_5a597f5710">For all vaults and locked folders, after leaving ManyFile.</string>
     <string name="t_21b60a9549">Immediately</string>
     <string name="t_80c3052d33">Never</string>
     <string name="t_0c22eab290">%s min</string>
-    <string name="t_8ade7af97d">Lock when screen turns off</string>
+    <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_ea2c08e48d">Move to vault</string>
     <string name="t_51acf8dd03">Copy to vault</string>
     <string name="t_2b41d98ef7">Files are encrypted into the vault, then deleted from here.</string>
@@ -3324,7 +3325,7 @@
     <string name="t_35e32744ce">Turn off app lock</string>
     <string name="t_54c0708f12">App lock off</string>
     <string name="t_6223b2728c">Block screenshots</string>
-    <string name="t_3d10853b05">Also hides ManyFile in recent apps. Always on while a vault is open.</string>
+    <string name="t_5567fe8fa0">Everywhere in ManyFile, and hides it in recent apps. Vaults, locked folders and the authenticator always block them.</string>
     <string name="t_3737a4c3d5">Set PIN or password</string>
     <string name="t_6890406fa0">PIN (4 digits or more)</string>
     <string name="t_a3abe37c07">Password (6 characters or more)</string>
@@ -3466,9 +3467,6 @@
     <string name="t_3b7c5965ce">Save and restore settings</string>
     <string name="t_71ef638170">Screen lock</string>
     <string name="t_d94bba539d">PIN or password</string>
-    <string name="t_eb76a81dce">never lock automatically</string>
-    <string name="t_5d4ad03e0d">lock when leaving the app</string>
-    <string name="t_cb824b4e93">lock after %s min</string>
     <string name="t_6d88987464">Crash report available</string>
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
@@ -3532,6 +3530,8 @@
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
+    <string name="t_0590c3c6a5">Locked folders in menu</string>
+    <string name="t_9206d8f06d">Off: open them from their folders</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_8e2be1c691">Reload when files change</string>
     <string name="t_2ac267b06f">Exact dates</string>
@@ -3825,8 +3825,6 @@
     <string name="t_ef3eaaddb0">Couldn\'t complete: %s</string>
     <string name="t_7deaa7243a">%s to %s</string>
     <string name="t_06b054b16a">Enter a number from %s to %s</string>
-    <string name="t_aca95ca149">Lock when the screen turns off</string>
-    <string name="t_116be2a756">Vaults on phone storage are kept in the hidden folder %s. Vaults hidden with a secret word open by typing the word in Search.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
     <string name="t_ed8f174fbb">%s · %s files · %s folders</string>
     <string name="t_058581c6d7">Scanning… %s files, %s folders, %s\n%s</string>
@@ -3934,6 +3932,7 @@
     <string name="t_fbc96fa6eb">Restore backup…</string>
     <string name="t_de090f7721">Backups are encrypted with your password.</string>
     <string name="t_f25ce1b8a3">Security</string>
+    <string name="t_8ade7af97d">Lock when screen turns off</string>
     <string name="t_20496ec54a">Password reminder</string>
     <string name="t_f847e052ea">Every 2 weeks</string>
     <string name="t_00dc665944">Change password…</string>
