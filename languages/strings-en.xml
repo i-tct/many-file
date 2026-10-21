@@ -1230,6 +1230,7 @@
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/BiometricUnlock.kt -->
     <string name="t_06eeecf633">Fingerprint unlock requires Android 9 or later</string>
     <string name="t_3c9ed36a5c">To use fingerprint unlock, add a fingerprint in Settings → Security.</string>
+    <string name="t_e60382de0d">Enable fingerprint unlock</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/BrowserSignInDialog.kt -->
     <string name="t_531904a088">Sign-in not approved or code expired. Try again.</string>
     <string name="t_d6b99ed7f0">Getting a code from %s…</string>
@@ -1805,7 +1806,6 @@
     <string name="t_ba552c2af9">Fingerprint unlock was reset. Use the password.</string>
     <string name="t_0a915a5987">Unlock %s</string>
     <string name="t_3cb5fd8e47">Recovery code</string>
-    <string name="t_e60382de0d">Enable fingerprint unlock</string>
     <string name="t_df526fa3cd">Unlocking…</string>
     <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_15914698c5">New password for %s</string>
@@ -1854,6 +1854,10 @@
     <string name="t_ae4c86de8f">The vault is removed from the menu. To open it, type the secret word in Search.</string>
     <string name="t_0731d31716">At least %d characters</string>
     <string name="t_34d8b60fe2">Hide</string>
+    <string name="t_7cf3c5adc9">Lock icon on locked folders</string>
+    <string name="t_ce628bf596">Off: locked folders look like any other folder</string>
+    <string name="t_0590c3c6a5">Locked folders in menu</string>
+    <string name="t_9206d8f06d">Off: open them from their folders</string>
     <string name="t_b5eb447bf7">Auto-lock</string>
     <string name="t_5a597f5710">For all vaults and locked folders, after leaving ManyFile.</string>
     <string name="t_21b60a9549">Immediately</string>
@@ -3525,13 +3529,9 @@
     <string name="t_7c7a6f0de0">Preview of contents on folder icons (requires Thumbnails)</string>
     <string name="t_facb9c7f71">Language logos</string>
     <string name="t_2c089ece33">Logos on code files (JS, Rust, Python…)</string>
-    <string name="t_19f57d6ec8">Lock on locked folders</string>
-    <string name="t_ce628bf596">Off: locked folders look like any other folder</string>
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
-    <string name="t_0590c3c6a5">Locked folders in menu</string>
-    <string name="t_9206d8f06d">Off: open them from their folders</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_8e2be1c691">Reload when files change</string>
     <string name="t_2ac267b06f">Exact dates</string>
@@ -3945,6 +3945,7 @@
     <string name="t_3ea98c9a0f">After %d minutes</string>
     <string name="t_6bdf8e9388">%d backups</string>
     <string name="t_5000ee95a3">After %d seconds</string>
+    <string name="t_8818caf628">Fingerprint unlock enabled</string>
     <string name="t_17e41243ca">Encrypted backup</string>
     <string name="t_f3e4fadb9e">Export</string>
     <string name="t_3bac8f5aae">Encrypted file</string>
@@ -3980,7 +3981,6 @@
     <string name="t_b67ce40b90">Export unencrypted?</string>
     <string name="t_9742efc8a8">Anyone with this file can generate your codes. Delete it after use.</string>
     <string name="t_b55c3a4885">ManyFile codes %s.txt</string>
-    <string name="t_8818caf628">Fingerprint unlock enabled</string>
     <string name="t_a65eaa8807">Restore backup</string>
     <string name="t_85bcc07393">Turn off two-step verification for %s first, or you may lose access.</string>
     <string name="t_9704b6631f">Favourite</string>
