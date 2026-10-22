@@ -248,6 +248,9 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/Notifications.kt -->
     <string name="t_825ce9e97d">Flux de travail</string>
     <string name="t_edc13f8ed3">Messages des flux de travail du Centre de commandes</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/ShareHelper.kt -->
+    <string name="t_2b1284a290">Seuls les %s premiers fichiers sont partagés</string>
+    <string name="t_93b3b49eb5">Impossible de partager : %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/android/SharedFiles.kt -->
     <string name="t_60d310fa9b">Texte partagé %s</string>
     <string name="t_7d78dc0b15">Enregistrement de %s</string>
@@ -382,6 +385,9 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/chat/WhatsAppStatuses.kt -->
     <string name="t_06d4ec3f2d">Impossible de créer le dossier %s</string>
     <string name="t_f7b2514d9c">Impossible d’enregistrer %s</string>
+    <string name="t_328b29aca3">Déjà enregistré</string>
+    <string name="t_d4a5d5a14b">Enregistré dans Pictures/Statuses</string>
+    <string name="t_3127d14ff9">Impossible d’enregistrer : %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DriveApi.kt -->
     <string name="t_bd7f28d59d">Impossible de se connecter à Google Drive : %s</string>
     <string name="t_dd5e64a627">Impossible de démarrer l’envoi vers Google Drive</string>
@@ -443,12 +449,13 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/PhotoBackup.kt -->
     <string name="t_61a5e43caf">Sauvegarde des photos</string>
     <string name="t_09fef5d8d9">Échec</string>
-    <string name="t_8dde0eb556">Aucun compte Google Drive sélectionné</string>
-    <string name="t_82fb1d5144">À jour</string>
+    <string name="t_29af63655a">Choisissez où sauvegarder</string>
     <string name="t_2e4eb0be62">%s non sauvegardés</string>
+    <string name="t_b17aa907c9">%s : non disponible</string>
     <string name="t_f73966a7a1">%s sauvegardés</string>
-    <string name="t_0b3f1491a2">%s déjà présents sur Drive</string>
+    <string name="t_67a643f526">%s déjà sauvegardés</string>
     <string name="t_17664465b6">Échecs : %s</string>
+    <string name="t_82fb1d5144">À jour</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/download/Downloads.kt -->
     <string name="t_9f4bbd5727">Téléchargement supprimé</string>
     <string name="t_fa285893a3">taille inconnue</string>
@@ -543,6 +550,7 @@
     <string name="t_4affcbf399">Introuvable ou aucun accès</string>
     <string name="t_7d0acaccd7">Autorisation refusée : %s</string>
     <string name="t_6430504f5f">Erreur GitHub : %s</string>
+    <string name="t_1c6bac2b29">Réponse inattendue de GitHub</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubFiles.kt -->
     <string name="t_b837967df9">Impossible de créer %s</string>
     <string name="t_b93f44b6eb">%s envoyé vers %s</string>
@@ -641,6 +649,11 @@
     <string name="t_fefebdc2cb">%s : %s — nouvelle tentative dans %s s (%s sur %s)</string>
     <string name="t_4dd40e7bf7">%s a changé, redémarrage</string>
     <string name="t_cc86940dec">Reprise de %s à %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioConversion.kt -->
+    <string name="t_21016e0841">Conversion de %1$s en %2$s</string>
+    <string name="t_9283111c1c">Conversion de %1$s fichiers en %2$s</string>
+    <string name="t_e539e5cf0b">%s fichiers convertis</string>
+    <string name="t_26bf731113">Impossible de convertir %1$s : %2$s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioExtraction.kt -->
     <string name="t_03e2e11d51">Extraction de l’audio de %s</string>
     <string name="t_fa7f464169">Extraction de l’audio de %s vidéos</string>
@@ -685,6 +698,7 @@
     <string name="t_a0769a6a58">Les cookies nécessitent le Moteur multimédia 0.5.0 ou ultérieur. Mettez le moteur à jour.</string>
     <string name="t_02df32b1e9">Le découpage de chansons nécessite le Moteur multimédia 0.7.0 ou ultérieur. Mettez-le à jour dans le Téléchargeur multimédia.</string>
     <string name="t_66dd268eea">Le MP3, les fondus et les autres formats nécessitent le Moteur multimédia 0.12.0 ou plus récent. Mettez-le à jour dans le Téléchargeur multimédia.</string>
+    <string name="t_6898c33a2a">La conversion nécessite le Moteur multimédia 0.13.0 ou ultérieur. Mettez-le à jour dans le Téléchargeur multimédia.</string>
     <string name="t_d25165091f">Aucune réponse</string>
     <string name="t_52e2db890a">Délai d’attente du Moteur multimédia dépassé après %s s</string>
     <string name="t_bb4320e135">Le Moteur multimédia s’est arrêté</string>
@@ -859,6 +873,8 @@
     <string name="t_328ed281c5">%s introuvable sur cet appareil. Vérifiez la carte mémoire ou le lecteur USB. Aucune synchronisation effectuée.</string>
     <string name="t_f8f04a0cc9">%s introuvable sur le serveur. Aucune synchronisation effectuée.</string>
     <string name="t_0059e4f60b">Chemin invalide</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SecretStore.kt -->
+    <string name="t_cff2437ae3">Impossible d’enregistrer dans le stockage sécurisé</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
     <string name="t_47e855c8ff">Emplacement serveur non valide</string>
     <string name="t_3d24273be4">Existe déjà</string>
@@ -932,6 +948,7 @@
     <string name="t_47944c7073">Nom de fichier non valide : %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
     <string name="t_fd5135a5cb">Impossible de lire l’image</string>
+    <string name="t_1e2a945adb">Mémoire insuffisante. Fermez d’autres applications et réessayez.</string>
     <string name="t_083a599d45">Image non prise en charge</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/search/TextScanner.kt -->
     <string name="t_d441ed4e5d">Motif de texte non valide</string>
@@ -1032,6 +1049,7 @@
     <string name="t_5ba542213a">Déjà un coffre-fort</string>
     <string name="t_306aaf3333">Ce dossier se trouve dans un coffre-fort</string>
     <string name="t_04bda393ba">Dossier déjà verrouillé</string>
+    <string name="t_2df13552e0">Ce dossier contient un coffre-fort ou un dossier verrouillé</string>
     <string name="t_139e258c3d">Impossible d’ouvrir le nouveau verrou</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/VaultFormat.kt -->
     <string name="t_ecd54a2420">Nom trop long pour un coffre-fort (%d octets au maximum)</string>
@@ -1043,6 +1061,7 @@
     <string name="t_382465bdc7">Le déverrouillage par empreinte ne fonctionne plus pour ce coffre-fort. Utilisez le mot de passe.</string>
     <string name="t_3fb76972e7">Choisissez un autre mot de passe</string>
     <string name="t_cfd4a39cf0">Le mot de passe leurre doit être différent du mot de passe du coffre-fort</string>
+    <string name="t_91694e57d0">Dossier verrouillé</string>
     <string name="t_b9fb9e92cd">L’ajout en fin de fichier n’est pas pris en charge dans les coffres-forts</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
     <string name="t_0b049b5346">Rien à faire</string>
@@ -1138,6 +1157,17 @@
     <string name="t_a711cca9a4">Minimal</string>
     <string name="t_a0138b1e0d">Cassette</string>
     <string name="t_200f14b1dc">Forme d’onde</string>
+    <string name="t_d403336798">Dernier dossier</string>
+    <string name="t_70f8bb9a8a">Accueil</string>
+    <string name="t_7b12aa7fec">Un dossier…</string>
+    <string name="t_933bf21afd">Vert</string>
+    <string name="t_7d44bc449c">Bleu</string>
+    <string name="t_3b4e294693">Indigo</string>
+    <string name="t_32576f4fed">Violet</string>
+    <string name="t_54076359fd">Rose</string>
+    <string name="t_cc9db3a795">Rouge</string>
+    <string name="t_09fb6aaba7">Orange</string>
+    <string name="t_df0ad373b7">Bleu sarcelle</string>
     <string name="t_3ad0e36982">Autoriser</string>
     <string name="t_c35b32eb26">Petits transferts uniquement</string>
     <string name="t_ed8fa57334">Attendre le Wi-Fi</string>
@@ -1176,9 +1206,9 @@
     <string name="t_ae1ef01432">Sombre</string>
     <string name="t_b406fb57b2">Noir</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Sorting.kt -->
-    <string name="t_c97d4c3ded">Titres</string>
+    <string name="t_03c3152c3e">Titres repliables</string>
     <string name="t_19adc47be3">Dossiers</string>
-    <string name="t_e3de5ab0ca">Désactivé</string>
+    <string name="t_ae8ea3820f">Une seule liste</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
@@ -1199,6 +1229,7 @@
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/BiometricUnlock.kt -->
     <string name="t_06eeecf633">Le déverrouillage par empreinte digitale nécessite Android 9 ou ultérieur</string>
     <string name="t_3c9ed36a5c">Pour utiliser le déverrouillage par empreinte, ajoutez une empreinte dans Paramètres → Sécurité.</string>
+    <string name="t_e60382de0d">Activer le déverrouillage par empreinte</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/BrowserSignInDialog.kt -->
     <string name="t_531904a088">Connexion non approuvée ou code expiré. Réessayez.</string>
     <string name="t_d6b99ed7f0">Obtention d’un code depuis %s…</string>
@@ -1230,9 +1261,18 @@
     <string name="t_6e157c5da4">Créer</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
     <string name="t_6619f4706d">Confirmez votre identité</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/PasswordReveal.kt -->
+    <string name="t_e40123b4e7">Masquer le mot de passe</string>
+    <string name="t_044b852f30">Afficher le mot de passe</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ReleaseNotesViews.kt -->
     <string name="t_cc97e3ee87">Nouveautés de %s</string>
     <string name="t_df8810204a">Toutes les notes de version</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/SafeLauncher.kt -->
+    <string name="t_5b6a801eb5">Aucune application trouvée</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/StatusButtons.kt -->
+    <string name="t_98dd47501a">Republier</string>
+    <string name="t_c0ae8f6ea8">Enregistré</string>
+    <string name="t_efc007a393">Enregistrer</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Vu</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
@@ -1254,6 +1294,11 @@
     <string name="t_5221b51b33">Extraire ici</string>
     <string name="t_93509bf604">Rien à annuler</string>
     <string name="t_97c7f367c4">Rien à rétablir</string>
+    <string name="t_2c5e59efa6">Le presse-papiers est vide</string>
+    <string name="t_522c040063">Image collée %s</string>
+    <string name="t_5306480fb6">Fichier collé %s</string>
+    <string name="t_2f88072935">Rien à coller</string>
+    <string name="t_ac6808683f">Texte collé %s</string>
     <string name="t_dcad9fdb40">Renommé en %s</string>
     <string name="t_6cdb1a4b32">1 élément copié</string>
     <string name="t_0f3e8c73d7">%d éléments copiés</string>
@@ -1282,6 +1327,19 @@
     <string name="t_4740701415">%d doublons sélectionnés</string>
     <string name="t_cd9d3e68e2">Retiré de l’Accès rapide</string>
     <string name="t_cb3176be9c">Ajouté à Accès rapide</string>
+    <string name="t_4af21ff552">Masqué. Affichez les fichiers cachés pour le voir.</string>
+    <string name="t_28ff73f36c">%d éléments masqués. Affichez les fichiers cachés pour les voir.</string>
+    <string name="t_c28b0d0b6f">1 élément affiché</string>
+    <string name="t_adc69b6dba">%d éléments affichés</string>
+    <string name="t_417b6cae7a">Masqué de la galerie</string>
+    <string name="t_3c90fa88b9">Affiché dans la galerie</string>
+    <string name="t_94b04733ed">Introuvable : %s</string>
+    <string name="t_31be651616">Duplication de %s…</string>
+    <string name="t_357eab3a8a">Duplication de %d éléments…</string>
+    <string name="t_82ec46d3a4">Épinglé à l’accueil</string>
+    <string name="t_d0853a5cc5">%d éléments épinglés à l’accueil</string>
+    <string name="t_63ca087d62">Désépinglé</string>
+    <string name="t_57d34ec057">%d éléments désépinglés</string>
     <string name="t_8b227bf67a">Favori supprimé</string>
     <string name="t_c3d7518da1">Ajouté aux favoris</string>
     <string name="t_4a2b73229a">Suppression de %s de %s…</string>
@@ -1314,6 +1372,8 @@
     <string name="t_c05597fc83">%s déplacé vers %s</string>
     <string name="t_84227f6196">Impossible de déplacer le coffre-fort</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserDialogs.kt -->
+    <string name="t_08f5011769">Aller au dossier</string>
+    <string name="t_7ba3eb6052">Saisissez un chemin</string>
     <string name="t_8fe9cab887">Comparer « %s » avec…</string>
     <string name="t_8d105cf44d">Comparer</string>
     <string name="t_d3f4cb898f">Renommer</string>
@@ -1329,7 +1389,6 @@
     <string name="t_357e62a92e">Tous les éléments de la Corbeille seront supprimés définitivement.</string>
     <string name="t_48c1b22e19">Vider la Corbeille</string>
     <string name="t_1db74771ff">Enregistrer la recherche</string>
-    <string name="t_efc007a393">Enregistrer</string>
     <string name="t_048a4d60ac">Depuis %s</string>
     <string name="t_2f3b5c55bc">Parcourir</string>
     <string name="t_3cbe6d6b9a">Restaurer</string>
@@ -1422,7 +1481,6 @@
     <string name="t_1b02cabf91">p. ex. TODO, un nom de fonction</string>
     <string name="t_fe28dcc3d4">Recherche uniquement dans les fichiers texte</string>
     <string name="t_719ea396ad">Effacer</string>
-    <string name="t_c0ae8f6ea8">Enregistré</string>
     <string name="t_149fd082ea">Supprimer la recherche enregistrée</string>
     <string name="t_f0b938614d">Vérifier la somme de contrôle</string>
     <string name="t_77426fe8ca">Somme de contrôle attendue (MD5, SHA-1, SHA-256, BLAKE3)</string>
@@ -1481,6 +1539,22 @@
     <string name="t_daf6b585b3">plus rapide</string>
     <string name="t_9b33046ed3">ancien</string>
     <string name="t_09979a78c9">Nom du fichier</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/ConvertAudioDialog.kt -->
+    <string name="t_ceafe39770">Vérification du Moteur multimédia…</string>
+    <string name="t_5dd6485d09">Nécessite le Moteur multimédia. Installez-le depuis le Téléchargeur multimédia.</string>
+    <string name="t_a7a0e54905">Non disponible dans cette version</string>
+    <string name="t_d58754228e">Mettez ManyFile à jour pour utiliser ce Moteur multimédia.</string>
+    <string name="t_fec0e30489">La signature du Moteur multimédia ne correspond pas</string>
+    <string name="t_e719138f31">Convertir %s fichiers</string>
+    <string name="t_041a5dec48">Format</string>
+    <string name="t_a60f2c7360">Qualité</string>
+    <string name="t_4edebe034f">%d kbit/s · qualité maximale</string>
+    <string name="t_915b068a0c">%d kbit/s · recommandé</string>
+    <string name="t_3a4fa45a06">%d kbit/s · le plus léger</string>
+    <string name="t_d8c17ad73c">%d kbit/s</string>
+    <string name="t_e48da9df35">Sans perte : le son tel qu’il est dans le fichier.</string>
+    <string name="t_78003c0d88">Enregistré à côté de l’original. Pour une vidéo, seul le son est conservé.</string>
+    <string name="t_3f15ce7953">Convertir</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Chiffrer %s</string>
     <string name="t_3920b53601">Crée une copie chiffrée .mfenc de chaque fichier (AES-256).</string>
@@ -1504,7 +1578,6 @@
     <string name="t_835f3b50e3">sélectionné</string>
     <string name="t_76d5f62f8c">Aperçu rapide</string>
     <string name="t_0c27f83ff9">À l’intérieur : %s</string>
-    <string name="t_91694e57d0">Dossier verrouillé</string>
     <string name="t_b9c57a36b1">9999+ éléments</string>
     <string name="t_19884f402f">1 élément</string>
     <string name="t_7ee737c83e">dossier</string>
@@ -1732,7 +1805,6 @@
     <string name="t_ba552c2af9">Le déverrouillage par empreinte a été réinitialisé. Utilisez le mot de passe.</string>
     <string name="t_0a915a5987">Déverrouiller %s</string>
     <string name="t_3cb5fd8e47">Code de récupération</string>
-    <string name="t_e60382de0d">Activer le déverrouillage par empreinte</string>
     <string name="t_df526fa3cd">Déverrouillage…</string>
     <string name="t_fed4c9053d">Empreinte</string>
     <string name="t_15914698c5">Nouveau mot de passe pour %s</string>
@@ -1781,11 +1853,16 @@
     <string name="t_ae4c86de8f">Le coffre-fort est retiré du menu. Pour l’ouvrir, saisissez le mot secret dans Rechercher.</string>
     <string name="t_0731d31716">Au moins %d caractères</string>
     <string name="t_34d8b60fe2">Masquer</string>
+    <string name="t_7cf3c5adc9">Icône de cadenas sur les dossiers verrouillés</string>
+    <string name="t_ce628bf596">Désactivé : les dossiers verrouillés ressemblent aux autres dossiers</string>
+    <string name="t_0590c3c6a5">Dossiers verrouillés dans le menu</string>
+    <string name="t_9206d8f06d">Désactivé : ouvrez-les depuis leurs dossiers</string>
     <string name="t_b5eb447bf7">Verrouillage automatique</string>
+    <string name="t_5a597f5710">Pour tous les coffres-forts et dossiers verrouillés, après avoir quitté ManyFile.</string>
     <string name="t_21b60a9549">Immédiatement</string>
     <string name="t_80c3052d33">Jamais</string>
     <string name="t_0c22eab290">%s min</string>
-    <string name="t_8ade7af97d">Verrouiller lorsque l’écran s’éteint</string>
+    <string name="t_aca95ca149">Verrouiller lorsque l’écran s’éteint</string>
     <string name="t_ea2c08e48d">Déplacer vers le coffre-fort</string>
     <string name="t_51acf8dd03">Copier vers le coffre-fort</string>
     <string name="t_2b41d98ef7">Les fichiers sont chiffrés dans le coffre-fort, puis supprimés d’ici.</string>
@@ -1830,11 +1907,13 @@
     <string name="t_39fc721248">Annuler</string>
     <string name="t_0b3b3c8f57">Aucun onglet fermé récemment</string>
     <string name="t_b08c0f71c9">Propriétés indisponibles</string>
+    <string name="t_0ea2413ce3">%s n’existe plus</string>
     <string name="t_def2a545a3">%s copié</string>
     <string name="t_d089e2d5a5">Déplacement vers %s</string>
     <string name="t_e0f7ba8449">Copie vers %s</string>
     <string name="t_1437f31023">Ajouter au coffre-fort…</string>
     <string name="t_9fdaa23025">Ajouter des fichiers…</string>
+    <string name="t_b043056e91">Coller en tant que fichier</string>
     <string name="t_b9416ce8d4">Numériser un document…</string>
     <string name="t_16979508ff">Télécharger depuis une URL…</string>
     <string name="t_6917792a7b">Nouveau coffre-fort…</string>
@@ -1856,8 +1935,9 @@
     <string name="t_d145987415">S’applique à tous les dossiers</string>
     <string name="t_d7613ef268">(navigation privée)</string>
     <string name="t_57f5f5efbc">Menu</string>
-    <string name="t_70f8bb9a8a">Accueil</string>
+    <string name="t_7498ca3161">Verrouiller le dossier</string>
     <string name="t_20e099adca">Verrouiller le coffre-fort</string>
+    <string name="t_ee3262eee3">Paramètres du verrouillage du dossier</string>
     <string name="t_c3ecbc858f">Paramètres du coffre-fort</string>
     <string name="t_6f23a36f0a">Nouvel onglet</string>
     <string name="t_2ff9942988">Trier par : %s</string>
@@ -1866,21 +1946,26 @@
     <string name="t_ba15243c4e">Trier par… (%s)</string>
     <string name="t_313463d3c8">Afficher les éléments cachés</string>
     <string name="t_4bab2d8fe1">Plus</string>
+    <string name="t_4c83071836">Aller au dossier…</string>
     <string name="t_e29dc2a85b">Dupliquer l’onglet</string>
     <string name="t_a388818400">Nouvelle fenêtre</string>
     <string name="t_566f549e0b">Nouvel onglet privé</string>
-    <string name="t_279bad8b70">Désépingler l’onglet</string>
-    <string name="t_3623fa201b">Épingler l’onglet</string>
     <string name="t_296b59cd29">Fermer l’onglet</string>
     <string name="t_1a6d5b07e4">Fermer les autres onglets</string>
     <string name="t_6a462fb6d1">Double panneau</string>
     <string name="t_edd880e08b">Comparer les panneaux</string>
     <string name="t_adadaa4165">Annuler : %s</string>
     <string name="t_ae2f2b3538">Rétablir : %s</string>
-    <string name="t_7da72075a1">Supprimer le favori</string>
+    <string name="t_af8ade9a85">Propriétés du dossier</string>
+    <string name="t_9c91841471">Épingler</string>
+    <string name="t_2b9a992ca1">Désépingler ce dossier</string>
+    <string name="t_31bccb3028">Épingler ce dossier</string>
+    <string name="t_279bad8b70">Désépingler l’onglet</string>
+    <string name="t_3623fa201b">Épingler l’onglet</string>
     <string name="t_adafcafc4f">Retirer de l’Accès rapide</string>
     <string name="t_92f065e998">Ajouter à l’Accès rapide</string>
-    <string name="t_af8ade9a85">Propriétés du dossier</string>
+    <string name="t_7da72075a1">Supprimer le favori</string>
+    <string name="t_85773bc941">Ajouter à l’écran d’accueil</string>
     <string name="t_26517a255a">Tout extraire</string>
     <string name="t_9b97c17789">Tester l’archive</string>
     <string name="t_0e3fbc23eb">Git : %s…</string>
@@ -1904,7 +1989,6 @@
     <string name="t_3a43e56f34">Déplacer à droite</string>
     <string name="t_9aadc6fdf3">Déplacer au début</string>
     <string name="t_2eba6a03b8">Désépingler</string>
-    <string name="t_9c91841471">Épingler</string>
     <string name="t_972d57379d">Dupliquer</string>
     <string name="t_557011ea97">Déplacer vers une nouvelle fenêtre</string>
     <string name="t_ed164348b5">Fermer les onglets à gauche (%s)</string>
@@ -1915,6 +1999,7 @@
     <string name="t_1b89ee22d4">Rechercher dans les onglets</string>
     <string name="t_d5a63c95d4">tout</string>
     <string name="t_35bbf79557">dans %s</string>
+    <string name="t_0b3e02b9c7">Corbeille · Les éléments restent jusqu’à leur suppression</string>
     <string name="t_f62923958c">Corbeille · Éléments supprimés après %s jours</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
@@ -1930,15 +2015,24 @@
     <string name="t_1f8c35f1e3">Échec du serveur</string>
     <string name="t_86e58bafc1">Extraire la sélection</string>
     <string name="t_adf39f54a4">Retirer de l’archive</string>
+    <string name="t_03f6fdec3b">Verrouiller le dossier…</string>
     <string name="t_38d13bda5c">Couper</string>
     <string name="t_a1e34f9157">Plus d’actions</string>
     <string name="t_fd6c3ebf7b">Installer</string>
+    <string name="t_f963014162">Ouvrir le dossier</string>
     <string name="t_71bf47a728">Ouvrir dans un nouvel onglet</string>
-    <string name="t_85773bc941">Ajouter à l’écran d’accueil</string>
+    <string name="t_0a4cb13c05">Afficher dans le dossier</string>
+    <string name="t_29a4657d21">Masquer de la galerie</string>
+    <string name="t_819c3934d3">Épingler à l’accueil</string>
+    <string name="t_441da1bf0e">Favori</string>
+    <string name="t_6a03c4dd36">Supprimer les photos</string>
+    <string name="t_ee70a54741">Supprimer les vidéos</string>
+    <string name="t_223d8539d8">Supprimer les fichiers</string>
     <string name="t_48ad074759">Renommer par lot…</string>
     <string name="t_4c24e5aa26">Copier vers…</string>
     <string name="t_c0a3ef619a">Déplacer vers…</string>
-    <string name="t_03f6fdec3b">Verrouiller le dossier…</string>
+    <string name="t_37f0297a2e">Ne plus masquer</string>
+    <string name="t_43a1488ee2">Afficher dans la galerie</string>
     <string name="t_5ddd524a38">Déchiffrer…</string>
     <string name="t_cd4c044ae4">Chiffrer…</string>
     <string name="t_2ae903583b">Compresser le PDF…</string>
@@ -1952,6 +2046,7 @@
     <string name="t_f2668e73f0">Fusionner des PDF…</string>
     <string name="t_bf2aced88c">Définir comme sonnerie…</string>
     <string name="t_8720ee1d2f">Découper la chanson…</string>
+    <string name="t_04e855c0ff">Convertir en MP3…</string>
     <string name="t_3c7454e3c8">Compresser la vidéo…</string>
     <string name="t_6c8d431fcc">Découper la vidéo…</string>
     <string name="t_7b1e108899">Pivoter, supprimer l’audio, GIF…</string>
@@ -1984,7 +2079,6 @@
     <string name="t_dd5d3dbe00">Comparer les octets</string>
     <string name="t_b788ba9c87">Comparer avec…</string>
     <string name="t_fac13fcb46">Étiquettes…</string>
-    <string name="t_441da1bf0e">Favori</string>
     <string name="t_001de2b938">Calculer la taille</string>
     <string name="t_295763d01c">Historique du presse-papiers</string>
     <string name="t_731b577ab2">Coller ici</string>
@@ -2072,7 +2166,6 @@
     <string name="t_0f19d314be">Exécuter une commande serveur</string>
     <string name="t_cf94bdf391">Poser une question</string>
     <string name="t_999ad4a170">Afficher une notification</string>
-    <string name="t_f963014162">Ouvrir le dossier</string>
     <string name="t_55fb1ba3f5">Rechercher des fichiers</string>
     <string name="t_34dbd5c4c8">Attendre</string>
     <string name="t_a0022537f2">Définir une variable</string>
@@ -2154,7 +2247,7 @@
     <string name="t_0a7262c49b">Afficher les temps d’image</string>
     <string name="t_89b86ab0e6">Langue</string>
     <string name="t_c9ec7fcf0c">Indentation</string>
-    <string name="t_2a4d562b1d">Tabulations</string>
+    <string name="t_611da53ceb">Caractères de tabulation</string>
     <string name="t_53e1fc5ecc">%d espaces</string>
     <string name="t_85315c08f6">Fins de ligne : %s</string>
     <string name="t_261fd6ae5b">Recharger depuis le disque</string>
@@ -2192,10 +2285,13 @@
     <string name="t_0a44446762">Échec de l’enregistrement</string>
     <string name="t_1b18781995">Enregistré dans %s</string>
     <string name="t_63c1871f15">Enregistré localement. Échec de l’envoi : %s</string>
+    <string name="t_ee360b4a54">Remplacement non valide : %s</string>
+    <string name="t_8952f4157a">Trop de correspondances (%s). Affinez la recherche.</string>
     <string name="t_f6a6d0a2e7">Le texte a changé. Réessayez.</string>
     <string name="t_22abd1780e">%s remplacés</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/LargeTextViewerScreen.kt -->
     <string name="t_73ff649f9f">Impossible de lire le fichier</string>
+    <string name="t_0e6ab346cc">Trop de lignes à indexer sur ce téléphone</string>
     <string name="t_449f692503">Indexation de %s…</string>
     <string name="t_03b6be9d6c">%s lignes</string>
     <string name="t_eba016d5f2">Suivre (tail -f)</string>
@@ -2226,6 +2322,7 @@
     <string name="t_fca0583e04">%d en ligne</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">Activé</string>
+    <string name="t_e3de5ab0ca">Désactivé</string>
     <string name="t_222d511a70">Ajouter un lecteur cloud…</string>
     <string name="t_d9a36850b7">Applications</string>
     <string name="t_45e5f3f72e">Commandes</string>
@@ -2235,7 +2332,7 @@
     <string name="t_90e82471bd">Fichiers inutilisés</string>
     <string name="t_ee79525942">Photos similaires</string>
     <string name="t_c3ffcb9030">Mots dans les photos</string>
-    <string name="t_6b5a4d772d">Statuts WhatsApp</string>
+    <string name="t_bd7b901270">Enregistreur de statuts</string>
     <string name="t_341d29646c">Analyseur de stockage</string>
     <string name="t_40c20d94e7">Séries</string>
     <string name="t_158ab41cbc">Partager via Wi-Fi</string>
@@ -2262,19 +2359,21 @@
     <string name="t_551a46e55e">Masquer %s</string>
     <string name="t_12e93a8a78">Pour le masquer, définissez un mot secret dans les paramètres du coffre-fort</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->
+    <string name="t_a798882f1c">Verrouillé</string>
     <string name="t_98b0ed858a">Ajouter un compte</string>
     <string name="t_5dcc791366">Ajouter un autre compte</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
     <string name="t_017b278c13">Faites glisser ≡ pour réorganiser les sections, appui long pour déplacer les tuiles, touchez − pour masquer.</string>
+    <string name="t_7a6728bdc2">Taille des icônes</string>
     <string name="t_762cb6eaf4">Déplacer %s</string>
     <string name="t_e01b76de48">Tuiles masquées (touchez pour afficher)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APK</string>
+    <string name="t_2a4d562b1d">Onglets</string>
     <string name="t_24345a1437">Aujourd’hui</string>
     <string name="t_1697d281a3">Modifié aujourd’hui</string>
-    <string name="t_e92aab82fc">Statuts</string>
     <string name="t_bd47f3ad7f">Analyseur</string>
     <string name="t_858df0c869">Partage Wi-Fi</string>
     <string name="t_28cba55d2a">Analyser</string>
@@ -2283,6 +2382,10 @@
     <string name="t_6cb2b4b5ca">Verrouiller %s</string>
     <string name="t_bcc8bd37f9">%s verrouillé</string>
     <string name="t_60660d0972">%s déverrouillé</string>
+    <string name="t_ca461e627d">Déverrouiller %s ?</string>
+    <string name="t_64974141bc">Verrouiller %s ?</string>
+    <string name="t_51c31e8486">La section s’ouvrira sans le verrouillage de l’écran.</string>
+    <string name="t_9fc0b54c39">La section ne s’ouvrira qu’après votre empreinte digitale ou le verrouillage de l’écran.</string>
     <string name="t_8cbe703f2a">Masquer %s ?</string>
     <string name="t_76985e982d">Affichez-le de nouveau depuis Réorganiser l’accueil.</string>
     <string name="t_d098e97544">Retirer %s de l’Accès rapide ?</string>
@@ -2293,12 +2396,12 @@
     <string name="t_c5e23457aa">connecté</string>
     <string name="t_544aa0b589">Gérer les favoris</string>
     <string name="t_d25e5aef9a">%s ajouté</string>
-    <string name="t_0a4cb13c05">Afficher dans le dossier</string>
     <string name="t_32b5b990d5">Retirer des Récents</string>
     <string name="t_0d52befa5c">Réorganiser l’accueil</string>
     <string name="t_03eb1a4433">Ajouter le dossier</string>
     <string name="t_64ca199c85">Remplacer…</string>
     <string name="t_94ac9a58b6">Renommer…</string>
+    <string name="t_9d187d3f8f">Changer l’icône…</string>
     <string name="t_9155fcfc36">Verrouiller…</string>
     <string name="t_e2913e431d">Masquer de l’accueil…</string>
     <string name="t_eaa66a3a4d">Retirer de l’Accès rapide…</string>
@@ -2310,7 +2413,6 @@
     <string name="t_b804021212">Tous les outils sont sur l’accueil</string>
     <string name="t_e4fb25be04">Ajouter %s</string>
     <string name="t_5a7834eab7">Supprimer %s</string>
-    <string name="t_a798882f1c">Verrouillé</string>
     <string name="t_7842d8c3f5">Touchez pour accorder l’accès</string>
     <string name="t_c8b2e864ec">Photos</string>
     <string name="t_da021d8e37">Fichiers d’applications</string>
@@ -2368,6 +2470,10 @@
     <string name="t_2b2559a674">Année suivante</string>
     <string name="t_7426bed660">Tout %s</string>
     <string name="t_f95f4561cb">Un jour, ou le premier et le dernier jour</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/TileLooks.kt -->
+    <string name="t_1ca19f050a">Icône pour %s</string>
+    <string name="t_ba09a6e97b">Sélectionné</string>
+    <string name="t_c0a8060f3b">Original</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_2f601b8095">Impossible de joindre le serveur</string>
     <string name="t_a6cf8f3559">Pour les liens directs vers des fichiers (.zip, .apk, .mp4, .pdf…).</string>
@@ -2496,7 +2602,6 @@
     <string name="t_b1c5a7af06">Piste</string>
     <string name="t_1370004da7">Durée</string>
     <string name="t_7a031620c9">Fréquence d’échantillonnage</string>
-    <string name="t_041a5dec48">Format</string>
     <string name="t_13ae374e9d">Aucune lecture en cours</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CastControls.kt -->
     <string name="t_ccd8f74668">Caster sur la TV</string>
@@ -2529,11 +2634,6 @@
     <string name="t_3b1931ecdd">Une copie compressée est enregistrée à côté de chaque vidéo.</string>
     <string name="t_da7572e938">Compression de %s vidéos</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/CutSongScreen.kt -->
-    <string name="t_ceafe39770">Vérification du Moteur multimédia…</string>
-    <string name="t_5dd6485d09">Nécessite le Moteur multimédia. Installez-le depuis le Téléchargeur multimédia.</string>
-    <string name="t_a7a0e54905">Non disponible dans cette version</string>
-    <string name="t_d58754228e">Mettez ManyFile à jour pour utiliser ce Moteur multimédia.</string>
-    <string name="t_fec0e30489">La signature du Moteur multimédia ne correspond pas</string>
     <string name="t_3c4bf6c34e">%s (extrait)</string>
     <string name="t_0650ea0f1c">Impossible de découper la chanson</string>
     <string name="t_bb5ce25720">Découper un morceau</string>
@@ -2585,7 +2685,6 @@
     <string name="t_07a1392707">Aucune grosse vidéo à réduire.</string>
     <string name="t_5506a0bf13">%1$s, environ %2$s en 720p : %3$s économisés</string>
     <string name="t_000767aa61">%d photos</string>
-    <string name="t_ba09a6e97b">Sélectionné</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/MusicLibraryScreen.kt -->
     <string name="t_e1404b4267">Titres</string>
     <string name="t_4c45e72e85">Albums</string>
@@ -2594,6 +2693,7 @@
     <string name="t_77b69f32c8">Playlists</string>
     <string name="t_d362922b87">Lu ensuite</string>
     <string name="t_53cf48115c">Ajouté à la file d’attente</string>
+    <string name="t_0291b9f703">Impossible de modifier %s</string>
     <string name="t_621f8ce617">Aucun artiste dans la bibliothèque musicale</string>
     <string name="t_755173302f">Aucun genre dans la bibliothèque musicale</string>
     <string name="t_e6ccc0fdea">Coups de cœur</string>
@@ -2603,6 +2703,7 @@
     <string name="t_773b444b83">Nouvelle playlist…</string>
     <string name="t_a5474a872e">Nouvelle playlist</string>
     <string name="t_29e84521a4">Playlist %s créée</string>
+    <string name="t_95277d3c88">Impossible de créer la playlist : %s</string>
     <string name="t_279af0e5ff">Renommer la playlist</string>
     <string name="t_5b772b7bfd">Lecture aléatoire</string>
     <string name="t_b55b186d3a">Supprimer la playlist</string>
@@ -2646,7 +2747,6 @@
     <string name="t_c737ce538e">Taille de la photo</string>
     <string name="t_d01f8dc1fa">Marges</string>
     <string name="t_9ec4d86f6b">Larges</string>
-    <string name="t_a60f2c7360">Qualité</string>
     <string name="t_b85ff05208">Petit fichier</string>
     <string name="t_dab7a34f15">Enregistré à côté de la première photo.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SeriesScreen.kt -->
@@ -2750,6 +2850,7 @@
     <string name="t_458e0cca0e">Fin de cette vidéo</string>
     <string name="t_99823a982e">Amplification du volume</string>
     <string name="t_7b8d447254">Pour cette vidéo. Un son très fort peut saturer sur de petits haut-parleurs.</string>
+    <string name="t_38b9bd97df">WhatsApp n’est pas installé</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoToolDialogs.kt -->
     <string name="t_b75f23d1d0">Pivoter à droite</string>
     <string name="t_c5d09a00a9">90° dans le sens horaire</string>
@@ -2854,8 +2955,8 @@
     <string name="t_66dac4e14b">Se reconnecter automatiquement</string>
     <string name="t_931daa9ac1">Réessayer si la connexion est interrompue</string>
     <string name="t_c3166208a9">Le serveur existe déjà sous « %s »</string>
-    <string name="t_85dab4ffa8">Connecté · dossier personnel %s</string>
     <string name="t_cee48b11fe">Non enregistré : %s</string>
+    <string name="t_85dab4ffa8">Connecté · dossier personnel %s</string>
     <string name="t_3cfdd883ac">Tester et enregistrer</string>
     <string name="t_f74c5aa5a7">L’adresse ne peut pas contenir d’espaces</string>
     <string name="t_65d6e1e5c0">Adresse uniquement. Saisissez les partages et dossiers dans Dossier de départ.</string>
@@ -3227,6 +3328,8 @@
     <string name="t_49f55306ff">Bloque également les captures d’écran</string>
     <string name="t_35e32744ce">Désactiver le verrouillage de l’application</string>
     <string name="t_54c0708f12">Verrouillage de l’application désactivé</string>
+    <string name="t_6223b2728c">Bloquer les captures d’écran</string>
+    <string name="t_5567fe8fa0">Partout dans ManyFile, et masque l’application dans les applications récentes. Les coffres-forts, les dossiers verrouillés et l’authentificateur les bloquent toujours.</string>
     <string name="t_3737a4c3d5">Définir un code PIN ou un mot de passe</string>
     <string name="t_6890406fa0">Code PIN (4 chiffres ou plus)</string>
     <string name="t_a3abe37c07">Mot de passe (6 caractères ou plus)</string>
@@ -3247,20 +3350,19 @@
     <string name="t_e8d4bfc82e">Paramètres restaurés</string>
     <string name="t_162ac96a28">Redémarrez pour appliquer.</string>
     <string name="t_af2c3d8ef2">Redémarrer maintenant</string>
-    <string name="t_07c2964c41">Google Drive</string>
     <string name="t_19de95033d">Enregistré automatiquement dans un dossier ManyFile</string>
     <string name="t_f6005584e2">Sauvegarde…</string>
     <string name="t_bc3ec50969">Dernière sauvegarde %s</string>
     <string name="t_c60bd5d348">Pas encore sauvegardé</string>
-    <string name="t_ce5375d852">Sauvegarder sur Google Drive</string>
-    <string name="t_e7fac2fc45">Aucun compte Google Drive.</string>
+    <string name="t_f012e3b37e">Sauvegarder dans le cloud</string>
+    <string name="t_f3294acbc9">Aucun compte cloud. Ajoutez Google Drive ici, ou OneDrive ou MEGA depuis la section Cloud du menu.</string>
     <string name="t_cb428fea97">Ajouter Google Drive</string>
     <string name="t_2bd365b548">Vers %s</string>
     <string name="t_527bf1aa5d">Sauvegarder maintenant</string>
-    <string name="t_3a6b3d05d6">Paramètres sauvegardés sur Google Drive</string>
-    <string name="t_306c3df0a4">Restaurer depuis Google Drive…</string>
-    <string name="t_b183e2cdcd">Restaurer depuis Google Drive</string>
-    <string name="t_dad4beefbd">Aucune sauvegarde dans ce Drive</string>
+    <string name="t_d18c827053">Paramètres sauvegardés sur %s</string>
+    <string name="t_802e9ce107">Restaurer depuis %s…</string>
+    <string name="t_028a221109">Restaurer depuis %s</string>
+    <string name="t_5d8a573743">Aucune sauvegarde ici</string>
     <string name="t_fed70174d4">%d paramètres</string>
     <string name="t_b7d02e7254">%d favoris et dossiers d’Accès rapide</string>
     <string name="t_cc9c7f4c98">%d serveurs</string>
@@ -3339,10 +3441,12 @@
     <string name="t_937dc13be3">séparateurs</string>
     <string name="t_5f298b3685">tri par %s</string>
     <string name="t_1931f0d317">fichiers cachés</string>
+    <string name="t_af89164460">Onglets désactivés</string>
+    <string name="t_e2139f3317">double panneau</string>
     <string name="t_c6a6b82d30">Restaurer les onglets</string>
     <string name="t_a503c5b794">Nouveau départ</string>
+    <string name="t_081802f280">onglet actuel</string>
     <string name="t_7594277659">glisser pour un nouvel onglet</string>
-    <string name="t_e2139f3317">double panneau</string>
     <string name="t_73f7688e67">Supprimer : %s</string>
     <string name="t_6e8e17fa9d">fichiers existants : %s</string>
     <string name="t_20b2aa1303">Aucune valeur par défaut</string>
@@ -3356,6 +3460,7 @@
     <string name="t_5866a5f327">lecteur %s</string>
     <string name="t_c398fa223b">lecture en arrière-plan</string>
     <string name="t_a9706e3d75">gestes vidéo</string>
+    <string name="t_03b9324ae2">La Corbeille conserve les éléments jusqu’à leur suppression</string>
     <string name="t_9c4ea157de">La Corbeille conserve %d jours</string>
     <string name="t_7c350d6a7c">récents activés</string>
     <string name="t_444872b213">récents désactivés</string>
@@ -3366,9 +3471,6 @@
     <string name="t_3b7c5965ce">Enregistrer et restaurer les paramètres</string>
     <string name="t_71ef638170">Verrouillage de l’écran</string>
     <string name="t_d94bba539d">Code PIN ou mot de passe</string>
-    <string name="t_eb76a81dce">ne jamais verrouiller automatiquement</string>
-    <string name="t_5d4ad03e0d">verrouiller en quittant l’application</string>
-    <string name="t_cb824b4e93">verrouiller après %s min</string>
     <string name="t_6d88987464">Rapport de plantage disponible</string>
     <string name="t_d45bfe8ffc">Aucun plantage enregistré</string>
     <string name="t_05f39e0a8f">nouveautés</string>
@@ -3381,8 +3483,23 @@
     <string name="t_f35a605d19">Nombre d’éléments sur l’accueil et dans le menu</string>
     <string name="t_4e947596f8">Carte du stockage sur l’accueil</string>
     <string name="t_5fa41619d6">Utilisation du stockage par type de fichier</string>
+    <string name="t_72b714ce85">Verrouiller la disposition de l’accueil</string>
+    <string name="t_f7f96d5317">Aucune réorganisation, aucun renommage ni masquage sur l’accueil</string>
+    <string name="t_0779961bcf">Taille des icônes de l’accueil</string>
+    <string name="t_b78a45fef3">Pincer pour redimensionner les icônes de l’accueil</string>
+    <string name="t_2447b7c9e4">Deux doigts sur l’accueil agrandissent ou réduisent les icônes</string>
+    <string name="t_2512fa5546">Déplacer les tuiles entre les cartes</string>
+    <string name="t_0678e4dff0">Faites glisser une tuile vers une autre carte dans Réorganiser l’accueil, ou appui long → Déplacer vers</string>
     <string name="t_90d8adf19e">Séparateurs</string>
     <string name="t_e45a4ff15e">Lignes entre les éléments de liste et autour des tuiles de grille</string>
+    <string name="t_3cc6e124a8">Taille du texte</string>
+    <string name="t_4c3d9e4511">Vibrer au toucher</string>
+    <string name="t_e315b3f31f">Lors d’un appui long, d’un glissement ou d’un scan</string>
+    <string name="t_7cf7e8e599">Plus grands</string>
+    <string name="t_35d8a95d3e">Par défaut de la langue (%s)</string>
+    <string name="t_b58f3b8e63">Réglage du téléphone</string>
+    <string name="t_18e8681926">24 heures</string>
+    <string name="t_41c18ba05d">12 heures</string>
     <string name="t_2ae3a9285a">Disposition par défaut</string>
     <string name="t_b0c94c4fba">Colonnes de la grille</string>
     <string name="t_4083561367">Ou pincez pour zoomer dans un dossier</string>
@@ -3390,7 +3507,9 @@
     <string name="t_91de17efe9">%s · taille des icônes et du texte</string>
     <string name="t_37f9c1a6a5">Afficher les fichiers cachés</string>
     <string name="t_6fdbcce4e4">Noms commençant par un point</string>
-    <string name="t_b0c9f5e444">Regrouper par source dans Images, Vidéos, Audio et Documents</string>
+    <string name="t_774d3b0f86">Images, Vidéos et Audio</string>
+    <string name="t_68c1fb1304">Filtres par type de fichier</string>
+    <string name="t_e526d83c79">Filtrer Images, Vidéos et les résultats de recherche par type de fichier</string>
     <string name="t_12e853a079">Détails des éléments</string>
     <string name="t_89368e1d68">taille</string>
     <string name="t_e927d0677c">date</string>
@@ -3408,11 +3527,21 @@
     <string name="t_3ba684212a">Images, vidéos, pochettes de morceaux, PDF et icônes d’APK</string>
     <string name="t_15bfc09591">Aperçus des dossiers</string>
     <string name="t_7c7a6f0de0">Aperçu du contenu sur les icônes de dossiers (nécessite Miniatures)</string>
+    <string name="t_facb9c7f71">Logos des langages</string>
+    <string name="t_2c089ece33">Logos sur les fichiers de code (JS, Rust, Python…)</string>
     <string name="t_9b2bc031e2">Touchez l’icône pour l’Aperçu rapide</string>
     <string name="t_78e206e839">Prévisualiser un fichier sans l’ouvrir</string>
     <string name="t_656bcfe284">Extensions</string>
     <string name="t_03883c6b08">Actualisation automatique</string>
     <string name="t_8e2be1c691">Recharger lorsque les fichiers changent</string>
+    <string name="t_2ac267b06f">Dates exactes</string>
+    <string name="t_b5428a5772">Date et heure au lieu de « il y a 5 min » ou « Hier »</string>
+    <string name="t_94ee886908">Format de date</string>
+    <string name="t_8f3bd15394">Format de l’heure</string>
+    <string name="t_e4514d5c80">Tailles en unités de 1000</string>
+    <string name="t_39703be7a1">ko, Mo et Go, comme les Paramètres Android affichent le stockage</string>
+    <string name="t_b126e77d3e">Appuyer deux fois sur Retour pour quitter</string>
+    <string name="t_c0e549462d">Sur l’accueil, un appui de plus sur Retour quitte ManyFile</string>
     <string name="t_c2a9a0ce74">Recherche instantanée</string>
     <string name="t_1a9d817383">Indexer les fichiers</string>
     <string name="t_20b2349aa7">Indexer les noms de fichiers pour des résultats instantanés</string>
@@ -3443,6 +3572,7 @@
     <string name="t_4cfca2bfdc">La navigation démarre au stockage interne</string>
     <string name="t_cb5d2ec041">Parcourir au-dessus du stockage interne</string>
     <string name="t_97389b5878">Remonter vers /storage et / (principalement en lecture seule)</string>
+    <string name="t_a1a5fe8e87">Ouvrir au démarrage</string>
     <string name="t_e5ebde3f4c">Stockages à indexer</string>
     <string name="t_46185e8b73">Dossiers exclus</string>
     <string name="t_29d523efe9">Leurs fichiers n’apparaissent pas dans les recherches sur tout le téléphone. Une recherche dans l’un d’eux trouve quand même ses fichiers, plus lentement.</string>
@@ -3453,11 +3583,13 @@
     <string name="t_37619fc130">Blanc</string>
     <string name="t_3526f607bc">Jaune</string>
     <string name="t_8e1fe2d505">Cyan</string>
-    <string name="t_933bf21afd">Vert</string>
     <string name="t_171460e8c8">Gris clair</string>
     <string name="t_b41a6f3fa3">Indexation… %s fichiers</string>
     <string name="t_cccc3ca403">Pas encore créé</string>
     <string name="t_1e4e987077">%s fichiers · mis à jour %s</string>
+    <string name="t_0735c12549">Désactivé : un dossier à la fois, sans barre d’onglets</string>
+    <string name="t_c843384f9d">Ouvrir dans l’onglet actuel</string>
+    <string name="t_ecdb442ddb">Les emplacements de l’accueil et du menu s’ouvrent dans l’onglet affiché</string>
     <string name="t_0af4665f7a">Restaurer les onglets au démarrage</string>
     <string name="t_e60707198b">Rouvrir les onglets de la dernière fois</string>
     <string name="t_ea218a5daa">Glisser pour un nouvel onglet</string>
@@ -3488,6 +3620,8 @@
     <string name="t_6afde9656f">%s à la fois</string>
     <string name="t_90148442f2">Tâches simultanées</string>
     <string name="t_03e5ecb5d0">S’applique après redémarrage</string>
+    <string name="t_3fe9af15c6">Garder l’écran allumé pendant les tâches</string>
+    <string name="t_f1a7eada6d">Tant que ManyFile est ouvert et copie ou déplace des fichiers</string>
     <string name="t_812412a05e">Transferts</string>
     <string name="t_86a4261d84">vérifier</string>
     <string name="t_abe6b0adc4">%d tentatives</string>
@@ -3622,9 +3756,9 @@
     <string name="t_efd0d2e424">Ouvrir Shizuku</string>
     <string name="t_a42211d26e">Après avoir rooté l’appareil ou mis à jour l’application root, redémarrez l’appareil avant d’utiliser root.</string>
     <string name="t_195b9c2a48">Redémarrage recommandé</string>
-    <string name="t_282739264a">Conserver les éléments supprimés pendant (jours)</string>
-    <string name="t_d28199733b">Limite de taille de la Corbeille (Mo, 0 = aucune)</string>
-    <string name="t_e00e89f2eb">Les éléments les plus anciens sont supprimés en premier</string>
+    <string name="t_7874f56e84">Supprimer les éléments de la Corbeille après</string>
+    <string name="t_8e55cb7d44">Limite de taille de la Corbeille</string>
+    <string name="t_10850b9371">Aucune limite</string>
     <string name="t_391b25ceff">Activé · tout est conservé</string>
     <string name="t_49a0ac6998">Activé · %s</string>
     <string name="t_f60cd87a7c">Emplacements récents</string>
@@ -3632,7 +3766,6 @@
     <string name="t_3c696f2f0f">Afficher les fichiers récemment ajoutés</string>
     <string name="t_732f821382">Inclure les nouveaux téléchargements, photos et fichiers reçus</string>
     <string name="t_daa087c451">Conserver au maximum</string>
-    <string name="t_10850b9371">Aucune limite</string>
     <string name="t_0c794ca3ec">Oublier après</string>
     <string name="t_eaa6bfa802">Inclure les emplacements serveur</string>
     <string name="t_136306dc15">Emplacements SFTP dans Récents</string>
@@ -3642,6 +3775,7 @@
     <string name="t_2608969dc6">Effacer l’historique d’annulation</string>
     <string name="t_9825d6ce8f">Historique d’annulation effacé</string>
     <string name="t_248a513824">Tous les emplacements récents seront supprimés.</string>
+    <string name="t_23739e93c8">Jamais (suppression manuelle)</string>
     <string name="t_27ec24775a">%d ans</string>
     <string name="t_2d8a6f7c34">1 jour</string>
     <string name="t_0e3dee7646">%d jours</string>
@@ -3662,6 +3796,9 @@
     <string name="t_6a4c5989f3">Dernier rapport de plantage</string>
     <string name="t_27e7700fda">envoyé</string>
     <string name="t_e3efaff80b">touchez pour afficher · supprimé après 30 jours</string>
+    <string name="t_3ac19a5e03">Erreurs gérées</string>
+    <string name="t_9a7889c9d2">%d enregistrées · touchez pour afficher</string>
+    <string name="t_54e5c8d017">Aucune enregistrée</string>
     <string name="t_2301acff42">Appareil et build</string>
     <string name="t_6632a3ed87">Version Android, appareil, cœur natif</string>
     <string name="t_96daf28fe7">Cœur natif %s</string>
@@ -3686,13 +3823,12 @@
     <string name="t_def70e36e2">Conserver les deux (renommer)</string>
     <string name="t_25298176f1">Ignorer les identiques, remplacer les autres</string>
     <string name="t_ef3eaaddb0">Impossible de terminer : %s</string>
-    <string name="t_aca95ca149">Verrouiller lorsque l’écran s’éteint</string>
-    <string name="t_116be2a756">Les coffres-forts du stockage du téléphone sont conservés dans le dossier caché %s. Les coffres-forts masqués par un mot secret s’ouvrent en saisissant ce mot dans Rechercher.</string>
+    <string name="t_7deaa7243a">%s à %s</string>
+    <string name="t_06b054b16a">Saisissez un nombre de %s à %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/AnalyzerScreen.kt -->
     <string name="t_ed8f174fbb">%s · %s fichiers · %s dossiers</string>
     <string name="t_058581c6d7">Analyse… %s fichiers, %s dossiers, %s\n%s</string>
     <string name="t_ab478f3efc">Carte</string>
-    <string name="t_7cf7e8e599">Plus grands</string>
     <string name="t_93b9e289e2">Types</string>
     <string name="t_c47bb88fdb">Plus anciens</string>
     <string name="t_d044282472">Plus récents</string>
@@ -3759,7 +3895,6 @@
     <string name="t_48794ceecd">Enregistrer l’APK dans Téléchargements</string>
     <string name="t_edeec8524c">Enregistrer les APK (.apks) dans Téléchargements</string>
     <string name="t_7d8bf91104">%s enregistré dans Download/ManyFile apps</string>
-    <string name="t_3127d14ff9">Impossible d’enregistrer : %s</string>
     <string name="t_addb5ae9df">Partager l’APK</string>
     <string name="t_a735da1d32">Désinstaller</string>
     <string name="t_10eae79a15">Geler %s ?</string>
@@ -3786,6 +3921,10 @@
     <string name="t_530cc25bdc">Sauvegardes</string>
     <string name="t_e7715b7ee0">Emplacement de sauvegarde</string>
     <string name="t_d4f1c49efd">Désactiver les sauvegardes</string>
+    <string name="t_3bd5607567">Aussi vers</string>
+    <string name="t_a8c95f0c7d">Arrêter la sauvegarde vers %s</string>
+    <string name="t_8a7074edf7">Ajouter un autre emplacement…</string>
+    <string name="t_b3dbada44c">Google Drive, OneDrive, MEGA, un serveur ou le téléphone</string>
     <string name="t_cbf6e46655">Échec de la dernière sauvegarde : %s</string>
     <string name="t_db045a38c6">Dernière sauvegarde : %s</string>
     <string name="t_bad4cba285">Automatique après chaque modification</string>
@@ -3793,6 +3932,7 @@
     <string name="t_fbc96fa6eb">Restaurer une sauvegarde…</string>
     <string name="t_de090f7721">Les sauvegardes sont chiffrées avec votre mot de passe.</string>
     <string name="t_f25ce1b8a3">Sécurité</string>
+    <string name="t_8ade7af97d">Verrouiller lorsque l’écran s’éteint</string>
     <string name="t_20496ec54a">Rappel du mot de passe</string>
     <string name="t_f847e052ea">Toutes les 2 semaines</string>
     <string name="t_00dc665944">Modifier le mot de passe…</string>
@@ -3805,6 +3945,7 @@
     <string name="t_3ea98c9a0f">Après %d minutes</string>
     <string name="t_6bdf8e9388">%d sauvegardes</string>
     <string name="t_5000ee95a3">Après %d secondes</string>
+    <string name="t_8818caf628">Déverrouillage par empreinte activé</string>
     <string name="t_17e41243ca">Sauvegarde chiffrée</string>
     <string name="t_f3e4fadb9e">Exporter</string>
     <string name="t_3bac8f5aae">Fichier chiffré</string>
@@ -3830,6 +3971,7 @@
     <string name="t_66cbc149e3">Sauvegarde enregistrée</string>
     <string name="t_a7a59840fd">Ordre personnalisé</string>
     <string name="t_3884cc43c4">Les plus utilisés</string>
+    <string name="t_020cbed915">Réorganiser…</string>
     <string name="t_0a116345ca">Exporter…</string>
     <string name="t_f34b92a491">Aucun compte</string>
     <string name="t_7048ec48bb">%s ajouté</string>
@@ -3839,7 +3981,6 @@
     <string name="t_b67ce40b90">Exporter sans chiffrement ?</string>
     <string name="t_9742efc8a8">Toute personne possédant ce fichier peut générer vos codes. Supprimez-le après utilisation.</string>
     <string name="t_b55c3a4885">Codes ManyFile %s.txt</string>
-    <string name="t_8818caf628">Déverrouillage par empreinte activé</string>
     <string name="t_a65eaa8807">Restaurer la sauvegarde</string>
     <string name="t_85bcc07393">Désactivez d’abord la vérification en deux étapes pour %s, sinon vous risquez de perdre l’accès.</string>
     <string name="t_9704b6631f">Favori</string>
@@ -3859,6 +4000,8 @@
     <string name="t_00040bab8a">Travail</string>
     <string name="t_f85039fd8e">Confirmer le nouveau mot de passe</string>
     <string name="t_61815cd636">Les sauvegardes existantes conservent l’ancien mot de passe.</string>
+    <string name="t_3281febc7d">Réorganiser</string>
+    <string name="t_ccf10583e1">Faites glisser un compte pour le déplacer ; les favoris restent en premier</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/BootUsbScreen.kt -->
     <string name="t_04e494344e">Lecteur USB déconnecté</string>
     <string name="t_155dc6ef04">Accès USB refusé</string>
@@ -3947,6 +4090,7 @@
     <string name="t_e408d97dbd">Supprimer 1 élément (%s) ?</string>
     <string name="t_7cf1698d6c">Supprimer %s éléments (%s) ?</string>
     <string name="t_08e4393ec8">Les fichiers indésirables sont supprimés définitivement.</string>
+    <string name="t_412f0c05d1">Le déplacement vers la Corbeille ne libère de l’espace qu’une fois la Corbeille vidée.</string>
     <string name="t_18764db058">Le déplacement vers la Corbeille ne libère de l’espace qu’après %s jours.</string>
     <string name="t_2c269f3f84">Tout âge</string>
     <string name="t_1de70fe01a">Plus de 30 jours</string>
@@ -4053,6 +4197,7 @@
     <string name="t_7f811906c8">Une copie de chaque groupe est conservée.</string>
     <string name="t_d4163c0aca">Toutes les copies ont été marquées dans 1 groupe.</string>
     <string name="t_1d9b8c721a">Toutes les copies ont été marquées dans %s groupes.</string>
+    <string name="t_5c2a5f836c">La Corbeille les conserve jusqu’à ce que vous les supprimiez.</string>
     <string name="t_4e637f2d9c">La Corbeille les conserve pendant %s jours.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/EngineOffer.kt -->
     <string name="t_c991c82690">Requis pour le Téléchargeur multimédia et Découper une chanson.</string>
@@ -4672,13 +4817,17 @@
     <string name="t_be79ddc7e2">Symboles exportés (%d)</string>
     <string name="t_2eb357c0ff">Filtrer les symboles</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/PhotoBackupScreen.kt -->
-    <string name="t_9c98396654">Sauvegarder les photos sur Google Drive</string>
-    <string name="t_f7874dde4c">Les nouvelles photos et vidéos des dossiers sélectionnés sont envoyées vers Drive.</string>
-    <string name="t_d11988d44d">Connectez-vous d’abord à Google Drive.</string>
+    <string name="t_28b09bb50d">Sauvegarder les photos</string>
+    <string name="t_5cc56d2c3f">Les nouvelles photos et vidéos des dossiers sélectionnés sont envoyées vers chaque emplacement choisi ci-dessous.</string>
+    <string name="t_586ef0369d">Sauvegarder vers</string>
+    <string name="t_07c2964c41">Google Drive</string>
+    <string name="t_257fa99e08">Aucun compte</string>
+    <string name="t_98ff4ccdcf">Dans Mon Drive</string>
+    <string name="t_3a38237fed">Ajouter un emplacement…</string>
     <string name="t_a73842af4c">%s en attente</string>
     <string name="t_9eeb34c4fb">Inclut les sous-dossiers sauf les dossiers cachés et Screenshots (ajoutez-le séparément).</string>
-    <string name="t_96c7633d46">Dossier sur Drive</string>
-    <string name="t_7b8f3b7056">Dans Mon Drive. Chaque dossier reçoit son propre sous-dossier.</string>
+    <string name="t_2a33df93a2">Dossier de sauvegarde</string>
+    <string name="t_46d81e2cf7">Dans chaque emplacement. Chaque dossier reçoit son propre sous-dossier.</string>
     <string name="t_b111f05350">Les données mobiles ne sont jamais utilisées pour les photos</string>
     <string name="t_66af28c6d1">Uniquement pendant la charge</string>
     <string name="t_821a88a575">S’applique aux sauvegardes automatiques</string>
@@ -4698,7 +4847,6 @@
     <string name="t_9bab232dd9">Enregistrer le PDF</string>
     <string name="t_1ced325ddd">Gris</string>
     <string name="t_019728575b">Noir &amp; blanc</string>
-    <string name="t_c0a8060f3b">Original</string>
     <string name="t_03d2d33aec">Ajouter une page</string>
     <string name="t_a9838d3a3c">Aucune page</string>
     <string name="t_0ca4dfecdf">Page %d</string>
@@ -4778,6 +4926,7 @@
     <string name="t_bdec18113b">Lecture seule. Activez l’écriture pour exécuter cette instruction.</string>
     <string name="t_38755fbbc8">&lt;blob %s o&gt;</string>
     <string name="t_961f7b1b3c">Erreur SQL</string>
+    <string name="t_be08c63b57">Trop de données à afficher. Sélectionnez moins de lignes ou de colonnes.</string>
     <string name="t_b2dc47d910">%s tables</string>
     <string name="t_6dc1292bee">Échec de %s : %s</string>
     <string name="t_2d621f2fef">%s lignes → %s</string>
@@ -4816,11 +4965,8 @@
     <string name="t_458a2c6a9c">Affichage des 2 000 premières lignes</string>
     <string name="t_475978640b">Aucune ligne</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/StatusesScreen.kt -->
-    <string name="t_328b29aca3">Déjà enregistré</string>
     <string name="t_f79ce49221">%s enregistré dans Pictures/Statuses</string>
-    <string name="t_38b9bd97df">WhatsApp n’est pas installé</string>
     <string name="t_6a0bd0236f">Statuts enregistrés</string>
-    <string name="t_98dd47501a">Republier</string>
     <string name="t_60c3cc50ec">Accès à tous les fichiers requis. Autorisez-le dans Paramètres → Applications → ManyFile → Autorisations.</string>
     <string name="t_0c98566b6f">Aucun statut trouvé</string>
     <string name="t_a4408274d0">Aucun statut. Les statuts que vous consultez dans WhatsApp apparaissent ici.</string>
@@ -4868,7 +5014,6 @@
     <string name="t_d71d16869c">Tout importer</string>
     <string name="t_4687a3bb84">Aucun contact dans ce fichier</string>
     <string name="t_d87c1d8eb6">Aucune application de contacts</string>
-    <string name="t_5b6a801eb5">Aucune application trouvée</string>
     <string name="t_a6b9d69f57">Anniversaire</string>
     <string name="t_84552789ca">Ajouter aux contacts</string>
     <string name="t_d36d0a346a">1 événement</string>
@@ -4889,6 +5034,7 @@
     <string name="t_c380b3ba8b">Ajouter un paragraphe</string>
     <string name="t_4bf6241135">Supprimer le paragraphe</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/HexViewerScreen.kt -->
+    <string name="t_17b07001f8">Impossible d’ouvrir : %s</string>
     <string name="t_498964473e">Aucune autre correspondance</string>
     <string name="t_9ee397b3ca">Correspondance à 0x%s</string>
     <string name="t_f9073e8ff7">Enregistré. L’original est conservé sous le nom %s</string>
@@ -4911,7 +5057,9 @@
     <string name="t_4a48932789">Écrire</string>
     <string name="t_d8fff6bab4">Supprimer des octets à 0x%s</string>
     <string name="t_90067c2e37">Combien (décimal ou hexadécimal 0x)</string>
+    <string name="t_97d3fa0771">Impossible de rechercher : %s</string>
     <string name="t_b2d0620776">Remplacé à 0x%s</string>
+    <string name="t_b8518cc723">Impossible de remplacer : %s</string>
     <string name="t_eb68272812">1 remplacement</string>
     <string name="t_d64229bb65">Vos modifications remplacent le fichier. Si l’enregistrement échoue, l’original est conservé.</string>
     <string name="t_dc47531637">Conserver l’original sous le nom %s</string>
@@ -4963,6 +5111,7 @@
     <string name="t_9bd85a7d22">Distance focale</string>
     <string name="t_86e4e38754">Orientation</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/OfficeViewerScreen.kt -->
+    <string name="t_ffce885bae">Impossible d’imprimer : %s</string>
     <string name="t_af7a8abd14">1 cellule enregistrée</string>
     <string name="t_6e3422d379">%d cellules enregistrées</string>
     <string name="t_2f6994e029">Rechercher dans les cellules</string>
@@ -4974,6 +5123,7 @@
     <string name="t_e8c89894fe">Pages sombres</string>
     <string name="t_46937d0105">Pages claires</string>
     <string name="t_59fcc7bc8e">Copier tout le texte</string>
+    <string name="t_6e1782e3ad">Trop de texte à copier</string>
     <string name="t_3a230f03c3">Abandonner la modification d’1 cellule ?</string>
     <string name="t_25d7d3cd39">Abandonner les modifications de %d cellules ?</string>
     <string name="t_2492ef5448">Document trop long. Affichage du début.</string>
@@ -5041,6 +5191,8 @@
     <string name="t_878f952115">Chapitre précédent</string>
     <string name="t_90df69ddae">Chapitre %s sur %s · %s%%</string>
     <string name="t_153dd67e32">Chapitre suivant</string>
+    <string name="t_4fcf068f73">Impossible d’afficher ce livre</string>
+    <string name="t_cf894e6802">Android System WebView est absent, en cours de mise à jour ou arrêté.</string>
     <string name="t_83dc55b4c8">Taille du texte %s%%</string>
     <string name="t_fb06270f7c">Page</string>
     <string name="t_2fd4e1c67a">Portez ce vieux whisky au juge blond qui fume</string>
@@ -5071,6 +5223,7 @@
     <string name="t_a547c90c19">Autoriser JavaScript</string>
     <string name="t_793cc81cea">Autoriser le réseau</string>
     <string name="t_cce7155371">Recharger</string>
+    <string name="t_0c371c980e">Impossible d’afficher cette page</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/XmlViewerScreen.kt -->
     <string name="t_d131a14153">XML non valide</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/FillUi.kt -->

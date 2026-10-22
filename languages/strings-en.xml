@@ -2248,7 +2248,7 @@
     <string name="t_0a7262c49b">Show frame timings</string>
     <string name="t_89b86ab0e6">Language</string>
     <string name="t_c9ec7fcf0c">Indentation</string>
-    <string name="t_2a4d562b1d">Tabs</string>
+    <string name="t_611da53ceb">Tab characters</string>
     <string name="t_53e1fc5ecc">%d spaces</string>
     <string name="t_85315c08f6">Line endings: %s</string>
     <string name="t_261fd6ae5b">Reload from disk</string>
@@ -2372,6 +2372,7 @@
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APKs</string>
+    <string name="t_2a4d562b1d">Tabs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
