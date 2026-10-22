@@ -1125,6 +1125,10 @@
     <string name="t_61074f1c95">Database</string>
     <string name="t_b97c4d4cdd">Font</string>
     <string name="t_45c711bd26">E-book</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/FileTemplates.kt -->
+    <string name="t_06b230452d">Empty file</string>
+    <string name="t_5cb9bd07aa">Shell script</string>
+    <string name="t_21885d8c0a">HTML page</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Formatters.kt -->
     <string name="t_e3b8204056">Now</string>
     <string name="t_25bb2acb00">%s min ago</string>
@@ -1265,6 +1269,9 @@
     <string name="t_6e157c5da4">Create</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
     <string name="t_6619f4706d">Confirm it\'s you</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/NewFileType.kt -->
+    <string name="t_e87b92956e">Will be created as %s</string>
+    <string name="t_d68de7d227">(executable)</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/PasswordReveal.kt -->
     <string name="t_e40123b4e7">Hide password</string>
     <string name="t_044b852f30">Show password</string>
@@ -1533,8 +1540,6 @@
     <string name="t_6a72085653">All</string>
     <string name="t_6ce6c512ea">Files</string>
     <string name="t_3cb7ea0f12">New file</string>
-    <string name="t_e87b92956e">Will be created as %s</string>
-    <string name="t_d68de7d227">(executable)</string>
     <string name="t_d47c851b56">Open in editor</string>
     <string name="t_c30feffc39">Identical (%s)</string>
     <string name="t_37b8922958">Different. One file is a prefix of the other (%s vs %s)</string>
@@ -1591,10 +1596,6 @@
     <string name="t_b9c57a36b1">9999+ items</string>
     <string name="t_19884f402f">1 item</string>
     <string name="t_7ee737c83e">dir</string>
-    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FileTemplates.kt -->
-    <string name="t_06b230452d">Empty file</string>
-    <string name="t_5cb9bd07aa">Shell script</string>
-    <string name="t_21885d8c0a">HTML page</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/KeyboardShortcuts.kt -->
     <string name="t_cf03cf2e9c">Navigation</string>
     <string name="t_c85bd3332b">Move between files (← → collapse or expand in tree view)</string>
@@ -3529,6 +3530,8 @@
     <string name="t_c9296e65df">Ask every time</string>
     <string name="t_389a70efea">Confirm permanent deletion</string>
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
+    <string name="t_f79746cfb9">Delete button in viewers</string>
+    <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_c2f2f22c32">When a file exists</string>
     <string name="t_20d00e4523">Reset existing-file choice</string>
     <string name="t_f0ca7dfbe8">Built-in document scanner</string>
@@ -3605,6 +3608,7 @@
     <string name="t_81a2b04020">Rotate the screen to match the video</string>
     <string name="t_38092799bc">Play next video automatically</string>
     <string name="t_cb01211981">After a 5-second countdown you can cancel; episodes in order</string>
+    <string name="t_c2edac3235">Watch progress</string>
     <string name="t_28d0358b84">Load subtitle files</string>
     <string name="t_779910b68a">.srt, .vtt, .ass and .ttml matching the video\'s name</string>
     <string name="t_d160595fcf">Text colour</string>
@@ -3613,6 +3617,8 @@
     <string name="t_337d17c0cf">Loud scenes quieter and speech louder, for watching at low volume</string>
     <string name="t_f4d649a594">Clear playback positions</string>
     <string name="t_799dc96b04">Start all media from the beginning</string>
+    <string name="t_6c991a0683">Clear watch history</string>
+    <string name="t_dc693abd08">Remove the progress bar and ✓ from all videos</string>
     <string name="t_122c169e4c">Allow root access</string>
     <string name="t_a123cae925">Use Shizuku</string>
     <string name="t_7874f56e84">Delete items in the Bin after</string>
@@ -3741,8 +3747,6 @@
     <string name="t_c6a0b05271">Dual pane on</string>
     <string name="t_6382b6388d">Tabs only</string>
     <string name="t_9318c284b8">drag and drop</string>
-    <string name="t_f79746cfb9">Delete button in viewers</string>
-    <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_03e5ecb5d0">Applies after restart</string>
     <string name="t_86a4261d84">verify</string>
@@ -3764,7 +3768,6 @@
     <string name="t_4c074c8bcb">autosave on</string>
     <string name="t_f862af8bb8">autosave off</string>
     <string name="t_0c8de2ed48">Otherwise %s spaces</string>
-    <string name="t_c2edac3235">Watch progress</string>
     <string name="t_ca358a8ebd">External files load automatically</string>
     <string name="t_adf3eff057">Embedded only</string>
     <string name="t_f9f2cf2c3d">Subtitle size (%)</string>
@@ -3772,8 +3775,6 @@
     <string name="t_e7a5b6c2ac">No saved positions</string>
     <string name="t_44918af203">1 position cleared</string>
     <string name="t_b45f7550c6">%s positions cleared</string>
-    <string name="t_6c991a0683">Clear watch history</string>
-    <string name="t_dc693abd08">Remove the progress bar and ✓ from all videos</string>
     <string name="t_f0c8a58e0f">No watch history</string>
     <string name="t_45b31d37cb">Watch history cleared</string>
     <string name="t_c5b0f55380">Access the whole file system, including /data and /system, on rooted devices.</string>
