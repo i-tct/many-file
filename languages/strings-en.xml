@@ -1187,6 +1187,9 @@
     <string name="t_709a23220f">Name</string>
     <string name="t_3deb745651">Type</string>
     <string name="t_b7152342a2">Size</string>
+    <string name="t_4f8a62b721">Series only</string>
+    <string name="t_59a0c061cd">All videos</string>
+    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_6eef664840">None</string>
     <string name="t_56d853bd68">Semi-transparent box</string>
     <string name="t_8479f2b690">Black box</string>
@@ -1274,6 +1277,10 @@
     <string name="t_98dd47501a">Repost</string>
     <string name="t_c0ae8f6ea8">Saved</string>
     <string name="t_efc007a393">Save</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ViewerDelete.kt -->
+    <string name="t_afd1aa166b">Delete permanently?</string>
+    <string name="t_e63b5153bd">Delete permanently</string>
+    <string name="t_96f7089404">Move to Bin</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Watched</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
@@ -1384,11 +1391,8 @@
     <string name="t_d3f4cb898f">Rename</string>
     <string name="t_2b61858ac9">Delete %s?</string>
     <string name="t_1c94aae9f1">Permanent deletion can\'t be undone.</string>
-    <string name="t_96f7089404">Move to Bin</string>
-    <string name="t_e63b5153bd">Delete permanently</string>
     <string name="t_f6fdbe48dc">Delete</string>
     <string name="t_c981a1ef6d">Remember my choice (Settings › Operations)</string>
-    <string name="t_afd1aa166b">Delete permanently?</string>
     <string name="t_a2283fe356">%s will be deleted permanently. This can\'t be undone.</string>
     <string name="t_e59a981d9c">Empty Bin?</string>
     <string name="t_357e62a92e">All items in the Bin will be deleted permanently.</string>
@@ -1482,6 +1486,7 @@
     <string name="t_af214b5be5">File names aren\'t encrypted</string>
     <string name="t_f5e41c0928">Compress</string>
     <string name="t_12352091ea">Change search</string>
+    <string name="t_d66c343912">Search in %s</string>
     <string name="t_9b4ab3cba4">Text inside files</string>
     <string name="t_1b02cabf91">e.g. TODO, a function name</string>
     <string name="t_fe28dcc3d4">Searches text files only</string>
@@ -2059,6 +2064,8 @@
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
+    <string name="t_c3f3c38a68">Mark as not watched</string>
+    <string name="t_d1cc3212f6">Mark as watched</string>
     <string name="t_18b7b81480">Verify checksums</string>
     <string name="t_aa952bf854">Create checksum file…</string>
     <string name="t_785f0eeb5b">Join parts…</string>
@@ -2329,7 +2336,6 @@
     <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
-    <string name="t_e3de5ab0ca">Off</string>
     <string name="t_222d511a70">Add cloud drive…</string>
     <string name="t_d9a36850b7">Apps</string>
     <string name="t_45e5f3f72e">Commands</string>
@@ -2767,8 +2773,6 @@
     <string name="t_eaa8eb7e71">Options for season %d</string>
     <string name="t_ce54c56994">Mark season as watched</string>
     <string name="t_07efc3008b">Mark season as not watched</string>
-    <string name="t_c3f3c38a68">Mark as not watched</string>
-    <string name="t_d1cc3212f6">Mark as watched</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
     <string name="t_74536a0d2e">File changed during playback</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SetAsSoundDialog.kt -->
@@ -2820,6 +2824,7 @@
     <string name="t_0789cb8890">Sleep timer (end of video)</string>
     <string name="t_628aa4e050">Sleep timer (%d min)</string>
     <string name="t_81e634eb9e">Sleep timer…</string>
+    <string name="t_58ab96ae5e">Delete video?</string>
     <string name="t_8ff5fe5ca1">Audio track</string>
     <string name="t_17770471cb">Subtitles</string>
     <string name="t_ccec3eed2e">Volume boost: %d%%</string>
@@ -3736,6 +3741,8 @@
     <string name="t_c6a0b05271">Dual pane on</string>
     <string name="t_6382b6388d">Tabs only</string>
     <string name="t_9318c284b8">drag and drop</string>
+    <string name="t_f79746cfb9">Delete button in viewers</string>
+    <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_03e5ecb5d0">Applies after restart</string>
     <string name="t_86a4261d84">verify</string>
@@ -3757,6 +3764,7 @@
     <string name="t_4c074c8bcb">autosave on</string>
     <string name="t_f862af8bb8">autosave off</string>
     <string name="t_0c8de2ed48">Otherwise %s spaces</string>
+    <string name="t_c2edac3235">Watch progress</string>
     <string name="t_ca358a8ebd">External files load automatically</string>
     <string name="t_adf3eff057">Embedded only</string>
     <string name="t_f9f2cf2c3d">Subtitle size (%)</string>
@@ -3764,6 +3772,10 @@
     <string name="t_e7a5b6c2ac">No saved positions</string>
     <string name="t_44918af203">1 position cleared</string>
     <string name="t_b45f7550c6">%s positions cleared</string>
+    <string name="t_6c991a0683">Clear watch history</string>
+    <string name="t_dc693abd08">Remove the progress bar and ✓ from all videos</string>
+    <string name="t_f0c8a58e0f">No watch history</string>
+    <string name="t_45b31d37cb">Watch history cleared</string>
     <string name="t_c5b0f55380">Access the whole file system, including /data and /system, on rooted devices.</string>
     <string name="t_4b22a9f94f">When off, Root (/) is read-only.</string>
     <string name="t_eac5ba952f">Waiting for root permission…</string>
@@ -5111,7 +5123,6 @@
     <string name="t_800a8aade2">Print…</string>
     <string name="t_5bf51225d2">Couldn\'t print image</string>
     <string name="t_722d76656a">Delete image?</string>
-    <string name="t_9d627fbe19">"\nIt can be restored from the Bin."</string>
     <string name="t_e8f63a0202">Set as</string>
     <string name="t_82cf6f7679">Camera RAW</string>
     <string name="t_00eee60f92">Showing JPEG preview</string>

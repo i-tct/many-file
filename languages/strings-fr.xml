@@ -1186,6 +1186,9 @@
     <string name="t_709a23220f">Nom</string>
     <string name="t_3deb745651">Type</string>
     <string name="t_b7152342a2">Taille</string>
+    <string name="t_4f8a62b721">Séries uniquement</string>
+    <string name="t_59a0c061cd">Toutes les vidéos</string>
+    <string name="t_e3de5ab0ca">Désactivé</string>
     <string name="t_6eef664840">Aucune</string>
     <string name="t_56d853bd68">Cadre semi-transparent</string>
     <string name="t_8479f2b690">Cadre noir</string>
@@ -1273,6 +1276,10 @@
     <string name="t_98dd47501a">Republier</string>
     <string name="t_c0ae8f6ea8">Enregistré</string>
     <string name="t_efc007a393">Enregistrer</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ViewerDelete.kt -->
+    <string name="t_afd1aa166b">Supprimer définitivement ?</string>
+    <string name="t_e63b5153bd">Supprimer définitivement</string>
+    <string name="t_96f7089404">Déplacer vers la Corbeille</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/WatchMarks.kt -->
     <string name="t_de9a3242d1">Vu</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
@@ -1383,11 +1390,8 @@
     <string name="t_d3f4cb898f">Renommer</string>
     <string name="t_2b61858ac9">Supprimer %s ?</string>
     <string name="t_1c94aae9f1">La suppression définitive est irréversible.</string>
-    <string name="t_96f7089404">Déplacer vers la Corbeille</string>
-    <string name="t_e63b5153bd">Supprimer définitivement</string>
     <string name="t_f6fdbe48dc">Supprimer</string>
     <string name="t_c981a1ef6d">Mémoriser mon choix (Paramètres › Opérations)</string>
-    <string name="t_afd1aa166b">Supprimer définitivement ?</string>
     <string name="t_a2283fe356">%s sera supprimé définitivement. Cette action est irréversible.</string>
     <string name="t_e59a981d9c">Vider la Corbeille ?</string>
     <string name="t_357e62a92e">Tous les éléments de la Corbeille seront supprimés définitivement.</string>
@@ -1481,6 +1485,7 @@
     <string name="t_af214b5be5">Les noms de fichiers ne sont pas chiffrés</string>
     <string name="t_f5e41c0928">Compresser</string>
     <string name="t_12352091ea">Modifier la recherche</string>
+    <string name="t_d66c343912">Rechercher dans %s</string>
     <string name="t_9b4ab3cba4">Texte à l’intérieur des fichiers</string>
     <string name="t_1b02cabf91">p. ex. TODO, un nom de fonction</string>
     <string name="t_fe28dcc3d4">Recherche uniquement dans les fichiers texte</string>
@@ -2058,6 +2063,8 @@
     <string name="t_7b1e108899">Pivoter, supprimer l’audio, GIF…</string>
     <string name="t_0b3054ba46">Fusionner des vidéos…</string>
     <string name="t_8c971e31de">Extraire l’audio</string>
+    <string name="t_c3f3c38a68">Marquer comme non vu</string>
+    <string name="t_d1cc3212f6">Marquer comme vu</string>
     <string name="t_18b7b81480">Vérifier les sommes de contrôle</string>
     <string name="t_aa952bf854">Créer un fichier de sommes de contrôle…</string>
     <string name="t_785f0eeb5b">Assembler les parties…</string>
@@ -2328,7 +2335,6 @@
     <string name="t_fca0583e04">%d en ligne</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">Activé</string>
-    <string name="t_e3de5ab0ca">Désactivé</string>
     <string name="t_222d511a70">Ajouter un lecteur cloud…</string>
     <string name="t_d9a36850b7">Applications</string>
     <string name="t_45e5f3f72e">Commandes</string>
@@ -2766,8 +2772,6 @@
     <string name="t_eaa8eb7e71">Options pour la saison %d</string>
     <string name="t_ce54c56994">Marquer la saison comme vue</string>
     <string name="t_07efc3008b">Marquer la saison comme non vue</string>
-    <string name="t_c3f3c38a68">Marquer comme non vu</string>
-    <string name="t_d1cc3212f6">Marquer comme vu</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/ServerDataSource.kt -->
     <string name="t_74536a0d2e">Le fichier a changé pendant la lecture</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/SetAsSoundDialog.kt -->
@@ -2819,6 +2823,7 @@
     <string name="t_0789cb8890">Minuteur de mise en veille (fin de la vidéo)</string>
     <string name="t_628aa4e050">Minuteur de mise en veille (%d min)</string>
     <string name="t_81e634eb9e">Minuteur de mise en veille…</string>
+    <string name="t_58ab96ae5e">Supprimer la vidéo ?</string>
     <string name="t_8ff5fe5ca1">Piste audio</string>
     <string name="t_17770471cb">Sous-titres</string>
     <string name="t_ccec3eed2e">Amplification du volume : %d %%</string>
@@ -3735,6 +3740,8 @@
     <string name="t_c6a0b05271">Double panneau activé</string>
     <string name="t_6382b6388d">Onglets uniquement</string>
     <string name="t_9318c284b8">glisser-déposer</string>
+    <string name="t_f79746cfb9">Bouton Supprimer dans les visionneuses</string>
+    <string name="t_c2085a0ed4">Afficher Supprimer à l’écran dans la visionneuse d’images et le lecteur vidéo, au lieu du menu Plus</string>
     <string name="t_6afde9656f">%s à la fois</string>
     <string name="t_03e5ecb5d0">S’applique après redémarrage</string>
     <string name="t_86a4261d84">vérifier</string>
@@ -3756,6 +3763,7 @@
     <string name="t_4c074c8bcb">enregistrement automatique activé</string>
     <string name="t_f862af8bb8">enregistrement automatique désactivé</string>
     <string name="t_0c8de2ed48">Sinon %s espaces</string>
+    <string name="t_c2edac3235">Progression du visionnage</string>
     <string name="t_ca358a8ebd">Les fichiers externes se chargent automatiquement</string>
     <string name="t_adf3eff057">Intégrés uniquement</string>
     <string name="t_f9f2cf2c3d">Taille des sous-titres (%)</string>
@@ -3763,6 +3771,10 @@
     <string name="t_e7a5b6c2ac">Aucune position enregistrée</string>
     <string name="t_44918af203">1 position effacée</string>
     <string name="t_b45f7550c6">%s positions effacées</string>
+    <string name="t_6c991a0683">Effacer l’historique de visionnage</string>
+    <string name="t_dc693abd08">Retirer la barre de progression et le ✓ de toutes les vidéos</string>
+    <string name="t_f0c8a58e0f">Aucun historique de visionnage</string>
+    <string name="t_45b31d37cb">Historique de visionnage effacé</string>
     <string name="t_c5b0f55380">Accéder à l’ensemble du système de fichiers, y compris /data et /system, sur les appareils rootés.</string>
     <string name="t_4b22a9f94f">Lorsque désactivé, Racine (/) est en lecture seule.</string>
     <string name="t_eac5ba952f">En attente de l’autorisation root…</string>
@@ -5110,7 +5122,6 @@
     <string name="t_800a8aade2">Imprimer…</string>
     <string name="t_5bf51225d2">Impossible d’imprimer l’image</string>
     <string name="t_722d76656a">Supprimer l’image ?</string>
-    <string name="t_9d627fbe19">"\nElle peut être restaurée depuis la Corbeille."</string>
     <string name="t_e8f63a0202">Définir comme</string>
     <string name="t_82cf6f7679">Image RAW</string>
     <string name="t_00eee60f92">Affichage de l’aperçu JPEG</string>
