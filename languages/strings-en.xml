@@ -2404,6 +2404,18 @@
     <string name="t_a1bb4fe8db">%s free</string>
     <string name="t_630259383d">can\'t read</string>
     <string name="t_30d15a48d2">tap to grant access</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/BookmarksScreen.kt -->
+    <string name="t_631dff2d87">Export (share as text)</string>
+    <string name="t_2680d16dad">Export bookmarks</string>
+    <string name="t_bce2dfc4a0">Import from text…</string>
+    <string name="t_855a9fdb9e">No bookmarks yet. In a folder: ⋮ → Bookmark this folder, or Add to Quick access.</string>
+    <string name="t_0a2e1f5146">In Quick access on Home</string>
+    <string name="t_441609a948">Import bookmarks</string>
+    <string name="t_4df0085aab">One per line: label&lt;TAB&gt;location</string>
+    <string name="t_d6fbc9d2bd">Import</string>
+    <string name="t_ba32426ba2">Bookmark actions</string>
+    <string name="t_d371a4a652">Edit bookmark</string>
+    <string name="t_fba9ba171e">Group (“%s” pins to Home)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/ContinueWatching.kt -->
     <string name="t_021f6fec2f">Next: %s</string>
     <string name="t_feb5bead8e">%s left</string>
@@ -2536,6 +2548,16 @@
     <string name="t_6063be3923">Updates when ManyFile starts, with what\'s new</string>
     <string name="t_90e40d5043">Get started</string>
     <string name="t_a2b12db535">Next, Android asks for access to your files: ManyFile needs it to manage them.</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/MegaSignIn.kt -->
+    <string name="t_39602474a5">Add a MEGA account</string>
+    <string name="t_8f3779f392">MEGA encrypts your files on the phone before they leave it, with keys made from your password. ManyFile signs in with MEGA\'s own code and keeps only the sign-in session, encrypted, never the password.</string>
+    <string name="t_84add5b295">Email</string>
+    <string name="t_08fca16a4e">Code from your authenticator app</string>
+    <string name="t_d7fc5611e2">This account has two-factor authentication on</string>
+    <string name="t_9b7fe0812f">"  Signing in… (the first time, MEGA loads the whole file list)"</string>
+    <string name="t_e49d5ebba1">Forgot the password? MEGA can only reset it with your recovery key, on mega.nz.</string>
+    <string name="t_04a212215e">Confirm</string>
+    <string name="t_ada2e9e96f">Sign in</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentRows.kt -->
     <string name="t_d7854118cd">Any time</string>
     <string name="t_0e61c13b4b">Last %d days</string>
@@ -3002,7 +3024,6 @@
     <string name="t_0df82b7ea8">Passphrase (if any)</string>
     <string name="t_06df312178">Remember passphrase</string>
     <string name="t_b22b4aed65">Private key files only (id_ed25519, id_rsa, *.pem, *.ppk).</string>
-    <string name="t_d6fbc9d2bd">Import</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/RemotePromptHost.kt -->
     <string name="t_3641c2fb9c">Server certificate changed</string>
     <string name="t_7c0d8a5e5d">Server key changed</string>
@@ -3457,7 +3478,6 @@
     <string name="t_3737a4c3d5">Set PIN or password</string>
     <string name="t_6890406fa0">PIN (4 digits or more)</string>
     <string name="t_a3abe37c07">Password (6 characters or more)</string>
-    <string name="t_04a212215e">Confirm</string>
     <string name="t_281bdf5a43">It can\'t be recovered if forgotten.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/BackupPage.kt -->
     <string name="t_18db48d505">Settings saved: %s</string>
@@ -4419,7 +4439,6 @@
     <string name="t_5b010e0b46">Commit author</string>
     <string name="t_e01abc7bbc">Signed in as %s</string>
     <string name="t_848d80ca32">Not signed in</string>
-    <string name="t_ada2e9e96f">Sign in</string>
     <string name="t_3de557c6ec">Your repositories</string>
     <string name="t_f391a358b0">Clone…</string>
     <string name="t_e2b8f69ce1">Open folder…</string>
@@ -4438,7 +4457,6 @@
     <string name="t_1fb19ee723">GitHub user name</string>
     <string name="t_a1141eb968">Token</string>
     <string name="t_3dd3aefec1">Shown as the author of your commits.</string>
-    <string name="t_84add5b295">Email</string>
     <string name="t_280975f5fe">Clone repository</string>
     <string name="t_d70f93df5e">Address</string>
     <string name="t_d937d21f81">Into</string>

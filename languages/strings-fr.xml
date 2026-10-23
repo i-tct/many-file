@@ -2392,6 +2392,13 @@
     <string name="t_a1bb4fe8db">%s libres</string>
     <string name="t_630259383d">lecture impossible</string>
     <string name="t_30d15a48d2">touchez pour accorder l’accès</string>
+    <string name="t_631dff2d87">Exporter (partager en texte)</string>
+    <string name="t_2680d16dad">Exporter les favoris</string>
+    <string name="t_bce2dfc4a0">Importer depuis un texte…</string>
+    <string name="t_855a9fdb9e">Aucun favori pour l’instant. Dans un dossier : ⋮ → Ajouter ce dossier aux favoris, ou Ajouter à l’accès rapide.</string>
+    <string name="t_0a2e1f5146">Dans l’accès rapide de l’accueil</string>
+    <string name="t_441609a948">Importer des favoris</string>
+    <string name="t_4df0085aab">Un par ligne : nom&lt;TAB&gt;emplacement</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/ContinueWatching.kt -->
     <string name="t_021f6fec2f">Suivant : %s</string>
     <string name="t_feb5bead8e">%s restants</string>
@@ -2527,6 +2534,8 @@
     <string name="t_6063be3923">Mises à jour au démarrage de ManyFile, avec les nouveautés</string>
     <string name="t_90e40d5043">Commencer</string>
     <string name="t_a2b12db535">Ensuite, Android demande l’accès à vos fichiers : ManyFile en a besoin pour les gérer.</string>
+    <string name="t_39602474a5">Ajouter un compte MEGA</string>
+    <string name="t_8f3779f392">MEGA chiffre vos fichiers sur le téléphone avant qu’ils ne le quittent, avec des clés issues de votre mot de passe. ManyFile se connecte avec le code de MEGA lui-même et ne garde que la session de connexion, chiffrée, jamais le mot de passe.</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentRows.kt -->
     <string name="t_d7854118cd">N’importe quand</string>
     <string name="t_0e61c13b4b">%d derniers jours</string>
@@ -2995,6 +3004,9 @@
     <string name="t_06df312178">Mémoriser la phrase secrète</string>
     <string name="t_b22b4aed65">Fichiers de clé privée uniquement (id_ed25519, id_rsa, *.pem, *.ppk).</string>
     <string name="t_d6fbc9d2bd">Importer</string>
+    <string name="t_ba32426ba2">Actions du favori</string>
+    <string name="t_d371a4a652">Modifier le favori</string>
+    <string name="t_fba9ba171e">Groupe (« %s » épingle à l’accueil)</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/RemotePromptHost.kt -->
     <string name="t_3641c2fb9c">Le certificat du serveur a changé</string>
     <string name="t_7c0d8a5e5d">La clé du serveur a changé</string>
@@ -4433,6 +4445,10 @@
     <string name="t_a1141eb968">Jeton</string>
     <string name="t_3dd3aefec1">Affiché comme auteur de vos commits.</string>
     <string name="t_84add5b295">E-mail</string>
+    <string name="t_08fca16a4e">Code de votre app d’authentification</string>
+    <string name="t_d7fc5611e2">Ce compte a la validation en deux étapes activée</string>
+    <string name="t_9b7fe0812f">  Connexion… (la première fois, MEGA charge toute la liste des fichiers)</string>
+    <string name="t_e49d5ebba1">Mot de passe oublié ? MEGA ne peut le réinitialiser qu’avec votre clé de récupération, sur mega.nz.</string>
     <string name="t_280975f5fe">Cloner le dépôt</string>
     <string name="t_d70f93df5e">Adresse</string>
     <string name="t_d937d21f81">Dans</string>
