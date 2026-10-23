@@ -152,10 +152,10 @@
     <string name="t_0cf7287a00">%s of junk to clean</string>
     <string name="t_6c4221327b">Caches, temporary files and empty folders. Tap to look in the Cleaner.</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/ManyFileDocuments.kt -->
+    <string name="t_d1a17af19f">Not available</string>
     <string name="t_07c2964c41">Google Drive</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb1826ee4d">Invalid name</string>
-    <string name="t_d1a17af19f">Not available</string>
     <string name="t_bdbdfe37e3">The server didn\'t answer</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/WifiShareService.kt -->
     <string name="t_ae25ad8e48">Receiving on Wi-Fi</string>
@@ -979,6 +979,8 @@
     <string name="t_4c1f365f3e">Appending is not supported on WebDAV</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/repo/UndoRepository.kt -->
     <string name="t_2496bab071">Rename %s</string>
+    <string name="t_5c4310dc5c">Move %s</string>
+    <string name="t_55254857b6">Move %s items</string>
     <string name="t_7459d9bb9b">Move %s to Bin</string>
     <string name="t_b089276817">New folder %s</string>
     <string name="t_4235b57f09">New file %s</string>
@@ -2422,7 +2424,6 @@
     <string name="t_7d612ab1cf">All series</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/DrawerEditor.kt -->
     <string name="t_288dfe8f4d">Drag to reorder. Tap a section to arrange its items.</string>
-    <string name="t_5c4310dc5c">Move %s</string>
     <string name="t_551a46e55e">Hide %s</string>
     <string name="t_12e93a8a78">To hide it, set a secret word in the vault\'s settings</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->

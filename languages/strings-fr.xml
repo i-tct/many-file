@@ -2406,6 +2406,7 @@
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/DrawerEditor.kt -->
     <string name="t_288dfe8f4d">Faites glisser pour réorganiser. Touchez une section pour organiser ses éléments.</string>
     <string name="t_5c4310dc5c">Déplacer %s</string>
+    <string name="t_55254857b6">Déplacer %s éléments</string>
     <string name="t_551a46e55e">Masquer %s</string>
     <string name="t_12e93a8a78">Pour le masquer, définissez un mot secret dans les paramètres du coffre-fort</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->
