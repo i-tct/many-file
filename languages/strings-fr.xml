@@ -880,14 +880,18 @@
     <string name="t_cff2437ae3">Impossible d’enregistrer dans le stockage sécurisé</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
     <string name="t_47e855c8ff">Emplacement serveur non valide</string>
+    <string name="t_a84e927968">Le serveur a refusé (%s)</string>
     <string name="t_3d24273be4">Existe déjà</string>
     <string name="t_8b29d42b99">Impossible de déplacer entre des serveurs</string>
+    <string name="t_94dc9986b8">Envoi non terminé</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SmbConnections.kt -->
     <string name="t_9322dd47eb">Serveur introuvable</string>
     <string name="t_7579b28e28">Mot de passe pour %s</string>
     <string name="t_a52aaab56d">Connexion annulée</string>
+    <string name="t_3fa1e11959">Le serveur a refusé la connexion au compte (%s)</string>
     <string name="t_63c0bdd9f8">Utilisateur « %s » inconnu. Vérifiez le nom d’utilisateur (sous Linux, ajoutez-le avec sudo smbpasswd -a %s).</string>
     <string name="t_0e0791dbb2">Nom d’utilisateur ou mot de passe incorrect</string>
+    <string name="t_caef0a1c90">Le serveur a refusé la connexion (%s)</string>
     <string name="t_5e492b860d">Partage « %s » introuvable</string>
     <string name="t_ccc985f76b">« %s » n’est pas un partage de dossier</string>
     <string name="t_d016004473">Autorisation refusée</string>
@@ -926,6 +930,9 @@
     <string name="t_ef7f1070be">Méthode de connexion non prise en charge (%s)</string>
     <string name="t_538192af4a">Certificat (SHA-256)</string>
     <string name="t_9e48d90f6c">Certificat non approuvé</string>
+    <string name="t_bdbdfe37e3">Le serveur n’a pas répondu</string>
+    <string name="t_6e81db107f">Impossible de se connecter au serveur</string>
+    <string name="t_ad29890382">Échec de la connexion sécurisée : %s</string>
     <string name="t_45c039505c">Dossier parent introuvable</string>
     <string name="t_1d1c25307e">Verrouillé sur le serveur</string>
     <string name="t_fbafa7b983">Erreur du serveur (%s)</string>
@@ -2934,7 +2941,12 @@
     <string name="t_609f2ee490">WebDAV (Nextcloud)</string>
     <string name="t_ed16df90de">Dossiers partagés sur Windows, NAS ou Samba (SMB 2 et 3).</string>
     <string name="t_f0be5f4959">Nextcloud, ownCloud, NAS ou tout serveur WebDAV.</string>
+    <string name="t_6b1c7fa275">Routeurs, téléviseurs, caméras et NAS qui proposent le FTP.</string>
     <string name="t_af0f498beb">Fichiers et terminal sur Linux, Raspberry Pi ou Mac.</string>
+    <string name="t_0af149c2ed">Chiffrement</string>
+    <string name="t_45bdfd9b16">TLS (FTPS)</string>
+    <string name="t_b2ca8c5b19">Les noms, mots de passe et fichiers circulent sans chiffrement : seulement sur un réseau de confiance.</string>
+    <string name="t_66313d74c9">Le port 21 demande le TLS au serveur ; le port 990 commence avec.</string>
     <string name="t_1d5d1effa9">URL du serveur</string>
     <string name="t_b42b96776e">http:// n’est pas chiffré. Utilisez https:// sur Internet.</string>
     <string name="t_056c4796ff">Nextcloud : https://your.cloud/remote.php/dav/files/USER</string>
