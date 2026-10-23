@@ -597,6 +597,7 @@
     <string name="t_fa417f5e5a">%s of %s not moved to the Bin: %s</string>
     <string name="t_fc5e3df69d">%s moved to Bin</string>
     <string name="t_89c61872ce">Restoring %s</string>
+    <string name="t_c3b9398bce">%s of %s not restored: %s</string>
     <string name="t_5712a9e66e">%s restored</string>
     <string name="t_41005bf7b4">Renamed file not found</string>
     <string name="t_3e9f1aee32">Original name already in use</string>
@@ -646,6 +647,8 @@
     <string name="t_0d6830202e">destination exists and is a file</string>
     <string name="t_3fa27241e9">Verification failed: copy doesn\'t match source</string>
     <string name="t_bb2167a62b">Verified %s</string>
+    <string name="t_0b3c4a170f">A file with that name already exists</string>
+    <string name="t_6c50886c0a">%s is kept as %s</string>
     <string name="t_2b6bca5920">Source truncated (%s of %s bytes)</string>
     <string name="t_fefebdc2cb">%s: %s — retrying in %s s (%s of %s)</string>
     <string name="t_4dd40e7bf7">%s changed, restarting</string>
@@ -814,7 +817,6 @@
     <string name="t_2876fe00ef">Saved as %s: %d pages (%s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
     <string name="t_c7c5d0af2e">Can\'t rename the root folder</string>
-    <string name="t_0b3c4a170f">A file with that name already exists</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/MediaProvider.kt -->
     <string name="t_d292af86c8">Collection not found</string>
     <string name="t_01e49e3a0d">Media permission required</string>
@@ -3967,6 +3969,15 @@
     <string name="t_29b537e0c7">Hide codes until tapped</string>
     <string name="t_2d2725b037">Show next code</string>
     <string name="t_757afdcc0d">Clear clipboard</string>
+    <string name="t_d44ec861ff">Grid view</string>
+    <string name="t_7e19a87711">Show accounts in columns that fit the screen</string>
+    <string name="t_769ef39bca">Automatic (%d on this screen)</string>
+    <string name="t_3b06f1950b">%d columns (%d fit on this screen)</string>
+    <string name="t_b6bce8b44e">%d columns</string>
+    <string name="t_e8b5884073">Full names</string>
+    <string name="t_0d342b8247">Show long names on more lines instead of shortening them</string>
+    <string name="t_a370de4d58">Account icons</string>
+    <string name="t_b0befee442">Show the coloured letter beside each account</string>
     <string name="t_47b4492577">After 1 minute</string>
     <string name="t_3ea98c9a0f">After %d minutes</string>
     <string name="t_6bdf8e9388">%d backups</string>

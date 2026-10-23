@@ -596,6 +596,7 @@
     <string name="t_fa417f5e5a">%s sur %s non déplacés vers la Corbeille : %s</string>
     <string name="t_fc5e3df69d">%s déplacés vers la Corbeille</string>
     <string name="t_89c61872ce">Restauration de %s</string>
+    <string name="t_c3b9398bce">%s sur %s non restaurés : %s</string>
     <string name="t_5712a9e66e">%s restaurés</string>
     <string name="t_41005bf7b4">Fichier renommé introuvable</string>
     <string name="t_3e9f1aee32">Le nom d’origine est déjà utilisé</string>
@@ -814,6 +815,7 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/LocalProvider.kt -->
     <string name="t_c7c5d0af2e">Impossible de renommer le dossier racine</string>
     <string name="t_0b3c4a170f">Un fichier portant ce nom existe déjà</string>
+    <string name="t_6c50886c0a">%s est conservé sous le nom %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/MediaProvider.kt -->
     <string name="t_d292af86c8">Collection introuvable</string>
     <string name="t_01e49e3a0d">Autorisation multimédia requise</string>
