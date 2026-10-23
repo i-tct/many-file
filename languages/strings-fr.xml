@@ -644,6 +644,7 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/StreamTransfer.kt -->
     <string name="t_b92df9afae">la destination est en lecture seule</string>
     <string name="t_0d6830202e">la destination existe et est un fichier</string>
+    <string name="t_b218aef6d4">%s ignoré : nom non valide</string>
     <string name="t_3fa27241e9">Échec de la vérification : la copie ne correspond pas à la source</string>
     <string name="t_bb2167a62b">%s vérifié</string>
     <string name="t_2b6bca5920">Source tronquée (%s sur %s octets)</string>
@@ -5014,6 +5015,9 @@
     <string name="t_3422946bd7">Enregistrer %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
     <string name="t_901b56b2a8">Rien à afficher</string>
+    <string name="t_c8eaa2e156">Ouvrir ce partage Wi-Fi ?</string>
+    <string name="t_101b7eec2e">Le lien ne mène pas à un partage Wi-Fi de ce réseau.</string>
+    <string name="t_500a3d83dc">Un lien demande d’ouvrir le partage Wi-Fi à l’adresse %s. Ouvrez-le seulement si vous avez lancé le partage sur cet appareil.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
     <string name="t_6368c54109">Recevoir via Wi-Fi</string>
     <string name="t_8194d421a8">Transférez des fichiers avec tout appareil sur le même Wi-Fi.</string>
