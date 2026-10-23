@@ -3964,6 +3964,8 @@
     <string name="t_8e80e16b5c">Touchez pour révéler</string>
     <string name="t_29b537e0c7">Masquer les codes jusqu’à ce qu’ils soient touchés</string>
     <string name="t_2d2725b037">Afficher le code suivant</string>
+    <string name="t_d44ec861ff">Affichage en grille</string>
+    <string name="t_7e19a87711">Afficher les comptes sur autant de colonnes que l’écran le permet</string>
     <string name="t_757afdcc0d">Effacer le presse-papiers</string>
     <string name="t_47b4492577">Après 1 minute</string>
     <string name="t_3ea98c9a0f">Après %d minutes</string>
