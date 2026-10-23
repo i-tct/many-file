@@ -1176,6 +1176,13 @@
     <string name="t_5cb9bd07aa">Shell script</string>
     <string name="t_21885d8c0a">HTML page</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Formatters.kt -->
+    <string name="t_ae4f281df5">B</string>
+    <string name="t_315b39a0fc">KB</string>
+    <string name="t_6e979f426b">MB</string>
+    <string name="t_505a44faca">GB</string>
+    <string name="t_f8a902b067">TB</string>
+    <string name="t_a092b2d4c9">PB</string>
+    <string name="t_955dc54443">kB</string>
     <string name="t_e3b8204056">Now</string>
     <string name="t_25bb2acb00">%s min ago</string>
     <string name="t_da24830f1f">Yesterday</string>

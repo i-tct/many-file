@@ -1620,6 +1620,13 @@
     <string name="t_06b230452d">Fichier vide</string>
     <string name="t_5cb9bd07aa">Script shell</string>
     <string name="t_21885d8c0a">Page HTML</string>
+    <string name="t_ae4f281df5">o</string>
+    <string name="t_315b39a0fc">Ko</string>
+    <string name="t_6e979f426b">Mo</string>
+    <string name="t_505a44faca">Go</string>
+    <string name="t_f8a902b067">To</string>
+    <string name="t_a092b2d4c9">Po</string>
+    <string name="t_955dc54443">ko</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/KeyboardShortcuts.kt -->
     <string name="t_cf03cf2e9c">Navigation</string>
     <string name="t_c85bd3332b">Se déplacer entre les fichiers (← → réduit ou développe dans la vue arborescente)</string>
