@@ -1237,6 +1237,8 @@
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
     <string name="t_bce0641417">Rechercher</string>
     <string name="t_a8ca17c8dd">Trouve des fichiers sur tout le téléphone. Des filtres comme size:&gt;50MB ou ext:pdf affinent la recherche.</string>
+    <string name="t_f1096a5b4c">Vos fichiers</string>
+    <string name="t_d3ba2a5ddd">Touchez une carte de stockage sur l’accueil, ou dans le menu, pour ouvrir vos fichiers. Appuyez longuement sur une vignette de l’accueil pour la déplacer, la recolorer ou la masquer.</string>
     <string name="t_6e1663f75e">Votre stockage</string>
     <string name="t_d6624cdc03">Touchez-le pour ouvrir vos fichiers. Appuyez longuement sur une vignette de l’accueil pour la déplacer, la recolorer ou la masquer.</string>
     <string name="t_4c5ec7b06d">Corbeille</string>
@@ -3026,6 +3028,7 @@
     <string name="t_5c9d4d037e">Connecté · partages : %s</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServersScreen.kt -->
     <string name="t_d8904eee04">Impossible de lire le fichier de clé</string>
+    <string name="t_468359f00f">Aucun serveur. Ajoutez un serveur SFTP, SMB, WebDAV ou FTP, ou un stockage S3, pour parcourir ses fichiers.</string>
     <string name="t_d16af0af68">Aucun serveur. Ajoutez un serveur SFTP, SMB ou WebDAV pour parcourir ses fichiers.</string>
     <string name="t_bf54fcecbe">Déconnecté de %s</string>
     <string name="t_e91a644c96">Clés SSH</string>

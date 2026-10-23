@@ -6,9 +6,9 @@
       "name": "French",
       "native": "Français",
       "rtl": false,
-      "version": 16,
+      "version": 17,
       "file": "strings-fr.xml",
-      "sha256": "d9d2a89c94cefd96bbd9a0c239a59df6849ebb503c1f344f2dd15bc17d3fefa2"
+      "sha256": "f8df716ee72a85e46b60d646a053eab78f56986b3c0facd68d9e3f94f4713145"
     }
   ]
 }
