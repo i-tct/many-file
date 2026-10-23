@@ -3532,6 +3532,8 @@
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
     <string name="t_f79746cfb9">Delete button in viewers</string>
     <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
+    <string name="t_c5b30f66ae">Paste in the More menu</string>
+    <string name="t_afea9c34ee">Paste what you copied last in as many folders as you like, from the More menu</string>
     <string name="t_c2f2f22c32">When a file exists</string>
     <string name="t_20d00e4523">Reset existing-file choice</string>
     <string name="t_f0ca7dfbe8">Built-in document scanner</string>

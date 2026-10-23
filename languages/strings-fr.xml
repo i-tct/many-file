@@ -3742,6 +3742,8 @@
     <string name="t_9318c284b8">glisser-déposer</string>
     <string name="t_f79746cfb9">Bouton Supprimer dans les visionneuses</string>
     <string name="t_c2085a0ed4">Afficher Supprimer à l’écran dans la visionneuse d’images et le lecteur vidéo, au lieu du menu Plus</string>
+    <string name="t_c5b30f66ae">Coller dans le menu Plus</string>
+    <string name="t_afea9c34ee">Coller ce que vous avez copié en dernier dans autant de dossiers que vous voulez, depuis le menu Plus</string>
     <string name="t_6afde9656f">%s à la fois</string>
     <string name="t_03e5ecb5d0">S’applique après redémarrage</string>
     <string name="t_86a4261d84">vérifier</string>
