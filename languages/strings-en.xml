@@ -1275,6 +1275,7 @@
     <string name="t_dbd388ae9a">1 selected</string>
     <string name="t_05172cf4c8">%s selected</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
+    <string name="t_113b52a857">Search: %s</string>
     <string name="t_4c5ec7b06d">Bin</string>
     <string name="t_28314c221e">Server /</string>
     <string name="t_d15dcb875a">Shares</string>
