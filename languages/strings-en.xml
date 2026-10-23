@@ -125,11 +125,38 @@
     <string name="t_a731ca287e">Phone terminal</string>
     <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_8620a37e74">Server removed</string>
+    <!-- app/src/main/kotlin/tct/manyfile/Tours.kt -->
+    <string name="t_31ba98404e">Welcome to ManyFile</string>
+    <string name="t_c51598ac7b">A quick look at where things are. Skip it any time: Settings → About → Welcome tour shows it again.</string>
+    <string name="t_c9ae02841b">The menu</string>
+    <string name="t_46571f45ff">Every storage and place: servers, cloud drives, vaults and locked folders, and all the tools.</string>
+    <string name="t_bce0641417">Search</string>
+    <string name="t_a8ca17c8dd">Finds files on the whole phone. Filters like size:&gt;50MB or ext:pdf narrow it down.</string>
+    <string name="t_f1096a5b4c">Your files</string>
+    <string name="t_d3ba2a5ddd">Tap a storage card on Home, or one in the menu, to open your files. Hold any tile on Home to move, recolour or hide it.</string>
+    <string name="t_437736fdb5">Jobs</string>
+    <string name="t_a2fcd8479b">Copies, moves and downloads run here in the background: pause, stop or retry them.</string>
+    <string name="t_c7f73bb54d">Settings</string>
+    <string name="t_0cbf6b597e">Themes, how files open, backups, the app lock and much more. Search finds any setting.</string>
+    <string name="t_2a4d562b1d">Tabs</string>
+    <string name="t_08a0d1d3a6">Each folder can have its own tab. Swipe sideways between them; hold a tab for more.</string>
+    <string name="t_cd3e9b3e44">Where you are</string>
+    <string name="t_6620474075">Tap a folder in the path to go back to it; hold it to copy the path.</string>
+    <string name="t_4bab2d8fe1">More</string>
+    <string name="t_63bf8373fb">Sort, view, hidden files, a new file or folder, and this folder\'s tools.</string>
+    <string name="t_ca89063ab3">Select files</string>
+    <string name="t_99ff98f64f">Hold a file to select it, then tap others to add them. The bar at the bottom shares, copies, moves, compresses or deletes them.</string>
     <!-- app/src/main/kotlin/tct/manyfile/background/CleanReminderJobService.kt -->
     <string name="t_00a681619f">Cleaner</string>
     <string name="t_6fd39ac448">Weekly reminders when junk has piled up</string>
     <string name="t_0cf7287a00">%s of junk to clean</string>
     <string name="t_6c4221327b">Caches, temporary files and empty folders. Tap to look in the Cleaner.</string>
+    <!-- app/src/main/kotlin/tct/manyfile/share/ManyFileDocuments.kt -->
+    <string name="t_07c2964c41">Google Drive</string>
+    <string name="t_80753c9865">OneDrive</string>
+    <string name="t_bb1826ee4d">Invalid name</string>
+    <string name="t_d1a17af19f">Not available</string>
+    <string name="t_bdbdfe37e3">The server didn\'t answer</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/WifiShareService.kt -->
     <string name="t_ae25ad8e48">Receiving on Wi-Fi</string>
     <string name="t_b30469ec12">Sharing on Wi-Fi</string>
@@ -528,7 +555,6 @@
     <string name="t_277f9e0745">No changes to stash</string>
     <string name="t_df5f3beaba">No staged changes</string>
     <string name="t_a616ca0363">No commits yet</string>
-    <string name="t_bb1826ee4d">Invalid name</string>
     <string name="t_eaf4fce310">Already exists: %s</string>
     <string name="t_25e2e4a22e">Repository busy (%s)</string>
     <string name="t_d64e6f4de4">Couldn\'t connect to server: %s</string>
@@ -645,6 +671,7 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/jobs/StreamTransfer.kt -->
     <string name="t_b92df9afae">destination is read-only</string>
     <string name="t_0d6830202e">destination exists and is a file</string>
+    <string name="t_b218aef6d4">Skipped %s: not a valid name</string>
     <string name="t_3fa27241e9">Verification failed: copy doesn\'t match source</string>
     <string name="t_bb2167a62b">Verified %s</string>
     <string name="t_0b3c4a170f">A file with that name already exists</string>
@@ -834,6 +861,23 @@
     <string name="t_3f8e5fc363">Couldn\'t write</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/TagProvider.kt -->
     <string name="t_39804b100c">Tag not found</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/FtpConnections.kt -->
+    <string name="t_9322dd47eb">Server not found</string>
+    <string name="t_7579b28e28">Password for %s</string>
+    <string name="t_a52aaab56d">Sign-in cancelled</string>
+    <string name="t_3fa1e11959">The server refused to sign in (%s)</string>
+    <string name="t_0e0791dbb2">Wrong user name or password</string>
+    <string name="t_caef0a1c90">The server refused the connection (%s)</string>
+    <string name="t_538192af4a">Certificate (SHA-256)</string>
+    <string name="t_9e48d90f6c">Certificate not trusted</string>
+    <string name="t_6e81db107f">Couldn\'t connect to the server</string>
+    <string name="t_ad29890382">Secure connection failed: %s</string>
+    <string name="t_6258376987">Connection lost</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/FtpProvider.kt -->
+    <string name="t_47e855c8ff">Invalid server location</string>
+    <string name="t_a84e927968">The server refused (%s)</string>
+    <string name="t_8b29d42b99">Can\'t move between servers</string>
+    <string name="t_94dc9986b8">Upload not completed</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/KeyInstaller.kt -->
     <string name="t_f92f7236b8">Not a public key</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/PhoneReads.kt -->
@@ -876,18 +920,20 @@
     <string name="t_328ed281c5">%s not found on this device. Check the memory card or USB drive. Nothing was synced.</string>
     <string name="t_f8f04a0cc9">%s not found on the server. Nothing was synced.</string>
     <string name="t_0059e4f60b">Invalid path</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/S3Provider.kt -->
+    <string name="t_5f3c907384">Invalid endpoint address</string>
+    <string name="t_218c06d725">Secret key for %s</string>
+    <string name="t_341f53dc3a">Secret key</string>
+    <string name="t_12566455ea">Choose a bucket first</string>
+    <string name="t_506d6bc032">Buckets can\'t be renamed</string>
+    <string name="t_f848002cbe">S3 files can\'t be appended to</string>
+    <string name="t_f3658a7cbc">The server refused the upload</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SecretStore.kt -->
     <string name="t_cff2437ae3">Couldn\'t save to secure storage</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
-    <string name="t_47e855c8ff">Invalid server location</string>
     <string name="t_3d24273be4">Already exists</string>
-    <string name="t_8b29d42b99">Can\'t move between servers</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SmbConnections.kt -->
-    <string name="t_9322dd47eb">Server not found</string>
-    <string name="t_7579b28e28">Password for %s</string>
-    <string name="t_a52aaab56d">Sign-in cancelled</string>
     <string name="t_63c0bdd9f8">Unknown user “%s”. Check the user name (on Linux, add it with sudo smbpasswd -a %s).</string>
-    <string name="t_0e0791dbb2">Wrong user name or password</string>
     <string name="t_5e492b860d">Share “%s” not found</string>
     <string name="t_ccc985f76b">“%s” is not a folder share</string>
     <string name="t_d016004473">Permission denied</string>
@@ -900,7 +946,6 @@
     <string name="t_62c6526007">No route to host</string>
     <string name="t_24b59a2df4">Server not responding</string>
     <string name="t_95a262acbf">SMB 1 is not supported. Enable SMB 2 or 3 on the server.</string>
-    <string name="t_6258376987">Connection lost</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SmbProvider.kt -->
     <string name="t_0af97e4ecf">Choose a share first</string>
     <string name="t_60868f64c6">Share “%s” is read-only. Allow write access on the server (Samba: read only = no).</string>
@@ -924,8 +969,6 @@
     <string name="t_57dccaeb64">Invalid web address: %s</string>
     <string name="t_1447afeec9">User name and password required</string>
     <string name="t_ef7f1070be">Unsupported sign-in method (%s)</string>
-    <string name="t_538192af4a">Certificate (SHA-256)</string>
-    <string name="t_9e48d90f6c">Certificate not trusted</string>
     <string name="t_45c039505c">Parent folder not found</string>
     <string name="t_1d1c25307e">Locked on the server</string>
     <string name="t_fbafa7b983">Server error (%s)</string>
@@ -958,7 +1001,6 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/security/Keystores.kt -->
     <string name="t_1837b99a20">Key pair</string>
     <string name="t_3b205516a0">Trusted certificate</string>
-    <string name="t_341f53dc3a">Secret key</string>
     <string name="t_f1f018aaa7">Unsupported keystore. Use PKCS#12, BKS or JKS.</string>
     <string name="t_4386702c48">JCEKS is not supported. Convert to PKCS#12 with: keytool -importkeystore -srckeystore FILE -srcstoretype JCEKS -destkeystore FILE.p12 -deststoretype PKCS12</string>
     <string name="t_deb681d9d4">JKS private keys are not supported. Convert to PKCS#12 with: keytool -importkeystore -srckeystore FILE.jks -destkeystore FILE.p12 -deststoretype PKCS12</string>
@@ -1222,7 +1264,6 @@
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
-    <string name="t_bce0641417">Search</string>
     <string name="t_4c5ec7b06d">Bin</string>
     <string name="t_28314c221e">Server /</string>
     <string name="t_d15dcb875a">Shares</string>
@@ -1286,6 +1327,10 @@
     <string name="t_98dd47501a">Repost</string>
     <string name="t_c0ae8f6ea8">Saved</string>
     <string name="t_efc007a393">Save</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Tour.kt -->
+    <string name="t_c8bd26eea5">%d of %d</string>
+    <string name="t_3da474537a">Skip</string>
+    <string name="t_bc981983e7">Next</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ViewerDelete.kt -->
     <string name="t_afd1aa166b">Delete permanently?</string>
     <string name="t_e63b5153bd">Delete permanently</string>
@@ -1456,12 +1501,10 @@
     <string name="t_4c1d09172c">No clipboard history</string>
     <string name="t_53b5158bc7">Clear history</string>
     <string name="t_4de8af8bca">from %s</string>
-    <string name="t_bc981983e7">Next</string>
     <string name="t_6c82e6dd86">Time</string>
     <string name="t_b1b0ec6184">File already exists</string>
     <string name="t_bc5b55e360">“%s” already exists in the destination.</string>
     <string name="t_a7cf7b25a7">Replace</string>
-    <string name="t_3da474537a">Skip</string>
     <string name="t_60c801a8f7">Keep both</string>
     <string name="t_137b1bb228">Keep newest</string>
     <string name="t_cfea419c3b">Apply</string>
@@ -1768,7 +1811,6 @@
     <string name="t_36f31ed4be">Other apps\' folders are hidden. Use Shizuku or root to see them.</string>
     <string name="t_68034a4313">Other apps\' folders are hidden. Turn on Shizuku or root in Settings → Root access.</string>
     <string name="t_09f0662f45">Open all</string>
-    <string name="t_c7f73bb54d">Settings</string>
     <string name="t_8ea09b3a9d">Device is rooted. Turn on root access to manage all files.</string>
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
@@ -1958,7 +2000,6 @@
     <string name="t_972ad8d8a5">Layout</string>
     <string name="t_ba15243c4e">Sort by…  (%s)</string>
     <string name="t_313463d3c8">Show hidden</string>
-    <string name="t_4bab2d8fe1">More</string>
     <string name="t_4c83071836">Go to folder…</string>
     <string name="t_e29dc2a85b">Duplicate tab</string>
     <string name="t_a388818400">New window</string>
@@ -1988,7 +2029,6 @@
     <string name="t_586f31c754">Find duplicates</string>
     <string name="t_ffafd1d88c">Analyze storage</string>
     <string name="t_f74acbcd98">Open Bin</string>
-    <string name="t_437736fdb5">Jobs</string>
     <string name="t_05172cf4c8">%s selected</string>
     <string name="t_1500b1f861">Selection options</string>
     <string name="t_e074f07453">Invert selection</string>
@@ -2016,7 +2056,6 @@
     <string name="t_35bbf79557">in %s</string>
     <string name="t_0b3e02b9c7">Bin · Items stay until deleted</string>
     <string name="t_f62923958c">Bin · Items deleted after %s days</string>
-    <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
     <string name="t_c11ff348d8">Shizuku /</string>
     <string name="t_fb6a41581c">/ (read-only)</string>
@@ -2387,7 +2426,6 @@
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APKs</string>
-    <string name="t_2a4d562b1d">Tabs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
@@ -2823,7 +2861,6 @@
     <string name="t_c5db3d91c4">Crop</string>
     <string name="t_b148ed24bf">Stretch</string>
     <string name="t_dab564d809">Fit</string>
-    <string name="t_d1a17af19f">Not available</string>
     <string name="t_0789cb8890">Sleep timer (end of video)</string>
     <string name="t_628aa4e050">Sleep timer (%d min)</string>
     <string name="t_81e634eb9e">Sleep timer…</string>
@@ -2933,9 +2970,18 @@
     <string name="t_364560145c">SFTP (SSH)</string>
     <string name="t_f1a16e7276">SMB (Windows, NAS)</string>
     <string name="t_609f2ee490">WebDAV (Nextcloud)</string>
+    <string name="t_f5e4635242">S3 storage</string>
     <string name="t_ed16df90de">Shared folders on Windows, NAS or Samba (SMB 2 and 3).</string>
     <string name="t_f0be5f4959">Nextcloud, ownCloud, NAS or any WebDAV server.</string>
+    <string name="t_6b1c7fa275">Routers, TVs, cameras and NAS boxes that offer FTP.</string>
+    <string name="t_94d71fc552">Amazon S3, Backblaze B2, Cloudflare R2, Wasabi, MinIO and other S3-compatible storage, with your own access key.</string>
     <string name="t_af0f498beb">Files and terminal on Linux, Raspberry Pi or Mac.</string>
+    <string name="t_0af149c2ed">Encryption</string>
+    <string name="t_45bdfd9b16">TLS (FTPS)</string>
+    <string name="t_b2ca8c5b19">Names, passwords and files travel unencrypted: only on a network you trust.</string>
+    <string name="t_66313d74c9">Port 21 asks the server for TLS; port 990 starts with it.</string>
+    <string name="t_92ec635088">Endpoint</string>
+    <string name="t_59282240ab">Backblaze: s3.REGION.backblazeb2.com · R2: ACCOUNT.r2.cloudflarestorage.com · MinIO: http://nas:9000</string>
     <string name="t_1d5d1effa9">Server URL</string>
     <string name="t_b42b96776e">http:// is unencrypted. Use https:// over the internet.</string>
     <string name="t_056c4796ff">Nextcloud: https://your.cloud/remote.php/dav/files/USER</string>
@@ -2943,6 +2989,7 @@
     <string name="t_982b7d4e0c">IP address or host name</string>
     <string name="t_fe035157cd">Port</string>
     <string name="t_808d7dca8a">Default</string>
+    <string name="t_2ea1eee1d0">Access key ID</string>
     <string name="t_43dade02a2">PC or NAS account</string>
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
     <string name="t_13ab77a203">Leave empty for guest access, or DOMAIN\\name for a domain account</string>
@@ -2954,6 +3001,7 @@
     <string name="t_aab2dc7561">SSH key</string>
     <string name="t_7e03ab1780">Guest access, no password</string>
     <string name="t_44247bb7f5">Anonymous access, no password</string>
+    <string name="t_3dddfad4af">Secret access key</string>
     <string name="t_51ed651132">Unchanged</string>
     <string name="t_f305f5efe8">Ask when connecting</string>
     <string name="t_7da2cef191">Save password</string>
@@ -2963,6 +3011,7 @@
     <string name="t_6bf5da9c08">Options</string>
     <string name="t_78fe599277">Start folder</string>
     <string name="t_c282b4e67e">share/folder</string>
+    <string name="t_cf9676b259">bucket/folder</string>
     <string name="t_5743232899">home folder</string>
     <string name="t_a6b0e8e38c">Leave empty to list shares</string>
     <string name="t_7fcd587dde">Relative to the server URL</string>
@@ -2986,7 +3035,7 @@
     <string name="t_5c9d4d037e">Connected · shares: %s</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServersScreen.kt -->
     <string name="t_d8904eee04">Couldn\'t read key file</string>
-    <string name="t_d16af0af68">No servers. Add an SFTP, SMB or WebDAV server to browse its files.</string>
+    <string name="t_468359f00f">No servers. Add an SFTP, SMB, WebDAV or FTP server, or S3 storage, to browse its files.</string>
     <string name="t_bf54fcecbe">Disconnected from %s</string>
     <string name="t_e91a644c96">SSH keys</string>
     <string name="t_937129af9b">Generate key</string>
@@ -3263,7 +3312,9 @@
     <string name="t_3bcc92cac4">Support development</string>
     <string name="t_f901f56155">Donate via Binance Pay or M-Pesa</string>
     <string name="t_2473e96bc6">Introduction</string>
-    <string name="t_e841864e91">View the welcome tour</string>
+    <string name="t_bab0ba8613">What ManyFile does, page by page</string>
+    <string name="t_348767cf46">Welcome tour</string>
+    <string name="t_9e543c4be1">Where things are on Home and in folders</string>
     <string name="t_3e75f31584">This build</string>
     <string name="t_5fda23d620">Author</string>
     <string name="t_c1f65ddb75">Engine</string>
@@ -3343,6 +3394,8 @@
     <string name="t_49f55306ff">Also blocks screenshots</string>
     <string name="t_35e32744ce">Turn off app lock</string>
     <string name="t_54c0708f12">App lock off</string>
+    <string name="t_0300bc8676">Servers in other apps</string>
+    <string name="t_6a7f8c4cda">Your servers and cloud drives in other apps\' file pickers (Open, Attach, Save as). Never vaults, and nothing while ManyFile is locked.</string>
     <string name="t_6223b2728c">Block screenshots</string>
     <string name="t_5567fe8fa0">Everywhere in ManyFile, and hides it in recent apps. Vaults, locked folders and the authenticator always block them.</string>
     <string name="t_3737a4c3d5">Set PIN or password</string>
@@ -4857,7 +4910,6 @@
     <string name="t_28b09bb50d">Back up photos</string>
     <string name="t_5cc56d2c3f">New photos and videos in the selected folders are uploaded to every place chosen below.</string>
     <string name="t_586ef0369d">Back up to</string>
-    <string name="t_07c2964c41">Google Drive</string>
     <string name="t_257fa99e08">No account</string>
     <string name="t_98ff4ccdcf">Into My Drive</string>
     <string name="t_3a38237fed">Add a place…</string>
@@ -5017,6 +5069,9 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/Treemap.kt -->
     <string name="t_901b56b2a8">Nothing to show</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/WifiShareScreen.kt -->
+    <string name="t_c8eaa2e156">Open this Wi-Fi share?</string>
+    <string name="t_101b7eec2e">The link doesn\'t lead to a Wi-Fi share on this network.</string>
+    <string name="t_500a3d83dc">A link asks to open the Wi-Fi share at %s. Open it only if you started sharing on that device.</string>
     <string name="t_6368c54109">Receive on Wi-Fi</string>
     <string name="t_8194d421a8">Transfer files with any device on the same Wi-Fi.</string>
     <string name="t_eceef89b99">Share a folder…</string>
