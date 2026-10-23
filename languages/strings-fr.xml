@@ -2044,6 +2044,7 @@
     <string name="t_33124446b4">Tous les onglets (%s)…</string>
     <string name="t_9427d8a516">Désépingler du haut</string>
     <string name="t_a94cf5385e">Épingler en haut</string>
+    <string name="t_16df139253">1 onglet</string>
     <string name="t_8fccc25304">%s onglets</string>
     <string name="t_1b89ee22d4">Rechercher dans les onglets</string>
     <string name="t_d5a63c95d4">tout</string>
@@ -2690,6 +2691,7 @@
     <string name="t_06130c572f">Ce titre n’a pas de paroles dans ses tags. Ajoutez à côté un fichier .lrc ou .txt du même nom, ou dans un dossier Lyrics.</string>
     <string name="t_df65659012">Rechercher en ligne</string>
     <string name="t_4a3962c2e0">Depuis LRCLIB, une base de paroles gratuite. Le nom du titre et l’artiste sont envoyés à lrclib.net.</string>
+    <string name="t_9a3bcf388a">1 morceau dans la file d’attente</string>
     <string name="t_cb39e4278e">%s morceaux dans la file d’attente</string>
     <string name="t_3d2dc52da7">Retirer de la file d’attente</string>
     <string name="t_298c390561">Lecture</string>
@@ -5330,6 +5332,7 @@
     <string name="t_055688019c">Depuis les pages de contenu du PDF</string>
     <string name="t_aa50377309">Stylo et surligneur</string>
     <string name="t_77c2a8dbb5">Signer et remplir</string>
+    <string name="t_29b6c8caa8">1 résultat pour « %s »</string>
     <string name="t_a265d552ea">Page %s</string>
     <string name="t_ad8f7adaa7">Enregistrer les annotations dans le PDF ?</string>
     <string name="t_e51322b3fb">Les autres applications n’affichent les annotations qu’après leur enregistrement dans le PDF.</string>

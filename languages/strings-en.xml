@@ -1706,6 +1706,7 @@
     <string name="t_e0d73143de">Join</string>
     <string name="t_d852ca1e39">Split “%s”</string>
     <string name="t_820d6004b0">Checking…</string>
+    <string name="t_efe4799012">1 page</string>
     <string name="t_73d549a9ae">By page count</string>
     <string name="t_a65d3c448f">Pages per part</string>
     <string name="t_29c6117dee">Custom ranges</string>
@@ -2059,6 +2060,7 @@
     <string name="t_33124446b4">All tabs (%s)…</string>
     <string name="t_9427d8a516">Unpin from top</string>
     <string name="t_a94cf5385e">Pin to top</string>
+    <string name="t_16df139253">1 tab</string>
     <string name="t_8fccc25304">%s tabs</string>
     <string name="t_1b89ee22d4">Search tabs</string>
     <string name="t_d5a63c95d4">everything</string>
@@ -2712,6 +2714,7 @@
     <string name="t_06130c572f">This song has no lyrics in its tags. Add a .lrc or .txt file with the same name next to it, or in a Lyrics folder.</string>
     <string name="t_df65659012">Search online</string>
     <string name="t_4a3962c2e0">From LRCLIB, a free lyrics database. The song\'s name and artist are sent to lrclib.net.</string>
+    <string name="t_9a3bcf388a">1 song in the queue</string>
     <string name="t_cb39e4278e">%s songs in the queue</string>
     <string name="t_3d2dc52da7">Remove from queue</string>
     <string name="t_298c390561">Playing</string>
@@ -3517,6 +3520,7 @@
     <string name="t_5d8a573743">No backups here</string>
     <string name="t_fed70174d4">%d settings</string>
     <string name="t_b7d02e7254">%d bookmarks and Quick access folders</string>
+    <string name="t_decf7b6e3c">1 server</string>
     <string name="t_cc9c7f4c98">%d servers</string>
     <string name="t_bd56a952c7">%d folder syncs</string>
     <string name="t_786b3cc00e">%d saved searches</string>
@@ -3809,7 +3813,6 @@
     <string name="t_9a6f37a7bf">Search settings</string>
     <string name="t_b9e8b19d7b">Changes are saved automatically</string>
     <string name="t_f35d2c95df">Servers &amp; SSH keys</string>
-    <string name="t_decf7b6e3c">1 server</string>
     <string name="t_237a582e40">%d keys</string>
     <string name="t_68b81b9c2a">Find a setting by its name or its page, such as “dual pane” or “file operations”.</string>
     <string name="t_89bb9fcb1e">No settings found</string>
@@ -4329,7 +4332,6 @@
     <string name="t_d2c519e30c">Hold still</string>
     <string name="t_b42596948c">Page found</string>
     <string name="t_7ebd5d4c91">Take photo</string>
-    <string name="t_efe4799012">1 page</string>
     <string name="t_d925b68f44">%d pages</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatePreviews.kt -->
     <string name="t_218ee5135c">Preview of %s</string>
@@ -5337,6 +5339,7 @@
     <string name="t_055688019c">From the PDF\'s contents pages</string>
     <string name="t_aa50377309">Pen and highlighter</string>
     <string name="t_77c2a8dbb5">Sign and fill</string>
+    <string name="t_29b6c8caa8">1 result for “%s”</string>
     <string name="t_a265d552ea">Page %s</string>
     <string name="t_ad8f7adaa7">Save annotations to PDF?</string>
     <string name="t_e51322b3fb">Other apps show annotations only after they\'re saved to the PDF.</string>
