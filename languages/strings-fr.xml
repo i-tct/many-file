@@ -124,6 +124,10 @@
     <string name="t_a731ca287e">Terminal du téléphone</string>
     <string name="t_65d1e24a35">Terminal sur %s</string>
     <string name="t_8620a37e74">Serveur supprimé</string>
+    <string name="t_31ba98404e">Bienvenue dans ManyFile</string>
+    <string name="t_c51598ac7b">Un rapide aperçu de l’emplacement des choses. Passez-le quand vous voulez : Paramètres → À propos → Visite guidée le montre à nouveau.</string>
+    <string name="t_c9ae02841b">Le menu</string>
+    <string name="t_46571f45ff">Tous les stockages et emplacements : serveurs, stockages cloud, coffres et dossiers verrouillés, et tous les outils.</string>
     <!-- app/src/main/kotlin/tct/manyfile/background/CleanReminderJobService.kt -->
     <string name="t_00a681619f">Nettoyeur</string>
     <string name="t_6fd39ac448">Rappels hebdomadaires lorsque les fichiers inutiles s’accumulent</string>
@@ -876,6 +880,8 @@
     <string name="t_328ed281c5">%s introuvable sur cet appareil. Vérifiez la carte mémoire ou le lecteur USB. Aucune synchronisation effectuée.</string>
     <string name="t_f8f04a0cc9">%s introuvable sur le serveur. Aucune synchronisation effectuée.</string>
     <string name="t_0059e4f60b">Chemin invalide</string>
+    <string name="t_5f3c907384">Adresse de point de terminaison non valide</string>
+    <string name="t_218c06d725">Clé secrète pour %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SecretStore.kt -->
     <string name="t_cff2437ae3">Impossible d’enregistrer dans le stockage sécurisé</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/remote/SftpProvider.kt -->
@@ -966,6 +972,10 @@
     <string name="t_1837b99a20">Paire de clés</string>
     <string name="t_3b205516a0">Certificat approuvé</string>
     <string name="t_341f53dc3a">Clé secrète</string>
+    <string name="t_12566455ea">Choisissez d’abord un bucket</string>
+    <string name="t_506d6bc032">Les buckets ne peuvent pas être renommés</string>
+    <string name="t_f848002cbe">Impossible d’ajouter à la fin d’un fichier S3</string>
+    <string name="t_f3658a7cbc">Le serveur a refusé l’envoi</string>
     <string name="t_f1f018aaa7">Magasin de clés non pris en charge. Utilisez PKCS#12, BKS ou JKS.</string>
     <string name="t_4386702c48">JCEKS n’est pas pris en charge. Convertissez en PKCS#12 avec : keytool -importkeystore -srckeystore FILE -srcstoretype JCEKS -destkeystore FILE.p12 -deststoretype PKCS12</string>
     <string name="t_deb681d9d4">Les clés privées JKS ne sont pas prises en charge. Convertissez en PKCS#12 avec : keytool -importkeystore -srckeystore FILE.jks -destkeystore FILE.p12 -deststoretype PKCS12</string>
@@ -1226,6 +1236,9 @@
     <string name="t_df316e17de">…</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
     <string name="t_bce0641417">Rechercher</string>
+    <string name="t_a8ca17c8dd">Trouve des fichiers sur tout le téléphone. Des filtres comme size:&gt;50MB ou ext:pdf affinent la recherche.</string>
+    <string name="t_6e1663f75e">Votre stockage</string>
+    <string name="t_d6624cdc03">Touchez-le pour ouvrir vos fichiers. Appuyez longuement sur une vignette de l’accueil pour la déplacer, la recolorer ou la masquer.</string>
     <string name="t_4c5ec7b06d">Corbeille</string>
     <string name="t_28314c221e">Serveur /</string>
     <string name="t_d15dcb875a">Partages</string>
@@ -1286,6 +1299,7 @@
     <string name="t_98dd47501a">Republier</string>
     <string name="t_c0ae8f6ea8">Enregistré</string>
     <string name="t_efc007a393">Enregistrer</string>
+    <string name="t_c8bd26eea5">%d sur %d</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ViewerDelete.kt -->
     <string name="t_afd1aa166b">Supprimer définitivement ?</string>
     <string name="t_e63b5153bd">Supprimer définitivement</string>
@@ -1775,6 +1789,7 @@
     <string name="t_68034a4313">Les dossiers des autres applications sont masqués. Activez Shizuku ou root dans Paramètres → Accès root.</string>
     <string name="t_09f0662f45">Tout ouvrir</string>
     <string name="t_c7f73bb54d">Paramètres</string>
+    <string name="t_0cbf6b597e">Thèmes, ouverture des fichiers, sauvegardes, verrouillage de l’app et bien plus. La recherche trouve n’importe quel paramètre.</string>
     <string name="t_8ea09b3a9d">L’appareil est rooté. Activez l’accès root pour gérer tous les fichiers.</string>
     <string name="t_554e4255c8">Shizuku est installé. Activez-le pour obtenir davantage d’accès.</string>
     <string name="t_26563efc2a">Activer</string>
@@ -1965,6 +1980,9 @@
     <string name="t_ba15243c4e">Trier par… (%s)</string>
     <string name="t_313463d3c8">Afficher les éléments cachés</string>
     <string name="t_4bab2d8fe1">Plus</string>
+    <string name="t_63bf8373fb">Tri, affichage, fichiers masqués, nouveau fichier ou dossier, et les outils de ce dossier.</string>
+    <string name="t_ca89063ab3">Sélectionner des fichiers</string>
+    <string name="t_99ff98f64f">Appuyez longuement sur un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. La barre du bas les partage, les copie, les déplace, les compresse ou les supprime.</string>
     <string name="t_4c83071836">Aller au dossier…</string>
     <string name="t_e29dc2a85b">Dupliquer l’onglet</string>
     <string name="t_a388818400">Nouvelle fenêtre</string>
@@ -1995,6 +2013,7 @@
     <string name="t_ffafd1d88c">Analyser le stockage</string>
     <string name="t_f74acbcd98">Ouvrir la Corbeille</string>
     <string name="t_437736fdb5">Tâches</string>
+    <string name="t_a2fcd8479b">Les copies, déplacements et téléchargements s’exécutent ici en arrière-plan : mettez-les en pause, arrêtez-les ou relancez-les.</string>
     <string name="t_05172cf4c8">%s sélectionnés</string>
     <string name="t_1500b1f861">Options de sélection</string>
     <string name="t_e074f07453">Inverser la sélection</string>
@@ -2394,6 +2413,9 @@
     <string name="t_a50710e773">Archives</string>
     <string name="t_0bb24eb942">APK</string>
     <string name="t_2a4d562b1d">Onglets</string>
+    <string name="t_08a0d1d3a6">Chaque dossier peut avoir son propre onglet. Balayez sur le côté pour passer de l’un à l’autre ; appuyez longuement sur un onglet pour plus d’options.</string>
+    <string name="t_cd3e9b3e44">Où vous êtes</string>
+    <string name="t_6620474075">Touchez un dossier du chemin pour y revenir ; appuyez longuement pour copier le chemin.</string>
     <string name="t_24345a1437">Aujourd’hui</string>
     <string name="t_1697d281a3">Modifié aujourd’hui</string>
     <string name="t_bd47f3ad7f">Analyseur</string>
@@ -2939,14 +2961,18 @@
     <string name="t_364560145c">SFTP (SSH)</string>
     <string name="t_f1a16e7276">SMB (Windows, NAS)</string>
     <string name="t_609f2ee490">WebDAV (Nextcloud)</string>
+    <string name="t_f5e4635242">Stockage S3</string>
     <string name="t_ed16df90de">Dossiers partagés sur Windows, NAS ou Samba (SMB 2 et 3).</string>
     <string name="t_f0be5f4959">Nextcloud, ownCloud, NAS ou tout serveur WebDAV.</string>
     <string name="t_6b1c7fa275">Routeurs, téléviseurs, caméras et NAS qui proposent le FTP.</string>
+    <string name="t_94d71fc552">Amazon S3, Backblaze B2, Cloudflare R2, Wasabi, MinIO et autres stockages compatibles S3, avec votre propre clé d’accès.</string>
     <string name="t_af0f498beb">Fichiers et terminal sur Linux, Raspberry Pi ou Mac.</string>
     <string name="t_0af149c2ed">Chiffrement</string>
     <string name="t_45bdfd9b16">TLS (FTPS)</string>
     <string name="t_b2ca8c5b19">Les noms, mots de passe et fichiers circulent sans chiffrement : seulement sur un réseau de confiance.</string>
     <string name="t_66313d74c9">Le port 21 demande le TLS au serveur ; le port 990 commence avec.</string>
+    <string name="t_92ec635088">Point de terminaison</string>
+    <string name="t_59282240ab">Backblaze : s3.REGION.backblazeb2.com · R2 : COMPTE.r2.cloudflarestorage.com · MinIO : http://nas:9000</string>
     <string name="t_1d5d1effa9">URL du serveur</string>
     <string name="t_b42b96776e">http:// n’est pas chiffré. Utilisez https:// sur Internet.</string>
     <string name="t_056c4796ff">Nextcloud : https://your.cloud/remote.php/dav/files/USER</string>
@@ -2954,6 +2980,7 @@
     <string name="t_982b7d4e0c">Adresse IP ou nom d’hôte</string>
     <string name="t_fe035157cd">Port</string>
     <string name="t_808d7dca8a">Par défaut</string>
+    <string name="t_2ea1eee1d0">ID de clé d’accès</string>
     <string name="t_43dade02a2">Compte PC ou NAS</string>
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
     <string name="t_13ab77a203">Laissez vide pour l’accès invité, ou DOMAIN\\name pour un compte de domaine</string>
@@ -2965,6 +2992,7 @@
     <string name="t_aab2dc7561">Clé SSH</string>
     <string name="t_7e03ab1780">Accès invité, sans mot de passe</string>
     <string name="t_44247bb7f5">Accès anonyme, sans mot de passe</string>
+    <string name="t_3dddfad4af">Clé d’accès secrète</string>
     <string name="t_51ed651132">Inchangé</string>
     <string name="t_f305f5efe8">Demander lors de la connexion</string>
     <string name="t_7da2cef191">Enregistrer le mot de passe</string>
@@ -2974,6 +3002,7 @@
     <string name="t_6bf5da9c08">Options</string>
     <string name="t_78fe599277">Dossier de départ</string>
     <string name="t_c282b4e67e">partage/dossier</string>
+    <string name="t_cf9676b259">bucket/dossier</string>
     <string name="t_5743232899">dossier personnel</string>
     <string name="t_a6b0e8e38c">Laissez vide pour afficher les partages</string>
     <string name="t_7fcd587dde">Relatif à l’URL du serveur</string>
@@ -3274,6 +3303,9 @@
     <string name="t_3bcc92cac4">Soutenir le développement</string>
     <string name="t_f901f56155">Faire un don via Binance Pay ou M-Pesa</string>
     <string name="t_2473e96bc6">Introduction</string>
+    <string name="t_bab0ba8613">Ce que fait ManyFile, page par page</string>
+    <string name="t_348767cf46">Visite guidée</string>
+    <string name="t_9e543c4be1">Où se trouvent les choses sur l’accueil et dans les dossiers</string>
     <string name="t_e841864e91">Voir la visite de bienvenue</string>
     <string name="t_3e75f31584">Cette version</string>
     <string name="t_5fda23d620">Auteur</string>
@@ -3354,6 +3386,8 @@
     <string name="t_49f55306ff">Bloque également les captures d’écran</string>
     <string name="t_35e32744ce">Désactiver le verrouillage de l’application</string>
     <string name="t_54c0708f12">Verrouillage de l’application désactivé</string>
+    <string name="t_0300bc8676">Serveurs dans les autres apps</string>
+    <string name="t_6a7f8c4cda">Vos serveurs et stockages cloud dans les sélecteurs de fichiers des autres apps (Ouvrir, Joindre, Enregistrer sous). Jamais les coffres, et rien tant que ManyFile est verrouillé.</string>
     <string name="t_6223b2728c">Bloquer les captures d’écran</string>
     <string name="t_5567fe8fa0">Partout dans ManyFile, et masque l’application dans les applications récentes. Les coffres-forts, les dossiers verrouillés et l’authentificateur les bloquent toujours.</string>
     <string name="t_3737a4c3d5">Définir un code PIN ou un mot de passe</string>
