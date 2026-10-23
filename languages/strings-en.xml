@@ -1272,6 +1272,8 @@
     <string name="t_ae8ea3820f">One list</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Strings.kt -->
     <string name="t_df316e17de">…</string>
+    <string name="t_dbd388ae9a">1 selected</string>
+    <string name="t_05172cf4c8">%s selected</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Tab.kt -->
     <string name="t_4c5ec7b06d">Bin</string>
     <string name="t_28314c221e">Server /</string>
@@ -1349,7 +1351,6 @@
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/AddToVault.kt -->
     <string name="t_d348ad5d27">Add to %s</string>
     <string name="t_590d058cc7">Select files and folders</string>
-    <string name="t_dbd388ae9a">1 selected</string>
     <string name="t_b295fde49b">%d selected</string>
     <string name="t_618cfb0a53">Select none</string>
     <string name="t_913afff1fa">Select all</string>
@@ -2038,7 +2039,6 @@
     <string name="t_586f31c754">Find duplicates</string>
     <string name="t_ffafd1d88c">Analyze storage</string>
     <string name="t_f74acbcd98">Open Bin</string>
-    <string name="t_05172cf4c8">%s selected</string>
     <string name="t_1500b1f861">Selection options</string>
     <string name="t_e074f07453">Invert selection</string>
     <string name="t_e7c320244b">Files only</string>
