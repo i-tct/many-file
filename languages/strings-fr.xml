@@ -3064,6 +3064,7 @@
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
     <string name="t_13ab77a203">Laissez vide pour l’accès invité, ou DOMAIN\\name pour un compte de domaine</string>
     <string name="t_895fedb7d8">Laissez vide pour l’accès anonyme</string>
+    <string name="t_733165aa27">Dans les clés d’accès de votre stockage, avec la clé secrète ci-dessous</string>
     <string name="t_1e043a250d">Votre compte sur le serveur</string>
     <string name="t_9c9f03a839">Nom (facultatif)</string>
     <string name="t_29e35c25bd">Mon serveur</string>
@@ -3074,6 +3075,7 @@
     <string name="t_3dddfad4af">Clé d’accès secrète</string>
     <string name="t_51ed651132">Inchangé</string>
     <string name="t_f305f5efe8">Demander lors de la connexion</string>
+    <string name="t_4017727278">Enregistrer la clé secrète</string>
     <string name="t_7da2cef191">Enregistrer le mot de passe</string>
     <string name="t_91550d6fb9">Choisir une clé</string>
     <string name="t_35116d275e">Générer une clé…</string>

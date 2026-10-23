@@ -3082,6 +3082,7 @@
     <string name="t_667a6bdeab">pi, root, ubuntu…</string>
     <string name="t_13ab77a203">Leave empty for guest access, or DOMAIN\\name for a domain account</string>
     <string name="t_895fedb7d8">Leave empty for anonymous access</string>
+    <string name="t_733165aa27">From your storage\'s access keys, with the secret key below</string>
     <string name="t_1e043a250d">Your account on the server</string>
     <string name="t_9c9f03a839">Name (optional)</string>
     <string name="t_29e35c25bd">My server</string>
@@ -3092,6 +3093,7 @@
     <string name="t_3dddfad4af">Secret access key</string>
     <string name="t_51ed651132">Unchanged</string>
     <string name="t_f305f5efe8">Ask when connecting</string>
+    <string name="t_4017727278">Save the secret key</string>
     <string name="t_7da2cef191">Save password</string>
     <string name="t_91550d6fb9">Choose a key</string>
     <string name="t_35116d275e">Generate key…</string>
