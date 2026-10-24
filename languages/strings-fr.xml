@@ -1623,6 +1623,9 @@
     <string name="t_e48da9df35">Sans perte : le son tel qu’il est dans le fichier.</string>
     <string name="t_78003c0d88">Enregistré à côté de l’original. Pour une vidéo, seul le son est conservé.</string>
     <string name="t_3f15ce7953">Convertir</string>
+    <string name="t_638ef4c4e9">Mot de passe pour ouvrir %s</string>
+    <string name="t_31bbea6125">Demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau avec les coffres.</string>
+    <string name="t_3ceab29e22">Facultatif : demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau avec les coffres. Les sauvegardes et synchronisations vers lui continuent.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Chiffrer %s</string>
     <string name="t_3920b53601">Crée une copie chiffrée .mfenc de chaque fichier (AES-256).</string>
@@ -1892,6 +1895,7 @@
     <string name="t_d850ee188c">Nouveau mot de passe</string>
     <string name="t_6e6c4fbb8a">Répéter le nouveau mot de passe</string>
     <string name="t_092a16e7af">Mot de passe modifié</string>
+    <string name="t_676101c80f">Mot de passe défini</string>
     <string name="t_5ad0ea955c">Impossible de modifier le mot de passe</string>
     <string name="t_8c684290ce">Modifier le mot de passe</string>
     <string name="t_4ef4b4e62f">Déverrouillage par empreinte</string>
@@ -1932,6 +1936,8 @@
     <string name="t_d378f6c459">Masquer « %s »</string>
     <string name="t_ae4c86de8f">Le coffre-fort est retiré du menu. Pour l’ouvrir, saisissez le mot secret dans Rechercher.</string>
     <string name="t_0731d31716">Au moins %d caractères</string>
+    <string name="t_11bac5b072">Oublié ? Se déconnecter du compte, ou supprimer le serveur, le retire.</string>
+    <string name="t_114bea5817">Mot de passe supprimé</string>
     <string name="t_34d8b60fe2">Masquer</string>
     <string name="t_7cf3c5adc9">Icône de cadenas sur les dossiers verrouillés</string>
     <string name="t_ce628bf596">Désactivé : les dossiers verrouillés ressemblent aux autres dossiers</string>
@@ -2053,6 +2059,7 @@
     <string name="t_26517a255a">Tout extraire</string>
     <string name="t_9b97c17789">Tester l’archive</string>
     <string name="t_0e3fbc23eb">Git : %s…</string>
+    <string name="t_178587ce35">Mot de passe pour ouvrir…</string>
     <string name="t_79568ea470">Partition système…</string>
     <string name="t_3ea3bf6fe1">Synchroniser le dossier…</string>
     <string name="t_3af102a144">Compte %s…</string>

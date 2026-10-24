@@ -1669,6 +1669,18 @@
     <string name="t_e48da9df35">Lossless: the sound as it is in the file.</string>
     <string name="t_78003c0d88">Saved next to the original. Videos give their sound.</string>
     <string name="t_3f15ce7953">Convert</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/DriveLockDialog.kt -->
+    <string name="t_638ef4c4e9">Password to open %s</string>
+    <string name="t_31bbea6125">Asked before its files show, until it locks again with the vaults.</string>
+    <string name="t_3ceab29e22">Optional: asked before its files show, until it locks again with the vaults. Backups and syncs to it carry on.</string>
+    <string name="t_d850ee188c">New password</string>
+    <string name="t_0731d31716">At least %d characters</string>
+    <string name="t_11bac5b072">Forgot it? Signing out of the account, or deleting the server, takes it off.</string>
+    <string name="t_114bea5817">Password removed</string>
+    <string name="t_acef17d00b">Remove password</string>
+    <string name="t_092a16e7af">Password changed</string>
+    <string name="t_676101c80f">Password set</string>
+    <string name="t_448ab73ba1">Set</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
     <string name="t_3920b53601">Creates an encrypted .mfenc copy of each file (AES-256).</string>
@@ -1780,7 +1792,6 @@
     <string name="t_5bffdc1514">Removes the password and restrictions.</string>
     <string name="t_ad195e499b">Removes restrictions on printing, copying and editing.</string>
     <string name="t_e0ac7fa106">Saved as “name (unprotected).pdf”</string>
-    <string name="t_acef17d00b">Remove password</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionDialogs.kt -->
     <string name="t_852b438f91">Read</string>
     <string name="t_4a48932789">Write</string>
@@ -1897,6 +1908,7 @@
     <string name="t_68c3f78b24">No matches in %s for “%s”</string>
     <string name="t_830489bc03">Larger than %s</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabSession.kt -->
+    <string name="t_a798882f1c">Locked</string>
     <string name="t_b9e4e6ff3f">3 months</string>
     <string name="t_cd75b86f4f">6 months</string>
     <string name="t_afe36da676">1 year</string>
@@ -1939,9 +1951,7 @@
     <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_15914698c5">New password for %s</string>
     <string name="t_caad7a1005">%s settings</string>
-    <string name="t_d850ee188c">New password</string>
     <string name="t_6e6c4fbb8a">Repeat new password</string>
-    <string name="t_092a16e7af">Password changed</string>
     <string name="t_5ad0ea955c">Couldn\'t change password</string>
     <string name="t_8c684290ce">Change password</string>
     <string name="t_4ef4b4e62f">Fingerprint unlock</string>
@@ -1957,7 +1967,6 @@
     <string name="t_f398506b98">Decoy password changed</string>
     <string name="t_e09e9f9a77">Decoy password set</string>
     <string name="t_e15e726f46">Couldn\'t set decoy password</string>
-    <string name="t_448ab73ba1">Set</string>
     <string name="t_e2b27005dd">Change decoy password</string>
     <string name="t_288b019eeb">Set decoy password…</string>
     <string name="t_5f31ac1af3">Remove decoy…</string>
@@ -1981,7 +1990,6 @@
     <string name="t_3b97ef6d8a">Removed from menu</string>
     <string name="t_d378f6c459">Hide “%s”</string>
     <string name="t_ae4c86de8f">The vault is removed from the menu. To open it, type the secret word in Search.</string>
-    <string name="t_0731d31716">At least %d characters</string>
     <string name="t_34d8b60fe2">Hide</string>
     <string name="t_7cf3c5adc9">Lock icon on locked folders</string>
     <string name="t_ce628bf596">Off: locked folders look like any other folder</string>
@@ -2099,6 +2107,7 @@
     <string name="t_26517a255a">Extract all</string>
     <string name="t_9b97c17789">Test archive</string>
     <string name="t_0e3fbc23eb">Git: %s…</string>
+    <string name="t_178587ce35">Password to open…</string>
     <string name="t_79568ea470">System partition…</string>
     <string name="t_3ea3bf6fe1">Sync folder…</string>
     <string name="t_3af102a144">%s account…</string>
@@ -2507,7 +2516,7 @@
     <string name="t_551a46e55e">Hide %s</string>
     <string name="t_12e93a8a78">To hide it, set a secret word in the vault\'s settings</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeCards.kt -->
-    <string name="t_a798882f1c">Locked</string>
+    <string name="t_f5e4635242">S3 storage</string>
     <string name="t_98b0ed858a">Add account</string>
     <string name="t_5dcc791366">Add another account</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
@@ -3130,7 +3139,6 @@
     <string name="t_364560145c">SFTP (SSH)</string>
     <string name="t_f1a16e7276">SMB (Windows, NAS)</string>
     <string name="t_609f2ee490">WebDAV (Nextcloud)</string>
-    <string name="t_f5e4635242">S3 storage</string>
     <string name="t_ed16df90de">Shared folders on Windows, NAS or Samba (SMB 2 and 3).</string>
     <string name="t_f0be5f4959">Nextcloud, ownCloud, NAS or any WebDAV server.</string>
     <string name="t_6b1c7fa275">Routers, TVs, cameras and NAS boxes that offer FTP.</string>
