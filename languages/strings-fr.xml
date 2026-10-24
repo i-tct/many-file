@@ -3463,6 +3463,7 @@
     <string name="t_c245adbdbd">Déverrouillage avec le verrouillage de l’écran</string>
     <string name="t_c036afe1d7">Déverrouillage avec le code PIN</string>
     <string name="t_2bcda9b460">Déverrouillage avec le mot de passe</string>
+    <string name="t_0e778d0a55">Après 15 secondes</string>
     <string name="t_f030c3d667">1 heure</string>
     <string name="t_a4d283fcd5">Déverrouiller aussi avec l’empreinte ou le visage</string>
     <string name="t_d9496522ae">Verrouillage de l’écran comme solution de secours</string>

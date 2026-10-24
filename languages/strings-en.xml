@@ -1585,6 +1585,7 @@
     <string name="t_0a6181aadd">New tag</string>
     <string name="t_32f2ab475e">work, todo, keep…</string>
     <string name="t_61cc55aa04">Add</string>
+    <string name="t_338cc048d4">Colour %d</string>
     <string name="t_414d2e8fe2">Select matching</string>
     <string name="t_a93951bf1c">Name regex</string>
     <string name="t_fe0fb5b633">Name pattern (* and ?)</string>
@@ -2429,7 +2430,6 @@
     <string name="t_d371a4a652">Edit bookmark</string>
     <string name="t_fba9ba171e">Group (“%s” pins to Home)</string>
     <string name="t_786131468d">No colour</string>
-    <string name="t_338cc048d4">Colour %d</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/ContinueWatching.kt -->
     <string name="t_021f6fec2f">Next: %s</string>
     <string name="t_feb5bead8e">%s left</string>
@@ -3476,6 +3476,7 @@
     <string name="t_c245adbdbd">Unlocks with screen lock</string>
     <string name="t_c036afe1d7">Unlocks with PIN</string>
     <string name="t_2bcda9b460">Unlocks with password</string>
+    <string name="t_0e778d0a55">After 15 seconds</string>
     <string name="t_f030c3d667">1 hour</string>
     <string name="t_a4d283fcd5">Also unlock with fingerprint or face</string>
     <string name="t_d9496522ae">Screen lock as fallback</string>
