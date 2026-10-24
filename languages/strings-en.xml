@@ -83,6 +83,8 @@
     <!-- app/src/main/kotlin/tct/manyfile/ItemShortcuts.kt -->
     <string name="t_5641cb4250">Home screen doesn\'t support shortcuts</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
+    <string name="t_fcc2fb01eb">Opening the MEGA link…</string>
+    <string name="t_06a1c0e185">Couldn\'t open the MEGA link: %s</string>
     <string name="t_8eeb0763f6">OneDrive sign-in failed: %s</string>
     <string name="t_62c2725b82">%d chosen from Drive</string>
     <string name="t_6dd336f903">Google Drive sign-in failed: %s</string>
@@ -122,6 +124,10 @@
     <string name="t_9f5cd8a2e8">Retry</string>
     <string name="t_8112928dee">Edit server</string>
     <string name="t_bbfa773e5a">Close</string>
+    <!-- app/src/main/kotlin/tct/manyfile/ManyFileApp.kt -->
+    <string name="t_acc2b64685">This file doesn\'t run</string>
+    <string name="t_b27240fba2">Python comes with the Media Engine: install it from the Media Downloader to run Python files.</string>
+    <string name="t_bd001d4d31">This build has no zsh</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
     <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_a731ca287e">Phone terminal</string>
@@ -449,12 +455,17 @@
     <string name="t_8b5c223a2d">Couldn\'t read saved sign-in</string>
     <string name="t_4b7747df34">Couldn\'t connect to %s: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/LocalMega.kt -->
+    <string name="t_8fdfb87825">MEGA\'s Rubbish bin only takes what is deleted</string>
+    <string name="t_5f488d0583">Not a MEGA link</string>
     <string name="t_e88dbbf192">Not found on MEGA</string>
+    <string name="t_c7037ca9eb">This MEGA link isn\'t open here any more: open it again</string>
+    <string name="t_e8ef2b0ad7">A shared MEGA link can only be read: copy what you need from it</string>
     <string name="t_b9fc7f6205">MEGA access denied</string>
     <string name="t_ca2bfd69a1">Already exists on MEGA</string>
     <string name="t_8065118269">MEGA session expired. Sign in again.</string>
     <string name="t_730dd042a8">MEGA account blocked</string>
     <string name="t_70addeab71">MEGA storage or transfer quota exceeded</string>
+    <string name="t_b1d2bddc6f">This MEGA link\'s key is wrong or missing</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/Mega.kt -->
     <string name="t_849a3fa7e7">not a file name: %s</string>
     <string name="t_6ac22795c2">Moving between accounts is not supported</string>
@@ -852,6 +863,8 @@
     <string name="t_bbcda4b051">Read-only location</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/ProviderRegistry.kt -->
     <string name="t_322d415426">Unsupported location: %s</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/RecentProvider.kt -->
+    <string name="t_95c6a85a61">Recent files</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/SafProvider.kt -->
     <string name="t_b1eb5d3607">No access to this location</string>
     <string name="t_cde29c5d71">Access to this location was revoked</string>
@@ -996,6 +1009,8 @@
     <string name="t_527aa3718b">Root access is off. Enable root or Shizuku in Settings → Root access.</string>
     <string name="t_16f0e3678e">Couldn\'t read folder</string>
     <string name="t_47944c7073">Invalid file name: %s</string>
+    <string name="t_78f0018bf6">Not a user or group name: %s</string>
+    <string name="t_862f520c06">Android kept the system read-only (verified boot is probably on)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
     <string name="t_fd5135a5cb">Couldn\'t read image</string>
     <string name="t_1e2a945adb">Not enough memory. Close other apps and try again.</string>
@@ -1113,11 +1128,27 @@
     <string name="t_91694e57d0">Locked folder</string>
     <string name="t_b9fb9e92cd">Appending is not supported in vaults</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
+    <string name="t_cac6669f37">Dry run: %s</string>
     <string name="t_0b049b5346">Nothing to do</string>
+    <string name="t_1da74e65d7">Dry run: nothing is changed. Each step says what it would do.</string>
     <string name="t_ff7ccc5ae7">Step %s: %s</string>
     <string name="t_3d71746f72">Too many items (over %s). Narrow the pattern.</string>
+    <string name="t_221f097b6a">Dry run: 1 step checked, nothing changed</string>
+    <string name="t_c16d978914">Dry run: %s steps checked, nothing changed</string>
     <string name="t_f2c6c821f8">1 step done</string>
     <string name="t_a9b9b3c49b">%s steps done</string>
+    <string name="t_8b3e3f5bdb">%s (not found: the real run would stop here)</string>
+    <string name="t_f3a3320b33">and %s more</string>
+    <string name="t_0550c25dd8">%s already in %s: %s</string>
+    <string name="t_4da4c43565">replaced</string>
+    <string name="t_413a9328e5">skipped</string>
+    <string name="t_6628baf2e6">kept both</string>
+    <string name="t_feca3237bf">the newer kept</string>
+    <string name="t_e6377a82b0">skipped when the same, else replaced</string>
+    <string name="t_c91c9287c0">asked</string>
+    <string name="t_d486749ecf">would make %s</string>
+    <string name="t_8061d093d8">would run on %s: %s</string>
+    <string name="t_fd87a303bd">already there</string>
     <string name="t_6c989a7e36">Invalid pattern: %s</string>
     <string name="t_425ca69e81">Too many matches (over %s). Narrow the pattern.</string>
     <string name="t_86243da881">No items from the previous step</string>
@@ -1283,6 +1314,8 @@
     <string name="t_d15dcb875a">Shares</string>
     <string name="t_8dd065073d">My Drive</string>
     <string name="t_1be4884647">Root /</string>
+    <string name="t_ec47a0f488">Rubbish bin</string>
+    <string name="t_9fdddce46c">MEGA link</string>
     <string name="t_982963c1c4">Tag</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Workflow.kt -->
     <string name="t_4d68c8f134">exists</string>
@@ -1494,6 +1527,10 @@
     <string name="t_44d25b5d1b">Items</string>
     <string name="t_d06d555709">Permissions</string>
     <string name="t_89ff31225c">Owner</string>
+    <string name="t_4008b432a8">Permissions changed</string>
+    <string name="t_ae89aac0f3">Couldn\'t change permissions: %s</string>
+    <string name="t_fca96d608d">Owner changed</string>
+    <string name="t_1beccac6ab">Couldn\'t change the owner: %s</string>
     <string name="t_8c6307bfb3">MIME type</string>
     <string name="t_f2fb7f8f9e">target missing</string>
     <string name="t_fb360f9c09">yes</string>
@@ -1742,6 +1779,23 @@
     <string name="t_ad195e499b">Removes restrictions on printing, copying and editing.</string>
     <string name="t_e0ac7fa106">Saved as “name (unprotected).pdf”</string>
     <string name="t_acef17d00b">Remove password</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionDialogs.kt -->
+    <string name="t_852b438f91">Read</string>
+    <string name="t_4a48932789">Write</string>
+    <string name="t_b1b392607d">Run</string>
+    <string name="t_171a0606f7">Group</string>
+    <string name="t_8d7bf5bf13">Others</string>
+    <string name="t_f84ec90f5a">As a number</string>
+    <string name="t_734c7541b5">Also everything inside</string>
+    <string name="t_9f8a2389a2">User</string>
+    <string name="t_8deacf1ded">A name (system, media_rw) or a number (1000).</string>
+    <string name="t_9f278eae8b">System partition</string>
+    <string name="t_ec9fcaf163">Mounted read-write: system files can be changed.</string>
+    <string name="t_e0979f2fb2">Mounted read-only, as Android keeps it.</string>
+    <string name="t_2c10305939">Unknown (root didn\'t answer)</string>
+    <string name="t_79b25c672a">A wrong change to system files can stop the phone from starting. Mount it read-only again when you are done.</string>
+    <string name="t_9b19a5a212">Read-only</string>
+    <string name="t_3cb3806962">Read-write</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionGate.kt -->
     <string name="t_3faeee3150">Storage access</string>
     <string name="t_09358851f8">Allow “All files access” to browse and manage files in shared storage.</string>
@@ -1818,6 +1872,7 @@
     <string name="t_cd0af6cfca">No matches</string>
     <string name="t_b993b0c537">No results</string>
     <string name="t_495148fb9c">Bin is empty</string>
+    <string name="t_2fe9475554">No files opened lately</string>
     <string name="t_f79171b805">No files with this tag</string>
     <string name="t_0bedec147e">Try a broader query.</string>
     <string name="t_1de8dba368">Syntax:</string>
@@ -2042,8 +2097,10 @@
     <string name="t_26517a255a">Extract all</string>
     <string name="t_9b97c17789">Test archive</string>
     <string name="t_0e3fbc23eb">Git: %s…</string>
+    <string name="t_79568ea470">System partition…</string>
     <string name="t_3ea3bf6fe1">Sync folder…</string>
     <string name="t_3af102a144">%s account…</string>
+    <string name="t_7c470d3c8b">Cloud Drive</string>
     <string name="t_ebb2ffded1">Play all</string>
     <string name="t_586f31c754">Find duplicates</string>
     <string name="t_ffafd1d88c">Analyze storage</string>
@@ -2075,6 +2132,7 @@
     <string name="t_35bbf79557">in %s</string>
     <string name="t_0b3e02b9c7">Bin · Items stay until deleted</string>
     <string name="t_f62923958c">Bin · Items deleted after %s days</string>
+    <string name="t_82375e89c7">MEGA Rubbish bin</string>
     <string name="t_bb17fdb81a">MEGA</string>
     <string name="t_c11ff348d8">Shizuku /</string>
     <string name="t_fb6a41581c">/ (read-only)</string>
@@ -2176,7 +2234,7 @@
     <string name="t_29869c5100">1 step</string>
     <string name="t_46c51fe0fd">%d steps</string>
     <string name="t_aa5d468d64">not run yet</string>
-    <string name="t_b1b392607d">Run</string>
+    <string name="t_aa12b21dc1">Dry run…</string>
     <string name="t_b4f57cd0cd">Move up</string>
     <string name="t_260ff8ae71">Move down</string>
     <string name="t_fcde5c325d">Runs</string>
@@ -2297,8 +2355,11 @@
     <string name="t_0e77d6d13a">Use this folder</string>
     <string name="t_51e41d56cb">+ Add item</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowLauncher.kt -->
+    <string name="t_31927ded04">Dry run of %s</string>
     <string name="t_0f0510ab7b">Run %s?</string>
     <string name="t_fce27ad1c3">Steps in red modify files or run server commands.</string>
+    <string name="t_bf4e31011e">A dry run changes nothing: the job\'s log says what each step would do and to which files.</string>
+    <string name="t_485a3d15e7">Dry run</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/CodeHomeScreen.kt -->
     <string name="t_f11b878130">Open file</string>
     <string name="t_8f3cee3a58">Find code files</string>
@@ -2314,7 +2375,6 @@
     <string name="t_130b03e444">Show changes</string>
     <string name="t_9d91d3f268">Word wrap</string>
     <string name="t_d08aaa54e8">Line numbers</string>
-    <string name="t_9b19a5a212">Read-only</string>
     <string name="t_7b7b3d66c7">Auto-indent</string>
     <string name="t_ff6ad92011">Autosave</string>
     <string name="t_118f9b2b30">Larger text</string>
@@ -2592,6 +2652,7 @@
     <string name="t_9c04c97209">Show as a list</string>
     <string name="t_d1e53662d1">Show as a grid</string>
     <string name="t_d4da1afc04">Show on Home</string>
+    <string name="t_aa4783b7d0">Open as a tab</string>
     <string name="t_ab4ba96582">Clear recents…</string>
     <string name="t_769bb19e61">When</string>
     <string name="t_f37c3dab33">Recents are off</string>
@@ -3201,7 +3262,6 @@
     <string name="t_8570824f19">Up to date (%s files)</string>
     <string name="t_81b1bb1dd3">%s files would be deleted. Continue only if this is expected.</string>
     <string name="t_612eb91f10">%s to download</string>
-    <string name="t_f3a3320b33">and %s more</string>
     <string name="t_05f08020cc">Replaced on phone (%s)</string>
     <string name="t_7a14301758">The server version replaces the phone version.</string>
     <string name="t_80fc0b85ff">Replaced on server (%s)</string>
@@ -3282,10 +3342,12 @@
     <string name="t_18009cdcce">Connection log</string>
     <string name="t_3e18ce347f">ManyFile commands terminal</string>
     <string name="t_82fb3040ef">adb shell (Shizuku)</string>
+    <string name="t_3a40676433">Root shell (su)</string>
     <string name="t_520dd7a6e9">Copy screen</string>
     <string name="t_e65017017f">Close session</string>
     <string name="t_04c04fd5f7">This phone</string>
     <string name="t_fe392644a2">starting…</string>
+    <string name="t_dc76e9f0c0">root</string>
     <string name="t_ba92ed73c9">ended</string>
     <string name="t_5f5f8758f5">failed</string>
     <string name="t_3ff5fbf458">connected · tmux</string>
@@ -3471,6 +3533,11 @@
     <string name="t_0388ee8f1b">Download and install</string>
     <string name="t_7dd37a86f5">Downloaded file is not a valid APK</string>
     <string name="t_119dfe1022">Update signed with a different key. Can\'t install.</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AccentPicker.kt -->
+    <string name="t_94072c6a37">Your own colour</string>
+    <string name="t_24d3e4fdd9">Strength</string>
+    <string name="t_b4c062830c">Hex (#RRGGBB)</string>
+    <string name="t_1d4d43cc6f">Use</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AppLockPage.kt -->
     <string name="t_5baa61e4c9">password</string>
     <string name="t_19b3f73acb">Require unlocking to open the app. Files are not encrypted.</string>
@@ -3866,6 +3933,7 @@
     <string name="t_6d88987464">Crash report available</string>
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
+    <string name="t_2e0ef22f2d">Off: the colour above</string>
     <string name="t_7cf7e8e599">Largest</string>
     <string name="t_35d8a95d3e">Language default (%s)</string>
     <string name="t_b58f3b8e63">Phone setting</string>
@@ -4185,7 +4253,6 @@
     <string name="t_2260ce4930">Digits</string>
     <string name="t_f4018045cf">Counter</string>
     <string name="t_c829866c4f">Period (seconds)</string>
-    <string name="t_171a0606f7">Group</string>
     <string name="t_00040bab8a">Work</string>
     <string name="t_f85039fd8e">Confirm new password</string>
     <string name="t_61815cd636">Existing backups keep the old password.</string>
@@ -5043,7 +5110,6 @@
     <string name="t_325a0a987f">The scanned page will be lost.</string>
     <string name="t_fa3a145124">The %d scanned pages will be lost.</string>
     <string name="t_98d9cfd055">Keep scanning</string>
-    <string name="t_1d4d43cc6f">Use</string>
     <string name="t_16457335a7">Retake</string>
     <string name="t_4e63caf328">Whole photo</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SimilarPhotosScreen.kt -->
@@ -5242,7 +5308,6 @@
     <string name="t_f306a852a3">Insert at 0x%s</string>
     <string name="t_5c62bd768e">Write over at 0x%s</string>
     <string name="t_95802daab3">Insert</string>
-    <string name="t_4a48932789">Write</string>
     <string name="t_d8fff6bab4">Delete bytes at 0x%s</string>
     <string name="t_90067c2e37">How many (decimal or 0x hex)</string>
     <string name="t_97d3fa0771">Couldn\'t search: %s</string>

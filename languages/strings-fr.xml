@@ -81,6 +81,8 @@
     <string name="t_09ca55ca52">Partager</string>
     <!-- app/src/main/kotlin/tct/manyfile/ItemShortcuts.kt -->
     <string name="t_5641cb4250">L’écran d’accueil ne prend pas en charge les raccourcis</string>
+    <string name="t_fcc2fb01eb">Ouverture du lien MEGA…</string>
+    <string name="t_06a1c0e185">Impossible d’ouvrir le lien MEGA : %s</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
     <string name="t_8eeb0763f6">Échec de la connexion à OneDrive : %s</string>
     <string name="t_62c2725b82">%d choisis dans Drive</string>
@@ -121,6 +123,9 @@
     <string name="t_9f5cd8a2e8">Réessayer</string>
     <string name="t_8112928dee">Modifier le serveur</string>
     <string name="t_bbfa773e5a">Fermer</string>
+    <string name="t_acc2b64685">Ce fichier ne s’exécute pas</string>
+    <string name="t_b27240fba2">Python est fourni avec le Media Engine : installez-le depuis le Téléchargeur multimédia pour exécuter des fichiers Python.</string>
+    <string name="t_bd001d4d31">Cette version n’inclut pas zsh</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
     <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_a731ca287e">Terminal du téléphone</string>
@@ -424,13 +429,18 @@
     <string name="t_00734e6c89">Session Google Drive expirée. Reconnectez-vous.</string>
     <string name="t_8b5c223a2d">Impossible de lire la connexion enregistrée</string>
     <string name="t_4b7747df34">Impossible de se connecter à %s : %s</string>
+    <string name="t_8fdfb87825">La corbeille MEGA ne reçoit que ce qui est supprimé</string>
+    <string name="t_5f488d0583">Ce n’est pas un lien MEGA</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/LocalMega.kt -->
     <string name="t_e88dbbf192">Introuvable sur MEGA</string>
+    <string name="t_c7037ca9eb">Ce lien MEGA n’est plus ouvert ici : ouvrez-le à nouveau</string>
+    <string name="t_e8ef2b0ad7">Un lien MEGA partagé est en lecture seule : copiez-en ce dont vous avez besoin</string>
     <string name="t_b9fc7f6205">Accès à MEGA refusé</string>
     <string name="t_ca2bfd69a1">Existe déjà sur MEGA</string>
     <string name="t_8065118269">Session MEGA expirée. Reconnectez-vous.</string>
     <string name="t_730dd042a8">Compte MEGA bloqué</string>
     <string name="t_70addeab71">Quota de stockage ou de transfert MEGA dépassé</string>
+    <string name="t_b1d2bddc6f">La clé de ce lien MEGA est incorrecte ou absente</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/Mega.kt -->
     <string name="t_849a3fa7e7">nom de fichier invalide : %s</string>
     <string name="t_6ac22795c2">Le déplacement entre comptes n’est pas pris en charge</string>
@@ -829,6 +839,7 @@
     <string name="t_bbcda4b051">Emplacement en lecture seule</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/ProviderRegistry.kt -->
     <string name="t_322d415426">Emplacement non pris en charge : %s</string>
+    <string name="t_95c6a85a61">Fichiers récents</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/provider/SafProvider.kt -->
     <string name="t_b1eb5d3607">Aucun accès à cet emplacement</string>
     <string name="t_cde29c5d71">L’accès à cet emplacement a été révoqué</string>
@@ -964,6 +975,8 @@
     <string name="t_527aa3718b">L’accès root est désactivé. Activez root ou Shizuku dans Paramètres → Accès root.</string>
     <string name="t_16f0e3678e">Impossible de lire le dossier</string>
     <string name="t_47944c7073">Nom de fichier non valide : %s</string>
+    <string name="t_78f0018bf6">Ce n’est pas un nom d’utilisateur ou de groupe : %s</string>
+    <string name="t_862f520c06">Android a gardé le système en lecture seule (le démarrage vérifié est probablement activé)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
     <string name="t_fd5135a5cb">Impossible de lire l’image</string>
     <string name="t_1e2a945adb">Mémoire insuffisante. Fermez d’autres applications et réessayez.</string>
@@ -1085,12 +1098,17 @@
     <string name="t_cfd4a39cf0">Le mot de passe leurre doit être différent du mot de passe du coffre-fort</string>
     <string name="t_91694e57d0">Dossier verrouillé</string>
     <string name="t_b9fb9e92cd">L’ajout en fin de fichier n’est pas pris en charge dans les coffres-forts</string>
+    <string name="t_cac6669f37">Essai à blanc : %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/workflow/WorkflowRunner.kt -->
     <string name="t_0b049b5346">Rien à faire</string>
+    <string name="t_1da74e65d7">Essai à blanc : rien n’est modifié. Chaque étape dit ce qu’elle ferait.</string>
     <string name="t_ff7ccc5ae7">Étape %s : %s</string>
     <string name="t_3d71746f72">Trop d’éléments (plus de %s). Affinez le motif.</string>
+    <string name="t_221f097b6a">Essai à blanc : 1 étape vérifiée, rien modifié</string>
+    <string name="t_c16d978914">Essai à blanc : %s étapes vérifiées, rien modifié</string>
     <string name="t_f2c6c821f8">1 étape terminée</string>
     <string name="t_a9b9b3c49b">%s étapes terminées</string>
+    <string name="t_8b3e3f5bdb">%s (introuvable : la vraie exécution s’arrêterait ici)</string>
     <string name="t_6c989a7e36">Motif non valide : %s</string>
     <string name="t_425ca69e81">Trop de correspondances (plus de %s). Affinez le motif.</string>
     <string name="t_86243da881">Aucun élément de l’étape précédente</string>
@@ -1248,6 +1266,8 @@
     <string name="t_d15dcb875a">Partages</string>
     <string name="t_8dd065073d">Mon Drive</string>
     <string name="t_1be4884647">Racine /</string>
+    <string name="t_ec47a0f488">Corbeille</string>
+    <string name="t_9fdddce46c">Lien MEGA</string>
     <string name="t_982963c1c4">Étiquette</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Workflow.kt -->
     <string name="t_4d68c8f134">existe</string>
@@ -1457,6 +1477,10 @@
     <string name="t_44d25b5d1b">Éléments</string>
     <string name="t_d06d555709">Autorisations</string>
     <string name="t_89ff31225c">Propriétaire</string>
+    <string name="t_4008b432a8">Autorisations modifiées</string>
+    <string name="t_ae89aac0f3">Impossible de modifier les autorisations : %s</string>
+    <string name="t_fca96d608d">Propriétaire modifié</string>
+    <string name="t_1beccac6ab">Impossible de modifier le propriétaire : %s</string>
     <string name="t_8c6307bfb3">Type MIME</string>
     <string name="t_f2fb7f8f9e">cible manquante</string>
     <string name="t_fb360f9c09">oui</string>
@@ -1718,6 +1742,7 @@
     <string name="t_ad195e499b">Supprime les restrictions d’impression, de copie et de modification.</string>
     <string name="t_e0ac7fa106">Enregistré sous « nom (non protégé).pdf »</string>
     <string name="t_acef17d00b">Supprimer le mot de passe</string>
+    <string name="t_852b438f91">Lire</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PermissionGate.kt -->
     <string name="t_3faeee3150">Accès au stockage</string>
     <string name="t_09358851f8">Autorisez « Accès à tous les fichiers » pour parcourir et gérer les fichiers du stockage partagé.</string>
@@ -1794,6 +1819,7 @@
     <string name="t_cd0af6cfca">Aucune correspondance</string>
     <string name="t_b993b0c537">Aucun résultat</string>
     <string name="t_495148fb9c">La Corbeille est vide</string>
+    <string name="t_2fe9475554">Aucun fichier ouvert récemment</string>
     <string name="t_f79171b805">Aucun fichier avec cette étiquette</string>
     <string name="t_0bedec147e">Essayez une requête plus large.</string>
     <string name="t_1de8dba368">Syntaxe :</string>
@@ -2024,8 +2050,10 @@
     <string name="t_26517a255a">Tout extraire</string>
     <string name="t_9b97c17789">Tester l’archive</string>
     <string name="t_0e3fbc23eb">Git : %s…</string>
+    <string name="t_79568ea470">Partition système…</string>
     <string name="t_3ea3bf6fe1">Synchroniser le dossier…</string>
     <string name="t_3af102a144">Compte %s…</string>
+    <string name="t_7c470d3c8b">Cloud Drive</string>
     <string name="t_ebb2ffded1">Tout lire</string>
     <string name="t_586f31c754">Rechercher les doublons</string>
     <string name="t_ffafd1d88c">Analyser le stockage</string>
@@ -2061,6 +2089,7 @@
     <string name="t_35bbf79557">dans %s</string>
     <string name="t_0b3e02b9c7">Corbeille · Les éléments restent jusqu’à leur suppression</string>
     <string name="t_f62923958c">Corbeille · Éléments supprimés après %s jours</string>
+    <string name="t_82375e89c7">Corbeille MEGA</string>
     <string name="t_80753c9865">OneDrive</string>
     <string name="t_bb17fdb81a">MEGA</string>
     <string name="t_c11ff348d8">Shizuku /</string>
@@ -2163,6 +2192,7 @@
     <string name="t_29869c5100">1 étape</string>
     <string name="t_46c51fe0fd">%d étapes</string>
     <string name="t_aa5d468d64">pas encore exécuté</string>
+    <string name="t_aa12b21dc1">Essai à blanc…</string>
     <string name="t_b1b392607d">Exécuter</string>
     <string name="t_b4f57cd0cd">Monter</string>
     <string name="t_260ff8ae71">Descendre</string>
@@ -2283,9 +2313,12 @@
     <string name="t_1f46983828">Les deux</string>
     <string name="t_0e77d6d13a">Utiliser ce dossier</string>
     <string name="t_51e41d56cb">+ Ajouter un élément</string>
+    <string name="t_31927ded04">Essai à blanc de %s</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/WorkflowLauncher.kt -->
     <string name="t_0f0510ab7b">Exécuter %s ?</string>
     <string name="t_fce27ad1c3">Les étapes en rouge modifient des fichiers ou exécutent des commandes serveur.</string>
+    <string name="t_bf4e31011e">Un essai à blanc ne modifie rien : le journal de la tâche dit ce que chaque étape ferait et à quels fichiers.</string>
+    <string name="t_485a3d15e7">Essai à blanc</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/CodeHomeScreen.kt -->
     <string name="t_f11b878130">Ouvrir le fichier</string>
     <string name="t_8f3cee3a58">Rechercher des fichiers de code</string>
@@ -2302,6 +2335,7 @@
     <string name="t_9d91d3f268">Retour à la ligne</string>
     <string name="t_d08aaa54e8">Numéros de ligne</string>
     <string name="t_9b19a5a212">Lecture seule</string>
+    <string name="t_3cb3806962">Lecture-écriture</string>
     <string name="t_7b7b3d66c7">Indentation automatique</string>
     <string name="t_ff6ad92011">Enregistrement automatique</string>
     <string name="t_118f9b2b30">Texte plus grand</string>
@@ -2570,6 +2604,7 @@
     <string name="t_9c04c97209">Afficher en liste</string>
     <string name="t_d1e53662d1">Afficher en grille</string>
     <string name="t_d4da1afc04">Afficher sur l’accueil</string>
+    <string name="t_aa4783b7d0">Ouvrir dans un onglet</string>
     <string name="t_ab4ba96582">Effacer les récents…</string>
     <string name="t_769bb19e61">Quand</string>
     <string name="t_f37c3dab33">Les récents sont désactivés</string>
@@ -3188,6 +3223,16 @@
     <string name="t_81b1bb1dd3">%s fichiers seraient supprimés. Continuez uniquement si cela est prévu.</string>
     <string name="t_612eb91f10">%s à télécharger</string>
     <string name="t_f3a3320b33">et %s de plus</string>
+    <string name="t_0550c25dd8">%s déjà dans %s : %s</string>
+    <string name="t_4da4c43565">remplacés</string>
+    <string name="t_413a9328e5">ignorés</string>
+    <string name="t_6628baf2e6">les deux gardés</string>
+    <string name="t_feca3237bf">le plus récent gardé</string>
+    <string name="t_e6377a82b0">ignorés s’ils sont identiques, sinon remplacés</string>
+    <string name="t_c91c9287c0">demandé</string>
+    <string name="t_d486749ecf">créerait %s</string>
+    <string name="t_8061d093d8">exécuterait sur %s : %s</string>
+    <string name="t_fd87a303bd">déjà présent</string>
     <string name="t_05f08020cc">Remplacé sur le téléphone (%s)</string>
     <string name="t_7a14301758">La version du serveur remplace celle du téléphone.</string>
     <string name="t_80fc0b85ff">Remplacé sur le serveur (%s)</string>
@@ -3268,10 +3313,12 @@
     <string name="t_18009cdcce">Journal de connexion</string>
     <string name="t_3e18ce347f">Terminal de commandes ManyFile</string>
     <string name="t_82fb3040ef">adb shell (Shizuku)</string>
+    <string name="t_3a40676433">Shell root (su)</string>
     <string name="t_520dd7a6e9">Copier l’écran</string>
     <string name="t_e65017017f">Fermer la session</string>
     <string name="t_04c04fd5f7">Ce téléphone</string>
     <string name="t_fe392644a2">démarrage…</string>
+    <string name="t_dc76e9f0c0">root</string>
     <string name="t_ba92ed73c9">terminé</string>
     <string name="t_5f5f8758f5">échec</string>
     <string name="t_3ff5fbf458">connecté · tmux</string>
@@ -3458,6 +3505,9 @@
     <string name="t_0388ee8f1b">Télécharger et installer</string>
     <string name="t_7dd37a86f5">Le fichier téléchargé n’est pas un APK valide</string>
     <string name="t_119dfe1022">La mise à jour est signée avec une clé différente. Installation impossible.</string>
+    <string name="t_94072c6a37">Votre propre couleur</string>
+    <string name="t_24d3e4fdd9">Intensité</string>
+    <string name="t_b4c062830c">Hex (#RRGGBB)</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/AppLockPage.kt -->
     <string name="t_5baa61e4c9">mot de passe</string>
     <string name="t_19b3f73acb">Exige un déverrouillage pour ouvrir l’application. Les fichiers ne sont pas chiffrés.</string>
@@ -3847,6 +3897,7 @@
     <string name="t_6d88987464">Rapport de plantage disponible</string>
     <string name="t_d45bfe8ffc">Aucun plantage enregistré</string>
     <string name="t_05f39e0a8f">nouveautés</string>
+    <string name="t_2e0ef22f2d">Désactivée : la couleur ci-dessus</string>
     <string name="t_7cf7e8e599">Plus grands</string>
     <string name="t_35d8a95d3e">Par défaut de la langue (%s)</string>
     <string name="t_b58f3b8e63">Réglage du téléphone</string>
@@ -4174,6 +4225,16 @@
     <string name="t_f4018045cf">Compteur</string>
     <string name="t_c829866c4f">Période (secondes)</string>
     <string name="t_171a0606f7">Groupe</string>
+    <string name="t_8d7bf5bf13">Autres</string>
+    <string name="t_f84ec90f5a">En nombre</string>
+    <string name="t_734c7541b5">Aussi tout son contenu</string>
+    <string name="t_9f8a2389a2">Utilisateur</string>
+    <string name="t_8deacf1ded">Un nom (system, media_rw) ou un nombre (1000).</string>
+    <string name="t_9f278eae8b">Partition système</string>
+    <string name="t_ec9fcaf163">Montée en lecture-écriture : les fichiers système peuvent être modifiés.</string>
+    <string name="t_e0979f2fb2">Montée en lecture seule, comme Android la garde.</string>
+    <string name="t_2c10305939">Inconnu (root n’a pas répondu)</string>
+    <string name="t_79b25c672a">Une mauvaise modification des fichiers système peut empêcher le téléphone de démarrer. Remontez-la en lecture seule une fois terminé.</string>
     <string name="t_00040bab8a">Travail</string>
     <string name="t_f85039fd8e">Confirmer le nouveau mot de passe</string>
     <string name="t_61815cd636">Les sauvegardes existantes conservent l’ancien mot de passe.</string>
