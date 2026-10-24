@@ -1318,11 +1318,14 @@
     <string name="t_fc7bb795bf">Déplacer retire les originaux de leurs dossiers. Copier les conserve.</string>
     <string name="t_76cdb95072">Déplacer</string>
     <string name="t_8920b20409">Dossier vide</string>
+    <string name="t_5c31245d4c">Copier %s vers…</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
     <string name="t_1ec01dc881">Copier vers</string>
     <string name="t_92816e8a2d">Copier ici</string>
+    <string name="t_f2b8d7486f">Déplacer %s vers…</string>
     <string name="t_349f807a5e">Déplacer vers</string>
     <string name="t_d6f5b75c92">Déplacer ici</string>
+    <string name="t_183d3c1aa2">Extraire %s vers…</string>
     <string name="t_20f7708fa7">Extraire vers</string>
     <string name="t_5221b51b33">Extraire ici</string>
     <string name="t_93509bf604">Rien à annuler</string>

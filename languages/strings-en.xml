@@ -1359,11 +1359,11 @@
     <string name="t_76cdb95072">Move</string>
     <string name="t_8920b20409">Empty folder</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/BrowserActions.kt -->
-    <string name="t_1ec01dc881">Copy to</string>
+    <string name="t_5c31245d4c">Copy %s to…</string>
     <string name="t_92816e8a2d">Copy here</string>
-    <string name="t_349f807a5e">Move to</string>
+    <string name="t_f2b8d7486f">Move %s to…</string>
     <string name="t_d6f5b75c92">Move here</string>
-    <string name="t_20f7708fa7">Extract to</string>
+    <string name="t_183d3c1aa2">Extract %s to…</string>
     <string name="t_5221b51b33">Extract here</string>
     <string name="t_93509bf604">Nothing to undo</string>
     <string name="t_97c7f367c4">Nothing to redo</string>
