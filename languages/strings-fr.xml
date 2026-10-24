@@ -371,6 +371,7 @@
     <string name="t_5d30208c3b">Lecteur USB : échec de %s (%s)</string>
     <string name="t_8c36cd4fe4">Le lecteur USB ne répond pas. Vérifiez la connexion.</string>
     <string name="t_630ef839c2">Erreur de communication avec le lecteur USB. Reconnectez-le et réessayez.</string>
+    <string name="t_730fafd1bd">Aucune carte dans le lecteur</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/UsbSticks.kt -->
     <string name="t_09aa3b689b">Lecteur USB</string>
     <string name="t_3f2cbbe4e3">Hôte USB non pris en charge sur cet appareil</string>
@@ -383,6 +384,7 @@
     <string name="t_04e7b2370a">Ventoy introuvable sur ce lecteur</string>
     <string name="t_47e6bb01ff">Table de partition endommagée</string>
     <string name="t_fcaee2bf7b">L’image de la partition EFI de Ventoy est incomplète</string>
+    <string name="t_70374615c8">Ventoy ne fonctionne que sur les supports à secteurs de 512 octets ; celui-ci a des secteurs de %s octets. Choisissez « Une image » pour y écrire un ISO directement.</string>
     <string name="t_3da1a4a7a8">Ventoy nécessite des secteurs de 512 octets (le lecteur utilise %s)</string>
     <string name="t_8f0f4124e7">Lecteur trop petit pour Ventoy (minimum %s Mo)</string>
     <string name="t_a1bf92eff4">Annulé</string>
@@ -435,6 +437,7 @@
     <string name="t_e88dbbf192">Introuvable sur MEGA</string>
     <string name="t_c7037ca9eb">Ce lien MEGA n’est plus ouvert ici : ouvrez-le à nouveau</string>
     <string name="t_e8ef2b0ad7">Un lien MEGA partagé est en lecture seule : copiez-en ce dont vous avez besoin</string>
+    <string name="t_8c4adfde08">Impossible de préparer l’envoi</string>
     <string name="t_b9fc7f6205">Accès à MEGA refusé</string>
     <string name="t_ca2bfd69a1">Existe déjà sur MEGA</string>
     <string name="t_8065118269">Session MEGA expirée. Reconnectez-vous.</string>

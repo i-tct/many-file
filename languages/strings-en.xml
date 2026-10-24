@@ -396,6 +396,7 @@
     <string name="t_5d30208c3b">USB drive: %s failed (%s)</string>
     <string name="t_8c36cd4fe4">USB drive not responding. Check the connection.</string>
     <string name="t_630ef839c2">USB drive communication error. Reconnect it and try again.</string>
+    <string name="t_730fafd1bd">No card in the reader</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/UsbSticks.kt -->
     <string name="t_09aa3b689b">USB drive</string>
     <string name="t_3f2cbbe4e3">USB host not supported on this device</string>
@@ -408,7 +409,7 @@
     <string name="t_04e7b2370a">Ventoy not found on this drive</string>
     <string name="t_47e6bb01ff">Partition table damaged</string>
     <string name="t_fcaee2bf7b">Ventoy EFI partition image is incomplete</string>
-    <string name="t_3da1a4a7a8">Ventoy requires 512-byte sectors (drive has %s)</string>
+    <string name="t_70374615c8">Ventoy works only on drives with 512-byte sectors; this one has %s-byte sectors. Choose One image to write an ISO to it directly.</string>
     <string name="t_8f0f4124e7">Drive too small for Ventoy (minimum %s MB)</string>
     <string name="t_a1bf92eff4">Cancelled</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/VentoyRelease.kt -->
@@ -460,6 +461,7 @@
     <string name="t_e88dbbf192">Not found on MEGA</string>
     <string name="t_c7037ca9eb">This MEGA link isn\'t open here any more: open it again</string>
     <string name="t_e8ef2b0ad7">A shared MEGA link can only be read: copy what you need from it</string>
+    <string name="t_8c4adfde08">Couldn\'t prepare the upload</string>
     <string name="t_b9fc7f6205">MEGA access denied</string>
     <string name="t_ca2bfd69a1">Already exists on MEGA</string>
     <string name="t_8065118269">MEGA session expired. Sign in again.</string>
