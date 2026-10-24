@@ -695,6 +695,9 @@
     <string name="t_fefebdc2cb">%s: %s — retrying in %s s (%s of %s)</string>
     <string name="t_4dd40e7bf7">%s changed, restarting</string>
     <string name="t_cc86940dec">Resuming %s at %s</string>
+    <string name="t_8da8dfe256">%s: %s parts at once</string>
+    <string name="t_0fc8fb362a">Copy is %s of %s bytes</string>
+    <string name="t_ada385cf97">%s changed during the copy</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioConversion.kt -->
     <string name="t_21016e0841">Converting %1$s to %2$s</string>
     <string name="t_9283111c1c">Converting %1$s files to %2$s</string>

@@ -670,6 +670,9 @@
     <string name="t_fefebdc2cb">%s : %s — nouvelle tentative dans %s s (%s sur %s)</string>
     <string name="t_4dd40e7bf7">%s a changé, redémarrage</string>
     <string name="t_cc86940dec">Reprise de %s à %s</string>
+    <string name="t_8da8dfe256">%s : %s parties à la fois</string>
+    <string name="t_0fc8fb362a">La copie fait %s octets sur %s</string>
+    <string name="t_ada385cf97">%s a changé pendant la copie</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioConversion.kt -->
     <string name="t_21016e0841">Conversion de %1$s en %2$s</string>
     <string name="t_9283111c1c">Conversion de %1$s fichiers en %2$s</string>
