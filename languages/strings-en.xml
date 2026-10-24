@@ -380,9 +380,21 @@
     <string name="t_2f25efb8c1">%s is empty</string>
     <string name="t_f7f975ba03">Couldn\'t read %s: %s</string>
     <string name="t_af0fa5f081">Zstandard (.zst) images are not supported. Extract the .img first.</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/ExFatVolume.kt -->
+    <string name="t_15d63e7e62">%s is already on the drive</string>
+    <string name="t_9f34c65fb2">Not enough space on the drive: %s needed, %s free</string>
+    <string name="t_41ad961951">%s isn\'t on the drive</string>
+    <string name="t_0b600a4c0d">Folders can\'t be deleted here</string>
+    <string name="t_8c2db56cb8">Stopped. Nothing was added to the drive.</string>
+    <string name="t_00125dfe81">Verification failed. The drive may be faulty or counterfeit.</string>
+    <string name="t_4033d27a8d">The file changed while it was being copied</string>
+    <string name="t_c2ea5cca10">“%s” can\'t be a file name on this drive</string>
+    <string name="t_587a31fcf7">Not enough space on the drive</string>
+    <string name="t_791a51581f">The drive\'s exFAT file system is damaged. Check it on a computer.</string>
+    <string name="t_4e25d36146">This partition isn\'t exFAT</string>
+    <string name="t_601370be47">This exFAT version isn\'t supported</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/ImageWriter.kt -->
     <string name="t_9310223623">Verification stopped. Image written but not fully verified.</string>
-    <string name="t_00125dfe81">Verification failed. The drive may be faulty or counterfeit.</string>
     <string name="t_b1b1554cb2">Stopped. The drive won\'t boot until written again.</string>
     <string name="t_68056223d6">%s (%s) is larger than the drive (%s)</string>
     <string name="t_d64fc5f46a">%s is larger than the drive (%s). Writing stopped.</string>
@@ -4277,8 +4289,12 @@
     <string name="t_fd4557964b">Copy the image to the device first</string>
     <string name="t_b6ff5a9410">Wait until writing finishes</string>
     <string name="t_7c3dc829a6">Couldn\'t open the USB drive: %s</string>
-    <string name="t_590dc030a4">Writing %s…</string>
+    <string name="t_94e4c230d6">Copying %s…</string>
     <string name="t_691f4302fc">Verifying…</string>
+    <string name="t_bd0b0f9a7a">%s copied and verified</string>
+    <string name="t_a1399051b0">Copy failed: %s</string>
+    <string name="t_8a4ecbc989">Couldn\'t delete %s: %s</string>
+    <string name="t_590dc030a4">Writing %s…</string>
     <string name="t_e17147c837">%s written to %s</string>
     <string name="t_2e0883e88b">Updated to Ventoy %s on %s. Your files were kept.</string>
     <string name="t_0e580f11d0">Ventoy %s installed on %s</string>
@@ -4290,6 +4306,8 @@
     <string name="t_5906dbbbea">Erases all data on %s (%s) and writes %s to it.</string>
     <string name="t_deed99c272">Erase and install</string>
     <string name="t_b850631e38">Erase and write</string>
+    <string name="t_5ebe6a42aa">Deletes it from %s. This can\'t be undone.</string>
+    <string name="t_84a5e501ad">Choose a file to add</string>
     <string name="t_6c406be551">Choose image</string>
     <string name="t_58b383b619">Ventoy (many ISOs)</string>
     <string name="t_ead46c9d67">One image</string>
@@ -4313,14 +4331,22 @@
     <string name="t_1d8cbad73f">Partition style</string>
     <string name="t_a84d00ac84">MBR works on most computers. Use GPT if a computer won\'t boot from MBR.</string>
     <string name="t_b73388a996">Drives over 2 TB require GPT.</string>
+    <string name="t_aeccaea545">Files on the drive</string>
+    <string name="t_9b722d3ba9">%s free of %s</string>
+    <string name="t_1a46941812">No files yet</string>
+    <string name="t_8d6f282037">Delete %s</string>
+    <string name="t_b2160da22d">Add ISO file…</string>
     <string name="t_5622659146">%s written</string>
     <string name="t_707ddb2c56">Keep the drive connected.</string>
     <string name="t_4b8431a88d">Verified. The drive is ready to use.</string>
     <string name="t_9092a1c1f0">To boot, select the USB drive in the computer\'s boot menu (often F12, F11, F8 or Esc).</string>
+    <string name="t_c082f6b2bb">Add ISO files below, or reconnect the drive and copy them to its “Ventoy” partition.</string>
     <string name="t_1cb8480e08">Reconnect the drive, then copy ISO files to its “Ventoy” partition.</string>
     <string name="t_126eca3519">To boot, select the USB drive in the computer\'s boot menu (often F12, F11, F8 or Esc). With Secure Boot, enroll Ventoy\'s key on first boot.</string>
     <string name="t_12167180d0">Removed empty Android folders from “%s” (%s)</string>
     <string name="t_f7a8836243">Allow access to “%s” to remove the empty folders Android added (Alarms, DCIM, Download…).</string>
+    <string name="t_2fe12bde8b">Files can\'t be added from here: Ventoy\'s partition isn\'t exFAT. Reconnect the drive and copy them through Android.</string>
+    <string name="t_1389b23584">Couldn\'t read the drive\'s files: %s</string>
     <string name="t_c7248d26f4">Bootable from USB</string>
     <string name="t_ee4297bf2b">This ISO isn\'t bootable from USB when written directly. Use Ventoy instead.</string>
     <string name="t_5ae9e87af1">Disk image with partitions</string>
@@ -4802,7 +4828,6 @@
     <string name="t_4a23235b26">Draft. Visible only to people with push access.</string>
     <string name="t_483bf2075c">Published</string>
     <string name="t_5656400564">Publish</string>
-    <string name="t_8d6f282037">Delete %s</string>
     <string name="t_758a146687">Download %s</string>
     <string name="t_23560d1131">Delete release %s?</string>
     <string name="t_b4ff4bf88d">Its notes and files are deleted. The tag %s is kept.</string>
