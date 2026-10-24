@@ -2428,6 +2428,8 @@
     <string name="t_ba32426ba2">Bookmark actions</string>
     <string name="t_d371a4a652">Edit bookmark</string>
     <string name="t_fba9ba171e">Group (“%s” pins to Home)</string>
+    <string name="t_786131468d">No colour</string>
+    <string name="t_338cc048d4">Colour %d</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/ContinueWatching.kt -->
     <string name="t_021f6fec2f">Next: %s</string>
     <string name="t_feb5bead8e">%s left</string>

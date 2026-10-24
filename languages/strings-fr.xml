@@ -3021,6 +3021,8 @@
     <string name="t_ba32426ba2">Actions du favori</string>
     <string name="t_d371a4a652">Modifier le favori</string>
     <string name="t_fba9ba171e">Groupe (« %s » épingle à l’accueil)</string>
+    <string name="t_786131468d">Aucune couleur</string>
+    <string name="t_338cc048d4">Couleur %d</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/RemotePromptHost.kt -->
     <string name="t_3641c2fb9c">Le certificat du serveur a changé</string>
     <string name="t_7c0d8a5e5d">La clé du serveur a changé</string>
