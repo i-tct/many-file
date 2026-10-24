@@ -1431,6 +1431,7 @@
     <string name="t_869f4be476">Compressing to %s…</string>
     <string name="t_b0cd8741b3">Adding 1 file</string>
     <string name="t_eaa87175fc">Adding %d files</string>
+    <string name="t_435ed41f4c">%d of %d not added: %s</string>
     <string name="t_9664f5c668">%d added, %s</string>
     <string name="t_17d6845e72">Adding %d to the vault…</string>
     <string name="t_15d244c824">Adding %d to %s…</string>
@@ -2676,12 +2677,12 @@
     <string name="t_7ef25a76e3">Running…</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Working in a vault</string>
-    <string name="t_11b1b5ec91">paused</string>
     <string name="t_9e1977ffd1">waiting for Wi-Fi</string>
     <string name="t_ab15b3fb1f">%d more queued</string>
-    <string name="t_b3bd0b5a70">Resume</string>
     <string name="t_64fd779c46">File operations</string>
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
+    <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/PausedJobs.kt -->
+    <string name="t_b3bd0b5a70">Resume</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
     <string name="t_aec7f7a0ab">No lyrics found online for this song</string>
     <string name="t_e45f125f1d">Lyrics found, but they couldn\'t be saved</string>

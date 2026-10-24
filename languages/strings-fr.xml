@@ -1394,6 +1394,7 @@
     <string name="t_869f4be476">Compression vers %s…</string>
     <string name="t_b0cd8741b3">Ajout de 1 fichier</string>
     <string name="t_eaa87175fc">Ajout de %d fichiers</string>
+    <string name="t_435ed41f4c">%d sur %d non ajoutés : %s</string>
     <string name="t_9664f5c668">%d ajoutés, %s</string>
     <string name="t_17d6845e72">Ajout de %d au coffre-fort…</string>
     <string name="t_15d244c824">Ajout de %d à %s…</string>
