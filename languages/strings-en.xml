@@ -84,6 +84,7 @@
     <string name="t_5641cb4250">Home screen doesn\'t support shortcuts</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
     <string name="t_8eeb0763f6">OneDrive sign-in failed: %s</string>
+    <string name="t_62c2725b82">%d chosen from Drive</string>
     <string name="t_6dd336f903">Google Drive sign-in failed: %s</string>
     <string name="t_b52b36b726">Back</string>
     <string name="t_781961bc81">Pause</string>
@@ -91,6 +92,7 @@
     <string name="t_58a4d661fc">Downloading %s</string>
     <string name="t_6a97f0474c">Running %s…</string>
     <string name="t_3670e23332">Couldn\'t download %s: %s</string>
+    <string name="t_aa1e788a40">Couldn\'t open %s: %s</string>
     <string name="t_49b2cdc976">Couldn\'t download Media Engine. Try again in Media Downloader.</string>
     <string name="t_58bbba5a19">“%s” is empty</string>
     <string name="t_20db5d20c5">Saved “%s” (%d pages)</string>
@@ -1811,6 +1813,8 @@
     <string name="t_3a281c3f99">Close filter</string>
     <string name="t_f870d12c29">From file index (updated %s) · Tap to search live</string>
     <string name="t_1e45b423bf">Offline (%s) · Showing cached listing</string>
+    <string name="t_b2a47bde60">ManyFile sees the Drive files it made and those you choose.</string>
+    <string name="t_c3b69e661e">Choose…</string>
     <string name="t_cd0af6cfca">No matches</string>
     <string name="t_b993b0c537">No results</string>
     <string name="t_495148fb9c">Bin is empty</string>
@@ -2022,6 +2026,7 @@
     <string name="t_1a6d5b07e4">Close other tabs</string>
     <string name="t_6a462fb6d1">Dual pane</string>
     <string name="t_edd880e08b">Compare panes</string>
+    <string name="t_6c77d453d4">Browse both together</string>
     <string name="t_adadaa4165">Undo: %s</string>
     <string name="t_ae2f2b3538">Redo: %s</string>
     <string name="t_af8ade9a85">Folder properties</string>

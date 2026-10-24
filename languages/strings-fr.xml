@@ -83,6 +83,7 @@
     <string name="t_5641cb4250">L’écran d’accueil ne prend pas en charge les raccourcis</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
     <string name="t_8eeb0763f6">Échec de la connexion à OneDrive : %s</string>
+    <string name="t_62c2725b82">%d choisis dans Drive</string>
     <string name="t_6dd336f903">Échec de la connexion à Google Drive : %s</string>
     <string name="t_b52b36b726">Retour</string>
     <string name="t_781961bc81">Pause</string>
@@ -90,6 +91,7 @@
     <string name="t_58a4d661fc">Téléchargement de %s</string>
     <string name="t_6a97f0474c">Exécution de %s…</string>
     <string name="t_3670e23332">Impossible de télécharger %s : %s</string>
+    <string name="t_aa1e788a40">Impossible d’ouvrir %s : %s</string>
     <string name="t_49b2cdc976">Impossible de télécharger le Moteur multimédia. Réessayez dans le Téléchargeur multimédia.</string>
     <string name="t_58bbba5a19">« %s » est vide</string>
     <string name="t_20db5d20c5">« %s » enregistré (%d pages)</string>
@@ -1787,6 +1789,8 @@
     <string name="t_3a281c3f99">Fermer le filtre</string>
     <string name="t_f870d12c29">Depuis l’index des fichiers (mis à jour %s) · Touchez pour rechercher en direct</string>
     <string name="t_1e45b423bf">Hors ligne (%s) · Affichage de la liste en cache</string>
+    <string name="t_b2a47bde60">ManyFile voit les fichiers Drive qu’il a créés et ceux que vous choisissez.</string>
+    <string name="t_c3b69e661e">Choisir…</string>
     <string name="t_cd0af6cfca">Aucune correspondance</string>
     <string name="t_b993b0c537">Aucun résultat</string>
     <string name="t_495148fb9c">La Corbeille est vide</string>
@@ -2004,6 +2008,7 @@
     <string name="t_1a6d5b07e4">Fermer les autres onglets</string>
     <string name="t_6a462fb6d1">Double panneau</string>
     <string name="t_edd880e08b">Comparer les panneaux</string>
+    <string name="t_6c77d453d4">Parcourir les deux ensemble</string>
     <string name="t_adadaa4165">Annuler : %s</string>
     <string name="t_ae2f2b3538">Rétablir : %s</string>
     <string name="t_af8ade9a85">Propriétés du dossier</string>
