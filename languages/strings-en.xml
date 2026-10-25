@@ -1251,6 +1251,13 @@
     <string name="t_fb4237fdb6">%d times</string>
     <string name="t_e94dc3022f">until %s</string>
     <string name="t_9e85782ecb">(No title)</string>
+    <!-- core/model/src/main/kotlin/tct/manyfile/core/model/LayoutRule.kt -->
+    <string name="t_474cc1b13f">Anything</string>
+    <string name="t_935edbe91f">Pictures</string>
+    <string name="t_bfc3b70be8">Photos and videos</string>
+    <string name="t_0bb24eb942">APKs</string>
+    <string name="t_a50710e773">Archives</string>
+    <string name="t_725c6ce643">Only folders</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/MfError.kt -->
     <string name="t_294c91cdd6">Read-only storage</string>
     <string name="t_6cc153f0e5">Network error</string>
@@ -2103,6 +2110,7 @@
     <string name="t_6f23a36f0a">New tab</string>
     <string name="t_2ff9942988">Sort by: %s</string>
     <string name="t_a09052c3b4">View options</string>
+    <string name="t_2382ac4f9a">Layout · from rule “%s”</string>
     <string name="t_972ad8d8a5">Layout</string>
     <string name="t_ba15243c4e">Sort by…  (%s)</string>
     <string name="t_313463d3c8">Show hidden</string>
@@ -2290,6 +2298,8 @@
     <string name="t_e4137b6b01">Back up new screenshots</string>
     <string name="t_6e609b28d7">Back up screenshots</string>
     <string name="t_c97f94116d">Blank rule</string>
+    <string name="t_de6bd22a50">Sort new downloads by type (%d rules)</string>
+    <string name="t_3e2e7e1b51">New downloads: %s</string>
     <string name="t_b5a85952f1">Delete “%s”?</string>
     <string name="t_f4ac187ed7">Files already moved or copied are not affected.</string>
     <string name="t_957050b961">(with subfolders)</string>
@@ -2474,7 +2484,6 @@
     <string name="t_42f1039593">Email and password</string>
     <string name="t_bd3424e9fc">Add cloud drive</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
-    <string name="t_935edbe91f">Pictures</string>
     <string name="t_351088b734">Root (/)</string>
     <string name="t_5042651c8f">as root</string>
     <string name="t_430dfce6d5">with Shizuku</string>
@@ -2549,8 +2558,6 @@
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_b336fc5587">WhatsApp</string>
-    <string name="t_a50710e773">Archives</string>
-    <string name="t_0bb24eb942">APKs</string>
     <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
@@ -3681,6 +3688,36 @@
     <string name="t_f694478748">strings-en.xml · new language</string>
     <string name="t_410a6e9228">%s · existing translation</string>
     <string name="t_20716e9262">In use</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/LayoutRulesSettings.kt -->
+    <string name="t_d616c30dd0">Advanced. A folder that matches a rule opens in that rule\'s layout; the first rule that matches decides. A layout chosen for one folder still wins, and Images, Videos, search, the Bin and vaults keep their own.</string>
+    <string name="t_26fd3983af">Rule %d</string>
+    <string name="t_c55755afd9">Add rule…</string>
+    <string name="t_c6acb6a56e">Layout rules</string>
+    <string name="t_ef4b35689f">Layout rules are for advanced use. A folder that matches one opens in its layout instead of the default one, so folders may not look the way you last set them. The first rule that matches decides; a layout chosen for one folder still wins. Without rules, nothing changes.</string>
+    <string name="t_8e4e626f7b">Folders of photos and videos: grid, newest first</string>
+    <string name="t_89ff95524f">Folders of videos: large grid</string>
+    <string name="t_abb1f362c5">Music folders: detailed list</string>
+    <string name="t_83ebecff3b">Folders of documents: detailed list</string>
+    <string name="t_efe1e176ad">Download: detailed list, newest first</string>
+    <string name="t_089a90bdc9">%s, every file</string>
+    <string name="t_2329461713">%s, at least %d%%</string>
+    <string name="t_3fd7619b55">in %s and its folders</string>
+    <string name="t_4845eb52f1">named %s</string>
+    <string name="t_25e9980d5d">Every folder</string>
+    <string name="t_eb7aea4e29">Its files are</string>
+    <string name="t_b6d7a51969">How many of them</string>
+    <string name="t_dd9c1e9374">Every file</string>
+    <string name="t_17c612bbca">At least %d%%</string>
+    <string name="t_525f61b672">Where</string>
+    <string name="t_cdf9bbefc7">Anywhere</string>
+    <string name="t_0f9b3c0153">In a folder…</string>
+    <string name="t_c426764dc8">Its folders too</string>
+    <string name="t_3fd0bc29ce">Folder names</string>
+    <string name="t_438af7dfdc">Comma-separated, * and ? as wildcards. Empty: any name.</string>
+    <string name="t_adc4e96a47">Sort</string>
+    <string name="t_c2137e49c2">The folder\'s own</string>
+    <string name="t_784bef0f50">Delete rule</string>
+    <string name="t_28a47f81ac">Choose this folder</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/RequiredUpdate.kt -->
     <string name="t_0d660a2749">Update ManyFile</string>
     <string name="t_9b20bbbfc9">Version %s is no longer supported. Update to %s or newer.</string>
@@ -3761,6 +3798,7 @@
     <string name="t_5d02c49bfe">Per-folder view</string>
     <string name="t_a1b7ba9901">Remember layout per folder</string>
     <string name="t_d05ddceb59">Off: toolbar changes apply to all folders</string>
+    <string name="t_0a0ec714d3">Folders of pictures, music or documents in a layout of their own</string>
     <string name="t_86d4cc315a">Reset folder layouts</string>
     <string name="t_5c97c504a8">Use the default layout everywhere</string>
     <string name="t_7e08ebec5e">Developer</string>
@@ -3987,6 +4025,9 @@
     <string name="t_8d00b44bb8">Each folder keeps its own layout</string>
     <string name="t_95b4091599">Toolbar changes apply everywhere</string>
     <string name="t_b4f91188f6">Folder layouts reset</string>
+    <string name="t_c039829136">None: every folder uses the default layout</string>
+    <string name="t_cc0bee788a">1 rule on</string>
+    <string name="t_8a5ae78217">%d rules on</string>
     <string name="t_e5249bfc44">Browsing above internal storage</string>
     <string name="t_4cfca2bfdc">Browsing starts at internal storage</string>
     <string name="t_e5ebde3f4c">Storage to index</string>
