@@ -375,6 +375,8 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsBackup.kt -->
     <string name="t_9fa5fdad55">Requires a newer version of ManyFile</string>
     <string name="t_4b6d6ef213">not a ManyFile settings file</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsCloudBackup.kt -->
+    <string name="t_836f41ede4">No internet connection</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/DiskImage.kt -->
     <string name="t_f918cc338f">No single disk image in %s. Extract the image first.</string>
     <string name="t_2f25efb8c1">%s is empty</string>
@@ -1234,6 +1236,7 @@
     <string name="t_a092b2d4c9">PB</string>
     <string name="t_955dc54443">kB</string>
     <string name="t_e3b8204056">Now</string>
+    <string name="t_727d913ff0">%d s ago</string>
     <string name="t_25bb2acb00">%s min ago</string>
     <string name="t_da24830f1f">Yesterday</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/ICalendar.kt -->
@@ -2769,7 +2772,6 @@
     <string name="t_7ef25a76e3">Running…</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Working in a vault</string>
-    <string name="t_9e1977ffd1">waiting for Wi-Fi</string>
     <string name="t_ab15b3fb1f">%d more queued</string>
     <string name="t_64fd779c46">File operations</string>
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
@@ -3619,6 +3621,7 @@
     <string name="t_2bd365b548">To %s</string>
     <string name="t_527bf1aa5d">Back up now</string>
     <string name="t_d18c827053">Settings backed up to %s</string>
+    <string name="t_0179b0f62f">No internet connection. Your settings will be backed up when you\'re back online.</string>
     <string name="t_802e9ce107">Restore from %s…</string>
     <string name="t_028a221109">Restore from %s</string>
     <string name="t_5d8a573743">No backups here</string>

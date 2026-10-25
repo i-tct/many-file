@@ -350,6 +350,8 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsBackup.kt -->
     <string name="t_9fa5fdad55">Nécessite une version plus récente de ManyFile</string>
     <string name="t_4b6d6ef213">ce n’est pas un fichier de paramètres ManyFile</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/backup/SettingsCloudBackup.kt -->
+    <string name="t_836f41ede4">Aucune connexion Internet</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/bootusb/DiskImage.kt -->
     <string name="t_f918cc338f">Aucune image disque unique dans %s. Extrayez d’abord l’image.</string>
     <string name="t_2f25efb8c1">%s est vide</string>
@@ -1183,6 +1185,7 @@
     <string name="t_45c711bd26">Livre numérique</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Formatters.kt -->
     <string name="t_e3b8204056">Maintenant</string>
+    <string name="t_727d913ff0">il y a %d s</string>
     <string name="t_25bb2acb00">il y a %s min</string>
     <string name="t_da24830f1f">Hier</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/ICalendar.kt -->
@@ -2720,7 +2723,6 @@
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Travail dans un coffre-fort</string>
     <string name="t_11b1b5ec91">en pause</string>
-    <string name="t_9e1977ffd1">en attente du Wi-Fi</string>
     <string name="t_ab15b3fb1f">%d autres en file d’attente</string>
     <string name="t_b3bd0b5a70">Reprendre</string>
     <string name="t_64fd779c46">Opérations sur les fichiers</string>
@@ -3589,6 +3591,7 @@
     <string name="t_2bd365b548">Vers %s</string>
     <string name="t_527bf1aa5d">Sauvegarder maintenant</string>
     <string name="t_d18c827053">Paramètres sauvegardés sur %s</string>
+    <string name="t_0179b0f62f">Aucune connexion Internet. Vos paramètres seront sauvegardés dès que vous serez de nouveau en ligne.</string>
     <string name="t_802e9ce107">Restaurer depuis %s…</string>
     <string name="t_028a221109">Restaurer depuis %s</string>
     <string name="t_5d8a573743">Aucune sauvegarde ici</string>
