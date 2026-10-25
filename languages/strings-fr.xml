@@ -5599,4 +5599,14 @@
     <string name="t_cc0bee788a">1 règle active</string>
     <string name="t_8a5ae78217">%d règles actives</string>
     <string name="t_0a0ec714d3">Dossiers d’images, de musique ou de documents dans une disposition à eux</string>
+    <!-- Vaults found again (core/data VaultRegistry, feature/browser) -->
+    <string name="t_07c50d1cc0">Coffre-fort « %s » trouvé sur ce téléphone : il est de nouveau dans le menu</string>
+    <string name="t_bf4862b529">%d coffres-forts trouvés sur ce téléphone : ils sont de nouveau dans le menu</string>
+    <string name="t_5e413edaad">Recherche des coffres-forts…</string>
+    <string name="t_99ba8cfa28">Aucun autre coffre-fort sur ce téléphone</string>
+    <string name="t_0aa9af447a">Le coffre-fort « %s » est de nouveau dans le menu</string>
+    <string name="t_93372bcf4f">%d coffres-forts sont de nouveau dans le menu</string>
+    <string name="t_e97972e73a">Masqué pour les autres applications.</string>
+    <string name="t_72c4596d43">Désinstaller ManyFile ou effacer ses données supprime ce coffre-fort et tout son contenu. Gardez-en une copie avec ses paramètres → Sauvegarder…, ou choisissez Stockage du téléphone.</string>
+    <string name="t_967e7412a5">Trouver des coffres-forts…</string>
 </resources>
