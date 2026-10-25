@@ -1645,7 +1645,8 @@
     <string name="t_3ceab29e22">Facultatif : demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau avec les coffres. Les sauvegardes et synchronisations vers lui continuent.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Chiffrer %s</string>
-    <string name="t_3920b53601">Crée une copie chiffrée .mfenc de chaque fichier (AES-256).</string>
+    <string name="t_fba4d2eeb8">Crée une copie chiffrée de chaque fichier à côté de lui, dans le même dossier : photo.jpg devient photo.jpg.mfenc (AES-256). Touchez-la et saisissez le mot de passe pour récupérer le fichier. Images et Vidéos n’affichent pas les copies chiffrées.</string>
+    <string name="t_aa1e2d5c74">Les originaux restent tels quels et s’ouvrent sans mot de passe. Pour garder des fichiers privés là où ils sont, verrouillez plutôt leur dossier.</string>
     <string name="t_1fe494b252">Au moins 8 caractères</string>
     <string name="t_16dc4cc595">Supprimer les originaux après chiffrement</string>
     <string name="t_f65da56085">Supprimés définitivement, non déplacés vers la Corbeille.</string>
@@ -5551,4 +5552,11 @@
     <string name="t_0ee2b868f8">Texte enregistré dans %s</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/pdf/PdfPasswordPrompt.kt -->
     <string name="t_cc5469b448">Impossible d’ouvrir le PDF</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FilePickers.kt and the screens that use it -->
+    <string name="t_90daac900e">Enregistrer « %s » dans</string>
+    <string name="t_6562d01278">Restaurer les paramètres</string>
+    <string name="t_3d120aa66f">Tester une traduction</string>
+    <string name="t_9715e197ac">Choisir des images</string>
+    <string name="t_c06342c881">Ajouter des fichiers</string>
+    <string name="t_dccdf47613">Choisir une image</string>
 </resources>

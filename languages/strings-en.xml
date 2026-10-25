@@ -1369,6 +1369,9 @@
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FileIcons.kt -->
     <string name="t_b7e53af400">Broken link</string>
     <string name="t_8f08528b34">Symbolic link</string>
+    <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FilePickers.kt -->
+    <string name="t_90daac900e">Save “%s” in</string>
+    <string name="t_2f59885d38">Save here</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FolderPicker.kt -->
     <string name="t_f44a38c188">Couldn\'t open folder</string>
     <string name="t_717c180be0">Storage /</string>
@@ -1376,6 +1379,7 @@
     <string name="t_2e0b45f2a4">Go</string>
     <string name="t_f2cf95b457">Enter path</string>
     <string name="t_9415d841b4">No folders</string>
+    <string name="t_9a976fc228">Selected</string>
     <string name="t_6e157c5da4">Create</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
     <string name="t_6619f4706d">Confirm it\'s you</string>
@@ -1688,6 +1692,8 @@
     <string name="t_78003c0d88">Saved next to the original. Videos give their sound.</string>
     <string name="t_3f15ce7953">Convert</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/DriveLockDialog.kt -->
+    <string name="t_ba552c2af9">Fingerprint unlock was reset. Use the password.</string>
+    <string name="t_595ef66527">Couldn\'t unlock</string>
     <string name="t_638ef4c4e9">Password to open %s</string>
     <string name="t_31bbea6125">Asked before its files show, until it locks again with the vaults.</string>
     <string name="t_3ceab29e22">Optional: asked before its files show, until it locks again with the vaults. Backups and syncs to it carry on.</string>
@@ -1701,10 +1707,11 @@
     <string name="t_448ab73ba1">Set</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
-    <string name="t_3920b53601">Creates an encrypted .mfenc copy of each file (AES-256).</string>
+    <string name="t_fba4d2eeb8">Makes an encrypted copy of each file next to it, in the same folder: photo.jpg becomes photo.jpg.mfenc (AES-256). Tap it and type the password to get the file back. Images and Videos don\'t show encrypted copies.</string>
     <string name="t_1fe494b252">At least 8 characters</string>
     <string name="t_16dc4cc595">Delete originals after encrypting</string>
     <string name="t_f65da56085">Deleted permanently, not moved to the Bin.</string>
+    <string name="t_aa1e2d5c74">The originals stay as they are and open without a password. To keep files private where they are, lock their folder instead.</string>
     <string name="t_a87b894acc">The password can\'t be recovered if lost.</string>
     <string name="t_c49d31d7ec">Decrypt %s</string>
     <string name="t_f5987306b2">Restores the original file in the same folder.</string>
@@ -1863,7 +1870,6 @@
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SaveSharedScreen.kt -->
     <string name="t_c2e4747903">Save to ManyFile</string>
     <string name="t_f5f072a7c0">Saving to %s…</string>
-    <string name="t_2f59885d38">Save here</string>
     <string name="t_cf2d975502">Save %d files here</string>
     <string name="t_33ce417454">Loading…</string>
     <string name="t_65d318a4fa">No files to save</string>
@@ -1918,6 +1924,8 @@
     <string name="t_8ea09b3a9d">Device is rooted. Turn on root access to manage all files.</string>
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
+    <string name="t_0a915a5987">Unlock %s</string>
+    <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_f38008ed2d">Unlock it to continue where you left off.</string>
     <string name="t_8e9a3fb3ca">Not used for</string>
     <string name="t_d97bc69a36">Photos, music, recorded videos, backups and the Documents folder are excluded.</string>
@@ -1961,12 +1969,8 @@
     <string name="t_8e3868a957">Restored missing or modified vault.json</string>
     <string name="t_31ca4ab109">The vault\'s folder or its vault.json is missing.</string>
     <string name="t_8fec18efc4">This folder is not a ManyFile vault, or its vault.json is damaged.</string>
-    <string name="t_595ef66527">Couldn\'t unlock</string>
-    <string name="t_ba552c2af9">Fingerprint unlock was reset. Use the password.</string>
-    <string name="t_0a915a5987">Unlock %s</string>
     <string name="t_3cb5fd8e47">Recovery code</string>
     <string name="t_df526fa3cd">Unlocking…</string>
-    <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_15914698c5">New password for %s</string>
     <string name="t_caad7a1005">%s settings</string>
     <string name="t_6e6c4fbb8a">Repeat new password</string>
@@ -2028,6 +2032,7 @@
     <string name="t_85ed73a6f2">found on device</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/WatermarkDialogs.kt -->
     <string name="t_84c9cc88e4">CONFIDENTIAL</string>
+    <string name="t_dccdf47613">Choose picture</string>
     <string name="t_8afe2ea144">Add watermark to %s</string>
     <string name="t_61852524b8">Picture</string>
     <string name="t_f28563a477">Colour</string>
@@ -2247,6 +2252,7 @@
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/Zoom.kt -->
     <string name="t_5caa7bc89e">%s columns</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/CommandCenterScreen.kt -->
+    <string name="t_d6fbc9d2bd">Import</string>
     <string name="t_2f8198fc39">%d imported</string>
     <string name="t_a0ca56e4ec">%d command steps need a server</string>
     <string name="t_2db6e6a3ee">Import failed: %s</string>
@@ -2520,7 +2526,6 @@
     <string name="t_0a2e1f5146">In Quick access on Home</string>
     <string name="t_441609a948">Import bookmarks</string>
     <string name="t_4df0085aab">One per line: label&lt;TAB&gt;location</string>
-    <string name="t_d6fbc9d2bd">Import</string>
     <string name="t_ba32426ba2">Bookmark actions</string>
     <string name="t_d371a4a652">Edit bookmark</string>
     <string name="t_fba9ba171e">Group (“%s” pins to Home)</string>
@@ -3221,12 +3226,12 @@
     <string name="t_de790537bb">no shares found. Enter one in Start folder</string>
     <string name="t_5c9d4d037e">Connected · shares: %s</string>
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServersScreen.kt -->
+    <string name="t_425bc6a553">Import key file</string>
     <string name="t_d8904eee04">Couldn\'t read key file</string>
     <string name="t_468359f00f">No servers. Add an SFTP, SMB, WebDAV or FTP server, or S3 storage, to browse its files.</string>
     <string name="t_bf54fcecbe">Disconnected from %s</string>
     <string name="t_e91a644c96">SSH keys</string>
     <string name="t_937129af9b">Generate key</string>
-    <string name="t_425bc6a553">Import key file</string>
     <string name="t_b32682d1a0">Trusted server keys</string>
     <string name="t_dcb2566091">Accepted host key fingerprints</string>
     <string name="t_ebb617f368">Remove %s?</string>
@@ -3598,6 +3603,7 @@
     <string name="t_281bdf5a43">It can\'t be recovered if forgotten.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/BackupPage.kt -->
     <string name="t_18db48d505">Settings saved: %s</string>
+    <string name="t_6562d01278">Restore settings</string>
     <string name="t_f4c8113c7f">Restore failed: %s</string>
     <string name="t_35ff9b445b">Includes settings, default apps, bookmarks, Quick access, saved searches, tags, notes, Commands, folder views, servers and folder syncs.</string>
     <string name="t_d9c07d63cb">Passwords, private keys, cloud sign-ins, vaults and history are not included.</string>
@@ -3654,6 +3660,7 @@
     <string name="t_02ed4a4a39">Proceed</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/LanguagePage.kt -->
     <string name="t_9643d47e07">Couldn\'t load languages. Check your connection.</string>
+    <string name="t_3d120aa66f">Test a translation</string>
     <string name="t_942d093a2f">%d texts</string>
     <string name="t_d12f84b576">from a file</string>
     <string name="t_28be446a90">Download a language</string>
@@ -4250,6 +4257,7 @@
     <string name="t_5f087918ec">Passwords don\'t match</string>
     <string name="t_35ba4a3372">Scanned %d of %d. Show the next code.</string>
     <string name="t_86a98cc4b0">Not an authenticator QR code</string>
+    <string name="t_9715e197ac">Choose pictures</string>
     <string name="t_b63d4a315f">No QR code found</string>
     <string name="t_7116f811c2">Only %d of %d export codes found</string>
     <string name="t_a0704a4eaa">File too large</string>
@@ -4826,6 +4834,7 @@
     <string name="t_2d555a5bc3">No releases</string>
     <string name="t_c3e41faa9e">published %s by %s</string>
     <string name="t_2d5736033e">created %s by %s</string>
+    <string name="t_c06342c881">Add files</string>
     <string name="t_d41f56cea1">Release</string>
     <string name="t_f3e402d84f">Delete release…</string>
     <string name="t_4a23235b26">Draft. Visible only to people with push access.</string>
@@ -4879,6 +4888,7 @@
     <string name="t_b25928c699">Total</string>
     <string name="t_9154c5f47b">Not compatible with this device</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/KeystoreScreen.kt -->
+    <string name="t_7f74b0b3a4">Import certificate</string>
     <string name="t_7af47b97fb">1 entry</string>
     <string name="t_bf0ab23f95">%s entries</string>
     <string name="t_fa542d0af4">Generate key pair…</string>
@@ -4895,7 +4905,6 @@
     <string name="t_e6c679bdfa">Applies to the keystore and its keys when saved.</string>
     <string name="t_d28d957bf2">Generated “%s”. Tap Save to keep it.</string>
     <string name="t_181a66ee4a">Couldn\'t generate key</string>
-    <string name="t_7f74b0b3a4">Import certificate</string>
     <string name="t_b9392a126d">Apps signed with this key can\'t be updated without a backup of it.</string>
     <string name="t_6d259a49c1">This removes the certificate from the keystore.</string>
     <string name="t_e01b26a785">%s has unsaved changes.</string>
@@ -4963,6 +4972,7 @@
     <string name="t_a741d8fde0">Sign-in required. Add your browser\'s cookies for this site and try again.</string>
     <string name="t_1931885260">Media Engine not responding.</string>
     <string name="t_e7e9359346">Clipboard is empty. Export cookies in Cookie-Editor first.</string>
+    <string name="t_eb7eb7a819">Choose file</string>
     <string name="t_1b12a94dc8">Couldn\'t read cookies file.</string>
     <string name="t_524cf50b5d">Cookies</string>
     <string name="t_c43977d34e">Needed for videos that require sign-in, such as private or age-restricted ones.</string>
@@ -4971,7 +4981,6 @@
     <string name="t_c66681096e">Remove cookies for %s</string>
     <string name="t_099a36d730">New cookies for a site replace its old ones.</string>
     <string name="t_110e8619f3">Paste cookies</string>
-    <string name="t_eb7eb7a819">Choose file</string>
     <string name="t_9c26bc3e8d">All cookies removed.</string>
     <string name="t_4100ef4df5">Remove all</string>
     <string name="t_d69cb0445c">How to get them</string>
@@ -5173,7 +5182,6 @@
     <string name="t_ae3e32ae1a">Delete %d photos permanently?</string>
     <string name="t_e1128d6bd1">Move %d photos to Bin?</string>
     <string name="t_6085be85b3">One photo from each group is kept.</string>
-    <string name="t_9a976fc228">Selected</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/SpeedTestScreen.kt -->
     <string name="t_2230545037">Test against</string>
     <string name="t_66c06c11d1">Internet</string>
