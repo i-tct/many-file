@@ -5620,4 +5620,42 @@
     <string name="t_3719021217">Toucher un fichier chiffré</string>
     <string name="t_93ec7b2497">L’afficher dans ManyFile ou le déchiffrer, ou demander à chaque fois</string>
     <string name="t_a2ab8ba7e7">Afficher dans ManyFile</string>
+    <!-- Encrypted files in Home’s categories, kept or deleted by default; Root (/) in the menu (2026-10-26) -->
+    <string name="t_4d45dd261a">Crée une copie chiffrée de chaque fichier à côté de lui, dans le même dossier : photo.jpg devient photo.jpg.mfenc (AES-256). Touchez-la et saisissez le mot de passe pour l’afficher ou récupérer le fichier.</string>
+    <string name="t_1f139aada3">Conserver l’original</string>
+    <string name="t_c6ff112dd2">Conserver les originaux</string>
+    <string name="t_aa222d9277">Les originaux sont supprimés définitivement, non déplacés vers la Corbeille, une fois chaque copie chiffrée vérifiée.</string>
+    <string name="t_ededff9e3e">Conserver le fichier chiffré</string>
+    <string name="t_6ce8fc3d8c">Conserver les fichiers chiffrés</string>
+    <string name="t_f2864a3542">Conserver les originaux lors du chiffrement</string>
+    <string name="t_2d22b5ec3f">Désactivé : supprimés une fois chaque copie chiffrée vérifiée</string>
+    <string name="t_556c2ea04c">Conserver les fichiers chiffrés lors du déchiffrement</string>
+    <string name="t_a51e0faff9">Désactivé : supprimés une fois le fichier restauré</string>
+    <string name="t_987edec4e1">Racine (/) dans le menu</string>
+    <string name="t_8ab65cc3d5">Un aperçu en lecture seule de tout le système de fichiers. Toujours affiché avec l’accès root ou Shizuku.</string>
+    <!-- Home icon styles and more icons, folder covers, animated thumbnails (2026-10-26) -->
+    <string name="t_d8169782b5">Material</string>
+    <string name="t_ec7b598335">Rond</string>
+    <string name="t_82810cb971">Carré</string>
+    <string name="t_155edc970c">Expressif</string>
+    <string name="t_130cd7fe33">Classique</string>
+    <string name="t_2cd0d43592">Couverture retirée</string>
+    <string name="t_234e62a3dd">Couverture définie pour %s</string>
+    <string name="t_d9b175bc80">Couverture de %s</string>
+    <string name="t_f003567b45">Choisir une couverture…</string>
+    <string name="t_7a5eef5219">Retirer la couverture</string>
+    <string name="t_ad24e937bc">Utiliser comme couverture du dossier</string>
+    <string name="t_18ed14847e">Applications et services</string>
+    <string name="t_df485c8713">Appareils</string>
+    <string name="t_0c77aeece8">Médias</string>
+    <string name="t_0c1daba9f7">Personnes et maison</string>
+    <string name="t_fbd461c359">Travail et argent</string>
+    <string name="t_22fb76e46f">Voyage</string>
+    <string name="t_22ad664e9e">Symboles</string>
+    <string name="t_b33da0764a">Style de toutes les icônes</string>
+    <string name="t_92eea96afd">Services cloud</string>
+    <string name="t_26543fc0c6">Style des icônes de l’accueil</string>
+    <string name="t_a11f1065f0">Material, rond, carré, expressif ou classique</string>
+    <string name="t_e450148504">Miniatures animées</string>
+    <string name="t_e05da8570f">Les GIF et les images WebP animées bougent dans les listes (nécessite Miniatures)</string>
 </resources>

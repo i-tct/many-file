@@ -1241,10 +1241,11 @@
     <string name="t_f8a902b067">TB</string>
     <string name="t_a092b2d4c9">PB</string>
     <string name="t_955dc54443">kB</string>
+    <string name="t_24345a1437">Today</string>
+    <string name="t_da24830f1f">Yesterday</string>
     <string name="t_e3b8204056">Now</string>
     <string name="t_727d913ff0">%d s ago</string>
     <string name="t_25bb2acb00">%s min ago</string>
-    <string name="t_da24830f1f">Yesterday</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/ICalendar.kt -->
     <string name="t_3b2eb51310">Every day</string>
     <string name="t_2d5f363408">Every %d days</string>
@@ -1281,6 +1282,11 @@
     <string name="t_a711cca9a4">Minimal</string>
     <string name="t_a0138b1e0d">Cassette</string>
     <string name="t_200f14b1dc">Waveform</string>
+    <string name="t_d8169782b5">Material</string>
+    <string name="t_ec7b598335">Round</string>
+    <string name="t_82810cb971">Square</string>
+    <string name="t_155edc970c">Expressive</string>
+    <string name="t_130cd7fe33">Classic</string>
     <string name="t_d403336798">Last folder</string>
     <string name="t_70f8bb9a8a">Home</string>
     <string name="t_7b12aa7fec">A folder…</string>
@@ -1485,6 +1491,8 @@
     <string name="t_94b04733ed">Not found: %s</string>
     <string name="t_31be651616">Duplicating %s…</string>
     <string name="t_357eab3a8a">Duplicating %d items…</string>
+    <string name="t_2cd0d43592">Cover removed</string>
+    <string name="t_234e62a3dd">Cover set for %s</string>
     <string name="t_82ec46d3a4">Pinned to Home</string>
     <string name="t_d0853a5cc5">%d items pinned to Home</string>
     <string name="t_63ca087d62">Unpinned</string>
@@ -1545,6 +1553,8 @@
     <string name="t_3cbe6d6b9a">Restore</string>
     <string name="t_44ddd53640">%d items</string>
     <string name="t_3d7b11fe7a">Open vault</string>
+    <string name="t_d9b175bc80">Cover for %s</string>
+    <string name="t_78b7c9f6d6">Choose</string>
     <string name="t_a24652d5f4">Encrypt new files?</string>
     <string name="t_653b9c986d">1 unencrypted item was added to “%s” while it was locked.</string>
     <string name="t_1712ce4b6f">%d unencrypted items were added to “%s” while it was locked.</string>
@@ -1724,19 +1734,21 @@
     <string name="t_448ab73ba1">Set</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
-    <string name="t_fba4d2eeb8">Makes an encrypted copy of each file next to it, in the same folder: photo.jpg becomes photo.jpg.mfenc (AES-256). Tap it and type the password to get the file back. Images and Videos don\'t show encrypted copies.</string>
+    <string name="t_4d45dd261a">Makes an encrypted copy of each file next to it, in the same folder: photo.jpg becomes photo.jpg.mfenc (AES-256). Tap it and type the password to view it or get it back.</string>
     <string name="t_1fe494b252">At least 8 characters</string>
-    <string name="t_16dc4cc595">Delete originals after encrypting</string>
-    <string name="t_f65da56085">Deleted permanently, not moved to the Bin.</string>
+    <string name="t_1f139aada3">Keep the original</string>
+    <string name="t_c6ff112dd2">Keep the originals</string>
+    <string name="t_aa222d9277">Originals are deleted permanently, not moved to the Bin, once each encrypted copy is checked.</string>
     <string name="t_aa1e2d5c74">The originals stay as they are and open without a password. To keep files private where they are, lock their folder instead.</string>
+    <string name="t_296e591b7a">Remember my choice</string>
     <string name="t_a87b894acc">The password can\'t be recovered if lost.</string>
     <string name="t_c49d31d7ec">Decrypt %s</string>
     <string name="t_f5987306b2">Restores the original file in the same folder.</string>
-    <string name="t_4096dde101">Delete encrypted files afterwards</string>
+    <string name="t_ededff9e3e">Keep the encrypted file</string>
+    <string name="t_6ce8fc3d8c">Keep the encrypted files</string>
     <string name="t_72c38db397">Decrypt</string>
     <string name="t_5a0d4da935">Open “%s”</string>
     <string name="t_dd90e6c005">View opens it in ManyFile without a decrypted copy, and locks it again when you leave it. Decrypt makes a normal copy.</string>
-    <string name="t_296e591b7a">Remember my choice</string>
     <string name="t_b1b8530bbd">Opening…</string>
     <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_69bd4ef9fb">View</string>
@@ -1901,7 +1913,6 @@
     <string name="t_f142818a71">Save to</string>
     <string name="t_2cd6bdeeb8">Choose a folder…</string>
     <string name="t_c0a95862c3">Device, server, cloud or vault</string>
-    <string name="t_78b7c9f6d6">Choose</string>
     <string name="t_9eaa6540f4">Vault %s</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/SizeDialog.kt -->
     <string name="t_a8e2f541b5">1 folder</string>
@@ -2274,6 +2285,9 @@
     <string name="t_001de2b938">Calculate size</string>
     <string name="t_295763d01c">Clipboard history</string>
     <string name="t_731b577ab2">Paste here</string>
+    <string name="t_f003567b45">Choose cover…</string>
+    <string name="t_7a5eef5219">Remove cover</string>
+    <string name="t_ad24e937bc">Use as folder cover</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/Zoom.kt -->
     <string name="t_5caa7bc89e">%s columns</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/CommandCenterScreen.kt -->
@@ -2575,7 +2589,6 @@
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_b336fc5587">WhatsApp</string>
-    <string name="t_24345a1437">Today</string>
     <string name="t_1697d281a3">Modified today</string>
     <string name="t_bd47f3ad7f">Analyzer</string>
     <string name="t_858df0c869">Wi-Fi share</string>
@@ -2699,7 +2712,6 @@
     <string name="t_d7854118cd">Any time</string>
     <string name="t_0e61c13b4b">Last %d days</string>
     <string name="t_094c097f3b">This year</string>
-    <string name="t_c2c3bdf80b">Earlier this week</string>
     <string name="t_b0ca5968b7">No extension</string>
     <string name="t_6dd72cb1ae">Size unknown</string>
     <string name="t_c2fb42b4ce">Over %s</string>
@@ -2741,8 +2753,17 @@
     <string name="t_7426bed660">All of %s</string>
     <string name="t_f95f4561cb">A day, or the first and last day</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/TileLooks.kt -->
+    <string name="t_18ed14847e">Apps and services</string>
+    <string name="t_df485c8713">Devices</string>
+    <string name="t_0c77aeece8">Media</string>
+    <string name="t_0c1daba9f7">People and home</string>
+    <string name="t_fbd461c359">Work and money</string>
+    <string name="t_22fb76e46f">Travel</string>
+    <string name="t_22ad664e9e">Symbols</string>
     <string name="t_1ca19f050a">Icon for %s</string>
+    <string name="t_b33da0764a">Style of all icons</string>
     <string name="t_ba09a6e97b">Chosen</string>
+    <string name="t_92eea96afd">Cloud services</string>
     <string name="t_c0a8060f3b">Original</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_2f601b8095">Couldn\'t reach server</string>
@@ -3754,6 +3775,8 @@
     <string name="t_72b714ce85">Lock Home layout</string>
     <string name="t_f7f96d5317">No rearranging, renaming or hiding on Home</string>
     <string name="t_0779961bcf">Home icon size</string>
+    <string name="t_26543fc0c6">Home icon style</string>
+    <string name="t_a11f1065f0">Material, round, square, expressive or classic</string>
     <string name="t_b78a45fef3">Pinch to resize Home icons</string>
     <string name="t_2447b7c9e4">Two fingers on Home make icons bigger or smaller</string>
     <string name="t_2512fa5546">Move tiles between cards</string>
@@ -3781,6 +3804,8 @@
     <string name="t_3ba684212a">Images, videos, song covers, PDFs and APK icons</string>
     <string name="t_15bfc09591">Folder previews</string>
     <string name="t_7c7a6f0de0">Preview of contents on folder icons (requires Thumbnails)</string>
+    <string name="t_e450148504">Animated thumbnails</string>
+    <string name="t_e05da8570f">GIFs and animated WebP pictures move in lists (requires Thumbnails)</string>
     <string name="t_facb9c7f71">Language logos</string>
     <string name="t_2c089ece33">Logos on code files (JS, Rust, Python…)</string>
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
@@ -3844,6 +3869,10 @@
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
     <string name="t_3719021217">Tapping an encrypted file</string>
     <string name="t_93ec7b2497">View in ManyFile or decrypt, or ask every time</string>
+    <string name="t_f2864a3542">Keep originals when encrypting</string>
+    <string name="t_2d22b5ec3f">Off: deleted once each encrypted copy is checked</string>
+    <string name="t_556c2ea04c">Keep encrypted files when decrypting</string>
+    <string name="t_a51e0faff9">Off: deleted once the file is restored</string>
     <string name="t_f79746cfb9">Delete button in viewers</string>
     <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_c5b30f66ae">Paste in the More menu</string>
@@ -3936,6 +3965,8 @@
     <string name="t_6c991a0683">Clear watch history</string>
     <string name="t_dc693abd08">Remove the progress bar and ✓ from all videos</string>
     <string name="t_122c169e4c">Allow root access</string>
+    <string name="t_987edec4e1">Root (/) in the menu</string>
+    <string name="t_8ab65cc3d5">A read-only look at the whole file system. Always shown with root or Shizuku access.</string>
     <string name="t_a123cae925">Use Shizuku</string>
     <string name="t_7874f56e84">Delete items in the Bin after</string>
     <string name="t_8e55cb7d44">Bin size limit</string>
