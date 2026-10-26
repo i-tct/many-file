@@ -2585,7 +2585,7 @@
     <string name="t_b1c1175402">Recadrez et faites pivoter des images ; une vue hexadécimale pour tout fichier</string>
     <string name="t_dcb76a8ef7">Serveurs et cloud</string>
     <string name="t_486062c2fe">Les fichiers distants fonctionnent comme les fichiers locaux.</string>
-    <string name="t_636ee072e6">Serveurs SFTP, SMB, WebDAV, FTP et S3, Google Drive, OneDrive et MEGA comme des dossiers</string>
+    <string name="t_746f6e9214">Serveurs SFTP, SMB, WebDAV, FTP et S3, Google Drive, OneDrive, Dropbox et MEGA comme des dossiers</string>
     <string name="t_bec6018715">Vos serveurs et stockages dans les sélecteurs de fichiers des autres apps, pour y joindre ou enregistrer des fichiers</string>
     <string name="t_0da76eee9b">Synchronisation de dossiers : gardez un dossier de serveur copié sur le téléphone, seulement ce qui a changé</string>
     <string name="t_74b4130b84">Téléchargez depuis un lien, avec pause, reprise et plusieurs connexions</string>
@@ -3587,7 +3587,7 @@
     <string name="t_bc3ec50969">Dernière sauvegarde %s</string>
     <string name="t_c60bd5d348">Pas encore sauvegardé</string>
     <string name="t_f012e3b37e">Sauvegarder dans le cloud</string>
-    <string name="t_f3294acbc9">Aucun compte cloud. Ajoutez Google Drive ici, ou OneDrive ou MEGA depuis la section Cloud du menu.</string>
+    <string name="t_db10229719">Aucun compte cloud. Ajoutez Google Drive ici, ou OneDrive, Dropbox ou MEGA depuis la section Cloud du menu.</string>
     <string name="t_cb428fea97">Ajouter Google Drive</string>
     <string name="t_2bd365b548">Vers %s</string>
     <string name="t_527bf1aa5d">Sauvegarder maintenant</string>
@@ -3769,7 +3769,7 @@
     <string name="t_958e21ea8d">Miniatures du serveur</string>
     <string name="t_04324d9bfa">Images jusqu’à 4 Mo, Wi-Fi uniquement</string>
     <string name="t_2b38179374">Miniatures du cloud</string>
-    <string name="t_858f84a242">Google Drive, OneDrive et MEGA, également avec les données mobiles</string>
+    <string name="t_3068f17720">Google Drive, OneDrive, Dropbox et MEGA, également avec les données mobiles</string>
     <string name="t_63832e8ecd">Ouvrir les PDF pendant le téléchargement</string>
     <string name="t_fea9ac6bc5">Les pages venant de serveurs, de Google Drive et de OneDrive s’affichent avant que le PDF soit entièrement arrivé</string>
     <string name="t_fc70834a90">Parcourir au-dessus du dossier personnel</string>
@@ -4171,7 +4171,7 @@
     <string name="t_3bd5607567">Aussi vers</string>
     <string name="t_a8c95f0c7d">Arrêter la sauvegarde vers %s</string>
     <string name="t_8a7074edf7">Ajouter un autre emplacement…</string>
-    <string name="t_b3dbada44c">Google Drive, OneDrive, MEGA, un serveur ou le téléphone</string>
+    <string name="t_74363da2d0">Google Drive, OneDrive, Dropbox, MEGA, un serveur ou le téléphone</string>
     <string name="t_cbf6e46655">Échec de la dernière sauvegarde : %s</string>
     <string name="t_db045a38c6">Dernière sauvegarde : %s</string>
     <string name="t_bad4cba285">Automatique après chaque modification</string>
@@ -5663,7 +5663,7 @@
     <string name="t_2e1b94a2ce">Maintenez un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. La barre du bas les partage, copie, déplace, compresse ou supprime ; ⋮ propose le reste : chiffrer, verrouiller un dossier, définir la couverture d’un dossier…</string>
     <string name="t_f04a41b6ee">Une visite qui ouvre chaque endroit au fur et à mesure : l’Accueil, le menu, vos fichiers et les Paramètres. Passez-la à tout moment : Paramètres → À propos → Visite guidée la relance.</string>
     <string name="t_42e6f31703">Toutes les photos, vidéos, chansons, documents et téléchargements du téléphone, où qu’ils soient. Ceux qui sont chiffrés y sont aussi, avec un cadenas.</string>
-    <string name="t_403f3ec107">Google Drive, OneDrive et MEGA. Dans un dossier cloud, ⋮ → Analyser le stockage trouve les doublons, les anciens fichiers et ce qui prend de la place.</string>
+    <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox et MEGA. Dans un dossier cloud, ⋮ → Analyser le stockage trouve les doublons, les anciens fichiers et ce qui prend de la place.</string>
     <string name="t_461e62b5c6">Nettoyeur, analyseur de stockage, doublons, coffres-forts, partage Wi-Fi et plus. La dernière tuile ajoute ou retire des outils.</string>
     <string name="t_764ca4fdc4">Chaque stockage et chaque endroit : serveurs, stockages cloud, coffres-forts et dossiers verrouillés, et tous les outils. ☰ l’ouvre, ou un glissement depuis la gauche sur l’Accueil.</string>
     <string name="t_cbfaf37ee5">Chaque paramètre se trouve par un mot : thème, verrouillage, sauvegarde…</string>
@@ -5680,7 +5680,7 @@
     <string name="t_056d43774d">%s ans</string>
     <string name="t_7f400c5e31">Supprimer 1 élément ?</string>
     <string name="t_a344dd8db7">Supprimer %s éléments ?</string>
-    <string name="t_623159edd1">Google Drive, OneDrive et MEGA gardent les fichiers supprimés dans leur propre corbeille pendant un temps. Ailleurs, ils sont supprimés définitivement.</string>
+    <string name="t_e7fbcb746f">Google Drive, OneDrive, Dropbox et MEGA gardent les fichiers supprimés dans leur propre corbeille pendant un temps. Ailleurs, ils sont supprimés définitivement.</string>
     <string name="t_53e25f22e3">Suppression en arrière-plan</string>
     <string name="t_2091afac4b">Pourrait être libéré</string>
     <string name="t_1c9b58ad3d">%s dans 1 groupe</string>
@@ -5695,4 +5695,13 @@
     <string name="t_b8d14d4887">Même contenu quand le service l’indique, sinon même nom et même taille.</string>
     <string name="t_f75030b4c1">Garder le plus récent</string>
     <string name="t_f5308ac26b">%s copies · %s chacune</string>
+    <string name="t_8b7e86e5d2">Échec de la connexion à Dropbox : %s</string>
+    <string name="t_13eee6c1c0">Impossible de se connecter à Dropbox : %s</string>
+    <string name="t_d498cffd6c">Échec de la connexion à Dropbox (HTTP %s)</string>
+    <string name="t_2ed7c2012a">Dropbox n’est pas disponible dans cette version</string>
+    <string name="t_b4daaf40e8">Dropbox n’a pas renvoyé de jeton d’actualisation</string>
+    <string name="t_fd99e85874">Session Dropbox expirée. Reconnectez-vous.</string>
+    <string name="t_84946bd344">aucun compte Dropbox</string>
+    <string name="t_1889fb075b">il est impossible d’ajouter des données à la fin des fichiers Dropbox</string>
+    <string name="t_f844695ed0">Compte Dropbox</string>
 </resources>

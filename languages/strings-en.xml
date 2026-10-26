@@ -86,6 +86,7 @@
     <string name="t_fcc2fb01eb">Opening the MEGA link…</string>
     <string name="t_06a1c0e185">Couldn\'t open the MEGA link: %s</string>
     <string name="t_8eeb0763f6">OneDrive sign-in failed: %s</string>
+    <string name="t_8b7e86e5d2">Dropbox sign-in failed: %s</string>
     <string name="t_62c2725b82">%d chosen from Drive</string>
     <string name="t_6dd336f903">Google Drive sign-in failed: %s</string>
     <string name="t_b52b36b726">Back</string>
@@ -154,7 +155,7 @@
     <string name="t_6ccb60071b">Categories</string>
     <string name="t_42e6f31703">Every picture, video, song, document and download on the phone, wherever it is. Encrypted ones are here too, with a lock.</string>
     <string name="t_147d44fce2">Cloud drives</string>
-    <string name="t_403f3ec107">Google Drive, OneDrive and MEGA. In a cloud folder, ⋮ → Analyze storage finds copies, old files and what takes the room.</string>
+    <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox and MEGA. In a cloud folder, ⋮ → Analyze storage finds copies, old files and what takes the room.</string>
     <string name="t_4fa8cc860c">Tools</string>
     <string name="t_461e62b5c6">Cleaner, storage analyzer, copies, vaults, Wi-Fi share and more. The last tile adds or removes tools.</string>
     <string name="t_437736fdb5">Jobs</string>
@@ -475,16 +476,29 @@
     <string name="t_94cda2c329">is a folder</string>
     <string name="t_84b49317d1">Drive files cannot be appended to</string>
     <string name="t_1d01fd0607">Google Docs files are read-only</string>
-    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/GoogleAuth.kt -->
-    <string name="t_269dbb364f">Google Drive not available in this build</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DropboxApi.kt -->
+    <string name="t_13eee6c1c0">Couldn\'t connect to Dropbox: %s</string>
+    <string name="t_d498cffd6c">Dropbox sign-in failed (HTTP %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DropboxAuth.kt -->
+    <string name="t_2ed7c2012a">Dropbox not available in this build</string>
     <string name="t_d669dd4ef3">no sign-in in progress</string>
     <string name="t_64343a83ad">Access denied</string>
-    <string name="t_969e979045">Google sign-in failed: %s</string>
     <string name="t_7c9c83835f">Sign-in failed. Try again.</string>
     <string name="t_02ba6dc255">no authorization code</string>
+    <string name="t_b4daaf40e8">Dropbox did not return a refresh token</string>
+    <string name="t_fd99e85874">Dropbox session expired. Sign in again.</string>
+    <string name="t_8b5c223a2d">Couldn\'t read saved sign-in</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/DropboxProvider.kt -->
+    <string name="t_84946bd344">no Dropbox account</string>
+    <string name="t_849a3fa7e7">not a file name: %s</string>
+    <string name="t_6ac22795c2">Moving between accounts is not supported</string>
+    <string name="t_b4c8848c60">not empty</string>
+    <string name="t_1889fb075b">Dropbox files can\'t be appended to</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/GoogleAuth.kt -->
+    <string name="t_269dbb364f">Google Drive not available in this build</string>
+    <string name="t_969e979045">Google sign-in failed: %s</string>
     <string name="t_42031f9957">Google did not return a refresh token</string>
     <string name="t_00734e6c89">Google Drive session expired. Sign in again.</string>
-    <string name="t_8b5c223a2d">Couldn\'t read saved sign-in</string>
     <string name="t_4b7747df34">Couldn\'t connect to %s: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/LocalMega.kt -->
     <string name="t_8fdfb87825">MEGA\'s Rubbish bin only takes what is deleted</string>
@@ -500,8 +514,6 @@
     <string name="t_70addeab71">MEGA storage or transfer quota exceeded</string>
     <string name="t_b1d2bddc6f">This MEGA link\'s key is wrong or missing</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/Mega.kt -->
-    <string name="t_849a3fa7e7">not a file name: %s</string>
-    <string name="t_6ac22795c2">Moving between accounts is not supported</string>
     <string name="t_671d8bed6d">Transfer stopped</string>
     <string name="t_b450871799">Couldn\'t read downloaded file</string>
     <string name="t_6a8b9eb3af">MEGA files can\'t be appended to</string>
@@ -518,7 +530,6 @@
     <string name="t_ad016a2dee">Microsoft sign-in failed (HTTP %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/OneDriveProvider.kt -->
     <string name="t_54ed41b1c2">no OneDrive account</string>
-    <string name="t_b4c8848c60">not empty</string>
     <string name="t_b5cb97c13c">OneDrive files can\'t be appended to</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/cloud/PhotoBackup.kt -->
     <string name="t_61a5e43caf">Photo backup</string>
@@ -2524,6 +2535,7 @@
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AddCloud.kt -->
     <string name="t_07030d8296">Google account</string>
     <string name="t_e6f254aea5">Microsoft account (personal, work or school)</string>
+    <string name="t_f844695ed0">Dropbox account</string>
     <string name="t_42f1039593">Email and password</string>
     <string name="t_bd3424e9fc">Add cloud drive</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AppDrawer.kt -->
@@ -2680,7 +2692,7 @@
     <string name="t_b1c1175402">Crop and rotate pictures; a hex view for any file</string>
     <string name="t_dcb76a8ef7">Servers and cloud</string>
     <string name="t_486062c2fe">Remote files work like local ones.</string>
-    <string name="t_636ee072e6">SFTP, SMB, WebDAV, FTP and S3 servers, Google Drive, OneDrive and MEGA as folders</string>
+    <string name="t_746f6e9214">SFTP, SMB, WebDAV, FTP and S3 servers, Google Drive, OneDrive, Dropbox and MEGA as folders</string>
     <string name="t_bec6018715">Your servers and drives in other apps\' file pickers, to attach or save files there</string>
     <string name="t_0da76eee9b">Folder sync: keep a server folder copied to the phone, only what changed</string>
     <string name="t_74b4130b84">Download from a link, with pause, resume and several connections</string>
@@ -3679,7 +3691,7 @@
     <string name="t_bc3ec50969">Last backup %s</string>
     <string name="t_c60bd5d348">Not backed up yet</string>
     <string name="t_f012e3b37e">Back up to the cloud</string>
-    <string name="t_f3294acbc9">No cloud account. Add Google Drive here, or OneDrive or MEGA from the menu\'s Cloud.</string>
+    <string name="t_db10229719">No cloud account. Add Google Drive here, or OneDrive, Dropbox or MEGA from the menu\'s Cloud.</string>
     <string name="t_cb428fea97">Add Google Drive</string>
     <string name="t_2bd365b548">To %s</string>
     <string name="t_527bf1aa5d">Back up now</string>
@@ -3908,7 +3920,7 @@
     <string name="t_958e21ea8d">Server thumbnails</string>
     <string name="t_04324d9bfa">Images up to 4 MB, Wi-Fi only</string>
     <string name="t_2b38179374">Cloud thumbnails</string>
-    <string name="t_858f84a242">Google Drive, OneDrive and MEGA, also on mobile data</string>
+    <string name="t_3068f17720">Google Drive, OneDrive, Dropbox and MEGA, also on mobile data</string>
     <string name="t_63832e8ecd">Open PDFs while downloading</string>
     <string name="t_fea9ac6bc5">Pages from servers, Google Drive and OneDrive show before the whole PDF arrives</string>
     <string name="t_fc70834a90">Browse above home folder</string>
@@ -4307,7 +4319,7 @@
     <string name="t_3bd5607567">Also to</string>
     <string name="t_a8c95f0c7d">Stop backing up to %s</string>
     <string name="t_8a7074edf7">Add another place…</string>
-    <string name="t_b3dbada44c">Google Drive, OneDrive, MEGA, a server or the phone</string>
+    <string name="t_74363da2d0">Google Drive, OneDrive, Dropbox, MEGA, a server or the phone</string>
     <string name="t_cbf6e46655">Last backup failed: %s</string>
     <string name="t_db045a38c6">Last backup: %s</string>
     <string name="t_bad4cba285">Automatic after every change</string>
@@ -4512,7 +4524,7 @@
     <string name="t_056d43774d">%s years</string>
     <string name="t_7f400c5e31">Delete 1 item?</string>
     <string name="t_a344dd8db7">Delete %s items?</string>
-    <string name="t_623159edd1">Google Drive, OneDrive and MEGA keep deleted files in their own trash for a while. Elsewhere they\'re deleted for good.</string>
+    <string name="t_e7fbcb746f">Google Drive, OneDrive, Dropbox and MEGA keep deleted files in their own trash for a while. Elsewhere they\'re deleted for good.</string>
     <string name="t_53e25f22e3">Deleting in the background</string>
     <string name="t_2091afac4b">Could be freed</string>
     <string name="t_1c9b58ad3d">%s in 1 group</string>
