@@ -5609,4 +5609,15 @@
     <string name="t_e97972e73a">Masqué pour les autres applications.</string>
     <string name="t_72c4596d43">Désinstaller ManyFile ou effacer ses données supprime ce coffre-fort et tout son contenu. Gardez-en une copie avec ses paramètres → Sauvegarder…, ou choisissez Stockage du téléphone.</string>
     <string name="t_967e7412a5">Trouver des coffres-forts…</string>
+    <!-- Encrypted files opened to look at (core/data EncryptedFiles, feature/browser EncryptDialogs) -->
+    <string name="t_e69a57957c">ManyFile ne peut pas afficher ce type de fichier lui-même. Déchiffrez-le pour l’ouvrir dans une autre application.</string>
+    <string name="t_41bf312796">Le fichier chiffré est verrouillé</string>
+    <string name="t_fc32389b14">Les fichiers chiffrés s’ouvrent en lecture seule. Déchiffrez-les pour les modifier.</string>
+    <string name="t_5a0d4da935">Ouvrir « %s »</string>
+    <string name="t_dd90e6c005">Afficher l’ouvre dans ManyFile sans copie déchiffrée, et le verrouille de nouveau quand vous le quittez. Déchiffrer crée une copie normale.</string>
+    <string name="t_296e591b7a">Mémoriser mon choix</string>
+    <string name="t_69bd4ef9fb">Afficher</string>
+    <string name="t_3719021217">Toucher un fichier chiffré</string>
+    <string name="t_93ec7b2497">L’afficher dans ManyFile ou le déchiffrer, ou demander à chaque fois</string>
+    <string name="t_a2ab8ba7e7">Afficher dans ManyFile</string>
 </resources>

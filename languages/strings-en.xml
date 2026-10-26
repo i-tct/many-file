@@ -97,6 +97,7 @@
     <string name="t_aa1e788a40">Couldn\'t open %s: %s</string>
     <string name="t_49b2cdc976">Couldn\'t download Media Engine. Try again in Media Downloader.</string>
     <string name="t_58bbba5a19">“%s” is empty</string>
+    <string name="t_e69a57957c">ManyFile can\'t show this kind of file itself. Decrypt it to open it in another app.</string>
     <string name="t_20db5d20c5">Saved “%s” (%d pages)</string>
     <string name="t_3cb76d3aa2">Couldn\'t save scan: %s</string>
     <string name="t_f0654249e2">Google scanner unavailable (%s). Using built-in scanner.</string>
@@ -1110,11 +1111,14 @@
     <string name="t_d45fcad4f4">Release %s has no checksum for %s</string>
     <string name="t_f7cf7ecebe">APK checksum mismatch (got %s, expected %s)</string>
     <string name="t_cfebc10078">GitHub error (HTTP %s)</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/EncryptedFiles.kt -->
+    <string name="t_63a7a709b8">Not a ManyFile encrypted file</string>
+    <string name="t_41bf312796">Encrypted file is locked</string>
+    <string name="t_fc32389b14">Encrypted files open read-only. Decrypt them to change them.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FileCipher.kt -->
     <string name="t_2a224e7e39">Created by a newer ManyFile. Update ManyFile to open this file.</string>
     <string name="t_89f1ece439">Unsupported key derivation</string>
     <string name="t_331681e3ee">Encrypted file is damaged or modified</string>
-    <string name="t_63a7a709b8">Not a ManyFile encrypted file</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/FileEncryption.kt -->
     <string name="t_5cda30a276">Encrypting %s</string>
     <string name="t_818672806c">Only files can be encrypted. Lock folders instead.</string>
@@ -1730,6 +1734,13 @@
     <string name="t_f5987306b2">Restores the original file in the same folder.</string>
     <string name="t_4096dde101">Delete encrypted files afterwards</string>
     <string name="t_72c38db397">Decrypt</string>
+    <string name="t_5a0d4da935">Open “%s”</string>
+    <string name="t_dd90e6c005">View opens it in ManyFile without a decrypted copy, and locks it again when you leave it. Decrypt makes a normal copy.</string>
+    <string name="t_296e591b7a">Remember my choice</string>
+    <string name="t_b1b8530bbd">Opening…</string>
+    <string name="t_fed4c9053d">Fingerprint</string>
+    <string name="t_69bd4ef9fb">View</string>
+    <string name="t_5ddd524a38">Decrypt…</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/FastScroll.kt -->
     <string name="t_51157ef504">Fast scroll</string>
     <string name="t_c84caa3705">Scroll to bottom</string>
@@ -1938,7 +1949,6 @@
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
     <string name="t_0a915a5987">Unlock %s</string>
-    <string name="t_fed4c9053d">Fingerprint</string>
     <string name="t_f38008ed2d">Unlock it to continue where you left off.</string>
     <string name="t_8e9a3fb3ca">Not used for</string>
     <string name="t_d97bc69a36">Photos, music, recorded videos, backups and the Documents folder are excluded.</string>
@@ -2214,7 +2224,6 @@
     <string name="t_c0a3ef619a">Move to…</string>
     <string name="t_37f0297a2e">Unhide</string>
     <string name="t_43a1488ee2">Show in gallery</string>
-    <string name="t_5ddd524a38">Decrypt…</string>
     <string name="t_cd4c044ae4">Encrypt…</string>
     <string name="t_2ae903583b">Compress PDF…</string>
     <string name="t_15d6b309a0">Add PDF password…</string>
@@ -3833,6 +3842,8 @@
     <string name="t_c9296e65df">Ask every time</string>
     <string name="t_389a70efea">Confirm permanent deletion</string>
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
+    <string name="t_3719021217">Tapping an encrypted file</string>
+    <string name="t_93ec7b2497">View in ManyFile or decrypt, or ask every time</string>
     <string name="t_f79746cfb9">Delete button in viewers</string>
     <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_c5b30f66ae">Paste in the More menu</string>
@@ -4055,6 +4066,7 @@
     <string name="t_c6a0b05271">Dual pane on</string>
     <string name="t_6382b6388d">Tabs only</string>
     <string name="t_9318c284b8">drag and drop</string>
+    <string name="t_a2ab8ba7e7">View in ManyFile</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_03e5ecb5d0">Applies after restart</string>
     <string name="t_86a4261d84">verify</string>
@@ -4381,7 +4393,6 @@
     <string name="t_ef9844d2b4">Choose another…</string>
     <string name="t_7545b0d578">USB drives</string>
     <string name="t_f3426bcdc2">No USB drives. Connect one with an OTG adapter.</string>
-    <string name="t_b1b8530bbd">Opening…</string>
     <string name="t_724437c21f">Tap to choose</string>
     <string name="t_853b8f212a">Erase and write %s</string>
     <string name="t_d6d90122f0">The drive won\'t appear as storage until reconnected.</string>
