@@ -5704,4 +5704,12 @@
     <string name="t_84946bd344">aucun compte Dropbox</string>
     <string name="t_1889fb075b">il est impossible d’ajouter des données à la fin des fichiers Dropbox</string>
     <string name="t_f844695ed0">Compte Dropbox</string>
+    <string name="t_4863fa37e1">Redémarrer ManyFile</string>
+    <string name="t_363a7e8db3">Le fermer et le rouvrir</string>
+    <string name="t_621d5d8d27">Redémarrer ManyFile ?</string>
+    <string name="t_4c4f45b5c3">Une tâche est en cours et sera arrêtée.</string>
+    <string name="t_7bf5a4853f">%s tâches sont en cours et seront arrêtées.</string>
+    <string name="t_7b40ce272e">ManyFile se ferme et se rouvre.</string>
+    <string name="t_cf3517f5f7">Le verrouillage de l’application sera de nouveau demandé.</string>
+    <string name="t_b134bd555a">Redémarrer</string>
 </resources>

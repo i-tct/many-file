@@ -4019,6 +4019,8 @@
     <string name="t_9402c505a8">Local copies of opened server files</string>
     <string name="t_2301acff42">Device &amp; build</string>
     <string name="t_6632a3ed87">Android version, device, native core</string>
+    <string name="t_4863fa37e1">Restart ManyFile</string>
+    <string name="t_363a7e8db3">Close it and open it again</string>
     <string name="t_7262c7b776">Reset all settings</string>
     <string name="t_7dc68a0044">Restore default settings</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsScreen.kt -->
@@ -4202,6 +4204,12 @@
     <string name="t_99b3dc1ef2">Send crash reports automatically</string>
     <string name="t_af644fb548">Without file paths, server names or accounts</string>
     <string name="t_963a652eae">Danger zone</string>
+    <string name="t_621d5d8d27">Restart ManyFile?</string>
+    <string name="t_4c4f45b5c3">A job is running and will stop.</string>
+    <string name="t_7bf5a4853f">%s jobs are running and will stop.</string>
+    <string name="t_7b40ce272e">ManyFile closes and opens again.</string>
+    <string name="t_cf3517f5f7">The app lock asks again.</string>
+    <string name="t_b134bd555a">Restart</string>
     <string name="t_bbfe660fd2">Reset all settings?</string>
     <string name="t_32e19e7330">All settings will be restored to defaults.</string>
     <string name="t_1b16bcb011">Follow system</string>
