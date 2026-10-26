@@ -5660,7 +5660,7 @@
     <string name="t_e05da8570f">Les GIF et les images WebP animées bougent dans les listes (nécessite Miniatures)</string>
     <!-- The guided tour, cloud analysis (2026-10-26) -->
     <string name="t_677c2c0d54">Trier, affichage, fichiers cachés, nouveau fichier ou dossier, et les outils de ce dossier : analyser son stockage, rechercher les doublons.</string>
-    <string name="t_2e1b94a2ce">Maintenez un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. La barre du bas les partage, copie, déplace, compresse ou supprime ; ⋮ propose le reste : chiffrer, verrouiller un dossier, définir la couverture d’un dossier…</string>
+    <string name="t_9679b5920a">Maintenez un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. La barre du bas les partage, copie, déplace, compresse ou supprime ; ⋮ propose le reste : chiffrer, verrouiller un dossier, et Choisir une couverture… pour mettre une image sur un dossier.</string>
     <string name="t_f04a41b6ee">Une visite qui ouvre chaque endroit au fur et à mesure : l’Accueil, le menu, vos fichiers et les Paramètres. Passez-la à tout moment : Paramètres → À propos → Visite guidée la relance.</string>
     <string name="t_42e6f31703">Toutes les photos, vidéos, chansons, documents et téléchargements du téléphone, où qu’ils soient. Ceux qui sont chiffrés y sont aussi, avec un cadenas.</string>
     <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox et MEGA. Dans un dossier cloud, ⋮ → Analyser le stockage trouve les doublons, les anciens fichiers et ce qui prend de la place.</string>
@@ -5712,4 +5712,9 @@
     <string name="t_7b40ce272e">ManyFile se ferme et se rouvre.</string>
     <string name="t_cf3517f5f7">Le verrouillage de l’application sera de nouveau demandé.</string>
     <string name="t_b134bd555a">Redémarrer</string>
+    <string name="t_6d471ec85a">Verrouiller une carte</string>
+    <string name="t_3d57840580">Maintenez le nom d’une carte, comme Catégories, pour la verrouiller : elle ne s’ouvre alors qu’après votre empreinte ou le verrouillage de l’écran. Pour verrouiller une seule tuile, maintenez-la et choisissez Verrouiller…</string>
+    <string name="t_dbfcfd1f23">Autres applications…</string>
+    <string name="t_dbc0994e58">Photos et fichiers d’autres applications, avec le sélecteur d’Android</string>
+    <string name="t_7814f1a66f">Photos de pages</string>
 </resources>

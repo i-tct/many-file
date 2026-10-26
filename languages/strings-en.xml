@@ -145,7 +145,7 @@
     <string name="t_4bab2d8fe1">More</string>
     <string name="t_677c2c0d54">Sort, view, hidden files, a new file or folder, and this folder\'s tools: analyze its storage, find copies.</string>
     <string name="t_ca89063ab3">Select files</string>
-    <string name="t_2e1b94a2ce">Hold a file to select it, then tap others to add them. The bar at the bottom shares, copies, moves, compresses or deletes them; ⋮ has the rest: encrypt, lock a folder, set a folder\'s cover…</string>
+    <string name="t_9679b5920a">Hold a file to select it, then tap others to add them. The bar at the bottom shares, copies, moves, compresses or deletes them; ⋮ has the rest: encrypt, lock a folder, and Choose cover… to put a picture on a folder.</string>
     <string name="t_31ba98404e">Welcome to ManyFile</string>
     <string name="t_f04a41b6ee">A tour that opens each place as it goes: Home, the menu, your files and Settings. Skip it any time: Settings → About → Welcome tour shows it again.</string>
     <string name="t_bce0641417">Search</string>
@@ -154,6 +154,8 @@
     <string name="t_d3ba2a5ddd">Tap a storage card on Home, or one in the menu, to open your files. Hold any tile on Home to move, recolour or hide it.</string>
     <string name="t_6ccb60071b">Categories</string>
     <string name="t_42e6f31703">Every picture, video, song, document and download on the phone, wherever it is. Encrypted ones are here too, with a lock.</string>
+    <string name="t_6d471ec85a">Lock a card</string>
+    <string name="t_3d57840580">Hold a card\'s name, like Categories, to lock it: it then opens only after your fingerprint or screen lock. To lock one tile, hold it and choose Lock…</string>
     <string name="t_147d44fce2">Cloud drives</string>
     <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox and MEGA. In a cloud folder, ⋮ → Analyze storage finds copies, old files and what takes the room.</string>
     <string name="t_4fa8cc860c">Tools</string>
@@ -1421,6 +1423,8 @@
     <string name="t_f2cf95b457">Enter path</string>
     <string name="t_9415d841b4">No folders</string>
     <string name="t_9a976fc228">Selected</string>
+    <string name="t_dbfcfd1f23">Other apps…</string>
+    <string name="t_dbc0994e58">Photos and files from other apps, through Android\'s picker</string>
     <string name="t_6e157c5da4">Create</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/IdentityCheck.kt -->
     <string name="t_6619f4706d">Confirm it\'s you</string>
@@ -2130,6 +2134,7 @@
     <string name="t_def2a545a3">Copied %s</string>
     <string name="t_d089e2d5a5">Moving to %s</string>
     <string name="t_e0f7ba8449">Copying to %s</string>
+    <string name="t_c06342c881">Add files</string>
     <string name="t_1437f31023">Add to vault…</string>
     <string name="t_9fdaa23025">Add files…</string>
     <string name="t_b043056e91">Paste as file</string>
@@ -4978,7 +4983,6 @@
     <string name="t_2d555a5bc3">No releases</string>
     <string name="t_c3e41faa9e">published %s by %s</string>
     <string name="t_2d5736033e">created %s by %s</string>
-    <string name="t_c06342c881">Add files</string>
     <string name="t_d41f56cea1">Release</string>
     <string name="t_f3e402d84f">Delete release…</string>
     <string name="t_4a23235b26">Draft. Visible only to people with push access.</string>
@@ -5286,6 +5290,7 @@
     <string name="t_983dafb9b0">From a picture</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/ScannerScreen.kt -->
     <string name="t_4d66f0d141">Finding the page… %d of %d</string>
+    <string name="t_7814f1a66f">Photos of pages</string>
     <string name="t_d61a63f567">Creating PDF… page %d of %d</string>
     <string name="t_56a2285c5b">Saving…</string>
     <string name="t_b6f995045b">Scan · 1 page</string>
