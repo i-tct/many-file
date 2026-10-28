@@ -93,6 +93,7 @@
     <string name="t_781961bc81">Pause</string>
     <string name="t_ba4e722612">Forward</string>
     <string name="t_58a4d661fc">Downloading %s</string>
+    <string name="t_fd57f2d359">Open in ManyFile</string>
     <string name="t_6a97f0474c">Running %s…</string>
     <string name="t_3670e23332">Couldn\'t download %s: %s</string>
     <string name="t_aa1e788a40">Couldn\'t open %s: %s</string>
@@ -132,6 +133,10 @@
     <string name="t_bd001d4d31">This build has no zsh</string>
     <string name="t_07c50d1cc0">Vault “%s” found on this phone: it is in the menu again</string>
     <string name="t_bf4862b529">%d vaults found on this phone: they are in the menu again</string>
+    <!-- app/src/main/kotlin/tct/manyfile/TerminalActivity.kt -->
+    <string name="t_ade89a27f4">Open the terminal</string>
+    <string name="t_3cf48aeba6">The terminal is locked</string>
+    <string name="t_6a9b0ef546">Unlock it with your fingerprint or screen lock.</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
     <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_a731ca287e">Phone terminal</string>
@@ -1119,7 +1124,6 @@
     <string name="t_e133b004d4">Map as a network drive (WebDAV). Windows: This PC → Map network drive. Mac: Finder → Go → Connect to Server.</string>
     <string name="t_385519c8d4">Everything shared</string>
     <string name="t_232e7df68b">Download all (.zip)</string>
-    <string name="t_fd57f2d359">Open in ManyFile</string>
     <string name="t_a590fc5b82">ManyFile Wi-Fi share. This page works only while sharing is on.</string>
     <string name="t_fb21ded021">Browse folders without ZIP in ManyFile (Open a Wi-Fi share) or as a WebDAV network folder:</string>
     <string name="t_afffdd08d8">folder</string>
@@ -3685,6 +3689,7 @@
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/BackupPage.kt -->
     <string name="t_18db48d505">Settings saved: %s</string>
     <string name="t_6562d01278">Restore settings</string>
+    <string name="t_0611703b75">Not a ManyFile settings backup</string>
     <string name="t_f4c8113c7f">Restore failed: %s</string>
     <string name="t_35ff9b445b">Includes settings, default apps, bookmarks, Quick access, saved searches, tags, notes, Commands, folder views, servers and folder syncs.</string>
     <string name="t_d9c07d63cb">Passwords, private keys, cloud sign-ins, vaults and history are not included.</string>

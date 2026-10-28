@@ -5744,4 +5744,8 @@
     <string name="t_3e5aa9e0dd">Fichiers les plus gros</string>
     <string name="t_b1c28fd922">Toutes cochées</string>
     <string name="t_b4ba1dc616">%s à libérer</string>
+    <string name="t_ade89a27f4">Ouvrir le terminal</string>
+    <string name="t_3cf48aeba6">Le terminal est verrouillé</string>
+    <string name="t_6a9b0ef546">Déverrouillez-le avec votre empreinte ou le verrouillage de l\'écran.</string>
+    <string name="t_0611703b75">Pas une sauvegarde des paramètres ManyFile</string>
 </resources>
