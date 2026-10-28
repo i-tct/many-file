@@ -5727,4 +5727,16 @@
     <string name="t_48967c521d">Retirer 1 dépôt de la liste ?</string>
     <string name="t_2595394c0b">Retirer %d dépôts de la liste ?</string>
     <string name="t_cf0dea84c2">Leurs dossiers et fichiers restent sur le téléphone ; ouvrez un dossier pour le lister de nouveau.</string>
+    <string name="t_7ce72cd2ec">Marque sur les dossiers verrouillés</string>
+    <string name="t_9d445e6eb5">Cadenas, bouclier, clé, empreinte… ou aucune</string>
+    <string name="t_0827141931">Bouclier</string>
+    <string name="t_c67dd20ee8">Clé</string>
+    <string name="t_63c3b20e73">Œil barré</string>
+    <string name="t_85a7de6e27">Étoile</string>
+    <string name="t_2a37335eeb">Cœur</string>
+    <string name="t_7e99a1369d">Aucune : comme tout autre dossier</string>
+    <string name="t_ca2755857c">Cadenas</string>
+    <string name="t_07d86e34ee">Afficher les copies</string>
+    <string name="t_3fd20b77e4">%s sur %s cochées</string>
+    <string name="t_0e1ec1a255">%s copies</string>
 </resources>

@@ -3844,6 +3844,8 @@
     <string name="t_9b2bc031e2">Tap icon for Quick look</string>
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
+    <string name="t_7ce72cd2ec">Mark on locked folders</string>
+    <string name="t_9d445e6eb5">Padlock, shield, key, fingerprint…, or none</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_8e2be1c691">Reload when files change</string>
     <string name="t_2ac267b06f">Exact dates</string>
@@ -4104,6 +4106,13 @@
     <string name="t_0524a62570">thumbnails</string>
     <string name="t_9e375df5a9">folder previews</string>
     <string name="t_6a9905e739">names only</string>
+    <string name="t_0827141931">Shield</string>
+    <string name="t_c67dd20ee8">Key</string>
+    <string name="t_63c3b20e73">Hidden eye</string>
+    <string name="t_85a7de6e27">Star</string>
+    <string name="t_2a37335eeb">Heart</string>
+    <string name="t_7e99a1369d">None: like any other folder</string>
+    <string name="t_ca2755857c">Padlock</string>
     <string name="t_7dd6e7c306">Index rebuilt: %s files</string>
     <string name="t_8d00b44bb8">Each folder keeps its own layout</string>
     <string name="t_95b4091599">Toolbar changes apply everywhere</string>
@@ -4619,13 +4628,18 @@
     <string name="t_d925b68f44">%d pages</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatePreviews.kt -->
     <string name="t_218ee5135c">Preview of %s</string>
+    <string name="t_07d86e34ee">Show the copies</string>
     <string name="t_0c2765e835">%s identical copies × %s · %s to free</string>
     <string name="t_a4b93e7e1b">All copies marked. The first is kept.</string>
+    <string name="t_3fd20b77e4">%s of %s marked</string>
+    <string name="t_42c26862ef">Keep first</string>
+    <string name="t_e9e554262b">Keep oldest</string>
     <string name="t_1aa27d8ab7">Keep only this copy</string>
     <string name="t_353ef8bde5">KEEP</string>
     <string name="t_d2e240ef60">Modified %s</string>
     <string name="t_68dccf6938">Open the folder of %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatesScreen.kt -->
+    <string name="t_0e1ec1a255">%s copies</string>
     <string name="t_7db08c31fb">%s marked · %s</string>
     <string name="t_83f93d8637">Finds files with identical content, regardless of name.</string>
     <string name="t_c907857cde">Minimum size (KB)</string>
@@ -4642,8 +4656,6 @@
     <string name="t_ae74c50e67">No duplicates</string>
     <string name="t_41c13c2c79">%s files scanned.</string>
     <string name="t_4fc61a3ff1">%s groups · %s wasted</string>
-    <string name="t_42c26862ef">Keep first</string>
-    <string name="t_e9e554262b">Keep oldest</string>
     <string name="t_8a35f18463">Keep shortest path</string>
     <string name="t_66e66c01b4">Keep in folder…</string>
     <string name="t_42d0a8077b">Add a folder to scan</string>
