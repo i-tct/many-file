@@ -1340,6 +1340,11 @@
     <string name="t_709a23220f">Name</string>
     <string name="t_3deb745651">Type</string>
     <string name="t_b7152342a2">Size</string>
+    <string name="t_636af6022b">Space to free</string>
+    <string name="t_01d8d8a3cb">Most copies</string>
+    <string name="t_3e5aa9e0dd">Largest files</string>
+    <string name="t_f5ec7772ca">Newest first</string>
+    <string name="t_6a99c65c33">Oldest first</string>
     <string name="t_4f8a62b721">Series only</string>
     <string name="t_59a0c061cd">All videos</string>
     <string name="t_e3de5ab0ca">Off</string>
@@ -2772,8 +2777,6 @@
     <string name="t_5f48c58018">Clear the shown</string>
     <string name="t_c043160a89">Clear all</string>
     <string name="t_b35da2bbd9">Remove from recents</string>
-    <string name="t_6a99c65c33">Oldest first</string>
-    <string name="t_f5ec7772ca">Newest first</string>
     <string name="t_4455a32fa5">Smallest first</string>
     <string name="t_d2b6b37336">Largest first</string>
     <string name="t_3ae085e5fa">A to Z</string>
@@ -4632,6 +4635,8 @@
     <string name="t_0c2765e835">%s identical copies × %s · %s to free</string>
     <string name="t_a4b93e7e1b">All copies marked. The first is kept.</string>
     <string name="t_3fd20b77e4">%s of %s marked</string>
+    <string name="t_b1c28fd922">All marked</string>
+    <string name="t_b4ba1dc616">%s to free</string>
     <string name="t_42c26862ef">Keep first</string>
     <string name="t_e9e554262b">Keep oldest</string>
     <string name="t_1aa27d8ab7">Keep only this copy</string>

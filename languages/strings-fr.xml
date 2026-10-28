@@ -5739,4 +5739,9 @@
     <string name="t_07d86e34ee">Afficher les copies</string>
     <string name="t_3fd20b77e4">%s sur %s cochées</string>
     <string name="t_0e1ec1a255">%s copies</string>
+    <string name="t_636af6022b">Espace à libérer</string>
+    <string name="t_01d8d8a3cb">Le plus de copies</string>
+    <string name="t_3e5aa9e0dd">Fichiers les plus gros</string>
+    <string name="t_b1c28fd922">Toutes cochées</string>
+    <string name="t_b4ba1dc616">%s à libérer</string>
 </resources>
