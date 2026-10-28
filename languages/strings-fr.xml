@@ -5748,4 +5748,12 @@
     <string name="t_3cf48aeba6">Le terminal est verrouillé</string>
     <string name="t_6a9b0ef546">Déverrouillez-le avec votre empreinte ou le verrouillage de l\'écran.</string>
     <string name="t_0611703b75">Pas une sauvegarde des paramètres ManyFile</string>
+    <string name="t_e409061e91">Connectez-vous pour continuer</string>
+    <string name="t_72b8a9749b">ManyFile doit vérifier qu\'il est à jour. Activez Internet ou autorisez ManyFile à utiliser le réseau (Paramètres → Applications → ManyFile).</string>
+    <string name="t_2b3691c548">Impossible de joindre le serveur de ManyFile. Vérifiez la connexion et réessayez.</string>
+    <string name="t_d69225a7d4">Paramètres de l\'appli</string>
+    <string name="t_7e3520a973">Quitter</string>
+    <string name="t_5dc17c155f">Cette copie de ManyFile a été modifiée</string>
+    <string name="t_1b5120dc9e">Elle n\'est pas signée par le développeur de ManyFile : on ne peut pas lui confier vos fichiers. Installez ManyFile depuis sa page officielle.</string>
+    <string name="t_b681fffb28">Obtenir ManyFile</string>
 </resources>

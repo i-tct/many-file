@@ -80,6 +80,17 @@
     <string name="t_b03dba5fa6">Make a bootable USB drive</string>
     <string name="t_aa2a3de913">Open with…</string>
     <string name="t_09ca55ca52">Share</string>
+    <!-- app/src/main/kotlin/tct/manyfile/Gates.kt -->
+    <string name="t_e409061e91">Connect to continue</string>
+    <string name="t_72b8a9749b">ManyFile needs to check that it is up to date. Turn on the internet, or allow ManyFile to use the network (Settings → Apps → ManyFile).</string>
+    <string name="t_2b3691c548">Couldn\'t reach ManyFile\'s server. Check the connection and try again.</string>
+    <string name="t_042c862e44">Try again</string>
+    <string name="t_d69225a7d4">App settings</string>
+    <string name="t_7e3520a973">Leave</string>
+    <string name="t_5c3627df89">Continue anyway (debug build)</string>
+    <string name="t_5dc17c155f">This copy of ManyFile was changed</string>
+    <string name="t_1b5120dc9e">It isn\'t signed by ManyFile\'s developer, so it can\'t be trusted with your files. Install ManyFile from its official page.</string>
+    <string name="t_b681fffb28">Get ManyFile</string>
     <!-- app/src/main/kotlin/tct/manyfile/ItemShortcuts.kt -->
     <string name="t_5641cb4250">Home screen doesn\'t support shortcuts</string>
     <!-- app/src/main/kotlin/tct/manyfile/MainActivity.kt -->
@@ -3485,7 +3496,6 @@
     <string name="t_1cfceb0b1f">this phone</string>
     <string name="t_40bee6e97a">tmux on %s</string>
     <string name="t_ab79d69388">tmux is not installed</string>
-    <string name="t_042c862e44">Try again</string>
     <string name="t_31640fe9f0">Loading sessions…</string>
     <string name="t_ee0521746a">No sessions</string>
     <string name="t_745f2c7a75">Existing sessions</string>
@@ -3800,7 +3810,6 @@
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/RequiredUpdate.kt -->
     <string name="t_0d660a2749">Update ManyFile</string>
     <string name="t_9b20bbbfc9">Version %s is no longer supported. Update to %s or newer.</string>
-    <string name="t_5c3627df89">Continue anyway (debug build)</string>
     <string name="t_4d587066cd">ManyFile %s is ready to download.</string>
     <string name="t_26fc034676">ManyFile %s isn\'t on GitHub yet. Try again later.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsIndex.kt -->
