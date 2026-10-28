@@ -1641,8 +1641,8 @@
     <string name="t_78003c0d88">Enregistré à côté de l’original. Pour une vidéo, seul le son est conservé.</string>
     <string name="t_3f15ce7953">Convertir</string>
     <string name="t_638ef4c4e9">Mot de passe pour ouvrir %s</string>
-    <string name="t_31bbea6125">Demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau avec les coffres.</string>
-    <string name="t_3ceab29e22">Facultatif : demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau avec les coffres. Les sauvegardes et synchronisations vers lui continuent.</string>
+    <string name="t_ea66305942">Demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau (ci-dessous).</string>
+    <string name="t_6e4420fd6a">Facultatif : demandé avant d’afficher ses fichiers, jusqu’à ce qu’il se verrouille de nouveau (ci-dessous). Les sauvegardes et synchronisations vers lui continuent.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Chiffrer %s</string>
     <string name="t_fba4d2eeb8">Crée une copie chiffrée de chaque fichier à côté de lui, dans le même dossier : photo.jpg devient photo.jpg.mfenc (AES-256). Touchez-la et saisissez le mot de passe pour récupérer le fichier. Images et Vidéos n’affichent pas les copies chiffrées.</string>
@@ -5664,7 +5664,7 @@
     <string name="t_f04a41b6ee">Une visite qui ouvre chaque endroit au fur et à mesure : l’Accueil, le menu, vos fichiers et les Paramètres. Passez-la à tout moment : Paramètres → À propos → Visite guidée la relance.</string>
     <string name="t_42e6f31703">Toutes les photos, vidéos, chansons, documents et téléchargements du téléphone, où qu’ils soient. Ceux qui sont chiffrés y sont aussi, avec un cadenas.</string>
     <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox et MEGA. Dans un dossier cloud, ⋮ → Analyser le stockage trouve les doublons, les anciens fichiers et ce qui prend de la place.</string>
-    <string name="t_461e62b5c6">Nettoyeur, analyseur de stockage, doublons, coffres-forts, partage Wi-Fi et plus. La dernière tuile ajoute ou retire des outils.</string>
+    <string name="t_e69772cca7">Nettoyeur, analyseur de stockage, doublons, coffres-forts, partage Wi-Fi et plus. Touchez son nom pour les afficher ou les replier ; la dernière tuile ajoute ou retire des outils.</string>
     <string name="t_764ca4fdc4">Chaque stockage et chaque endroit : serveurs, stockages cloud, coffres-forts et dossiers verrouillés, et tous les outils. ☰ l’ouvre, ou un glissement depuis la gauche sur l’Accueil.</string>
     <string name="t_cbfaf37ee5">Chaque paramètre se trouve par un mot : thème, verrouillage, sauvegarde…</string>
     <string name="t_225249488b">Thème, couleurs, verre ou opaque, et la taille et le style des icônes de l’Accueil.</string>
@@ -5717,4 +5717,14 @@
     <string name="t_dbfcfd1f23">Autres applications…</string>
     <string name="t_dbc0994e58">Photos et fichiers d’autres applications, avec le sélecteur d’Android</string>
     <string name="t_7814f1a66f">Photos de pages</string>
+    <string name="t_ea98371b75">Verrouiller de nouveau</string>
+    <string name="t_266eb32c1e">Pour tous les stockages et serveurs avec un mot de passe, après avoir quitté ManyFile.</string>
+    <string name="t_10acd3b445">Masquer de l’accueil</string>
+    <string name="t_f9f4c272c0">%s masqué. Réorganiser l’accueil l’affiche de nouveau.</string>
+    <string name="t_560ca83919">Le tri suit dans les dossiers</string>
+    <string name="t_ce93d6f6b7">Désactivé : un tri choisi dans un dossier ne vaut que pour ce dossier</string>
+    <string name="t_4dc0b262d5">Maintenez un dépôt pour le sélectionner.</string>
+    <string name="t_48967c521d">Retirer 1 dépôt de la liste ?</string>
+    <string name="t_2595394c0b">Retirer %d dépôts de la liste ?</string>
+    <string name="t_cf0dea84c2">Leurs dossiers et fichiers restent sur le téléphone ; ouvrez un dossier pour le lister de nouveau.</string>
 </resources>

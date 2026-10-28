@@ -159,7 +159,7 @@
     <string name="t_147d44fce2">Cloud drives</string>
     <string name="t_b0eaec0384">Google Drive, OneDrive, Dropbox and MEGA. In a cloud folder, ⋮ → Analyze storage finds copies, old files and what takes the room.</string>
     <string name="t_4fa8cc860c">Tools</string>
-    <string name="t_461e62b5c6">Cleaner, storage analyzer, copies, vaults, Wi-Fi share and more. The last tile adds or removes tools.</string>
+    <string name="t_e69772cca7">Cleaner, storage analyzer, copies, vaults, Wi-Fi share and more. Tap its name to show or fold them; the last tile adds or removes tools.</string>
     <string name="t_437736fdb5">Jobs</string>
     <string name="t_a2fcd8479b">Copies, moves and downloads run here in the background: pause, stop or retry them.</string>
     <string name="t_c9ae02841b">The menu</string>
@@ -1689,6 +1689,7 @@
     <string name="t_b4be01123b">current format</string>
     <string name="t_a8e973a4fb">Saved next to the originals. The date taken is kept; location data is removed.</string>
     <string name="t_284003b30a">%s account</string>
+    <string name="t_94ac9a58b6">Rename…</string>
     <string name="t_bbf5cf0fd7">%s used of %s</string>
     <string name="t_aed4fa91a4">Sign out of %s? Your files stay on %s.</string>
     <string name="t_dc1649a16c">Sign out</string>
@@ -1748,8 +1749,8 @@
     <string name="t_ba552c2af9">Fingerprint unlock was reset. Use the password.</string>
     <string name="t_595ef66527">Couldn\'t unlock</string>
     <string name="t_638ef4c4e9">Password to open %s</string>
-    <string name="t_31bbea6125">Asked before its files show, until it locks again with the vaults.</string>
-    <string name="t_3ceab29e22">Optional: asked before its files show, until it locks again with the vaults. Backups and syncs to it carry on.</string>
+    <string name="t_ea66305942">Asked before its files show, until it locks again (below).</string>
+    <string name="t_6e4420fd6a">Optional: asked before its files show, until it locks again (below). Backups and syncs to it carry on.</string>
     <string name="t_d850ee188c">New password</string>
     <string name="t_0731d31716">At least %d characters</string>
     <string name="t_11bac5b072">Forgot it? Signing out of the account, or deleting the server, takes it off.</string>
@@ -1758,6 +1759,12 @@
     <string name="t_092a16e7af">Password changed</string>
     <string name="t_676101c80f">Password set</string>
     <string name="t_448ab73ba1">Set</string>
+    <string name="t_ea98371b75">Lock again</string>
+    <string name="t_266eb32c1e">For all drives and servers with a password, after leaving ManyFile.</string>
+    <string name="t_21b60a9549">Immediately</string>
+    <string name="t_80c3052d33">Never</string>
+    <string name="t_0c22eab290">%s min</string>
+    <string name="t_aca95ca149">Lock when the screen turns off</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/EncryptDialogs.kt -->
     <string name="t_35b9be37fa">Encrypt %s</string>
     <string name="t_4d45dd261a">Makes an encrypted copy of each file next to it, in the same folder: photo.jpg becomes photo.jpg.mfenc (AES-256). Tap it and type the password to view it or get it back.</string>
@@ -2081,10 +2088,6 @@
     <string name="t_9206d8f06d">Off: open them from their folders</string>
     <string name="t_b5eb447bf7">Auto-lock</string>
     <string name="t_5a597f5710">For all vaults and locked folders, after leaving ManyFile.</string>
-    <string name="t_21b60a9549">Immediately</string>
-    <string name="t_80c3052d33">Never</string>
-    <string name="t_0c22eab290">%s min</string>
-    <string name="t_aca95ca149">Lock when the screen turns off</string>
     <string name="t_ea2c08e48d">Move to vault</string>
     <string name="t_51acf8dd03">Copy to vault</string>
     <string name="t_2b41d98ef7">Files are encrypted into the vault, then deleted from here.</string>
@@ -2611,6 +2614,7 @@
     <string name="t_f5e4635242">S3 storage</string>
     <string name="t_98b0ed858a">Add account</string>
     <string name="t_5dcc791366">Add another account</string>
+    <string name="t_10acd3b445">Hide from Home</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
     <string name="t_017b278c13">Drag ≡ to reorder sections, long-press to move tiles, tap − to hide.</string>
     <string name="t_7a6728bdc2">Icon size</string>
@@ -2637,6 +2641,7 @@
     <string name="t_e49d44d8c5">The folder and its files are not deleted.</string>
     <string name="t_4924cbd767">Replace %s</string>
     <string name="t_316f0b5edb">%d active jobs</string>
+    <string name="t_f9f4c272c0">%s hidden. Rearrange Home shows it again.</string>
     <string name="t_57d24fdbad">Edit tools</string>
     <string name="t_c5e23457aa">connected</string>
     <string name="t_544aa0b589">Manage bookmarks</string>
@@ -2645,7 +2650,6 @@
     <string name="t_0d52befa5c">Rearrange Home</string>
     <string name="t_03eb1a4433">Add folder</string>
     <string name="t_64ca199c85">Replace…</string>
-    <string name="t_94ac9a58b6">Rename…</string>
     <string name="t_9d187d3f8f">Change icon…</string>
     <string name="t_9155fcfc36">Lock…</string>
     <string name="t_e2913e431d">Hide from Home…</string>
@@ -3869,6 +3873,8 @@
     <string name="t_5d02c49bfe">Per-folder view</string>
     <string name="t_a1b7ba9901">Remember layout per folder</string>
     <string name="t_d05ddceb59">Off: toolbar changes apply to all folders</string>
+    <string name="t_560ca83919">Sort follows into folders</string>
+    <string name="t_ce93d6f6b7">Off: a sort chosen in a folder is for that folder only</string>
     <string name="t_0a0ec714d3">Folders of pictures, music or documents in a layout of their own</string>
     <string name="t_86d4cc315a">Reset folder layouts</string>
     <string name="t_5c97c504a8">Use the default layout everywhere</string>
@@ -4732,11 +4738,15 @@
     <string name="t_e2b8f69ce1">Open folder…</string>
     <string name="t_c91e6e6a53">Repositories</string>
     <string name="t_eb54a55307">No repositories. Clone one or open a folder.</string>
+    <string name="t_4dc0b262d5">Hold a repository to select it.</string>
     <string name="t_1903e34a9f">https:// and SSH addresses work. Private repositories over https:// need sign-in or a personal access token; over SSH, your SSH key.</string>
     <string name="t_0789987bf2">https:// and SSH addresses work. GitHub and GitLab need a personal access token for private repositories over https://; over SSH, your SSH key.</string>
     <string name="t_6a1d203c23">Signed in to GitHub as %s</string>
     <string name="t_7399ca8006">Sign out of GitHub?</string>
     <string name="t_6bd39022b6">Removes the sign-in from this device. To revoke it on GitHub, go to Settings → Applications or Developer settings → Personal access tokens.</string>
+    <string name="t_48967c521d">Remove 1 repository from the list?</string>
+    <string name="t_2595394c0b">Remove %d repositories from the list?</string>
+    <string name="t_cf0dea84c2">Their folders and files stay on the phone; open a folder to list it again.</string>
     <string name="t_47d70bc3da">Open repository</string>
     <string name="t_fe74cf4d5f">Not a Git repository</string>
     <string name="t_8062564421">Create a Git repository in %s?</string>
