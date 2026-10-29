@@ -5756,4 +5756,18 @@
     <string name="t_5dc17c155f">Cette copie de ManyFile a été modifiée</string>
     <string name="t_1b5120dc9e">Elle n\'est pas signée par le développeur de ManyFile : on ne peut pas lui confier vos fichiers. Installez ManyFile depuis sa page officielle.</string>
     <string name="t_b681fffb28">Obtenir ManyFile</string>
+    <string name="t_93c6b9e1c1">Le compte %s est déjà ajouté. Pour ajouter un autre compte pCloud, déconnectez-vous d\'abord sur la page de pCloud.</string>
+    <string name="t_42aa4dc615">Échec de la connexion à pCloud : %s</string>
+    <string name="t_39f6e18e10">Google Drive, OneDrive, Dropbox, pCloud et MEGA. Dans un dossier cloud, ⋮ → Analyser le stockage trouve les doublons, les anciens fichiers et ce qui prend de la place.</string>
+    <string name="t_cc38894915">pCloud n\'a pas fourni de lien de téléchargement</string>
+    <string name="t_9be30d8594">Session pCloud expirée. Reconnectez-vous.</string>
+    <string name="t_6fab87c782">pCloud n\'est pas disponible dans cette version</string>
+    <string name="t_1503cc17f3">aucun compte pCloud</string>
+    <string name="t_d6b94ed118">il est impossible d\'ajouter des données à la fin des fichiers pCloud</string>
+    <string name="t_1ce2ec7946">Compte pCloud</string>
+    <string name="t_e612ad3c8d">Serveurs SFTP, SMB, WebDAV, FTP et S3, Google Drive, OneDrive, Dropbox, pCloud et MEGA comme des dossiers</string>
+    <string name="t_3310b07eb6">Aucun compte cloud. Ajoutez Google Drive ici, ou OneDrive, Dropbox, pCloud ou MEGA depuis la section Cloud du menu.</string>
+    <string name="t_f44d85494c">Google Drive, OneDrive, Dropbox, pCloud et MEGA, également avec les données mobiles</string>
+    <string name="t_b7c0fdc470">Google Drive, OneDrive, Dropbox, pCloud, MEGA, un serveur ou le téléphone</string>
+    <string name="t_f50296ec5e">Google Drive, OneDrive, Dropbox, pCloud et MEGA gardent les fichiers supprimés dans leur propre corbeille pendant un temps. Ailleurs, ils sont supprimés définitivement.</string>
 </resources>
