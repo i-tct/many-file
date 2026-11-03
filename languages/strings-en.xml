@@ -134,6 +134,9 @@
     <string name="t_e9b450d14b">Done</string>
     <string name="t_4e9b031813">ManyFile closed unexpectedly</string>
     <string name="t_0fbb3cac17">Reset tabs</string>
+    <string name="t_5631bb10fd">Reset tabs?</string>
+    <string name="t_edca34aeea">Every open tab closes.</string>
+    <string name="t_44c57abd88">Reset</string>
     <string name="t_3fd293a9d6">%s of %s</string>
     <string name="t_5f3b4d3795">Connecting to %s…</string>
     <string name="t_94e10f342b">Couldn\'t connect to %s</string>
@@ -197,6 +200,12 @@
     <string name="t_6fd39ac448">Weekly reminders when junk has piled up</string>
     <string name="t_0cf7287a00">%s of junk to clean</string>
     <string name="t_6c4221327b">Caches, temporary files and empty folders. Tap to look in the Cleaner.</string>
+    <!-- app/src/main/kotlin/tct/manyfile/background/UpdatedReceiver.kt -->
+    <string name="t_16213f85d7">App updates</string>
+    <string name="t_04d2afa7ee">When ManyFile has updated itself</string>
+    <string name="t_8eb5235314">ManyFile updated</string>
+    <string name="t_9f22f82e3b">ManyFile updated to %s</string>
+    <string name="t_a12f15758e">Tap to open</string>
     <!-- app/src/main/kotlin/tct/manyfile/share/ManyFileDocuments.kt -->
     <string name="t_d1a17af19f">Not available</string>
     <string name="t_07c2964c41">Google Drive</string>
@@ -2510,6 +2519,7 @@
     <string name="t_45cbd796e6">Go to line…</string>
     <string name="t_5409e9c46e">Unsaved changes in %s</string>
     <string name="t_130b03e444">Show changes</string>
+    <string name="t_d905714863">Save as…</string>
     <string name="t_9d91d3f268">Word wrap</string>
     <string name="t_d08aaa54e8">Line numbers</string>
     <string name="t_7b7b3d66c7">Auto-indent</string>
@@ -2517,15 +2527,16 @@
     <string name="t_118f9b2b30">Larger text</string>
     <string name="t_a8ea9e3089">Smaller text</string>
     <string name="t_0a7262c49b">Show frame timings</string>
-    <string name="t_89b86ab0e6">Language</string>
-    <string name="t_c9ec7fcf0c">Indentation</string>
-    <string name="t_611da53ceb">Tab characters</string>
-    <string name="t_53e1fc5ecc">%d spaces</string>
+    <string name="t_a3bb3e0cf2">Language: %s</string>
+    <string name="t_3ddc206bd9">Indentation: %s</string>
     <string name="t_85315c08f6">Line endings: %s</string>
     <string name="t_261fd6ae5b">Reload from disk</string>
     <string name="t_fcb2444255">Recover unsaved changes?</string>
     <string name="t_f603f2494f">An unsaved draft of this file was found.</string>
     <string name="t_ab300c41bc">Restore draft</string>
+    <string name="t_c9ec7fcf0c">Indentation</string>
+    <string name="t_68c737060d">Line endings</string>
+    <string name="t_f313a0b181">Save as</string>
     <string name="t_bfab64aaac">Go to line</string>
     <string name="t_5774f6af4a">Line (1–%s)</string>
     <string name="t_6bef9c1762">Enter a line number</string>
@@ -2549,6 +2560,9 @@
     <string name="t_853d42bcea">Close find</string>
     <string name="t_2113457a6c">Ln %s, Col %s</string>
     <string name="t_48d438f044">%d lines</string>
+    <string name="t_611da53ceb">Tab characters</string>
+    <string name="t_53e1fc5ecc">%d spaces</string>
+    <string name="t_89b86ab0e6">Language</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorViewModel.kt -->
     <string name="t_d6b87854ed">Couldn\'t open file</string>
     <string name="t_c20c673456">Autosave off</string>
@@ -2615,7 +2629,8 @@
     <string name="t_c880999562">System files</string>
     <string name="t_9239ee2cda">General</string>
     <string name="t_6292acfc09">Customize menu</string>
-    <string name="t_44c57abd88">Reset</string>
+    <string name="t_17bf1a98f0">Reset the menu?</string>
+    <string name="t_622d854858">Its items go back to their original order, and hidden ones show again.</string>
     <string name="t_e7f58c9dec">Collapse %s</string>
     <string name="t_73a0b070f1">Show %s</string>
     <string name="t_a1bb4fe8db">%s free</string>
@@ -2648,6 +2663,8 @@
     <string name="t_10acd3b445">Hide from Home</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeEditor.kt -->
     <string name="t_017b278c13">Drag ≡ to reorder sections, long-press to move tiles, tap − to hide.</string>
+    <string name="t_beff05e407">Reset Home?</string>
+    <string name="t_a5763b8663">Sections and tiles go back to their original order, and hidden ones show again.</string>
     <string name="t_7a6728bdc2">Icon size</string>
     <string name="t_762cb6eaf4">Drag %s</string>
     <string name="t_e01b76de48">Hidden tiles (tap to show)</string>
@@ -2700,6 +2717,8 @@
     <string name="t_a86cf61891">Apps &amp; system</string>
     <string name="t_3f347a8691">File system via Shizuku</string>
     <string name="t_d603222ed6">Full file system (root)</string>
+    <string name="t_9b722d3ba9">%s free of %s</string>
+    <string name="t_23f347761c">Lock or unlock</string>
     <string name="t_8d1b65e9eb">Name on Home</string>
     <string name="t_77561f3d48">Original name</string>
     <string name="t_55a91d495b">Device folder</string>
@@ -2875,6 +2894,7 @@
     <string name="t_b28f19e5aa">Retry job</string>
     <string name="t_d3c961920a">Cancel job</string>
     <string name="t_23a97691b4">Remove from list</string>
+    <string name="t_90218af7b5">Finishing…</string>
     <string name="t_827c9721c4">Stopping…</string>
     <string name="t_6a599877d7">Queued</string>
     <string name="t_0b1d6c0b1a">Preparing…</string>
@@ -3011,7 +3031,6 @@
     <string name="t_2530fd76d5">%d s</string>
     <string name="t_6b46f28928">Fade in</string>
     <string name="t_72f7b2efde">Fade out</string>
-    <string name="t_f313a0b181">Save as</string>
     <string name="t_5751d51aff">Same (%s)</string>
     <string name="t_9f01510c90">The sound is copied exactly, without re-encoding.</string>
     <string name="t_11004627fa">The sound is re-encoded for this. The song itself stays unchanged.</string>
@@ -3646,6 +3665,11 @@
     <string name="t_b4d8b30e51">%d releases</string>
     <string name="t_2d2520785a">Opens %s</string>
     <string name="t_b6e7a55902">ManyFile %s</string>
+    <string name="t_3e5f51b7d2">Open Google Play</string>
+    <string name="t_62d15b8317">Rate ManyFile</string>
+    <string name="t_3d66f28bb8">Give it stars on Google Play. Your rating helps other people find ManyFile.</string>
+    <string name="t_1b86d3748e">Rate on Google Play</string>
+    <string name="t_9becc508c5">Star on GitHub</string>
     <string name="t_d6b1dc11a8">No app can open %s</string>
     <string name="t_736b9062b3">Check for updates</string>
     <string name="t_9e8883df0b">ManyFile and the Media Engine, from GitHub releases</string>
@@ -3833,11 +3857,12 @@
     <string name="t_f35a605d19">Item counts on Home and in the menu</string>
     <string name="t_4e947596f8">Storage map on Home</string>
     <string name="t_5fa41619d6">Storage usage by file type</string>
+    <string name="t_243377098e">Account count on cloud drives</string>
+    <string name="t_82fde59f48">The number on a cloud drive\'s icon when it has several accounts</string>
     <string name="t_72b714ce85">Lock Home layout</string>
     <string name="t_f7f96d5317">No rearranging, renaming or hiding on Home</string>
     <string name="t_0779961bcf">Home icon size</string>
     <string name="t_26543fc0c6">Home icon style</string>
-    <string name="t_a11f1065f0">Material, round, square, expressive or classic</string>
     <string name="t_b78a45fef3">Pinch to resize Home icons</string>
     <string name="t_2447b7c9e4">Two fingers on Home make icons bigger or smaller</string>
     <string name="t_2512fa5546">Move tiles between cards</string>
@@ -3873,7 +3898,6 @@
     <string name="t_78e206e839">Preview a file without opening it</string>
     <string name="t_656bcfe284">Extensions</string>
     <string name="t_7ce72cd2ec">Mark on locked folders</string>
-    <string name="t_9d445e6eb5">Padlock, shield, key, fingerprint…, or none</string>
     <string name="t_03883c6b08">Auto-refresh</string>
     <string name="t_8e2be1c691">Reload when files change</string>
     <string name="t_2ac267b06f">Exact dates</string>
@@ -3905,7 +3929,6 @@
     <string name="t_d05ddceb59">Off: toolbar changes apply to all folders</string>
     <string name="t_560ca83919">Sort follows into folders</string>
     <string name="t_ce93d6f6b7">Off: a sort chosen in a folder is for that folder only</string>
-    <string name="t_0a0ec714d3">Folders of pictures, music or documents in a layout of their own</string>
     <string name="t_86d4cc315a">Reset folder layouts</string>
     <string name="t_5c97c504a8">Use the default layout everywhere</string>
     <string name="t_7e08ebec5e">Developer</string>
@@ -3928,22 +3951,18 @@
     <string name="t_f5e1911f34">Drag and drop</string>
     <string name="t_c88a6620a4">Long-press and drag files to the other pane or another app</string>
     <string name="t_afd9116a36">Delete behaviour</string>
-    <string name="t_7335943738">Reset delete choice</string>
-    <string name="t_c9296e65df">Ask every time</string>
     <string name="t_389a70efea">Confirm permanent deletion</string>
     <string name="t_dc2f89a0c1">Always ask before deleting permanently</string>
+    <string name="t_f79746cfb9">Delete button in viewers</string>
+    <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_3719021217">Tapping an encrypted file</string>
-    <string name="t_93ec7b2497">View in ManyFile or decrypt, or ask every time</string>
     <string name="t_f2864a3542">Keep originals when encrypting</string>
     <string name="t_2d22b5ec3f">Off: deleted once each encrypted copy is checked</string>
     <string name="t_556c2ea04c">Keep encrypted files when decrypting</string>
     <string name="t_a51e0faff9">Off: deleted once the file is restored</string>
-    <string name="t_f79746cfb9">Delete button in viewers</string>
-    <string name="t_c2085a0ed4">Show Delete on screen in the image viewer and video player, instead of in the More menu</string>
     <string name="t_c5b30f66ae">Paste in the More menu</string>
     <string name="t_afea9c34ee">Paste what you copied last in as many folders as you like, from the More menu</string>
     <string name="t_c2f2f22c32">When a file exists</string>
-    <string name="t_20d00e4523">Reset existing-file choice</string>
     <string name="t_f0ca7dfbe8">Built-in document scanner</string>
     <string name="t_6e3c01d092">Off: use Google\'s scanner when available</string>
     <string name="t_df2198607a">Auto-capture</string>
@@ -4029,9 +4048,9 @@
     <string name="t_799dc96b04">Start all media from the beginning</string>
     <string name="t_6c991a0683">Clear watch history</string>
     <string name="t_dc693abd08">Remove the progress bar and ✓ from all videos</string>
-    <string name="t_122c169e4c">Allow root access</string>
     <string name="t_987edec4e1">Root (/) in the menu</string>
     <string name="t_8ab65cc3d5">A read-only look at the whole file system. Always shown with root or Shizuku access.</string>
+    <string name="t_122c169e4c">Allow root access</string>
     <string name="t_a123cae925">Use Shizuku</string>
     <string name="t_7874f56e84">Delete items in the Bin after</string>
     <string name="t_8e55cb7d44">Bin size limit</string>
@@ -4144,6 +4163,7 @@
     <string name="t_7dd6e7c306">Index rebuilt: %s files</string>
     <string name="t_8d00b44bb8">Each folder keeps its own layout</string>
     <string name="t_95b4091599">Toolbar changes apply everywhere</string>
+    <string name="t_79ce317c58">Every folder goes back to the default layout.</string>
     <string name="t_b4f91188f6">Folder layouts reset</string>
     <string name="t_c039829136">None: every folder uses the default layout</string>
     <string name="t_cc0bee788a">1 rule on</string>
@@ -4167,7 +4187,12 @@
     <string name="t_c6a0b05271">Dual pane on</string>
     <string name="t_6382b6388d">Tabs only</string>
     <string name="t_9318c284b8">drag and drop</string>
+    <string name="t_7335943738">Reset delete choice</string>
+    <string name="t_c9296e65df">Ask every time</string>
+    <string name="t_e4214dc04f">Delete will ask every time.</string>
     <string name="t_a2ab8ba7e7">View in ManyFile</string>
+    <string name="t_20d00e4523">Reset existing-file choice</string>
+    <string name="t_4b0b4eb525">Copying onto an existing file will ask every time.</string>
     <string name="t_6afde9656f">%s at a time</string>
     <string name="t_03e5ecb5d0">Applies after restart</string>
     <string name="t_86a4261d84">verify</string>
@@ -4181,8 +4206,10 @@
     <string name="t_0965bb6376">no metered networks</string>
     <string name="t_40269f688b">Automatic (by size)</string>
     <string name="t_6ae1dfd749">Others wait in the queue</string>
+    <string name="t_cee1cb8a8b">Delete and overwrite will ask again.</string>
     <string name="t_39134a4275">Remembered decisions reset</string>
     <string name="t_b77aac4ad8">Defaults set with “Always” in “Open with…”.</string>
+    <string name="t_8bb7d57b09">Every file type goes back to opening automatically.</string>
     <string name="t_922d1a2877">Defaults cleared</string>
     <string name="t_f008390f59">Larger files open in the read-only viewer</string>
     <string name="t_203bcdb28c">Tab %d</string>
@@ -4204,6 +4231,7 @@
     <string name="t_7128405823">Root access granted (%s).</string>
     <string name="t_6d9f3510ab">Root access granted.</string>
     <string name="t_7f9362bce2">Open Root (/) from the ☰ menu.</string>
+    <string name="t_f141fcda76">Allow ManyFile in %s (Superuser), then turn this on again.</string>
     <string name="t_9bce0c83de">Device not rooted</string>
     <string name="t_79fc372dc7">Good to know</string>
     <string name="t_235c4205a1">Changing the wrong file can break apps or Android and can\'t be undone.</string>
@@ -4510,7 +4538,6 @@
     <string name="t_a84d00ac84">MBR works on most computers. Use GPT if a computer won\'t boot from MBR.</string>
     <string name="t_b73388a996">Drives over 2 TB require GPT.</string>
     <string name="t_aeccaea545">Files on the drive</string>
-    <string name="t_9b722d3ba9">%s free of %s</string>
     <string name="t_1a46941812">No files yet</string>
     <string name="t_8d6f282037">Delete %s</string>
     <string name="t_b2160da22d">Add ISO file…</string>
@@ -4657,6 +4684,7 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatePreviews.kt -->
     <string name="t_218ee5135c">Preview of %s</string>
     <string name="t_07d86e34ee">Show the copies</string>
+    <string name="t_1f114e4471">Select the group</string>
     <string name="t_0c2765e835">%s identical copies × %s · %s to free</string>
     <string name="t_a4b93e7e1b">All copies marked. The first is kept.</string>
     <string name="t_3fd20b77e4">%s of %s marked</string>
@@ -4670,6 +4698,10 @@
     <string name="t_68dccf6938">Open the folder of %s</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/DuplicatesScreen.kt -->
     <string name="t_0e1ec1a255">%s copies</string>
+    <string name="t_0346a90540">1 group selected</string>
+    <string name="t_48d37c99e7">%s groups selected</string>
+    <string name="t_82c4e82b43">Clear the selection</string>
+    <string name="t_0af76bff06">%s files · %s</string>
     <string name="t_7db08c31fb">%s marked · %s</string>
     <string name="t_83f93d8637">Finds files with identical content, regardless of name.</string>
     <string name="t_c907857cde">Minimum size (KB)</string>
@@ -4681,11 +4713,13 @@
     <string name="t_c0ea3d5949">Scan %s folders</string>
     <string name="t_3d860cbe35">Scanning… %s files</string>
     <string name="t_288f06b03f">Full hash %s / %s · %s</string>
-    <string name="t_90218af7b5">Finishing…</string>
     <string name="t_d6f823d880">The scan continues in the background.</string>
     <string name="t_ae74c50e67">No duplicates</string>
     <string name="t_41c13c2c79">%s files scanned.</string>
+    <string name="t_5c0865eaee">1 group · %s wasted</string>
     <string name="t_4fc61a3ff1">%s groups · %s wasted</string>
+    <string name="t_56f4d9fac1">%s copies marked. One is kept.</string>
+    <string name="t_2dea225392">%s copies marked in %s groups. One is kept in each.</string>
     <string name="t_8a35f18463">Keep shortest path</string>
     <string name="t_66e66c01b4">Keep in folder…</string>
     <string name="t_42d0a8077b">Add a folder to scan</string>
@@ -4694,6 +4728,12 @@
     <string name="t_d587539e2d">Skip this folder</string>
     <string name="t_3eb337d705">Keep copies in folder</string>
     <string name="t_ee8fda3660">%s copies · %s</string>
+    <string name="t_b11932f980">Delete every copy in this group permanently?</string>
+    <string name="t_054cba65c3">Move every copy in this group to Bin?</string>
+    <string name="t_849e527bcd">Delete every copy in %s groups permanently?</string>
+    <string name="t_fe22a96d30">Move every copy in %s groups to Bin?</string>
+    <string name="t_d5a9b276a6">%s files, the original included.</string>
+    <string name="t_d470d9b3f4">%s files, the original of each group included.</string>
     <string name="t_e069abe230">Delete %s duplicates permanently?</string>
     <string name="t_94c5bb7a67">Move %s duplicates to Bin?</string>
     <string name="t_7f811906c8">One copy in each group is kept.</string>
@@ -5586,6 +5626,7 @@
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageEditorScreen.kt -->
     <string name="t_ab166bd5e8">Adjust</string>
     <string name="t_75f527181b">Free</string>
+    <string name="t_c8f1285c66">Undo all edits?</string>
     <string name="t_251adac1ac">Save copy</string>
     <string name="t_74adc5789c">Mirror</string>
     <string name="t_b059e4187d">Flip vertically</string>
