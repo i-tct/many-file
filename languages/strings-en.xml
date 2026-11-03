@@ -3855,6 +3855,8 @@
     <string name="t_e8b5b21a21">Translucent cards, menus and bars</string>
     <string name="t_16c760c7b5">Show counts</string>
     <string name="t_f35a605d19">Item counts on Home and in the menu</string>
+    <string name="t_647119747d">Storage numbers on Home</string>
+    <string name="t_128d9f798a">Used and free space with the storage bars. Off: only the bars</string>
     <string name="t_4e947596f8">Storage map on Home</string>
     <string name="t_5fa41619d6">Storage usage by file type</string>
     <string name="t_243377098e">Account count on cloud drives</string>

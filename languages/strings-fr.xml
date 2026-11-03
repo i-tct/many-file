@@ -5814,4 +5814,6 @@
     <string name="t_d470d9b3f4">%s fichiers, l\'original de chaque groupe compris.</string>
     <string name="t_c8f1285c66">Annuler toutes les modifications ?</string>
     <string name="t_5c0865eaee">1 groupe · %s gaspillés</string>
+    <string name="t_647119747d">Chiffres du stockage sur l\'accueil</string>
+    <string name="t_128d9f798a">Espace utilisé et libre avec les barres de stockage. Désactivé : les barres seules</string>
 </resources>
