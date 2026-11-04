@@ -2727,13 +2727,13 @@
     <string name="t_e4fb25be04">Add %s</string>
     <string name="t_5a7834eab7">Remove %s</string>
     <string name="t_7842d8c3f5">Tap to grant access</string>
+    <string name="t_9b722d3ba9">%s free of %s</string>
     <string name="t_c8b2e864ec">Photos</string>
     <string name="t_da021d8e37">App files</string>
     <string name="t_b0c0a3787c">Other files</string>
     <string name="t_a86cf61891">Apps &amp; system</string>
     <string name="t_3f347a8691">File system via Shizuku</string>
     <string name="t_d603222ed6">Full file system (root)</string>
-    <string name="t_9b722d3ba9">%s free of %s</string>
     <string name="t_23f347761c">Lock or unlock</string>
     <string name="t_8d1b65e9eb">Name on Home</string>
     <string name="t_77561f3d48">Original name</string>
@@ -3881,6 +3881,8 @@
     <string name="t_5fa41619d6">Storage usage by file type</string>
     <string name="t_243377098e">Account count on cloud drives</string>
     <string name="t_82fde59f48">The number on a cloud drive\'s icon when it has several accounts</string>
+    <string name="t_6ec3928f93">Server addresses</string>
+    <string name="t_e2eb2b003a">The address under each server\'s name. Off: only the names</string>
     <string name="t_72b714ce85">Lock Home layout</string>
     <string name="t_f7f96d5317">No rearranging, renaming or hiding on Home</string>
     <string name="t_0779961bcf">Home icon size</string>
@@ -4166,8 +4168,6 @@
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
     <string name="t_2e0ef22f2d">Off: the colour above</string>
-    <string name="t_6ec3928f93">Server addresses</string>
-    <string name="t_e2eb2b003a">The address under each server\'s name. Off: only the names</string>
     <string name="t_7cf7e8e599">Largest</string>
     <string name="t_35d8a95d3e">Language default (%s)</string>
     <string name="t_b58f3b8e63">Phone setting</string>
