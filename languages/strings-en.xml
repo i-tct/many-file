@@ -150,6 +150,21 @@
     <string name="t_07c50d1cc0">Vault “%s” found on this phone: it is in the menu again</string>
     <string name="t_bf4862b529">%d vaults found on this phone: they are in the menu again</string>
     <!-- app/src/main/kotlin/tct/manyfile/ProSheet.kt -->
+    <string name="t_5819778898">Git</string>
+    <string name="t_5442e2b64f">GitHub</string>
+    <string name="t_a1f52cdcb3">Terminal</string>
+    <string name="t_ee79525942">Similar photos</string>
+    <string name="t_c3ffcb9030">Words in photos</string>
+    <string name="t_b32a659820">Folder sync</string>
+    <string name="t_b0530988a7">Folder rules</string>
+    <string name="t_26abab6249">Command Center</string>
+    <string name="t_cd4bcec305">Deep clean</string>
+    <string name="t_48db4afacc">Make GIF</string>
+    <string name="t_4853c808b1">Authenticator</string>
+    <string name="t_8a51131495">Media cleanup</string>
+    <string name="t_bd47f3ad7f">Analyzer</string>
+    <string name="t_1af7d6c34e">Symbolic links</string>
+    <string name="t_f879310b9f">ManyFile links</string>
     <string name="t_815db41af3">ManyFile Pro is on</string>
     <string name="t_bb79ab8b71">Thank you! Every Pro feature is open on this phone.</string>
     <string name="t_7d7c7a10f8">Your Pro code: %s</string>
@@ -172,7 +187,6 @@
     <string name="t_3cf48aeba6">The terminal is locked</string>
     <string name="t_6a9b0ef546">Unlock it with your fingerprint or screen lock.</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
-    <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_a731ca287e">Phone terminal</string>
     <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_8620a37e74">Server removed</string>
@@ -784,6 +798,7 @@
     <string name="t_b92df9afae">destination is read-only</string>
     <string name="t_0d6830202e">destination exists and is a file</string>
     <string name="t_b218aef6d4">Skipped %s: not a valid name</string>
+    <string name="t_a740f81f82">Skipped %s: a link to a folder</string>
     <string name="t_3fa27241e9">Verification failed: copy doesn\'t match source</string>
     <string name="t_bb2167a62b">Verified %s</string>
     <string name="t_0b3c4a170f">A file with that name already exists</string>
@@ -795,6 +810,14 @@
     <string name="t_8da8dfe256">%s: %s parts at once</string>
     <string name="t_0fc8fb362a">Copy is %s of %s bytes</string>
     <string name="t_ada385cf97">%s changed during the copy</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/links/ManyFileLinks.kt -->
+    <string name="t_a80ba7ca8e">Android does not allow symbolic links on this phone\'s storage or SD cards. A ManyFile link works here.</string>
+    <string name="t_7a817e3774">A symbolic link can only point to a place on the same storage. A ManyFile link can point anywhere.</string>
+    <string name="t_47944c7073">Invalid file name: %s</string>
+    <string name="t_79d0a1ef8a">%s already exists here</string>
+    <string name="t_5ea78624af">Folders can\'t be made here</string>
+    <string name="t_abcdb33cd1">The link could not be written: %s</string>
+    <string name="t_f038e3a36e">The link could not be made: %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/AudioConversion.kt -->
     <string name="t_21016e0841">Converting %1$s to %2$s</string>
     <string name="t_9283111c1c">Converting %1$s files to %2$s</string>
@@ -809,6 +832,22 @@
     <string name="t_38d76789f4">Unsupported audio format in %s (%s)</string>
     <string name="t_6b2bb89038">Couldn\'t extract audio from %s: %s</string>
     <string name="t_3f8d275ef2">Saved %s audio files</string>
+    <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/CoverWriter.kt -->
+    <string name="t_45bf29e864">The song is gone</string>
+    <string name="t_f75b99ed8a">Cover photos can be written into MP3, FLAC and M4A songs. This song is %s.</string>
+    <string name="t_2d182baf0c">ManyFile can\'t change files in this folder</string>
+    <string name="t_09609ad080">Not enough free space to write the cover photo</string>
+    <string name="t_8b4efcf28c">The song couldn\'t be replaced; it was left as it was</string>
+    <string name="t_325e93085f">The cover photo couldn\'t be written: %s</string>
+    <string name="t_e8b534fc5b">The song couldn\'t be read back after writing; it was left as it was</string>
+    <string name="t_ed9c61d97a">This song is too short to hold a cover</string>
+    <string name="t_7a99712faa">This song\'s tags couldn\'t be read, so it was left as it was</string>
+    <string name="t_b99da4c21e">This song\'s tags are in an old form ManyFile can\'t change (ID3v2.%s)</string>
+    <string name="t_4a28b9ecd6">This song has no cover photo inside</string>
+    <string name="t_830bcbe6e1">This doesn\'t look like an MP3 song, so it was left as it was</string>
+    <string name="t_fbfbf9d32d">The picture is too big for this song</string>
+    <string name="t_87fde479cc">This song is in a form ManyFile can\'t change (a fragmented MP4)</string>
+    <string name="t_c9e1f0a907">This song is too big for ManyFile to change</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/EngineFiles.kt -->
     <string name="t_445c57385f">Too many files named %s in %s</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/media/MediaCategories.kt -->
@@ -1110,7 +1149,6 @@
     <string name="t_863305fe11">Read-only. Enable root or Shizuku in Settings → Root access to make changes.</string>
     <string name="t_527aa3718b">Root access is off. Enable root or Shizuku in Settings → Root access.</string>
     <string name="t_16f0e3678e">Couldn\'t read folder</string>
-    <string name="t_47944c7073">Invalid file name: %s</string>
     <string name="t_78f0018bf6">Not a user or group name: %s</string>
     <string name="t_862f520c06">Android kept the system read-only (verified boot is probably on)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/scan/ScanPages.kt -->
@@ -1361,11 +1399,15 @@
     <string name="t_a711cca9a4">Minimal</string>
     <string name="t_a0138b1e0d">Cassette</string>
     <string name="t_200f14b1dc">Waveform</string>
+    <string name="t_130cd7fe33">Classic</string>
+    <string name="t_2ab372ea94">Karaoke</string>
+    <string name="t_14ab8041d7">Spotlight</string>
+    <string name="t_f47666f59b">Left aligned</string>
+    <string name="t_1df39aa58a">Compact</string>
     <string name="t_d8169782b5">Material</string>
     <string name="t_ec7b598335">Round</string>
     <string name="t_82810cb971">Square</string>
     <string name="t_155edc970c">Expressive</string>
-    <string name="t_130cd7fe33">Classic</string>
     <string name="t_d403336798">Last folder</string>
     <string name="t_70f8bb9a8a">Home</string>
     <string name="t_7b12aa7fec">A folder…</string>
@@ -1468,6 +1510,7 @@
     <string name="t_1e59912ac7">Name cannot contain /</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FileIcons.kt -->
     <string name="t_b7e53af400">Broken link</string>
+    <string name="t_b4b6aa62b8">ManyFile link</string>
     <string name="t_8f08528b34">Symbolic link</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/FilePickers.kt -->
     <string name="t_90daac900e">Save “%s” in</string>
@@ -1574,6 +1617,8 @@
     <string name="t_94b04733ed">Not found: %s</string>
     <string name="t_31be651616">Duplicating %s…</string>
     <string name="t_357eab3a8a">Duplicating %d items…</string>
+    <string name="t_a69508a353">Link “%s” made</string>
+    <string name="t_9ad7dbf649">The link now leads to %s</string>
     <string name="t_2cd0d43592">Cover removed</string>
     <string name="t_234e62a3dd">Cover set for %s</string>
     <string name="t_82ec46d3a4">Pinned to Home</string>
@@ -1634,6 +1679,8 @@
     <string name="t_048a4d60ac">From %s</string>
     <string name="t_2f3b5c55bc">Browse</string>
     <string name="t_44ddd53640">%d items</string>
+    <string name="t_0f14ba3bcd">Where “%s” leads</string>
+    <string name="t_a1fa9d4817">Lead here</string>
     <string name="t_3d7b11fe7a">Open vault</string>
     <string name="t_d9b175bc80">Cover for %s</string>
     <string name="t_78b7c9f6d6">Choose</string>
@@ -1889,6 +1936,15 @@
     <string name="t_f35f127e72">Zoom in, zoom out, reset zoom</string>
     <string name="t_88b662e97d">Show shortcuts</string>
     <string name="t_266695479a">Keyboard shortcuts</string>
+    <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/LinkDialogs.kt -->
+    <string name="t_b0505940a1">%s (link)</string>
+    <string name="t_46eb6823c1">Make the link in…</string>
+    <string name="t_ecbcb0e424">Here</string>
+    <string name="t_12915b62e2">Create link to “%s”</string>
+    <string name="t_aef36502d6">In</string>
+    <string name="t_49b1cd843f">Change…</string>
+    <string name="t_1d5c27837f">Works everywhere and takes no space. ManyFile opens what it leads to; other apps see an empty folder.</string>
+    <string name="t_1a20b2b43a">The file system\'s own link: other apps follow it too.</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/PdfCompressDialog.kt -->
     <string name="t_c07b4e9ca5">%s PDFs</string>
     <string name="t_44d090a5de">Reduces image resolution. Text and graphics are unchanged.</string>
@@ -2056,6 +2112,8 @@
     <string name="t_799c303727">No files in %s larger than %s</string>
     <string name="t_68c3f78b24">No matches in %s for “%s”</string>
     <string name="t_830489bc03">Larger than %s</string>
+    <string name="t_13d75d4ca5">This ManyFile link leads to a place that is gone</string>
+    <string name="t_bf23940d55">A ManyFile link</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabSession.kt -->
     <string name="t_a798882f1c">Locked</string>
     <string name="t_b9e4e6ff3f">3 months</string>
@@ -2319,6 +2377,8 @@
     <string name="t_48ad074759">Batch rename…</string>
     <string name="t_4c24e5aa26">Copy to…</string>
     <string name="t_c0a3ef619a">Move to…</string>
+    <string name="t_9c51baf285">Create link…</string>
+    <string name="t_e5405d8093">Change where it leads…</string>
     <string name="t_37f0297a2e">Unhide</string>
     <string name="t_43a1488ee2">Show in gallery</string>
     <string name="t_cd4c044ae4">Encrypt…</string>
@@ -2382,7 +2442,6 @@
     <string name="t_a0ca56e4ec">%d command steps need a server</string>
     <string name="t_2db6e6a3ee">Import failed: %s</string>
     <string name="t_3f726a214f">Export failed: %s</string>
-    <string name="t_26abab6249">Command Center</string>
     <string name="t_96469b5aae">Saved workflows</string>
     <string name="t_4834caf8f5">Import…</string>
     <string name="t_14fdd4b9cc">Export all (no secrets)</string>
@@ -2403,7 +2462,6 @@
     <string name="t_626420139a">cancelled %s</string>
     <string name="t_377dab66d5">running: %s</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/FolderRulesScreen.kt -->
-    <string name="t_b0530988a7">Folder rules</string>
     <string name="t_b9ac14b0c6">New rule</string>
     <string name="t_d61529a34a">Automatically move, copy or process new files in a folder.</string>
     <string name="t_2850f8aead">No rules</string>
@@ -2564,6 +2622,8 @@
     <string name="t_abafdf073c">Save changes to %s?</string>
     <string name="t_d4d9e382a9">Keep editing</string>
     <string name="t_9b0ce2e59e">Save all</string>
+    <string name="t_ee04a96c11">Tab options</string>
+    <string name="t_a796d118d1">Close tabs to the right</string>
     <string name="t_71f563cc42">Large file (%s). Showing the first %s, read-only.</string>
     <string name="t_aacf42132c">Indent</string>
     <string name="t_b4d812c8be">Outdent</string>
@@ -2621,7 +2681,6 @@
     <string name="t_e231772488">Add server…</string>
     <string name="t_2dbc2fd235">online</string>
     <string name="t_a371621a76">Manage servers…</string>
-    <string name="t_b32a659820">Folder sync</string>
     <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
@@ -2632,16 +2691,12 @@
     <string name="t_279875bab4">Download from URL</string>
     <string name="t_6fa1406af9">Media Downloader</string>
     <string name="t_90e82471bd">Unused files</string>
-    <string name="t_ee79525942">Similar photos</string>
-    <string name="t_c3ffcb9030">Words in photos</string>
     <string name="t_bd7b901270">Status saver</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_40c20d94e7">Series</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_e0b473f572">Bootable USB</string>
-    <string name="t_5819778898">Git</string>
-    <string name="t_4853c808b1">Authenticator</string>
     <string name="t_c880999562">System files</string>
     <string name="t_9239ee2cda">General</string>
     <string name="t_6292acfc09">Customize menu</string>
@@ -2687,7 +2742,6 @@
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_1697d281a3">Modified today</string>
-    <string name="t_bd47f3ad7f">Analyzer</string>
     <string name="t_858df0c869">Wi-Fi share</string>
     <string name="t_28cba55d2a">Scan</string>
     <string name="t_bc0792d8dc">System</string>
@@ -2926,11 +2980,18 @@
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/PausedJobs.kt -->
     <string name="t_b3bd0b5a70">Resume</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
+    <string name="t_aeabdee323">No other lyrics found online for this song</string>
     <string name="t_aec7f7a0ab">No lyrics found online for this song</string>
     <string name="t_e45f125f1d">Lyrics found, but they couldn\'t be saved</string>
+    <string name="t_400f90df97">Lyrics found. Their timings are for another version of this song, so they are shown without timings.</string>
     <string name="t_f5a89cc22b">Lyrics saved next to the song as %s</string>
     <string name="t_9fe734a961">Lyrics saved</string>
+    <string name="t_dee288c90b">That photo couldn\'t be read</string>
+    <string name="t_022e998176">Cover photo set</string>
+    <string name="t_cc1b1ce108">These lyrics couldn\'t be removed</string>
     <string name="t_a749eeb4da">Moved %s to the Bin</string>
+    <string name="t_635159be7a">No app to choose photos was found</string>
+    <string name="t_f517ea8bcf">Cover photo removed</string>
     <string name="t_940985f975">Delete song?</string>
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
@@ -2938,6 +2999,9 @@
     <string name="t_624f82c132">Remove from favourites</string>
     <string name="t_6b2ac06d56">Add to favourites</string>
     <string name="t_49b84bef78">Add to playlist…</string>
+    <string name="t_ec2cb0594b">Change cover photo…</string>
+    <string name="t_c8ab32c385">Set cover photo…</string>
+    <string name="t_8bb501781e">Remove cover photo</string>
     <string name="t_42c9942ef3">Stop and clear queue</string>
     <string name="t_e53407cfe1">Player</string>
     <string name="t_8670cb1f9e">Lyrics</string>
@@ -2959,7 +3023,18 @@
     <string name="t_135da9c677">No lyrics</string>
     <string name="t_06130c572f">This song has no lyrics in its tags. Add a .lrc or .txt file with the same name next to it, or in a Lyrics folder.</string>
     <string name="t_df65659012">Search online</string>
-    <string name="t_4a3962c2e0">From LRCLIB, a free lyrics database. The song\'s name and artist are sent to lrclib.net.</string>
+    <string name="t_a4b60bd994">The song\'s name and artist are sent to free lyrics databases.</string>
+    <string name="t_5fa2b60c33">Lyrics options</string>
+    <string name="t_635601aa72">Lyrics style</string>
+    <string name="t_098024dc55">Timing</string>
+    <string name="t_669d3effb4">Timing: %s s</string>
+    <string name="t_7d3e734752">Lyrics earlier (0.5 s)</string>
+    <string name="t_b8312e57f2">Lyrics later (0.5 s)</string>
+    <string name="t_7257583f4d">Reset timing</string>
+    <string name="t_da89305190">Wrong lyrics? Search again</string>
+    <string name="t_3fbc956aa1">Remove these lyrics</string>
+    <string name="t_98d3a6ab76">The timed lyrics found are for another version of this song, so they are shown without timings. Scroll to follow along.</string>
+    <string name="t_cdc3f48308">These lyrics have no timings. Scroll to follow along.</string>
     <string name="t_9a3bcf388a">1 song in the queue</string>
     <string name="t_cb39e4278e">%s songs in the queue</string>
     <string name="t_3d2dc52da7">Remove from queue</string>
@@ -3042,7 +3117,6 @@
     <string name="t_6456e9ccaf">Keeps cover art and tags.</string>
     <string name="t_64712bacfe">Lossless cut that keeps cover art and tags.</string>
     <string name="t_8739e5a55f">%s 0.1 s earlier</string>
-    <string name="t_ecbcb0e424">Here</string>
     <string name="t_708fe746e6">%s 0.1 s later</string>
     <string name="t_2530fd76d5">%d s</string>
     <string name="t_6b46f28928">Fade in</string>
@@ -3625,7 +3699,6 @@
     <string name="t_32faaecac7">debug</string>
     <string name="t_0e76f40a25">Media Engine %s</string>
     <string name="t_ce0b2bbc09">Made by %s · Running on TCT Engine</string>
-    <string name="t_5442e2b64f">GitHub</string>
     <string name="t_edbea9ff1a">Telegram</string>
     <string name="t_f32d5a3b17">Support</string>
     <string name="t_c76d18079a">Updates</string>
@@ -4604,7 +4677,6 @@
     <string name="t_879dab1643">Moving %s items to Bin…</string>
     <string name="t_4ae9634ce8">Deleting %s items…</string>
     <string name="t_f6ab55dd35">Scan again</string>
-    <string name="t_cd4bcec305">Deep clean</string>
     <string name="t_73985ddd83">Every app\'s cache, apps\' folders, what removed apps left</string>
     <string name="t_8ce4058570">Blurry and dark photos, old screenshots, big videos to shrink</string>
     <string name="t_2ae6f6f729">Scanning… %s files (%s)</string>
@@ -5587,6 +5659,8 @@
     <string name="t_d71d16869c">Import all</string>
     <string name="t_4687a3bb84">No contacts in this file</string>
     <string name="t_d87c1d8eb6">No contacts app</string>
+    <string name="t_de36e0f3c6">Photo of %s</string>
+    <string name="t_7e125c4384">View photo</string>
     <string name="t_a6b9d69f57">Birthday</string>
     <string name="t_84552789ca">Add to contacts</string>
     <string name="t_d36d0a346a">1 event</string>
@@ -5597,6 +5671,8 @@
     <string name="t_bb352a4ffb">all day</string>
     <string name="t_debd172028">Organizer</string>
     <string name="t_4f05cd6409">Add to calendar</string>
+    <string name="t_0b11667ae0">The photo could not be saved</string>
+    <string name="t_8845313ac2">Save to Pictures</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/DocxEditScreen.kt -->
     <string name="t_46b087c1d4">Couldn\'t read document</string>
     <string name="t_af6321ca7a">unknown error</string>
@@ -5675,6 +5751,7 @@
     <string name="t_722d76656a">Delete image?</string>
     <string name="t_e8f63a0202">Set as</string>
     <string name="t_f20e5a7689">Couldn\'t load this picture. Check the connection.</string>
+    <string name="t_5af0e0504a">This picture can\'t be shown: it is damaged, or in a form Android can\'t read.</string>
     <string name="t_82cf6f7679">Camera RAW</string>
     <string name="t_00eee60f92">Showing JPEG preview</string>
     <string name="t_68c2cc7f0c">Model</string>
