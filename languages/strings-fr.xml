@@ -3492,6 +3492,8 @@
     <string name="t_4525595a54">installé %s</string>
     <string name="t_d49fe2c403">non installé</string>
     <string name="t_4b891c1fa6">Installé depuis</string>
+    <string name="t_806ab40c91">Non acheté</string>
+    <string name="t_66ac9da62f">Activé · code Pro %s</string>
     <string name="t_bbd80cf7e2">Build</string>
     <string name="t_50d8b4a941">inconnu</string>
     <string name="t_7431e3df24">Paquet</string>
@@ -3926,6 +3928,8 @@
     <string name="t_d45bfe8ffc">Aucun plantage enregistré</string>
     <string name="t_05f39e0a8f">nouveautés</string>
     <string name="t_2e0ef22f2d">Désactivée : la couleur ci-dessus</string>
+    <string name="t_6ec3928f93">Adresses des serveurs</string>
+    <string name="t_e2eb2b003a">L’adresse sous le nom de chaque serveur. Désactivé : seulement les noms</string>
     <string name="t_7cf7e8e599">Plus grands</string>
     <string name="t_35d8a95d3e">Par défaut de la langue (%s)</string>
     <string name="t_b58f3b8e63">Réglage du téléphone</string>
@@ -5602,6 +5606,10 @@
     <!-- Vaults found again (core/data VaultRegistry, feature/browser) -->
     <string name="t_07c50d1cc0">Coffre-fort « %s » trouvé sur ce téléphone : il est de nouveau dans le menu</string>
     <string name="t_bf4862b529">%d coffres-forts trouvés sur ce téléphone : ils sont de nouveau dans le menu</string>
+    <string name="t_815db41af3">ManyFile Pro est activé</string>
+    <string name="t_bb79ab8b71">Merci ! Toutes les fonctionnalités Pro sont disponibles sur ce téléphone.</string>
+    <string name="t_7d7c7a10f8">Votre code Pro : %s</string>
+    <string name="t_268106d3cf">Conservez ce code. Il permet de retrouver Pro sur un autre téléphone (jusqu’à 5) ou après une réinitialisation, via Restaurer un achat. Il figure aussi dans Paramètres → À propos.</string>
     <string name="t_5e413edaad">Recherche des coffres-forts…</string>
     <string name="t_99ba8cfa28">Aucun autre coffre-fort sur ce téléphone</string>
     <string name="t_0aa9af447a">Le coffre-fort « %s » est de nouveau dans le menu</string>
@@ -5833,4 +5841,9 @@
     <string name="t_d7cf94834d">Acheter avec Google Play</string>
     <string name="t_291b500001">Paiement pas encore trouvé. Attendez une minute après avoir payé et réessayez.</string>
     <string name="t_f22f0d7d7f">J\'ai payé</string>
+    <string name="t_afc6120d10">Restaurer un achat</string>
+    <string name="t_7b260d25ad">Code Pro ou code M-Pesa</string>
+    <string name="t_ac8c410127">Le code Pro affiché par ManyFile après le paiement, le code du message M-Pesa ou le numéro de commande Binance</string>
+    <string name="t_beb42989ba">Aucun paiement ManyFile Pro ne correspond à ce code. Vérifiez-le et réessayez.</string>
+    <string name="t_6770f2dc66">Cet achat est déjà utilisé sur %d téléphones.</string>
 </resources>

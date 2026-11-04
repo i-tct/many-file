@@ -150,6 +150,10 @@
     <string name="t_07c50d1cc0">Vault “%s” found on this phone: it is in the menu again</string>
     <string name="t_bf4862b529">%d vaults found on this phone: they are in the menu again</string>
     <!-- app/src/main/kotlin/tct/manyfile/ProSheet.kt -->
+    <string name="t_815db41af3">ManyFile Pro is on</string>
+    <string name="t_bb79ab8b71">Thank you! Every Pro feature is open on this phone.</string>
+    <string name="t_7d7c7a10f8">Your Pro code: %s</string>
+    <string name="t_268106d3cf">Keep this code. It brings Pro to another phone (up to 5) or back after a reset, under Restore a purchase. It is also in Settings → About.</string>
     <string name="t_a6b6710db5">ManyFile Pro</string>
     <string name="t_26a0a9fbe1">%s is part of ManyFile Pro. Pay once and keep it, with every Pro feature, on all your phones.</string>
     <string name="t_fab7e640ac">Pay with Binance Pay or M-Pesa</string>
@@ -157,6 +161,12 @@
     <string name="t_291b500001">Payment not found yet. Wait a minute after paying and try again.</string>
     <string name="t_820d6004b0">Checking…</string>
     <string name="t_f22f0d7d7f">I\'ve paid</string>
+    <string name="t_afc6120d10">Restore a purchase</string>
+    <string name="t_7b260d25ad">Pro code or M-Pesa code</string>
+    <string name="t_ac8c410127">The Pro code ManyFile showed after paying, the code in the M-Pesa message, or the Binance order number</string>
+    <string name="t_beb42989ba">No ManyFile Pro payment has this code. Check it and try again.</string>
+    <string name="t_6770f2dc66">This purchase is already on %d phones.</string>
+    <string name="t_3cbe6d6b9a">Restore</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalActivity.kt -->
     <string name="t_ade89a27f4">Open the terminal</string>
     <string name="t_3cf48aeba6">The terminal is locked</string>
@@ -1623,7 +1633,6 @@
     <string name="t_1db74771ff">Save search</string>
     <string name="t_048a4d60ac">From %s</string>
     <string name="t_2f3b5c55bc">Browse</string>
-    <string name="t_3cbe6d6b9a">Restore</string>
     <string name="t_44ddd53640">%d items</string>
     <string name="t_3d7b11fe7a">Open vault</string>
     <string name="t_d9b175bc80">Cover for %s</string>
@@ -3657,6 +3666,8 @@
     <string name="t_4525595a54">installed %s</string>
     <string name="t_d49fe2c403">not installed</string>
     <string name="t_4b891c1fa6">Installed from</string>
+    <string name="t_806ab40c91">Not bought</string>
+    <string name="t_66ac9da62f">On · Pro code %s</string>
     <string name="t_bbd80cf7e2">Build</string>
     <string name="t_50d8b4a941">unknown</string>
     <string name="t_7431e3df24">Package</string>
@@ -4155,6 +4166,8 @@
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
     <string name="t_2e0ef22f2d">Off: the colour above</string>
+    <string name="t_6ec3928f93">Server addresses</string>
+    <string name="t_e2eb2b003a">The address under each server\'s name. Off: only the names</string>
     <string name="t_7cf7e8e599">Largest</string>
     <string name="t_35d8a95d3e">Language default (%s)</string>
     <string name="t_b58f3b8e63">Phone setting</string>
