@@ -5816,4 +5816,21 @@
     <string name="t_5c0865eaee">1 groupe · %s gaspillés</string>
     <string name="t_647119747d">Chiffres du stockage sur l\'accueil</string>
     <string name="t_128d9f798a">Espace utilisé et libre avec les barres de stockage. Désactivé : les barres seules</string>
+    <string name="t_ea93e61773">Rechercher une langue</string>
+    <string name="t_4e8fe07f36">Aucune langue ne correspond à « %s »</string>
+    <string name="t_420617a056">Charger les images suivantes à l\'avance</string>
+    <string name="t_45b4561104">La visionneuse charge tôt les images en ligne suivantes, pour qu\'elles s\'affichent dès le balayage</string>
+    <string name="t_177a8b0297">Images en ligne vues conservées</string>
+    <string name="t_3c65fea00b">Effacer les images en ligne vues</string>
+    <string name="t_47e59f0d07">Images de serveurs et de clouds vues dans la visionneuse</string>
+    <string name="t_4edf530016">Images en ligne vues effacées : %s libérés</string>
+    <string name="t_f20e5a7689">Impossible de charger cette image. Vérifiez la connexion.</string>
+    <string name="t_f8d165fa5c">Lire les vidéos en ligne en continu</string>
+    <string name="t_2509d943dc">Lire les vidéos des serveurs et de Google Drive, OneDrive, Dropbox et pCloud sans les télécharger d\'abord</string>
+    <string name="t_a6b6710db5">ManyFile Pro</string>
+    <string name="t_26a0a9fbe1">%s fait partie de ManyFile Pro. Payez une fois et gardez-le, avec toutes les fonctions Pro, sur tous vos téléphones.</string>
+    <string name="t_fab7e640ac">Payer avec Binance Pay ou M-Pesa</string>
+    <string name="t_d7cf94834d">Acheter avec Google Play</string>
+    <string name="t_291b500001">Paiement pas encore trouvé. Attendez une minute après avoir payé et réessayez.</string>
+    <string name="t_f22f0d7d7f">J\'ai payé</string>
 </resources>

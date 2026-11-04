@@ -149,6 +149,14 @@
     <string name="t_bd001d4d31">This build has no zsh</string>
     <string name="t_07c50d1cc0">Vault “%s” found on this phone: it is in the menu again</string>
     <string name="t_bf4862b529">%d vaults found on this phone: they are in the menu again</string>
+    <!-- app/src/main/kotlin/tct/manyfile/ProSheet.kt -->
+    <string name="t_a6b6710db5">ManyFile Pro</string>
+    <string name="t_26a0a9fbe1">%s is part of ManyFile Pro. Pay once and keep it, with every Pro feature, on all your phones.</string>
+    <string name="t_fab7e640ac">Pay with Binance Pay or M-Pesa</string>
+    <string name="t_d7cf94834d">Buy with Google Play</string>
+    <string name="t_291b500001">Payment not found yet. Wait a minute after paying and try again.</string>
+    <string name="t_820d6004b0">Checking…</string>
+    <string name="t_f22f0d7d7f">I\'ve paid</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalActivity.kt -->
     <string name="t_ade89a27f4">Open the terminal</string>
     <string name="t_3cf48aeba6">The terminal is locked</string>
@@ -1894,7 +1902,6 @@
     <string name="t_bc94b2dd5b">Saved in the first PDF\'s folder</string>
     <string name="t_e0d73143de">Join</string>
     <string name="t_d852ca1e39">Split “%s”</string>
-    <string name="t_820d6004b0">Checking…</string>
     <string name="t_efe4799012">1 page</string>
     <string name="t_73d549a9ae">By page count</string>
     <string name="t_a65d3c448f">Pages per part</string>
@@ -3792,10 +3799,12 @@
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/LanguagePage.kt -->
     <string name="t_9643d47e07">Couldn\'t load languages. Check your connection.</string>
     <string name="t_3d120aa66f">Test a translation</string>
+    <string name="t_ea93e61773">Search languages</string>
     <string name="t_942d093a2f">%d texts</string>
     <string name="t_d12f84b576">from a file</string>
     <string name="t_28be446a90">Download a language</string>
     <string name="t_150b6bcc5d">No other languages available</string>
+    <string name="t_4e8fe07f36">No language matches “%s”</string>
     <string name="t_fb91e24fa5">Update</string>
     <string name="t_92f4ad9ddc">right to left</string>
     <string name="t_c619702925">Downloaded</string>
@@ -3985,6 +3994,9 @@
     <string name="t_f44d85494c">Google Drive, OneDrive, Dropbox, pCloud and MEGA, also on mobile data</string>
     <string name="t_63832e8ecd">Open PDFs while downloading</string>
     <string name="t_fea9ac6bc5">Pages from servers, Google Drive and OneDrive show before the whole PDF arrives</string>
+    <string name="t_420617a056">Load next pictures ahead</string>
+    <string name="t_45b4561104">The image viewer reads the next online pictures early, so swiping shows them at once</string>
+    <string name="t_177a8b0297">Viewed online pictures kept</string>
     <string name="t_fc70834a90">Browse above home folder</string>
     <string name="t_cc0e42ba94">Off: servers stop at your home folder</string>
     <string name="t_07cec07455">Server transfers on mobile data</string>
@@ -4033,8 +4045,8 @@
     <string name="t_63b4bddb72">Continue in a floating window when leaving the app. Videos in a vault stop.</string>
     <string name="t_d76a24280b">Keep playing as audio</string>
     <string name="t_4f4c02031b">Continue as audio when leaving the app or turning off the screen. Videos in a vault stop.</string>
-    <string name="t_6f19d35891">Stream server videos</string>
-    <string name="t_bc3056c73d">Play SFTP, SMB and WebDAV videos without downloading first</string>
+    <string name="t_f8d165fa5c">Stream online videos</string>
+    <string name="t_2509d943dc">Play videos from servers and from Google Drive, OneDrive, Dropbox and pCloud without downloading first</string>
     <string name="t_919c6ea9ea">Auto-rotate</string>
     <string name="t_81a2b04020">Rotate the screen to match the video</string>
     <string name="t_38092799bc">Play next video automatically</string>
@@ -4079,6 +4091,8 @@
     <string name="t_b19a6124c4">PDF pages and playback positions</string>
     <string name="t_ca1b0c86f8">Clear downloaded server files</string>
     <string name="t_9402c505a8">Local copies of opened server files</string>
+    <string name="t_3c65fea00b">Clear viewed online pictures</string>
+    <string name="t_47e59f0d07">Pictures from servers and cloud drives seen in the viewer</string>
     <string name="t_2301acff42">Device &amp; build</string>
     <string name="t_6632a3ed87">Android version, device, native core</string>
     <string name="t_4863fa37e1">Restart ManyFile</string>
@@ -4272,6 +4286,7 @@
     <string name="t_9cfb511684">Thumbnail cache cleared: %s freed</string>
     <string name="t_b468c457e4">Saved server listings cleared</string>
     <string name="t_546cd4bf3c">Downloaded server files cleared: %s freed</string>
+    <string name="t_4edf530016">Viewed online pictures cleared: %s freed</string>
     <string name="t_6a4c5989f3">Last crash report</string>
     <string name="t_27e7700fda">sent</string>
     <string name="t_e3efaff80b">tap to view · deleted after 30 days</string>
@@ -5646,6 +5661,7 @@
     <string name="t_5bf51225d2">Couldn\'t print image</string>
     <string name="t_722d76656a">Delete image?</string>
     <string name="t_e8f63a0202">Set as</string>
+    <string name="t_f20e5a7689">Couldn\'t load this picture. Check the connection.</string>
     <string name="t_82cf6f7679">Camera RAW</string>
     <string name="t_00eee60f92">Showing JPEG preview</string>
     <string name="t_68c2cc7f0c">Model</string>
