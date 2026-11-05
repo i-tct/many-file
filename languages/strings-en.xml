@@ -2980,6 +2980,7 @@
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/PausedJobs.kt -->
     <string name="t_b3bd0b5a70">Resume</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/AudioPlayerScreen.kt -->
+    <string name="t_dba7a1e2fa">Couldn\'t reach the lyrics databases. Check the connection.</string>
     <string name="t_aeabdee323">No other lyrics found online for this song</string>
     <string name="t_aec7f7a0ab">No lyrics found online for this song</string>
     <string name="t_e45f125f1d">Lyrics found, but they couldn\'t be saved</string>
