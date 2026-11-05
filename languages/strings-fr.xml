@@ -5930,4 +5930,6 @@
     <string name="t_0bcaf0934c">Le fichier de ce morceau n’a pas pu être lu : il est peut-être endommagé</string>
     <!-- Lyrics search without a connection (2026-11-05) -->
     <string name="t_dba7a1e2fa">Impossible de joindre les bases de paroles. Vérifiez la connexion.</string>
+    <!-- Dossier disparu (2026-11-05) -->
+    <string name="t_0148c17e96">Il a été supprimé, déplacé ou renommé.</string>
 </resources>

@@ -2112,6 +2112,8 @@
     <string name="t_799c303727">No files in %s larger than %s</string>
     <string name="t_68c3f78b24">No matches in %s for “%s”</string>
     <string name="t_830489bc03">Larger than %s</string>
+    <string name="t_0148c17e96">It was deleted, moved or renamed.</string>
+    <string name="t_cb7cda502c">Go to %s</string>
     <string name="t_13d75d4ca5">This ManyFile link leads to a place that is gone</string>
     <string name="t_bf23940d55">A ManyFile link</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/TabSession.kt -->
@@ -3677,7 +3679,6 @@
     <string name="t_9f1141549f">Docker</string>
     <string name="t_376eba03a7">tmux sessions</string>
     <string name="t_cce0db44aa">Tap to run · Long-press for options</string>
-    <string name="t_cb7cda502c">Go to %s</string>
     <string name="t_c1adbd869a">Bookmark folder (%s)</string>
     <string name="t_086b51a027">this server</string>
     <string name="t_2c92cc53e1">Type without running</string>
