@@ -2993,6 +2993,12 @@
     <string name="t_635159be7a">No app to choose photos was found</string>
     <string name="t_f517ea8bcf">Cover photo removed</string>
     <string name="t_940985f975">Delete song?</string>
+    <string name="t_a877eb1266">This song\'s file is gone</string>
+    <string name="t_81f102d06e">ManyFile may not read this song\'s file</string>
+    <string name="t_e0d3d9841a">This song can\'t be played: it is damaged, or in a form the player can\'t read</string>
+    <string name="t_9484a65c98">The connection was lost while playing</string>
+    <string name="t_0bcaf0934c">This song\'s file couldn\'t be read: it may be damaged</string>
+    <string name="t_8cf92e03af">Playback error: %s</string>
     <string name="t_a40f5b84f3">Close player</string>
     <string name="t_586fa7a8e5">NOW PLAYING</string>
     <string name="t_7bd8285ab4">Song details</string>
@@ -3177,7 +3183,6 @@
     <string name="t_093990c14f">1 song</string>
     <string name="t_b96fb0e5ee">%d songs</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/NowPlayingBar.kt -->
-    <string name="t_8cf92e03af">Playback error: %s</string>
     <string name="t_7dd843728a">Stop and close</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/PhotoTextScreens.kt -->
     <string name="t_a7bcfd5912">Text in image</string>

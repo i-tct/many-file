@@ -5922,4 +5922,10 @@
     <string name="t_0b11667ae0">La photo n’a pas pu être enregistrée</string>
     <string name="t_8845313ac2">Enregistrer dans Images</string>
     <string name="t_5af0e0504a">Impossible d’afficher cette image : elle est endommagée ou dans un format qu’Android ne sait pas lire.</string>
+    <!-- Why a song doesn't play (2026-11-05) -->
+    <string name="t_a877eb1266">Le fichier de ce morceau n’existe plus</string>
+    <string name="t_81f102d06e">ManyFile n’est pas autorisé à lire le fichier de ce morceau</string>
+    <string name="t_e0d3d9841a">Impossible de lire ce morceau : il est endommagé ou dans un format que le lecteur ne sait pas lire</string>
+    <string name="t_9484a65c98">La connexion a été perdue pendant la lecture</string>
+    <string name="t_0bcaf0934c">Le fichier de ce morceau n’a pas pu être lu : il est peut-être endommagé</string>
 </resources>
