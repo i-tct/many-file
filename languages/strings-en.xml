@@ -3292,6 +3292,7 @@
     <string name="t_f11c4186c6">Sleep timer: stopped</string>
     <string name="t_f2419cc1f8">Unsupported audio: %s</string>
     <string name="t_4eb4195537">unknown format</string>
+    <string name="t_46283221aa">Switched to another video decoder</string>
     <string name="t_2ae612d0c6">Empty file (0 bytes)</string>
     <string name="t_6d1ab8bfd2">Sleep timer: paused</string>
     <string name="t_f45380c0ac">This phone has no Wi-Fi address</string>
@@ -5772,6 +5773,7 @@
     <string name="t_20a32bc870">Saturation</string>
     <string name="t_33641100d7">Replace %s?</string>
     <string name="t_11b551521a">The original will be moved to the Bin.</string>
+    <string name="t_4e0dd75b63">This changes the other app\'s file for good.</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageViewerScreen.kt -->
     <string name="t_4dd57e9137">Rotate view</string>
     <string name="t_710de69baf">All images</string>

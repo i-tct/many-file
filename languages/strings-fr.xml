@@ -5958,4 +5958,6 @@
     <string name="t_1b5c04abd7">Plus de question. Les nouveaux fichiers restent non chiffrés jusqu’à ce que vous les chiffriez ici.</string>
     <string name="t_7e77e05f55">Chiffrer 1 nouvel élément</string>
     <string name="t_a1ec2844ae">Chiffrer %d nouveaux éléments</string>
+    <string name="t_46283221aa">Passage à un autre décodeur vidéo</string>
+    <string name="t_4e0dd75b63">Cela modifie définitivement le fichier de l’autre application.</string>
 </resources>
