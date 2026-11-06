@@ -693,7 +693,6 @@
     <string name="t_7cddbd87bd">%s refused ManyFile\'s SSH key. In Git, tap SSH key and add it to your account there.</string>
     <string name="t_097d1d06ec">The server\'s key was not trusted</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubApi.kt -->
-    <string name="t_afc39fe39c">Empty response from GitHub</string>
     <string name="t_f40de0831a">Couldn\'t connect to GitHub: %s</string>
     <string name="t_f4b6b4f439">GitHub returned no upload URL</string>
     <string name="t_1eadfbc261">Sign in to GitHub first (Git → GitHub → Sign in)</string>
@@ -4684,12 +4683,9 @@
     <string name="t_879dab1643">Moving %s items to Bin…</string>
     <string name="t_4ae9634ce8">Deleting %s items…</string>
     <string name="t_f6ab55dd35">Scan again</string>
+    <string name="t_47c975c939">Clean %s of junk?</string>
     <string name="t_73985ddd83">Every app\'s cache, apps\' folders, what removed apps left</string>
     <string name="t_8ce4058570">Blurry and dark photos, old screenshots, big videos to shrink</string>
-    <string name="t_2ae6f6f729">Scanning… %s files (%s)</string>
-    <string name="t_47b6b05e8c">of junk selected</string>
-    <string name="t_d448bc03ba">No junk selected</string>
-    <string name="t_47c975c939">Clean %s of junk?</string>
     <string name="t_86c7d94c87">Junk</string>
     <string name="t_066f77ce37">To review</string>
     <string name="t_ea65ca8ec1">Duplicate files</string>
@@ -4701,6 +4697,9 @@
     <string name="t_08e4393ec8">Junk files are deleted permanently.</string>
     <string name="t_412f0c05d1">Moving to Bin frees space only once the Bin is emptied.</string>
     <string name="t_18764db058">Moving to Bin frees space only after %s days.</string>
+    <string name="t_47b6b05e8c">of junk selected</string>
+    <string name="t_d448bc03ba">No junk selected</string>
+    <string name="t_2ae6f6f729">Scanning… %s files (%s)</string>
     <string name="t_2c269f3f84">Any age</string>
     <string name="t_1de70fe01a">Older than 30 days</string>
     <string name="t_21cc0b59ad">%s of %s · %s</string>
