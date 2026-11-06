@@ -201,7 +201,7 @@
     <string name="t_5888ea8707">Further down in ⋮</string>
     <string name="t_1bc3ec0a9b">A new incognito tab, a new window, Reopen closed tab, Undo, Filter this folder and Folder properties.</string>
     <string name="t_ca89063ab3">Select files</string>
-    <string name="t_9679b5920a">Hold a file to select it, then tap others to add them. The bar at the bottom shares, copies, moves, compresses or deletes them; ⋮ has the rest: encrypt, lock a folder, and Choose cover… to put a picture on a folder.</string>
+    <string name="t_614bab81b0">Hold a file to select it, then tap others to add them. Slide without letting go to select as you pass; hold a second file to select everything up to it. The bar at the bottom shares, copies, moves, compresses or deletes them; ⋮ has the rest: encrypt, lock a folder, and Choose cover… to put a picture on a folder.</string>
     <string name="t_31ba98404e">Welcome to ManyFile</string>
     <string name="t_f04a41b6ee">A tour that opens each place as it goes: Home, the menu, your files and Settings. Skip it any time: Settings → About → Welcome tour shows it again.</string>
     <string name="t_bce0641417">Search</string>
@@ -2336,6 +2336,7 @@
     <string name="t_586f31c754">Find duplicates</string>
     <string name="t_ffafd1d88c">Analyze storage</string>
     <string name="t_f74acbcd98">Open Bin</string>
+    <string name="t_9011c75446">Select between</string>
     <string name="t_1500b1f861">Selection options</string>
     <string name="t_e074f07453">Invert selection</string>
     <string name="t_e7c320244b">Files only</string>
@@ -2445,6 +2446,8 @@
     <string name="t_b788ba9c87">Compare with…</string>
     <string name="t_fac13fcb46">Tags…</string>
     <string name="t_001de2b938">Calculate size</string>
+    <string name="t_9c04c97209">Show as a list</string>
+    <string name="t_d1e53662d1">Show as a grid</string>
     <string name="t_295763d01c">Clipboard history</string>
     <string name="t_731b577ab2">Paste here</string>
     <string name="t_f003567b45">Choose cover…</string>
@@ -2888,8 +2891,6 @@
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/RecentsScreen.kt -->
     <string name="t_34de6dd705">Find in Recents</string>
     <string name="t_0906f92324">Close search</string>
-    <string name="t_9c04c97209">Show as a list</string>
-    <string name="t_d1e53662d1">Show as a grid</string>
     <string name="t_d4da1afc04">Show on Home</string>
     <string name="t_aa4783b7d0">Open as a tab</string>
     <string name="t_ab4ba96582">Clear recents…</string>
@@ -4048,6 +4049,8 @@
     <string name="t_ce93d6f6b7">Off: a sort chosen in a folder is for that folder only</string>
     <string name="t_86d4cc315a">Reset folder layouts</string>
     <string name="t_5c97c504a8">Use the default layout everywhere</string>
+    <string name="t_0bae1e7361">⋮ menu as a grid</string>
+    <string name="t_948ffef4cd">Tiles instead of a list, for selected files</string>
     <string name="t_7e08ebec5e">Developer</string>
     <string name="t_cb5d2ec041">Browse above internal storage</string>
     <string name="t_97389b5878">Go up to /storage and / (mostly read-only)</string>

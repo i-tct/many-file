@@ -5944,4 +5944,8 @@
     <string name="t_6965503d98">Chaque type de fichier réglé avec « Toujours » dans Ouvrir avec…, pour l\'effacer.</string>
     <string name="t_6dbaef26e2">Taille du texte, retour à la ligne, touches de symboles au-dessus du clavier et enregistrement automatique.</string>
     <string name="t_d6c15bf24b">Combien de temps la corbeille garde les fichiers, sa taille maximale, les emplacements récents et l\'historique d\'annulation.</string>
+    <string name="t_9011c75446">Sélectionner l’intervalle</string>
+    <string name="t_614bab81b0">Maintenez un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. Glissez sans lâcher pour sélectionner au passage ; maintenez un second fichier pour tout sélectionner jusqu’à lui. La barre du bas les partage, copie, déplace, compresse ou supprime ; ⋮ propose le reste : chiffrer, verrouiller un dossier, et Choisir une couverture… pour mettre une image sur un dossier.</string>
+    <string name="t_0bae1e7361">Menu ⋮ en grille</string>
+    <string name="t_948ffef4cd">Des tuiles au lieu d’une liste, pour les fichiers sélectionnés</string>
 </resources>
