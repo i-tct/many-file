@@ -198,6 +198,8 @@
     <string name="t_6620474075">Tap a folder in the path to go back to it; hold it to copy the path.</string>
     <string name="t_4bab2d8fe1">More</string>
     <string name="t_677c2c0d54">Sort, view, hidden files, a new file or folder, and this folder\'s tools: analyze its storage, find copies.</string>
+    <string name="t_5888ea8707">Further down in ⋮</string>
+    <string name="t_1bc3ec0a9b">A new incognito tab, a new window, Reopen closed tab, Undo, Filter this folder and Folder properties.</string>
     <string name="t_ca89063ab3">Select files</string>
     <string name="t_9679b5920a">Hold a file to select it, then tap others to add them. The bar at the bottom shares, copies, moves, compresses or deletes them; ⋮ has the rest: encrypt, lock a folder, and Choose cover… to put a picture on a folder.</string>
     <string name="t_31ba98404e">Welcome to ManyFile</string>
@@ -218,8 +220,21 @@
     <string name="t_a2fcd8479b">Copies, moves and downloads run here in the background: pause, stop or retry them.</string>
     <string name="t_c9ae02841b">The menu</string>
     <string name="t_764ca4fdc4">Every storage and place: servers, cloud drives, vaults and locked folders, and all the tools. ☰ opens it, or a swipe from the left on Home.</string>
+    <string name="t_02b0a8c4ed">Deep in the menu</string>
+    <string name="t_63d90549fc">Scroll down for the tools few find: Folder sync and Folder rules, Terminal and Commands, Git, Share on Wi-Fi, Media Downloader, Bootable USB, Similar photos and Words in photos.</string>
     <string name="t_9a6f37a7bf">Search settings</string>
     <string name="t_cbfaf37ee5">Every setting can be found by a word: theme, lock, backup…</string>
+    <string name="t_6a462fb6d1">Dual pane</string>
+    <string name="t_f7094075d4">Two folders side by side. Turn it on here, under Wide screens &amp; drag and drop; Dual pane on phones gives two narrow panes in portrait. Then ⋮ has Compare panes and Browse both together, and files drag across.</string>
+    <string name="t_3dc656e659">Folders your way</string>
+    <string name="t_e0bc85ecd6">Grid or list, what each row shows, thumbnails, and Layout rules: the layout and sort that matching folders open with.</string>
+    <string name="t_64fd779c46">File operations</string>
+    <string name="t_7016f055d6">What to do when a file already exists, checking copies once made, how many jobs run at once, and a speed limit for servers.</string>
+    <string name="t_a535bff5bb">Opening files</string>
+    <string name="t_6965503d98">Every file type you set with Always in Open with…, to clear again.</string>
+    <string name="t_6dbaef26e2">Font size, word wrap, the symbol keys above the keyboard, and autosave.</string>
+    <string name="t_27c655fab2">Bin &amp; history</string>
+    <string name="t_d6c15bf24b">How long the Bin keeps files, how big it may get, recent locations and the undo history.</string>
     <string name="t_41def7a0fe">Appearance</string>
     <string name="t_225249488b">Theme, colours, glass or solid, and Home\'s icon size and style.</string>
     <string name="t_a34fa2ead1">App lock</string>
@@ -2295,7 +2310,6 @@
     <string name="t_566f549e0b">New incognito tab</string>
     <string name="t_296b59cd29">Close tab</string>
     <string name="t_1a6d5b07e4">Close other tabs</string>
-    <string name="t_6a462fb6d1">Dual pane</string>
     <string name="t_edd880e08b">Compare panes</string>
     <string name="t_6c77d453d4">Browse both together</string>
     <string name="t_adadaa4165">Undo: %s</string>
@@ -2977,7 +2991,6 @@
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/JobService.kt -->
     <string name="t_656752d537">Working in a vault</string>
     <string name="t_ab15b3fb1f">%d more queued</string>
-    <string name="t_64fd779c46">File operations</string>
     <string name="t_0cd9fc2f71">Progress of copies, moves and other jobs</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/PausedJobs.kt -->
     <string name="t_b3bd0b5a70">Resume</string>
@@ -4195,9 +4208,7 @@
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsScreen.kt -->
     <string name="t_95ae28be31">Browsing</string>
     <string name="t_f037b4dd5e">Tabs &amp; panes</string>
-    <string name="t_a535bff5bb">Opening files</string>
     <string name="t_d1a0bcf650">Music &amp; video</string>
-    <string name="t_27c655fab2">Bin &amp; history</string>
     <string name="t_649294f41c">Storage &amp; cache</string>
     <string name="t_e722f5661d">Root access</string>
     <string name="t_3af2279f9e">Diagnostics</string>

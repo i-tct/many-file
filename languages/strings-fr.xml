@@ -5933,4 +5933,15 @@
     <!-- Dossier disparu (2026-11-05) -->
     <string name="t_0148c17e96">Il a été supprimé, déplacé ou renommé.</string>
     <string name="t_38fafb4cde">ManyFile ne reconnaît pas ce fichier</string>
+    <string name="t_5888ea8707">Plus bas dans ⋮</string>
+    <string name="t_1bc3ec0a9b">Nouvel onglet de navigation privée, nouvelle fenêtre, Rouvrir l\'onglet fermé, Annuler, Filtrer ce dossier et Propriétés du dossier.</string>
+    <string name="t_02b0a8c4ed">Tout au fond du menu</string>
+    <string name="t_63d90549fc">Faites défiler pour trouver les outils que peu de gens voient : synchronisation et règles de dossiers, Terminal et Commandes, Git, Partage Wi-Fi, Media Downloader, USB amorçable, Photos similaires et Mots dans les photos.</string>
+    <string name="t_f7094075d4">Deux dossiers côte à côte. Activez-le ici, dans Grands écrans et glisser-déposer ; le double volet sur téléphone donne deux volets étroits en portrait. Ensuite, ⋮ propose de comparer les volets et de parcourir les deux ensemble, et les fichiers se glissent de l\'un à l\'autre.</string>
+    <string name="t_3dc656e659">Vos dossiers, à votre façon</string>
+    <string name="t_e0bc85ecd6">Grille ou liste, ce que montre chaque ligne, les miniatures et les règles d\'affichage : la disposition et le tri avec lesquels s\'ouvrent les dossiers concernés.</string>
+    <string name="t_7016f055d6">Que faire quand un fichier existe déjà, la vérification des copies, le nombre de tâches simultanées et une limite de vitesse pour les serveurs.</string>
+    <string name="t_6965503d98">Chaque type de fichier réglé avec « Toujours » dans Ouvrir avec…, pour l\'effacer.</string>
+    <string name="t_6dbaef26e2">Taille du texte, retour à la ligne, touches de symboles au-dessus du clavier et enregistrement automatique.</string>
+    <string name="t_d6c15bf24b">Combien de temps la corbeille garde les fichiers, sa taille maximale, les emplacements récents et l\'historique d\'annulation.</string>
 </resources>
