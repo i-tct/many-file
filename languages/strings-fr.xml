@@ -5960,4 +5960,7 @@
     <string name="t_a1ec2844ae">Chiffrer %d nouveaux éléments</string>
     <string name="t_46283221aa">Passage à un autre décodeur vidéo</string>
     <string name="t_4e0dd75b63">Cela modifie définitivement le fichier de l’autre application.</string>
+    <string name="t_a80cdabc7d">Boutons en bas</string>
+    <string name="t_4e64fbcc88">Les boutons de chaque écran à portée du pouce. Désactivé : en haut.</string>
+    <string name="t_672cae99fc">Dans l’éditeur de code. Désactivé : en haut.</string>
 </resources>

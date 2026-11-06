@@ -2274,9 +2274,9 @@
     <string name="t_0b3b3c8f57">No recently closed tabs</string>
     <string name="t_b08c0f71c9">Properties unavailable</string>
     <string name="t_0ea2413ce3">%s is no longer there</string>
-    <string name="t_def2a545a3">Copied %s</string>
     <string name="t_d089e2d5a5">Moving to %s</string>
     <string name="t_e0f7ba8449">Copying to %s</string>
+    <string name="t_def2a545a3">Copied %s</string>
     <string name="t_c06342c881">Add files</string>
     <string name="t_1437f31023">Add to vault…</string>
     <string name="t_9fdaa23025">Add files…</string>
@@ -2614,13 +2614,13 @@
     <string name="t_8f3cee3a58">Find code files</string>
     <string name="t_60b6bad94f">No recent files</string>
     <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/EditorScreen.kt -->
+    <string name="t_5409e9c46e">Unsaved changes in %s</string>
     <string name="t_1d8d39a6e9">read-only</string>
     <string name="t_4d8b8004e1">on server, uploading…</string>
     <string name="t_b25f4e9aed">on server</string>
     <string name="t_471b94d402">Redo</string>
     <string name="t_2c6b404bf8">Find and replace</string>
     <string name="t_45cbd796e6">Go to line…</string>
-    <string name="t_5409e9c46e">Unsaved changes in %s</string>
     <string name="t_130b03e444">Show changes</string>
     <string name="t_d905714863">Save as…</string>
     <string name="t_9d91d3f268">Word wrap</string>
@@ -3973,6 +3973,8 @@
     <string name="t_4d587066cd">ManyFile %s is ready to download.</string>
     <string name="t_26fc034676">ManyFile %s isn\'t on GitHub yet. Try again later.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsIndex.kt -->
+    <string name="t_a80cdabc7d">Buttons at the bottom</string>
+    <string name="t_4e64fbcc88">Each screen\'s buttons within a thumb\'s reach. Off: at the top.</string>
     <string name="t_a797e30923">Theme</string>
     <string name="t_1d46b98946">Dynamic color</string>
     <string name="t_84a5e68844">Use wallpaper colours (Android 12+)</string>
@@ -4142,6 +4144,7 @@
     <string name="t_348e86f717">Highlight matching brackets</string>
     <string name="t_d2f74bc8b3">Symbol keys</string>
     <string name="t_21658b83f6">Tab, arrows and { } ( ) ; … above the keyboard</string>
+    <string name="t_672cae99fc">In the code editor. Off: at the top.</string>
     <string name="t_3d08307f67">Save while typing (local files)</string>
     <string name="t_0559f5ef86">Background playback</string>
     <string name="t_7e904cd27a">Keep playing after leaving the player</string>
