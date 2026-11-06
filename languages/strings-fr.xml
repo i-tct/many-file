@@ -5948,4 +5948,14 @@
     <string name="t_614bab81b0">Maintenez un fichier pour le sélectionner, puis touchez-en d’autres pour les ajouter. Glissez sans lâcher pour sélectionner au passage ; maintenez un second fichier pour tout sélectionner jusqu’à lui. La barre du bas les partage, copie, déplace, compresse ou supprime ; ⋮ propose le reste : chiffrer, verrouiller un dossier, et Choisir une couverture… pour mettre une image sur un dossier.</string>
     <string name="t_0bae1e7361">Menu ⋮ en grille</string>
     <string name="t_948ffef4cd">Des tuiles au lieu d’une liste, pour les fichiers sélectionnés</string>
+    <string name="t_11a2dfb246">Modifiable à tout moment dans les réglages de ce dossier.</string>
+    <string name="t_b86f74e295">Nouveaux fichiers dans ce dossier</string>
+    <string name="t_10a8fd63e5">Me demander</string>
+    <string name="t_807a16554f">Chiffrer automatiquement</string>
+    <string name="t_2fd4c43936">Les laisser</string>
+    <string name="t_fc99761b4f">Demande à chaque déverrouillage de ce dossier.</string>
+    <string name="t_bac0f23348">Fait à chaque déverrouillage de ce dossier. D’ici là, les autres applications peuvent ouvrir les nouveaux fichiers.</string>
+    <string name="t_1b5c04abd7">Plus de question. Les nouveaux fichiers restent non chiffrés jusqu’à ce que vous les chiffriez ici.</string>
+    <string name="t_7e77e05f55">Chiffrer 1 nouvel élément</string>
+    <string name="t_a1ec2844ae">Chiffrer %d nouveaux éléments</string>
 </resources>
