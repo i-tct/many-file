@@ -54,6 +54,7 @@
     <string name="t_e02548ea85">Calendar viewer</string>
     <string name="t_75b211f57a">Native library viewer</string>
     <string name="t_7d5e3b2805">Another app</string>
+    <string name="t_38fafb4cde">ManyFile doesn\'t recognise this file</string>
     <string name="t_9b25b155c6">Always open .%s files this way</string>
     <string name="t_d89b7c95de">Default for .%s: %s</string>
     <string name="t_6e00216976">Tap to clear default</string>

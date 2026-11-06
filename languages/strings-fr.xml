@@ -5932,4 +5932,5 @@
     <string name="t_dba7a1e2fa">Impossible de joindre les bases de paroles. Vérifiez la connexion.</string>
     <!-- Dossier disparu (2026-11-05) -->
     <string name="t_0148c17e96">Il a été supprimé, déplacé ou renommé.</string>
+    <string name="t_38fafb4cde">ManyFile ne reconnaît pas ce fichier</string>
 </resources>
