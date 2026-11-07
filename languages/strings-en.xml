@@ -196,8 +196,10 @@
     <string name="t_08a0d1d3a6">Each folder can have its own tab. Swipe sideways between them; hold a tab for more.</string>
     <string name="t_cd3e9b3e44">Where you are</string>
     <string name="t_6620474075">Tap a folder in the path to go back to it; hold it to copy the path.</string>
+    <string name="t_4570413ebc">Your buttons</string>
+    <string name="t_aed4b5357a">Home, a new tab, search, sort and view. The bar steps aside while files scroll and comes back when they stop. Settings → Bars and buttons moves them or hides them.</string>
     <string name="t_4bab2d8fe1">More</string>
-    <string name="t_677c2c0d54">Sort, view, hidden files, a new file or folder, and this folder\'s tools: analyze its storage, find copies.</string>
+    <string name="t_eb88fe2428">Hidden files, tabs, undo, pins and this folder\'s tools: analyze its storage, find copies.</string>
     <string name="t_5888ea8707">Further down in ⋮</string>
     <string name="t_1bc3ec0a9b">A new incognito tab, a new window, Reopen closed tab, Undo, Filter this folder and Folder properties.</string>
     <string name="t_ca89063ab3">Select files</string>
@@ -237,6 +239,8 @@
     <string name="t_d6c15bf24b">How long the Bin keeps files, how big it may get, recent locations and the undo history.</string>
     <string name="t_41def7a0fe">Appearance</string>
     <string name="t_225249488b">Theme, colours, glass or solid, and Home\'s icon size and style.</string>
+    <string name="t_a16b92145a">Bars and buttons</string>
+    <string name="t_486bd144dd">Put each folder button at the top or the bottom, or hide it, in the order you like. Editing tools, the code editor and other screens have their own switches.</string>
     <string name="t_a34fa2ead1">App lock</string>
     <string name="t_b568b1dea0">A PIN, password or fingerprint before ManyFile opens. Vaults and locked folders have their own.</string>
     <string name="t_a2bb39746d">Back up &amp; restore</string>
@@ -271,6 +275,9 @@
     <string name="t_0e45aee6e5">Stop sharing</string>
     <string name="t_86497a4694">Wi-Fi sharing</string>
     <string name="t_4f4deb952b">Shown while sharing on Wi-Fi</string>
+    <!-- app/src/main/kotlin/tct/manyfile/tiles/QuickTiles.kt -->
+    <string name="t_fef57540fd">Syncing 1 folder</string>
+    <string name="t_312710317e">Syncing %d folders</string>
     <!-- app/src/main/kotlin/tct/manyfile/widgets/StorageWidget.kt -->
     <string name="t_5ca99266c1">Cleaning…</string>
     <string name="t_9012295c16">Nothing to clean</string>
@@ -1487,6 +1494,15 @@
     <string name="t_ae1ef01432">Dark</string>
     <string name="t_b406fb57b2">Black</string>
     <!-- core/model/src/main/kotlin/tct/manyfile/core/model/Sorting.kt -->
+    <string name="t_a1fffaaafb">List</string>
+    <string name="t_5f4e2d4730">Compact list</string>
+    <string name="t_0bb6a96152">Detailed list</string>
+    <string name="t_701c483f81">Grid</string>
+    <string name="t_4970332f64">Large grid</string>
+    <string name="t_9c30a3485a">Gallery</string>
+    <string name="t_cf723c59b6">Columns</string>
+    <string name="t_99f5ff6378">Tree</string>
+    <string name="t_5380d98727">Wrapped</string>
     <string name="t_03c3152c3e">Collapsible headings</string>
     <string name="t_19adc47be3">Folders</string>
     <string name="t_ae8ea3820f">One list</string>
@@ -1569,8 +1585,8 @@
     <string name="t_c0ae8f6ea8">Saved</string>
     <string name="t_efc007a393">Save</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/Tour.kt -->
-    <string name="t_c8bd26eea5">%d of %d</string>
     <string name="t_3da474537a">Skip</string>
+    <string name="t_c8bd26eea5">%d of %d</string>
     <string name="t_bc981983e7">Next</string>
     <!-- core/ui/src/main/kotlin/tct/manyfile/core/ui/ViewerDelete.kt -->
     <string name="t_afd1aa166b">Delete permanently?</string>
@@ -2690,6 +2706,8 @@
     <string name="t_3563421bce">Jump to end</string>
     <string name="t_b643174ad6">Find (case-insensitive)</string>
     <string name="t_e4fe1ff455">Line %s copied</string>
+    <!-- feature/editor/src/main/kotlin/tct/manyfile/feature/editor/view/CodeEditorView.kt -->
+    <string name="t_59413051f3">Too much text for the clipboard (%d characters)</string>
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/AddCloud.kt -->
     <string name="t_07030d8296">Google account</string>
     <string name="t_e6f254aea5">Microsoft account (personal, work or school)</string>
@@ -2944,6 +2962,9 @@
     <string name="t_ba09a6e97b">Chosen</string>
     <string name="t_92eea96afd">Cloud services</string>
     <string name="t_c0a8060f3b">Original</string>
+    <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/VolumeOpener.kt -->
+    <string name="t_0ef6267689">Android doesn\'t let ManyFile open %s</string>
+    <string name="t_a482e3fdde">Could not ask for access to %s</string>
     <!-- feature/jobs/src/main/kotlin/tct/manyfile/feature/jobs/DownloadScreen.kt -->
     <string name="t_2f601b8095">Couldn\'t reach server</string>
     <string name="t_a6cf8f3559">For direct file links (.zip, .apk, .mp4, .pdf…).</string>
@@ -3508,6 +3529,7 @@
     <string name="t_4b90627d1c">waiting for network</string>
     <string name="t_e96a31443d">failed: %s</string>
     <string name="t_11f9578d05">error</string>
+    <string name="t_6210274434">passphrase</string>
     <string name="t_5a8f462575">Key actions</string>
     <string name="t_62e14df03c">Show public key</string>
     <string name="t_ad76b9b0eb">Install on server…</string>
@@ -4016,6 +4038,8 @@
     <string name="t_ecc30ea69d">The file\'s name stays at the top</string>
     <string name="t_26c40a27e5">Other screens</string>
     <string name="t_2f2e7b95fc">Home, Git, Settings and the rest. Each screen\'s name stays at the top</string>
+    <string name="t_ba29b31502">Hide while scrolling</string>
+    <string name="t_dcf6b50ee6">In folders, the bar at the bottom steps aside as files scroll and comes back when they stop</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
     <string name="t_b26ba791b8">List size</string>
@@ -4091,7 +4115,10 @@
     <string name="t_a35707c2f9">Swiping past the last tab opens a new one</string>
     <string name="t_2affdd1222">Keep clipboard across restarts</string>
     <string name="t_dc3e46ec27">Wide screens &amp; drag and drop</string>
-    <string name="t_d3fe593529">Two folders side by side on wide screens</string>
+    <string name="t_c5a64a70e6">Dual pane on tablets</string>
+    <string name="t_6f208e44dd">Two folders side by side</string>
+    <string name="t_08b65e7e35">Dual pane in landscape</string>
+    <string name="t_324527ff7c">Two folders side by side when a phone is held sideways</string>
     <string name="t_35e767aa09">Dual pane on phones</string>
     <string name="t_5649cacd5f">Two narrow panes in portrait</string>
     <string name="t_f5e1911f34">Drag and drop</string>
@@ -4237,7 +4264,6 @@
     <string name="t_7262c7b776">Reset all settings</string>
     <string name="t_7dc68a0044">Restore default settings</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsScreen.kt -->
-    <string name="t_a16b92145a">Bars and buttons</string>
     <string name="t_95ae28be31">Browsing</string>
     <string name="t_f037b4dd5e">Tabs &amp; panes</string>
     <string name="t_d1a0bcf650">Music &amp; video</string>
@@ -4444,15 +4470,6 @@
     <string name="t_32e19e7330">All settings will be restored to defaults.</string>
     <string name="t_1b16bcb011">Follow system</string>
     <string name="t_61e3b40794">OLED black</string>
-    <string name="t_a1fffaaafb">List</string>
-    <string name="t_5f4e2d4730">Compact list</string>
-    <string name="t_0bb6a96152">Detailed list</string>
-    <string name="t_701c483f81">Grid</string>
-    <string name="t_4970332f64">Large grid</string>
-    <string name="t_9c30a3485a">Gallery</string>
-    <string name="t_cf723c59b6">Columns</string>
-    <string name="t_99f5ff6378">Tree</string>
-    <string name="t_5380d98727">Wrapped</string>
     <string name="t_def70e36e2">Keep both (rename)</string>
     <string name="t_25298176f1">Skip identical, replace others</string>
     <string name="t_ef3eaaddb0">Couldn\'t complete: %s</string>
@@ -5888,6 +5905,8 @@
     <string name="t_4318f26fa3">Thick</string>
     <string name="t_c57d1bf804">Tap a mark to erase it · Scroll with two fingers</string>
     <string name="t_179f0b9430">Draw with one finger · Scroll with two fingers</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/Printing.kt -->
+    <string name="t_0fbdbabf49">Printing is not available</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/Readers.kt -->
     <string name="t_12bdf53da5">Couldn\'t open book</string>
     <string name="t_41b5884bae">Text and colours</string>

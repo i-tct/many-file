@@ -5978,4 +5978,21 @@
     <string name="t_2f2e7b95fc">Accueil, Git, Paramètres et le reste. Le nom de chaque écran reste en haut</string>
     <string name="t_a16b92145a">Barres et boutons</string>
     <string name="t_39e4a6f5c4">L’emplacement des boutons de chaque écran</string>
+    <string name="t_4570413ebc">Vos boutons</string>
+    <string name="t_aed4b5357a">Accueil, nouvel onglet, recherche, tri et affichage. La barre s’efface pendant le défilement des fichiers et revient quand ils s’arrêtent. Paramètres → Barres et boutons permet de les déplacer ou de les masquer.</string>
+    <string name="t_eb88fe2428">Fichiers masqués, onglets, annulation, épingles et outils de ce dossier : analyser son stockage, trouver les copies.</string>
+    <string name="t_486bd144dd">Placez chaque bouton de dossier en haut ou en bas, ou masquez-le, dans l’ordre de votre choix. Les outils de modification, l’éditeur de code et les autres écrans ont leurs propres interrupteurs.</string>
+    <string name="t_fef57540fd">Synchronisation de 1 dossier</string>
+    <string name="t_312710317e">Synchronisation de %d dossiers</string>
+    <string name="t_59413051f3">Trop de texte pour le presse-papiers (%d caractères)</string>
+    <string name="t_0ef6267689">Android ne permet pas à ManyFile d’ouvrir %s</string>
+    <string name="t_a482e3fdde">Impossible de demander l’accès à %s</string>
+    <string name="t_6210274434">phrase secrète</string>
+    <string name="t_ba29b31502">Masquer pendant le défilement</string>
+    <string name="t_dcf6b50ee6">Dans les dossiers, la barre du bas s’efface pendant le défilement des fichiers et revient quand ils s’arrêtent</string>
+    <string name="t_0fbdbabf49">Impression non disponible</string>
+    <string name="t_c5a64a70e6">Double volet sur tablette</string>
+    <string name="t_6f208e44dd">Deux dossiers côte à côte</string>
+    <string name="t_08b65e7e35">Double volet en paysage</string>
+    <string name="t_324527ff7c">Deux dossiers côte à côte quand le téléphone est tenu à l’horizontale</string>
 </resources>
