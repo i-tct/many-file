@@ -5963,4 +5963,19 @@
     <string name="t_a80cdabc7d">Boutons en bas</string>
     <string name="t_4e64fbcc88">Les boutons de chaque écran à portée du pouce. Désactivé : en haut.</string>
     <string name="t_672cae99fc">Dans l’éditeur de code. Désactivé : en haut.</string>
+    <string name="t_1094799bc2">Déplacer en haut</string>
+    <string name="t_0262130628">Déplacer en bas</string>
+    <string name="t_88c079355c">Dossiers : en haut</string>
+    <string name="t_08092a0f01">Dossiers : en bas</string>
+    <string name="t_9fb8cb378d">Dossiers : non affichés</string>
+    <string name="t_1f646e53eb">Revenir aux boutons par défaut ?</string>
+    <string name="t_1cc33c04ff">Tout en haut</string>
+    <string name="t_9d7d234407">Tout en bas</string>
+    <string name="t_157dbf3450">Outils de modification et fichiers ouverts</string>
+    <string name="t_5df90cf484">Photos, PDF et autres fichiers. Le nom du fichier reste en haut</string>
+    <string name="t_ecc30ea69d">Le nom du fichier reste en haut</string>
+    <string name="t_26c40a27e5">Autres écrans</string>
+    <string name="t_2f2e7b95fc">Accueil, Git, Paramètres et le reste. Le nom de chaque écran reste en haut</string>
+    <string name="t_a16b92145a">Barres et boutons</string>
+    <string name="t_39e4a6f5c4">L’emplacement des boutons de chaque écran</string>
 </resources>

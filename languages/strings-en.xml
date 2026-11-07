@@ -1423,8 +1423,18 @@
     <string name="t_ec7b598335">Round</string>
     <string name="t_82810cb971">Square</string>
     <string name="t_155edc970c">Expressive</string>
-    <string name="t_d403336798">Last folder</string>
     <string name="t_70f8bb9a8a">Home</string>
+    <string name="t_6f23a36f0a">New tab</string>
+    <string name="t_adc4e96a47">Sort</string>
+    <string name="t_a09052c3b4">View options</string>
+    <string name="t_56e3badc4e">Refresh</string>
+    <string name="t_4c83071836">Go to folder…</string>
+    <string name="t_c93f7c70c2">Filter this folder</string>
+    <string name="t_913afff1fa">Select all</string>
+    <string name="t_39fc721248">Undo</string>
+    <string name="t_f74acbcd98">Open Bin</string>
+    <string name="t_c7f73bb54d">Settings</string>
+    <string name="t_d403336798">Last folder</string>
     <string name="t_7b12aa7fec">A folder…</string>
     <string name="t_933bf21afd">Green</string>
     <string name="t_7d44bc449c">Blue</string>
@@ -1573,7 +1583,6 @@
     <string name="t_590d058cc7">Select files and folders</string>
     <string name="t_b295fde49b">%d selected</string>
     <string name="t_618cfb0a53">Select none</string>
-    <string name="t_913afff1fa">Select all</string>
     <string name="t_fc7bb795bf">Move removes the originals from their folders. Copy keeps them.</string>
     <string name="t_76cdb95072">Move</string>
     <string name="t_8920b20409">Empty folder</string>
@@ -1941,10 +1950,8 @@
     <string name="t_1a10838fac">Open folder in new tab, close tab</string>
     <string name="t_bb098969d8">Switch pane</string>
     <string name="t_258bbf43e1">Open folder in new window</string>
-    <string name="t_c93f7c70c2">Filter this folder</string>
     <string name="t_e5eb1b5c56">Show or hide hidden files</string>
     <string name="t_a08f0ace89">Bookmark this folder</string>
-    <string name="t_56e3badc4e">Refresh</string>
     <string name="t_f35f127e72">Zoom in, zoom out, reset zoom</string>
     <string name="t_88b662e97d">Show shortcuts</string>
     <string name="t_266695479a">Keyboard shortcuts</string>
@@ -2112,7 +2119,6 @@
     <string name="t_36f31ed4be">Other apps\' folders are hidden. Use Shizuku or root to see them.</string>
     <string name="t_68034a4313">Other apps\' folders are hidden. Turn on Shizuku or root in Settings → Root access.</string>
     <string name="t_09f0662f45">Open all</string>
-    <string name="t_c7f73bb54d">Settings</string>
     <string name="t_8ea09b3a9d">Device is rooted. Turn on root access to manage all files.</string>
     <string name="t_554e4255c8">Shizuku is installed. Turn it on for more access.</string>
     <string name="t_26563efc2a">Turn on</string>
@@ -2270,7 +2276,6 @@
     <string name="t_a921ff3cac">on %s of %s pages</string>
     <string name="t_a7b98cae53">Saved as “name (no watermark).pdf”</string>
     <!-- feature/browser/src/main/kotlin/tct/manyfile/feature/browser/WorkspaceScreen.kt -->
-    <string name="t_39fc721248">Undo</string>
     <string name="t_0b3b3c8f57">No recently closed tabs</string>
     <string name="t_b08c0f71c9">Properties unavailable</string>
     <string name="t_0ea2413ce3">%s is no longer there</string>
@@ -2301,20 +2306,15 @@
     <string name="t_51519d8c94">Remembered for “%s”</string>
     <string name="t_f101e03a57">Remembered for this folder</string>
     <string name="t_d145987415">Applies to all folders</string>
-    <string name="t_d7613ef268">(incognito)</string>
-    <string name="t_57f5f5efbc">Menu</string>
     <string name="t_7498ca3161">Lock folder</string>
     <string name="t_20e099adca">Lock vault</string>
     <string name="t_ee3262eee3">Folder lock settings</string>
     <string name="t_c3ecbc858f">Vault settings</string>
-    <string name="t_6f23a36f0a">New tab</string>
     <string name="t_2ff9942988">Sort by: %s</string>
-    <string name="t_a09052c3b4">View options</string>
     <string name="t_2382ac4f9a">Layout · from rule “%s”</string>
     <string name="t_972ad8d8a5">Layout</string>
     <string name="t_ba15243c4e">Sort by…  (%s)</string>
     <string name="t_313463d3c8">Show hidden</string>
-    <string name="t_4c83071836">Go to folder…</string>
     <string name="t_e29dc2a85b">Duplicate tab</string>
     <string name="t_a388818400">New window</string>
     <string name="t_566f549e0b">New incognito tab</string>
@@ -2345,7 +2345,8 @@
     <string name="t_ebb2ffded1">Play all</string>
     <string name="t_586f31c754">Find duplicates</string>
     <string name="t_ffafd1d88c">Analyze storage</string>
-    <string name="t_f74acbcd98">Open Bin</string>
+    <string name="t_d7613ef268">(incognito)</string>
+    <string name="t_57f5f5efbc">Menu</string>
     <string name="t_9011c75446">Select between</string>
     <string name="t_1500b1f861">Selection options</string>
     <string name="t_e074f07453">Invert selection</string>
@@ -3912,6 +3913,16 @@
     <string name="t_ec8b61efc7">Amount (%s)</string>
     <string name="t_938591d616">M-Pesa phone number</string>
     <string name="t_02ed4a4a39">Proceed</string>
+    <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/FolderBarsEditor.kt -->
+    <string name="t_1094799bc2">Move to the top</string>
+    <string name="t_0262130628">Move to the bottom</string>
+    <string name="t_88c079355c">Folders: at the top</string>
+    <string name="t_08092a0f01">Folders: at the bottom</string>
+    <string name="t_9fb8cb378d">Folders: not shown</string>
+    <string name="t_1f646e53eb">Back to the default buttons?</string>
+    <string name="t_1cc33c04ff">All at the top</string>
+    <string name="t_9d7d234407">All at the bottom</string>
+    <string name="t_0d84b3e599">Drag to move</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/LanguagePage.kt -->
     <string name="t_9643d47e07">Couldn\'t load languages. Check your connection.</string>
     <string name="t_3d120aa66f">Test a translation</string>
@@ -3963,7 +3974,6 @@
     <string name="t_c426764dc8">Its folders too</string>
     <string name="t_3fd0bc29ce">Folder names</string>
     <string name="t_438af7dfdc">Comma-separated, * and ? as wildcards. Empty: any name.</string>
-    <string name="t_adc4e96a47">Sort</string>
     <string name="t_c2137e49c2">The folder\'s own</string>
     <string name="t_784bef0f50">Delete rule</string>
     <string name="t_28a47f81ac">Choose this folder</string>
@@ -3973,8 +3983,6 @@
     <string name="t_4d587066cd">ManyFile %s is ready to download.</string>
     <string name="t_26fc034676">ManyFile %s isn\'t on GitHub yet. Try again later.</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsIndex.kt -->
-    <string name="t_a80cdabc7d">Buttons at the bottom</string>
-    <string name="t_4e64fbcc88">Each screen\'s buttons within a thumb\'s reach. Off: at the top.</string>
     <string name="t_a797e30923">Theme</string>
     <string name="t_1d46b98946">Dynamic color</string>
     <string name="t_84a5e68844">Use wallpaper colours (Android 12+)</string>
@@ -4003,6 +4011,11 @@
     <string name="t_3cc6e124a8">Text size</string>
     <string name="t_4c3d9e4511">Vibrate on touch</string>
     <string name="t_e315b3f31f">On long press, drag and scan</string>
+    <string name="t_157dbf3450">Editing tools and open files</string>
+    <string name="t_5df90cf484">Photos, PDFs and other files. The file\'s name stays at the top</string>
+    <string name="t_ecc30ea69d">The file\'s name stays at the top</string>
+    <string name="t_26c40a27e5">Other screens</string>
+    <string name="t_2f2e7b95fc">Home, Git, Settings and the rest. Each screen\'s name stays at the top</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
     <string name="t_b26ba791b8">List size</string>
@@ -4144,6 +4157,7 @@
     <string name="t_348e86f717">Highlight matching brackets</string>
     <string name="t_d2f74bc8b3">Symbol keys</string>
     <string name="t_21658b83f6">Tab, arrows and { } ( ) ; … above the keyboard</string>
+    <string name="t_a80cdabc7d">Buttons at the bottom</string>
     <string name="t_672cae99fc">In the code editor. Off: at the top.</string>
     <string name="t_3d08307f67">Save while typing (local files)</string>
     <string name="t_0559f5ef86">Background playback</string>
@@ -4223,6 +4237,7 @@
     <string name="t_7262c7b776">Reset all settings</string>
     <string name="t_7dc68a0044">Restore default settings</string>
     <!-- feature/settings/src/main/kotlin/tct/manyfile/feature/settings/SettingsScreen.kt -->
+    <string name="t_a16b92145a">Bars and buttons</string>
     <string name="t_95ae28be31">Browsing</string>
     <string name="t_f037b4dd5e">Tabs &amp; panes</string>
     <string name="t_d1a0bcf650">Music &amp; video</string>
@@ -4240,6 +4255,7 @@
     <string name="t_2e976d0d38">dynamic color</string>
     <string name="t_170fd7e84a">glass</string>
     <string name="t_937dc13be3">dividers</string>
+    <string name="t_39e4a6f5c4">Where each screen\'s buttons go</string>
     <string name="t_5f298b3685">sort by %s</string>
     <string name="t_1931f0d317">hidden files</string>
     <string name="t_af89164460">Tabs off</string>
@@ -5920,7 +5936,6 @@
     <string name="t_37f38d8195">Tap a blue field to fill it in</string>
     <string name="t_3021902286">Smaller</string>
     <string name="t_9c52711df5">Bigger</string>
-    <string name="t_0d84b3e599">Drag to move</string>
     <string name="t_a9b60cae9a">Tap to add text</string>
     <string name="t_d7ad9dd0d0">Tap to add the date</string>
     <string name="t_d019126cd0">Tap to add a signature</string>
