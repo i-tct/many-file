@@ -5998,4 +5998,5 @@
     <string name="t_92b4b1f2dc">Faites glisser un serveur pour le déplacer. L’accueil et le menu suivent cet ordre.</string>
     <string name="t_bfdf8ea232">Serveurs en grille</string>
     <string name="t_9491c8ce85">Sur l’accueil et dans Serveurs, des tuiles au lieu d’une liste</string>
+    <string name="t_37aa85e2bf">Dans les dossiers, la barre du bas s’efface pendant le défilement des fichiers et revient quand ils s’arrêtent. Désactivé : elle reste toujours</string>
 </resources>

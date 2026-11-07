@@ -4043,7 +4043,7 @@
     <string name="t_26c40a27e5">Other screens</string>
     <string name="t_2f2e7b95fc">Home, Git, Settings and the rest. Each screen\'s name stays at the top</string>
     <string name="t_ba29b31502">Hide while scrolling</string>
-    <string name="t_dcf6b50ee6">In folders, the bar at the bottom steps aside as files scroll and comes back when they stop</string>
+    <string name="t_37aa85e2bf">In folders, the bar at the bottom steps aside as files scroll and comes back when they stop. Off: it always stays</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
     <string name="t_b26ba791b8">List size</string>
