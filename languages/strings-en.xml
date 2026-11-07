@@ -3499,6 +3499,7 @@
     <!-- feature/remote/src/main/kotlin/tct/manyfile/feature/remote/ServersScreen.kt -->
     <string name="t_425bc6a553">Import key file</string>
     <string name="t_d8904eee04">Couldn\'t read key file</string>
+    <string name="t_3281febc7d">Rearrange</string>
     <string name="t_468359f00f">No servers. Add an SFTP, SMB, WebDAV or FTP server, or S3 storage, to browse its files.</string>
     <string name="t_bf54fcecbe">Disconnected from %s</string>
     <string name="t_e91a644c96">SSH keys</string>
@@ -3522,6 +3523,7 @@
     <string name="t_b4ae78629a">Open terminal</string>
     <string name="t_6220e95d62">Sync a folder…</string>
     <string name="t_ed28e0686e">Disconnect</string>
+    <string name="t_92b4b1f2dc">Drag a server to move it. Home and the menu follow this order.</string>
     <string name="t_394b08fe41">not connected</string>
     <string name="t_f8f4714587">connecting…</string>
     <string name="t_c16a8e1612">reconnecting (attempt %d)</string>
@@ -4020,6 +4022,8 @@
     <string name="t_82fde59f48">The number on a cloud drive\'s icon when it has several accounts</string>
     <string name="t_6ec3928f93">Server addresses</string>
     <string name="t_e2eb2b003a">The address under each server\'s name. Off: only the names</string>
+    <string name="t_bfdf8ea232">Servers in a grid</string>
+    <string name="t_9491c8ce85">On Home and in Servers, tiles instead of a list</string>
     <string name="t_72b714ce85">Lock Home layout</string>
     <string name="t_f7f96d5317">No rearranging, renaming or hiding on Home</string>
     <string name="t_0779961bcf">Home icon size</string>
@@ -4659,7 +4663,6 @@
     <string name="t_00040bab8a">Work</string>
     <string name="t_f85039fd8e">Confirm new password</string>
     <string name="t_61815cd636">Existing backups keep the old password.</string>
-    <string name="t_3281febc7d">Rearrange</string>
     <string name="t_ccf10583e1">Drag an account to move it; favourites stay first</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/BootUsbScreen.kt -->
     <string name="t_04e494344e">USB drive disconnected</string>
@@ -5031,6 +5034,7 @@
     <string name="t_6100ef6990">Changes (%d)</string>
     <string name="t_90ccd64974">History</string>
     <string name="t_f578227926">Branches</string>
+    <string name="t_8fa41d59c2">Releases</string>
     <string name="t_82606b0cf2">Committed</string>
     <string name="t_2b1587c8d9">Last commit amended</string>
     <string name="t_17817f4c48">Stash deleted</string>
@@ -5241,7 +5245,6 @@
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GithubReleases.kt -->
     <string name="t_decd7ca800">Latest</string>
     <string name="t_96308068a5">Pre-release</string>
-    <string name="t_8fa41d59c2">Releases</string>
     <string name="t_2d555a5bc3">No releases</string>
     <string name="t_c3e41faa9e">published %s by %s</string>
     <string name="t_2d5736033e">created %s by %s</string>
