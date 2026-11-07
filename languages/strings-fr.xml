@@ -5999,4 +5999,24 @@
     <string name="t_bfdf8ea232">Serveurs en grille</string>
     <string name="t_9491c8ce85">Sur l’accueil et dans Serveurs, des tuiles au lieu d’une liste</string>
     <string name="t_37aa85e2bf">Dans les dossiers, la barre du bas s’efface pendant le défilement des fichiers et revient quand ils s’arrêtent. Désactivé : elle reste toujours</string>
+    <string name="t_bf12f3e3b6">Pas encore de clé SSH</string>
+    <string name="t_73df6b24a4">GitHub ne connaît pas encore cette clé. Ajoutez-la sur GitHub, puis vérifiez de nouveau.</string>
+    <string name="t_caf21b7d06">Pas encore de clé SSH. Dans les paramètres Git (⚙), créez-en une, puis ajoutez-la à votre compte sur %s.</string>
+    <string name="t_9a81e71c8a">%s a refusé la clé SSH de ManyFile. Dans les paramètres Git (⚙), ajoutez la clé SSH à votre compte sur ce site.</string>
+    <string name="t_a7e76fb964">Connexion impossible</string>
+    <string name="t_bb35150e4b">Vérification auprès de GitHub…</string>
+    <string name="t_06226b3847">Fonctionne avec GitHub</string>
+    <string name="t_9be31367b9">Fonctionne avec GitHub en tant que %s</string>
+    <string name="t_a68693980e">Pas encore vérifiée auprès de GitHub</string>
+    <string name="t_5f0955cb96">Options de la clé SSH</string>
+    <string name="t_dab7162a9f">Copier la clé</string>
+    <string name="t_8c08acf301">Permet à ManyFile de faire pull et push sur les dépôts GitHub avec les adresses git@, sans vous connecter.</string>
+    <string name="t_f47804fe58">Clé copiée. Collez-la sur GitHub et enregistrez.</string>
+    <string name="t_4b5e84be0e">Vérifier</string>
+    <string name="t_e185048ce3">Vérifier de nouveau</string>
+    <string name="t_88adfb7df5">Paramètres Git</string>
+    <string name="t_582889b7bd">Vos dépôts sur GitHub</string>
+    <string name="t_2affafe985">Pull et push avec votre clé SSH au lieu de vous connecter :</string>
+    <string name="t_07da505260">Aucun README dans ce dépôt.</string>
+    <string name="t_1360283b58">Pas encore ajoutée sur GitHub</string>
 </resources>

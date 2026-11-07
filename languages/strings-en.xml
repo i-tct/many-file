@@ -710,10 +710,11 @@
     <string name="t_ce04e1fbf7">Unsupported address. Use an https:// or SSH address.</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GitSsh.kt -->
     <string name="t_e5bf9100e3">Keys can\'t be stored on this device</string>
+    <string name="t_bf12f3e3b6">No SSH key yet</string>
     <string name="t_cf6c04adad">Not an SSH address: %s</string>
-    <string name="t_0b0a5c3803">No SSH key yet. In Git, tap SSH key, then add it to your account on %s.</string>
+    <string name="t_caf21b7d06">No SSH key yet. In Git settings (⚙), create one, then add it to your account on %s.</string>
     <string name="t_8e32c8a320">The server refused the Git request: %s</string>
-    <string name="t_7cddbd87bd">%s refused ManyFile\'s SSH key. In Git, tap SSH key and add it to your account there.</string>
+    <string name="t_9a81e71c8a">%s refused ManyFile\'s SSH key. In Git settings (⚙), add the SSH key to your account there.</string>
     <string name="t_097d1d06ec">The server\'s key was not trusted</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/git/GithubApi.kt -->
     <string name="t_f40de0831a">Couldn\'t connect to GitHub: %s</string>
@@ -4958,10 +4959,21 @@
     <string name="t_e182c330e2">Merge into %s</string>
     <string name="t_83162cc244">SSH key created. Add it to your account.</string>
     <string name="t_99af2989d2">Couldn\'t create SSH key</string>
-    <string name="t_b1f48cf481">For git@… and ssh:// addresses. Create a key, then add it to your account.</string>
-    <string name="t_0fbcc70144">Create SSH key</string>
-    <string name="t_58b77a0edf">Add on GitHub</string>
+    <string name="t_a7e76fb964">Couldn\'t connect</string>
+    <string name="t_bb35150e4b">Checking with GitHub…</string>
+    <string name="t_06226b3847">Works with GitHub</string>
+    <string name="t_9be31367b9">Works with GitHub as %s</string>
+    <string name="t_1360283b58">Not added on GitHub yet</string>
+    <string name="t_a68693980e">Not checked with GitHub yet</string>
+    <string name="t_5f0955cb96">SSH key options</string>
+    <string name="t_dab7162a9f">Copy key</string>
     <string name="t_679e294a4e">Replace key…</string>
+    <string name="t_8c08acf301">Lets ManyFile pull and push GitHub repositories with git@ addresses, without signing in.</string>
+    <string name="t_0fbcc70144">Create SSH key</string>
+    <string name="t_f47804fe58">Key copied. Paste it on GitHub and save.</string>
+    <string name="t_58b77a0edf">Add on GitHub</string>
+    <string name="t_4b5e84be0e">Check</string>
+    <string name="t_e185048ce3">Check again</string>
     <string name="t_91128fd525">Trusted servers: %s</string>
     <string name="t_33844d156c">Replace SSH key?</string>
     <string name="t_9a5017be02">A new key is created. The current one stops working in ManyFile; remove it from your accounts.</string>
@@ -4985,17 +4997,18 @@
     <string name="t_91d43ed6c6">Not resolved yet</string>
     <string name="t_9ec858ed05">(nothing)</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GitScreens.kt -->
+    <string name="t_88adfb7df5">Git settings</string>
     <string name="t_5b010e0b46">Commit author</string>
     <string name="t_e01abc7bbc">Signed in as %s</string>
     <string name="t_848d80ca32">Not signed in</string>
-    <string name="t_3de557c6ec">Your repositories</string>
+    <string name="t_1903e34a9f">https:// and SSH addresses work. Private repositories over https:// need sign-in or a personal access token; over SSH, your SSH key.</string>
+    <string name="t_0789987bf2">https:// and SSH addresses work. GitHub and GitLab need a personal access token for private repositories over https://; over SSH, your SSH key.</string>
     <string name="t_f391a358b0">Clone…</string>
     <string name="t_e2b8f69ce1">Open folder…</string>
+    <string name="t_582889b7bd">Your repositories on GitHub</string>
     <string name="t_c91e6e6a53">Repositories</string>
     <string name="t_eb54a55307">No repositories. Clone one or open a folder.</string>
     <string name="t_4dc0b262d5">Hold a repository to select it.</string>
-    <string name="t_1903e34a9f">https:// and SSH addresses work. Private repositories over https:// need sign-in or a personal access token; over SSH, your SSH key.</string>
-    <string name="t_0789987bf2">https:// and SSH addresses work. GitHub and GitLab need a personal access token for private repositories over https://; over SSH, your SSH key.</string>
     <string name="t_6a1d203c23">Signed in to GitHub as %s</string>
     <string name="t_7399ca8006">Sign out of GitHub?</string>
     <string name="t_6bd39022b6">Removes the sign-in from this device. To revoke it on GitHub, go to Settings → Applications or Developer settings → Personal access tokens.</string>
@@ -5134,6 +5147,7 @@
     <string name="t_93034c5b16">Unmerged commits may be lost. The remote branch, if any, is kept.</string>
     <string name="t_b76dacd98d">No server address set. Add one to push and pull.</string>
     <string name="t_484108925c">Address (origin)</string>
+    <string name="t_2affafe985">Pull and push with your SSH key instead of signing in:</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/GithubActions.kt -->
     <string name="t_33d3063284">Waiting</string>
     <string name="t_73989d9c59">Running</string>
@@ -5277,6 +5291,7 @@
     <string name="t_c3cd636a58">Actions</string>
     <string name="t_0454fc9bb2">Workflow started</string>
     <string name="t_dc5eb704bb">Public</string>
+    <string name="t_07da505260">No README in this repository.</string>
     <!-- feature/tools/src/main/kotlin/tct/manyfile/feature/tools/InstallerUi.kt -->
     <string name="t_b2a1a7cdc3">Couldn\'t install: %s</string>
     <string name="t_09db32784a">Shizuku or root access required</string>
