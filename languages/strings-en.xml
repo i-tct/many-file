@@ -4323,6 +4323,8 @@
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
     <string name="t_2e0ef22f2d">Off: the colour above</string>
+    <string name="t_bbe2eb414e">Attached to the bottom edge</string>
+    <string name="t_25744d703a">The bar sits on the edge of the screen, across its whole width. Off: it floats a little above, with rounded corners</string>
     <string name="t_7cf7e8e599">Largest</string>
     <string name="t_35d8a95d3e">Language default (%s)</string>
     <string name="t_b58f3b8e63">Phone setting</string>
@@ -5817,17 +5819,35 @@
     <string name="t_606bf0a890">Replace all</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageEditorScreen.kt -->
     <string name="t_ab166bd5e8">Adjust</string>
+    <string name="t_96e578211a">Filters</string>
+    <string name="t_bfa50c7a38">Draw</string>
     <string name="t_75f527181b">Free</string>
-    <string name="t_c8f1285c66">Undo all edits?</string>
+    <string name="t_4c8cc92d44">Revert to the original?</string>
+    <string name="t_c4298f19c8">Every edit goes. Undo brings them back.</string>
+    <string name="t_5e49715d36">Revert to original</string>
     <string name="t_251adac1ac">Save copy</string>
     <string name="t_74adc5789c">Mirror</string>
     <string name="t_b059e4187d">Flip vertically</string>
     <string name="t_e1a2b65df8">Brightness</string>
     <string name="t_c4fc37ad99">Contrast</string>
     <string name="t_20a32bc870">Saturation</string>
+    <string name="t_305df7f786">Draw on the picture with a finger.</string>
+    <string name="t_027f0b07b1">Thin</string>
+    <string name="t_4318f26fa3">Thick</string>
+    <string name="t_b252bf1589">Remove last stroke</string>
+    <string name="t_40d76f3459">Text to put on the picture</string>
+    <string name="t_b47a55ee49">Drag a text to where it should be.</string>
+    <string name="t_4d7def97ed">Remove last text</string>
     <string name="t_33641100d7">Replace %s?</string>
     <string name="t_11b551521a">The original will be moved to the Bin.</string>
     <string name="t_4e0dd75b63">This changes the other app\'s file for good.</string>
+    <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageOverlays.kt -->
+    <string name="t_c5c5533844">Mono</string>
+    <string name="t_3b2f5b0cf5">Vivid</string>
+    <string name="t_13cf34e177">Cool</string>
+    <string name="t_63e49827e4">Warm</string>
+    <string name="t_5298d08bb7">Fade</string>
+    <string name="t_c70827c69d">Negative</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageViewerScreen.kt -->
     <string name="t_4dd57e9137">Rotate view</string>
     <string name="t_710de69baf">All images</string>
@@ -5919,8 +5939,6 @@
     <string name="t_cf6c07e705">Pen</string>
     <string name="t_8cb3f79b49">Highlighter</string>
     <string name="t_a5742851f0">Eraser</string>
-    <string name="t_027f0b07b1">Thin</string>
-    <string name="t_4318f26fa3">Thick</string>
     <string name="t_c57d1bf804">Tap a mark to erase it · Scroll with two fingers</string>
     <string name="t_179f0b9430">Draw with one finger · Scroll with two fingers</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/Printing.kt -->

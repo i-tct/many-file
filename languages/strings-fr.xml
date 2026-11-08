@@ -6019,4 +6019,22 @@
     <string name="t_2affafe985">Pull et push avec votre clé SSH au lieu de vous connecter :</string>
     <string name="t_07da505260">Aucun README dans ce dépôt.</string>
     <string name="t_1360283b58">Pas encore ajoutée sur GitHub</string>
+    <string name="t_bbe2eb414e">Collée au bord inférieur</string>
+    <string name="t_25744d703a">La barre repose sur le bord de l\'écran, sur toute sa largeur. Désactivé : elle flotte un peu au-dessus, avec des coins arrondis</string>
+    <string name="t_96e578211a">Filtres</string>
+    <string name="t_bfa50c7a38">Dessiner</string>
+    <string name="t_4c8cc92d44">Revenir à l\'original ?</string>
+    <string name="t_c4298f19c8">Toutes les modifications disparaissent. Annuler les ramène.</string>
+    <string name="t_5e49715d36">Revenir à l\'original</string>
+    <string name="t_305df7f786">Dessinez sur l\'image avec un doigt.</string>
+    <string name="t_b252bf1589">Retirer le dernier trait</string>
+    <string name="t_40d76f3459">Texte à mettre sur l\'image</string>
+    <string name="t_b47a55ee49">Faites glisser un texte là où il doit être.</string>
+    <string name="t_4d7def97ed">Retirer le dernier texte</string>
+    <string name="t_c5c5533844">Mono</string>
+    <string name="t_3b2f5b0cf5">Vif</string>
+    <string name="t_13cf34e177">Froid</string>
+    <string name="t_63e49827e4">Chaud</string>
+    <string name="t_5298d08bb7">Délavé</string>
+    <string name="t_c70827c69d">Négatif</string>
 </resources>
