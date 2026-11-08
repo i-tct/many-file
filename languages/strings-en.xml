@@ -2442,6 +2442,7 @@
     <string name="t_04e855c0ff">Convert to MP3…</string>
     <string name="t_3c7454e3c8">Compress video…</string>
     <string name="t_6c8d431fcc">Trim video…</string>
+    <string name="t_0d306c2973">Draw and add text…</string>
     <string name="t_7b1e108899">Rotate, remove audio, GIF…</string>
     <string name="t_0b3054ba46">Join videos…</string>
     <string name="t_8c971e31de">Extract audio</string>
@@ -3312,6 +3313,9 @@
     <string name="t_c16b24d2df">%s already small</string>
     <string name="t_a848ca1da8">Videos are already small enough</string>
     <string name="t_4c8c37502d">Compressed %s videos: %s (were %s)</string>
+    <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoDrawing.kt -->
+    <string name="t_bf4af0e961">Drawing on %s</string>
+    <string name="t_d092f8afb4">Saved as %s (%s)</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoPlayerScreen.kt -->
     <string name="t_f11c4186c6">Sleep timer: stopped</string>
     <string name="t_f2419cc1f8">Unsupported audio: %s</string>
@@ -3386,7 +3390,6 @@
     <string name="t_a3ed689a16">Videos in different formats take longer to join.</string>
     <!-- feature/media/src/main/kotlin/tct/manyfile/feature/media/VideoTools.kt -->
     <string name="t_c934aab124">Couldn\'t create %s: %s</string>
-    <string name="t_d092f8afb4">Saved as %s (%s)</string>
     <string name="t_7d01d8cbc5">Rotating %s</string>
     <string name="t_406cc7e81a">turned</string>
     <string name="t_8316aff683">Removing audio from %s</string>
@@ -3785,6 +3788,11 @@
     <string name="t_bab0ba8613">What ManyFile does, page by page</string>
     <string name="t_348767cf46">Welcome tour</string>
     <string name="t_50dab51060">Home, the menu, your files and Settings</string>
+    <string name="t_1e5a7130af">More from the author</string>
+    <string name="t_30a5f6cec3">TCT</string>
+    <string name="t_78f77af92d">A WhatsApp bot that runs on your phone or your server: groups, filters, schedules, downloads and more.</string>
+    <string name="t_98926b1215">AllRemote</string>
+    <string name="t_af39058a58">Your phone as a remote, touchpad and keyboard for Android TV, Samsung, LG, Roku, Fire TV and Chromecast, and your computer.</string>
     <string name="t_3e75f31584">This build</string>
     <string name="t_5fda23d620">Author</string>
     <string name="t_c1f65ddb75">Engine</string>
@@ -3817,6 +3825,8 @@
     <string name="t_eb264ce029">Earlier releases</string>
     <string name="t_8cb927c99e">1 release</string>
     <string name="t_b4d8b30e51">%d releases</string>
+    <string name="t_23e9082c9d">Get it on GitHub</string>
+    <string name="t_e240e8bcf2">Get it on Google Play</string>
     <string name="t_2d2520785a">Opens %s</string>
     <string name="t_b6e7a55902">ManyFile %s</string>
     <string name="t_3e5f51b7d2">Open Google Play</string>
@@ -5829,24 +5839,45 @@
     <string name="t_75f527181b">Free</string>
     <string name="t_4c8cc92d44">Revert to the original?</string>
     <string name="t_c4298f19c8">Every edit goes. Undo brings them back.</string>
+    <string name="t_0b2d83c3a6">not enough memory</string>
+    <string name="t_fb5adef2e2">Saving a copy of %s with the drawing; it is in Jobs.</string>
     <string name="t_5e49715d36">Revert to original</string>
     <string name="t_251adac1ac">Save copy</string>
+    <string name="t_7a3d433b6c">This phone can\'t read a picture of this video.</string>
+    <string name="t_97f0e232f1">This picture can\'t be opened.</string>
     <string name="t_74adc5789c">Mirror</string>
     <string name="t_b059e4187d">Flip vertically</string>
     <string name="t_e1a2b65df8">Brightness</string>
     <string name="t_c4fc37ad99">Contrast</string>
     <string name="t_20a32bc870">Saturation</string>
+    <string name="t_321f7cc419">Rub out what was drawn with a finger; the picture itself stays.</string>
+    <string name="t_eaf2427ce3">Draw on the video with a finger: it shows over the whole video.</string>
     <string name="t_305df7f786">Draw on the picture with a finger.</string>
+    <string name="t_25f085220c">Brush</string>
+    <string name="t_a5742851f0">Eraser</string>
     <string name="t_027f0b07b1">Thin</string>
     <string name="t_4318f26fa3">Thick</string>
     <string name="t_b252bf1589">Remove last stroke</string>
-    <string name="t_40d76f3459">Text to put on the picture</string>
-    <string name="t_37e9f6fd1e">Drag a text to where it should be; pinch it bigger or smaller.</string>
-    <string name="t_4d7def97ed">Remove last text</string>
+    <string name="t_4454a456fb">Clear drawing</string>
     <string name="t_33641100d7">Replace %s?</string>
     <string name="t_11b551521a">The original will be moved to the Bin.</string>
     <string name="t_4e0dd75b63">This changes the other app\'s file for good.</string>
+    <string name="t_befbeb5c48">Tap the text again to change its words. Drag it to move it; with two fingers, pinch to resize it and turn to rotate it.</string>
+    <string name="t_8eab3a8c0d">Tap the picture where the text should go, and type.</string>
+    <string name="t_19e07430ee">Bold</string>
+    <string name="t_1616e2e540">Italic</string>
+    <string name="t_2cfb7502fa">Straighten</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageOverlays.kt -->
+    <string name="t_ecc39dc539">Sans serif</string>
+    <string name="t_a5c78a86fa">Serif</string>
+    <string name="t_216fcddff2">Monospace</string>
+    <string name="t_d9548af317">Handwriting</string>
+    <string name="t_1001e6a796">Casual</string>
+    <string name="t_2f6008816d">Condensed</string>
+    <string name="t_84d7adf04f">Heavy</string>
+    <string name="t_958de54043">Typewriter</string>
+    <string name="t_0e219516f3">Small capitals</string>
+    <string name="t_34118050b2">Plain</string>
     <string name="t_c5c5533844">Mono</string>
     <string name="t_3b2f5b0cf5">Vivid</string>
     <string name="t_13cf34e177">Cool</string>
@@ -5943,7 +5974,6 @@
     <string name="t_c515779b28">Enter a page number</string>
     <string name="t_cf6c07e705">Pen</string>
     <string name="t_8cb3f79b49">Highlighter</string>
-    <string name="t_a5742851f0">Eraser</string>
     <string name="t_c57d1bf804">Tap a mark to erase it · Scroll with two fingers</string>
     <string name="t_179f0b9430">Draw with one finger · Scroll with two fingers</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/Printing.kt -->
