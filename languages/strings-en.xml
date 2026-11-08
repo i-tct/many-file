@@ -1249,8 +1249,8 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
     <string name="t_63ec3664ca">Release %s has no APK</string>
     <string name="t_d45fcad4f4">Release %s has no checksum for %s</string>
-    <string name="t_3f9af34a62">GitHub answered %s. Try again in a few minutes.</string>
     <string name="t_f7cf7ecebe">APK checksum mismatch (got %s, expected %s)</string>
+    <string name="t_3f9af34a62">GitHub answered %s. Try again in a few minutes.</string>
     <string name="t_cfebc10078">GitHub error (HTTP %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/EncryptedFiles.kt -->
     <string name="t_63a7a709b8">Not a ManyFile encrypted file</string>
@@ -3701,6 +3701,8 @@
     <string name="t_948ce46543">Send key events instead of text. Fixes keyboards that repeat or drop letters.</string>
     <string name="t_c63025c7f0">Back key sends Escape</string>
     <string name="t_5d5026ab07">Use the ← button to leave</string>
+    <string name="t_c7911a46bd">Swipe sideways opens a new tab</string>
+    <string name="t_3071ea72ce">A swipe left or right across the terminal opens another session of the same server, or of the phone.</string>
     <string name="t_3853a9cd4c">Vibrate on bell</string>
     <string name="t_7d1821b09b">When a program rings the bell</string>
     <string name="t_ddcedbec56">zsh on this phone</string>

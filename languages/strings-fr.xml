@@ -6041,4 +6041,6 @@
     <string name="t_37e9f6fd1e">Faites glisser un texte là où il doit être ; pincez-le pour l\'agrandir ou le réduire.</string>
     <string name="t_7ff212a332">Redémarrage du décodeur vidéo</string>
     <string name="t_0a98a65045">Le décodeur du téléphone n\'a pas pu lire cette vidéo. Passage à un décodeur logiciel : il peut ne pas suivre sur une grande image.</string>
+    <string name="t_c7911a46bd">Un balayage latéral ouvre un nouvel onglet</string>
+    <string name="t_3071ea72ce">Un balayage vers la gauche ou la droite sur le terminal ouvre une autre session du même serveur, ou du téléphone.</string>
 </resources>
