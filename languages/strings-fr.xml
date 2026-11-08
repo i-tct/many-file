@@ -6039,4 +6039,6 @@
     <string name="t_c70827c69d">Négatif</string>
     <string name="t_3f9af34a62">GitHub a répondu %s. Réessayez dans quelques minutes.</string>
     <string name="t_37e9f6fd1e">Faites glisser un texte là où il doit être ; pincez-le pour l\'agrandir ou le réduire.</string>
+    <string name="t_7ff212a332">Redémarrage du décodeur vidéo</string>
+    <string name="t_0a98a65045">Le décodeur du téléphone n\'a pas pu lire cette vidéo. Passage à un décodeur logiciel : il peut ne pas suivre sur une grande image.</string>
 </resources>

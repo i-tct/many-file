@@ -3316,6 +3316,8 @@
     <string name="t_f11c4186c6">Sleep timer: stopped</string>
     <string name="t_f2419cc1f8">Unsupported audio: %s</string>
     <string name="t_4eb4195537">unknown format</string>
+    <string name="t_7ff212a332">Restarting the video decoder</string>
+    <string name="t_0a98a65045">The phone\'s own decoder could not play this video. Switched to a software decoder: it may not keep up with a large picture.</string>
     <string name="t_46283221aa">Switched to another video decoder</string>
     <string name="t_2ae612d0c6">Empty file (0 bytes)</string>
     <string name="t_6d1ab8bfd2">Sleep timer: paused</string>
