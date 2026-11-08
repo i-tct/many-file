@@ -1249,6 +1249,7 @@
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/update/GithubUpdates.kt -->
     <string name="t_63ec3664ca">Release %s has no APK</string>
     <string name="t_d45fcad4f4">Release %s has no checksum for %s</string>
+    <string name="t_3f9af34a62">GitHub answered %s. Try again in a few minutes.</string>
     <string name="t_f7cf7ecebe">APK checksum mismatch (got %s, expected %s)</string>
     <string name="t_cfebc10078">GitHub error (HTTP %s)</string>
     <!-- core/data/src/main/kotlin/tct/manyfile/core/data/vault/EncryptedFiles.kt -->
@@ -4045,6 +4046,8 @@
     <string name="t_2f2e7b95fc">Home, Git, Settings and the rest. Each screen\'s name stays at the top</string>
     <string name="t_ba29b31502">Hide while scrolling</string>
     <string name="t_37aa85e2bf">In folders, the bar at the bottom steps aside as files scroll and comes back when they stop. Off: it always stays</string>
+    <string name="t_bbe2eb414e">Attached to the bottom edge</string>
+    <string name="t_25744d703a">The bar sits on the edge of the screen, across its whole width. Off: it floats a little above, with rounded corners</string>
     <string name="t_2ae3a9285a">Default layout</string>
     <string name="t_b0c94c4fba">Grid columns</string>
     <string name="t_b26ba791b8">List size</string>
@@ -4323,8 +4326,6 @@
     <string name="t_d45bfe8ffc">No crashes recorded</string>
     <string name="t_05f39e0a8f">what\'s new</string>
     <string name="t_2e0ef22f2d">Off: the colour above</string>
-    <string name="t_bbe2eb414e">Attached to the bottom edge</string>
-    <string name="t_25744d703a">The bar sits on the edge of the screen, across its whole width. Off: it floats a little above, with rounded corners</string>
     <string name="t_7cf7e8e599">Largest</string>
     <string name="t_35d8a95d3e">Language default (%s)</string>
     <string name="t_b58f3b8e63">Phone setting</string>
