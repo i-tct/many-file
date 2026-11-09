@@ -9,6 +9,15 @@
       "version": 77,
       "file": "strings-fr.xml",
       "sha256": "69c07e205c1aaed46583ce7c056381d0faf3f6f4d58414bf6262b7f979478593"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native": "العربية",
+      "rtl": true,
+      "version": 1,
+      "file": "strings-ar.xml",
+      "sha256": "7ca47978fbd99bd6c0e6baf93e51f317c9efdea884d4621aae26781d1080a764"
     }
   ]
 }
