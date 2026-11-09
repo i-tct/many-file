@@ -5836,6 +5836,8 @@
     <string name="t_ab166bd5e8">Adjust</string>
     <string name="t_96e578211a">Filters</string>
     <string name="t_bfa50c7a38">Draw</string>
+    <string name="t_eede504253">Mosaic</string>
+    <string name="t_b1985e3874">Shapes</string>
     <string name="t_75f527181b">Free</string>
     <string name="t_4c8cc92d44">Revert to the original?</string>
     <string name="t_c4298f19c8">Every edit goes. Undo brings them back.</string>
@@ -5850,27 +5852,20 @@
     <string name="t_e1a2b65df8">Brightness</string>
     <string name="t_c4fc37ad99">Contrast</string>
     <string name="t_20a32bc870">Saturation</string>
-    <string name="t_321f7cc419">Rub out what was drawn with a finger; the picture itself stays.</string>
-    <string name="t_eaf2427ce3">Draw on the video with a finger: it shows over the whole video.</string>
-    <string name="t_305df7f786">Draw on the picture with a finger.</string>
     <string name="t_25f085220c">Brush</string>
     <string name="t_a5742851f0">Eraser</string>
-    <string name="t_027f0b07b1">Thin</string>
-    <string name="t_4318f26fa3">Thick</string>
-    <string name="t_b252bf1589">Remove last stroke</string>
-    <string name="t_4454a456fb">Clear drawing</string>
+    <string name="t_6262b7a0c9">Draw over what to hide</string>
     <string name="t_33641100d7">Replace %s?</string>
     <string name="t_11b551521a">The original will be moved to the Bin.</string>
     <string name="t_4e0dd75b63">This changes the other app\'s file for good.</string>
-    <string name="t_befbeb5c48">Tap the text again to change its words. Drag it to move it; with two fingers, pinch to resize it and turn to rotate it.</string>
-    <string name="t_8eab3a8c0d">Tap the picture where the text should go, and type.</string>
+    <string name="t_2cfb7502fa">Straighten</string>
+    <string name="t_565886946b">Tap the picture to type</string>
     <string name="t_19e07430ee">Bold</string>
     <string name="t_1616e2e540">Italic</string>
     <string name="t_ebb549af8c">Whole video</string>
     <string name="t_cc21093512">Part of the video</string>
     <string name="t_23147c406b">Starts here</string>
     <string name="t_f5d8ecba86">Ends here</string>
-    <string name="t_2cfb7502fa">Straighten</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageOverlays.kt -->
     <string name="t_ecc39dc539">Sans serif</string>
     <string name="t_a5c78a86fa">Serif</string>
@@ -5878,6 +5873,7 @@
     <string name="t_d9548af317">Handwriting</string>
     <string name="t_1001e6a796">Casual</string>
     <string name="t_2f6008816d">Condensed</string>
+    <string name="t_027f0b07b1">Thin</string>
     <string name="t_84d7adf04f">Heavy</string>
     <string name="t_958de54043">Typewriter</string>
     <string name="t_0e219516f3">Small capitals</string>
@@ -5888,6 +5884,10 @@
     <string name="t_63e49827e4">Warm</string>
     <string name="t_5298d08bb7">Fade</string>
     <string name="t_c70827c69d">Negative</string>
+    <string name="t_c158695a64">Rectangle</string>
+    <string name="t_a4db0b504a">Oval</string>
+    <string name="t_ea96760037">Line</string>
+    <string name="t_3a4758c3cc">Arrow</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageViewerScreen.kt -->
     <string name="t_4dd57e9137">Rotate view</string>
     <string name="t_710de69baf">All images</string>
@@ -5978,6 +5978,7 @@
     <string name="t_c515779b28">Enter a page number</string>
     <string name="t_cf6c07e705">Pen</string>
     <string name="t_8cb3f79b49">Highlighter</string>
+    <string name="t_4318f26fa3">Thick</string>
     <string name="t_c57d1bf804">Tap a mark to erase it · Scroll with two fingers</string>
     <string name="t_179f0b9430">Draw with one finger · Scroll with two fingers</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/Printing.kt -->

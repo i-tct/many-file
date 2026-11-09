@@ -6,18 +6,18 @@
       "name": "French",
       "native": "Français",
       "rtl": false,
-      "version": 77,
+      "version": 78,
       "file": "strings-fr.xml",
-      "sha256": "69c07e205c1aaed46583ce7c056381d0faf3f6f4d58414bf6262b7f979478593"
+      "sha256": "01b34e3e5c7748d9154a232d43a51bbd8831cd754e7851f006e5c550daaf9448"
     },
     {
       "code": "ar",
       "name": "Arabic",
       "native": "العربية",
       "rtl": true,
-      "version": 1,
+      "version": 2,
       "file": "strings-ar.xml",
-      "sha256": "7ca47978fbd99bd6c0e6baf93e51f317c9efdea884d4621aae26781d1080a764"
+      "sha256": "9ed6f7af9053060036a0caab57b9061d3cfba3510cda5702a4d704e27dbb8bfb"
     }
   ]
 }

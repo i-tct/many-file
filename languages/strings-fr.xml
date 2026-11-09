@@ -6079,4 +6079,12 @@
     <string name="t_cc21093512">Une partie de la vidéo</string>
     <string name="t_23147c406b">Commence ici</string>
     <string name="t_f5d8ecba86">Finit ici</string>
+    <string name="t_eede504253">Mosaïque</string>
+    <string name="t_b1985e3874">Formes</string>
+    <string name="t_6262b7a0c9">Dessinez sur ce qu\'il faut masquer</string>
+    <string name="t_565886946b">Touchez l\'image pour écrire</string>
+    <string name="t_c158695a64">Rectangle</string>
+    <string name="t_a4db0b504a">Ovale</string>
+    <string name="t_ea96760037">Ligne</string>
+    <string name="t_3a4758c3cc">Flèche</string>
 </resources>
