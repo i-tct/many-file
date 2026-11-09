@@ -5866,6 +5866,10 @@
     <string name="t_8eab3a8c0d">Tap the picture where the text should go, and type.</string>
     <string name="t_19e07430ee">Bold</string>
     <string name="t_1616e2e540">Italic</string>
+    <string name="t_ebb549af8c">Whole video</string>
+    <string name="t_cc21093512">Part of the video</string>
+    <string name="t_23147c406b">Starts here</string>
+    <string name="t_f5d8ecba86">Ends here</string>
     <string name="t_2cfb7502fa">Straighten</string>
     <!-- feature/viewer/src/main/kotlin/tct/manyfile/feature/viewer/ImageOverlays.kt -->
     <string name="t_ecc39dc539">Sans serif</string>
