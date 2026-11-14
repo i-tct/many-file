@@ -18,6 +18,15 @@
       "version": 2,
       "file": "strings-ar.xml",
       "sha256": "9ed6f7af9053060036a0caab57b9061d3cfba3510cda5702a4d704e27dbb8bfb"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native": "Español",
+      "rtl": false,
+      "version": 1,
+      "file": "strings-es.xml",
+      "sha256": "8853fc03d0f7e2983efbd833480675077dd523857eb4c02591d0d31486fe85ec"
     }
   ]
 }
