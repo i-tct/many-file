@@ -150,44 +150,12 @@
     <string name="t_bd001d4d31">This build has no zsh</string>
     <string name="t_07c50d1cc0">Vault “%s” found on this phone: it is in the menu again</string>
     <string name="t_bf4862b529">%d vaults found on this phone: they are in the menu again</string>
-    <!-- app/src/main/kotlin/tct/manyfile/ProSheet.kt -->
-    <string name="t_5819778898">Git</string>
-    <string name="t_5442e2b64f">GitHub</string>
-    <string name="t_a1f52cdcb3">Terminal</string>
-    <string name="t_ee79525942">Similar photos</string>
-    <string name="t_c3ffcb9030">Words in photos</string>
-    <string name="t_b32a659820">Folder sync</string>
-    <string name="t_b0530988a7">Folder rules</string>
-    <string name="t_26abab6249">Command Center</string>
-    <string name="t_cd4bcec305">Deep clean</string>
-    <string name="t_48db4afacc">Make GIF</string>
-    <string name="t_4853c808b1">Authenticator</string>
-    <string name="t_8a51131495">Media cleanup</string>
-    <string name="t_bd47f3ad7f">Analyzer</string>
-    <string name="t_1af7d6c34e">Symbolic links</string>
-    <string name="t_f879310b9f">ManyFile links</string>
-    <string name="t_815db41af3">ManyFile Pro is on</string>
-    <string name="t_bb79ab8b71">Thank you! Every Pro feature is open on this phone.</string>
-    <string name="t_7d7c7a10f8">Your Pro code: %s</string>
-    <string name="t_268106d3cf">Keep this code. It brings Pro to another phone (up to 5) or back after a reset, under Restore a purchase. It is also in Settings → About.</string>
-    <string name="t_a6b6710db5">ManyFile Pro</string>
-    <string name="t_26a0a9fbe1">%s is part of ManyFile Pro. Pay once and keep it, with every Pro feature, on all your phones.</string>
-    <string name="t_fab7e640ac">Pay with Binance Pay or M-Pesa</string>
-    <string name="t_d7cf94834d">Buy with Google Play</string>
-    <string name="t_291b500001">Payment not found yet. Wait a minute after paying and try again.</string>
-    <string name="t_820d6004b0">Checking…</string>
-    <string name="t_f22f0d7d7f">I\'ve paid</string>
-    <string name="t_afc6120d10">Restore a purchase</string>
-    <string name="t_7b260d25ad">Pro code or M-Pesa code</string>
-    <string name="t_ac8c410127">The Pro code ManyFile showed after paying, the code in the M-Pesa message, or the Binance order number</string>
-    <string name="t_beb42989ba">No ManyFile Pro payment has this code. Check it and try again.</string>
-    <string name="t_6770f2dc66">This purchase is already on %d phones.</string>
-    <string name="t_3cbe6d6b9a">Restore</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalActivity.kt -->
     <string name="t_ade89a27f4">Open the terminal</string>
     <string name="t_3cf48aeba6">The terminal is locked</string>
     <string name="t_6a9b0ef546">Unlock it with your fingerprint or screen lock.</string>
     <!-- app/src/main/kotlin/tct/manyfile/TerminalShortcuts.kt -->
+    <string name="t_a1f52cdcb3">Terminal</string>
     <string name="t_a731ca287e">Phone terminal</string>
     <string name="t_65d1e24a35">Terminal on %s</string>
     <string name="t_8620a37e74">Server removed</string>
@@ -1727,6 +1695,7 @@
     <string name="t_1db74771ff">Save search</string>
     <string name="t_048a4d60ac">From %s</string>
     <string name="t_2f3b5c55bc">Browse</string>
+    <string name="t_3cbe6d6b9a">Restore</string>
     <string name="t_44ddd53640">%d items</string>
     <string name="t_0f14ba3bcd">Where “%s” leads</string>
     <string name="t_a1fa9d4817">Lead here</string>
@@ -2011,6 +1980,7 @@
     <string name="t_bc94b2dd5b">Saved in the first PDF\'s folder</string>
     <string name="t_e0d73143de">Join</string>
     <string name="t_d852ca1e39">Split “%s”</string>
+    <string name="t_820d6004b0">Checking…</string>
     <string name="t_efe4799012">1 page</string>
     <string name="t_73d549a9ae">By page count</string>
     <string name="t_a65d3c448f">Pages per part</string>
@@ -2510,6 +2480,7 @@
     <string name="t_a0ca56e4ec">%d command steps need a server</string>
     <string name="t_2db6e6a3ee">Import failed: %s</string>
     <string name="t_3f726a214f">Export failed: %s</string>
+    <string name="t_26abab6249">Command Center</string>
     <string name="t_96469b5aae">Saved workflows</string>
     <string name="t_4834caf8f5">Import…</string>
     <string name="t_14fdd4b9cc">Export all (no secrets)</string>
@@ -2530,6 +2501,7 @@
     <string name="t_626420139a">cancelled %s</string>
     <string name="t_377dab66d5">running: %s</string>
     <!-- feature/commands/src/main/kotlin/tct/manyfile/feature/commands/FolderRulesScreen.kt -->
+    <string name="t_b0530988a7">Folder rules</string>
     <string name="t_b9ac14b0c6">New rule</string>
     <string name="t_d61529a34a">Automatically move, copy or process new files in a folder.</string>
     <string name="t_2850f8aead">No rules</string>
@@ -2751,6 +2723,7 @@
     <string name="t_e231772488">Add server…</string>
     <string name="t_2dbc2fd235">online</string>
     <string name="t_a371621a76">Manage servers…</string>
+    <string name="t_b32a659820">Folder sync</string>
     <string name="t_fca0583e04">%d online</string>
     <string name="t_b2efeaa1a7">Cloud</string>
     <string name="t_e0049a6651">On</string>
@@ -2761,12 +2734,16 @@
     <string name="t_279875bab4">Download from URL</string>
     <string name="t_6fa1406af9">Media Downloader</string>
     <string name="t_90e82471bd">Unused files</string>
+    <string name="t_ee79525942">Similar photos</string>
+    <string name="t_c3ffcb9030">Words in photos</string>
     <string name="t_bd7b901270">Status saver</string>
     <string name="t_341d29646c">Storage analyzer</string>
     <string name="t_40c20d94e7">Series</string>
     <string name="t_158ab41cbc">Share on Wi-Fi</string>
     <string name="t_9ce2d5721f">Speed test</string>
     <string name="t_e0b473f572">Bootable USB</string>
+    <string name="t_5819778898">Git</string>
+    <string name="t_4853c808b1">Authenticator</string>
     <string name="t_c880999562">System files</string>
     <string name="t_9239ee2cda">General</string>
     <string name="t_6292acfc09">Customize menu</string>
@@ -2812,6 +2789,7 @@
     <!-- feature/home/src/main/kotlin/tct/manyfile/feature/home/HomeScreen.kt -->
     <string name="t_b336fc5587">WhatsApp</string>
     <string name="t_1697d281a3">Modified today</string>
+    <string name="t_bd47f3ad7f">Analyzer</string>
     <string name="t_858df0c869">Wi-Fi share</string>
     <string name="t_28cba55d2a">Scan</string>
     <string name="t_bc0792d8dc">System</string>
@@ -3784,6 +3762,7 @@
     <string name="t_32faaecac7">debug</string>
     <string name="t_0e76f40a25">Media Engine %s</string>
     <string name="t_ce0b2bbc09">Made by %s · Running on TCT Engine</string>
+    <string name="t_5442e2b64f">GitHub</string>
     <string name="t_edbea9ff1a">Telegram</string>
     <string name="t_f32d5a3b17">Support</string>
     <string name="t_c76d18079a">Updates</string>
@@ -3829,8 +3808,6 @@
     <string name="t_4525595a54">installed %s</string>
     <string name="t_d49fe2c403">not installed</string>
     <string name="t_4b891c1fa6">Installed from</string>
-    <string name="t_806ab40c91">Not bought</string>
-    <string name="t_66ac9da62f">On · Pro code %s</string>
     <string name="t_bbd80cf7e2">Build</string>
     <string name="t_50d8b4a941">unknown</string>
     <string name="t_7431e3df24">Package</string>
@@ -4793,6 +4770,7 @@
     <string name="t_4ae9634ce8">Deleting %s items…</string>
     <string name="t_f6ab55dd35">Scan again</string>
     <string name="t_47c975c939">Clean %s of junk?</string>
+    <string name="t_cd4bcec305">Deep clean</string>
     <string name="t_73985ddd83">Every app\'s cache, apps\' folders, what removed apps left</string>
     <string name="t_8ce4058570">Blurry and dark photos, old screenshots, big videos to shrink</string>
     <string name="t_86c7d94c87">Junk</string>

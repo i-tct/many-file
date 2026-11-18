@@ -3492,8 +3492,6 @@
     <string name="t_4525595a54">installé %s</string>
     <string name="t_d49fe2c403">non installé</string>
     <string name="t_4b891c1fa6">Installé depuis</string>
-    <string name="t_806ab40c91">Non acheté</string>
-    <string name="t_66ac9da62f">Activé · code Pro %s</string>
     <string name="t_bbd80cf7e2">Build</string>
     <string name="t_50d8b4a941">inconnu</string>
     <string name="t_7431e3df24">Paquet</string>
@@ -5606,10 +5604,6 @@
     <!-- Vaults found again (core/data VaultRegistry, feature/browser) -->
     <string name="t_07c50d1cc0">Coffre-fort « %s » trouvé sur ce téléphone : il est de nouveau dans le menu</string>
     <string name="t_bf4862b529">%d coffres-forts trouvés sur ce téléphone : ils sont de nouveau dans le menu</string>
-    <string name="t_815db41af3">ManyFile Pro est activé</string>
-    <string name="t_bb79ab8b71">Merci ! Toutes les fonctionnalités Pro sont disponibles sur ce téléphone.</string>
-    <string name="t_7d7c7a10f8">Votre code Pro : %s</string>
-    <string name="t_268106d3cf">Conservez ce code. Il permet de retrouver Pro sur un autre téléphone (jusqu’à 5) ou après une réinitialisation, via Restaurer un achat. Il figure aussi dans Paramètres → À propos.</string>
     <string name="t_5e413edaad">Recherche des coffres-forts…</string>
     <string name="t_99ba8cfa28">Aucun autre coffre-fort sur ce téléphone</string>
     <string name="t_0aa9af447a">Le coffre-fort « %s » est de nouveau dans le menu</string>
@@ -5835,22 +5829,7 @@
     <string name="t_f20e5a7689">Impossible de charger cette image. Vérifiez la connexion.</string>
     <string name="t_f8d165fa5c">Lire les vidéos en ligne en continu</string>
     <string name="t_2509d943dc">Lire les vidéos des serveurs et de Google Drive, OneDrive, Dropbox et pCloud sans les télécharger d\'abord</string>
-    <string name="t_a6b6710db5">ManyFile Pro</string>
-    <string name="t_26a0a9fbe1">%s fait partie de ManyFile Pro. Payez une fois et gardez-le, avec toutes les fonctions Pro, sur tous vos téléphones.</string>
-    <string name="t_fab7e640ac">Payer avec Binance Pay ou M-Pesa</string>
-    <string name="t_d7cf94834d">Acheter avec Google Play</string>
-    <string name="t_291b500001">Paiement pas encore trouvé. Attendez une minute après avoir payé et réessayez.</string>
-    <string name="t_f22f0d7d7f">J\'ai payé</string>
-    <string name="t_afc6120d10">Restaurer un achat</string>
-    <string name="t_7b260d25ad">Code Pro ou code M-Pesa</string>
-    <string name="t_ac8c410127">Le code Pro affiché par ManyFile après le paiement, le code du message M-Pesa ou le numéro de commande Binance</string>
-    <string name="t_beb42989ba">Aucun paiement ManyFile Pro ne correspond à ce code. Vérifiez-le et réessayez.</string>
-    <string name="t_6770f2dc66">Cet achat est déjà utilisé sur %d téléphones.</string>
     <!-- Links, cover photos in songs, lyrics styles and timing, editor tab menu, contact photos (2026-11-05) -->
-    <string name="t_48db4afacc">Créer un GIF</string>
-    <string name="t_8a51131495">Nettoyage des médias</string>
-    <string name="t_1af7d6c34e">Liens symboliques</string>
-    <string name="t_f879310b9f">Liens ManyFile</string>
     <string name="t_a740f81f82">%s ignoré : un lien vers un dossier</string>
     <string name="t_a80ba7ca8e">Android n’autorise pas les liens symboliques sur le stockage du téléphone ni sur les cartes SD. Un lien ManyFile fonctionne ici.</string>
     <string name="t_7a817e3774">Un lien symbolique ne peut pointer que vers un emplacement du même stockage. Un lien ManyFile peut pointer n’importe où.</string>

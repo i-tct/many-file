@@ -6,27 +6,27 @@
       "name": "French",
       "native": "Français",
       "rtl": false,
-      "version": 79,
+      "version": 80,
       "file": "strings-fr.xml",
-      "sha256": "648b6816a61efdbc59f9c7c0ee5336c588a226a37e46de6e88a70ab5e648c38d"
+      "sha256": "0bb6ae9e1d8520ffd9283bf3a21f23b4a4d49c695bd28acbd2327a20614d0078"
     },
     {
       "code": "ar",
       "name": "Arabic",
       "native": "العربية",
       "rtl": true,
-      "version": 3,
+      "version": 4,
       "file": "strings-ar.xml",
-      "sha256": "2023a7583b4b8d56a66982e640129e74a813cb2cd94946a7f270961c84bf51bb"
+      "sha256": "339d5a8404addd273a9fcc8c9df9ed637d7d73b30e6edd239951980b9e7c19bf"
     },
     {
       "code": "es",
       "name": "Spanish",
       "native": "Español",
       "rtl": false,
-      "version": 1,
+      "version": 2,
       "file": "strings-es.xml",
-      "sha256": "8853fc03d0f7e2983efbd833480675077dd523857eb4c02591d0d31486fe85ec"
+      "sha256": "42b833563cb0af3e956759771b10f637906f824d4dbc612d1a2eb1d1fe090362"
     }
   ]
 }
