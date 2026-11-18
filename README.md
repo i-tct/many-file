@@ -43,7 +43,7 @@ The Media Engine is kept separate so the main ManyFile application can remain li
 
 It does not appear as a normal standalone application in the Android launcher. ManyFile communicates with it directly, and only with an engine signed with the same key as ManyFile itself.
 
-ManyFile downloads the right Media Engine release by itself (on Wi-Fi; on mobile data it asks first) and asks before installing it. It can also be installed from Media Downloader inside ManyFile, or by hand from Releases.
+ManyFile downloads the right Media Engine release automatically (on Wi-Fi; on mobile data it asks first) and asks before installing it. It can also be installed from Media Downloader inside ManyFile, or by hand from Releases.
 
 ## Installation
 
@@ -63,7 +63,7 @@ sha256sum manyfile-<version>-arm64-v8a.apk
 cat manyfile-<version>-arm64-v8a.apk.sha256
 ```
 
-Both lines must show the same checksum. ManyFile checks it by itself when it downloads an update or the Media Engine.
+Both lines must show the same checksum. ManyFile checks it automatically when it downloads an update or the Media Engine.
 
 ## Languages
 
