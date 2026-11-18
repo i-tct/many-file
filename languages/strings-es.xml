@@ -3101,6 +3101,7 @@
     <string name="t_f3f91f5004">Empiezan los créditos finales</string>
     <string name="t_1c5009196a">%s antes del final</string>
     <string name="t_a80f3e9361">Saltar intro se muestra mientras suena la intro. Cuando empiezan los créditos finales, el siguiente episodio llega tras una cuenta atrás.</string>
+    <string name="t_d3aa3ae544">Toca dos veces para restablecer el zoom</string>
     <string name="t_f3357ceb1d">Reproducir en segundo plano</string>
     <string name="t_d3b79657a0">Reproducir en segundo plano al salir</string>
     <string name="t_791f6a4215">Guardar fotograma</string>
@@ -3950,7 +3951,9 @@
     <string name="t_1e5a23746d">Reanudar después de otras aplicaciones</string>
     <string name="t_504c3c526d">Reanuda cuando otra aplicación deja de reproducir sonido</string>
     <string name="t_5458351c91">Gestos</string>
+    <!-- The text before 0.5.17, for phones not updated yet. -->
     <string name="t_ea10de95c0">Desliza para avanzar o ajustar el brillo y el volumen, toca dos veces para saltar, pellizca para ampliar</string>
+    <string name="t_b7a32b7768">Desliza para avanzar o ajustar el brillo y el volumen, toca dos veces para saltar, pellizca para ampliar y toca dos veces para restablecer el zoom</string>
     <string name="t_6fee1573b4">Salto con doble toque (segundos)</string>
     <string name="t_43da85c5b8">Imagen en imagen</string>
     <string name="t_63b4bddb72">Continúa en una ventana flotante al salir de la aplicación. Los vídeos de una bóveda se detienen.</string>

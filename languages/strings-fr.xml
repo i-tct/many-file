@@ -3018,6 +3018,7 @@
     <string name="t_f3f91f5004">Début du générique de fin</string>
     <string name="t_1c5009196a">%s avant la fin</string>
     <string name="t_a80f3e9361">Passer l’intro s’affiche pendant l’intro. Quand le générique de fin commence, l’épisode suivant démarre après un compte à rebours.</string>
+    <string name="t_d3aa3ae544">Double-touchez pour réinitialiser le zoom</string>
     <string name="t_f3357ceb1d">Lire en arrière-plan</string>
     <string name="t_d3b79657a0">Lire en arrière-plan à la sortie</string>
     <string name="t_791f6a4215">Enregistrer l’image</string>
@@ -3814,7 +3815,9 @@
     <string name="t_1e5a23746d">Reprendre après les autres applications</string>
     <string name="t_504c3c526d">Reprendre lorsqu’une autre application cesse de lire du son</string>
     <string name="t_5458351c91">Gestes</string>
+    <!-- The text before 0.5.17, for phones not updated yet. -->
     <string name="t_ea10de95c0">Glissez pour avancer/reculer ou régler la luminosité et le volume, double-touchez pour sauter, pincez pour zoomer</string>
+    <string name="t_b7a32b7768">Glissez pour avancer/reculer ou régler la luminosité et le volume, double-touchez pour sauter, pincez pour zoomer et double-touchez pour réinitialiser le zoom</string>
     <string name="t_6fee1573b4">Saut par double appui (secondes)</string>
     <string name="t_43da85c5b8">Image dans l’image</string>
     <string name="t_63b4bddb72">Continuer dans une fenêtre flottante en quittant l’application. Les vidéos d’un coffre-fort s’arrêtent.</string>

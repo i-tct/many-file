@@ -3347,6 +3347,7 @@
     <string name="t_f3f91f5004">End credits start</string>
     <string name="t_1c5009196a">%s before the end</string>
     <string name="t_a80f3e9361">Skip intro shows while the intro plays. When the end credits start, the next episode follows after a countdown.</string>
+    <string name="t_d3aa3ae544">Double-tap to reset zoom</string>
     <string name="t_f3357ceb1d">Play in background</string>
     <string name="t_d3b79657a0">Play in background on exit</string>
     <string name="t_791f6a4215">Save frame</string>
@@ -4217,7 +4218,7 @@
     <string name="t_1e5a23746d">Resume after other apps</string>
     <string name="t_504c3c526d">Resume when another app stops playing sound</string>
     <string name="t_5458351c91">Gestures</string>
-    <string name="t_ea10de95c0">Swipe to seek or adjust brightness and volume, double-tap to skip, pinch to zoom</string>
+    <string name="t_b7a32b7768">Swipe to seek or adjust brightness and volume, double-tap to skip, pinch to zoom and double-tap to reset it</string>
     <string name="t_6fee1573b4">Double-tap skip (seconds)</string>
     <string name="t_43da85c5b8">Picture-in-picture</string>
     <string name="t_63b4bddb72">Continue in a floating window when leaving the app. Videos in a vault stop.</string>
